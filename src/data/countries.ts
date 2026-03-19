@@ -4,32 +4,37 @@ export const countries: Country[] = [
   {
     name: "México",
     slug: "mexico",
-    flag: "🇲🇽",
+    flagCode: "mx",
     description: "Los mejores casinos online con licencia para jugadores mexicanos",
+    color: "#16a34a",
   },
   {
     name: "Perú",
     slug: "peru",
-    flag: "🇵🇪",
+    flagCode: "pe",
     description: "Casinos online seguros y confiables para jugadores peruanos",
+    color: "#dc2626",
   },
   {
     name: "Argentina",
     slug: "argentina",
-    flag: "🇦🇷",
+    flagCode: "ar",
     description: "Top casinos online con los mejores bonos para argentinos",
+    color: "#38bdf8",
   },
   {
     name: "Chile",
     slug: "chile",
-    flag: "🇨🇱",
+    flagCode: "cl",
     description: "Casinos online recomendados para jugadores chilenos",
+    color: "#e11d48",
   },
   {
     name: "Ecuador",
     slug: "ecuador",
-    flag: "🇪🇨",
+    flagCode: "ec",
     description: "Las mejores plataformas de casino online en Ecuador",
+    color: "#eab308",
   },
 ];
 

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { countries } from "@/data/countries";
 
@@ -9,18 +10,19 @@ export default function Header() {
   const [isCountryOpen, setIsCountryOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 bg-secondary border-b border-surface-border">
+    <header className="sticky top-0 z-50 bg-[#0a0a0a]/95 backdrop-blur-md border-b border-white/5">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-1 font-bold text-lg sm:text-xl">
-            <span className="text-text">JugarCasinosOnline</span>
+          <Link href="/" className="flex items-center gap-0.5 font-extrabold text-lg sm:text-xl tracking-tight">
+            <span className="text-white">JugarCasinos</span>
+            <span className="text-white">Online</span>
             <span className="text-primary">.net</span>
           </Link>
 
           {/* Desktop Nav */}
-          <nav className="hidden md:flex items-center gap-8">
-            <Link href="/" className="text-sm font-medium text-text-muted hover:text-text transition-colors">
+          <nav className="hidden md:flex items-center gap-1">
+            <Link href="/" className="px-4 py-2 text-sm font-medium text-text-secondary hover:text-white transition-colors rounded-lg hover:bg-white/5">
               Inicio
             </Link>
 
@@ -30,10 +32,10 @@ export default function Header() {
               onMouseEnter={() => setIsCountryOpen(true)}
               onMouseLeave={() => setIsCountryOpen(false)}
             >
-              <button className="flex items-center gap-1 text-sm font-medium text-text-muted hover:text-text transition-colors">
+              <button className="flex items-center gap-1.5 px-4 py-2 text-sm font-medium text-text-secondary hover:text-white transition-colors rounded-lg hover:bg-white/5">
                 Países
                 <svg
-                  className={`w-4 h-4 transition-transform ${isCountryOpen ? "rotate-180" : ""}`}
+                  className={`w-3.5 h-3.5 transition-transform duration-200 ${isCountryOpen ? "rotate-180" : ""}`}
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -43,32 +45,40 @@ export default function Header() {
               </button>
 
               {isCountryOpen && (
-                <div className="absolute top-full left-0 mt-1 w-56 rounded-lg bg-surface border border-surface-border shadow-xl py-2">
+                <div className="absolute top-full left-0 mt-2 w-60 rounded-xl bg-surface-light border border-surface-border-light shadow-2xl shadow-black/50 py-2 overflow-hidden">
                   {countries.map((country) => (
                     <Link
                       key={country.slug}
                       href={`/${country.slug}/mejores-casinos-online/`}
-                      className="flex items-center gap-3 px-4 py-2.5 text-sm text-text-muted hover:text-text hover:bg-surface-light transition-colors"
+                      className="flex items-center gap-3 px-4 py-3 text-sm text-text-secondary hover:text-white hover:bg-white/5 transition-all"
                     >
-                      <span className="text-lg">{country.flag}</span>
-                      {country.name}
+                      <div className="relative w-7 h-5 rounded-sm overflow-hidden shrink-0 shadow-sm">
+                        <Image
+                          src={`https://flagcdn.com/${country.flagCode}.svg`}
+                          alt={`Bandera de ${country.name}`}
+                          fill
+                          className="object-cover"
+                          sizes="28px"
+                        />
+                      </div>
+                      <span className="font-medium">{country.name}</span>
                     </Link>
                   ))}
                 </div>
               )}
             </div>
 
-            <Link href="#streamers" className="text-sm font-medium text-text-muted hover:text-text transition-colors">
+            <Link href="#streamers" className="px-4 py-2 text-sm font-medium text-text-secondary hover:text-white transition-colors rounded-lg hover:bg-white/5">
               Streamers
             </Link>
-            <Link href="#comparativas" className="text-sm font-medium text-text-muted hover:text-text transition-colors">
+            <Link href="#comparativas" className="px-4 py-2 text-sm font-medium text-text-secondary hover:text-white transition-colors rounded-lg hover:bg-white/5">
               Comparativas
             </Link>
           </nav>
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden p-2 text-text-muted hover:text-text transition-colors"
+            className="md:hidden p-2 text-text-secondary hover:text-white transition-colors"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label="Menú"
           >
@@ -87,24 +97,23 @@ export default function Header() {
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="md:hidden border-t border-surface-border bg-secondary">
-          <div className="px-4 py-3 space-y-1">
+        <div className="md:hidden border-t border-white/5 bg-[#0a0a0a]/98 backdrop-blur-md">
+          <div className="px-4 py-4 space-y-1">
             <Link
               href="/"
-              className="block py-2.5 text-sm font-medium text-text-muted hover:text-text transition-colors"
+              className="block py-3 px-3 text-sm font-medium text-text-secondary hover:text-white hover:bg-white/5 rounded-lg transition-all"
               onClick={() => setIsMenuOpen(false)}
             >
               Inicio
             </Link>
 
-            {/* Countries accordion */}
             <button
-              className="flex w-full items-center justify-between py-2.5 text-sm font-medium text-text-muted hover:text-text transition-colors"
+              className="flex w-full items-center justify-between py-3 px-3 text-sm font-medium text-text-secondary hover:text-white hover:bg-white/5 rounded-lg transition-all"
               onClick={() => setIsCountryOpen(!isCountryOpen)}
             >
               Países
               <svg
-                className={`w-4 h-4 transition-transform ${isCountryOpen ? "rotate-180" : ""}`}
+                className={`w-4 h-4 transition-transform duration-200 ${isCountryOpen ? "rotate-180" : ""}`}
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -114,15 +123,23 @@ export default function Header() {
             </button>
 
             {isCountryOpen && (
-              <div className="pl-4 space-y-1">
+              <div className="pl-3 space-y-1 border-l-2 border-primary/30 ml-3">
                 {countries.map((country) => (
                   <Link
                     key={country.slug}
                     href={`/${country.slug}/mejores-casinos-online/`}
-                    className="flex items-center gap-3 py-2 text-sm text-text-muted hover:text-text transition-colors"
+                    className="flex items-center gap-3 py-2.5 px-3 text-sm text-text-secondary hover:text-white transition-colors"
                     onClick={() => setIsMenuOpen(false)}
                   >
-                    <span className="text-lg">{country.flag}</span>
+                    <div className="relative w-6 h-4 rounded-sm overflow-hidden shrink-0">
+                      <Image
+                        src={`https://flagcdn.com/${country.flagCode}.svg`}
+                        alt={`Bandera de ${country.name}`}
+                        fill
+                        className="object-cover"
+                        sizes="24px"
+                      />
+                    </div>
                     {country.name}
                   </Link>
                 ))}
@@ -131,14 +148,14 @@ export default function Header() {
 
             <Link
               href="#streamers"
-              className="block py-2.5 text-sm font-medium text-text-muted hover:text-text transition-colors"
+              className="block py-3 px-3 text-sm font-medium text-text-secondary hover:text-white hover:bg-white/5 rounded-lg transition-all"
               onClick={() => setIsMenuOpen(false)}
             >
               Streamers
             </Link>
             <Link
               href="#comparativas"
-              className="block py-2.5 text-sm font-medium text-text-muted hover:text-text transition-colors"
+              className="block py-3 px-3 text-sm font-medium text-text-secondary hover:text-white hover:bg-white/5 rounded-lg transition-all"
               onClick={() => setIsMenuOpen(false)}
             >
               Comparativas

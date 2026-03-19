@@ -1,27 +1,33 @@
 @import "tailwindcss";
 
 :root {
-  --background: #0B1120;
-  --foreground: #E8ECF1;
+  --background: #0a0a0a;
+  --foreground: #e4e4e7;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --color-primary: #E63946;
-  --color-primary-dark: #B82E39;
-  --color-secondary: #0F1A2E;
-  --color-secondary-light: #162236;
-  --color-accent: #F77F00;
-  --color-accent-light: #FCBF49;
-  --color-success: #06D6A0;
-  --color-surface: #131E33;
-  --color-surface-light: #1A2942;
-  --color-surface-border: #243352;
-  --color-text: #E8ECF1;
-  --color-text-muted: #8899B0;
-  --color-navy: #0B1120;
-  --color-navy-light: #101829;
+  --color-primary: #ef4444;
+  --color-primary-dark: #dc2626;
+  --color-primary-glow: #ef444440;
+  --color-green: #22c55e;
+  --color-green-dark: #16a34a;
+  --color-green-glow: #22c55e40;
+  --color-accent: #f59e0b;
+  --color-accent-glow: #f59e0b40;
+  --color-gold: #fbbf24;
+  --color-gold-glow: #fbbf2440;
+  --color-purple: #a855f7;
+  --color-purple-glow: #a855f740;
+  --color-surface: #141414;
+  --color-surface-light: #1a1a1a;
+  --color-surface-lighter: #222222;
+  --color-surface-border: #2a2a2a;
+  --color-surface-border-light: #333333;
+  --color-text: #f4f4f5;
+  --color-text-secondary: #a1a1aa;
+  --color-text-muted: #71717a;
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
@@ -29,26 +35,33 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), system-ui, -apple-system, sans-serif;
 }
 
 html {
   scroll-behavior: smooth;
 }
 
+/* Scrollbar */
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 6px;
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--background);
+  background: #0a0a0a;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #243352;
-  border-radius: 4px;
+  background: #333;
+  border-radius: 3px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #344a6a;
+  background: #444;
+}
+
+/* Glow keyframes */
+@keyframes glow-pulse {
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 1; }
 }

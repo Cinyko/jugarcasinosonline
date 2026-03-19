@@ -1,8 +1,9 @@
 export interface Country {
   name: string;
   slug: string;
-  flag: string;
+  flagCode: string;
   description: string;
+  color: string;
 }
 
 export interface Casino {
