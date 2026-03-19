@@ -2,6 +2,7 @@ import Link from "next/link";
 import CountryGrid from "@/components/CountryGrid";
 import StreamerCard from "@/components/StreamerCard";
 import HeroBackground from "@/components/HeroBackground";
+import { StreamerDecoration, BalanceDecoration } from "@/components/SectionDecorations";
 import { countrySections } from "@/data/countries";
 import { casinos, comparisons } from "@/data/casinos";
 import { streamers } from "@/data/streamers";
@@ -151,8 +152,9 @@ export default function Home() {
       </div>
 
       {/* ===== STREAMERS ===== */}
-      <section id="streamers" className="bg-[#0a0a0a] py-24 sm:py-32">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <section id="streamers" className="bg-[#0a0a0a] py-24 sm:py-32 relative">
+        <StreamerDecoration />
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="mb-14">
             <div className="flex items-center gap-4 mb-5">
               <div className="h-10 w-1.5 rounded-full bg-gradient-to-b from-purple to-primary" />
@@ -211,8 +213,9 @@ export default function Home() {
       </section>
 
       {/* ===== COMPARATIVAS ===== */}
-      <section id="comparativas" className="bg-[#0e0e0e] py-24 sm:py-32">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <section id="comparativas" className="bg-[#0e0e0e] py-24 sm:py-32 relative">
+        <BalanceDecoration />
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="mb-14">
             <div className="flex items-center gap-4 mb-5">
               <div className="h-10 w-1.5 rounded-full bg-gradient-to-b from-accent to-primary" />

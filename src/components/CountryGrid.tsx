@@ -1,6 +1,24 @@
 import Image from "next/image";
 import Link from "next/link";
 import { countries } from "@/data/countries";
+import {
+  WorldMapDecoration,
+  RouletteDecoration,
+  BlackjackDecoration,
+  CoinsDecoration,
+  SlotMachineDecoration,
+  BitcoinDecoration,
+} from "@/components/SectionDecorations";
+import { ReactNode } from "react";
+
+const decorationMap: Record<string, ReactNode> = {
+  "mejores-casinos-online": <WorldMapDecoration />,
+  "ruleta-online": <RouletteDecoration />,
+  "blackjack-online": <BlackjackDecoration />,
+  "bonos-sin-deposito": <CoinsDecoration />,
+  "mejores-slots-online": <SlotMachineDecoration />,
+  "casinos-criptomonedas": <BitcoinDecoration />,
+};
 
 interface CountryGridProps {
   title: string;
@@ -13,8 +31,9 @@ export default function CountryGrid({ title, description, pathSuffix, variant = 
   const bgClass = variant === "alt" ? "bg-[#0e0e0e]" : "bg-[#0a0a0a]";
 
   return (
-    <section className={`${bgClass} py-24 sm:py-32`}>
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <section className={`${bgClass} py-24 sm:py-32 relative`}>
+      {decorationMap[pathSuffix]}
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Section header */}
         <div className="mb-14">
           <div className="flex items-center gap-4 mb-5">
