@@ -1,0 +1,29 @@
+name: Update date monthly
+
+on:
+  schedule:
+    - cron: "0 0 1 * *" # 1st of every month at 00:00 UTC
+  workflow_dispatch: # allow manual trigger
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Update date in config
+        run: node scripts/update-date.js
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add src/data/config.ts
+          MONTH=$(node -e "const m=['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'];const d=new Date();console.log(m[d.getUTCMonth()]+' '+d.getUTCFullYear())")
+          git diff --staged --quiet || git commit -m "chore: actualizar fecha a ${MONTH}" && git push

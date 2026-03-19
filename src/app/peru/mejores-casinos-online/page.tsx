@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { LAST_UPDATED, LAST_UPDATED_ISO, LAST_UPDATED_MONTH, LAST_UPDATED_YEAR } from "@/data/config";
 
 export const metadata: Metadata = {
   title: "Mejores Casinos Online en Perú 2026 | Guía Completa",
@@ -101,7 +102,7 @@ function CtaButton({ slug, text = "Jugar Ahora" }: { slug: string; text?: string
 function Section({ id, alt = false, children }: { id: string; alt?: boolean; children: React.ReactNode }) {
   return (
     <section id={id} className={`${alt ? "bg-[#0e0e0e]" : "bg-[#0a0a0a]"} py-16 sm:py-24`}>
-      <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">{children}</div>
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">{children}</div>
     </section>
   );
 }
@@ -162,7 +163,7 @@ const articleSchema = {
   headline: "Mejores Casinos Online en Perú 2026",
   description: "Guía completa y ranking actualizado de los mejores casinos online disponibles para jugadores peruanos.",
   datePublished: "2026-01-15",
-  dateModified: "2026-03-19",
+  dateModified: LAST_UPDATED_ISO,
   author: { "@type": "Organization", name: "JugarCasinosOnline.net" },
   publisher: { "@type": "Organization", name: "JugarCasinosOnline.net" },
 };
@@ -189,35 +190,53 @@ export default function MejoresCasinosOnlinePeru() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
-      {/* ═══ BREADCRUMB ═══ */}
-      <div className="bg-[#0a0a0a] border-b border-white/[0.04]">
-        <nav className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 py-4 text-sm text-[#71717a]">
-          <ol className="flex items-center gap-2 flex-wrap">
-            <li><Link href="/" className="hover:text-white transition-colors">Inicio</Link></li>
-            <li>/</li>
-            <li><Link href="/peru/" className="hover:text-white transition-colors">Perú</Link></li>
-            <li>/</li>
-            <li className="text-white font-medium">Mejores Casinos Online</li>
-          </ol>
-        </nav>
-      </div>
+      {/* ═══ HERO ═══ */}
+      <section id="ranking" className="relative overflow-hidden bg-[#0a0a0a]">
+        {/* Glow underlays */}
+        <div className="absolute inset-0 pointer-events-none">
+          <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[900px] h-[600px] bg-[#dc2626]/[0.06] rounded-full blur-[180px]" />
+          <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-[#22c55e]/[0.04] rounded-full blur-[150px]" />
+          <div className="absolute top-1/2 right-0 w-[400px] h-[400px] bg-[#f59e0b]/[0.03] rounded-full blur-[120px]" />
+        </div>
 
-      {/* ═══ SECTION 1: HERO + TABLE ═══ */}
-      <Section id="ranking">
-        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-white tracking-tight mb-6 leading-[1.1]">
-          Mejores Casinos Online en Perú <span className="bg-gradient-to-r from-[#dc2626] to-[#f59e0b] bg-clip-text text-transparent">2026</span>
-        </h1>
+        <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-8 sm:pt-12 pb-16 sm:pb-24">
+          {/* Breadcrumb */}
+          <nav className="text-sm text-[#71717a] mb-8">
+            <ol className="flex items-center gap-2 flex-wrap">
+              <li><Link href="/" className="hover:text-white transition-colors">Inicio</Link></li>
+              <li>/</li>
+              <li><Link href="/peru/" className="hover:text-white transition-colors">Perú</Link></li>
+              <li>/</li>
+              <li className="text-white font-medium">Mejores Casinos Online</li>
+            </ol>
+          </nav>
 
-        <p className="text-[#9ca3af] text-lg leading-relaxed mb-4 max-w-3xl">
-          El mercado de casinos online en Perú vive un momento único. Desde que MINCETUR comenzó a otorgar licencias
-          oficiales en febrero de 2024, los jugadores peruanos cuentan con más opciones seguras que nunca.
-          Ya son más de 60 operadores regulados, y la oferta sigue creciendo.
-        </p>
-        <p className="text-[#9ca3af] text-lg leading-relaxed mb-8 max-w-3xl">
-          En esta guía analizamos los <strong className="text-white">14 mejores casinos online disponibles en Perú</strong>,
-          evaluando bonos, catálogo de juegos, métodos de pago locales (sí, Yape y Plin incluidos), atención al cliente
-          y confiabilidad. Todo para que elijas la plataforma que más te conviene sin arriesgar tu plata.
-        </p>
+          {/* Badge */}
+          <div className="inline-flex items-center gap-2.5 rounded-full bg-white/[0.05] border border-white/[0.08] px-5 py-2 mb-8 backdrop-blur-sm">
+            <span className="w-2 h-2 rounded-full bg-[#22c55e] animate-pulse" />
+            <span className="text-sm font-semibold text-[#9ca3af]">Guía actualizada {LAST_UPDATED}</span>
+          </div>
+
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-white tracking-tighter mb-4 leading-[0.95]">
+            Mejores Casinos Online
+            <br />
+            <span className="bg-gradient-to-r from-[#dc2626] via-[#f59e0b] to-[#dc2626] bg-clip-text text-transparent">en Perú {LAST_UPDATED_YEAR}</span>
+          </h1>
+
+          <p className="text-sm text-[#71717a] mb-6 flex items-center gap-2">
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+            Actualizado: {LAST_UPDATED}
+          </p>
+
+          <p className="text-xl sm:text-2xl text-[#9ca3af] max-w-3xl mb-4 font-medium leading-relaxed">
+            El mercado de casinos online en Perú vive un momento único. Desde que MINCETUR comenzó a otorgar licencias
+            oficiales en febrero de 2024, los jugadores peruanos cuentan con más opciones seguras que nunca.
+          </p>
+          <p className="text-base text-[#71717a] max-w-2xl mb-10 leading-relaxed">
+            En esta guía analizamos los <strong className="text-white">14 mejores casinos online disponibles en Perú</strong>,
+            evaluando bonos, catálogo de juegos, métodos de pago locales (sí, Yape y Plin incluidos), atención al cliente
+            y confiabilidad. Todo para que elijas la plataforma que más te conviene sin arriesgar tu plata.
+          </p>
 
         {/* ── COMPARISON TABLE ── */}
         <div className="overflow-x-auto rounded-2xl border border-white/[0.06] mb-10">
@@ -279,17 +298,17 @@ export default function MejoresCasinosOnlinePeru() {
         </div>
 
         {/* ── TABLE OF CONTENTS ── */}
-        <div className="rounded-2xl bg-[#141414] border border-white/[0.06] p-6 sm:p-8">
-          <h2 className="text-lg font-black text-white mb-4">Tabla de Contenidos</h2>
+        <div className="rounded-2xl bg-white/[0.03] border border-white/[0.06] p-6 sm:p-8 backdrop-blur-sm">
+          <p className="text-xs font-bold text-[#71717a] uppercase tracking-[0.2em] mb-4">En esta guía</p>
           <nav className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-2 text-sm">
             {[
-              { href: "#ranking", label: "Ranking de Casinos Online en Perú" },
-              { href: "#analisis", label: "Análisis Detallado de los Top Casinos" },
-              { href: "#prioridad", label: "Mejor Casino Según Tu Prioridad" },
-              { href: "#bonos", label: "Tipos de Bonos Explicados" },
+              { href: "#ranking", label: "Ranking de los Mejores Casinos Online en Perú" },
+              { href: "#analisis", label: "Análisis Detallado del Top 5 Casinos" },
+              { href: "#prioridad", label: "Mejor Casino Online en Perú Según Tu Prioridad" },
+              { href: "#bonos", label: "Tipos de Bonos de Casino Explicados" },
               { href: "#pagos", label: "Métodos de Pago en Perú" },
-              { href: "#legal", label: "¿Es Legal Jugar en Perú?" },
-              { href: "#juegos", label: "Juegos Más Populares" },
+              { href: "#legal", label: "¿Es Legal Jugar en Casinos Online en Perú?" },
+              { href: "#juegos", label: "Juegos Más Populares en Casinos Online" },
               { href: "#responsable", label: "Juego Responsable" },
               { href: "#faq", label: "Preguntas Frecuentes" },
               { href: "#glosario", label: "Glosario de Términos" },
@@ -300,11 +319,12 @@ export default function MejoresCasinosOnlinePeru() {
             ))}
           </nav>
         </div>
-      </Section>
+        </div>
+      </section>
 
       {/* ═══ SECTION 2: DETAILED ANALYSIS ═══ */}
       <Section id="analisis" alt>
-        <SectionTitle>Análisis Detallado de los Mejores Casinos</SectionTitle>
+        <SectionTitle>Análisis Detallado de los Mejores Casinos Online en Perú</SectionTitle>
         <p className="text-[#9ca3af] mb-12 max-w-3xl leading-relaxed">
           Revisamos a fondo los casinos mejor puntuados de nuestro ranking. Para cada uno
           evaluamos la plataforma, bonos, métodos de pago y experiencia general.
@@ -584,7 +604,7 @@ export default function MejoresCasinosOnlinePeru() {
 
       {/* ═══ SECTION 3: BY PRIORITY ═══ */}
       <Section id="prioridad">
-        <SectionTitle>Mejor Casino Según Tu Prioridad</SectionTitle>
+        <SectionTitle>Mejor Casino Online en Perú Según Tu Prioridad</SectionTitle>
         <p className="text-[#9ca3af] mb-10 max-w-3xl leading-relaxed">
           Cada jugador tiene necesidades diferentes. Acá te decimos cuál casino elegir
           según lo que más te importa.
@@ -607,7 +627,7 @@ export default function MejoresCasinosOnlinePeru() {
 
       {/* ═══ SECTION 4: BONUS TYPES ═══ */}
       <Section id="bonos" alt>
-        <SectionTitle>Tipos de Bonos de Casino Online Explicados</SectionTitle>
+        <SectionTitle>Tipos de Bonos en Casinos Online de Perú</SectionTitle>
         <p className="text-[#9ca3af] mb-10 max-w-3xl leading-relaxed">
           Los bonos son una de las mejores herramientas que tenés como jugador. Pero no todos los bonos
           son iguales, y entender las diferencias puede ahorrarte problemas y ayudarte a sacar más
@@ -753,7 +773,7 @@ export default function MejoresCasinosOnlinePeru() {
 
       {/* ═══ SECTION 5: PAYMENT METHODS ═══ */}
       <Section id="pagos">
-        <SectionTitle>Métodos de Pago para Casinos Online en Perú</SectionTitle>
+        <SectionTitle>Métodos de Pago en los Mejores Casinos Online de Perú</SectionTitle>
         <p className="text-[#9ca3af] mb-10 max-w-3xl leading-relaxed">
           Una de las grandes ventajas de jugar en casinos con licencia MINCETUR es que aceptan
           métodos de pago locales. Acá te explicamos todas las opciones disponibles para depositar
@@ -928,7 +948,7 @@ export default function MejoresCasinosOnlinePeru() {
 
       {/* ═══ SECTION 7: POPULAR GAMES ═══ */}
       <Section id="juegos">
-        <SectionTitle>Juegos Más Populares en Casinos Online</SectionTitle>
+        <SectionTitle>Juegos Más Populares en los Casinos Online de Perú</SectionTitle>
         <p className="text-[#9ca3af] mb-10 max-w-3xl leading-relaxed">
           Entender los juegos que vas a jugar te da una ventaja enorme. Acá desglosamos los más populares
           con datos reales que te ayudan a elegir mejor.
@@ -1091,7 +1111,7 @@ export default function MejoresCasinosOnlinePeru() {
 
       {/* ═══ SECTION 8: RESPONSIBLE GAMBLING ═══ */}
       <Section id="responsable" alt>
-        <SectionTitle>Juego Responsable</SectionTitle>
+        <SectionTitle>Juego Responsable en Casinos Online de Perú</SectionTitle>
 
         <div className="rounded-2xl bg-[#f59e0b]/[0.06] border border-[#f59e0b]/20 p-6 mb-8">
           <p className="text-[#f59e0b] font-bold mb-2">Recordatorio importante</p>
@@ -1197,7 +1217,7 @@ export default function MejoresCasinosOnlinePeru() {
 
       {/* ═══ SECTION 9: FAQ ═══ */}
       <Section id="faq">
-        <SectionTitle>Preguntas Frecuentes</SectionTitle>
+        <SectionTitle>Preguntas Frecuentes sobre Casinos Online en Perú</SectionTitle>
         <div className="space-y-4">
           {faqItems.map((item) => (
             <details
@@ -1220,7 +1240,7 @@ export default function MejoresCasinosOnlinePeru() {
 
       {/* ═══ SECTION 10: GLOSSARY ═══ */}
       <Section id="glosario" alt>
-        <SectionTitle>Glosario de Términos</SectionTitle>
+        <SectionTitle>Glosario de Términos de Casinos Online</SectionTitle>
         <p className="text-[#9ca3af] mb-8 max-w-3xl leading-relaxed">
           Términos clave que todo jugador de casino online debería conocer.
         </p>
