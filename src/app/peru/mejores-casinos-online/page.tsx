@@ -11,13 +11,13 @@ export const metadata: Metadata = {
 /* ───────── Casino data for this page ───────── */
 
 const peruCasinos = [
-  { rank: 1, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% hasta $500 + 200 giros gratis", rating: 9.5, license: "Curaçao", games: "4 500+", highlight: true },
-  { rank: 2, name: "SOL Casino", slug: "sol-casino", bonus: "100% hasta $500 + 250 giros gratis", rating: 9.3, license: "Curaçao", games: "4 000+", highlight: false },
-  { rank: 3, name: "MONRO Casino", slug: "monro-casino", bonus: "150% hasta $300 + 100 giros gratis", rating: 9.1, license: "Curaçao", games: "3 500+", highlight: false },
-  { rank: 4, name: "STARDA Casino", slug: "starda-casino", bonus: "100% hasta $500 + 150 giros gratis", rating: 9.0, license: "Curaçao", games: "3 800+", highlight: false },
-  { rank: 5, name: "Betano", slug: "betano", bonus: "60 giros gratis sin rollover", rating: 8.9, license: "MINCETUR", games: "2 000+", highlight: false },
-  { rank: 6, name: "Betsson", slug: "betsson", bonus: "Hasta S/2000", rating: 8.8, license: "MINCETUR", games: "2 500+", highlight: false },
-  { rank: 7, name: "Stake", slug: "stake", bonus: "200% hasta S/7500", rating: 8.8, license: "MINCETUR", games: "3 000+", highlight: false },
+  { rank: 1, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.9, license: "Curaçao", games: "4 500+", highlight: true },
+  { rank: 2, name: "SOL Casino", slug: "sol-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.8, license: "Curaçao", games: "4 000+", highlight: false },
+  { rank: 3, name: "STARDA Casino", slug: "starda-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.7, license: "Curaçao", games: "3 800+", highlight: false },
+  { rank: 4, name: "Stake", slug: "stake", bonus: "200% hasta S/7500", rating: 9.6, license: "MINCETUR", games: "3 000+", highlight: false },
+  { rank: 5, name: "MONRO Casino", slug: "monro-casino", bonus: "150% en tu primer depósito", rating: 9.5, license: "Curaçao", games: "3 500+", highlight: false },
+  { rank: 6, name: "Betano", slug: "betano", bonus: "60 giros gratis sin rollover", rating: 8.9, license: "MINCETUR", games: "2 000+", highlight: false },
+  { rank: 7, name: "Betsson", slug: "betsson", bonus: "Hasta S/2000", rating: 8.8, license: "MINCETUR", games: "2 500+", highlight: false },
   { rank: 8, name: "Bet365", slug: "bet365", bonus: "100% hasta S/500", rating: 8.7, license: "MINCETUR", games: "1 800+", highlight: false },
   { rank: 9, name: "1xBet", slug: "1xbet", bonus: "100% hasta S/2000", rating: 8.6, license: "MINCETUR", games: "5 000+", highlight: false },
   { rank: 10, name: "Inkabet", slug: "inkabet", bonus: "Hasta S/500 + giros gratis", rating: 8.5, license: "MINCETUR", games: "1 200+", highlight: false },
@@ -41,7 +41,7 @@ const categoryPicks = [
 ];
 
 const faqItems = [
-  { q: "¿Cuál es el mejor casino online en Perú en 2026?", a: "Según nuestro análisis, FRESH Casino es la mejor opción general por su enorme catálogo de más de 4 500 juegos, bono de bienvenida competitivo (100% hasta $500 + 200 giros gratis) y soporte en español 24/7. Sin embargo, si buscás un casino con licencia MINCETUR, Betano y Betsson son las opciones más confiables." },
+  { q: "¿Cuál es el mejor casino online en Perú en 2026?", a: "Según nuestro análisis, FRESH Casino es la mejor opción general por su enorme catálogo de más de 4 500 juegos, bono de bienvenida de 100% en tu primer depósito + 500 giros gratis y soporte en español 24/7. Sin embargo, si buscás un casino con licencia MINCETUR, Betano y Betsson son las opciones más confiables." },
   { q: "¿Es legal jugar en casinos online desde Perú?", a: "Sí, es completamente legal. Desde febrero de 2024, MINCETUR regula y otorga licencias a operadores de juego online en Perú mediante la Ley N° 31557 y su reglamento. Más de 60 operadores ya cuentan con licencia oficial." },
   { q: "¿Puedo jugar con soles peruanos (PEN)?", a: "Sí. La mayoría de casinos con licencia MINCETUR operan en soles peruanos. Casinos internacionales como FRESH o SOL también aceptan depósitos desde Perú, aunque pueden operar en dólares con conversión automática." },
   { q: "¿Qué métodos de pago aceptan los casinos en Perú?", a: "Los métodos más comunes son Yape, Plin, tarjetas Visa/Mastercard, transferencias bancarias (BCP, BBVA, Interbank), PagoEfectivo, monederos electrónicos (Skrill, Neteller) y criptomonedas (Bitcoin, USDT)." },
@@ -99,10 +99,16 @@ function CtaButton({ slug, text = "Jugar Ahora" }: { slug: string; text?: string
 }
 
 /* ───────── Section wrapper ───────── */
-function Section({ id, alt = false, children }: { id: string; alt?: boolean; children: React.ReactNode }) {
+function Section({ id, alt = false, bg, children }: { id: string; alt?: boolean; bg?: string; children: React.ReactNode }) {
   return (
-    <section id={id} className={`${alt ? "bg-[#0e0e0e]" : "bg-[#0a0a0a]"} py-16 sm:py-24`}>
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">{children}</div>
+    <section id={id} className={`${alt ? "bg-[#0e0e0e]" : "bg-[#0a0a0a]"} py-16 sm:py-24 relative`}>
+      {bg && (
+        <div className="absolute inset-0 pointer-events-none overflow-hidden">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src={bg} alt="" aria-hidden="true" className="absolute inset-0 w-full h-full object-cover opacity-[0.05]" />
+        </div>
+      )}
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10">{children}</div>
     </section>
   );
 }
@@ -323,7 +329,7 @@ export default function MejoresCasinosOnlinePeru() {
       </section>
 
       {/* ═══ SECTION 2: DETAILED ANALYSIS ═══ */}
-      <Section id="analisis" alt>
+      <Section id="analisis" alt bg="/img/backgrounds/paises.png">
         <SectionTitle>Análisis Detallado de los Mejores Casinos Online en Perú</SectionTitle>
         <p className="text-[#9ca3af] mb-12 max-w-3xl leading-relaxed">
           Revisamos a fondo los casinos mejor puntuados de nuestro ranking. Para cada uno
@@ -335,7 +341,7 @@ export default function MejoresCasinosOnlinePeru() {
           <div className="flex flex-wrap items-center gap-4 mb-2">
             <h3 className="text-2xl sm:text-3xl font-black text-[#fbbf24]">1. FRESH Casino</h3>
             <span className="bg-[#fbbf24] text-black text-xs font-black px-3 py-1 rounded-full uppercase">Recomendado</span>
-            <span className="text-[#22c55e] font-black text-xl">9.5/10</span>
+            <span className="text-[#22c55e] font-black text-xl">9.9/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#fbbf24] to-transparent rounded mb-6" />
 
@@ -360,9 +366,9 @@ export default function MejoresCasinosOnlinePeru() {
 
           <h4 className="text-lg font-bold text-white mb-3">Bonos y Promociones</h4>
           <p className="text-[#9ca3af] leading-relaxed mb-3">
-            El bono de bienvenida de FRESH Casino es de <strong className="text-white">100% hasta $500 + 200 giros gratis</strong>,
-            distribuidos en los primeros 10 días después del depósito. El depósito mínimo para activar el bono es
-            de $20 (o equivalente en soles), y el rollover es de x35 sobre el monto del bono.
+            El bono de bienvenida de FRESH Casino es de <strong className="text-white">100% en tu primer depósito + 500 giros gratis</strong>,
+            distribuidos en los primeros 10 días después del depósito (50 giros por día). El depósito mínimo para
+            activar el bono es de $20 (o equivalente en soles), y el rollover es de x35 sobre el monto del bono.
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-4">
             Además del bono de bienvenida, FRESH ofrece recargas semanales (50% los viernes), cashback
@@ -382,7 +388,7 @@ export default function MejoresCasinosOnlinePeru() {
           <ProsCons
             pros={[
               "Catálogo masivo de 4 500+ juegos de 80+ proveedores",
-              "Bono de bienvenida generoso con 200 giros gratis",
+              "Bono de bienvenida generoso con 500 giros gratis",
               "Casino en vivo con 300+ mesas y opciones en español",
               "Programa VIP con 7 niveles y beneficios reales",
               "Soporte en español 24/7 por chat en vivo",
@@ -401,7 +407,7 @@ export default function MejoresCasinosOnlinePeru() {
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
             <h3 className="text-2xl sm:text-3xl font-black text-white">2. SOL Casino</h3>
-            <span className="text-[#22c55e] font-black text-xl">9.3/10</span>
+            <span className="text-[#22c55e] font-black text-xl">9.8/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#dc2626] to-transparent rounded mb-6" />
 
@@ -420,10 +426,10 @@ export default function MejoresCasinosOnlinePeru() {
 
           <h4 className="text-lg font-bold text-white mb-3">Bonos y Promociones</h4>
           <p className="text-[#9ca3af] leading-relaxed mb-4">
-            SOL Casino ofrece <strong className="text-white">100% hasta $500 + 250 giros gratis</strong> como
-            bono de bienvenida. Tiene la mayor cantidad de free spins entre nuestros top 4. El rollover
-            es de x30 (más bajo que FRESH), y los giros se activan en bloques de 25 por día durante 10 días.
-            Las promociones regulares incluyen cashback semanal del 15% y torneos diarios.
+            SOL Casino ofrece <strong className="text-white">100% en tu primer depósito + 500 giros gratis</strong> como
+            bono de bienvenida. El rollover es de x30 (más bajo que la competencia), y los giros se activan
+            en bloques de 50 por día durante 10 días. Las promociones regulares incluyen cashback semanal
+            del 15% y torneos diarios.
           </p>
 
           <h4 className="text-lg font-bold text-white mb-3">Métodos de Pago</h4>
@@ -435,7 +441,7 @@ export default function MejoresCasinosOnlinePeru() {
 
           <ProsCons
             pros={[
-              "250 giros gratis, la mejor oferta de free spins",
+              "500 giros gratis con el bono de bienvenida",
               "Rollover de x30, más accesible que la competencia",
               "Interfaz muy amigable para principiantes",
               "Cashback semanal del 15% sin rollover",
@@ -450,63 +456,11 @@ export default function MejoresCasinosOnlinePeru() {
           <CtaButton slug="sol-casino" text="Jugar en SOL Casino" />
         </div>
 
-        {/* ── MONRO Casino ── */}
-        <div className="mb-16">
-          <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-white">3. MONRO Casino</h3>
-            <span className="text-[#22c55e] font-black text-xl">9.1/10</span>
-          </div>
-          <div className="h-1 w-24 bg-gradient-to-r from-[#dc2626] to-transparent rounded mb-6" />
-
-          <h4 className="text-lg font-bold text-white mb-3">Plataforma y Juegos</h4>
-          <p className="text-[#9ca3af] leading-relaxed mb-3">
-            MONRO Casino apunta a un público que busca valor. Con más de <strong className="text-white">3 500 juegos</strong>,
-            la plataforma tiene todo lo que necesitás: slots de alta volatilidad, casino en vivo con mesas
-            en español, video poker, juegos crash y una sección de deportes virtuales.
-          </p>
-          <p className="text-[#9ca3af] leading-relaxed mb-4">
-            La navegación es sencilla y el sitio está completamente disponible en español. Funciona bien
-            en móviles y los juegos cargan rápido incluso con conexiones más lentas. Los proveedores principales
-            son Pragmatic Play, Spinomenal, BGaming, Belatra y Tom Horn Gaming.
-          </p>
-
-          <h4 className="text-lg font-bold text-white mb-3">Bonos y Promociones</h4>
-          <p className="text-[#9ca3af] leading-relaxed mb-4">
-            El punto fuerte de MONRO es su bono de <strong className="text-white">150% hasta $300 + 100 giros gratis</strong>.
-            Es el porcentaje más alto de nuestro top 4. Con un depósito de $100, recibís $150 de bono.
-            El rollover es de x35 con 14 días para completarlo. Las tiradas gratis se acreditan en bloques
-            de 20 durante 5 días. También ofrecen recarga del 50% los miércoles y programa de cashback escalonado.
-          </p>
-
-          <h4 className="text-lg font-bold text-white mb-3">Métodos de Pago</h4>
-          <p className="text-[#9ca3af] leading-relaxed mb-4">
-            Visa, Mastercard, Skrill, Neteller, Bitcoin y otras criptomonedas. Depósito mínimo de $15.
-            Los retiros con crypto se procesan en menos de 1 hora. Para tarjetas y transferencias, entre
-            1 y 5 días hábiles. Límite mensual de $30 000.
-          </p>
-
-          <ProsCons
-            pros={[
-              "Bono del 150%, el porcentaje más alto del ranking",
-              "Buena selección de juegos crash y deportes virtuales",
-              "Retiros crypto en menos de 1 hora",
-              "Sitio completamente en español",
-            ]}
-            cons={[
-              "Sin licencia MINCETUR",
-              "Límite de retiro mensual más bajo ($30k)",
-              "Catálogo más pequeño que FRESH y SOL",
-              "100 giros gratis es la oferta más baja del top 4",
-            ]}
-          />
-          <CtaButton slug="monro-casino" text="Jugar en MONRO Casino" />
-        </div>
-
         {/* ── STARDA Casino ── */}
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-white">4. STARDA Casino</h3>
-            <span className="text-[#22c55e] font-black text-xl">9.0/10</span>
+            <h3 className="text-2xl sm:text-3xl font-black text-white">3. STARDA Casino</h3>
+            <span className="text-[#22c55e] font-black text-xl">9.7/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#dc2626] to-transparent rounded mb-6" />
 
@@ -525,7 +479,7 @@ export default function MejoresCasinosOnlinePeru() {
 
           <h4 className="text-lg font-bold text-white mb-3">Bonos y Promociones</h4>
           <p className="text-[#9ca3af] leading-relaxed mb-4">
-            Bono de <strong className="text-white">100% hasta $500 + 150 giros gratis</strong>, con rollover de x35.
+            Bono de <strong className="text-white">100% en tu primer depósito + 500 giros gratis</strong>, con rollover de x35.
             Los giros se asignan a la slot &quot;Book of Gold&quot; de Playson, un título de alta volatilidad
             con buen RTP. STARDA también ofrece bonos especiales para torneos, cashback del 10% los fines
             de semana y un programa VIP de 5 niveles con recompensas por lealtad.
@@ -552,6 +506,56 @@ export default function MejoresCasinosOnlinePeru() {
             ]}
           />
           <CtaButton slug="starda-casino" text="Jugar en STARDA Casino" />
+        </div>
+
+        {/* ── MONRO Casino ── */}
+        <div className="mb-16">
+          <div className="flex flex-wrap items-center gap-4 mb-2">
+            <h3 className="text-2xl sm:text-3xl font-black text-white">5. MONRO Casino</h3>
+            <span className="text-[#22c55e] font-black text-xl">9.5/10</span>
+          </div>
+          <div className="h-1 w-24 bg-gradient-to-r from-[#dc2626] to-transparent rounded mb-6" />
+
+          <h4 className="text-lg font-bold text-white mb-3">Plataforma y Juegos</h4>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            MONRO Casino apunta a un público que busca valor. Con más de <strong className="text-white">3 500 juegos</strong>,
+            la plataforma tiene todo lo que necesitás: slots de alta volatilidad, casino en vivo con mesas
+            en español, video poker, juegos crash y una sección de deportes virtuales.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-4">
+            La navegación es sencilla y el sitio está completamente disponible en español. Funciona bien
+            en móviles y los juegos cargan rápido incluso con conexiones más lentas. Los proveedores principales
+            son Pragmatic Play, Spinomenal, BGaming, Belatra y Tom Horn Gaming.
+          </p>
+
+          <h4 className="text-lg font-bold text-white mb-3">Bonos y Promociones</h4>
+          <p className="text-[#9ca3af] leading-relaxed mb-4">
+            El punto fuerte de MONRO es su bono de <strong className="text-white">150% en tu primer depósito</strong>.
+            Es el porcentaje más alto de nuestro top 5. Con un depósito de $100, recibís $150 de bono.
+            El rollover es de x35 con 14 días para completarlo. También ofrecen recarga del 50% los miércoles y programa de cashback escalonado.
+          </p>
+
+          <h4 className="text-lg font-bold text-white mb-3">Métodos de Pago</h4>
+          <p className="text-[#9ca3af] leading-relaxed mb-4">
+            Visa, Mastercard, Skrill, Neteller, Bitcoin y otras criptomonedas. Depósito mínimo de $15.
+            Los retiros con crypto se procesan en menos de 1 hora. Para tarjetas y transferencias, entre
+            1 y 5 días hábiles. Límite mensual de $30 000.
+          </p>
+
+          <ProsCons
+            pros={[
+              "Bono del 150%, el porcentaje más alto del ranking",
+              "Buena selección de juegos crash y deportes virtuales",
+              "Retiros crypto en menos de 1 hora",
+              "Sitio completamente en español",
+            ]}
+            cons={[
+              "Sin licencia MINCETUR",
+              "Límite de retiro mensual más bajo ($30k)",
+              "Catálogo más pequeño que FRESH y SOL",
+            ]}
+          />
+          <CtaButton slug="monro-casino" text="Jugar en MONRO Casino" />
         </div>
 
         {/* ── Menciones Destacadas ── */}
@@ -582,7 +586,7 @@ export default function MejoresCasinosOnlinePeru() {
             </div>
 
             <div>
-              <h4 className="text-lg font-bold text-white mb-2">Stake <span className="text-[#22c55e] text-sm font-black">8.8/10</span></h4>
+              <h4 className="text-lg font-bold text-white mb-2">Stake <span className="text-[#22c55e] text-sm font-black">9.6/10</span></h4>
               <p className="text-[#9ca3af] leading-relaxed">
                 Stake revolucionó el mundo del casino online con criptomonedas y ahora opera en Perú con
                 licencia MINCETUR. Su bono de 200% hasta S/7 500 es el más grande del mercado peruano.
@@ -598,7 +602,7 @@ export default function MejoresCasinosOnlinePeru() {
       {/* ═══ MINI CTA BANNER ═══ */}
       <div className="bg-gradient-to-r from-[#dc2626]/10 via-[#0e0e0e] to-[#f59e0b]/10 py-10 text-center border-y border-white/[0.04]">
         <p className="text-[#9ca3af] text-sm mb-3">Nuestro casino #1 recomendado para jugadores peruanos</p>
-        <p className="text-white text-xl font-black mb-4">FRESH Casino — 100% hasta $500 + 200 Giros Gratis</p>
+        <p className="text-white text-xl font-black mb-4">FRESH Casino — 100% en tu primer depósito + 500 giros gratis</p>
         <CtaButton slug="fresh-casino" />
       </div>
 
@@ -626,7 +630,7 @@ export default function MejoresCasinosOnlinePeru() {
       </Section>
 
       {/* ═══ SECTION 4: BONUS TYPES ═══ */}
-      <Section id="bonos" alt>
+      <Section id="bonos" alt bg="/img/backgrounds/slots.png">
         <SectionTitle>Tipos de Bonos en Casinos Online de Perú</SectionTitle>
         <p className="text-[#9ca3af] mb-10 max-w-3xl leading-relaxed">
           Los bonos son una de las mejores herramientas que tenés como jugador. Pero no todos los bonos
@@ -753,17 +757,21 @@ export default function MejoresCasinosOnlinePeru() {
             </thead>
             <tbody className="text-[#d4d4d8]">
               {[
-                ["Bono más grande en %", "MONRO Casino (150%)"],
-                ["Más free spins", "SOL Casino (250 giros)"],
-                ["Bono sin rollover", "Betano (60 giros, rollover x0)"],
-                ["Mejor cashback", "SOL Casino (15% semanal)"],
-                ["Bono de recarga semanal", "FRESH Casino (50% viernes)"],
-                ["Mejor programa VIP", "FRESH Casino (7 niveles)"],
-                ["Bono más grande en monto", "Stake (200% hasta S/7 500)"],
-              ].map(([need, best]) => (
-                <tr key={need} className="border-t border-white/[0.04] hover:bg-white/[0.02] transition-colors">
-                  <td className="px-4 py-3">{need}</td>
-                  <td className="px-4 py-3 font-bold text-white">{best}</td>
+                { need: "Bono más grande en %", best: "MONRO Casino (150%)", slug: "monro-casino" },
+                { need: "Más free spins", best: "FRESH Casino (500 giros)", slug: "fresh-casino" },
+                { need: "Bono sin rollover", best: "Betano (60 giros, rollover x0)", slug: "betano" },
+                { need: "Mejor cashback", best: "SOL Casino (15% semanal)", slug: "sol-casino" },
+                { need: "Bono de recarga semanal", best: "FRESH Casino (50% viernes)", slug: "fresh-casino" },
+                { need: "Mejor programa VIP", best: "FRESH Casino (7 niveles)", slug: "fresh-casino" },
+                { need: "Bono más grande en monto", best: "Stake (200% hasta S/7 500)", slug: "stake" },
+              ].map((row) => (
+                <tr key={row.need} className="border-t border-white/[0.04] hover:bg-white/[0.02] transition-colors">
+                  <td className="px-4 py-3">{row.need}</td>
+                  <td className="px-4 py-3">
+                    <a href={`/go/${row.slug}/`} target="_blank" rel="nofollow noopener sponsored" className="font-bold text-white hover:text-[#00C853] transition-colors">
+                      {row.best} &rarr;
+                    </a>
+                  </td>
                 </tr>
               ))}
             </tbody>
@@ -890,7 +898,7 @@ export default function MejoresCasinosOnlinePeru() {
       </div>
 
       {/* ═══ SECTION 6: LEGAL ═══ */}
-      <Section id="legal" alt>
+      <Section id="legal" alt bg="/img/backgrounds/comparativa.png">
         <SectionTitle>¿Es Legal Jugar en Casinos Online en Perú?</SectionTitle>
 
         <p className="text-[#9ca3af] leading-relaxed mb-4">
@@ -947,7 +955,7 @@ export default function MejoresCasinosOnlinePeru() {
       </Section>
 
       {/* ═══ SECTION 7: POPULAR GAMES ═══ */}
-      <Section id="juegos">
+      <Section id="juegos" bg="/img/backgrounds/ruleta.png">
         <SectionTitle>Juegos Más Populares en los Casinos Online de Perú</SectionTitle>
         <p className="text-[#9ca3af] mb-10 max-w-3xl leading-relaxed">
           Entender los juegos que vas a jugar te da una ventaja enorme. Acá desglosamos los más populares
@@ -1110,7 +1118,7 @@ export default function MejoresCasinosOnlinePeru() {
       </Section>
 
       {/* ═══ SECTION 8: RESPONSIBLE GAMBLING ═══ */}
-      <Section id="responsable" alt>
+      <Section id="responsable" alt bg="/img/backgrounds/cripto.png">
         <SectionTitle>Juego Responsable en Casinos Online de Perú</SectionTitle>
 
         <div className="rounded-2xl bg-[#f59e0b]/[0.06] border border-[#f59e0b]/20 p-6 mb-8">
@@ -1211,7 +1219,7 @@ export default function MejoresCasinosOnlinePeru() {
       {/* ═══ MINI CTA BANNER 3 ═══ */}
       <div className="bg-gradient-to-r from-[#dc2626]/10 via-[#0e0e0e] to-[#f59e0b]/10 py-10 text-center border-y border-white/[0.04]">
         <p className="text-[#9ca3af] text-sm mb-3">150% de bono, el porcentaje más alto</p>
-        <p className="text-white text-xl font-black mb-4">MONRO Casino — 150% hasta $300 + 100 Giros Gratis</p>
+        <p className="text-white text-xl font-black mb-4">MONRO Casino — 150% en tu primer depósito</p>
         <CtaButton slug="monro-casino" text="Ir a MONRO Casino" />
       </div>
 
@@ -1269,7 +1277,7 @@ export default function MejoresCasinosOnlinePeru() {
           <div className="flex flex-wrap items-center justify-center gap-4">
             <CtaButton slug="fresh-casino" text="FRESH Casino — #1" />
             <CtaButton slug="sol-casino" text="SOL Casino — #2" />
-            <CtaButton slug="monro-casino" text="MONRO Casino — #3" />
+            <CtaButton slug="monro-casino" text="MONRO Casino — #5" />
           </div>
         </div>
       </section>

@@ -13,6 +13,7 @@ export interface Casino {
   rating: number;
   affiliateUrl: string;
   license: string;
+  countries?: string[];
 }
 
 export interface Streamer {
