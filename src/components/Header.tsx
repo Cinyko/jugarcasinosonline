@@ -45,7 +45,8 @@ export default function Header() {
               </button>
 
               {isCountryOpen && (
-                <div className="absolute top-full left-0 mt-2 w-60 rounded-xl bg-surface-light border border-surface-border-light shadow-2xl shadow-black/50 py-2 overflow-hidden">
+                <div className="absolute top-full left-0 pt-2 w-60">
+                <div className="rounded-xl bg-surface-light border border-surface-border-light shadow-2xl shadow-black/50 py-2 overflow-hidden">
                   {countries.map((country) => (
                     <Link
                       key={country.slug}
@@ -64,6 +65,7 @@ export default function Header() {
                       <span className="font-medium">{country.name}</span>
                     </Link>
                   ))}
+                </div>
                 </div>
               )}
             </div>
