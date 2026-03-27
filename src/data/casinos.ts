@@ -224,6 +224,26 @@ export const casinos: Casino[] = [
 
 export const comparisons: Comparison[] = [
   {
+    casinoA: "Betsson",
+    casinoB: "FRESH Casino",
+    slug: "betsson-vs-fresh-casino",
+  },
+  {
+    casinoA: "Betsson",
+    casinoB: "SOL Casino",
+    slug: "betsson-vs-sol-casino",
+  },
+  {
+    casinoA: "Betsson",
+    casinoB: "STARDA Casino",
+    slug: "betsson-vs-starda-casino",
+  },
+  {
+    casinoA: "Betsson",
+    casinoB: "MONRO Casino",
+    slug: "betsson-vs-monro-casino",
+  },
+  {
     casinoA: "FRESH Casino",
     casinoB: "SOL Casino",
     slug: "fresh-casino-vs-sol-casino",

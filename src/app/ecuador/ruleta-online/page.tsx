@@ -11,11 +11,11 @@ export const metadata: Metadata = {
 /* ───────── Data ───────── */
 
 const ecuadorCasinos = [
-  { rank: 1, name: "Betsson", slug: "betsson-latam", bonus: "¡Duplica tu depósito hasta $100!", rating: 9.5, rouletteTables: "45+", liveRoulette: true, highlight: true },
+  { rank: 1, name: "Betsson", slug: "betsson-latam", bonus: "¡Duplica tu depósito hasta $100!", rating: 9.5, rouletteTables: "45+", liveRoulette: true, highlight: true, badge: "⭐ Recomendado" },
   { rank: 2, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% + 500 giros gratis", rating: 9.3, rouletteTables: "60+", liveRoulette: true, highlight: false },
   { rank: 3, name: "SOL Casino", slug: "sol-casino", bonus: "100% + 500 giros gratis", rating: 9.1, rouletteTables: "50+", liveRoulette: true, highlight: false },
   { rank: 4, name: "MONRO Casino", slug: "monro-casino", bonus: "150% primer depósito", rating: 9.0, rouletteTables: "40+", liveRoulette: true, highlight: false },
-  { rank: 5, name: "STARDA Casino", slug: "starda-casino", bonus: "100% + 500 giros gratis", rating: 8.9, rouletteTables: "35+", liveRoulette: true, highlight: false },
+  { rank: 5, name: "STARDA Casino", slug: "starda-casino", bonus: "100% + 500 giros gratis", rating: 8.9, rouletteTables: "35+", liveRoulette: true, highlight: false, badge: "🔥 TOP" },
   { rank: 6, name: "Bet365", slug: "bet365", bonus: "100% bono bienvenida", rating: 8.8, rouletteTables: "20+", liveRoulette: true, highlight: false },
   { rank: 7, name: "1xBet", slug: "1xbet", bonus: "100% hasta $300", rating: 8.7, rouletteTables: "25+", liveRoulette: true, highlight: false },
   { rank: 8, name: "Stake", slug: "stake", bonus: "Bono primer depósito", rating: 8.6, rouletteTables: "30+", liveRoulette: true, highlight: false },
@@ -152,6 +152,7 @@ export default function RuletaOnlineEcuador() {
                   <div className="flex-1 min-w-0">
                     <div className="flex items-center gap-2">
                       <p className={`font-extrabold text-base ${isTop5 && colors ? colors.nameColor : "text-white"}`}>{c.name}</p>
+                      {c.badge && <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full ${c.highlight ? "bg-[#fbbf24]/20 text-[#fbbf24]" : "bg-[#f43f5e]/20 text-[#f43f5e]"}`}>{c.badge}</span>}
                     </div>
                     {c.rank <= 5 && (
                       <div className="flex items-center gap-1 mt-0.5">
@@ -228,6 +229,7 @@ export default function RuletaOnlineEcuador() {
                       })()}
                       <div>
                         <span className={`font-extrabold ${c.highlight ? "text-[#fbbf24]" : "text-white"}`}>{c.name}</span>
+                        {c.badge && <span className={`ml-2 text-[10px] font-bold px-2 py-0.5 rounded-full ${c.highlight ? "bg-[#fbbf24]/20 text-[#fbbf24]" : "bg-[#f43f5e]/20 text-[#f43f5e]"}`}>{c.badge}</span>}
                         <span className="block sm:hidden text-xs text-[#71717a] mt-1">{c.bonus}</span>
                       </div>
                     </div>

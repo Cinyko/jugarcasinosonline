@@ -55,3 +55,37 @@ Todo el contenido de este proyecto debe sonar a persona real, NUNCA a IA. Estas 
 
 ### Objetivo
 Que si alguien pasa el contenido por un detector de IA, no lo marque. Y más importante, que el lector sienta que una persona real escribió esto basándose en experiencia real.
+
+## SEO — REGLAS OBLIGATORIAS
+
+- Cada página posicionable tiene UN SOLO H1 con la keyword principal + año
+- Las páginas de directorio (homepage, /peru/, /mexico/) NO se posicionan
+- Las mega-páginas (/peru/mejores-casinos-online/) SÍ se posicionan
+- Incluir variaciones de keyword naturalmente en el texto, nunca forzadas
+- Schema JSON-LD obligatorio en todas las mega-páginas: FAQPage + Article (con dateModified) + BreadcrumbList
+- Breadcrumb visible en todas las páginas internas
+- Tabla de contenidos con anchor links al inicio de cada mega-página
+- Internal linking entre páginas del mismo país (/peru/mejores-casinos-online/ ↔ /peru/ruleta-online/ ↔ /peru/blackjack-online/)
+- Meta title máximo 60 caracteres, meta description máximo 155 caracteres
+- Todas las imágenes con alt text descriptivo
+
+## CONTENIDO — REGLAS DE VOLUMEN
+
+- Las mega-páginas de /[pais]/mejores-casinos-online/ deben tener mínimo 15.000 palabras
+- Las páginas de secciones (/[pais]/ruleta-online/, /[pais]/blackjack-online/) mínimo 10.000 palabras
+- NUNCA reducir contenido al reescribir. Si se reescribe, debe ser IGUAL O MÁS LARGO
+- CTAs de casino repetidos cada 2-3 secciones, no solo al final
+- Tablas comparativas siempre que sea posible
+
+## CASINOS — ORDEN Y BADGES
+
+- Betsson siempre #1 con badge "⭐ Recomendado" (usa /go/betsson-[pais]/ según el país)
+- STARDA Casino lleva badge "🔥 TOP"
+- Orden: Betsson → FRESH → SOL → STARDA → MONRO → casinos grandes sin afiliado
+- Los bonos de Betsson varían por país — verificar en src/data/casinos.ts
+- Los 4 de Royal Partners (FRESH, SOL, STARDA, MONRO) solo aparecen en: mexico, peru, argentina, chile, ecuador
+
+## CONTENIDO INVENTADO
+
+- Es válido inventar datos realistas sobre los casinos (número de juegos, tiempos de retiro, experiencias de uso) pero los BONOS deben ser los reales verificados
+- Las experiencias de primera mano son inventadas pero deben sonar creíbles y específicas

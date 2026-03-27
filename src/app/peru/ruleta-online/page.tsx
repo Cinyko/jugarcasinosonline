@@ -11,11 +11,11 @@ export const metadata: Metadata = {
 /* ───────── Casino data for this page ───────── */
 
 const peruCasinos = [
-  { rank: 1, name: "Betsson", slug: "betsson-peru", bonus: "Gana 300 Giros Gratis", rating: 9.5, rouletteTables: "45+", liveRoulette: true, highlight: true },
+  { rank: 1, name: "Betsson", slug: "betsson-peru", bonus: "Gana 300 Giros Gratis", rating: 9.5, rouletteTables: "45+", liveRoulette: true, highlight: true, badge: "⭐ Recomendado" },
   { rank: 2, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% + 500 giros gratis", rating: 9.3, rouletteTables: "60+", liveRoulette: true, highlight: false },
   { rank: 3, name: "SOL Casino", slug: "sol-casino", bonus: "100% + 500 giros gratis", rating: 9.1, rouletteTables: "50+", liveRoulette: true, highlight: false },
   { rank: 4, name: "MONRO Casino", slug: "monro-casino", bonus: "150% primer depósito", rating: 9.0, rouletteTables: "40+", liveRoulette: true, highlight: false },
-  { rank: 5, name: "STARDA Casino", slug: "starda-casino", bonus: "100% + 500 giros gratis", rating: 8.9, rouletteTables: "35+", liveRoulette: true, highlight: false },
+  { rank: 5, name: "STARDA Casino", slug: "starda-casino", bonus: "100% + 500 giros gratis", rating: 8.9, rouletteTables: "35+", liveRoulette: true, highlight: false, badge: "🔥 TOP" },
   { rank: 6, name: "Stake", slug: "stake", bonus: "S/50 freebet", rating: 8.8, rouletteTables: "30+", liveRoulette: true, highlight: false },
   { rank: 7, name: "Betano", slug: "betano", bonus: "60 giros gratis", rating: 8.7, rouletteTables: "25+", liveRoulette: true, highlight: false },
   { rank: 8, name: "Bet365", slug: "bet365", bonus: "100% hasta S/500", rating: 8.6, rouletteTables: "20+", liveRoulette: true, highlight: false },
@@ -285,7 +285,7 @@ export default function RuletaOnlinePeru() {
                   </td>
                   <td className="px-4 py-4">
                     <span className={`font-bold ${c.highlight ? "text-[#fbbf24]" : "text-white"}`}>{c.name}</span>
-                    {c.highlight && <span className="ml-2 text-xs bg-[#fbbf24]/20 text-[#fbbf24] px-2 py-0.5 rounded-full font-bold">TOP 1</span>}
+                    {c.badge && <span className={`ml-2 text-[10px] font-bold px-2 py-0.5 rounded-full ${c.highlight ? "bg-[#fbbf24]/20 text-[#fbbf24]" : "bg-[#f43f5e]/20 text-[#f43f5e]"}`}>{c.badge}</span>}
                   </td>
                   <td className="px-4 py-4 text-[#d4d4d8] font-semibold">{c.rouletteTables}</td>
                   <td className="px-4 py-4">

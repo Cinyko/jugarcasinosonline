@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { Streamer } from "@/types";
 
 const platformStyles: Record<string, { color: string; bg: string; border: string }> = {
@@ -17,22 +16,28 @@ export default function StreamerCard({ streamer }: { streamer: Streamer }) {
   const style = platformStyles[streamer.platform];
 
   return (
-    <Link
-      href={`/streamers/${streamer.slug}/`}
-      className="group relative flex flex-col rounded-2xl overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:scale-[1.02]"
+    <div
+      className="relative flex flex-col rounded-2xl overflow-hidden"
       style={{
         boxShadow: `0 0 0 1px ${style.border}, 0 4px 20px rgba(0,0,0,0.3)`,
       }}
     >
+      {/* Próximamente badge */}
+      <div className="absolute top-3 right-3 z-20">
+        <span className="inline-flex items-center px-2.5 py-1 rounded-lg text-[10px] font-black uppercase tracking-wider text-[#fbbf24] bg-[#fbbf24]/10 border border-[#fbbf24]/20">
+          Próximamente
+        </span>
+      </div>
+
       {/* Background gradient */}
       <div
-        className="absolute inset-0 opacity-[0.06] group-hover:opacity-[0.12] transition-opacity duration-300"
+        className="absolute inset-0 opacity-[0.06]"
         style={{ background: `linear-gradient(135deg, ${style.color} 0%, transparent 50%)` }}
       />
 
       {/* Left accent */}
       <div
-        className="absolute left-0 top-0 bottom-0 w-1 group-hover:w-1.5 transition-all duration-300"
+        className="absolute left-0 top-0 bottom-0 w-1"
         style={{ backgroundColor: style.color }}
       />
 
@@ -51,8 +56,8 @@ export default function StreamerCard({ streamer }: { streamer: Streamer }) {
         </div>
 
         {/* Name and country */}
-        <h3 className="text-xl font-black text-white mb-1 transition-colors duration-200">
-          <span className="group-hover:text-white">{streamer.name}</span>
+        <h3 className="text-xl font-black text-white mb-1">
+          {streamer.name}
         </h3>
         <p className="text-xs font-bold text-[#71717a] mb-4 uppercase tracking-widest">{streamer.country}</p>
 
@@ -60,20 +65,7 @@ export default function StreamerCard({ streamer }: { streamer: Streamer }) {
         <p className="text-sm text-[#9ca3af] leading-relaxed flex-1">
           {streamer.description}
         </p>
-
-        <div className="mt-5 flex items-center gap-2 text-sm font-bold" style={{ color: style.color }}>
-          Ver perfil
-          <svg className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" />
-          </svg>
-        </div>
       </div>
-
-      {/* Hover glow */}
-      <div
-        className="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"
-        style={{ boxShadow: `0 0 30px ${style.color}15, 0 0 60px ${style.color}08` }}
-      />
-    </Link>
+    </div>
   );
 }
