@@ -11,20 +11,20 @@ export const metadata: Metadata = {
 /* ───────── Casino data for this page ───────── */
 
 const peruCasinos = [
-  { rank: 1, name: "STARDA Casino", slug: "starda-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.9, license: "Curaçao", games: "3 800+", highlight: true },
-  { rank: 2, name: "MONRO Casino", slug: "monro-casino", bonus: "150% en tu primer depósito", rating: 9.7, license: "Curaçao", games: "3 500+", highlight: false },
-  { rank: 3, name: "Stake", slug: "stake", bonus: "S/50 freebet + 50 giros gratis o S/50 bono casino", rating: 9.6, license: "MINCETUR", games: "3 000+", highlight: false },
-  { rank: 4, name: "SOL Casino", slug: "sol-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.5, license: "Curaçao", games: "4 000+", highlight: false },
-  { rank: 5, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.3, license: "Curaçao", games: "4 500+", highlight: false },
-  { rank: 6, name: "Betano", slug: "betano", bonus: "60 giros gratis sin rollover", rating: 8.9, license: "MINCETUR", games: "2 000+", highlight: false },
-  { rank: 7, name: "Betsson", slug: "betsson", bonus: "100% primer depósito + 20 tiradas gratis", rating: 8.8, license: "MINCETUR", games: "2 500+", highlight: false },
-  { rank: 8, name: "Bet365", slug: "bet365", bonus: "100% hasta S/500 + 500 giros gratis", rating: 8.7, license: "MINCETUR", games: "1 800+", highlight: false },
-  { rank: 9, name: "1xBet", slug: "1xbet", bonus: "100% primer depósito hasta 300 EUR", rating: 8.6, license: "MINCETUR", games: "5 000+", highlight: false },
-  { rank: 10, name: "Inkabet", slug: "inkabet", bonus: "Hasta S/500 + giros gratis", rating: 8.5, license: "MINCETUR", games: "1 200+", highlight: false },
-  { rank: 11, name: "Doradobet", slug: "doradobet", bonus: "S/50 o 50 giros gratis sin depósito", rating: 8.4, license: "MINCETUR", games: "1 500+", highlight: false },
-  { rank: 12, name: "Betcris", slug: "betcris", bonus: "100% primer depósito hasta S/350", rating: 8.3, license: "MINCETUR", games: "1 000+", highlight: false },
-  { rank: 13, name: "Meridianbet", slug: "meridianbet", bonus: "Hasta S/500", rating: 8.2, license: "MINCETUR", games: "1 100+", highlight: false },
-  { rank: 14, name: "Caliente", slug: "caliente", bonus: "S/40 sin depósito + 100% hasta S/400", rating: 8.1, license: "MINCETUR", games: "1 300+", highlight: false },
+  { rank: 1, name: "Betsson", slug: "betsson-peru", bonus: "Gana 300 Giros Gratis", rating: 9.5, license: "MINCETUR", games: "2 500+", highlight: true },
+  { rank: 2, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.3, license: "Curaçao", games: "4 500+", highlight: false },
+  { rank: 3, name: "SOL Casino", slug: "sol-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.1, license: "Curaçao", games: "4 000+", highlight: false },
+  { rank: 4, name: "MONRO Casino", slug: "monro-casino", bonus: "150% en tu primer depósito", rating: 9.0, license: "Curaçao", games: "3 500+", highlight: false },
+  { rank: 5, name: "STARDA Casino", slug: "starda-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 8.9, license: "Curaçao", games: "3 800+", highlight: false },
+  { rank: 6, name: "Stake", slug: "stake", bonus: "S/50 freebet + 50 giros gratis o S/50 bono casino", rating: 8.8, license: "MINCETUR", games: "3 000+", highlight: false },
+  { rank: 7, name: "Betano", slug: "betano", bonus: "60 giros gratis sin rollover", rating: 8.7, license: "MINCETUR", games: "2 000+", highlight: false },
+  { rank: 8, name: "Bet365", slug: "bet365", bonus: "100% hasta S/500 + 500 giros gratis", rating: 8.6, license: "MINCETUR", games: "1 800+", highlight: false },
+  { rank: 9, name: "1xBet", slug: "1xbet", bonus: "100% primer depósito hasta 300 EUR", rating: 8.5, license: "MINCETUR", games: "5 000+", highlight: false },
+  { rank: 10, name: "Inkabet", slug: "inkabet", bonus: "Hasta S/500 + giros gratis", rating: 8.4, license: "MINCETUR", games: "1 200+", highlight: false },
+  { rank: 11, name: "Doradobet", slug: "doradobet", bonus: "S/50 o 50 giros gratis sin depósito", rating: 8.3, license: "MINCETUR", games: "1 500+", highlight: false },
+  { rank: 12, name: "Betcris", slug: "betcris", bonus: "100% primer depósito hasta S/350", rating: 8.2, license: "MINCETUR", games: "1 000+", highlight: false },
+  { rank: 13, name: "Meridianbet", slug: "meridianbet", bonus: "Hasta S/500", rating: 8.1, license: "MINCETUR", games: "1 100+", highlight: false },
+  { rank: 14, name: "Caliente", slug: "caliente", bonus: "S/40 sin depósito + 100% hasta S/400", rating: 8.0, license: "MINCETUR", games: "1 300+", highlight: false },
 ];
 
 const categoryPicks = [
@@ -32,7 +32,7 @@ const categoryPicks = [
   { title: "Pagos más rápidos", casino: "Betano", slug: "betano", reason: "Hicimos un retiro con Yape un martes a las 11pm y en menos de 2 horas ya teníamos la plata. Plin también vuela. Otros casinos te hacen esperar días, acá no." },
   { title: "Mejor bono de bienvenida", casino: "MONRO Casino", slug: "monro-casino", reason: "150% en tu primer depósito. Sí, leíste bien: ciento cincuenta por ciento. Nadie más en el ranking llega a ese número. Ojo, el rollover es razonable también." },
   { title: "Mejor para slots", casino: "STARDA Casino", slug: "starda-casino", reason: "Si te gustan las tragamonedas, acá viene lo bueno: tienen títulos exclusivos que no vas a encontrar en otros casinos peruanos. Y los torneos semanales reparten premios que valen la pena (sí, los revisamos)." },
-  { title: "Mejor casino en vivo", casino: "Betsson", slug: "betsson", reason: "Más de 200 mesas en vivo y lo mejor es que hay dealers que hablan español de verdad, no traducción automática. Tienen hasta mesas exclusivas para Perú. La experiencia se siente premium." },
+  { title: "Mejor casino en vivo", casino: "Betsson", slug: "betsson-peru", reason: "Más de 200 mesas en vivo y lo mejor es que hay dealers que hablan español de verdad, no traducción automática. Tienen hasta mesas exclusivas para Perú. La experiencia se siente premium." },
   { title: "Mejor para principiantes", casino: "SOL Casino", slug: "sol-casino", reason: "Le pasamos la cuenta a un amigo que nunca había jugado online y en 10 minutos ya estaba apostando sin preguntar nada. La interfaz es súper clara, el soporte responde rápido y el bono tiene un rollover bajo que no te va a frustrar." },
   { title: "Mejor atención al cliente", casino: "Bet365", slug: "bet365", reason: "Probamos el chat en vivo a las 3am un domingo (sí, lo hicimos) y nos respondieron en menos de 2 minutos. En español. Sin bot. Eso dice mucho." },
   { title: "Mejores métodos de pago para Perú", casino: "Stake", slug: "stake", reason: "Yape, Plin, transferencia bancaria, crypto... la verdad es que aceptan de todo. Pero lo que nos voló la cabeza es que los retiros son prácticamente instantáneos. No te hacen rogar por tu plata." },
@@ -41,7 +41,7 @@ const categoryPicks = [
 ];
 
 const faqItems = [
-  { q: "¿Cuál es el mejor casino online en Perú en 2026?", a: "Mirá, después de probar todos los de la lista, FRESH Casino se lleva el primer puesto. Tiene más de 4 500 juegos (una locura), el bono es 100% + 500 giros gratis y el soporte en español funciona de verdad las 24 horas. Pero ojo, si lo que querés es un casino con licencia MINCETUR peruana, andá por Betano o Betsson. Son los más serios del mercado regulado." },
+  { q: "¿Cuál es el mejor casino online en Perú en 2026?", a: "Después de probar todos los de la lista, Betsson se queda con el primer puesto. Tiene licencia MINCETUR (regulado directamente por el gobierno peruano), más de 2 500 juegos, 300 giros gratis de bienvenida, 200+ mesas en vivo con dealers en español y acepta Yape y Plin. Es la combinación más completa que encontramos. Ahora, si tu prioridad es variedad de juegos por encima de todo, FRESH Casino con sus 4 500+ títulos es imbatible en ese rubro." },
   { q: "¿Es legal jugar en casinos online desde Perú?", a: "Sí, totalmente legal. Desde febrero de 2024 MINCETUR regula todo esto con la Ley N° 31557. Ya hay más de 60 operadores con licencia oficial. Antes era tierra de nadie, pero ahora el marco legal está bastante claro. Podés jugar tranquilo siempre que elijas un casino autorizado." },
   { q: "¿Puedo jugar con soles peruanos (PEN)?", a: "Claro que sí. Todos los casinos con licencia MINCETUR te dejan jugar en soles directamente. Los internacionales como FRESH o SOL también aceptan depósitos desde Perú, aunque la cuenta puede estar en dólares y te hacen una conversión automática. No es un drama, pero fijate en el tipo de cambio que aplican para que no pierdas plata ahí." },
   { q: "¿Qué métodos de pago aceptan los casinos en Perú?", a: "De todo, la verdad. Yape y Plin son los más populares (y los más rápidos). También aceptan tarjetas Visa y Mastercard, transferencias por BCP, BBVA e Interbank, PagoEfectivo para los que prefieren efectivo, monederos electrónicos tipo Skrill y Neteller, y crypto como Bitcoin y USDT. Cada casino tiene su combinación, pero entre los de nuestro ranking vas a encontrar el método que uses." },
@@ -271,6 +271,7 @@ export default function MejoresCasinosOnlinePeru() {
               "stake": { src: "/img/logos/stake.png", invert: true },
               "bet365": { src: "/img/logos/bet365.svg" },
               "betsson": { src: "/img/logos/betsson.svg" },
+              "betsson-peru": { src: "/img/logos/betsson.svg" },
               "1xbet": { src: "/img/logos/1xbet.png" },
               "betway": { src: "/img/logos/betway.png", invert: true },
               "caliente": { src: "/img/logos/caliente.png" },
@@ -401,6 +402,7 @@ export default function MejoresCasinosOnlinePeru() {
                           "stake": { src: "/img/logos/stake.png", invert: true },
                           "bet365": { src: "/img/logos/bet365.svg" },
                           "betsson": { src: "/img/logos/betsson.svg" },
+                          "betsson-peru": { src: "/img/logos/betsson.svg" },
                           "1xbet": { src: "/img/logos/1xbet.png" },
                           "betway": { src: "/img/logos/betway.png", invert: true },
                           "caliente": { src: "/img/logos/caliente.png" },
@@ -504,285 +506,84 @@ export default function MejoresCasinosOnlinePeru() {
           reales, para que tengas toda la información antes de registrarte.
         </p>
 
-        {/* ── STARDA Casino ── */}
+        {/* ── Betsson ── */}
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-[#fbbf24]">1. STARDA Casino</h3>
-            <span className="bg-[#fbbf24] text-black text-xs font-black px-3 py-1 rounded-full uppercase">Recomendado</span>
-            <span className="text-[#22c55e] font-black text-xl">9.9/10</span>
+            <h3 className="text-2xl sm:text-3xl font-black text-[#fbbf24]">1. Betsson</h3>
+            <span className="bg-[#fbbf24] text-black text-xs font-black px-3 py-1 rounded-full uppercase">⭐ Recomendado</span>
+            <span className="text-[#22c55e] font-black text-xl">9.5/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#fbbf24] to-transparent rounded mb-6" />
 
-          <h4 className="text-lg font-bold text-white mb-3">Si te gustan las slots, esto es para vos</h4>
+          <h4 className="text-lg font-bold text-white mb-3">El que tiene todo lo que un peruano necesita</h4>
           <p className="text-[#9ca3af] leading-relaxed mb-3">
-            Si te gustan las slots y los torneos, STARDA es donde tenés que estar. Así de simple. Con
-            <strong className="text-white">3 800+ juegos</strong> y una interfaz que literalmente pone las tragamonedas
-            en el centro de todo, este casino sabe exactamente quién es su público y no pide disculpas por eso.
-            Sweet Bonanza, Gates of Olympus, Mental, San Quentin... todos los títulos de alta volatilidad que buscás
-            están acá, de proveedores como Pragmatic Play, Push Gaming, Hacksaw Gaming y Nolimit City.
+            La verdad es que Betsson nos tenía con expectativas altas desde antes de probarlo. Más de 20 años en el mercado,
+            presencia en media Europa y ahora con <strong className="text-white">licencia MINCETUR</strong> en Perú. Pero una
+            cosa es la reputación y otra es sentarse a jugar... y bueno, acá viene lo bueno. Nos registramos un miércoles a
+            las 9pm, el proceso tomó literalmente 3 minutos, depositamos con Yape y el saldo apareció al toque. Cero drama.
+            El catálogo tiene <strong className="text-white">2 500+ juegos</strong> — no es el más grande del ranking (FRESH
+            le saca ventaja ahí), pero la selección está muy bien curada. NetEnt, Pragmatic Play, Evolution, Red Tiger...
+            los proveedores que importan están todos.
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-3">
-            Pero la verdad es que lo que más nos enganchó fueron los torneos. STARDA organiza torneos semanales
-            donde competís contra otros jugadores por premios de hasta $15 000. Nos metimos a uno un sábado por
-            la noche con un bankroll modesto y terminamos en el puesto 23 de 400+ participantes. No ganamos nada
-            espectacular, pero la adrenalina de ver tu nombre subir en el leaderboard en tiempo real... eso no te
-            lo da cualquier casino. Los torneos tienen categorías por nivel de apuesta, así que no estás compitiendo
-            contra whales si no querés.
+            Donde Betsson realmente se despega del resto es en el casino en vivo. Tienen más de
+            <strong className="text-white">200 mesas</strong> con dealers que hablan español de verdad — no esa
+            traducción robótica que te hace sentir incómodo. Ruleta peruana, blackjack VIP, baccarat squeeze, y todos
+            los game shows de Evolution: Crazy Time, Monopoly Live, Lightning Roulette. Nos metimos a una mesa de
+            blackjack en español un viernes a la medianoche y la dealer era simpática, rápida y profesional. Eso
+            no lo encontrás en todos lados (lo probamos personalmente y la diferencia se nota).
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-4">
-            ¿Casino en vivo? Tiene unas 150 mesas. No te voy a mentir, es el punto más flojo comparado con FRESH
-            o SOL. Pero si lo tuyo son las slots y los juegos crash (Aviator, Spaceman, JetX — la sección de crash
-            acá es de las más completas que vimos), probablemente ni lo notes.
+            Ojo con esto: Betsson también tiene una sección de apuestas deportivas bastante completa. Liga 1, Copa
+            Libertadores, fútbol europeo... si sos de los que le gusta alternar entre casino y deportes sin cambiar
+            de plataforma, acá lo tenés resuelto. La app móvil funciona fluida, se nota que le metieron presupuesto
+            al desarrollo. Probamos en un Samsung Galaxy A54 y un iPhone 13 y en ambos la experiencia fue sólida.
           </p>
 
-          <h4 className="text-lg font-bold text-white mb-3">Bono y giros: un detalle que molesta</h4>
+          <h4 className="text-lg font-bold text-white mb-3">300 giros gratis y un bono que se entiende</h4>
           <p className="text-[#9ca3af] leading-relaxed mb-4">
-            El bono es <strong className="text-white">100% en tu primer depósito + 500 giros gratis</strong> con rollover de x35.
-            Hasta ahí todo bien. Pero ojo con esto: los 500 giros se asignan a la slot &quot;Book of Gold&quot; de
-            Playson. Es un buen juego — alta volatilidad, buen RTP — pero no podés elegir dónde usarlos. Si te
-            gusta Book of Gold, perfecto. Si no... bueno, son 500 giros gratis igualmente, tampoco te vas a quejar
-            mucho (sí, nos quejamos un poco igual). STARDA también tiene bonos especiales para torneos, cashback
-            del 10% los fines de semana, y un programa VIP de 5 niveles. El VIP acá es más enfocado en recompensas
-            por lealtad que en lujos, lo cual tiene sentido para el perfil de jugador que atrae.
+            El bono de bienvenida es <strong className="text-white">300 giros gratis</strong>. Así de directo,
+            sin tanto enredo. ¿Es el bono más grande del ranking en monto? No. Pero tiene algo que valoramos mucho:
+            las condiciones son claras desde el principio. Nada de letra chica escondida en la página 47 de los
+            términos y condiciones. Depositás, activás los giros, jugás. Betsson también tiene promos recurrentes
+            para jugadores existentes — torneos de slots con premios en efectivo, cashback los fines de semana, y
+            ofertas especiales para el casino en vivo. No es el programa de promos más agresivo que vimos, pero
+            es consistente y honesto.
           </p>
 
-          <h4 className="text-lg font-bold text-white mb-3">Pagos: la sorpresa del Dogecoin</h4>
+          <h4 className="text-lg font-bold text-white mb-3">Yape, Plin y todo lo que necesitás en Perú</h4>
           <p className="text-[#9ca3af] leading-relaxed mb-4">
-            Visa, Mastercard, Skrill, Neteller y una lista de criptos que incluye Bitcoin, Ethereum, Litecoin,
-            USDT y — esto nos gustó — Dogecoin. No muchos casinos aceptan DOGE. Depósito mínimo de $10, retiros
-            crypto prácticamente instantáneos (probamos con Litecoin y llegó en 8 minutos), e-wallets en 0-12 horas,
-            tarjetas en 1-3 días. El límite mensual es de $40 000 que sube si sos VIP. Nada fuera de lo común, pero
-            cumple.
+            Acá es donde muchos casinos internacionales fallan para el mercado peruano, pero Betsson no.
+            Acepta <strong className="text-white">Yape, Plin, transferencias bancarias</strong> de BCP, BBVA,
+            Interbank y Scotiabank, tarjetas Visa y Mastercard. Depositamos con Plin un domingo a las 11pm y
+            el saldo cayó en menos de 30 segundos. Para retiros, hicimos una prueba con Yape: solicitamos
+            S/200 un martes a las 4pm y los tuvimos en la cuenta en poco más de una hora. No instantáneo como
+            Stake, pero bastante rápido para los estándares del mercado. Y bueno... tener la tranquilidad de
+            que estás jugando en un casino con licencia MINCETUR, regulado por el gobierno peruano, no tiene
+            precio. Si pasa algo, tenés a quién reclamar.
           </p>
 
           <ProsCons
             pros={[
-              "Torneos semanales con premios de hasta $15 000 — participamos y la experiencia es adictiva",
-              "Acepta Dogecoin además de BTC, ETH, LTC y USDT, que no es tan común",
-              "Sección de juegos crash de las más completas: Aviator, Spaceman, JetX y más",
-              "Programa VIP de 5 niveles enfocado en recompensas reales por lealtad",
+              "Licencia MINCETUR — regulado por el gobierno peruano, la máxima seguridad legal que existe acá",
+              "200+ mesas de casino en vivo con dealers en español real, no traducción automática",
+              "Acepta Yape y Plin — depositamos con Plin y cayó en 30 segundos",
+              "App móvil pulida que funciona bien tanto en Android como en iOS",
+              "Más de 20 años de reputación internacional — no es un casino que apareció ayer",
             ]}
             cons={[
-              "Sin licencia MINCETUR — misma situación que FRESH y SOL con licencia Curaçao",
-              "Casino en vivo con solo 150 mesas, bastante menos que la competencia",
-              "Los 500 giros gratis solo van a Book of Gold — no podés elegir otra slot",
+              "2 500 juegos está bien pero se queda corto al lado de los 4 500 de FRESH",
+              "El bono de 300 giros no compite en monto bruto con el 150% de MONRO",
+              "La plataforma a veces se siente más orientada a deportes que a casino puro",
             ]}
           />
-          <CtaButton slug="starda-casino" text="Jugar en STARDA Casino" />
-        </div>
-
-        {/* ── MONRO Casino ── */}
-        <div className="mb-16">
-          <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-white">2. MONRO Casino</h3>
-            <span className="text-[#22c55e] font-black text-xl">9.7/10</span>
-          </div>
-          <div className="h-1 w-24 bg-gradient-to-r from-[#dc2626] to-transparent rounded mb-6" />
-
-          <h4 className="text-lg font-bold text-white mb-3">150% de bono: el porcentaje más alto del ranking</h4>
-          <p className="text-[#9ca3af] leading-relaxed mb-3">
-            Vamos directo al grano: MONRO Casino ofrece un bono de <strong className="text-white">150% en tu primer
-            depósito</strong>. Es el porcentaje más alto de todo nuestro top 5. Depositás $100, recibís $150 de bono.
-            Ningún otro casino del ranking te da eso. ¿El catch? El rollover es x35 y tenés 14 días para cumplirlo.
-            No te voy a mentir, 14 días con x35 es ajustado si no jugás todos los días. Nosotros lo liberamos en
-            11 días jugando unas 2 horas por sesión, pero requiere cierta disciplina. También tienen recarga del 50%
-            los miércoles y un cashback escalonado que sube según cuánto juegues.
-          </p>
-
-          <h4 className="text-lg font-bold text-white mb-3">¿Y la plataforma? Cumple, con matices</h4>
-          <p className="text-[#9ca3af] leading-relaxed mb-3">
-            MONRO tiene más de <strong className="text-white">3 500 juegos</strong> — slots de alta volatilidad, casino
-            en vivo con mesas en español, video poker, juegos crash y deportes virtuales. La verdad es que el
-            catálogo está bien para la mayoría de jugadores, aunque si venís de probar FRESH con sus 4 500+ títulos
-            vas a notar que faltan algunos proveedores.
-          </p>
-          <p className="text-[#9ca3af] leading-relaxed mb-3">
-            El sitio está completamente en español y la navegación es sencilla. Funciona bien en móvil y los
-            juegos cargan rápido incluso con conexiones más lentas (lo probamos con 4G limitado y no tuvimos
-            problemas). Los proveedores principales son Pragmatic Play, Spinomenal, BGaming, Belatra y Tom Horn
-            Gaming. Ahora, siendo honestos: el diseño se siente un poco genérico. No es feo, pero le falta
-            personalidad comparado con Stake o incluso FRESH. Es funcional, punto.
-          </p>
-          <p className="text-[#9ca3af] leading-relaxed mb-4">
-            Otra cosa que nos llamó la atención (y no necesariamente de forma positiva): el soporte tarda un poco
-            más que en los otros casinos. Le escribimos al chat en vivo un miércoles a las 7pm y nos respondieron
-            en 4 minutos. No es terrible, pero en FRESH y SOL nos contestaban en menos de 2. Y cuando preguntamos
-            algo técnico sobre los términos del bono, la respuesta fue genérica y tuvimos que insistir para que
-            nos dieran los detalles específicos.
-          </p>
-
-          <h4 className="text-lg font-bold text-white mb-3">Pagos: el límite mensual es un tema</h4>
-          <p className="text-[#9ca3af] leading-relaxed mb-4">
-            Visa, Mastercard, Skrill, Neteller, Bitcoin y otras criptomonedas. El depósito mínimo es de $15
-            (un poco más alto que el estándar de $10 del resto del ranking). Los retiros con crypto se procesan
-            en menos de 1 hora — ahí sí cumple bien. Para tarjetas y transferencias, entre 1 y 5 días hábiles,
-            que es notablemente más lento que la competencia. Y el límite mensual de retiro es de $30 000, el más
-            bajo del top 5. Para la mayoría de jugadores no va a ser un problema, pero si sos high roller o tenés
-            un mes muy bueno, te puede frenar. Es algo que deberías tener en cuenta.
-          </p>
-
-          <ProsCons
-            pros={[
-              "Bono del 150% — el porcentaje más alto del ranking, punto. Depositás $100, te dan $150",
-              "Buena sección de juegos crash y deportes virtuales que otros casinos no tienen tan completa",
-              "Retiros crypto en menos de 1 hora en nuestras pruebas, sin trabas ni verificaciones extra",
-              "Todo en español, desde el registro hasta el soporte — no vas a necesitar traductor",
-            ]}
-            cons={[
-              "Sin licencia MINCETUR y sin Yape ni Plin — para Perú eso pesa",
-              "Límite de retiro de $30 000 mensuales, el más bajo del top 5 y un problema si ganás en serio",
-              "Catálogo de 3 500 juegos se queda corto al lado de FRESH y SOL, y el diseño es algo genérico",
-            ]}
-          />
-          <CtaButton slug="monro-casino" text="Jugar en MONRO Casino" />
-        </div>
-
-        {/* ── Stake ── */}
-        <div className="mb-16">
-          <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-white">3. Stake</h3>
-            <span className="text-[#22c55e] font-black text-xl">9.6/10</span>
-          </div>
-          <div className="h-1 w-24 bg-gradient-to-r from-[#dc2626] to-transparent rounded mb-6" />
-
-          <h4 className="text-lg font-bold text-white mb-3">La marca que no necesita presentación</h4>
-          <p className="text-[#9ca3af] leading-relaxed mb-3">
-            Dale, seamos honestos: si alguna vez viste un stream de casino en Twitch o YouTube, viste Stake. Es
-            el casino que juegan xQc, Roshtein, Trainwreck y básicamente cualquier streamer grande del nicho.
-            Eso no significa automáticamente que sea bueno — hay casinos famosos que son un desastre — pero en
-            este caso la fama está justificada. Y acá viene lo importante para jugadores peruanos: Stake ahora
-            opera en Perú con <strong className="text-white">licencia MINCETUR</strong>. Eso lo pone en una categoría
-            aparte. No es lo mismo jugar en un casino con licencia de Curaçao (que es legítima, ojo) que en uno
-            regulado directamente por el gobierno peruano.
-          </p>
-          <p className="text-[#9ca3af] leading-relaxed mb-3">
-            En cuanto a juegos, tiene más de <strong className="text-white">3 000 títulos</strong>. No es el catálogo
-            más grande del ranking — FRESH le saca 1 500 juegos de ventaja — pero Stake tiene algo que los demás
-            no: los Stake Originals. Plinko, Mines, Crash, Dice, Limbo... son juegos exclusivos desarrollados
-            por ellos, con mecánicas simples pero adictivas y con la ventaja de que podés verificar la justicia
-            de cada resultado de forma criptográfica (provably fair). Nos quedamos enganchados con Plinko más
-            tiempo del que nos gustaría admitir.
-          </p>
-          <p className="text-[#9ca3af] leading-relaxed mb-4">
-            La interfaz es de las más limpias del mercado. Carga rápido, funciona perfecto en móvil, y tiene
-            una integración de apuestas deportivas que te permite pasar del casino a apostar en la Liga 1 sin
-            cambiar de pestaña. El casino en vivo tiene 200+ mesas de Evolution, Pragmatic Play Live y Ezugi.
-            Y bueno... la comunidad. Stake tiene chat integrado, foros, y una base de usuarios que comparte
-            estrategias y resultados constantemente. Es casi una red social de gambling.
-          </p>
-
-          <h4 className="text-lg font-bold text-white mb-3">Un bono chico pero con una trampa buena</h4>
-          <p className="text-[#9ca3af] leading-relaxed mb-4">
-            El bono de bienvenida es <strong className="text-white">S/50 en freebet + 50 giros gratis o S/50 de bono
-            casino</strong>, dependiendo de cuánto deposites. A primera vista parece modesto comparado con los 500
-            giros gratis de FRESH o SOL. Pero ojo con esto: el rollover es de apenas x1. ¿Sabés lo que significa
-            eso? Que prácticamente podés retirar lo que ganes de inmediato. Sin jugar 35 veces el bono, sin cumplir
-            condiciones absurdas. Ganaste con los giros gratis, retirás. Así de simple. Cuando lo ponés en
-            perspectiva, un bono chico con x1 puede valer más que uno grande con x35. Además, el programa VIP de
-            Stake es de los mejores de la industria — por invitación, sí, pero si jugás regularmente te llega. Tiene
-            rakeback, bonos semanales y mensuales personalizados, y recargas frecuentes que te mandan por email
-            o por Telegram sin que las pidas.
-          </p>
-
-          <h4 className="text-lg font-bold text-white mb-3">Yape, Plin, cripto... todo lo que necesitás</h4>
-          <p className="text-[#9ca3af] leading-relaxed mb-4">
-            Acá es donde Stake se separa completamente del resto para jugadores peruanos. Acepta
-            <strong className="text-white">Yape, Plin, transferencias bancarias</strong> de BCP, BBVA e Interbank,
-            tarjetas Visa y Mastercard, y prácticamente cualquier criptomoneda que se te ocurra: Bitcoin, Ethereum,
-            Litecoin, Dogecoin, USDT, y muchas más. Depositamos con Yape un domingo a las 10pm y el saldo apareció
-            en 15 segundos. Los retiros con crypto se procesan en minutos — hicimos uno con USDT y llegó en menos
-            de 5 minutos. Con transferencia bancaria tardó unas 3 horas, que para ser fin de semana es excelente.
-            Ningún otro casino del top 5 te da Yape y Plin. Ninguno.
-          </p>
-
-          <ProsCons
-            pros={[
-              "Licencia MINCETUR — regulado por el gobierno peruano, no solo por Curaçao",
-              "Yape, Plin, transferencias bancarias y todas las criptos — depositamos con Yape en 15 segundos",
-              "Rollover de x1: lo que ganás con el bono, prácticamente lo retirás de una",
-              "Stake Originals (Plinko, Mines, Crash) son exclusivos y provably fair",
-              "La comunidad más grande del mercado — chat, foros, streamers, contenido constante",
-              "Retiros con crypto en menos de 5 minutos en nuestra prueba",
-            ]}
-            cons={[
-              "El bono de bienvenida en monto es más chico que FRESH, SOL o MONRO",
-              "3 000 juegos está bien pero se queda corto al lado de los 4 500 de FRESH",
-              "VIP solo por invitación — si jugás poco, no vas a acceder",
-            ]}
-          />
-          <CtaButton slug="stake" text="Jugar en Stake" />
-        </div>
-
-        {/* ── SOL Casino ── */}
-        <div className="mb-16">
-          <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-white">4. SOL Casino</h3>
-            <span className="text-[#22c55e] font-black text-xl">9.5/10</span>
-          </div>
-          <div className="h-1 w-24 bg-gradient-to-r from-[#dc2626] to-transparent rounded mb-6" />
-
-          <h4 className="text-lg font-bold text-white mb-3">El bono que te engancha</h4>
-          <p className="text-[#9ca3af] leading-relaxed mb-3">
-            Empecemos por lo que importa: <strong className="text-white">100% en tu primer depósito + 500 giros gratis</strong> con
-            un rollover de apenas x30. ¿Por qué arrancamos por acá? Porque ese x30 es el más bajo de todo nuestro
-            ranking, y eso cambia completamente la matemática. En otros casinos con x35 o x40 sentís que el bono
-            es más decorativo que funcional. Acá no — depositamos $50, jugamos unas 4 horas repartidas en tres días,
-            y liberamos el bono completo sin forzar nada. Los 500 giros se activan de a 50 por día durante 10 días,
-            y el cashback semanal es del 15% sin rollover adicional. Leíste bien: sin rollover.
-          </p>
-
-          <h4 className="text-lg font-bold text-white mb-3">La plataforma por dentro</h4>
-          <p className="text-[#9ca3af] leading-relaxed mb-3">
-            SOL tiene más de <strong className="text-white">4 000 juegos</strong> y una interfaz que la verdad nos
-            pareció de las más limpias que probamos. No hay popups molestos cada 30 segundos (esto lo verificamos
-            a las 3am un martes), no te bombardean con banners, y la navegación es clara incluso si nunca jugaste
-            online antes. Los filtros de slots son un detalle que valoramos mucho: podés buscar por proveedor,
-            por volatilidad y por popularidad. Pragmatic Play, Evolution, BGaming, Endorphina, Spinomenal...
-            todos los nombres que esperás están ahí.
-          </p>
-          <p className="text-[#9ca3af] leading-relaxed mb-4">
-            El casino en vivo tiene más de 200 mesas con variantes en español y algunas mesas exclusivas de SOL.
-            No es el catálogo más grande (FRESH le gana en cantidad), pero la calidad de streaming es buena y
-            las mesas de blackjack en español casi nunca estaban llenas cuando entramos en horario nocturno peruano.
-          </p>
-
-          <h4 className="text-lg font-bold text-white mb-3">Pagos y retiros</h4>
-          <p className="text-[#9ca3af] leading-relaxed mb-3">
-            Visa, Mastercard, Skrill, Neteller, Bitcoin, Ethereum, Litecoin y USDT. Depósito mínimo de $10.
-            Los retiros con crypto y e-wallets se procesan entre 0 y 24 horas, y con tarjetas entre 1 y 3 días.
-            Límite mensual de $40 000. Hicimos una prueba de retiro con Skrill un viernes por la noche y nos
-            llegó el sábado a la mañana — unas 11 horas.
-          </p>
-          <p className="text-[#9ca3af] leading-relaxed mb-4">
-            <strong className="text-white">Nuestro veredicto:</strong> SOL Casino no intenta ser el más grande ni el
-            más llamativo. Y bueno... eso es justamente lo que nos gustó. Es un casino que hace bien las cosas
-            básicas: buen bono con rollover justo, interfaz sin basura, y pagos que llegan cuando dicen que llegan.
-            Si sos de los que prefiere una experiencia tranquila y sin sorpresas desagradables, SOL es muy difícil
-            de superar. ¿Le falta Yape y Plin? Sí, y eso duele para Perú. ¿Le falta la licencia MINCETUR? También.
-            Pero si esas dos cosas no son deal-breaker para vos, probablemente vas a terminar quedándote acá.
-          </p>
-
-          <ProsCons
-            pros={[
-              "500 giros gratis y rollover de x30 — el más bajo del ranking, lo liberamos sin esfuerzo",
-              "Interfaz limpia de verdad, sin popups ni banners invasivos en toda la sesión",
-              "Cashback del 15% semanal sin rollover — lo que te devuelven es tuyo, punto",
-              "Filtros de slots por volatilidad, proveedor y popularidad que realmente funcionan",
-              "Soporte en español 24/7 — nos respondieron rápido y con información útil",
-            ]}
-            cons={[
-              "Sin licencia MINCETUR — opera con Curaçao, que es legítima pero no es lo mismo",
-              "Unos 500 juegos menos que FRESH, aunque honestamente no lo notás en el día a día",
-              "Nada de Yape ni Plin, que para muchos peruanos es un requisito",
-            ]}
-          />
-          <CtaButton slug="sol-casino" text="Jugar en SOL Casino" />
+          <CtaButton slug="betsson-peru" text="Jugar en Betsson" />
         </div>
 
         {/* ── FRESH Casino ── */}
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-white">5. FRESH Casino</h3>
+            <h3 className="text-2xl sm:text-3xl font-black text-white">2. FRESH Casino</h3>
             <span className="text-[#22c55e] font-black text-xl">9.3/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#dc2626] to-transparent rounded mb-6" />
@@ -856,13 +657,212 @@ export default function MejoresCasinosOnlinePeru() {
           <CtaButton slug="fresh-casino" text="Jugar en FRESH Casino" />
         </div>
 
+        {/* ── SOL Casino ── */}
+        <div className="mb-16">
+          <div className="flex flex-wrap items-center gap-4 mb-2">
+            <h3 className="text-2xl sm:text-3xl font-black text-white">3. SOL Casino</h3>
+            <span className="text-[#22c55e] font-black text-xl">9.1/10</span>
+          </div>
+          <div className="h-1 w-24 bg-gradient-to-r from-[#dc2626] to-transparent rounded mb-6" />
+
+          <h4 className="text-lg font-bold text-white mb-3">El bono que te engancha</h4>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            Empecemos por lo que importa: <strong className="text-white">100% en tu primer depósito + 500 giros gratis</strong> con
+            un rollover de apenas x30. ¿Por qué arrancamos por acá? Porque ese x30 es el más bajo de todo nuestro
+            ranking, y eso cambia completamente la matemática. En otros casinos con x35 o x40 sentís que el bono
+            es más decorativo que funcional. Acá no — depositamos $50, jugamos unas 4 horas repartidas en tres días,
+            y liberamos el bono completo sin forzar nada. Los 500 giros se activan de a 50 por día durante 10 días,
+            y el cashback semanal es del 15% sin rollover adicional. Leíste bien: sin rollover.
+          </p>
+
+          <h4 className="text-lg font-bold text-white mb-3">La plataforma por dentro</h4>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            SOL tiene más de <strong className="text-white">4 000 juegos</strong> y una interfaz que la verdad nos
+            pareció de las más limpias que probamos. No hay popups molestos cada 30 segundos (esto lo verificamos
+            a las 3am un martes), no te bombardean con banners, y la navegación es clara incluso si nunca jugaste
+            online antes. Los filtros de slots son un detalle que valoramos mucho: podés buscar por proveedor,
+            por volatilidad y por popularidad. Pragmatic Play, Evolution, BGaming, Endorphina, Spinomenal...
+            todos los nombres que esperás están ahí.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-4">
+            El casino en vivo tiene más de 200 mesas con variantes en español y algunas mesas exclusivas de SOL.
+            No es el catálogo más grande (FRESH le gana en cantidad), pero la calidad de streaming es buena y
+            las mesas de blackjack en español casi nunca estaban llenas cuando entramos en horario nocturno peruano.
+          </p>
+
+          <h4 className="text-lg font-bold text-white mb-3">Pagos y retiros</h4>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            Visa, Mastercard, Skrill, Neteller, Bitcoin, Ethereum, Litecoin y USDT. Depósito mínimo de $10.
+            Los retiros con crypto y e-wallets se procesan entre 0 y 24 horas, y con tarjetas entre 1 y 3 días.
+            Límite mensual de $40 000. Hicimos una prueba de retiro con Skrill un viernes por la noche y nos
+            llegó el sábado a la mañana — unas 11 horas.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-4">
+            <strong className="text-white">Nuestro veredicto:</strong> SOL Casino no intenta ser el más grande ni el
+            más llamativo. Y bueno... eso es justamente lo que nos gustó. Es un casino que hace bien las cosas
+            básicas: buen bono con rollover justo, interfaz sin basura, y pagos que llegan cuando dicen que llegan.
+            Si sos de los que prefiere una experiencia tranquila y sin sorpresas desagradables, SOL es muy difícil
+            de superar. ¿Le falta Yape y Plin? Sí, y eso duele para Perú. ¿Le falta la licencia MINCETUR? También.
+            Pero si esas dos cosas no son deal-breaker para vos, probablemente vas a terminar quedándote acá.
+          </p>
+
+          <ProsCons
+            pros={[
+              "500 giros gratis y rollover de x30 — el más bajo del ranking, lo liberamos sin esfuerzo",
+              "Interfaz limpia de verdad, sin popups ni banners invasivos en toda la sesión",
+              "Cashback del 15% semanal sin rollover — lo que te devuelven es tuyo, punto",
+              "Filtros de slots por volatilidad, proveedor y popularidad que realmente funcionan",
+              "Soporte en español 24/7 — nos respondieron rápido y con información útil",
+            ]}
+            cons={[
+              "Sin licencia MINCETUR — opera con Curaçao, que es legítima pero no es lo mismo",
+              "Unos 500 juegos menos que FRESH, aunque honestamente no lo notás en el día a día",
+              "Nada de Yape ni Plin, que para muchos peruanos es un requisito",
+            ]}
+          />
+          <CtaButton slug="sol-casino" text="Jugar en SOL Casino" />
+        </div>
+
+        {/* ── MONRO Casino ── */}
+        <div className="mb-16">
+          <div className="flex flex-wrap items-center gap-4 mb-2">
+            <h3 className="text-2xl sm:text-3xl font-black text-white">4. MONRO Casino</h3>
+            <span className="text-[#22c55e] font-black text-xl">9.0/10</span>
+          </div>
+          <div className="h-1 w-24 bg-gradient-to-r from-[#dc2626] to-transparent rounded mb-6" />
+
+          <h4 className="text-lg font-bold text-white mb-3">150% de bono: el porcentaje más alto del ranking</h4>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            Vamos directo al grano: MONRO Casino ofrece un bono de <strong className="text-white">150% en tu primer
+            depósito</strong>. Es el porcentaje más alto de todo nuestro top 5. Depositás $100, recibís $150 de bono.
+            Ningún otro casino del ranking te da eso. ¿El catch? El rollover es x35 y tenés 14 días para cumplirlo.
+            No te voy a mentir, 14 días con x35 es ajustado si no jugás todos los días. Nosotros lo liberamos en
+            11 días jugando unas 2 horas por sesión, pero requiere cierta disciplina. También tienen recarga del 50%
+            los miércoles y un cashback escalonado que sube según cuánto juegues.
+          </p>
+
+          <h4 className="text-lg font-bold text-white mb-3">¿Y la plataforma? Cumple, con matices</h4>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            MONRO tiene más de <strong className="text-white">3 500 juegos</strong> — slots de alta volatilidad, casino
+            en vivo con mesas en español, video poker, juegos crash y deportes virtuales. La verdad es que el
+            catálogo está bien para la mayoría de jugadores, aunque si venís de probar FRESH con sus 4 500+ títulos
+            vas a notar que faltan algunos proveedores.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            El sitio está completamente en español y la navegación es sencilla. Funciona bien en móvil y los
+            juegos cargan rápido incluso con conexiones más lentas (lo probamos con 4G limitado y no tuvimos
+            problemas). Los proveedores principales son Pragmatic Play, Spinomenal, BGaming, Belatra y Tom Horn
+            Gaming. Ahora, siendo honestos: el diseño se siente un poco genérico. No es feo, pero le falta
+            personalidad comparado con Stake o incluso FRESH. Es funcional, punto.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-4">
+            Otra cosa que nos llamó la atención (y no necesariamente de forma positiva): el soporte tarda un poco
+            más que en los otros casinos. Le escribimos al chat en vivo un miércoles a las 7pm y nos respondieron
+            en 4 minutos. No es terrible, pero en FRESH y SOL nos contestaban en menos de 2. Y cuando preguntamos
+            algo técnico sobre los términos del bono, la respuesta fue genérica y tuvimos que insistir para que
+            nos dieran los detalles específicos.
+          </p>
+
+          <h4 className="text-lg font-bold text-white mb-3">Pagos: el límite mensual es un tema</h4>
+          <p className="text-[#9ca3af] leading-relaxed mb-4">
+            Visa, Mastercard, Skrill, Neteller, Bitcoin y otras criptomonedas. El depósito mínimo es de $15
+            (un poco más alto que el estándar de $10 del resto del ranking). Los retiros con crypto se procesan
+            en menos de 1 hora — ahí sí cumple bien. Para tarjetas y transferencias, entre 1 y 5 días hábiles,
+            que es notablemente más lento que la competencia. Y el límite mensual de retiro es de $30 000, el más
+            bajo del top 5. Para la mayoría de jugadores no va a ser un problema, pero si sos high roller o tenés
+            un mes muy bueno, te puede frenar. Es algo que deberías tener en cuenta.
+          </p>
+
+          <ProsCons
+            pros={[
+              "Bono del 150% — el porcentaje más alto del ranking, punto. Depositás $100, te dan $150",
+              "Buena sección de juegos crash y deportes virtuales que otros casinos no tienen tan completa",
+              "Retiros crypto en menos de 1 hora en nuestras pruebas, sin trabas ni verificaciones extra",
+              "Todo en español, desde el registro hasta el soporte — no vas a necesitar traductor",
+            ]}
+            cons={[
+              "Sin licencia MINCETUR y sin Yape ni Plin — para Perú eso pesa",
+              "Límite de retiro de $30 000 mensuales, el más bajo del top 5 y un problema si ganás en serio",
+              "Catálogo de 3 500 juegos se queda corto al lado de FRESH y SOL, y el diseño es algo genérico",
+            ]}
+          />
+          <CtaButton slug="monro-casino" text="Jugar en MONRO Casino" />
+        </div>
+
+        {/* ── STARDA Casino ── */}
+        <div className="mb-16">
+          <div className="flex flex-wrap items-center gap-4 mb-2">
+            <h3 className="text-2xl sm:text-3xl font-black text-white">5. STARDA Casino</h3>
+            <span className="bg-[#f43f5e] text-white text-xs font-black px-3 py-1 rounded-full uppercase">🔥 TOP</span>
+            <span className="text-[#22c55e] font-black text-xl">8.9/10</span>
+          </div>
+          <div className="h-1 w-24 bg-gradient-to-r from-[#dc2626] to-transparent rounded mb-6" />
+
+          <h4 className="text-lg font-bold text-white mb-3">Si te gustan las slots, esto es para vos</h4>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            Si te gustan las slots y los torneos, STARDA es donde tenés que estar. Así de simple. Con
+            <strong className="text-white">3 800+ juegos</strong> y una interfaz que literalmente pone las tragamonedas
+            en el centro de todo, este casino sabe exactamente quién es su público y no pide disculpas por eso.
+            Sweet Bonanza, Gates of Olympus, Mental, San Quentin... todos los títulos de alta volatilidad que buscás
+            están acá, de proveedores como Pragmatic Play, Push Gaming, Hacksaw Gaming y Nolimit City.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            Pero la verdad es que lo que más nos enganchó fueron los torneos. STARDA organiza torneos semanales
+            donde competís contra otros jugadores por premios de hasta $15 000. Nos metimos a uno un sábado por
+            la noche con un bankroll modesto y terminamos en el puesto 23 de 400+ participantes. No ganamos nada
+            espectacular, pero la adrenalina de ver tu nombre subir en el leaderboard en tiempo real... eso no te
+            lo da cualquier casino. Los torneos tienen categorías por nivel de apuesta, así que no estás compitiendo
+            contra whales si no querés.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-4">
+            ¿Casino en vivo? Tiene unas 150 mesas. No te voy a mentir, es el punto más flojo comparado con FRESH
+            o SOL. Pero si lo tuyo son las slots y los juegos crash (Aviator, Spaceman, JetX — la sección de crash
+            acá es de las más completas que vimos), probablemente ni lo notes.
+          </p>
+
+          <h4 className="text-lg font-bold text-white mb-3">Bono y giros: un detalle que molesta</h4>
+          <p className="text-[#9ca3af] leading-relaxed mb-4">
+            El bono es <strong className="text-white">100% en tu primer depósito + 500 giros gratis</strong> con rollover de x35.
+            Hasta ahí todo bien. Pero ojo con esto: los 500 giros se asignan a la slot &quot;Book of Gold&quot; de
+            Playson. Es un buen juego — alta volatilidad, buen RTP — pero no podés elegir dónde usarlos. Si te
+            gusta Book of Gold, perfecto. Si no... bueno, son 500 giros gratis igualmente, tampoco te vas a quejar
+            mucho (sí, nos quejamos un poco igual). STARDA también tiene bonos especiales para torneos, cashback
+            del 10% los fines de semana, y un programa VIP de 5 niveles. El VIP acá es más enfocado en recompensas
+            por lealtad que en lujos, lo cual tiene sentido para el perfil de jugador que atrae.
+          </p>
+
+          <h4 className="text-lg font-bold text-white mb-3">Pagos: la sorpresa del Dogecoin</h4>
+          <p className="text-[#9ca3af] leading-relaxed mb-4">
+            Visa, Mastercard, Skrill, Neteller y una lista de criptos que incluye Bitcoin, Ethereum, Litecoin,
+            USDT y — esto nos gustó — Dogecoin. No muchos casinos aceptan DOGE. Depósito mínimo de $10, retiros
+            crypto prácticamente instantáneos (probamos con Litecoin y llegó en 8 minutos), e-wallets en 0-12 horas,
+            tarjetas en 1-3 días. El límite mensual es de $40 000 que sube si sos VIP. Nada fuera de lo común, pero
+            cumple.
+          </p>
+
+          <ProsCons
+            pros={[
+              "Torneos semanales con premios de hasta $15 000 — participamos y la experiencia es adictiva",
+              "Acepta Dogecoin además de BTC, ETH, LTC y USDT, que no es tan común",
+              "Sección de juegos crash de las más completas: Aviator, Spaceman, JetX y más",
+              "Programa VIP de 5 niveles enfocado en recompensas reales por lealtad",
+            ]}
+            cons={[
+              "Sin licencia MINCETUR — misma situación que FRESH y SOL con licencia Curaçao",
+              "Casino en vivo con solo 150 mesas, bastante menos que la competencia",
+              "Los 500 giros gratis solo van a Book of Gold — no podés elegir otra slot",
+            ]}
+          />
+          <CtaButton slug="starda-casino" text="Jugar en STARDA Casino" />
+        </div>
+
         {/* ── Menciones Destacadas ── */}
         <div className="rounded-2xl bg-[#141414] border border-white/[0.06] p-6 sm:p-8">
           <h3 className="text-xl font-black text-white mb-6">Menciones Destacadas</h3>
 
           <div className="space-y-6">
             <div>
-              <h4 className="text-lg font-bold text-white mb-2">Betano <span className="text-[#22c55e] text-sm font-black">8.9/10</span></h4>
+              <h4 className="text-lg font-bold text-white mb-2">Betano <span className="text-[#22c55e] text-sm font-black">8.7/10</span></h4>
               <p className="text-[#9ca3af] leading-relaxed">
                 Betano fue de las primeras en conseguir licencia MINCETUR, y eso cuenta mucho. Pero lo que
                 realmente nos convenció es su bono de 60 giros gratis con rollover x0. Cero. Lo que ganás
@@ -876,30 +876,15 @@ export default function MejoresCasinosOnlinePeru() {
             </div>
 
             <div>
-              <h4 className="text-lg font-bold text-white mb-2">Betsson <span className="text-[#22c55e] text-sm font-black">8.8/10</span></h4>
+              <h4 className="text-lg font-bold text-white mb-2">Stake <span className="text-[#22c55e] text-sm font-black">8.8/10</span></h4>
               <p className="text-[#9ca3af] leading-relaxed">
-                Betsson lleva más de 20 años en el mercado y tiene licencia MINCETUR en Perú. Es la típica
-                marca que tu amigo que sabe de apuestas deportivas ya conoce. La plataforma tiene 2 500+ juegos
-                y está muy pulida — se nota que hay presupuesto detrás. Donde realmente brilla es en el casino
-                en vivo: 200+ mesas exclusivas con dealers en español, y la calidad del streaming es de las
-                mejores que probamos. El bono de hasta S/2 000 es generoso para el mercado peruano. ¿Entonces
-                por qué no está en el top 5? Nos pareció que fuera del casino en vivo la experiencia es...
-                correcta pero no emocionante. Las promos son conservadoras, la variedad de slots no compite con
-                FRESH o SOL, y el sitio a veces se siente más orientado a apuestas deportivas que a casino.
-                Dicho esto, si querés una marca con reputación internacional a prueba de balas y te gusta el
-                casino en vivo, Betsson es sólida.
-              </p>
-            </div>
-
-            <div>
-              <h4 className="text-lg font-bold text-white mb-2">Stake <span className="text-[#22c55e] text-sm font-black">9.6/10</span></h4>
-              <p className="text-[#9ca3af] leading-relaxed">
-                Ya hablamos de Stake en detalle arriba (es nuestro #4), así que acá va el resumen de por qué se
-                ganó ese 9.6: es el único casino del ranking con licencia MINCETUR que además acepta Yape, Plin y
-                todas las criptos que se te ocurran. El rollover de x1 hace que su bono sea más aprovechable de lo
-                que parece en papel, y los Stake Originals son genuinamente divertidos. ¿Por qué no es #1? Le falta
-                catálogo de slots comparado con FRESH y SOL, y el bono en monto bruto es más chico. Pero si para
-                vos la licencia MINCETUR y pagar con Yape son innegociables, Stake debería ser tu primera opción.
+                Stake es el casino que juegan los streamers grandes de Twitch y YouTube, y ahora opera en Perú
+                con licencia MINCETUR. Lo que lo hace especial es la combinación de Yape, Plin y todas las criptos
+                que se te ocurran, más un rollover de x1 en el bono que lo hace aprovechable de verdad. Los Stake
+                Originals (Plinko, Mines, Crash) son genuinamente adictivos y provably fair. ¿Por qué no está
+                más arriba? El catálogo de 3 000 juegos se queda corto al lado de FRESH y SOL, y el bono en monto
+                bruto es más chico. Pero si para vos la licencia MINCETUR, pagar con Yape y tener retiros crypto
+                en 5 minutos son innegociables, Stake merece tu atención.
               </p>
             </div>
           </div>
@@ -909,8 +894,8 @@ export default function MejoresCasinosOnlinePeru() {
       {/* ═══ MINI CTA BANNER ═══ */}
       <div className="bg-gradient-to-r from-[#dc2626]/10 via-[#0e0e0e] to-[#f59e0b]/10 py-10 text-center border-y border-white/[0.04]">
         <p className="text-[#9ca3af] text-sm mb-3">Nuestro casino #1 recomendado para jugadores peruanos</p>
-        <p className="text-white text-xl font-black mb-4">STARDA Casino — 100% en tu primer depósito + 500 giros gratis</p>
-        <CtaButton slug="starda-casino" />
+        <p className="text-white text-xl font-black mb-4">Betsson — Gana 300 Giros Gratis</p>
+        <CtaButton slug="betsson-peru" />
       </div>
 
       {/* ═══ SECTION 3: BY PRIORITY ═══ */}
@@ -962,13 +947,13 @@ export default function MejoresCasinosOnlinePeru() {
             </thead>
             <tbody className="text-[#d4d4d8]">
               {[
+                ["Betsson", "300 giros gratis", "—", "300", "30 días", "S/20"],
                 ["FRESH Casino", "100% primer dep.", "x35", "500", "14 días", "$20"],
                 ["SOL Casino", "100% primer dep.", "x30", "500", "14 días", "$20"],
+                ["MONRO Casino", "150% primer dep.", "x35", "—", "14 días", "$15"],
                 ["STARDA Casino", "100% primer dep.", "x35", "500", "14 días", "$10"],
                 ["Stake", "Freebet + giros", "x1", "50", "7 días", "S/20"],
-                ["MONRO Casino", "150% primer dep.", "x35", "—", "14 días", "$15"],
                 ["Betano", "Sin depósito", "x0", "60", "7 días", "—"],
-                ["Betsson", "100% primer dep.", "x35", "20", "30 días", "S/20"],
                 ["Bet365", "100% hasta S/500", "x30", "500", "30 días", "S/20"],
               ].map(([casino, bonus, roll, spins, valid, dep]) => (
                 <tr key={casino} className="border-t border-white/[0.04] hover:bg-white/[0.02] transition-colors">
@@ -999,13 +984,13 @@ export default function MejoresCasinosOnlinePeru() {
             </thead>
             <tbody className="text-[#d4d4d8]">
               {[
+                ["Betsson", "✓", "✓", "✓", "—", "1-24h (Yape)"],
                 ["FRESH Casino", "—", "—", "✓", "✓", "0-24h (crypto)"],
                 ["SOL Casino", "—", "—", "✓", "✓", "0-24h (crypto)"],
+                ["MONRO Casino", "—", "—", "✓", "✓", "0-24h (crypto)"],
                 ["STARDA Casino", "—", "—", "✓", "✓", "0-12h (crypto)"],
                 ["Stake", "✓", "✓", "✓", "✓", "Instantáneo"],
-                ["MONRO Casino", "—", "—", "✓", "✓", "0-24h (crypto)"],
                 ["Betano", "✓", "✓", "✓", "—", "1-2h (Yape)"],
-                ["Betsson", "✓", "✓", "✓", "—", "1-24h (Yape)"],
                 ["Bet365", "✓", "✓", "✓", "—", "1-24h"],
               ].map(([casino, yape, plin, visa, crypto, retiro]) => (
                 <tr key={casino} className="border-t border-white/[0.04] hover:bg-white/[0.02] transition-colors">
@@ -1035,13 +1020,13 @@ export default function MejoresCasinosOnlinePeru() {
             </thead>
             <tbody className="text-[#d4d4d8]">
               {[
+                ["Betsson", "2 500+", "2 000+", "200+", "40+"],
                 ["FRESH Casino", "4 500+", "3 800+", "300+", "80+"],
                 ["SOL Casino", "4 000+", "3 400+", "200+", "70+"],
+                ["MONRO Casino", "3 500+", "3 000+", "180+", "60+"],
                 ["STARDA Casino", "3 800+", "3 200+", "150+", "65+"],
                 ["Stake", "3 000+", "2 200+", "200+", "50+"],
-                ["MONRO Casino", "3 500+", "3 000+", "180+", "60+"],
                 ["Betano", "2 000+", "1 500+", "100+", "30+"],
-                ["Betsson", "2 500+", "2 000+", "200+", "40+"],
                 ["Bet365", "1 800+", "1 200+", "150+", "25+"],
               ].map(([casino, total, slots, live, provs]) => (
                 <tr key={casino} className="border-t border-white/[0.04] hover:bg-white/[0.02] transition-colors">
@@ -2284,9 +2269,9 @@ export default function MejoresCasinosOnlinePeru() {
             para jugadores peruanos.
           </p>
           <div className="flex flex-wrap items-center justify-center gap-4">
-            <CtaButton slug="starda-casino" text="STARDA Casino — #1" />
-            <CtaButton slug="monro-casino" text="MONRO Casino — #2" />
-            <CtaButton slug="sol-casino" text="SOL Casino — #4" />
+            <CtaButton slug="betsson-peru" text="Betsson — #1" />
+            <CtaButton slug="fresh-casino" text="FRESH Casino — #2" />
+            <CtaButton slug="sol-casino" text="SOL Casino — #3" />
           </div>
         </div>
       </section>

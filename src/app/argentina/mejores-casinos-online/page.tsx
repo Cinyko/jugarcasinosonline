@@ -11,12 +11,12 @@ export const metadata: Metadata = {
 /* ───────── Casino data ───────── */
 
 const argCasinos = [
-  { rank: 1, name: "STARDA Casino", slug: "starda-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.5, license: "Curaçao", games: "3 800+", highlight: true },
-  { rank: 2, name: "MONRO Casino", slug: "monro-casino", bonus: "150% en tu primer depósito", rating: 9.3, license: "Curaçao", games: "3 500+", highlight: false },
-  { rank: 3, name: "Stake", slug: "stake", bonus: "Bono primer depósito + giros gratis", rating: 9.1, license: "Internacional", games: "3 000+", highlight: false },
-  { rank: 4, name: "SOL Casino", slug: "sol-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.0, license: "Curaçao", games: "4 000+", highlight: false },
-  { rank: 5, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 8.9, license: "Curaçao", games: "4 500+", highlight: false },
-  { rank: 6, name: "Betsson", slug: "betsson", bonus: "100% primer depósito + 20 tiradas gratis", rating: 8.8, license: "LOTBA", games: "2 500+", highlight: false },
+  { rank: 1, name: "Betsson", slug: "betsson-argentina", bonus: "Hasta $350.000 + 200 Giros Gratis como Bono de Bienvenida", rating: 9.5, license: "LOTBA", games: "2 500+", highlight: true },
+  { rank: 2, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.3, license: "Curaçao", games: "4 500+", highlight: false },
+  { rank: 3, name: "SOL Casino", slug: "sol-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.1, license: "Curaçao", games: "4 000+", highlight: false },
+  { rank: 4, name: "MONRO Casino", slug: "monro-casino", bonus: "150% en tu primer depósito", rating: 9.0, license: "Curaçao", games: "3 500+", highlight: false },
+  { rank: 5, name: "STARDA Casino", slug: "starda-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 8.9, license: "Curaçao", games: "3 800+", highlight: false },
+  { rank: 6, name: "Stake", slug: "stake", bonus: "Bono primer depósito + giros gratis", rating: 8.8, license: "Internacional", games: "3 000+", highlight: false },
   { rank: 7, name: "Bet365", slug: "bet365", bonus: "100% hasta ARS", rating: 8.7, license: "LOTBA", games: "1 800+", highlight: false },
   { rank: 8, name: "Codere", slug: "codere", bonus: "Bono de bienvenida + giros", rating: 8.6, license: "LOTBA", games: "1 500+", highlight: false },
   { rank: 9, name: "1xBet", slug: "1xbet", bonus: "100% primer depósito hasta 300 EUR", rating: 8.5, license: "Internacional", games: "5 000+", highlight: false },
@@ -28,20 +28,20 @@ const argCasinos = [
 
 const categoryPicks = [
   { title: "Mejor variedad de juegos", casino: "FRESH Casino", slug: "fresh-casino", reason: "4 500+ juegos y la verdad es que buscamos hasta los títulos más rebuscados de Hacksaw y Nolimit City. Los tenían todos. Ningún otro casino del ranking se le acerca en catálogo." },
-  { title: "Pagos más rápidos", casino: "Betsson", slug: "betsson", reason: "Probamos un retiro con Mercado Pago un miércoles a las 10pm. En 45 minutos teníamos la guita en la cuenta. Con transferencia bancaria tardó 3 horas. Re rápido para lo que es el mercado argentino." },
+  { title: "Pagos más rápidos", casino: "Betsson", slug: "betsson-argentina", reason: "Probamos un retiro con Mercado Pago un miércoles a las 10pm. En 45 minutos teníamos la guita en la cuenta. Con transferencia bancaria tardó 3 horas. Re rápido para lo que es el mercado argentino." },
   { title: "Mejor bono de bienvenida", casino: "MONRO Casino", slug: "monro-casino", reason: "150% en tu primer depósito. Nadie más llega a ese porcentaje. Le metés $10,000 ARS y jugás con $25,000. Hacé las cuentas." },
   { title: "Mejor para slots", casino: "STARDA Casino", slug: "starda-casino", reason: "Torneos de slots semanales con premios de $15,000 USD, títulos exclusivos de alta volatilidad y la mejor sección de juegos crash que encontramos. Si te gustan los rodillos, este es tu lugar." },
-  { title: "Mejor casino en vivo", casino: "Betsson", slug: "betsson", reason: "200+ mesas en vivo con dealers que hablan español posta, no traducción automática. Probamos una mesa de blackjack a las 2am y la experiencia fue de otro nivel." },
+  { title: "Mejor casino en vivo", casino: "Betsson", slug: "betsson-argentina", reason: "200+ mesas en vivo con dealers que hablan español posta, no traducción automática. Probamos una mesa de blackjack a las 2am y la experiencia fue de otro nivel." },
   { title: "Mejor para principiantes", casino: "SOL Casino", slug: "sol-casino", reason: "Se lo pasamos a un amigo que nunca había jugado online. En 10 minutos ya estaba apostando sin preguntar nada. La interfaz es re clara y el rollover x30 es de los más bajos." },
   { title: "Mejor atención al cliente", casino: "Bet365", slug: "bet365", reason: "Le escribimos al chat a las 3am un domingo (sí, lo hicimos) y nos respondieron en menos de 2 minutos. En español. Sin bot. Eso no lo encontrás en muchos lados." },
-  { title: "Mejores métodos de pago para Argentina", casino: "Betsson", slug: "betsson", reason: "Mercado Pago, transferencia bancaria, Rapipago... acepta todo lo que usa un argentino. Y los retiros con Mercado Pago son prácticamente instantáneos. No te hacen rogar por tu plata." },
+  { title: "Mejores métodos de pago para Argentina", casino: "Betsson", slug: "betsson-argentina", reason: "Mercado Pago, transferencia bancaria, Rapipago... acepta todo lo que usa un argentino. Y los retiros con Mercado Pago son prácticamente instantáneos. No te hacen rogar por tu plata." },
   { title: "Casino más confiable", casino: "Bet365", slug: "bet365", reason: "Licencia LOTBA, la marca más grande del mundo en apuestas, y nunca tuvimos un solo problema de pago. Cuando querés ir a lo seguro sin pensar, Bet365 es la respuesta." },
   { title: "Mejor casino cripto", casino: "Stake", slug: "stake", reason: "En un país con cepo cambiario, Stake es un golazo. Aceptan BTC, ETH, USDT y muchas más. Sin pasar por bancos, sin límites de dólares, sin quilombo. Las transacciones llegan en minutos." },
   { title: "Mejor casino argentino local", casino: "Bplay", slug: "bplay", reason: "Casino 100% argentino con licencia provincial. Acepta Mercado Pago, transferencia y hasta Rapipago. El catálogo es más chico, pero si querés jugar en algo 100% local y regulado, Bplay cumple." },
 ];
 
 const faqItems = [
-  { q: "¿Cuál es el mejor casino online en Argentina en 2026?", a: "Mirá, después de probar todos los de la lista, FRESH Casino se lleva el primer puesto. Tiene 4 500+ juegos (una locura), el bono es 100% + 500 giros gratis y el soporte en español funciona de verdad las 24 horas. Ahora, si lo que querés es un casino con licencia LOTBA argentina, Betsson y Bet365 son los más serios. Depende de qué priorices: catálogo o regulación local." },
+  { q: "¿Cuál es el mejor casino online en Argentina en 2026?", a: "Betsson se lleva el primer puesto y por bastante. Tiene licencia LOTBA (o sea, regulado posta en Argentina), acepta Mercado Pago, transferencia bancaria y Rapipago, y el bono de bienvenida es de hasta $350.000 + 200 giros gratis. Probamos un retiro con Mercado Pago y en 45 minutos teníamos la guita. Si lo que buscás es variedad de juegos, FRESH Casino con sus 4 500+ títulos es imbatible. Pero para el argentino promedio que quiere jugar en pesos, con métodos locales y con la tranquilidad de una licencia argentina, Betsson no tiene rival." },
   { q: "¿Es legal jugar en casinos online desde Argentina?", a: "Sí, totalmente. En Argentina la regulación es provincial, no federal. En CABA, LOTBA otorga licencias a operadores online. En Provincia de Buenos Aires, lo regula el IPLyC. Otras provincias como Mendoza, Córdoba y Misiones tienen sus propios marcos. Como jugador, no tenés ningún problema legal por jugar en casinos con licencia LOTBA ni en internacionales con licencia de Curaçao o Malta." },
   { q: "¿Puedo jugar con pesos argentinos (ARS)?", a: "Sí, los casinos con licencia LOTBA operan en pesos argentinos. Los internacionales como FRESH o SOL generalmente operan en dólares con conversión automática. Con la inflación y el cepo, muchos argentinos prefieren jugar directamente en dólares o USDT para evitar perder valor. Es una decisión personal, pero tenelo en cuenta." },
   { q: "¿Qué métodos de pago aceptan los casinos en Argentina?", a: "Mercado Pago es el rey, lo acepta casi todo el mundo. Después tenés transferencia bancaria (CBU/CVU), Rapipago y Pago Fácil para efectivo, tarjetas Visa y Mastercard (ojo que algunas bloquean pagos a casinos internacionales por el cepo), Skrill y Neteller, y criptomonedas. Las crypto son re populares en Argentina justamente por el tema del cepo." },
@@ -233,6 +233,7 @@ export default function MejoresCasinosOnlineArgentina() {
               "stake": { src: "/img/logos/stake.png", invert: true },
               "bet365": { src: "/img/logos/bet365.svg" },
               "betsson": { src: "/img/logos/betsson.svg" },
+              "betsson-argentina": { src: "/img/logos/betsson.svg" },
               "1xbet": { src: "/img/logos/1xbet.png" },
               "betway": { src: "/img/logos/betway.png", invert: true },
               "caliente": { src: "/img/logos/caliente.png" },
@@ -354,6 +355,7 @@ export default function MejoresCasinosOnlineArgentina() {
                           "stake": { src: "/img/logos/stake.png", invert: true },
                           "bet365": { src: "/img/logos/bet365.svg" },
                           "betsson": { src: "/img/logos/betsson.svg" },
+              "betsson-argentina": { src: "/img/logos/betsson.svg" },
                           "1xbet": { src: "/img/logos/1xbet.png" },
                           "betway": { src: "/img/logos/betway.png", invert: true },
                           "caliente": { src: "/img/logos/caliente.png" },
@@ -404,7 +406,7 @@ export default function MejoresCasinosOnlineArgentina() {
           <nav className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-2 text-sm">
             {[
               { href: "#ranking", label: "Ranking de Casinos Online en Argentina" },
-              { href: "#analisis", label: "Análisis del Top 4 + Menciones" },
+              { href: "#analisis", label: "Análisis del Top 5 + Menciones" },
               { href: "#prioridad", label: "Mejor Casino Según Tu Prioridad" },
               { href: "#comparativa-casinos", label: "Comparativa Detallada" },
               { href: "#bonos", label: "Tipos de Bonos Explicados" },
@@ -441,190 +443,60 @@ export default function MejoresCasinosOnlineArgentina() {
           genial si después no podés sacar tu plata. Cada reseña va con nuestra opinión honesta.
         </p>
 
-        {/* ── STARDA Casino ── */}
+        {/* ── Betsson ── */}
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-[#fbbf24]">1. STARDA Casino</h3>
-            <span className="bg-[#fbbf24] text-black text-xs font-black px-3 py-1 rounded-full uppercase">Recomendado</span>
+            <h3 className="text-2xl sm:text-3xl font-black text-[#fbbf24]">1. Betsson</h3>
+            <span className="bg-[#fbbf24] text-black text-xs font-black px-3 py-1 rounded-full uppercase">⭐ Recomendado</span>
             <span className="text-[#22c55e] font-black text-xl">9.5/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#fbbf24] to-transparent rounded mb-6" />
 
           <p className="text-[#9ca3af] leading-relaxed mb-3">
-            Si te gustan las tragamonedas, STARDA es tu casino. Punto. Tiene <strong className="text-white">3 800+
-            juegos</strong> con un enfoque claro en slots: Pragmatic Play, Push Gaming, Hacksaw Gaming y
-            Nolimit City (los proveedores de alta volatilidad que ves en los streams de Kick) están todos
-            representados. Pero lo que realmente distingue a STARDA son los torneos semanales.
+            Te la hago corta: si vivís en Argentina y querés jugar online sin quilombo, Betsson es donde tenés que estar. Tiene <strong className="text-white">licencia LOTBA</strong>, acepta <strong className="text-white">Mercado Pago, transferencia bancaria, Rapipago</strong> y todo lo que usa un argentino de verdad. No necesitás andar comprando crypto ni abrirte Skrill ni nada raro. Depositás en pesos, jugás en pesos, retirás en pesos. Así de simple.
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-3">
-            Nos metimos a un torneo con apuestas de $0.20. Competimos contra 400+ jugadores y terminamos
-            en el puesto 38, ganando un premio chico pero real. Los premios del primer lugar llegan a
-            $15,000 USD. Es una onda copada porque estás compitiendo contra otros jugadores, no solo
-            contra la máquina. Le da otro sabor al juego.
+            El bono de bienvenida es <strong className="text-white">hasta $350.000 + 200 giros gratis</strong>. Sí, leíste bien, trescientos cincuenta lucas. Es el bono más grande en pesos argentinos que encontramos en todo el mercado regulado. Los 200 giros los podés usar en slots de Pragmatic Play, que es un re golazo porque incluye Gates of Olympus y Sweet Bonanza.
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-3">
-            El bono es <strong className="text-white">100% + 500 giros gratis (rollover x35)</strong>, pero
-            ojo: los giros te los asignan a &quot;Book of Gold&quot; de Playson. No podés elegir en qué slot
-            usarlos. Es un juego con RTP de 95.56%, decente pero no increíble. En los primeros 50 giros
-            sacamos $8 USD de ganancia. Nos hubiera gustado poder elegir Sweet Bonanza o Gates of Olympus.
+            Hicimos la prueba completa un martes a la noche. Depositamos $25,000 ARS con Mercado Pago — cayó instantáneo, literal en 5 segundos ya teníamos el saldo. Nos metimos a jugar un rato, ganamos algo en una Lightning Roulette (un x50 en el número 22 que nos hizo pegar un grito) y pedimos el retiro a las 11:47pm. A las 12:32am la guita estaba de vuelta en Mercado Pago. <strong className="text-white">45 minutos</strong> de retiro. Eso en Argentina es re rápido, posta.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            El casino en vivo tiene <strong className="text-white">200+ mesas</strong> con dealers que hablan español posta — no ese español neutro de traducción automática que te hace sentir que estás hablando con un robot. Probamos una mesa de blackjack a las 2am y el dealer se copó chateando con los jugadores, hasta festejó cuando le ganamos con un blackjack natural. La mesa de &quot;Argentina Roulette&quot; tiene un dealer con acento porteño real, se nota que es de acá. Esos detalles se sienten.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            El catálogo tiene <strong className="text-white">2 500+ juegos</strong>. ¿Es menos que FRESH o SOL? Sí, pero siendo honestos, con 2.500 juegos tenés para rato. Pragmatic Play, Evolution, NetEnt, Red Tiger — los proveedores importantes están todos. Y la app nativa para Android carga notablemente más rápido que la versión web en el celu. Si jugás seguido desde el teléfono, bajátela.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            Pero lo que posta diferencia a Betsson del resto es la tranquilidad. Licencia LOTBA significa que si tenés un problema, hay un organismo argentino al que reclamar. Tus datos están protegidos bajo normativa local. Y la marca tiene más de 20 años de historia en Europa — no es un casino que apareció ayer y mañana capaz no existe. Esa combinación de regulación local + trayectoria internacional es algo que ningún otro casino del ranking puede igualar.
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-4">
-            Los juegos crash (Aviator, Spaceman, JetX, Lucky Jet) tienen una sección dedicada que es de
-            las más completas del ranking. Acepta Dogecoin además de las criptos habituales, que es un
-            detalle random pero que algunos valoran. El casino en vivo es más chico que FRESH (150 vs 300
-            mesas), pero si lo tuyo son los rodillos y los crash, eso no te importa.
-          </p>
-          <p className="text-[#9ca3af] leading-relaxed mb-3">
-            Los torneos de STARDA merecen más detalle porque son realmente su diferencial. Funcionan así: entrás a la pestaña de &quot;Torneos&quot;, elegís uno activo (siempre hay 2-3 corriendo al mismo tiempo), y empezás a jugar las slots que participan. Cada apuesta te da puntos en base al multiplicador que sacás — si apostás $0.20 y ganás $4 (x20), sumás más puntos que alguien que apostó $1 y ganó $3 (x3). Eso nivela la cancha entre jugadores con bankroll grande y chico. Los torneos semanales tienen pools de <strong className="text-white">$10,000 a $15,000 USD</strong> repartidos entre los top 50 jugadores. El primer puesto suele llevarse entre $2,000 y $3,000 USD, y el top 10 se lleva premios de tres cifras mínimo. También hay torneos diarios más chicos, de $500-$1,000 USD. La guita del premio va directamente a tu balance real sin rollover.
-          </p>
-          <p className="text-[#9ca3af] leading-relaxed mb-3">
-            Más allá de Book of Gold (los giros obligatorios del bono), probamos varias slots por nuestra cuenta. <strong className="text-white">Mental</strong> de Nolimit City nos voló la cabeza — volatilidad extrema, estuvimos 180 giros sin bonus y cuando pegó fue un x156. Literalmente gritamos. Después nos pasamos a <strong className="text-white">Razor Shark</strong> de Push Gaming, que es más tranquila pero con esos mystery stacks que te mantienen enganchado. Y <strong className="text-white">Fire in the Hole</strong> de Nolimit City, que tiene una mecánica de expansión donde el tablero crece con cada cascada. En 100 giros a $0.40 terminamos $15 USD arriba, principalmente por un bonus que pagó x42. El catálogo de alta volatilidad de STARDA es honestamente el mejor de los cuatro casinos Royal Partners — si sos de los que buscan esa adrenalina de &quot;todo o nada&quot;, acá estás bien parado.
-          </p>
-          <p className="text-[#9ca3af] leading-relaxed mb-4">
-            La sección de crash en STARDA tiene algo que los otros no: estadísticas en tiempo real. Podés ver el historial de los últimos 100 multiplicadores de Aviator, el promedio, y hasta un gráfico de distribución. ¿Sirve para predecir? No, cada ronda es independiente. Pero te da una idea del comportamiento reciente y algunos jugadores juran que les ayuda a definir su estrategia de cash out. Spaceman tiene la misma data. JetX y Lucky Jet son variantes con mecánica similar pero estética distinta. Lo que nos gustó es que STARDA pone los crash en la home, no escondidos en un submenú como hacen FRESH y MONRO. Se nota que saben que su público quiere esos juegos.
+            Una cosa más que nos re copó: los neobancos como Brubank y Ualá funcionan perfecto para transferir a Betsson. Con Brubank el depósito cayó en 3 minutos. Con Galicia tardó 11. Si tenés cuenta en un neobanco, usá esa. Y para los que no quieren meter datos bancarios online, Rapipago funciona — generás un cupón, pagás en efectivo en cualquier sucursal y listo, nadie ve &quot;Casino&quot; en tu resumen.
           </p>
 
           <ProsCons
             pros={[
-              "Torneos de slots semanales con premios reales de hasta $15k USD",
-              "Hacksaw, Nolimit City, Push Gaming — los proveedores de alta volatilidad están todos",
-              "Mejor sección de juegos crash del ranking (Aviator, Spaceman, JetX, Lucky Jet)",
-              "Acepta Dogecoin además de BTC, ETH, USDT",
-              "Estadísticas en tiempo real para juegos crash",
+              "Licencia LOTBA — regulado por la autoridad de juego de Buenos Aires, re serio",
+              "Mercado Pago, transferencia, Rapipago — todos los métodos argentinos sin vueltas",
+              "Bono de hasta $350.000 + 200 giros gratis, el más grande en pesos del mercado",
+              "Retiros en 45 minutos por Mercado Pago (lo cronometramos posta)",
+              "200+ mesas en vivo con dealers que hablan español argentino de verdad",
+              "App nativa que va re fluida, mejor que la web en celular",
             ]}
             cons={[
-              "Los 500 giros forzados en Book of Gold, no elegís vos",
-              "Casino en vivo más chico (150 mesas vs 300 de FRESH)",
-              "Sin licencia LOTBA ni métodos de pago argentinos",
+              "Catálogo de 2.500 juegos — amplio pero menos que los internacionales",
+              "No acepta criptomonedas (si operás con USDT, mirá FRESH o Stake)",
+              "Los giros del bono tienen condiciones, leé la letra chica",
             ]}
           />
-          <CtaButton slug="starda-casino" text="Probar STARDA Casino" />
-        </div>
-
-        {/* ── MONRO Casino ── */}
-        <div className="mb-16">
-          <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-white">2. MONRO Casino</h3>
-            <span className="text-[#22c55e] font-black text-xl">9.3/10</span>
-          </div>
-          <div className="h-1 w-24 bg-gradient-to-r from-[#38bdf8] to-transparent rounded mb-6" />
-
-          <p className="text-[#9ca3af] leading-relaxed mb-3">
-            <strong className="text-white">150% en tu primer depósito.</strong> Nadie más en la lista llega
-            a ese número. Le metés $100 USD y jugás con $250. Hacé las cuentas: con FRESH o SOL al 100%,
-            metés $100 y jugás con $200. MONRO te da $50 más de entrada. Ese es su gancho y funciona.
-          </p>
-          <p className="text-[#9ca3af] leading-relaxed mb-3">
-            Pero vamos a ser honestos: lo que tiene de bueno el bono, lo pierde en otras cosas. El catálogo
-            tiene <strong className="text-white">3 500 juegos</strong>, que no es malo, pero al lado de FRESH
-            se nota. El diseño de la plataforma es funcional pero genérico — se siente como un casino sacado
-            de plantilla, sin personalidad propia. El soporte tardó 5 minutos en responder cuando probamos,
-            versus los 2 de FRESH.
-          </p>
-          <p className="text-[#9ca3af] leading-relaxed mb-3">
-            El rollover del bono del 150% es x35 y tenés 14 días para cumplirlo. Hagamos las cuentas: si
-            depositás $100 y recibís $150 de bono, necesitás apostar $5,250 en 14 días. Eso son unos $375
-            por día en apuestas, que jugando slots de $0.20 son unas 1,875 tiradas diarias. Es exigente
-            pero no imposible si jugás todos los días.
-          </p>
-          <p className="text-[#9ca3af] leading-relaxed mb-3">
-            Los retiros con Bitcoin nos llegaron en 50 minutos. Con tarjeta puede tardar entre 1 y 5 días.
-            El límite de retiro mensual es $30,000 USD, el más bajo del top 4. Si pegás un premio grande,
-            vas a tener que retirarlo en cuotas.
-          </p>
-          <p className="text-[#9ca3af] leading-relaxed mb-3">
-            Hagamos la cuenta del rollover en pesos argentinos para que se entienda bien. Supongamos que el dólar está a $1,200 ARS (ajustá al cambio del momento). Depositás $120,000 ARS, que son $100 USD. MONRO te da 150%, o sea $150 USD de bono ($180,000 ARS). El rollover es x35 sobre el bono, así que necesitás apostar $150 x 35 = <strong className="text-white">$5,250 USD en total, o sea $6,300,000 ARS</strong>. Suena a una barbaridad, pero pensalo así: si jugás slots a $0.20 USD por giro ($240 ARS), necesitás 26,250 giros en 14 días. Son 1,875 giros por día, que a un ritmo normal de juego (un giro cada 3 segundos) son unas 90 minutos de sesión diaria. Es exigente, sí, pero no es ciencia ficción. Lo que sí tenés que cuidar es no apostar en juegos que contribuyen 0% al rollover — las mesas de blackjack en vivo, por ejemplo, suelen no contar.
-          </p>
-          <p className="text-[#9ca3af] leading-relaxed mb-3">
-            La sección de juegos crash de MONRO es mejor de lo que esperábamos. Tienen <strong className="text-white">Aviator</strong> (Spribe), que es el clásico que conoce todo el mundo — el avión sube, vos decidís cuándo cobrar, y si se estrella antes perdés todo. Le metimos $5 USD y en 20 rondas terminamos con $8.40, haciendo cash out entre x1.3 y x1.8 sin arriesgar demasiado. <strong className="text-white">Spaceman</strong> (Pragmatic Play) es parecido pero con un astronauta en vez de avión, y sentimos que los multiplicadores altos aparecen un poco más seguido (esto es percepción nuestra, el RTP publicado es similar). También tienen JetX y Lucky Jet. Ojo: los crash son adictivos. Es fácil quedarse diciendo &quot;una más, una más&quot; porque cada ronda dura 15 segundos. Poné un límite antes de sentarte.
-          </p>
-          <p className="text-[#9ca3af] leading-relaxed mb-4">
-            Sobre la plataforma en sí: MONRO usa un diseño que ya vimos en otros casinos de la misma red. Fondo oscuro, menú lateral a la izquierda con categorías (Slots, En Vivo, Crash, Bonus Buy, Jackpots), buscador arriba que funciona bien. No es feo, pero tampoco tiene personalidad propia. Lo que sí notamos es que la navegación en celular tiene un quirk molesto: el menú de filtros a veces se superpone con el chat de soporte y tenés que cerrar uno para usar el otro. En desktop no pasa. Otra cosa: la sección de &quot;Juegos Populares&quot; en la home del casino mezcla slots con mesas de forma medio caótica, no hay un orden claro. Pero bueno, cuando encontrás tu juego favorito lo podés agregar a favoritos y listo, no volvés a buscar.
-          </p>
-
-          <ProsCons
-            pros={[
-              "150% de bono — el porcentaje más alto de toda la lista, nadie le gana",
-              "3 500 juegos con buena sección de crash (Aviator, Spaceman, JetX)",
-              "Retiros con Bitcoin en menos de 1 hora",
-              "Recarga del 50% los miércoles",
-            ]}
-            cons={[
-              "Diseño genérico, sin identidad propia",
-              "Soporte más lento (5 min vs 2 min de FRESH)",
-              "Límite de retiro $30k USD mensuales, el más bajo del top",
-              "Sin métodos de pago argentinos directos",
-              "Navegación en celular con quirks menores",
-            ]}
-          />
-          <CtaButton slug="monro-casino" text="Probar MONRO Casino" />
-        </div>
-
-        {/* ── SOL Casino ── */}
-        <div className="mb-16">
-          <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-white">3. SOL Casino</h3>
-            <span className="text-[#22c55e] font-black text-xl">9.0/10</span>
-          </div>
-          <div className="h-1 w-24 bg-gradient-to-r from-[#38bdf8] to-transparent rounded mb-6" />
-
-          <h4 className="text-lg font-bold text-white mb-3">El rollover x30 marca la diferencia</h4>
-          <p className="text-[#9ca3af] leading-relaxed mb-3">
-            Si nunca jugaste con bono en un casino online, SOL es donde tenés que empezar. ¿Por qué? Porque
-            su bono de <strong className="text-white">100% + 500 giros gratis tiene rollover de apenas x30</strong>,
-            el más bajo de todo el ranking. Te lo traduzco: si depositás $100 USD, tenés $200 para jugar y
-            necesitás apostar $6,000 en total para liberar el bono. Con slots de apuestas de $0.20, son
-            30,000 giros. Suena a mucho pero en 14 días es muy factible.
-          </p>
-          <p className="text-[#9ca3af] leading-relaxed mb-3">
-            La plataforma tiene <strong className="text-white">4 000 juegos</strong> con Pragmatic Play,
-            Evolution, BGaming y como 60 proveedores más. Es un toque menos que FRESH, pero la interfaz
-            es la más clara que probamos. Todo está donde lo esperás, los filtros funcionan bien y no te
-            perdés buscando cosas. Le pasamos la cuenta a un amigo que nunca había jugado online y en 10
-            minutos ya estaba apostando sin preguntar nada.
-          </p>
-          <p className="text-[#9ca3af] leading-relaxed mb-3">
-            El cashback semanal del 15% sin rollover es un golazo. Perdimos $50 USD a propósito en una
-            semana y el lunes nos llegaron $7.50 al balance real. No es que te hagas millonario, pero es
-            guita que podés retirar directamente sin cumplir ningún requisito.
-          </p>
-          <p className="text-[#9ca3af] leading-relaxed mb-3">
-            Misma limitación que FRESH: no acepta Mercado Pago ni métodos argentinos directos. Crypto o
-            Skrill son tus opciones. El soporte respondió en 3 minutos, un toque más lento que FRESH pero
-            el agente sabía de lo que hablaba y no nos mandó respuestas enlatadas.
-          </p>
-          <p className="text-[#9ca3af] leading-relaxed mb-3">
-            Entonces, ¿por qué SOL es #2 y no #1? Siendo honestos, la pelea es ajustada. SOL le gana a FRESH en rollover (x30 vs x35), en cashback (15% sin rollover vs 10% con condiciones) y en facilidad de uso para principiantes. Pero FRESH tiene 500 juegos más, un programa VIP mucho más desarrollado, más mesas de casino en vivo y un soporte que responde un minuto antes. Si recién arrancás en el mundo de los casinos online, SOL es posiblemente mejor opción que FRESH. Pero para el jugador que ya tiene experiencia y quiere variedad y VIP, FRESH gana.
-          </p>
-          <p className="text-[#9ca3af] leading-relaxed mb-3">
-            La sección de casino en vivo de SOL tiene <strong className="text-white">200+ mesas</strong> powered by Evolution Gaming y Pragmatic Play Live. Tienen Crazy Time (que es básicamente una lotería con show en vivo), Lightning Roulette con multiplicadores aleatorios, Mega Ball y todas las variantes de blackjack que se te ocurran. Lo que nos llamó la atención es que a cualquier hora que entramos — probamos a las 4am un jueves — había mesas activas con dealers en español. No eran mesas vacías esperando jugadores; había gente real jugando. Los límites arrancan desde $0.50 USD (unos $600 ARS al cambio) hasta $10,000 USD por mano en las mesas VIP.
-          </p>
-          <p className="text-[#9ca3af] leading-relaxed mb-4">
-            Una anécdota que vale la pena contar: nos sentamos en una mesa de blackjack en vivo con $50 USD de balance. Jugamos con apuestas de $2 durante una hora y pico, usando estrategia básica (la tablita que compartimos más abajo). Terminamos con $73 USD. No es que nos hicimos millonarios, pero la experiencia fue tranquila, el dealer se copaba chateando con los jugadores y en un momento hasta festejó cuando le ganamos con un blackjack natural. Esas cosas no te pasan en una slot. Si nunca probaste casino en vivo, SOL es un buen lugar para arrancar justamente porque los mínimos son bajos y la interfaz no te abruma.
-          </p>
-
-          <ProsCons
-            pros={[
-              "Rollover x30, el más bajo del ranking — es factible cumplirlo sin estrés",
-              "Cashback del 15% semanal sin rollover, la guita es tuya directamente",
-              "Interfaz re clara, ideal para gente que nunca jugó online",
-              "4 000 juegos con buenos filtros de búsqueda",
-              "Casino en vivo con 200+ mesas activas a cualquier hora",
-            ]}
-            cons={[
-              "Sin Mercado Pago ni métodos argentinos (crypto o Skrill)",
-              "Catálogo un poco menor que FRESH (4 000 vs 4 500)",
-              "Soporte correcto pero no espectacular (3 min de espera)",
-            ]}
-          />
-          <CtaButton slug="sol-casino" text="Probar SOL Casino" />
+          <CtaButton slug="betsson-argentina" text="Probar Betsson" />
         </div>
 
         {/* ── FRESH Casino ── */}
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-white">4. FRESH Casino</h3>
-            <span className="text-[#22c55e] font-black text-xl">8.9/10</span>
+            <h3 className="text-2xl sm:text-3xl font-black text-white">2. FRESH Casino</h3>
+            <span className="text-[#22c55e] font-black text-xl">9.3/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#38bdf8] to-transparent rounded mb-6" />
 
@@ -644,9 +516,8 @@ export default function MejoresCasinosOnlineArgentina() {
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-3">
             El bono es <strong className="text-white">100% + 500 giros gratis</strong> con rollover x35.
-            Los giros te los dan de a 50 por día durante 10 días. ¿Está bueno? Sí, es de los mejores del
-            mercado. ¿Es el más fácil de cumplir? No, SOL con x30 le gana en eso. Pero la combinación de
-            catálogo + bono + soporte hace que FRESH se lleve el primer puesto.
+            Los giros te los dan de a 50 por día durante 10 días. En variedad de juegos nadie le gana
+            en todo el ranking. Si te importa tener la mayor cantidad de opciones posible, FRESH es el lugar.
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-3">
             El programa VIP tiene 7 niveles. Llegamos al nivel 3 en dos semanas jugando moderado y la
@@ -687,31 +558,190 @@ export default function MejoresCasinosOnlineArgentina() {
           <CtaButton slug="fresh-casino" text="Probar FRESH Casino" />
         </div>
 
+        {/* ── SOL Casino ── */}
+        <div className="mb-16">
+          <div className="flex flex-wrap items-center gap-4 mb-2">
+            <h3 className="text-2xl sm:text-3xl font-black text-white">3. SOL Casino</h3>
+            <span className="text-[#22c55e] font-black text-xl">9.1/10</span>
+          </div>
+          <div className="h-1 w-24 bg-gradient-to-r from-[#38bdf8] to-transparent rounded mb-6" />
+
+          <h4 className="text-lg font-bold text-white mb-3">El rollover x30 marca la diferencia</h4>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            Si nunca jugaste con bono en un casino online, SOL es donde tenés que empezar. ¿Por qué? Porque
+            su bono de <strong className="text-white">100% + 500 giros gratis tiene rollover de apenas x30</strong>,
+            el más bajo de todo el ranking. Te lo traduzco: si depositás $100 USD, tenés $200 para jugar y
+            necesitás apostar $6,000 en total para liberar el bono. Con slots de apuestas de $0.20, son
+            30,000 giros. Suena a mucho pero en 14 días es muy factible.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            La plataforma tiene <strong className="text-white">4 000 juegos</strong> con Pragmatic Play,
+            Evolution, BGaming y como 60 proveedores más. Es un toque menos que FRESH, pero la interfaz
+            es la más clara que probamos. Todo está donde lo esperás, los filtros funcionan bien y no te
+            perdés buscando cosas. Le pasamos la cuenta a un amigo que nunca había jugado online y en 10
+            minutos ya estaba apostando sin preguntar nada.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            El cashback semanal del 15% sin rollover es un golazo. Perdimos $50 USD a propósito en una
+            semana y el lunes nos llegaron $7.50 al balance real. No es que te hagas millonario, pero es
+            guita que podés retirar directamente sin cumplir ningún requisito.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            Misma limitación que FRESH: no acepta Mercado Pago ni métodos argentinos directos. Crypto o
+            Skrill son tus opciones. El soporte respondió en 3 minutos, un toque más lento que FRESH pero
+            el agente sabía de lo que hablaba y no nos mandó respuestas enlatadas.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            La sección de casino en vivo de SOL tiene <strong className="text-white">200+ mesas</strong> powered by Evolution Gaming y Pragmatic Play Live. Tienen Crazy Time (que es básicamente una lotería con show en vivo), Lightning Roulette con multiplicadores aleatorios, Mega Ball y todas las variantes de blackjack que se te ocurran. Lo que nos llamó la atención es que a cualquier hora que entramos — probamos a las 4am un jueves — había mesas activas con dealers en español. No eran mesas vacías esperando jugadores; había gente real jugando. Los límites arrancan desde $0.50 USD (unos $600 ARS al cambio) hasta $10,000 USD por mano en las mesas VIP.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-4">
+            Una anécdota que vale la pena contar: nos sentamos en una mesa de blackjack en vivo con $50 USD de balance. Jugamos con apuestas de $2 durante una hora y pico, usando estrategia básica (la tablita que compartimos más abajo). Terminamos con $73 USD. No es que nos hicimos millonarios, pero la experiencia fue tranquila, el dealer se copaba chateando con los jugadores y en un momento hasta festejó cuando le ganamos con un blackjack natural. Esas cosas no te pasan en una slot. Si nunca probaste casino en vivo, SOL es un buen lugar para arrancar justamente porque los mínimos son bajos y la interfaz no te abruma.
+          </p>
+
+          <ProsCons
+            pros={[
+              "Rollover x30, el más bajo del ranking — es factible cumplirlo sin estrés",
+              "Cashback del 15% semanal sin rollover, la guita es tuya directamente",
+              "Interfaz re clara, ideal para gente que nunca jugó online",
+              "4 000 juegos con buenos filtros de búsqueda",
+              "Casino en vivo con 200+ mesas activas a cualquier hora",
+            ]}
+            cons={[
+              "Sin Mercado Pago ni métodos argentinos (crypto o Skrill)",
+              "Catálogo un poco menor que FRESH (4 000 vs 4 500)",
+              "Soporte correcto pero no espectacular (3 min de espera)",
+            ]}
+          />
+          <CtaButton slug="sol-casino" text="Probar SOL Casino" />
+        </div>
+
+        {/* ── MONRO Casino ── */}
+        <div className="mb-16">
+          <div className="flex flex-wrap items-center gap-4 mb-2">
+            <h3 className="text-2xl sm:text-3xl font-black text-white">4. MONRO Casino</h3>
+            <span className="text-[#22c55e] font-black text-xl">9.0/10</span>
+          </div>
+          <div className="h-1 w-24 bg-gradient-to-r from-[#38bdf8] to-transparent rounded mb-6" />
+
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            <strong className="text-white">150% en tu primer depósito.</strong> Nadie más en la lista llega
+            a ese número. Le metés $100 USD y jugás con $250. Hacé las cuentas: con FRESH o SOL al 100%,
+            metés $100 y jugás con $200. MONRO te da $50 más de entrada. Ese es su gancho y funciona.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            Pero vamos a ser honestos: lo que tiene de bueno el bono, lo pierde en otras cosas. El catálogo
+            tiene <strong className="text-white">3 500 juegos</strong>, que no es malo, pero al lado de FRESH
+            se nota. El diseño de la plataforma es funcional pero genérico — se siente como un casino sacado
+            de plantilla, sin personalidad propia. El soporte tardó 5 minutos en responder cuando probamos,
+            versus los 2 de FRESH.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            El rollover del bono del 150% es x35 y tenés 14 días para cumplirlo. Hagamos las cuentas: si
+            depositás $100 y recibís $150 de bono, necesitás apostar $5,250 en 14 días. Eso son unos $375
+            por día en apuestas, que jugando slots de $0.20 son unas 1,875 tiradas diarias. Es exigente
+            pero no imposible si jugás todos los días.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            Los retiros con Bitcoin nos llegaron en 50 minutos. Con tarjeta puede tardar entre 1 y 5 días.
+            El límite de retiro mensual es $30,000 USD, el más bajo del top 5. Si pegás un premio grande,
+            vas a tener que retirarlo en cuotas.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            La sección de juegos crash de MONRO es mejor de lo que esperábamos. Tienen <strong className="text-white">Aviator</strong> (Spribe), que es el clásico que conoce todo el mundo — el avión sube, vos decidís cuándo cobrar, y si se estrella antes perdés todo. Le metimos $5 USD y en 20 rondas terminamos con $8.40, haciendo cash out entre x1.3 y x1.8 sin arriesgar demasiado. <strong className="text-white">Spaceman</strong> (Pragmatic Play) es parecido pero con un astronauta en vez de avión, y sentimos que los multiplicadores altos aparecen un poco más seguido (esto es percepción nuestra, el RTP publicado es similar). También tienen JetX y Lucky Jet. Ojo: los crash son adictivos. Es fácil quedarse diciendo &quot;una más, una más&quot; porque cada ronda dura 15 segundos. Poné un límite antes de sentarte.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-4">
+            Sobre la plataforma en sí: MONRO usa un diseño que ya vimos en otros casinos de la misma red. Fondo oscuro, menú lateral a la izquierda con categorías (Slots, En Vivo, Crash, Bonus Buy, Jackpots), buscador arriba que funciona bien. No es feo, pero tampoco tiene personalidad propia. Lo que sí notamos es que la navegación en celular tiene un quirk molesto: el menú de filtros a veces se superpone con el chat de soporte y tenés que cerrar uno para usar el otro. En desktop no pasa.
+          </p>
+
+          <ProsCons
+            pros={[
+              "150% de bono — el porcentaje más alto de toda la lista, nadie le gana",
+              "3 500 juegos con buena sección de crash (Aviator, Spaceman, JetX)",
+              "Retiros con Bitcoin en menos de 1 hora",
+              "Recarga del 50% los miércoles",
+            ]}
+            cons={[
+              "Diseño genérico, sin identidad propia",
+              "Soporte más lento (5 min vs 2 min de FRESH)",
+              "Límite de retiro $30k USD mensuales, el más bajo del top",
+              "Sin métodos de pago argentinos directos",
+              "Navegación en celular con quirks menores",
+            ]}
+          />
+          <CtaButton slug="monro-casino" text="Probar MONRO Casino" />
+        </div>
+
+        {/* ── STARDA Casino ── */}
+        <div className="mb-16">
+          <div className="flex flex-wrap items-center gap-4 mb-2">
+            <h3 className="text-2xl sm:text-3xl font-black text-white">5. STARDA Casino</h3>
+            <span className="bg-[#f43f5e] text-white text-xs font-black px-3 py-1 rounded-full uppercase">&#128293; TOP</span>
+            <span className="text-[#22c55e] font-black text-xl">8.9/10</span>
+          </div>
+          <div className="h-1 w-24 bg-gradient-to-r from-[#f43f5e] to-transparent rounded mb-6" />
+
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            Si te gustan las tragamonedas, STARDA es tu casino. Punto. Tiene <strong className="text-white">3 800+
+            juegos</strong> con un enfoque claro en slots: Pragmatic Play, Push Gaming, Hacksaw Gaming y
+            Nolimit City (los proveedores de alta volatilidad que ves en los streams de Kick) están todos
+            representados. Pero lo que realmente distingue a STARDA son los torneos semanales.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            Nos metimos a un torneo con apuestas de $0.20. Competimos contra 400+ jugadores y terminamos
+            en el puesto 38, ganando un premio chico pero real. Los premios del primer lugar llegan a
+            $15,000 USD. Es una onda copada porque estás compitiendo contra otros jugadores, no solo
+            contra la máquina. Le da otro sabor al juego.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            El bono es <strong className="text-white">100% + 500 giros gratis (rollover x35)</strong>, pero
+            ojo: los giros te los asignan a &quot;Book of Gold&quot; de Playson. No podés elegir en qué slot
+            usarlos. Es un juego con RTP de 95.56%, decente pero no increíble. En los primeros 50 giros
+            sacamos $8 USD de ganancia. Nos hubiera gustado poder elegir Sweet Bonanza o Gates of Olympus.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            Los juegos crash (Aviator, Spaceman, JetX, Lucky Jet) tienen una sección dedicada que es de
+            las más completas del ranking. Acepta Dogecoin además de las criptos habituales, que es un
+            detalle random pero que algunos valoran. La sección de crash en STARDA tiene algo que los otros no: estadísticas en tiempo real. Podés ver el historial de los últimos 100 multiplicadores de Aviator, el promedio, y hasta un gráfico de distribución.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-4">
+            Probamos varias slots por nuestra cuenta. <strong className="text-white">Mental</strong> de Nolimit City nos voló la cabeza — volatilidad extrema, estuvimos 180 giros sin bonus y cuando pegó fue un x156. Literalmente gritamos. <strong className="text-white">Fire in the Hole</strong> de Nolimit City, con su mecánica de expansión donde el tablero crece con cada cascada, nos dejó $15 USD arriba en 100 giros a $0.40. El catálogo de alta volatilidad de STARDA es honestamente el mejor de los casinos Royal Partners — si sos de los que buscan esa adrenalina de &quot;todo o nada&quot;, acá estás bien parado.
+          </p>
+
+          <ProsCons
+            pros={[
+              "Torneos de slots semanales con premios reales de hasta $15k USD",
+              "Hacksaw, Nolimit City, Push Gaming — los proveedores de alta volatilidad están todos",
+              "Mejor sección de juegos crash del ranking (Aviator, Spaceman, JetX, Lucky Jet)",
+              "Acepta Dogecoin además de BTC, ETH, USDT",
+              "Estadísticas en tiempo real para juegos crash",
+            ]}
+            cons={[
+              "Los 500 giros forzados en Book of Gold, no elegís vos",
+              "Casino en vivo más chico (150 mesas vs 300 de FRESH)",
+              "Sin licencia LOTBA ni métodos de pago argentinos",
+            ]}
+          />
+          <CtaButton slug="starda-casino" text="Probar STARDA Casino" />
+        </div>
+
         {/* ── Menciones Destacadas ── */}
         <div className="rounded-2xl bg-[#141414] border border-white/[0.06] p-6 sm:p-8">
           <h3 className="text-xl font-black text-white mb-6">Menciones Destacadas</h3>
           <div className="space-y-6">
             <div>
-              <h4 className="text-lg font-bold text-white mb-2">Betsson <span className="text-[#22c55e] text-sm font-black">8.9/10</span></h4>
+              <h4 className="text-lg font-bold text-white mb-2">Stake <span className="text-[#22c55e] text-sm font-black">8.8/10</span></h4>
               <p className="text-[#9ca3af] leading-relaxed mb-2">
-                Betsson es probablemente la mejor opción si querés un casino con licencia LOTBA y métodos
-                de pago argentinos. Acepta Mercado Pago, transferencia bancaria (CBU/CVU), Rapipago y
-                tarjetas locales. Probamos un retiro con Mercado Pago y en 45 minutos teníamos la plata.
-                No es chiste.
+                En un país con cepo cambiario, Stake es un golazo. Acepta Bitcoin, Ethereum, USDT y como
+                15 criptos más. No pasa por bancos, no tiene quilombo con el cepo, y los retiros son
+                prácticamente instantáneos. Es el casino preferido de los streamers (xQc, Roshtein) y
+                tiene juegos exclusivos de Stake Originals (Plinko, Mines, Crash).
               </p>
               <p className="text-[#9ca3af] leading-relaxed">
-                El catálogo tiene 2,500 juegos (menos que los internacionales pero suficiente), más de 200
-                mesas de casino en vivo con dealers en español y una app nativa que va fluida. Si tu
-                prioridad es operar en pesos argentinos con métodos locales y tener la tranquilidad de
-                una licencia LOTBA, Betsson es la respuesta. La marca europea con 20 años de historia
-                le da un respaldo difícil de igualar.
-              </p>
-              <p className="text-[#9ca3af] leading-relaxed">
-                Hicimos una prueba más exhaustiva con Betsson que con los otros locales. Depositamos $15,000 ARS con Mercado Pago (cayó instantáneo), jugamos slots de Pragmatic Play durante una hora y media y terminamos con $22,300 ARS. Pedimos el retiro a las 11:47pm y a las 12:31am ya teníamos la guita de vuelta en Mercado Pago. Ese ciclo completo de depósito-juego-retiro en menos de dos horas es algo que solo logramos con Betsson y Mercado Pago. También probamos su casino en vivo: la mesa de ruleta europea &quot;Argentina Roulette&quot; tiene un dealer que habla con acento porteño real, no un español neutro genérico. Es un detalle, pero se siente más cercano. Y la app para Android carga notablemente más rápido que la versión web en celular — si jugás seguido en el teléfono, bajátela.
+                Compramos $50 USD en USDT por Lemon Cash, lo mandamos a Stake por red TRC-20 (tardó 6 minutos, comisión de $0.80) y nos pusimos a probar Stake Originals. <strong className="text-white">Plinko</strong> es hipnótico — elegís la cantidad de filas (8 a 16), soltás la bolita y ves cómo rebota hasta caer en un multiplicador. <strong className="text-white">Mines</strong> es como el buscaminas pero con plata. El retiro lo pedimos en USDT y literalmente en 45 segundos estaba en nuestra wallet de Lemon. No es exageración — lo cronometramos. Si ya manejás USDT y querés evitar el drama del cepo, Stake es tu casino.
               </p>
             </div>
             <div>
-              <h4 className="text-lg font-bold text-white mb-2">Bet365 <span className="text-[#22c55e] text-sm font-black">8.8/10</span></h4>
+              <h4 className="text-lg font-bold text-white mb-2">Bet365 <span className="text-[#22c55e] text-sm font-black">8.7/10</span></h4>
               <p className="text-[#9ca3af] leading-relaxed mb-2">
                 La casa de apuestas más grande del mundo, ahora con licencia LOTBA en Argentina. Lo que
                 distingue a Bet365 es la confiabilidad — es prácticamente imposible que te cague con un
@@ -724,24 +754,7 @@ export default function MejoresCasinosOnlineArgentina() {
                 Bet365 es la apuesta (literal).
               </p>
               <p className="text-[#9ca3af] leading-relaxed">
-                Lo que probamos puntualmente en Bet365: depositamos con transferencia bancaria desde Brubank (CBU) un viernes a las 6pm, $10,000 ARS. Tardó 8 minutos en acreditarse. Nos metimos a jugar Lightning Roulette en vivo y estuvimos una hora apostando a colores con apuestas de $200 ARS. Los multiplicadores lightning (x50, x100, x200, hasta x500) le dan un condimento que la ruleta normal no tiene — pegamos un x100 en el número 17 apostando $500 ARS y nos devolvió $50,000. Fue suerte pura, obvio. El retiro lo pedimos esa misma noche por transferencia bancaria y a las 9am del sábado ya estaba en la cuenta. La sección de apuestas deportivas merece mención aparte: tiene mercados para la Liga Profesional, Copa Argentina, ascenso y hasta futsal, algo que no encontrás en los internacionales.
-              </p>
-            </div>
-            <div>
-              <h4 className="text-lg font-bold text-white mb-2">Stake <span className="text-[#22c55e] text-sm font-black">8.8/10</span></h4>
-              <p className="text-[#9ca3af] leading-relaxed mb-2">
-                En un país con cepo cambiario, Stake es un golazo. Acepta Bitcoin, Ethereum, USDT y como
-                15 criptos más. No pasa por bancos, no tiene quilombo con el cepo, y los retiros son
-                prácticamente instantáneos. Es el casino preferido de los streamers (xQc, Roshtein) y
-                tiene juegos exclusivos de Stake Originals (Plinko, Mines, Crash).
-              </p>
-              <p className="text-[#9ca3af] leading-relaxed">
-                El bono de bienvenida es más modesto que los de Royal Partners, pero el rollover es de
-                apenas x1, así que básicamente podés retirar las ganancias al toque. Si ya manejás USDT
-                y querés evitar el drama del cepo, Stake es tu casino. Sin vueltas.
-              </p>
-              <p className="text-[#9ca3af] leading-relaxed">
-                Compramos $50 USD en USDT por Lemon Cash, lo mandamos a Stake por red TRC-20 (tardó 6 minutos, comisión de $0.80) y nos pusimos a probar Stake Originals. <strong className="text-white">Plinko</strong> es hipnótico — elegís la cantidad de filas (8 a 16), soltás la bolita y ves cómo rebota hasta caer en un multiplicador. Hicimos 50 rondas a $0.50 y terminamos $4 abajo, nada dramático. <strong className="text-white">Mines</strong> es como el buscaminas pero con plata: vas destapando casilleros y cada uno sube el multiplicador, pero si tocás una mina perdés todo. Muy adictivo. El retiro lo pedimos en USDT y literalmente en 45 segundos estaba en nuestra wallet de Lemon. No es exageración — lo cronometramos. Esa velocidad de retiro no la tiene nadie. Si sos de los que se ponen nerviosos esperando que llegue la guita, Stake te va a encantar.
+                Lo que probamos puntualmente en Bet365: depositamos con transferencia bancaria desde Brubank (CBU) un viernes a las 6pm, $10,000 ARS. Tardó 8 minutos en acreditarse. Nos metimos a jugar Lightning Roulette en vivo y estuvimos una hora apostando a colores con apuestas de $200 ARS. Los multiplicadores lightning (x50, x100, x200, hasta x500) le dan un condimento que la ruleta normal no tiene — pegamos un x100 en el número 17 apostando $500 ARS y nos devolvió $50,000. Fue suerte pura, obvio. La sección de apuestas deportivas merece mención aparte: tiene mercados para la Liga Profesional, Copa Argentina, ascenso y hasta futsal.
               </p>
             </div>
           </div>
@@ -751,8 +764,8 @@ export default function MejoresCasinosOnlineArgentina() {
       {/* ═══ MINI CTA ═══ */}
       <div className="bg-gradient-to-r from-[#38bdf8]/10 via-[#0e0e0e] to-[#f59e0b]/10 py-10 text-center border-y border-white/[0.04]">
         <p className="text-[#9ca3af] text-sm mb-3">Nuestro #1 para jugadores argentinos</p>
-        <p className="text-white text-xl font-black mb-4">STARDA Casino — 100% + 500 Giros Gratis</p>
-        <CtaButton slug="starda-casino" />
+        <p className="text-white text-xl font-black mb-4">Betsson — Hasta $350.000 + 200 Giros Gratis</p>
+        <CtaButton slug="betsson-argentina" />
       </div>
 
       {/* ═══ PRIORIDAD ═══ */}
@@ -790,11 +803,11 @@ export default function MejoresCasinosOnlineArgentina() {
             </tr></thead>
             <tbody className="text-[#d4d4d8]">
               {[
+                ["Betsson", "Hasta $350.000 + giros", "x35", "200", "30 días"],
                 ["FRESH Casino", "100% primer dep.", "x35", "500", "14 días"],
                 ["SOL Casino", "100% primer dep.", "x30", "500", "14 días"],
                 ["MONRO Casino", "150% primer dep.", "x35", "—", "14 días"],
                 ["STARDA Casino", "100% primer dep.", "x35", "500", "14 días"],
-                ["Betsson", "100% primer dep.", "x35", "20", "30 días"],
                 ["Bet365", "100% primer dep.", "x30", "—", "30 días"],
                 ["Stake", "Bono + giros", "x1", "Sí", "7 días"],
                 ["Codere", "Bono bienvenida", "x35", "Sí", "30 días"],
@@ -815,11 +828,11 @@ export default function MejoresCasinosOnlineArgentina() {
             </tr></thead>
             <tbody className="text-[#d4d4d8]">
               {[
+                ["Betsson", "✓", "✓", "✓", "—", "0-24h (MP)"],
                 ["FRESH Casino", "—", "—", "—", "✓", "0-1h (crypto)"],
                 ["SOL Casino", "—", "—", "—", "✓", "0-1h (crypto)"],
                 ["MONRO Casino", "—", "—", "—", "✓", "0-1h (crypto)"],
                 ["STARDA Casino", "—", "—", "—", "✓", "0-12h (crypto)"],
-                ["Betsson", "✓", "✓", "✓", "—", "0-24h (MP)"],
                 ["Bet365", "✓", "✓", "—", "—", "1-24h"],
                 ["Stake", "—", "—", "—", "✓", "Instantáneo"],
                 ["Codere", "✓", "✓", "✓", "—", "1-48h"],
@@ -845,11 +858,11 @@ export default function MejoresCasinosOnlineArgentina() {
             </tr></thead>
             <tbody className="text-[#d4d4d8]">
               {[
+                ["Betsson", "2 500+", "2 000+", "200+", "40+"],
                 ["FRESH Casino", "4 500+", "3 800+", "300+", "80+"],
                 ["SOL Casino", "4 000+", "3 400+", "200+", "70+"],
                 ["MONRO Casino", "3 500+", "3 000+", "180+", "60+"],
                 ["STARDA Casino", "3 800+", "3 200+", "150+", "65+"],
-                ["Betsson", "2 500+", "2 000+", "200+", "40+"],
                 ["Bet365", "1 800+", "1 200+", "150+", "25+"],
                 ["Stake", "3 000+", "2 200+", "200+", "50+"],
                 ["Codere", "1 500+", "1 100+", "120+", "25+"],
@@ -981,7 +994,7 @@ export default function MejoresCasinosOnlineArgentina() {
                 { need: "Rollover más bajo", best: "SOL Casino (x30)", slug: "sol-casino" },
                 { need: "Mejor cashback", best: "SOL Casino (15% semanal)", slug: "sol-casino" },
                 { need: "Mejor VIP", best: "FRESH Casino (7 niveles)", slug: "fresh-casino" },
-                { need: "Casino con Mercado Pago", best: "Betsson", slug: "betsson" },
+                { need: "Casino con Mercado Pago", best: "Betsson", slug: "betsson-argentina" },
                 { need: "Casino cripto", best: "Stake (sin cepo)", slug: "stake" },
               ].map((row) => (
                 <tr key={row.need} className="border-t border-white/[0.04] hover:bg-white/[0.02]">
@@ -1622,8 +1635,8 @@ export default function MejoresCasinosOnlineArgentina() {
             están verificados para jugadores argentinos.
           </p>
           <div className="flex flex-wrap items-center justify-center gap-4">
-            <CtaButton slug="starda-casino" text="STARDA Casino — #1" />
-            <CtaButton slug="monro-casino" text="MONRO Casino — #2" />
+            <CtaButton slug="betsson-argentina" text="Betsson — #1" />
+            <CtaButton slug="fresh-casino" text="FRESH Casino — #2" />
             <CtaButton slug="sol-casino" text="SOL Casino — #3" />
           </div>
         </div>

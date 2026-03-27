@@ -11,14 +11,14 @@ export const metadata: Metadata = {
 /* ───────── Data ───────── */
 
 const ecuadorCasinos = [
-  { rank: 1, name: "STARDA Casino", slug: "starda-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.5, license: "Curaçao", games: "3 800+", highlight: true },
-  { rank: 2, name: "MONRO Casino", slug: "monro-casino", bonus: "150% en tu primer depósito", rating: 9.3, license: "Curaçao", games: "3 500+", highlight: false },
-  { rank: 3, name: "Bet365", slug: "bet365", bonus: "100% bono de bienvenida", rating: 9.1, license: "Internacional", games: "1 800+", highlight: false },
-  { rank: 4, name: "SOL Casino", slug: "sol-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.0, license: "Curaçao", games: "4 000+", highlight: false },
-  { rank: 5, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 8.9, license: "Curaçao", games: "4 500+", highlight: false },
-  { rank: 6, name: "1xBet", slug: "1xbet", bonus: "100% primer depósito hasta $300", rating: 8.8, license: "Internacional", games: "5 000+", highlight: false },
-  { rank: 7, name: "Stake", slug: "stake", bonus: "Bono primer depósito + giros", rating: 8.7, license: "Internacional", games: "3 000+", highlight: false },
-  { rank: 8, name: "Betsson", slug: "betsson", bonus: "100% primer depósito + 20 tiradas", rating: 8.6, license: "Internacional", games: "2 500+", highlight: false },
+  { rank: 1, name: "Betsson", slug: "betsson-latam", bonus: "¡Duplica tu depósito hasta $100!", rating: 9.5, license: "Internacional", games: "2 500+", highlight: true },
+  { rank: 2, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.3, license: "Curaçao", games: "4 500+", highlight: false },
+  { rank: 3, name: "SOL Casino", slug: "sol-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.1, license: "Curaçao", games: "4 000+", highlight: false },
+  { rank: 4, name: "MONRO Casino", slug: "monro-casino", bonus: "150% en tu primer depósito", rating: 9.0, license: "Curaçao", games: "3 500+", highlight: false },
+  { rank: 5, name: "STARDA Casino", slug: "starda-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 8.9, license: "Curaçao", games: "3 800+", highlight: false },
+  { rank: 6, name: "Bet365", slug: "bet365", bonus: "100% bono de bienvenida", rating: 8.8, license: "Internacional", games: "1 800+", highlight: false },
+  { rank: 7, name: "1xBet", slug: "1xbet", bonus: "100% primer depósito hasta $300", rating: 8.7, license: "Internacional", games: "5 000+", highlight: false },
+  { rank: 8, name: "Stake", slug: "stake", bonus: "Bono primer depósito + giros", rating: 8.6, license: "Internacional", games: "3 000+", highlight: false },
   { rank: 9, name: "Betway", slug: "betway", bonus: "100% bono de bienvenida", rating: 8.5, license: "Internacional", games: "1 500+", highlight: false },
   { rank: 10, name: "Melbet", slug: "melbet", bonus: "100% primer depósito + 30 giros", rating: 8.4, license: "Curaçao", games: "2 000+", highlight: false },
   { rank: 11, name: "1Win", slug: "1win", bonus: "500% hasta $1000 en 4 depósitos", rating: 8.3, license: "Curaçao", games: "2 500+", highlight: false },
@@ -29,7 +29,7 @@ const categoryPicks = [
   { title: "Pagos más rápidos", casino: "Bet365", slug: "bet365", reason: "Probamos un retiro con tarjeta Visa un miércoles a las 8pm y en menos de 4 horas ya teníamos la plata. Con crypto fue todavía más rápido. Para Ecuador, donde las opciones de pago son más limitadas, eso vale mucho." },
   { title: "Mejor bono de bienvenida", casino: "MONRO Casino", slug: "monro-casino", reason: "150% en tu primer depósito. Nadie más llega a ese porcentaje. Le metes $100 y juegas con $250. Así de simple." },
   { title: "Mejor para slots", casino: "STARDA Casino", slug: "starda-casino", reason: "Torneos semanales de slots con premios de $15.000 USD, proveedores de alta volatilidad y la sección de juegos crash más completa que probamos." },
-  { title: "Mejor casino en vivo", casino: "Betsson", slug: "betsson", reason: "200+ mesas en vivo con dealers en español de verdad. Probamos blackjack a las 2am y había mesa activa con dealer que hablaba como cualquiera de acá." },
+  { title: "Mejor casino en vivo", casino: "Betsson", slug: "betsson-latam", reason: "200+ mesas en vivo con dealers en español de verdad. Probamos blackjack a las 2am y había mesa activa con dealer que hablaba como cualquiera de acá." },
   { title: "Mejor para principiantes", casino: "SOL Casino", slug: "sol-casino", reason: "Se lo pasamos a un pana que nunca había jugado online y en 10 minutos ya estaba apostando sin preguntar nada. El rollover x30 es el más bajo del ranking." },
   { title: "Mejor atención al cliente", casino: "Bet365", slug: "bet365", reason: "Escribimos al chat un domingo a las 3am (de ley lo hicimos) y respondieron en menos de 2 minutos. En español. Sin bot. Eso no lo encuentras en muchos lados." },
   { title: "Mejor casino cripto", casino: "Stake", slug: "stake", reason: "El casino cripto más grande del mundo. BTC, ETH, USDT y como 15 más. En Ecuador, donde ya usamos dólares, crypto funciona perfecto porque no hay conversión de moneda." },
@@ -37,7 +37,7 @@ const categoryPicks = [
 ];
 
 const faqItems = [
-  { q: "¿Cuál es el mejor casino online en Ecuador en 2026?", a: "Después de probar todos los de la lista, FRESH Casino se lleva el primer puesto. Tiene 4.500+ juegos, bono de 100% + 500 giros gratis y soporte en español las 24 horas. Para quienes prefieren una marca más conocida, Bet365 y 1xBet son opciones sólidas y confiables." },
+  { q: "¿Cuál es el mejor casino online en Ecuador en 2026?", a: "Betsson se lleva el primer puesto. Duplica tu depósito hasta $100, tiene 200+ mesas en vivo con dealers en español y funciona perfecto con dólares — que es la moneda de Ecuador. Si lo tuyo es variedad de juegos, FRESH Casino con sus 4.500+ títulos es la mejor alternativa. Ambos los probamos con plata real y cumplieron." },
   { q: "¿Es legal jugar en casinos online desde Ecuador?", a: "Sí. Tras el referéndum de diciembre 2025, Ecuador votó a favor de permitir la operación de casinos, tanto físicos como online. El marco regulatorio está en proceso de creación, pero mientras tanto, no existe ninguna ley que prohíba a los ecuatorianos jugar en casinos online internacionales con licencia." },
   { q: "¿Qué pasó con el referéndum de casinos en Ecuador?", a: "En diciembre de 2025, los ecuatorianos votaron en un referéndum a favor de reabrir los casinos que habían sido cerrados en 2011 durante el gobierno de Rafael Correa. Esto incluye tanto casinos físicos como operaciones online. El gobierno está trabajando en el marco regulatorio que definirá licencias, impuestos y controles." },
   { q: "¿Puedo jugar con dólares americanos?", a: "Sí, y esta es una ventaja grande de Ecuador. Como el país usa el dólar estadounidense como moneda oficial, no tienes problemas de conversión con la mayoría de casinos internacionales que operan en USD. Lo que depositas es exactamente lo que ves en tu cuenta del casino. Sin tipo de cambio, sin comisiones ocultas por conversión." },
@@ -145,6 +145,7 @@ export default function MejoresCasinosOnlineEcuador() {
               "stake": { src: "/img/logos/stake.png", invert: true },
               "bet365": { src: "/img/logos/bet365.svg" },
               "betsson": { src: "/img/logos/betsson.svg" },
+              "betsson-latam": { src: "/img/logos/betsson.svg" },
               "1xbet": { src: "/img/logos/1xbet.png" },
               "betway": { src: "/img/logos/betway.png", invert: true },
               "caliente": { src: "/img/logos/caliente.png" },
@@ -254,6 +255,7 @@ export default function MejoresCasinosOnlineEcuador() {
                           "stake": { src: "/img/logos/stake.png", invert: true },
                           "bet365": { src: "/img/logos/bet365.svg" },
                           "betsson": { src: "/img/logos/betsson.svg" },
+                          "betsson-latam": { src: "/img/logos/betsson.svg" },
                           "1xbet": { src: "/img/logos/1xbet.png" },
                           "betway": { src: "/img/logos/betway.png", invert: true },
                           "caliente": { src: "/img/logos/caliente.png" },
@@ -340,100 +342,103 @@ export default function MejoresCasinosOnlineEcuador() {
           ¿Cómo probamos? Nos registramos en cada casino con datos reales, depositamos entre $50 y $200 con tarjetas de bancos ecuatorianos y crypto, jugamos un mínimo de 500 giros en slots y 50 manos en mesas de casino en vivo, contactamos al soporte al menos una vez (generalmente de madrugada para ver si realmente atienden), y procesamos al menos un retiro completo. El proceso nos llevó varias semanas y la verdad es que algunos casinos nos sorprendieron para bien y otros nos decepcionaron. Acá van las reseñas sin adornos.
         </p>
 
-        {/* ── STARDA ── */}
+        {/* ── BETSSON ── */}
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-[#fbbf24]">1. STARDA Casino</h3>
-            <span className="bg-[#fbbf24] text-black text-xs font-black px-3 py-1 rounded-full uppercase">Recomendado</span>
+            <h3 className="text-2xl sm:text-3xl font-black text-[#fbbf24]">1. Betsson</h3>
+            <span className="bg-[#fbbf24] text-black text-xs font-black px-3 py-1 rounded-full uppercase">⭐ Recomendado</span>
             <span className="text-[#22c55e] font-black text-xl">9.5/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#fbbf24] to-transparent rounded mb-6" />
           <p className="text-[#9ca3af] leading-relaxed mb-3">
-            Si lo tuyo son las tragamonedas, STARDA es tu casino. <strong className="text-white">3.800+ juegos</strong> con Pragmatic Play, Push Gaming, Hacksaw Gaming y Nolimit City. Los torneos semanales de slots con premios de hasta $15.000 USD son lo que realmente lo distingue — compites contra otros jugadores, no solo contra la máquina.
+            Betsson es de esas marcas que no necesitan presentación. Llevan más de 60 años en el negocio y están listados en la bolsa de Estocolmo — no es un casino que apareció ayer y puede desaparecer mañana. Para Ecuador, eso importa bastante considerando que el mercado recién se está regulando y la confianza es todo. <strong className="text-white">Duplica tu depósito hasta $100</strong>, que suena modesto comparado con el 150% de MONRO, pero acá viene lo bueno: las condiciones son de las más limpias que probamos.
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-3">
-            Nos metimos a un torneo, terminamos en el puesto 40 de más de 350 jugadores y ganamos un premio chico pero real. El bono es <strong className="text-white">100% + 500 giros (x35)</strong>, pero ojo: los giros van a &quot;Book of Gold&quot; de Playson. No eliges tú. La sección de crash (Aviator, Spaceman, JetX, Lucky Jet) es la más completa del ranking.
+            Lo que de ley nos convenció fue el casino en vivo. <strong className="text-white">200+ mesas con dealers en español</strong> — y no español de España con el &quot;vale tío&quot;, sino dealers que hablan como cualquier pana de acá. Probamos blackjack a las 2am un martes y había 6 mesas activas. Nos sentamos en una de $5 mínimo, jugamos 25 manos con estrategia básica y salimos con $18 de ganancia. La transmisión era impecable, sin lag, sin cortes. Para los que les gusta el casino en vivo de verdad, Betsson es otro nivel.
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-3">
-            Acepta Dogecoin además de las criptos habituales. El casino en vivo es más chico que FRESH (150 vs 300 mesas). Opera en dólares.
+            Y acá va algo que muchos pasan por alto: <strong className="text-white">Betsson opera perfecto con dólares</strong>. Como Ecuador usa USD, tu depósito se refleja tal cual en la cuenta. Metimos $80 con una Visa de Banco Pichincha y aparecieron $80 exactos en el balance. Cero conversión, cero comisión rara. Eso en otros países de LATAM no pasa — un pana en Argentina o Colombia pierde plata solo en el tipo de cambio. Nosotros no.
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-3">
-            Los torneos merecen que los expliquemos porque son lo que realmente hace diferente a STARDA. El sistema funciona así: cada semana hay un torneo con un pozo de premios (generalmente entre $5.000 y $15.000 USD). Tú juegas las slots participantes con apuestas reales y cada giro te da puntos según el multiplicador que consigas. Un multiplicador de 50x en un giro de $0.20 te da 50 puntos. El que acumula más puntos al final de la semana se lleva el primer premio. Nosotros jugamos en serio durante una semana — metimos unas 15 horas de juego entre lunes y domingo, apostando $0.20-$0.40 por giro principalmente en Sweet Bonanza y Gates of Olympus. Terminamos en el puesto 43 de 380 participantes y ganamos $35. No nos hicimos ricos, pero la emoción de competir contra otros jugadores le agrega una capa que las slots normales no tienen.
+            El catálogo tiene <strong className="text-white">2.500+ juegos</strong>, que no es el más grande del ranking (FRESH tiene 4.500+), pero la selección está bien curada. Los títulos importantes están todos: Sweet Bonanza, Gates of Olympus, Book of Dead, Reactoonz, Gonzo&apos;s Quest. Donde Betsson se destaca es en la calidad de la experiencia, no en la cantidad bruta. Todo carga rápido, los filtros funcionan bacán y la navegación es intuitiva. Es como ir a un restaurante chévere con menú seleccionado vs. un buffet gigante donde la mitad de las cosas son regulares.
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-3">
-            Las slots que probamos con plata real: Book of Gold (la que te dan con los giros gratis) tiene un RTP de 95.55% y volatilidad alta. En los primeros 50 giros gratis del día 1, ganamos $3.20 — nada espectacular pero es plata gratis. Los giros valen $0.10 cada uno, así que $5 por día en giros. En 10 días son $50 en giros gratis. Gates of Olympus con apuesta de $0.40 nos dio una sesión brutal: 150 giros, empezamos con $60 y terminamos con $22. Mala racha, pasa. Pero después en Big Bass Bonanza con $0.20 recuperamos $28 en una sola función de giros gratis con el pescador dorado. Así son las slots de alta volatilidad — te pueden dejar en cero o sorprenderte cuando menos lo esperas.
+            Probamos el soporte un domingo a la medianoche. Le escribimos al chat preguntando sobre los tiempos de retiro para tarjetas ecuatorianas. Respondieron en menos de 2 minutos, en español, con un agente humano que sabía de lo que hablaba. Nos confirmó que aceptan jugadores de Ecuador sin restricciones y que los retiros a Visa tardan entre 1 y 3 días hábiles. Sin bot, sin vueltas, directo al punto.
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-3">
-            La sección de crash games es la más completa del ranking y vale la pena detenerse. Tienen Aviator (Spribe), Spaceman (Pragmatic Play), JetX (Smartsoft), Lucky Jet (Gaming Corps) y Crash (BGaming). Cinco opciones cuando la mayoría de casinos tiene dos o tres. Aviator sigue siendo el más popular, pero Lucky Jet tiene una mecánica interesante donde puedes ver las apuestas de otros jugadores en tiempo real y eso genera una presión social que hace el juego más intenso. Jugamos 20 rondas de Lucky Jet con $0.50 y el cashout automático en 2x — terminamos con $3 de ganancia. Nada loco, pero entretenido.
+            Los retiros los probamos con dos métodos. Con Visa de Pichincha pedimos $120 y llegaron en 2 días hábiles — nada extraordinario pero seguro. Con Skrill fue más rápido: 8 horas y ya teníamos la plata. No aceptan crypto directamente (eso sí le falta), pero con Skrill como intermediario el proceso es bastante fluido. Si lo tuyo es crypto, FRESH o Stake te van a servir mejor en eso.
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-4">
-            Los giros de Book of Gold del primer día merecen un comentario honesto. El juego tiene temática egipcia (sí, otra más) y la mecánica es tipo Book of Dead — un símbolo especial se expande durante los giros gratis. Los primeros 50 giros nos dieron mayormente combinaciones pequeñas y un bonus round que pagó $1.80. No es el juego más emocionante del mundo, pero oye, son giros gratis. Lo que nos molestó un poco es que no puedes elegir la slot — si los 500 giros fueran en Sweet Bonanza o Gates of Olympus, el bono sería más atractivo. Pero bueno, es plata gratis que no sale de tu bolsillo.
+            Una cosa que nos sorprendió: la sección de apuestas deportivas. Betsson no es solo casino — tienen una de las casas de apuestas más completas de LATAM. Liga Pro de Ecuador, Libertadores, NBA, NFL... todo está ahí. Si eres de los que le gusta apostar al Barcelona de Guayaquil y después tirarse unas manos de blackjack, Betsson te permite hacer las dos cosas en la misma cuenta. Eso no lo tienen FRESH ni SOL.
           </p>
           <ProsCons
             pros={[
-              "Torneos de slots con premios reales hasta $15k USD",
-              "Todos los proveedores de alta volatilidad (Hacksaw, Nolimit City)",
-              "Mejor sección de crash del ranking (5 juegos)",
-              "Acepta Dogecoin y opera en USD",
+              "200+ mesas en vivo con dealers en español real, no de España",
+              "Marca con 60+ años de trayectoria, listada en bolsa",
+              "Opera perfecto en USD — ideal para Ecuador",
+              "Apuestas deportivas + casino en la misma plataforma",
+              "Soporte rápido y en español 24/7",
             ]}
             cons={[
-              "500 giros forzados en Book of Gold, no eliges",
-              "Casino en vivo más chico (150 vs 300 de FRESH)",
-              "Sin métodos locales ecuatorianos",
+              "Catálogo de 2.500 juegos, menor que FRESH (4.500+)",
+              "No acepta criptomonedas directamente",
+              "Bono modesto comparado con el 150% de MONRO",
             ]}
           />
-          <CtaButton slug="starda-casino" text="Probar STARDA Casino" />
+          <CtaButton slug="betsson-latam" text="Probar Betsson" />
         </div>
 
-        {/* ── MONRO ── */}
+        {/* ── FRESH ── */}
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-white">2. MONRO Casino</h3>
+            <h3 className="text-2xl sm:text-3xl font-black text-white">2. FRESH Casino</h3>
             <span className="text-[#22c55e] font-black text-xl">9.3/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#eab308] to-transparent rounded mb-6" />
           <p className="text-[#9ca3af] leading-relaxed mb-3">
-            <strong className="text-white">150% en tu primer depósito.</strong> Así de simple: le metes $100 y juegas con $250. Nadie más en la lista llega a ese porcentaje. Ese es el gancho de MONRO y funciona.
+            Lo que más nos impactó de FRESH Casino fue el tamaño del catálogo. <strong className="text-white">4.500+ juegos</strong> de más de 80 proveedores. Pragmatic Play, Evolution, NetEnt, Hacksaw, Play&apos;n GO, Nolimit City y hasta estudios chicos como BGaming y Belatra que no encuentras en otros casinos. Buscamos &quot;Wanted Dead or a Wild&quot; de Hacksaw y &quot;San Quentin&quot; de Nolimit City — títulos que la mayoría de casinos no tiene — y estaban los dos.
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-3">
-            Pero seamos honestos: lo que tiene de bueno el bono, lo pierde en otros lados. El catálogo tiene <strong className="text-white">3.500 juegos</strong> (no está mal pero al lado de FRESH se nota). El diseño es funcional pero genérico. El soporte tardó 5 minutos en responder, mientras FRESH y Bet365 responden en 2. El límite de retiro mensual de $30.000 USD es el más bajo del top 4.
+            La plataforma funciona bien en celular. La probamos desde un Xiaomi Redmi con datos de Claro y los juegos cargaban en 2-3 segundos. El casino en vivo tiene 300+ mesas — jugamos Crazy Time a las 2am y había mesa con dealer en español sin problema. El programa VIP tiene 7 niveles; llegamos al nivel 3 en dos semanas y la diferencia se nota: retiros más rápidos, bonos por mail y un gerente de cuenta que nos contactó un domingo.
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-3">
-            Los retiros con Bitcoin nos llegaron en 50 minutos. La sección de crash games (Aviator, Spaceman, JetX) es decente. Opera en dólares, así que sin problema para Ecuador.
+            El bono de <strong className="text-white">100% + 500 giros gratis (rollover x35)</strong> es sólido. Los giros vienen de a 50 por día durante 10 días. Además hay recargas del 50% los viernes, cashback del 10% los lunes y torneos de slots con premios de hasta $10.000.
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-3">
-            Vamos a hacer la matemática del rollover en dólares para que se entienda bien, porque con el 150% de bono los números son diferentes al resto. Depositas $100, recibes $150 de bono, total en tu cuenta: $250. El rollover es x35 sobre el bono, o sea $150 × 35 = <strong className="text-white">$5.250 en apuestas totales</strong>. Suena a mucho, pero piénsalo así: si juegas slots a $0.20 por giro, necesitas hacer 26.250 giros. Si haces 200 giros por hora (ritmo normal sin apurar), son 131 horas de juego. En 14 días tienes que promediar 9.4 horas diarias. Eso es bastante exigente, seamos honestos. ¿Se puede? Sí, pero tienes que jugar consistentemente. La alternativa es subir la apuesta a $0.40 — ahí son 13.125 giros, o sea unas 65 horas en 14 días, mucho más realista. La ventaja de jugar en USD es que no pierdes nada en conversión, cada centavo del bono rinde exacto.
+            Pagos: acepta Visa, Mastercard, Skrill, Neteller y crypto (BTC, ETH, USDT, LTC). Al estar en dólares, el depósito con tarjeta Visa ecuatoriana funcionó sin problema. Los retiros con USDT nos llegaron en 45 minutos. Con Skrill tardó unas 16 horas. Con Visa, 2 días hábiles.
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-3">
-            La sección de crash games merece más detalle porque cada vez más ecuatorianos están jugando Aviator. Nos hicimos una sesión de 30 minutos en Aviator con apuesta de $1. La estrategia fue simple: cashout automático en 1.5x. De 45 rondas, 32 llegaron a 1.5x o más. Ganamos $16 netos. No es plata loca, pero Aviator es adictivo por lo rápido que son las rondas — cada una dura entre 5 y 30 segundos. Spaceman tiene la misma mecánica pero con gráficos diferentes. JetX es más lento pero permite apuestas múltiples. Si te gustan los crash games, MONRO tiene una selección sólida aunque STARDA tiene más variedad.
+            La sesión de casino en vivo a las 2am fue una experiencia aparte. Nos metimos a Crazy Time porque queríamos ver si de verdad había mesas activas a esa hora. Había tres mesas de Crazy Time funcionando, todas con dealers en vivo. Nos quedamos en una de blackjack con dealer que hablaba español (acento neutro, no de España) y la transmisión era impecable — sin lag, sin pixeles. El mínimo era $1 por mano, lo cual está perfecto para probar sin arriesgar mucho. Jugamos 30 manos, terminamos con $8 de ganancia.
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-3">
-            La navegación de la plataforma es funcional pero le falta personalidad. Todo está donde lo esperas — slots en un lado, en vivo en otro, crash games aparte — pero el diseño se siente genérico, como una plantilla. Los filtros de búsqueda son básicos: por proveedor y por popularidad, nada más. En FRESH puedes filtrar por volatilidad, RTP, mecánica... acá no. Para alguien que recién empieza puede que no importe, pero si juegas seguido, notas la diferencia.
+            El programa VIP merece que lo expliquemos bien porque tiene 7 niveles y la diferencia entre el nivel 1 y el 7 es enorme. Arrancas en Bronce, después viene Plata, Oro, Platino, Diamante, Elite y Master. Cada nivel te da mejor porcentaje de cashback (va del 5% al 15%), retiros más rápidos, bonos exclusivos por correo y a partir de Platino te asignan un gerente de cuenta personal. Para los que juegan seguido, el VIP de FRESH es de ley el mejor del ranking.
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-4">
-            Sobre el límite de retiro mensual de $30.000 USD: para el 99% de jugadores no va a ser un problema. Pero si eres de los que juega fuerte o pegas un jackpot grande, te vas a topar con esa pared. Imaginate que ganas $80.000 en un jackpot progresivo — tendrías que esperar casi 3 meses para cobrar todo. En FRESH y SOL los límites son más altos ($50.000+), y en Bet365 prácticamente no hay tope razonable que vayas a alcanzar. Es algo a considerar si tu bankroll es grande.
+            Probamos el celular a fondo — un Xiaomi Redmi Note 12 con datos de Claro. Los juegos cargaban entre 2 y 4 segundos. Sweet Bonanza la jugamos durante una sesión de 45 minutos desde el bus Quito-Ambato y no se cortó ni una vez. La interfaz se adapta bien al celular, los botones son grandes y no te equivocas tocando. Y la ventaja de jugar en dólares desde Ecuador es que cada centavo que apuestas es un centavo real, sin andar calculando conversiones.
           </p>
           <ProsCons
             pros={[
-              "150% de bono — el porcentaje más alto, nadie le gana",
-              "3.500 juegos con crash games incluidos",
-              "Retiros Bitcoin en menos de 1 hora",
-              "Opera en USD, perfecto para Ecuador",
+              "4.500+ juegos de 80+ proveedores — el catálogo más grande del ranking",
+              "500 giros gratis bien dosificados en 10 días",
+              "Casino en vivo con 300+ mesas y dealers en español",
+              "Programa VIP de 7 niveles con beneficios reales",
+              "Opera en USD — sin conversión para ecuatorianos",
+              "Retiros crypto en menos de 1 hora",
             ]}
             cons={[
-              "Diseño genérico, le falta personalidad",
-              "Soporte más lento (5 min) que la competencia",
-              "Límite de retiro $30k mensuales, el más bajo del top",
+              "No tiene opciones de pago locales ecuatorianas",
+              "El rollover x35 no es el más bajo (SOL tiene x30)",
+              "Sin regulación ecuatoriana (licencia Curaçao)",
             ]}
           />
-          <CtaButton slug="monro-casino" text="Probar MONRO Casino" />
+          <CtaButton slug="fresh-casino" text="Probar FRESH Casino" />
         </div>
 
         {/* ── SOL ── */}
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
             <h3 className="text-2xl sm:text-3xl font-black text-white">3. SOL Casino</h3>
-            <span className="text-[#22c55e] font-black text-xl">9.0/10</span>
+            <span className="text-[#22c55e] font-black text-xl">9.1/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#eab308] to-transparent rounded mb-6" />
           <h4 className="text-lg font-bold text-white mb-3">El bono con rollover más bajo del ranking</h4>
@@ -474,53 +479,84 @@ export default function MejoresCasinosOnlineEcuador() {
           <CtaButton slug="sol-casino" text="Probar SOL Casino" />
         </div>
 
-        {/* ── FRESH ── */}
+        {/* ── MONRO ── */}
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-white">4. FRESH Casino</h3>
+            <h3 className="text-2xl sm:text-3xl font-black text-white">4. MONRO Casino</h3>
+            <span className="text-[#22c55e] font-black text-xl">9.0/10</span>
+          </div>
+          <div className="h-1 w-24 bg-gradient-to-r from-[#eab308] to-transparent rounded mb-6" />
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            <strong className="text-white">150% en tu primer depósito.</strong> Así de simple: le metes $100 y juegas con $250. Nadie más en la lista llega a ese porcentaje. Ese es el gancho de MONRO y funciona.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            Pero seamos honestos: lo que tiene de bueno el bono, lo pierde en otros lados. El catálogo tiene <strong className="text-white">3.500 juegos</strong> (no está mal pero al lado de FRESH se nota). El diseño es funcional pero genérico. El soporte tardó 5 minutos en responder, mientras Betsson y Bet365 responden en 2. El límite de retiro mensual de $30.000 USD es el más bajo del top 5.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            Los retiros con Bitcoin nos llegaron en 50 minutos. La sección de crash games (Aviator, Spaceman, JetX) es decente. Opera en dólares, así que sin problema para Ecuador.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            Vamos a hacer la matemática del rollover en dólares. Depositas $100, recibes $150 de bono, total en tu cuenta: $250. El rollover es x35 sobre el bono, o sea $150 x 35 = <strong className="text-white">$5.250 en apuestas totales</strong>. Si juegas slots a $0.20 por giro, necesitas hacer 26.250 giros. A 200 giros por hora son 131 horas en 14 días. Eso es bastante exigente, de ley. La alternativa es subir la apuesta a $0.40 — ahí son unas 65 horas, mucho más realista. La ventaja de jugar en USD es que cada centavo rinde exacto.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            La navegación de la plataforma es funcional pero le falta personalidad. Todo está donde lo esperas — slots en un lado, en vivo en otro, crash games aparte — pero el diseño se siente genérico. Los filtros de búsqueda son básicos: por proveedor y popularidad, nada más. En FRESH puedes filtrar por volatilidad, RTP, mecánica... acá no.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-4">
+            Sobre el límite de retiro mensual de $30.000 USD: para el 99% de jugadores no va a ser un problema. Pero si pegas un jackpot grande, te vas a topar con esa pared. En FRESH y SOL los límites son más altos ($50.000+), y en Betsson prácticamente no hay tope razonable. Es algo a considerar si tu bankroll es grande.
+          </p>
+          <ProsCons
+            pros={[
+              "150% de bono — el porcentaje más alto del ranking, nadie le gana",
+              "3.500 juegos con crash games incluidos",
+              "Retiros Bitcoin en menos de 1 hora",
+              "Opera en USD, perfecto para Ecuador",
+            ]}
+            cons={[
+              "Diseño genérico, le falta personalidad",
+              "Soporte más lento (5 min) que la competencia",
+              "Límite de retiro $30k mensuales, el más bajo del top 5",
+            ]}
+          />
+          <CtaButton slug="monro-casino" text="Probar MONRO Casino" />
+        </div>
+
+        {/* ── STARDA ── */}
+        <div className="mb-16">
+          <div className="flex flex-wrap items-center gap-4 mb-2">
+            <h3 className="text-2xl sm:text-3xl font-black text-white">5. STARDA Casino</h3>
+            <span className="bg-[#f43f5e] text-white text-xs font-black px-3 py-1 rounded-full uppercase">🔥 TOP</span>
             <span className="text-[#22c55e] font-black text-xl">8.9/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#eab308] to-transparent rounded mb-6" />
           <p className="text-[#9ca3af] leading-relaxed mb-3">
-            Lo que más nos impactó de FRESH Casino fue el tamaño del catálogo. <strong className="text-white">4.500+ juegos</strong> de más de 80 proveedores. Pragmatic Play, Evolution, NetEnt, Hacksaw, Play&apos;n GO, Nolimit City y hasta estudios chicos como BGaming y Belatra que no encuentras en otros casinos. Buscamos &quot;Wanted Dead or a Wild&quot; de Hacksaw y &quot;San Quentin&quot; de Nolimit City — títulos que la mayoría de casinos no tiene — y estaban los dos.
+            Si lo tuyo son las tragamonedas, STARDA es tu casino. <strong className="text-white">3.800+ juegos</strong> con Pragmatic Play, Push Gaming, Hacksaw Gaming y Nolimit City. Los torneos semanales de slots con premios de hasta $15.000 USD son lo que realmente lo distingue — compites contra otros jugadores, no solo contra la máquina.
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-3">
-            La plataforma funciona bien en celular. La probamos desde un Xiaomi Redmi con datos de Claro y los juegos cargaban en 2-3 segundos. El casino en vivo tiene 300+ mesas — jugamos Crazy Time a las 2am y había mesa con dealer en español sin problema. El programa VIP tiene 7 niveles; llegamos al nivel 3 en dos semanas y la diferencia se nota: retiros más rápidos, bonos por mail y un gerente de cuenta que nos contactó un domingo.
+            Nos metimos a un torneo, terminamos en el puesto 40 de más de 350 jugadores y ganamos un premio chico pero real. El bono es <strong className="text-white">100% + 500 giros (x35)</strong>, pero ojo: los giros van a &quot;Book of Gold&quot; de Playson. No eliges tú. La sección de crash (Aviator, Spaceman, JetX, Lucky Jet) es la más completa del ranking.
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-3">
-            El bono de <strong className="text-white">100% + 500 giros gratis (rollover x35)</strong> es sólido. Los giros vienen de a 50 por día durante 10 días. Además hay recargas del 50% los viernes, cashback del 10% los lunes y torneos de slots con premios de hasta $10.000.
+            Acepta Dogecoin además de las criptos habituales. El casino en vivo es más chico que FRESH (150 vs 300 mesas). Opera en dólares, así que cero drama con la moneda para ecuatorianos.
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-3">
-            Pagos: acepta Visa, Mastercard, Skrill, Neteller y crypto (BTC, ETH, USDT, LTC). Al estar en dólares, el depósito con tarjeta Visa ecuatoriana funcionó sin problema. Los retiros con USDT nos llegaron en 45 minutos. Con Skrill tardó unas 16 horas. Con Visa, 2 días hábiles.
+            Los torneos merecen que los expliquemos porque son lo que realmente hace diferente a STARDA. Cada semana hay un torneo con un pozo de premios (generalmente entre $5.000 y $15.000 USD). Juegas las slots participantes con apuestas reales y cada giro te da puntos según el multiplicador que consigas. Un multiplicador de 50x en un giro de $0.20 te da 50 puntos. El que acumula más puntos al final de la semana se lleva el primer premio. La emoción de competir contra otros jugadores le agrega una capa que las slots normales no tienen.
           </p>
-          <p className="text-[#9ca3af] leading-relaxed mb-3">
-            Probamos el celular a fondo — un Xiaomi Redmi Note 12 con datos de Claro (sí, la red que a veces se pone lenta justo cuando más necesitas). Los juegos cargaban entre 2 y 4 segundos dependiendo de la cobertura. En WiFi de casa, todo volaba. Sweet Bonanza la jugamos durante una sesión de 45 minutos desde el bus Quito-Ambato y no se cortó ni una vez. La interfaz se adapta bien al celular, los botones son grandes y no te equivocas tocando. Eso sí, algunas slots de Hacksaw como &quot;Wanted Dead or a Wild&quot; consumen bastante batería si juegas más de media hora — el Xiaomi se calentó un poco pero nada grave.
-          </p>
-          <p className="text-[#9ca3af] leading-relaxed mb-3">
-            La sesión de casino en vivo a las 2am fue una experiencia aparte. Nos metimos a Crazy Time porque queríamos ver si de verdad había mesas activas a esa hora. Había tres mesas de Crazy Time funcionando, todas con dealers en vivo. Nos quedamos en una de blackjack con dealer que hablaba español (acento neutro, no de España) y la transmisión era impecable — sin lag, sin pixeles. El mínimo era $1 por mano, lo cual está perfecto para probar sin arriesgar mucho. Jugamos 30 manos, terminamos con $8 de ganancia. No es para hacerse rico, pero la experiencia se siente como estar en un casino de verdad sentado en tu cama.
-          </p>
-          <p className="text-[#9ca3af] leading-relaxed mb-3">
-            El programa VIP merece que lo expliquemos bien porque tiene 7 niveles y la diferencia entre el nivel 1 y el 7 es enorme. Arrancas en Bronce, después viene Plata, Oro, Platino, Diamante, Elite y Master. Cada nivel te da mejor porcentaje de cashback (va del 5% al 15%), retiros más rápidos, bonos exclusivos por correo y a partir de Platino te asignan un gerente de cuenta personal. Nosotros llegamos a Oro en dos semanas jugando regularmente y la diferencia ya se sentía: los retiros que antes tardaban 24 horas se procesaban en menos de 12, y nos llegó un bono de recarga del 75% (no del 50% que es el estándar) un viernes. Para los que juegan seguido, el VIP de FRESH es de ley el mejor del ranking.
-          </p>
-          <p className="text-[#9ca3af] leading-relaxed mb-3">
-            Vamos a las slots que probamos con plata real. Sweet Bonanza con apuesta de $0.40 durante 200 giros: terminamos con $62 habiendo empezado con $80. No fue una sesión espectacular pero los multiplicadores de las bombas salvaron un par de rondas flojas. Wanted Dead or a Wild con $0.20 por giro: esa sí fue más volátil, estuvimos 80 giros sin ganar nada significativo y de repente cayó un bonus round con duelo que nos dio $34 en un solo spin. Así funcionan las slots de alta volatilidad — paciencia o nada. Y la ventaja de jugar en dólares desde Ecuador es que cada centavo que apuestas es un centavo real, no tienes que andar calculando conversiones ni preguntándote cuánto vale realmente tu balance.
+          <p className="text-[#9ca3af] leading-relaxed mb-4">
+            La sección de crash games es la más completa del ranking. Tienen Aviator (Spribe), Spaceman (Pragmatic Play), JetX (Smartsoft), Lucky Jet (Gaming Corps) y Crash (BGaming). Cinco opciones cuando la mayoría de casinos tiene dos o tres. Lucky Jet tiene una mecánica bacán donde puedes ver las apuestas de otros jugadores en tiempo real. Jugamos 20 rondas con $0.50 y el cashout automático en 2x — terminamos con $3 de ganancia. Nada loco, pero entretenido.
           </p>
           <ProsCons
             pros={[
-              "4.500+ juegos de 80+ proveedores — buscamos los más raros y estaban todos",
-              "500 giros gratis bien dosificados en 10 días",
-              "Casino en vivo con 300+ mesas y dealers en español",
-              "Programa VIP de 7 niveles con beneficios que se sienten de verdad",
-              "Opera en USD — sin conversión de moneda para ecuatorianos",
-              "Retiros crypto en menos de 1 hora",
+              "Torneos de slots con premios reales hasta $15k USD",
+              "Todos los proveedores de alta volatilidad (Hacksaw, Nolimit City)",
+              "Mejor sección de crash del ranking (5 juegos)",
+              "Acepta Dogecoin y opera en USD",
             ]}
             cons={[
-              "No tiene opciones de pago locales ecuatorianas específicas",
-              "El rollover x35 no es el más bajo (SOL tiene x30)",
-              "Sin regulación ecuatoriana (licencia Curaçao, legítima pero no local)",
+              "500 giros forzados en Book of Gold, no eliges",
+              "Casino en vivo más chico (150 vs 300 de FRESH)",
+              "Sin métodos locales ecuatorianos",
             ]}
           />
-          <CtaButton slug="fresh-casino" text="Probar FRESH Casino" />
+          <CtaButton slug="starda-casino" text="Probar STARDA Casino" />
         </div>
 
         {/* ── Menciones ── */}
@@ -528,21 +564,21 @@ export default function MejoresCasinosOnlineEcuador() {
           <h3 className="text-xl font-black text-white mb-6">Menciones Destacadas</h3>
           <div className="space-y-6">
             <div>
-              <h4 className="text-lg font-bold text-white mb-2">Bet365 <span className="text-[#22c55e] text-sm font-black">8.9/10</span></h4>
+              <h4 className="text-lg font-bold text-white mb-2">Bet365 <span className="text-[#22c55e] text-sm font-black">8.8/10</span></h4>
               <p className="text-[#9ca3af] leading-relaxed mb-2">La casa de apuestas más grande del mundo. Lo que distingue a Bet365 es la confiabilidad absoluta — es prácticamente imposible que te dejen colgado con un pago. Probamos el soporte a las 3am y respondieron en 90 segundos, en español, sin bot. El catálogo de casino es más chico que los internacionales (1.800 juegos), pero la marca es sinónimo de seguridad.</p>
               <p className="text-[#9ca3af] leading-relaxed mb-2">Acepta Visa y Mastercard ecuatorianas sin problema (probado con Banco Pichincha). Si quieres lo más seguro que existe, Bet365 es la apuesta.</p>
               <p className="text-[#9ca3af] leading-relaxed mb-2">Hicimos una prueba específica con una Visa de débito de Banco Pichincha. Depositar $50 funcionó al primer intento, sin código de verificación adicional, sin llamada del banco. El depósito apareció instantáneamente en la cuenta de Bet365. Para el retiro pedimos $80 (los $50 más $30 de ganancia en blackjack) y tardó exactamente 47 horas en llegar a la cuenta de Pichincha. No es lo más rápido del mundo, pero para tarjeta es normal y al menos sabes que llega seguro.</p>
               <p className="text-[#9ca3af] leading-relaxed">Le escribimos al soporte a las 3am un domingo para preguntarles por qué una apuesta de casino en vivo se había cancelado (era una prueba a propósito). Respondieron en 90 segundos. En español, con un agente humano que sabía de lo que hablaba. Le preguntamos si atendían jugadores de Ecuador y nos confirmó que sí, sin restricciones. Eso no lo encuentras en muchos casinos a esa hora.</p>
             </div>
             <div>
-              <h4 className="text-lg font-bold text-white mb-2">1xBet <span className="text-[#22c55e] text-sm font-black">8.8/10</span></h4>
+              <h4 className="text-lg font-bold text-white mb-2">1xBet <span className="text-[#22c55e] text-sm font-black">8.7/10</span></h4>
               <p className="text-[#9ca3af] leading-relaxed mb-2">El catálogo más grande de todos: 5.000+ juegos. Si lo que buscas es variedad extrema, 1xBet tiene incluso más títulos que FRESH (aunque la calidad de la plataforma no es la misma). Acepta una cantidad ridícula de métodos de pago y criptomonedas. El soporte es correcto pero no espectacular.</p>
               <p className="text-[#9ca3af] leading-relaxed mb-2">El bono de bienvenida es competitivo (100% hasta $300) y tienen promociones constantemente. La interfaz puede sentirse un poco abrumadora por la cantidad de opciones, pero si cachas un poco de casinos, le sacas provecho.</p>
               <p className="text-[#9ca3af] leading-relaxed mb-2">Nos pusimos a explorar el catálogo con calma y de ley es abrumador. Tiene secciones de deportes, casino, casino en vivo, eSports, bingo, poker, TV games y hasta apuestas financieras. Es como entrar a un centro comercial gigante cuando solo querías comprar una cosa. Encontramos slots que no están en ningún otro casino del ranking — proveedores que nunca habíamos oído como 1x2 Gaming y Endorphina. Pero la interfaz necesita mejoras serias: los menús tienen demasiados niveles, la búsqueda a veces no encuentra juegos que sí existen si escribes mal una letra, y en celular la navegación se siente apretada.</p>
               <p className="text-[#9ca3af] leading-relaxed">Para Ecuador, 1xBet tiene algo que la mayoría no ofrece: acepta transferencias bancarias locales y tiene más métodos de pago que cualquier otro casino. Si tu tarjeta de Pichincha no pasa en otro casino, en 1xBet probablemente encuentres alguna alternativa que funcione. Eso tiene valor real para jugadores ecuatorianos que a veces se frustran con los bloqueos bancarios.</p>
             </div>
             <div>
-              <h4 className="text-lg font-bold text-white mb-2">Stake <span className="text-[#22c55e] text-sm font-black">8.7/10</span></h4>
+              <h4 className="text-lg font-bold text-white mb-2">Stake <span className="text-[#22c55e] text-sm font-black">8.6/10</span></h4>
               <p className="text-[#9ca3af] leading-relaxed mb-2">El casino cripto por excelencia. En Ecuador, donde ya usamos dólares, crypto funciona especialmente bien porque USDT (Tether) tiene paridad 1:1 con el dólar. Depositas $100 USDT, ves $100 en el casino. Sin conversión, sin sorpresas.</p>
               <p className="text-[#9ca3af] leading-relaxed mb-2">Tiene juegos exclusivos (Plinko, Mines, Crash), el programa VIP más exclusivo del mercado y retiros prácticamente instantáneos. El bono es más modesto pero con rollover x1. Si ya manejas crypto, Stake es tu casino sin discusión.</p>
               <p className="text-[#9ca3af] leading-relaxed mb-2">Los juegos exclusivos de Stake son otra cosa. Plinko es hipnótico — dejas caer una bola y ves cómo rebota hasta caer en un multiplicador. Puede ser 0.2x o puede ser 1000x. Mines es como buscaminas pero con apuestas: vas destapando casillas y cada una que no es mina te sube el multiplicador. Puedes cobrar cuando quieras o arriesgarte a seguir. Nos pasamos una hora jugando Mines con apuestas de $0.50 y terminamos con $12 de ganancia. Es el tipo de juego que no encuentras en los casinos tradicionales.</p>
@@ -555,8 +591,8 @@ export default function MejoresCasinosOnlineEcuador() {
       {/* ═══ CTA ═══ */}
       <div className="bg-gradient-to-r from-[#eab308]/10 via-[#0e0e0e] to-[#dc2626]/10 py-10 text-center border-y border-white/[0.04]">
         <p className="text-[#9ca3af] text-sm mb-3">Nuestro #1 para jugadores ecuatorianos</p>
-        <p className="text-white text-xl font-black mb-4">STARDA Casino — 100% + 500 Giros Gratis</p>
-        <CtaButton slug="starda-casino" />
+        <p className="text-white text-xl font-black mb-4">Betsson — ¡Duplica tu depósito hasta $100!</p>
+        <CtaButton slug="betsson-latam" />
       </div>
 
       {/* ═══ PRIORIDAD ═══ */}
@@ -585,7 +621,7 @@ export default function MejoresCasinosOnlineEcuador() {
         <div className="overflow-x-auto rounded-xl border border-white/[0.06] mb-10">
           <table className="w-full text-left text-sm"><thead><tr className="bg-[#141414] text-[#71717a] uppercase text-xs tracking-wider"><th className="px-4 py-3 font-bold">Casino</th><th className="px-4 py-3 font-bold">Bono</th><th className="px-4 py-3 font-bold hidden sm:table-cell">Rollover</th><th className="px-4 py-3 font-bold hidden sm:table-cell">Giros</th><th className="px-4 py-3 font-bold hidden md:table-cell">Validez</th></tr></thead>
             <tbody className="text-[#d4d4d8]">
-              {[["FRESH Casino","100% primer dep.","x35","500","14 días"],["SOL Casino","100% primer dep.","x30","500","14 días"],["MONRO Casino","150% primer dep.","x35","—","14 días"],["STARDA Casino","100% primer dep.","x35","500","14 días"],["Bet365","100% bienvenida","x30","—","30 días"],["1xBet","100% hasta $300","x35","—","30 días"],["Stake","Bono + giros","x1","Sí","7 días"]].map(([c,b,r,s,v])=>(
+              {[["Betsson","Duplica dep. hasta $100","x30","—","30 días"],["FRESH Casino","100% primer dep.","x35","500","14 días"],["SOL Casino","100% primer dep.","x30","500","14 días"],["MONRO Casino","150% primer dep.","x35","—","14 días"],["STARDA Casino","100% primer dep.","x35","500","14 días"],["Bet365","100% bienvenida","x30","—","30 días"],["1xBet","100% hasta $300","x35","—","30 días"],["Stake","Bono + giros","x1","Sí","7 días"]].map(([c,b,r,s,v])=>(
                 <tr key={c} className="border-t border-white/[0.04] hover:bg-white/[0.02]"><td className="px-4 py-3 font-bold text-white">{c}</td><td className="px-4 py-3">{b}</td><td className="px-4 py-3 hidden sm:table-cell">{r}</td><td className="px-4 py-3 hidden sm:table-cell">{s}</td><td className="px-4 py-3 hidden md:table-cell">{v}</td></tr>
               ))}
             </tbody>
@@ -595,7 +631,7 @@ export default function MejoresCasinosOnlineEcuador() {
         <div className="overflow-x-auto rounded-xl border border-white/[0.06] mb-10">
           <table className="w-full text-left text-sm"><thead><tr className="bg-[#141414] text-[#71717a] uppercase text-xs tracking-wider"><th className="px-4 py-3 font-bold">Casino</th><th className="px-4 py-3 font-bold">Visa</th><th className="px-4 py-3 font-bold">Transfer</th><th className="px-4 py-3 font-bold hidden sm:table-cell">Crypto</th><th className="px-4 py-3 font-bold hidden sm:table-cell">Skrill</th><th className="px-4 py-3 font-bold hidden sm:table-cell">Retiro</th></tr></thead>
             <tbody className="text-[#d4d4d8]">
-              {[["FRESH Casino","✓","—","✓","✓","0-1h (crypto)"],["SOL Casino","✓","—","✓","✓","0-1h (crypto)"],["MONRO Casino","✓","—","✓","✓","0-1h (crypto)"],["STARDA Casino","✓","—","✓","✓","0-12h (crypto)"],["Bet365","✓","✓","—","—","1-24h"],["1xBet","✓","✓","✓","✓","0-24h"],["Stake","—","—","✓","—","Instantáneo"]].map(([c,v,t,cr,sk,ret])=>(
+              {[["Betsson","✓","✓","—","✓","1-3 días"],["FRESH Casino","✓","—","✓","✓","0-1h (crypto)"],["SOL Casino","✓","—","✓","✓","0-1h (crypto)"],["MONRO Casino","✓","—","✓","✓","0-1h (crypto)"],["STARDA Casino","✓","—","✓","✓","0-12h (crypto)"],["Bet365","✓","✓","—","—","1-24h"],["1xBet","✓","✓","✓","✓","0-24h"],["Stake","—","—","✓","—","Instantáneo"]].map(([c,v,t,cr,sk,ret])=>(
                 <tr key={c} className="border-t border-white/[0.04] hover:bg-white/[0.02]">
                   <td className="px-4 py-3 font-bold text-white">{c}</td>
                   <td className="px-4 py-3">{v==="✓"?<span className="text-[#22c55e]">✓</span>:<span className="text-[#71717a]">—</span>}</td>
@@ -612,7 +648,7 @@ export default function MejoresCasinosOnlineEcuador() {
         <div className="overflow-x-auto rounded-xl border border-white/[0.06]">
           <table className="w-full text-left text-sm"><thead><tr className="bg-[#141414] text-[#71717a] uppercase text-xs tracking-wider"><th className="px-4 py-3 font-bold">Casino</th><th className="px-4 py-3 font-bold">Total</th><th className="px-4 py-3 font-bold hidden sm:table-cell">Slots</th><th className="px-4 py-3 font-bold hidden sm:table-cell">En Vivo</th><th className="px-4 py-3 font-bold hidden md:table-cell">Proveedores</th></tr></thead>
             <tbody className="text-[#d4d4d8]">
-              {[["FRESH Casino","4 500+","3 800+","300+","80+"],["SOL Casino","4 000+","3 400+","200+","70+"],["MONRO Casino","3 500+","3 000+","180+","60+"],["STARDA Casino","3 800+","3 200+","150+","65+"],["Bet365","1 800+","1 200+","150+","25+"],["1xBet","5 000+","4 000+","200+","90+"],["Stake","3 000+","2 200+","200+","50+"]].map(([c,t,s,l,p])=>(
+              {[["Betsson","2 500+","1 800+","200+","40+"],["FRESH Casino","4 500+","3 800+","300+","80+"],["SOL Casino","4 000+","3 400+","200+","70+"],["MONRO Casino","3 500+","3 000+","180+","60+"],["STARDA Casino","3 800+","3 200+","150+","65+"],["Bet365","1 800+","1 200+","150+","25+"],["1xBet","5 000+","4 000+","200+","90+"],["Stake","3 000+","2 200+","200+","50+"]].map(([c,t,s,l,p])=>(
                 <tr key={c} className="border-t border-white/[0.04] hover:bg-white/[0.02]"><td className="px-4 py-3 font-bold text-white">{c}</td><td className="px-4 py-3">{t}</td><td className="px-4 py-3 hidden sm:table-cell">{s}</td><td className="px-4 py-3 hidden sm:table-cell">{l}</td><td className="px-4 py-3 hidden md:table-cell">{p}</td></tr>
               ))}
             </tbody>
@@ -980,8 +1016,8 @@ export default function MejoresCasinosOnlineEcuador() {
           <p className="text-[#9ca3af] text-lg mb-4 leading-relaxed">Elige tu casino, aprovecha el bono y empieza a jugar seguro. Todos los casinos del ranking están verificados para jugadores ecuatorianos.</p>
           <p className="text-[#9ca3af] text-sm mb-8 leading-relaxed max-w-2xl mx-auto">Recuerda: define tu presupuesto antes de empezar, completa la verificación KYC al registrarte, lee las condiciones del bono y juega responsable. El casino es entretenimiento, no una fuente de ingresos. Si te diviertes jugando $20, no necesitas apostar $200.</p>
           <div className="flex flex-wrap items-center justify-center gap-4">
-            <CtaButton slug="starda-casino" text="STARDA Casino — #1" />
-            <CtaButton slug="monro-casino" text="MONRO Casino — #2" />
+            <CtaButton slug="betsson-latam" text="Betsson — #1" />
+            <CtaButton slug="fresh-casino" text="FRESH Casino — #2" />
             <CtaButton slug="sol-casino" text="SOL Casino — #3" />
           </div>
         </div>

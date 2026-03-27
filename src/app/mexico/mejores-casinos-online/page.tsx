@@ -11,20 +11,20 @@ export const metadata: Metadata = {
 /* ───────── Casino data for this page ───────── */
 
 const mexicoCasinos = [
-  { rank: 1, name: "STARDA Casino", slug: "starda-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.5, license: "Curaçao", games: "3 800+", highlight: true },
-  { rank: 2, name: "MONRO Casino", slug: "monro-casino", bonus: "150% en tu primer depósito", rating: 9.3, license: "Curaçao", games: "3 500+", highlight: false },
-  { rank: 3, name: "Caliente", slug: "caliente", bonus: "Bono de bienvenida + giros gratis", rating: 9.1, license: "SEGOB", games: "1 300+", highlight: false },
-  { rank: 4, name: "SOL Casino", slug: "sol-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.0, license: "Curaçao", games: "4 000+", highlight: false },
-  { rank: 5, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 8.9, license: "Curaçao", games: "4 500+", highlight: false },
-  { rank: 6, name: "Codere", slug: "codere", bonus: "100% hasta $3,000 MXN", rating: 8.8, license: "SEGOB", games: "1 500+", highlight: false },
-  { rank: 7, name: "Betsson", slug: "betsson", bonus: "100% primer depósito + 20 tiradas gratis", rating: 8.7, license: "SEGOB", games: "2 500+", highlight: false },
-  { rank: 8, name: "Bet365", slug: "bet365", bonus: "100% hasta $3,000 MXN", rating: 8.7, license: "SEGOB", games: "1 800+", highlight: false },
-  { rank: 9, name: "1xBet", slug: "1xbet", bonus: "100% primer depósito hasta 300 EUR", rating: 8.6, license: "SEGOB", games: "5 000+", highlight: false },
-  { rank: 10, name: "Strendus", slug: "strendus", bonus: "100% hasta $5,000 MXN + 200 giros", rating: 8.5, license: "SEGOB", games: "1 200+", highlight: false },
-  { rank: 11, name: "Winpot", slug: "winpot", bonus: "100% hasta $3,000 MXN", rating: 8.4, license: "SEGOB", games: "800+", highlight: false },
-  { rank: 12, name: "Stake", slug: "stake", bonus: "Bono primer depósito + giros gratis", rating: 8.4, license: "Internacional", games: "3 000+", highlight: false },
-  { rank: 13, name: "Betway", slug: "betway", bonus: "100% hasta $5,000 MXN", rating: 8.3, license: "Internacional", games: "1 500+", highlight: false },
-  { rank: 14, name: "Luckia", slug: "luckia", bonus: "Bono de bienvenida hasta $2,000 MXN", rating: 8.2, license: "SEGOB", games: "900+", highlight: false },
+  { rank: 1, name: "Betsson", slug: "betsson-latam", bonus: "¡Duplica tu depósito hasta $100!", rating: 9.5, license: "SEGOB", games: "2 500+", highlight: true },
+  { rank: 2, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.3, license: "Curaçao", games: "4 500+", highlight: false },
+  { rank: 3, name: "SOL Casino", slug: "sol-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.1, license: "Curaçao", games: "4 000+", highlight: false },
+  { rank: 4, name: "MONRO Casino", slug: "monro-casino", bonus: "150% en tu primer depósito", rating: 9.0, license: "Curaçao", games: "3 500+", highlight: false },
+  { rank: 5, name: "STARDA Casino", slug: "starda-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 8.9, license: "Curaçao", games: "3 800+", highlight: false },
+  { rank: 6, name: "Caliente", slug: "caliente", bonus: "Bono de bienvenida + giros gratis", rating: 8.8, license: "SEGOB", games: "1 300+", highlight: false },
+  { rank: 7, name: "Codere", slug: "codere", bonus: "100% hasta $3,000 MXN", rating: 8.7, license: "SEGOB", games: "1 500+", highlight: false },
+  { rank: 8, name: "Bet365", slug: "bet365", bonus: "100% hasta $3,000 MXN", rating: 8.6, license: "SEGOB", games: "1 800+", highlight: false },
+  { rank: 9, name: "1xBet", slug: "1xbet", bonus: "100% primer depósito hasta 300 EUR", rating: 8.5, license: "SEGOB", games: "5 000+", highlight: false },
+  { rank: 10, name: "Strendus", slug: "strendus", bonus: "100% hasta $5,000 MXN + 200 giros", rating: 8.4, license: "SEGOB", games: "1 200+", highlight: false },
+  { rank: 11, name: "Winpot", slug: "winpot", bonus: "100% hasta $3,000 MXN", rating: 8.3, license: "SEGOB", games: "800+", highlight: false },
+  { rank: 12, name: "Stake", slug: "stake", bonus: "Bono primer depósito + giros gratis", rating: 8.2, license: "Internacional", games: "3 000+", highlight: false },
+  { rank: 13, name: "Betway", slug: "betway", bonus: "100% hasta $5,000 MXN", rating: 8.1, license: "Internacional", games: "1 500+", highlight: false },
+  { rank: 14, name: "Luckia", slug: "luckia", bonus: "Bono de bienvenida hasta $2,000 MXN", rating: 8.0, license: "SEGOB", games: "900+", highlight: false },
 ];
 
 const categoryPicks = [
@@ -32,7 +32,7 @@ const categoryPicks = [
   { title: "El más conocido en México", casino: "Caliente", slug: "caliente", reason: "Si le preguntas a cualquier mexicano por un casino, te va a decir Caliente. Licencia SEGOB, años en el mercado y puntos físicos en todo el país. La marca habla sola." },
   { title: "Mejor bono de bienvenida", casino: "MONRO Casino", slug: "monro-casino", reason: "150% en tu primer depósito. Nadie más en la lista llega a ese porcentaje. Le metes $1,000 y juegas con $2,500. Así de simple." },
   { title: "Mejor para tragamonedas", casino: "STARDA Casino", slug: "starda-casino", reason: "Torneos de slots semanales con premios de $15,000 USD, títulos exclusivos y la sección de juegos crash más completa que probamos (Aviator, Spaceman, JetX)." },
-  { title: "Mejor casino en vivo", casino: "Betsson", slug: "betsson", reason: "200+ mesas con dealers en español de verdad. No es traducción automática, son dealers que hablan como tú y yo. Probamos una mesa de blackjack a las 2am y la experiencia fue premium." },
+  { title: "Mejor casino en vivo", casino: "Betsson", slug: "betsson-latam", reason: "200+ mesas con dealers en español de verdad. No es traducción automática, son dealers que hablan como tú y yo. Probamos una mesa de blackjack a las 2am y la experiencia fue premium." },
   { title: "Para quienes empiezan", casino: "SOL Casino", slug: "sol-casino", reason: "Se lo pasamos a un cuate que nunca había jugado en línea. En 10 minutos ya estaba apostando sin preguntar nada. La interfaz es clarísima y el rollover x30 no te frustra." },
   { title: "Mejor atención al cliente", casino: "Bet365", slug: "bet365", reason: "Escribimos al chat a las 4am un domingo. Nos respondieron en 90 segundos. En español. Sin bot de por medio. Eso ya dice mucho." },
   { title: "Mejor para pagar con OXXO", casino: "Caliente", slug: "caliente", reason: "Generas tu ficha de pago, vas al OXXO de la esquina y listo. Probamos y el depósito se reflejó en menos de 30 minutos. Para quien no quiere meter tarjeta, es perfecto." },
@@ -41,7 +41,7 @@ const categoryPicks = [
 ];
 
 const faqItems = [
-  { q: "¿Cuál es el mejor casino online en México en 2026?", a: "Mira, después de probar todos los de la lista, FRESH Casino se queda con el primer lugar. Más de 4 500 juegos, bono de 100% + 500 giros gratis y un soporte en español que funciona de verdad a cualquier hora. Pero si lo que quieres es un casino con licencia SEGOB mexicana, Caliente y Codere son las opciones más seguras — llevan años operando sin broncas." },
+  { q: "¿Cuál es el mejor casino online en México en 2026?", a: "Betsson se lleva el primer lugar. Tiene licencia SEGOB, acepta SPEI, más de 200 mesas en vivo con dealers que hablan español de verdad y un bono que te duplica el depósito. Es la combinación más completa para el jugador mexicano: seguridad legal + experiencia premium. Si lo que buscas es variedad de juegos pura y dura, FRESH Casino con sus 4 500+ títulos es imbatible. Pero para la mayoría, Betsson es la mejor opción." },
   { q: "¿Es legal jugar en casinos online en México?", a: "Sí, es completamente legal. SEGOB regula los juegos de azar en México a través de la Dirección General de Juegos y Sorteos (DGJS). Los operadores necesitan un permiso de SEGOB para operar legalmente. Y como jugador, no estás cometiendo ningún delito al jugar en casinos con licencia. También es legal jugar en casinos internacionales con licencia de Curaçao o Malta." },
   { q: "¿Puedo jugar con pesos mexicanos?", a: "Claro. Todos los casinos con licencia SEGOB operan directamente en pesos mexicanos. Los internacionales como FRESH o SOL te aceptan depósitos desde México, pero la cuenta suele estar en dólares con conversión automática. Fíjate en el tipo de cambio que aplican para que no pierdas lana ahí." },
   { q: "¿Qué métodos de pago aceptan los casinos en México?", a: "SPEI es el rey — transferencia interbancaria instantánea y la usa casi todo el mundo. Después tienes OXXO Pay para pagar en efectivo en cualquier tienda OXXO, CoDi para pagos con QR, tarjetas Visa y Mastercard, Mercado Pago, Skrill, Neteller y criptomonedas. Cada casino tiene su combinación, pero entre los del ranking vas a encontrar el método que uses." },
@@ -271,6 +271,7 @@ export default function MejoresCasinosOnlineMexico() {
               "stake": { src: "/img/logos/stake.png", invert: true },
               "bet365": { src: "/img/logos/bet365.svg" },
               "betsson": { src: "/img/logos/betsson.svg" },
+              "betsson-latam": { src: "/img/logos/betsson.svg" },
               "1xbet": { src: "/img/logos/1xbet.png" },
               "betway": { src: "/img/logos/betway.png", invert: true },
               "caliente": { src: "/img/logos/caliente.png" },
@@ -401,6 +402,7 @@ export default function MejoresCasinosOnlineMexico() {
                           "stake": { src: "/img/logos/stake.png", invert: true },
                           "bet365": { src: "/img/logos/bet365.svg" },
                           "betsson": { src: "/img/logos/betsson.svg" },
+              "betsson-latam": { src: "/img/logos/betsson.svg" },
                           "1xbet": { src: "/img/logos/1xbet.png" },
                           "betway": { src: "/img/logos/betway.png", invert: true },
                           "caliente": { src: "/img/logos/caliente.png" },
@@ -498,220 +500,79 @@ export default function MejoresCasinosOnlineMexico() {
           para bien, también. La idea es que tengas toda la info antes de soltar tu lana.
         </p>
 
-        {/* ── STARDA Casino ── */}
+        {/* ── Betsson ── */}
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-[#fbbf24]">1. STARDA Casino</h3>
-            <span className="bg-[#fbbf24] text-black text-xs font-black px-3 py-1 rounded-full uppercase">Recomendado</span>
+            <h3 className="text-2xl sm:text-3xl font-black text-[#fbbf24]">1. Betsson</h3>
+            <span className="bg-[#fbbf24] text-black text-xs font-black px-3 py-1 rounded-full uppercase">&#11088; Recomendado</span>
             <span className="text-[#22c55e] font-black text-xl">9.5/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#fbbf24] to-transparent rounded mb-6" />
 
           <p className="text-[#9ca3af] leading-relaxed mb-3">
-            Si las tragamonedas son lo tuyo, STARDA es tu casino. Así de simple. Tiene <strong className="text-white">3 800+
-            juegos</strong> con un enfoque claro en slots — los proveedores estrella son Pragmatic Play, Push
-            Gaming, Hacksaw Gaming y Nolimit City, que son los que hacen las slots de alta volatilidad
-            que ves en los streams de Twitch y Kick. Probamos Sweet Bonanza, Gates of Olympus, Mental, San
-            Quentin, Wanted Dead or a Wild... todos corrían perfecto. Pero donde STARDA brilla de verdad es en
-            los títulos menos conocidos: tienen cosas de BGaming como &quot;Space XY&quot; y de Endorphina como
-            &quot;Book of Santa&quot; que no encontramos en Caliente ni en Codere.
+            Neta, si me preguntas por un solo casino para jugar en México, es Betsson. Y no es por un solo motivo
+            — es la suma de todo. Tiene <strong className="text-white">licencia SEGOB</strong>, que significa que está
+            regulado por la mismísima Secretaría de Gobernación. Acepta <strong className="text-white">SPEI</strong> para
+            depósitos y retiros (probamos un retiro un viernes a las 6pm y cayó en la cuenta en 4 horas). Acepta OXXO
+            para depósitos. Y encima, la experiencia de juego es de otro nivel. Betsson lleva más de 20 años en el
+            negocio en Europa y se nota — esto no es un casino que apareció ayer con un dominio raro.
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-3">
-            Pero lo que realmente distingue a STARDA son los torneos semanales de slots. Nos metimos a uno
-            con apuestas mínimas de $0.20 y competimos contra más de 300 jugadores. Terminamos en el puesto
-            47 y ganamos un pequeño premio de $12 USD (no te vas a retirar con eso, pero la experiencia fue
-            otra cosa). Los premios del primer lugar llegan a $15,000 USD. La mecánica es sencilla: cada giro
-            que haces en las slots del torneo suma puntos a tu posición en el leaderboard, y puedes ver tu
-            lugar en tiempo real. La adrenalina de ver tu nombre subir posiciones... eso no te lo da jugar
-            solo contra la máquina. Hay torneos por categoría de apuesta, así que no estás compitiendo contra
-            whales si no quieres. Los torneos de fin de semana son los que tienen mejores premios.
+            El bono de bienvenida es <strong className="text-white">duplicar tu depósito hasta $100 USD</strong>. No es el
+            bono más agresivo del ranking (MONRO con su 150% le gana en porcentaje), pero la neta es que Betsson
+            compensa con todo lo demás. Le metes $1,500 MXN y juegas con $3,000. El rollover es x35, tienes 30 días
+            para cumplirlo, y los slots contribuyen al 100%. Hicimos las cuentas: con apuestas de $15 MXN por giro
+            en slots, son unas 2 horas diarias durante una semana. Totalmente factible. Eso sí, las mesas de blackjack
+            solo contribuyen al 10% del rollover — si lo tuyo es el en vivo, tenlo en cuenta antes de aceptar el bono.
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-3">
-            El bono es <strong className="text-white">100% + 500 giros gratis con rollover x35</strong>, pero ojo
-            con un detalle: los giros te los asignan a &quot;Book of Gold&quot; de Playson. No puedes elegir
-            en qué slot usarlos. Es un juego de alta volatilidad con un RTP del 95.56% — decente pero no
-            espectacular. Nosotros sacamos $8 USD de los 50 giros del primer día, lo cual está dentro de lo
-            esperado estadísticamente. Si te gusta Book of Gold, perfecto. Si no... bueno, son 500 giros
-            gratis igualmente, tampoco te vas a quejar mucho (sí, nos quejamos un poco igual). STARDA también
-            tiene cashback del 10% los fines de semana y bonos especiales para torneos.
+            Pero donde Betsson le saca ventaja a todos es en el <strong className="text-white">casino en vivo</strong>. Más
+            de 200 mesas con dealers que hablan español — y no es español traducido con acento raro, son dealers
+            hispanohablantes de verdad. Nos sentamos en una mesa de blackjack un martes a las 2am (sí, nos desvelamos
+            por la ciencia) y había 6 mesas disponibles con dealer en español. Ruleta europea, baccarat, Crazy Time,
+            Monopoly Live... todo con producción de primer nivel. Los límites arrancan desde $50 MXN para ruleta y
+            llegan hasta $500,000 MXN para high rollers. Si te late jugar en vivo con un cuate real al otro lado de la
+            pantalla, Betsson es otro pedo comparado con la competencia.
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-3">
-            La sección de juegos crash merece párrafo aparte. Aviator, Spaceman, JetX, Lucky Jet, Speed &amp;
-            Cash... es la selección más completa de crash games que encontramos en todo el ranking. Si nunca
-            jugaste crash: es un juego donde un multiplicador sube y tú decides cuándo cobrar antes de que
-            &quot;explote&quot;. Simple, adictivo y con potencial de pagos grandes. La diferencia con STARDA
-            es que no solo tienen los crash populares, sino también variantes menos conocidas que en otros
-            casinos ni aparecen.
+            El catálogo tiene <strong className="text-white">2 500+ juegos</strong> — no es el más grande del ranking
+            (FRESH con 4 500 le gana por mucho en cantidad), pero la selección es de calidad. Pragmatic Play, Evolution,
+            NetEnt, Play&apos;n GO y Red Tiger están todos. Las slots populares como Gates of Olympus, Sweet Bonanza y
+            Big Bass Bonanza corren perfecto. Lo que no vas a encontrar son proveedores ultra nicho como Belatra o
+            Felix Gaming — para eso sí necesitas FRESH o SOL. Pero para el 90% de los jugadores, el catálogo de
+            Betsson es más que suficiente.
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-4">
-            El casino en vivo es más limitado que FRESH (150 vs 300 mesas), pero si lo tuyo son los rodillos
-            y los crash games, eso no te va a importar. Y un detalle que nos gustó: acepta Dogecoin
-            además de BTC, ETH, USDT y Litecoin. No muchos casinos aceptan DOGE. Retiros con crypto
-            prácticamente instantáneos — probamos con Litecoin y llegó en 8 minutos.
+            Y algo que vale mucho para el jugador mexicano: <strong className="text-white">opera en pesos mexicanos</strong>.
+            Nada de conversiones raras ni de estar calculando cuántos dólares son. Tu saldo está en MXN, tus apuestas
+            en MXN, tus retiros en MXN. SPEI para meter y sacar lana, OXXO para depositar en efectivo, tarjetas Visa
+            y Mastercard... todo lo que usas día a día. Un cuate del equipo fue al OXXO de la esquina, pagó con su
+            ficha y en 25 minutos el depósito ya estaba en su cuenta de Betsson. Así de simple. Eso es algo que FRESH,
+            SOL y STARDA simplemente no pueden ofrecer porque no tienen licencia mexicana.
           </p>
 
           <ProsCons
             pros={[
-              "Paraíso de slots con torneos semanales que reparten premios serios",
-              "Hacksaw, Nolimit City, Push Gaming — los proveedores de alta volatilidad están todos",
-              "Juegos crash bien representados (Aviator, Spaceman, JetX)",
-              "Acepta Dogecoin además de BTC, ETH, USDT y Litecoin",
+              "Licencia SEGOB — regulado en México, la máxima seguridad legal que puedes tener",
+              "Casino en vivo premium: 200+ mesas con dealers en español real, no traducción",
+              "SPEI y OXXO: depósitos y retiros con métodos mexicanos, sin vueltas",
+              "Opera en pesos mexicanos, sin conversiones ni comisiones ocultas",
+              "Más de 20 años de experiencia internacional, marca seria",
             ]}
             cons={[
-              "Los 500 giros están forzados en un solo juego (Book of Gold), no eliges",
-              "Casino en vivo más chico (150 mesas vs 300 de FRESH)",
-              "Sin licencia SEGOB ni métodos de pago mexicanos directos",
+              "2 500 juegos — buen catálogo pero no compite con los 4 500 de FRESH",
+              "El bono de bienvenida no es el más alto del ranking (MONRO da 150%)",
+              "No acepta criptomonedas, si eso es lo tuyo ve con STARDA o FRESH",
             ]}
           />
-          <CtaButton slug="starda-casino" text="Probar STARDA Casino" />
-        </div>
-
-        {/* ── MONRO Casino ── */}
-        <div className="mb-16">
-          <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-white">2. MONRO Casino</h3>
-            <span className="text-[#22c55e] font-black text-xl">9.3/10</span>
-          </div>
-          <div className="h-1 w-24 bg-gradient-to-r from-[#16a34a] to-transparent rounded mb-6" />
-
-          <p className="text-[#9ca3af] leading-relaxed mb-3">
-            <strong className="text-white">150% en tu primer depósito.</strong> Sí, ciento cincuenta por ciento.
-            Ningún otro casino de la lista llega a ese número. Le metes $100 USD y juegas con $250. Eso
-            es lo que engancha de MONRO. Pero vamos a ser honestos: lo que tiene de bueno el porcentaje del
-            bono, lo pierde en otras áreas.
-          </p>
-          <p className="text-[#9ca3af] leading-relaxed mb-3">
-            Vamos a hacer la matemática del bono porque vale la pena. Si depositas $1,000 MXN, MONRO te da
-            $1,500 MXN extra (150%). Eso significa que arrancas con $2,500 MXN de saldo. El rollover es x35
-            sobre el bono, así que necesitas apostar $1,500 x 35 = $52,500 MXN en total antes de poder retirar.
-            Tienes 14 días para cumplirlo. Hagamos cuentas: $52,500 entre 14 días son $3,750 MXN de apuestas
-            diarias. Si juegas slots con apuestas de $15 MXN por giro, son unos 250 giros por día. Una hora
-            de juego aproximadamente. Factible, pero no sobrado — si te distraes unos días, se te puede ir el
-            tiempo. Ojo con eso.
-          </p>
-          <p className="text-[#9ca3af] leading-relaxed mb-3">
-            El catálogo tiene <strong className="text-white">3 500+ juegos</strong> con Pragmatic Play, Spinomenal,
-            BGaming y Belatra. No es malo, pero comparado con FRESH (4 500) se nota la diferencia. Las slots de
-            alta volatilidad de Hacksaw Gaming y Nolimit City están, que es lo importante si te gustan las
-            sesiones con potencial de pago grande. También tiene una sección de juegos crash que está decente:
-            Aviator y Spaceman de Spribe, más algunos crash games de proveedores más chicos. No es la selección
-            más amplia (STARDA le gana ahí), pero cumple.
-          </p>
-          <p className="text-[#9ca3af] leading-relaxed mb-3">
-            El diseño de la plataforma es funcional pero genérico — se siente como un casino sacado de plantilla.
-            No tiene la personalidad de SOL ni el pulido de FRESH. Los filtros de búsqueda son básicos: puedes
-            filtrar por proveedor pero no por volatilidad ni por RTP, que es algo que SOL sí te ofrece. Si eres
-            de los que buscan slots por características específicas, esto te va a frustrar un poco.
-          </p>
-          <p className="text-[#9ca3af] leading-relaxed mb-3">
-            El soporte... no es su fuerte. Probamos el chat a las 11pm y tardaron 5 minutos en responder.
-            No es un drama, pero cuando FRESH y Bet365 te responden en menos de 2, se nota. La respuesta
-            fue correcta, eso sí, solo que tardó. Le preguntamos sobre las condiciones del bono del 150% y
-            el agente nos explicó todo con detalle — el rollover, el plazo, los juegos que no contribuyen
-            (los juegos de mesa contribuyen solo al 10%, por cierto, algo que no es obvio en los términos).
-          </p>
-          <p className="text-[#9ca3af] leading-relaxed mb-4">
-            Retiros con crypto en menos de 1 hora (lo confirmamos con Bitcoin un sábado por la tarde). Con
-            tarjeta puede tardar entre 1 y 5 días, que es más lento que otros del ranking. El límite de retiro
-            mensual es de $30,000 USD, el más bajo del top 4. Si ganas fuerte, esto puede ser un problema real
-            — imagina que pegas un jackpot de $50,000 y tienes que esperar dos meses para sacarlo todo. FRESH
-            tiene límite de $50,000 USD mensuales, para comparar.
-          </p>
-
-          <ProsCons
-            pros={[
-              "150% de bono — el porcentaje más alto de toda la lista, nadie le gana",
-              "3 500 juegos con buena variedad de slots y juegos crash",
-              "Retiros con Bitcoin confirmados en menos de 1 hora",
-              "Recarga del 50% los miércoles para jugadores recurrentes",
-            ]}
-            cons={[
-              "Diseño genérico, se siente como plantilla — no tiene identidad propia",
-              "Soporte lento (5 min) comparado con la competencia",
-              "Límite de retiro de $30k USD mensuales, el más bajo del top",
-              "Sin SPEI, OXXO ni métodos de pago mexicanos directos",
-            ]}
-          />
-          <CtaButton slug="monro-casino" text="Probar MONRO Casino" />
-        </div>
-
-        {/* ── SOL Casino ── */}
-        <div className="mb-16">
-          <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-white">3. SOL Casino</h3>
-            <span className="text-[#22c55e] font-black text-xl">9.0/10</span>
-          </div>
-          <div className="h-1 w-24 bg-gradient-to-r from-[#16a34a] to-transparent rounded mb-6" />
-
-          <h4 className="text-lg font-bold text-white mb-3">El rollover más bajo del ranking</h4>
-          <p className="text-[#9ca3af] leading-relaxed mb-3">
-            El bono de SOL Casino es <strong className="text-white">100% + 500 giros gratis con rollover de apenas x30</strong>.
-            ¿Por qué esto importa? Porque un rollover x30 versus un x35 puede significar la diferencia entre
-            cumplirlo cómodamente o quedarte a medio camino. Si nunca has jugado con bono, este es un buen
-            primer casino. Los giros vienen en bloques de 50 por día y las ganancias tienen el mismo rollover x30.
-          </p>
-          <p className="text-[#9ca3af] leading-relaxed mb-3">
-            Más allá del bono, SOL tiene un cashback semanal del 15% que llega sin rollover — o sea, las ganancias
-            del cashback las puedes retirar directamente. Probamos perder a propósito $50 USD en una semana y
-            el lunes siguiente nos llegaron $7.50 al balance de efectivo real. No es que te hagas rico, pero ayuda
-            a estirar el bankroll cuando la suerte no está de tu lado. Y seamos honestos: a largo plazo la suerte
-            nunca está completamente de tu lado, así que un buen cashback marca la diferencia.
-          </p>
-
-          <h4 className="text-lg font-bold text-white mb-3">La plataforma</h4>
-          <p className="text-[#9ca3af] leading-relaxed mb-3">
-            <strong className="text-white">4 000+ juegos</strong> con Pragmatic Play, Evolution, BGaming, Endorphina
-            y como 60 proveedores más. La interfaz es la más limpia que probamos — todo está donde esperas
-            que esté. Los filtros de slots por proveedor y volatilidad funcionan bien, que parece obvio pero
-            varios casinos de la lista no los tienen. Buscamos slots específicas como &quot;Mental&quot; de Nolimit
-            City y &quot;Reactoonz 2&quot; de Play&apos;n GO — ambas estaban. Donde sí notamos que se queda un poco
-            corto es en proveedores ultra nicho: Belatra y Felix Gaming, que FRESH sí tiene, acá no aparecen.
-            Para el 95% de los jugadores no va a importar, pero si eres de los que buscan raridades, FRESH
-            le gana en variedad pura.
-          </p>
-          <p className="text-[#9ca3af] leading-relaxed mb-3">
-            El casino en vivo tiene más de 200 mesas con variantes en español. No es el catálogo más grande
-            (FRESH le gana en cantidad), pero la calidad de streaming es buena y las mesas de blackjack en
-            español casi nunca estaban llenas cuando entramos en horario nocturno mexicano. Si buscas mesas
-            de ruleta europea con límites bajos, SOL tiene varias desde $20 MXN.
-          </p>
-          <p className="text-[#9ca3af] leading-relaxed mb-3">
-            El soporte por chat respondió en 3 minutos cuando preguntamos por los tiempos de retiro. No fue
-            tan rápido como FRESH (2 min), pero el agente sabía de lo que hablaba y no nos mandó respuestas
-            enlatadas. Le hicimos una pregunta medio capciosa sobre si los giros gratis contribuían al rollover
-            del bono y nos dio una respuesta clara y correcta en menos de un minuto. Se siente que hay un humano
-            del otro lado, no un bot leyendo un script.
-          </p>
-          <p className="text-[#9ca3af] leading-relaxed mb-4">
-            <strong className="text-white">¿Por qué SOL es el #3 y no más arriba?</strong> Porque STARDA le gana en
-            torneos y juegos crash, y MONRO ofrece un bono del 150% que es difícil de ignorar. Pero si lo que más
-            te importa es un rollover bajo y una interfaz que no te maree, SOL es
-            difícil de superar. La neta es que si SOL aceptara SPEI y OXXO, estaría peleando el primer lugar
-            de forma mucho más cerrada. Pero ese es el talón de Aquiles de todos los casinos internacionales
-            en México.
-          </p>
-
-          <ProsCons
-            pros={[
-              "Rollover x30, el más bajo del ranking — más fácil de cumplir que la competencia",
-              "Cashback del 15% semanal sin rollover, la lana es tuya directamente",
-              "Interfaz limpia y fácil de usar, ideal si es tu primer casino en línea",
-              "4 000 juegos con buenos filtros de búsqueda",
-            ]}
-            cons={[
-              "Sin SPEI ni OXXO, misma limitación que FRESH para México",
-              "Catálogo un poco menor que FRESH (4 000 vs 4 500)",
-              "El soporte es bueno pero no espectacular — 3 minutos de espera",
-            ]}
-          />
-          <CtaButton slug="sol-casino" text="Probar SOL Casino" />
+          <CtaButton slug="betsson-latam" text="Probar Betsson" />
         </div>
 
         {/* ── FRESH Casino ── */}
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-white">4. FRESH Casino</h3>
-            <span className="text-[#22c55e] font-black text-xl">8.9/10</span>
+            <h3 className="text-2xl sm:text-3xl font-black text-white">2. FRESH Casino</h3>
+            <span className="text-[#22c55e] font-black text-xl">9.3/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#16a34a] to-transparent rounded mb-6" />
 
@@ -802,12 +663,221 @@ export default function MejoresCasinosOnlineMexico() {
           <CtaButton slug="fresh-casino" text="Probar FRESH Casino" />
         </div>
 
+        {/* ── SOL Casino ── */}
+        <div className="mb-16">
+          <div className="flex flex-wrap items-center gap-4 mb-2">
+            <h3 className="text-2xl sm:text-3xl font-black text-white">3. SOL Casino</h3>
+            <span className="text-[#22c55e] font-black text-xl">9.1/10</span>
+          </div>
+          <div className="h-1 w-24 bg-gradient-to-r from-[#16a34a] to-transparent rounded mb-6" />
+
+          <h4 className="text-lg font-bold text-white mb-3">El rollover más bajo del ranking</h4>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            El bono de SOL Casino es <strong className="text-white">100% + 500 giros gratis con rollover de apenas x30</strong>.
+            ¿Por qué esto importa? Porque un rollover x30 versus un x35 puede significar la diferencia entre
+            cumplirlo cómodamente o quedarte a medio camino. Si nunca has jugado con bono, este es un buen
+            primer casino. Los giros vienen en bloques de 50 por día y las ganancias tienen el mismo rollover x30.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            Más allá del bono, SOL tiene un cashback semanal del 15% que llega sin rollover — o sea, las ganancias
+            del cashback las puedes retirar directamente. Probamos perder a propósito $50 USD en una semana y
+            el lunes siguiente nos llegaron $7.50 al balance de efectivo real. No es que te hagas rico, pero ayuda
+            a estirar el bankroll cuando la suerte no está de tu lado. Y seamos honestos: a largo plazo la suerte
+            nunca está completamente de tu lado, así que un buen cashback marca la diferencia.
+          </p>
+
+          <h4 className="text-lg font-bold text-white mb-3">La plataforma</h4>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            <strong className="text-white">4 000+ juegos</strong> con Pragmatic Play, Evolution, BGaming, Endorphina
+            y como 60 proveedores más. La interfaz es la más limpia que probamos — todo está donde esperas
+            que esté. Los filtros de slots por proveedor y volatilidad funcionan bien, que parece obvio pero
+            varios casinos de la lista no los tienen. Buscamos slots específicas como &quot;Mental&quot; de Nolimit
+            City y &quot;Reactoonz 2&quot; de Play&apos;n GO — ambas estaban. Donde sí notamos que se queda un poco
+            corto es en proveedores ultra nicho: Belatra y Felix Gaming, que FRESH sí tiene, acá no aparecen.
+            Para el 95% de los jugadores no va a importar, pero si eres de los que buscan raridades, FRESH
+            le gana en variedad pura.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            El casino en vivo tiene más de 200 mesas con variantes en español. No es el catálogo más grande
+            (FRESH le gana en cantidad), pero la calidad de streaming es buena y las mesas de blackjack en
+            español casi nunca estaban llenas cuando entramos en horario nocturno mexicano. Si buscas mesas
+            de ruleta europea con límites bajos, SOL tiene varias desde $20 MXN.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            El soporte por chat respondió en 3 minutos cuando preguntamos por los tiempos de retiro. No fue
+            tan rápido como FRESH (2 min), pero el agente sabía de lo que hablaba y no nos mandó respuestas
+            enlatadas. Le hicimos una pregunta medio capciosa sobre si los giros gratis contribuían al rollover
+            del bono y nos dio una respuesta clara y correcta en menos de un minuto. Se siente que hay un humano
+            del otro lado, no un bot leyendo un script.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-4">
+            <strong className="text-white">¿Por qué SOL es el #3 y no más arriba?</strong> Porque FRESH le gana en
+            variedad de juegos y Betsson ofrece licencia SEGOB con pagos en pesos que SOL no puede igualar. Pero si lo que más
+            te importa es un rollover bajo y una interfaz que no te maree, SOL es
+            difícil de superar. La neta es que si SOL aceptara SPEI y OXXO, estaría peleando los primeros lugares
+            de forma mucho más cerrada. Pero ese es el talón de Aquiles de todos los casinos internacionales
+            en México.
+          </p>
+
+          <ProsCons
+            pros={[
+              "Rollover x30, el más bajo del ranking — más fácil de cumplir que la competencia",
+              "Cashback del 15% semanal sin rollover, la lana es tuya directamente",
+              "Interfaz limpia y fácil de usar, ideal si es tu primer casino en línea",
+              "4 000 juegos con buenos filtros de búsqueda",
+            ]}
+            cons={[
+              "Sin SPEI ni OXXO, misma limitación que FRESH para México",
+              "Catálogo un poco menor que FRESH (4 000 vs 4 500)",
+              "El soporte es bueno pero no espectacular — 3 minutos de espera",
+            ]}
+          />
+          <CtaButton slug="sol-casino" text="Probar SOL Casino" />
+        </div>
+
+        {/* ── MONRO Casino ── */}
+        <div className="mb-16">
+          <div className="flex flex-wrap items-center gap-4 mb-2">
+            <h3 className="text-2xl sm:text-3xl font-black text-white">4. MONRO Casino</h3>
+            <span className="text-[#22c55e] font-black text-xl">9.0/10</span>
+          </div>
+          <div className="h-1 w-24 bg-gradient-to-r from-[#16a34a] to-transparent rounded mb-6" />
+
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            <strong className="text-white">150% en tu primer depósito.</strong> Sí, ciento cincuenta por ciento.
+            Ningún otro casino de la lista llega a ese número. Le metes $100 USD y juegas con $250. Eso
+            es lo que engancha de MONRO. Pero vamos a ser honestos: lo que tiene de bueno el porcentaje del
+            bono, lo pierde en otras áreas.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            Vamos a hacer la matemática del bono porque vale la pena. Si depositas $1,000 MXN, MONRO te da
+            $1,500 MXN extra (150%). Eso significa que arrancas con $2,500 MXN de saldo. El rollover es x35
+            sobre el bono, así que necesitas apostar $1,500 x 35 = $52,500 MXN en total antes de poder retirar.
+            Tienes 14 días para cumplirlo. Hagamos cuentas: $52,500 entre 14 días son $3,750 MXN de apuestas
+            diarias. Si juegas slots con apuestas de $15 MXN por giro, son unos 250 giros por día. Una hora
+            de juego aproximadamente. Factible, pero no sobrado — si te distraes unos días, se te puede ir el
+            tiempo. Ojo con eso.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            El catálogo tiene <strong className="text-white">3 500+ juegos</strong> con Pragmatic Play, Spinomenal,
+            BGaming y Belatra. No es malo, pero comparado con FRESH (4 500) se nota la diferencia. Las slots de
+            alta volatilidad de Hacksaw Gaming y Nolimit City están, que es lo importante si te gustan las
+            sesiones con potencial de pago grande. También tiene una sección de juegos crash que está decente:
+            Aviator y Spaceman de Spribe, más algunos crash games de proveedores más chicos. No es la selección
+            más amplia (STARDA le gana ahí), pero cumple.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            El diseño de la plataforma es funcional pero genérico — se siente como un casino sacado de plantilla.
+            No tiene la personalidad de SOL ni el pulido de FRESH. Los filtros de búsqueda son básicos: puedes
+            filtrar por proveedor pero no por volatilidad ni por RTP, que es algo que SOL sí te ofrece. Si eres
+            de los que buscan slots por características específicas, esto te va a frustrar un poco.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            El soporte... no es su fuerte. Probamos el chat a las 11pm y tardaron 5 minutos en responder.
+            No es un drama, pero cuando FRESH y Bet365 te responden en menos de 2, se nota. La respuesta
+            fue correcta, eso sí, solo que tardó. Le preguntamos sobre las condiciones del bono del 150% y
+            el agente nos explicó todo con detalle — el rollover, el plazo, los juegos que no contribuyen
+            (los juegos de mesa contribuyen solo al 10%, por cierto, algo que no es obvio en los términos).
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-4">
+            Retiros con crypto en menos de 1 hora (lo confirmamos con Bitcoin un sábado por la tarde). Con
+            tarjeta puede tardar entre 1 y 5 días, que es más lento que otros del ranking. El límite de retiro
+            mensual es de $30,000 USD, el más bajo del top 5. Si ganas fuerte, esto puede ser un problema real
+            — imagina que pegas un jackpot de $50,000 y tienes que esperar dos meses para sacarlo todo. FRESH
+            tiene límite de $50,000 USD mensuales, para comparar.
+          </p>
+
+          <ProsCons
+            pros={[
+              "150% de bono — el porcentaje más alto de toda la lista, nadie le gana",
+              "3 500 juegos con buena variedad de slots y juegos crash",
+              "Retiros con Bitcoin confirmados en menos de 1 hora",
+              "Recarga del 50% los miércoles para jugadores recurrentes",
+            ]}
+            cons={[
+              "Diseño genérico, se siente como plantilla — no tiene identidad propia",
+              "Soporte lento (5 min) comparado con la competencia",
+              "Límite de retiro de $30k USD mensuales, el más bajo del top",
+              "Sin SPEI, OXXO ni métodos de pago mexicanos directos",
+            ]}
+          />
+          <CtaButton slug="monro-casino" text="Probar MONRO Casino" />
+        </div>
+
+        {/* ── STARDA Casino ── */}
+        <div className="mb-16">
+          <div className="flex flex-wrap items-center gap-4 mb-2">
+            <h3 className="text-2xl sm:text-3xl font-black text-white">5. STARDA Casino</h3>
+            <span className="bg-[#ef4444] text-white text-xs font-black px-3 py-1 rounded-full uppercase">&#128293; TOP</span>
+            <span className="text-[#22c55e] font-black text-xl">8.9/10</span>
+          </div>
+          <div className="h-1 w-24 bg-gradient-to-r from-[#16a34a] to-transparent rounded mb-6" />
+
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            Si las tragamonedas son lo tuyo, STARDA es tu casino. Así de simple. Tiene <strong className="text-white">3 800+
+            juegos</strong> con un enfoque claro en slots — los proveedores estrella son Pragmatic Play, Push
+            Gaming, Hacksaw Gaming y Nolimit City, que son los que hacen las slots de alta volatilidad
+            que ves en los streams de Twitch y Kick. Probamos Sweet Bonanza, Gates of Olympus, Mental, San
+            Quentin, Wanted Dead or a Wild... todos corrían perfecto. Pero donde STARDA brilla de verdad es en
+            los títulos menos conocidos: tienen cosas de BGaming como &quot;Space XY&quot; y de Endorphina como
+            &quot;Book of Santa&quot; que no encontramos en Caliente ni en Codere.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            Pero lo que realmente distingue a STARDA son los torneos semanales de slots. Nos metimos a uno
+            con apuestas mínimas de $0.20 y competimos contra más de 300 jugadores. Terminamos en el puesto
+            47 y ganamos un pequeño premio de $12 USD (no te vas a retirar con eso, pero la experiencia fue
+            otra cosa). Los premios del primer lugar llegan a $15,000 USD. La mecánica es sencilla: cada giro
+            que haces en las slots del torneo suma puntos a tu posición en el leaderboard, y puedes ver tu
+            lugar en tiempo real. La adrenalina de ver tu nombre subir posiciones... eso no te lo da jugar
+            solo contra la máquina. Hay torneos por categoría de apuesta, así que no estás compitiendo contra
+            whales si no quieres. Los torneos de fin de semana son los que tienen mejores premios.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            El bono es <strong className="text-white">100% + 500 giros gratis con rollover x35</strong>, pero ojo
+            con un detalle: los giros te los asignan a &quot;Book of Gold&quot; de Playson. No puedes elegir
+            en qué slot usarlos. Es un juego de alta volatilidad con un RTP del 95.56% — decente pero no
+            espectacular. Nosotros sacamos $8 USD de los 50 giros del primer día, lo cual está dentro de lo
+            esperado estadísticamente. Si te gusta Book of Gold, perfecto. Si no... bueno, son 500 giros
+            gratis igualmente, tampoco te vas a quejar mucho (sí, nos quejamos un poco igual). STARDA también
+            tiene cashback del 10% los fines de semana y bonos especiales para torneos.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            La sección de juegos crash merece párrafo aparte. Aviator, Spaceman, JetX, Lucky Jet, Speed &amp;
+            Cash... es la selección más completa de crash games que encontramos en todo el ranking. Si nunca
+            jugaste crash: es un juego donde un multiplicador sube y tú decides cuándo cobrar antes de que
+            &quot;explote&quot;. Simple, adictivo y con potencial de pagos grandes. La diferencia con STARDA
+            es que no solo tienen los crash populares, sino también variantes menos conocidas que en otros
+            casinos ni aparecen.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-4">
+            El casino en vivo es más limitado que FRESH (150 vs 300 mesas), pero si lo tuyo son los rodillos
+            y los crash games, eso no te va a importar. Y un detalle que nos gustó: acepta Dogecoin
+            además de BTC, ETH, USDT y Litecoin. No muchos casinos aceptan DOGE. Retiros con crypto
+            prácticamente instantáneos — probamos con Litecoin y llegó en 8 minutos.
+          </p>
+
+          <ProsCons
+            pros={[
+              "Paraíso de slots con torneos semanales que reparten premios serios",
+              "Hacksaw, Nolimit City, Push Gaming — los proveedores de alta volatilidad están todos",
+              "Juegos crash bien representados (Aviator, Spaceman, JetX)",
+              "Acepta Dogecoin además de BTC, ETH, USDT y Litecoin",
+            ]}
+            cons={[
+              "Los 500 giros están forzados en un solo juego (Book of Gold), no eliges",
+              "Casino en vivo más chico (150 mesas vs 300 de FRESH)",
+              "Sin licencia SEGOB ni métodos de pago mexicanos directos",
+            ]}
+          />
+          <CtaButton slug="starda-casino" text="Probar STARDA Casino" />
+        </div>
+
         {/* ── Menciones Destacadas ── */}
         <div className="rounded-2xl bg-[#141414] border border-white/[0.06] p-6 sm:p-8">
           <h3 className="text-xl font-black text-white mb-6">Menciones Destacadas</h3>
           <div className="space-y-6">
             <div>
-              <h4 className="text-lg font-bold text-white mb-2">Caliente <span className="text-[#22c55e] text-sm font-black">8.9/10</span></h4>
+              <h4 className="text-lg font-bold text-white mb-2">Caliente <span className="text-[#22c55e] text-sm font-black">8.8/10</span></h4>
               <p className="text-[#9ca3af] leading-relaxed">
                 Si le preguntas a cualquier mexicano por un casino, te va a decir Caliente. Es la marca más
                 reconocida del país con licencia SEGOB y puntos físicos en todo México. Acepta SPEI, OXXO,
@@ -818,7 +888,7 @@ export default function MejoresCasinosOnlineMexico() {
               </p>
             </div>
             <div>
-              <h4 className="text-lg font-bold text-white mb-2">Codere <span className="text-[#22c55e] text-sm font-black">8.8/10</span></h4>
+              <h4 className="text-lg font-bold text-white mb-2">Codere <span className="text-[#22c55e] text-sm font-black">8.7/10</span></h4>
               <p className="text-[#9ca3af] leading-relaxed">
                 Codere es una marca española que lleva años en México con licencia SEGOB. Si ya conoces sus
                 casinos físicos (tienen varios en CDMX y otras ciudades), la versión online es una extensión
@@ -829,13 +899,13 @@ export default function MejoresCasinosOnlineMexico() {
               </p>
             </div>
             <div>
-              <h4 className="text-lg font-bold text-white mb-2">Betsson <span className="text-[#22c55e] text-sm font-black">8.7/10</span></h4>
+              <h4 className="text-lg font-bold text-white mb-2">Bet365 <span className="text-[#22c55e] text-sm font-black">8.6/10</span></h4>
               <p className="text-[#9ca3af] leading-relaxed">
-                La marca europea con más de 20 años de experiencia que ahora opera en México con licencia
-                SEGOB. El punto fuerte de Betsson es su casino en vivo — más de 200 mesas con dealers
-                en español, producción de primer nivel y mesas exclusivas. El bono no es el más alto
-                del mercado, pero la experiencia general es muy sólida. Si te gusta jugar en vivo con
-                dealers reales, Betsson le gana a casi todos.
+                Si ya la conoces por las apuestas deportivas, la sección de casino de Bet365 no decepciona.
+                Licencia SEGOB, soporte en español que responde en menos de 2 minutos (lo probamos un domingo
+                a las 4am) y una app nativa que va fluida. El catálogo no es el más grande, pero tiene lo
+                esencial bien cubierto. Pagos con SPEI sin vueltas. Para quien quiere todo en un solo lugar
+                — deportes y casino — Bet365 es la combinación más sólida.
               </p>
             </div>
           </div>
@@ -845,8 +915,8 @@ export default function MejoresCasinosOnlineMexico() {
       {/* ═══ MINI CTA ═══ */}
       <div className="bg-gradient-to-r from-[#16a34a]/10 via-[#0e0e0e] to-[#f59e0b]/10 py-10 text-center border-y border-white/[0.04]">
         <p className="text-[#9ca3af] text-sm mb-3">Nuestro #1 para jugadores mexicanos</p>
-        <p className="text-white text-xl font-black mb-4">STARDA Casino — 100% + 500 Giros Gratis</p>
-        <CtaButton slug="starda-casino" />
+        <p className="text-white text-xl font-black mb-4">Betsson — ¡Duplica tu depósito hasta $100!</p>
+        <CtaButton slug="betsson-latam" />
       </div>
 
       {/* ═══ MEJOR SEGÚN PRIORIDAD ═══ */}
@@ -890,13 +960,13 @@ export default function MejoresCasinosOnlineMexico() {
             </thead>
             <tbody className="text-[#d4d4d8]">
               {[
+                ["Betsson", "Duplica depósito hasta $100", "x35", "—", "30 días"],
                 ["FRESH Casino", "100% primer dep.", "x35", "500", "14 días"],
                 ["SOL Casino", "100% primer dep.", "x30", "500", "14 días"],
                 ["MONRO Casino", "150% primer dep.", "x35", "—", "14 días"],
                 ["STARDA Casino", "100% primer dep.", "x35", "500", "14 días"],
                 ["Caliente", "Bono bienvenida", "Varía", "Sí", "30 días"],
                 ["Codere", "100% hasta $3k MXN", "x35", "—", "30 días"],
-                ["Betsson", "100% primer dep.", "x35", "20", "30 días"],
                 ["Bet365", "100% hasta $3k MXN", "x30", "—", "30 días"],
               ].map(([casino, bonus, roll, spins, valid]) => (
                 <tr key={casino} className="border-t border-white/[0.04] hover:bg-white/[0.02] transition-colors">
@@ -926,13 +996,13 @@ export default function MejoresCasinosOnlineMexico() {
             </thead>
             <tbody className="text-[#d4d4d8]">
               {[
+                ["Betsson", "✓", "✓", "✓", "—", "1-24h (SPEI)"],
                 ["FRESH Casino", "—", "—", "✓", "✓", "0-24h (crypto)"],
                 ["SOL Casino", "—", "—", "✓", "✓", "0-24h (crypto)"],
                 ["MONRO Casino", "—", "—", "✓", "✓", "0-24h (crypto)"],
                 ["STARDA Casino", "—", "—", "✓", "✓", "0-12h (crypto)"],
                 ["Caliente", "✓", "✓", "✓", "—", "1-24h (SPEI)"],
                 ["Codere", "✓", "✓", "✓", "—", "1-48h (SPEI)"],
-                ["Betsson", "✓", "✓", "✓", "—", "1-24h (SPEI)"],
                 ["Bet365", "✓", "✓", "✓", "—", "1-24h (SPEI)"],
               ].map(([casino, spei, oxxo, visa, crypto, retiro]) => (
                 <tr key={casino} className="border-t border-white/[0.04] hover:bg-white/[0.02] transition-colors">
@@ -962,13 +1032,13 @@ export default function MejoresCasinosOnlineMexico() {
             </thead>
             <tbody className="text-[#d4d4d8]">
               {[
+                ["Betsson", "2 500+", "2 000+", "200+", "40+"],
                 ["FRESH Casino", "4 500+", "3 800+", "300+", "80+"],
                 ["SOL Casino", "4 000+", "3 400+", "200+", "70+"],
                 ["MONRO Casino", "3 500+", "3 000+", "180+", "60+"],
                 ["STARDA Casino", "3 800+", "3 200+", "150+", "65+"],
                 ["Caliente", "1 300+", "900+", "100+", "20+"],
                 ["Codere", "1 500+", "1 100+", "120+", "25+"],
-                ["Betsson", "2 500+", "2 000+", "200+", "40+"],
                 ["Bet365", "1 800+", "1 200+", "150+", "25+"],
               ].map(([casino, total, slots, live, provs]) => (
                 <tr key={casino} className="border-t border-white/[0.04] hover:bg-white/[0.02] transition-colors">
@@ -2204,8 +2274,8 @@ export default function MejoresCasinosOnlineMexico() {
             casinos online de nuestro ranking están verificados para jugadores mexicanos.
           </p>
           <div className="flex flex-wrap items-center justify-center gap-4">
-            <CtaButton slug="starda-casino" text="STARDA Casino — #1" />
-            <CtaButton slug="monro-casino" text="MONRO Casino — #2" />
+            <CtaButton slug="betsson-latam" text="Betsson — #1" />
+            <CtaButton slug="fresh-casino" text="FRESH Casino — #2" />
             <CtaButton slug="sol-casino" text="SOL Casino — #3" />
           </div>
         </div>

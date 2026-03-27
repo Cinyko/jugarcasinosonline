@@ -6,6 +6,11 @@ export interface Country {
   color: string;
 }
 
+export interface CasinoCountryData {
+  bonus: string;
+  affiliateSlug: string;
+}
+
 export interface Casino {
   name: string;
   slug: string;
@@ -14,6 +19,7 @@ export interface Casino {
   affiliateUrl: string;
   license: string;
   countries?: string[];
+  countryData?: Record<string, CasinoCountryData>;
 }
 
 export interface Streamer {

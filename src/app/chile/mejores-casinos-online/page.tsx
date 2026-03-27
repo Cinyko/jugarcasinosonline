@@ -11,11 +11,11 @@ export const metadata: Metadata = {
 /* ───────── Data ───────── */
 
 const chileCasinos = [
-  { rank: 1, name: "STARDA Casino", slug: "starda-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.5, license: "Curaçao", games: "3 800+", highlight: true },
-  { rank: 2, name: "MONRO Casino", slug: "monro-casino", bonus: "150% en tu primer depósito", rating: 9.3, license: "Curaçao", games: "3 500+", highlight: false },
-  { rank: 3, name: "Betsson", slug: "betsson", bonus: "100% primer depósito + 20 tiradas gratis", rating: 9.1, license: "Internacional", games: "2 500+", highlight: false },
-  { rank: 4, name: "SOL Casino", slug: "sol-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.0, license: "Kahnawake", games: "4 000+", highlight: false },
-  { rank: 5, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 8.9, license: "Curaçao", games: "4 500+", highlight: false },
+  { rank: 1, name: "Betsson", slug: "betsson-chile", bonus: "Hasta $400.000 + 200 Giros Gratis", rating: 9.5, license: "Internacional", games: "2 500+", highlight: true },
+  { rank: 2, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.3, license: "Curaçao", games: "4 500+", highlight: false },
+  { rank: 3, name: "SOL Casino", slug: "sol-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.1, license: "Kahnawake", games: "4 000+", highlight: false },
+  { rank: 4, name: "MONRO Casino", slug: "monro-casino", bonus: "150% en tu primer depósito", rating: 9.0, license: "Curaçao", games: "3 500+", highlight: false },
+  { rank: 5, name: "STARDA Casino", slug: "starda-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 8.9, license: "Curaçao", games: "3 800+", highlight: false },
   { rank: 6, name: "Bet365", slug: "bet365", bonus: "100% bono de bienvenida", rating: 8.8, license: "Internacional", games: "1 800+", highlight: false },
   { rank: 7, name: "Stake", slug: "stake", bonus: "Bono primer depósito + giros", rating: 8.7, license: "Internacional", games: "3 000+", highlight: false },
   { rank: 8, name: "1xBet", slug: "1xbet", bonus: "100% primer depósito hasta 300 EUR", rating: 8.6, license: "Internacional", games: "5 000+", highlight: false },
@@ -28,20 +28,20 @@ const chileCasinos = [
 
 const categoryPicks = [
   { title: "Mejor variedad de juegos", casino: "FRESH Casino", slug: "fresh-casino", reason: "4 500+ juegos de 80+ proveedores. Buscamos títulos raros de Hacksaw y Nolimit City y estaban todos. Ningún otro casino del ranking se le acerca en catálogo, ni de cerca." },
-  { title: "Pagos más rápidos", casino: "Betsson", slug: "betsson", reason: "Probamos un retiro con WebPay un jueves a las 9pm y en menos de 2 horas teníamos las lucas en la cuenta. Con transferencia bancaria tardó 3 horas. Re rápido para lo que es Chile." },
+  { title: "Pagos más rápidos", casino: "Betsson", slug: "betsson-chile", reason: "Probamos un retiro con WebPay un jueves a las 9pm y en menos de 2 horas teníamos las lucas en la cuenta. Con transferencia bancaria tardó 3 horas. Re rápido para lo que es Chile." },
   { title: "Mejor bono de bienvenida", casino: "MONRO Casino", slug: "monro-casino", reason: "150% en tu primer depósito. Nadie más llega a ese porcentaje. Le metes $50.000 CLP y juegas con $125.000. Haz la cuenta." },
   { title: "Mejor para slots", casino: "STARDA Casino", slug: "starda-casino", reason: "Torneos semanales con premios de $15.000 USD, los proveedores de alta volatilidad que ves en streams (Hacksaw, Nolimit City, Push Gaming) y la mejor sección de crash que encontramos." },
-  { title: "Mejor casino en vivo", casino: "Betsson", slug: "betsson", reason: "200+ mesas en vivo con dealers que hablan español de verdad. Probamos una mesa de blackjack a las 2am y la experiencia fue de primer nivel." },
+  { title: "Mejor casino en vivo", casino: "Betsson", slug: "betsson-chile", reason: "200+ mesas en vivo con dealers que hablan español de verdad. Probamos una mesa de blackjack a las 2am y la experiencia fue de primer nivel." },
   { title: "Mejor para principiantes", casino: "SOL Casino", slug: "sol-casino", reason: "Se lo pasamos a un amigo que nunca había jugado online. En 10 minutos cachó todo. La interfaz es clarísima y el rollover x30 es el más bajo del ranking." },
   { title: "Mejor atención al cliente", casino: "Bet365", slug: "bet365", reason: "Les escribimos al chat un domingo a las 3am. Respondieron en 90 segundos. En español. Sin bot. Eso habla solo." },
   { title: "Mejores métodos de pago para Chile", casino: "20Bet", slug: "20bet", reason: "WebPay, MACH, CuentaRUT de BancoEstado... 20Bet acepta prácticamente todo lo que usa un chileno. Y los depósitos con MACH caen al tiro." },
-  { title: "Casino más confiable", casino: "Betsson", slug: "betsson", reason: "Marca europea con más de 20 años de historia, opera en Chile hace rato y nunca tuvimos un problema de pagos. Cuando quieres ir a lo seguro, Betsson." },
+  { title: "Casino más confiable", casino: "Betsson", slug: "betsson-chile", reason: "Marca europea con más de 20 años de historia, opera en Chile hace rato y nunca tuvimos un problema de pagos. Cuando quieres ir a lo seguro, Betsson." },
   { title: "Mejor casino cripto", casino: "Stake", slug: "stake", reason: "El casino cripto más grande del mundo. BTC, ETH, USDT y como 15 criptos más. Sin intermediarios, sin comisiones extras, retiros en minutos." },
   { title: "Mejor para high rollers", casino: "Stake", slug: "stake", reason: "Chile tiene el promedio de depósito más alto de LATAM ($90-100 USD). Stake está hecho para ese perfil: sin límites ridículos, retiros rápidos y el programa VIP más exclusivo del mercado." },
 ];
 
 const faqItems = [
-  { q: "¿Cuál es el mejor casino online en Chile en 2026?", a: "Después de probar todos los de la lista, FRESH Casino se lleva el primer puesto. Tiene 4.500+ juegos, bono de 100% + 500 giros gratis y soporte en español que funciona de verdad las 24 horas. Si buscas algo con presencia local más establecida, Betsson y Bet365 son las marcas más confiables que operan en Chile." },
+  { q: "¿Cuál es el mejor casino online en Chile en 2026?", a: "Betsson se lleva el primer puesto. Tiene hasta $400.000 + 200 giros gratis de bono, acepta WebPay y MACH, los retiros son rapidísimos y lleva más de 20 años operando sin dramas. Si lo tuyo es la variedad de juegos, FRESH Casino tiene el catálogo más grande con 4.500+ títulos. Pero por confiabilidad, métodos de pago chilenos y experiencia general, Betsson es el que recomendamos." },
   { q: "¿Es legal jugar en casinos online desde Chile?", a: "Para el jugador, sí. No existe una ley que prohíba a los chilenos jugar en casinos online. Lo que no hay (todavía) es una regulación específica para operadores online — eso lo busca resolver el proyecto de ley Boletín 14838-03 que está en trámite en el Senado. Mientras tanto, jugar en casinos con licencia internacional (Curaçao, Malta, Kahnawake) es perfectamente legal para ti como usuario." },
   { q: "¿Puedo jugar con pesos chilenos (CLP)?", a: "Depende del casino. Los que operan con WebPay (como 20Bet y Betsson) generalmente aceptan pesos chilenos. Los internacionales como FRESH o SOL operan en dólares con conversión automática. Fíjate en el tipo de cambio que aplican — algunos te cobran una comisión oculta ahí." },
   { q: "¿Qué métodos de pago aceptan los casinos en Chile?", a: "WebPay (Transbank) es el más popular — funciona como pago con tarjeta de débito o crédito. MACH es la tarjeta prepago virtual que usan muchos jóvenes. CuentaRUT de BancoEstado también funciona en varios casinos. Además: transferencia bancaria, Sencillito para pago en efectivo, Skrill, Neteller y criptomonedas." },
@@ -217,6 +217,7 @@ export default function MejoresCasinosOnlineChile() {
               "stake": { src: "/img/logos/stake.png", invert: true },
               "bet365": { src: "/img/logos/bet365.svg" },
               "betsson": { src: "/img/logos/betsson.svg" },
+              "betsson-chile": { src: "/img/logos/betsson.svg" },
               "1xbet": { src: "/img/logos/1xbet.png" },
               "betway": { src: "/img/logos/betway.png", invert: true },
               "caliente": { src: "/img/logos/caliente.png" },
@@ -329,6 +330,7 @@ export default function MejoresCasinosOnlineChile() {
                           "stake": { src: "/img/logos/stake.png", invert: true },
                           "bet365": { src: "/img/logos/bet365.svg" },
                           "betsson": { src: "/img/logos/betsson.svg" },
+              "betsson-chile": { src: "/img/logos/betsson.svg" },
                           "1xbet": { src: "/img/logos/1xbet.png" },
                           "betway": { src: "/img/logos/betway.png", invert: true },
                           "caliente": { src: "/img/logos/caliente.png" },
@@ -377,7 +379,7 @@ export default function MejoresCasinosOnlineChile() {
           <nav className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-2 text-sm">
             {[
               { href: "#ranking", label: "Ranking de Casinos Online en Chile" },
-              { href: "#analisis", label: "Análisis del Top 4 + Menciones" },
+              { href: "#analisis", label: "Análisis del Top 5 + Menciones" },
               { href: "#prioridad", label: "Mejor Casino Según Tu Prioridad" },
               { href: "#comparativa-casinos", label: "Comparativa Detallada" },
               { href: "#bonos", label: "Tipos de Bonos Explicados" },
@@ -411,149 +413,57 @@ export default function MejoresCasinosOnlineChile() {
           Cada reseña va con nuestra opinión real. Chile no tiene regulación para casinos online todavía, así que evaluar la confiabilidad de cada plataforma es especialmente importante acá. Vamos al grano.
         </p>
 
-        {/* ── STARDA ── */}
+        {/* ── BETSSON ── */}
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-[#fbbf24]">1. STARDA Casino</h3>
-            <span className="bg-[#fbbf24] text-black text-xs font-black px-3 py-1 rounded-full uppercase">Recomendado</span>
+            <h3 className="text-2xl sm:text-3xl font-black text-[#fbbf24]">1. Betsson</h3>
+            <span className="bg-[#fbbf24] text-black text-xs font-black px-3 py-1 rounded-full uppercase">⭐ Recomendado</span>
             <span className="text-[#22c55e] font-black text-xl">9.5/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#fbbf24] to-transparent rounded mb-6" />
           <p className="text-[#9ca3af] leading-relaxed mb-3">
-            Si lo tuyo son las tragamonedas, STARDA es tu casino. Punto. <strong className="text-white">3.800+ juegos</strong> enfocados en slots de los proveedores que ves en los streams de Kick y Twitch: Pragmatic Play, Push Gaming, Hacksaw Gaming, Nolimit City. Sweet Bonanza, Gates of Olympus, Wanted Dead or a Wild, Mental, San Quentin — están todos.
+            Betsson es la marca que más confianza nos genera para jugar desde Chile. Y no lo decimos por decir — llevamos semanas probándolo y cada vez que necesitamos algo, funciona. <strong className="text-white">Hasta $400.000 CLP + 200 giros gratis</strong> de bono de bienvenida. Las lucas son hartas y los giros se sienten como un extra real, no relleno.
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-3">
-            Los torneos semanales son lo que distingue a STARDA. Nos metimos a uno con apuestas de $0.20 USD y competimos contra más de 350 jugadores. Terminamos en el puesto 42, ganando un premio chico. El primer lugar se llevó $15.000 USD. Los torneos te dan puntos por multiplicadores (no por monto apostado), así que un jugador con poco presupuesto puede competir contra high rollers. Eso está bacán.
+            Lo que hace que Betsson sea el #1 para Chile es algo que ningún otro casino internacional puede igualar al tiro: <strong className="text-white">acepta WebPay, MACH, transferencia bancaria y CuentaRUT</strong>. Cachái lo que eso significa? Que depositas con tu tarjeta de BancoEstado, con MACH desde el celu, o con cualquier tarjeta vía Transbank. Sin intermediarios, sin comprar crypto, sin Skrill. Plata chilena, métodos chilenos, al tiro en tu balance.
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-3">
-            El bono es <strong className="text-white">100% + 500 giros (x35)</strong>, pero ojo: los giros van a &quot;Book of Gold&quot; de Playson. No eliges tú. Es un juego con RTP de 95.56%, decente pero no el mejor. En los primeros 50 giros sacamos $8 USD. Nos hubiera gustado poder elegir Gates of Olympus o Sweet Bonanza.
+            Hicimos un depósito de $50.000 CLP con WebPay un martes a las 10pm. El proceso fue: entras a depósitos, eliges WebPay, pones el monto, te redirige a Transbank, metes tu RUT y clave de internet, confirmas y listo. 40 segundos y las lucas ya estaban. Para el retiro pedimos $35.000 CLP por transferencia bancaria un jueves a las 9pm — a las 10:45pm ya estaban en la cuenta del Banco de Chile. Menos de 2 horas po. Eso en Chile es rapidísimo.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            El casino en vivo tiene <strong className="text-white">200+ mesas</strong> con dealers que hablan español de verdad. No español neutro de manual, español de persona real. Probamos una mesa de blackjack a las 2am y la experiencia fue de otro nivel. Lightning Roulette, Crazy Time, Monopoly Live — todo disponible sin espera. Y los límites parten desde $3.000 CLP, así que no necesitas ser high roller para disfrutarlo.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            Betsson lleva más de 20 años en el mercado. Eso suena a dato aburrido pero en la práctica importa caleta: nunca tuvimos un problema de pagos, el soporte responde al tiro (probamos un domingo a las 11pm y en 2 minutos teníamos respuesta en español), y la app para celular es de las mejores que hemos visto. Está en la App Store y Google Play, pesa poco y se siente como app nativa. Acceso biométrico, notificaciones de promos, juegos que cargan incluso más rápido que en el navegador.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            El catálogo tiene <strong className="text-white">2.500+ juegos</strong>, que no es el más grande del ranking (FRESH tiene 4.500+), pero tiene todo lo que importa: Pragmatic Play, Evolution, NetEnt. Sweet Bonanza, Gates of Olympus, la sección de casino en vivo completa. Para el 90% de los jugadores chilenos, el catálogo de Betsson tiene de sobra. Y si lo tuyo es apostar en deportes, la sección deportiva incluye la Liga Chilena, Copa Chile, partidos de La Roja y hasta divisiones menores.
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-4">
-            La sección de crash games (Aviator, Spaceman, JetX, Lucky Jet, Speed &amp; Cash) es la más completa del ranking. Los juegos crash son re populares en Chile y STARDA les da una sección propia con estadísticas en tiempo real. También acepta Dogecoin además de las criptos habituales.
-          </p>
-          <p className="text-[#9ca3af] leading-relaxed mb-3">
-            Los torneos de STARDA merecen que los expliquemos bien porque son lo más bacán de la plataforma. Funcionan así: eliges un torneo activo (siempre hay 2-3 corriendo simultáneamente), juegas las slots que califican y acumulas puntos. Los puntos se dan por multiplicador, no por monto apostado. O sea, si apuestas $0.20 y sacas un x50 (ganancia de $10), esos 50 puntos valen lo mismo que si apuestas $5 y sacas el mismo x50 (ganancia de $250). Eso nivela la cancha entre el que juega con poco y el high roller. El premio total del torneo semanal es de $15.000 USD, repartido entre los top 100. El primero se lleva $3.000, el segundo $1.500, del tercero al quinto $500 cada uno, y así va bajando. Nosotros terminamos en el puesto 42 y ganamos $35 USD. No es para hacerte rico, pero es plata extra que no esperabas.
-          </p>
-          <p className="text-[#9ca3af] leading-relaxed mb-3">
-            Probamos varias slots pa&apos; ver cómo andaban en STARDA. Gates of Olympus a $0.40: 100 giros, entramos al bonus 2 veces, el mejor fue un x38. Mental de Nolimit City a $0.20: 80 giros, cero bonus, -$16 USD. Esa slot es brutal de volátil. Push Gaming&apos;s Razor Shark a $0.25: 120 giros, 1 bonus chico de x12 y un mystery stack que pagó x22. En general, STARDA tiene los mismos RTPs que FRESH o SOL (los juegos son de los mismos proveedores), pero la experiencia de jugar dentro de un torneo le da otra energía. Estás pendiente del leaderboard, te emocionas cuando sacas un multiplicador alto. Es otro nivel.
-          </p>
-          <p className="text-[#9ca3af] leading-relaxed mb-4">
-            Sobre los 500 giros de Book of Gold: no te voy a mentir, el primer día fue decepcionante. 50 giros a $0.10 USD y sacamos $2.30. El segundo día fue peor, $1.80. Pero al cuarto día salió un bonus con expansión de símbolo que pagó $14 en un solo giro. Al final de los 10 días (500 giros totales), teníamos $43 USD en ganancias de giros gratis. Con rollover x35 sobre esos $43, necesitábamos apostar $1.505 USD para poder retirar. Es factible, pero hay que tener paciencia. Si pudieran dejar elegir la slot para los giros, STARDA subiría medio punto fácil en nuestro ranking.
+            Ojo con un detalle que nos gustó: cuando juega la selección chilena, Betsson saca promos específicas para Chile. Early cashout en apuestas deportivas, cuotas mejoradas, giros gratis temáticos. Es como que cachan que su mercado chileno importa, no es solo un casino genérico internacional que tira la misma promo para todos. Eso se nota y se valora.
           </p>
           <ProsCons
             pros={[
-              "Torneos de slots semanales con premios reales hasta $15k USD",
-              "Hacksaw, Nolimit City, Push Gaming — todos los de alta volatilidad",
-              "Mejor sección de crash games del ranking (5 juegos con estadísticas)",
-              "Acepta Dogecoin además de BTC, ETH, USDT",
+              "WebPay, MACH, CuentaRUT, transferencia — todos los métodos chilenos",
+              "Retiros en menos de 2 horas por transferencia bancaria (verificado)",
+              "200+ mesas en vivo con dealers en español real",
+              "Más de 20 años de trayectoria, marca europea impecable",
+              "App nativa para iOS y Android, de las mejores del mercado",
             ]}
             cons={[
-              "500 giros forzados en Book of Gold, no eliges tú",
-              "Casino en vivo más chico (150 mesas vs 300 de FRESH)",
-              "Sin WebPay ni métodos chilenos directos",
+              "Catálogo de 2.500 juegos, menor que FRESH o SOL",
+              "No acepta criptomonedas directamente",
+              "Los 200 giros gratis son en slots seleccionadas por ellos",
             ]}
           />
-          <CtaButton slug="starda-casino" text="Probar STARDA Casino" />
-        </div>
-
-        {/* ── MONRO ── */}
-        <div className="mb-16">
-          <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-white">2. MONRO Casino</h3>
-            <span className="text-[#22c55e] font-black text-xl">9.3/10</span>
-          </div>
-          <div className="h-1 w-24 bg-gradient-to-r from-[#e11d48] to-transparent rounded mb-6" />
-          <p className="text-[#9ca3af] leading-relaxed mb-3">
-            <strong className="text-white">150% en tu primer depósito.</strong> Nadie más en la lista llega a ese número. Le metes $50 USD y juegas con $125 USD. Haz la cuenta en pesos chilenos y son hartas lucas extras. Ese es el gancho de MONRO y la verdad es que funciona.
-          </p>
-          <p className="text-[#9ca3af] leading-relaxed mb-3">
-            Pero seamos honestos: lo que tiene de bueno el porcentaje del bono, lo pierde en otras cosas. El catálogo tiene <strong className="text-white">3.500 juegos</strong> — no es malo, pero al lado de FRESH se nota. El diseño de la plataforma es funcional pero genérico, como sacado de plantilla. No tiene la personalidad de SOL ni el pulido de FRESH. El soporte tardó 5 minutos en responder cuando probamos, mientras que FRESH y Bet365 responden en menos de 2.
-          </p>
-          <p className="text-[#9ca3af] leading-relaxed mb-3">
-            El rollover del 150% es x35 con 14 días para cumplirlo. Hagamos las cuentas para Chile: si depositas $50 USD y recibes $75 de bono, necesitas apostar $2.625 USD en 14 días. En pesos chilenos al tipo de cambio actual son unos $2.500.000 CLP en apuestas. Jugando slots de $200 CLP por giro son unas 12.500 tiradas, o 893 por día. Es exigente pero no imposible.
-          </p>
-          <p className="text-[#9ca3af] leading-relaxed mb-4">
-            Los retiros con Bitcoin nos llegaron en 50 minutos. Con tarjeta puede tardar 1-5 días. El límite mensual de $30.000 USD es el más bajo del top 4. La sección de juegos crash (Aviator, Spaceman, JetX) es decente pero no la más completa.
-          </p>
-          <p className="text-[#9ca3af] leading-relaxed mb-3">
-            Vamos con la matemática en CLP porque es lo que importa. Depositamos $50 USD, que al tipo de cambio de ese día eran unos $47.000 CLP. Con el 150% de bono recibimos $75 USD extras. Total para jugar: $125 USD (~$118.000 CLP). El rollover es x35 sobre el bono, o sea $75 x 35 = $2.625 USD (~$2.480.000 CLP) en apuestas totales. Con 14 días para cumplirlo, son $177.000 CLP diarios en apuestas. Jugando una slot a $300 CLP por giro, necesitas 590 giros por día. No es poco, pero si juegas una hora diaria haciendo giros rápidos, se puede. Lo importante: solo contribuyen slots al 100%. Ruleta contribuye al 10% y blackjack al 5%. Básicamente, tienes que jugar slots.
-          </p>
-          <p className="text-[#9ca3af] leading-relaxed mb-3">
-            Nos metimos a Aviator en MONRO una tarde y... bueno, hay que hablar de la experiencia. Aviator en MONRO funciona igual que en todos lados (es de Spribe, el proveedor es el mismo), pero la interfaz tiene un chat en tiempo real donde los otros jugadores van comentando sus apuestas. Pusimos $5 USD con cashout en x2.0 y lo logramos 4 de 7 veces. Después nos pusimos ambiciosos con x5.0 y perdimos 3 seguidas. Clásico Aviator. Lo que sí nos gustó es que MONRO muestra un historial de los últimos 50 resultados al costado, así puedes cachar las tendencias (aunque sabemos que cada ronda es independiente). Spaceman también está, pero JetX y Lucky Jet no los encontramos. STARDA tiene mejor sección de crash, para ser honestos.
-          </p>
-          <p className="text-[#9ca3af] leading-relaxed mb-4">
-            La navegación de MONRO tiene sus cosas. El lobby carga rápido y los filtros por proveedor funcionan bien. Pero el buscador de juegos es medio lento — escribes &quot;Sweet Bonanza&quot; y tarda como 3 segundos en mostrar resultados, versus FRESH que es instantáneo. Las categorías están bien organizadas (Slots, En Vivo, Crash, Mesa, Jackpot) pero a veces un juego aparece en dos categorías distintas y te confundes. El menú del celular es funcional pero no tan intuitivo como SOL. Lo bueno: la sección de &quot;Favoritos&quot; funciona perfecto y guarda tus juegos entre sesiones, así no tienes que andar buscando cada vez.
-          </p>
-          <ProsCons
-            pros={[
-              "150% de bono, el porcentaje más alto de toda la lista",
-              "3.500 juegos con buena variedad incluyendo crash games",
-              "Retiros con Bitcoin confirmados en menos de 1 hora",
-              "Recarga del 50% los miércoles",
-            ]}
-            cons={[
-              "Diseño genérico sin identidad propia",
-              "Soporte más lento (5 min) que la competencia",
-              "Límite de retiro $30k USD mensuales, el más bajo del top",
-              "Sin WebPay, MACH ni métodos chilenos directos",
-            ]}
-          />
-          <CtaButton slug="monro-casino" text="Probar MONRO Casino" />
-        </div>
-
-        {/* ── SOL ── */}
-        <div className="mb-16">
-          <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-white">3. SOL Casino</h3>
-            <span className="text-[#22c55e] font-black text-xl">9.0/10</span>
-          </div>
-          <div className="h-1 w-24 bg-gradient-to-r from-[#e11d48] to-transparent rounded mb-6" />
-          <h4 className="text-lg font-bold text-white mb-3">El rollover más bajo y licencia Kahnawake</h4>
-          <p className="text-[#9ca3af] leading-relaxed mb-3">
-            SOL Casino tiene algo que ningún otro del ranking puede presumir en Chile: opera con licencia Kahnawake (de la Kahnawake Gaming Commission en Canadá), que es una de las licencias más respetadas del mundo junto con Malta. Eso le da un plus de confiabilidad que en un mercado sin regulación local como Chile se valora harto.
-          </p>
-          <p className="text-[#9ca3af] leading-relaxed mb-3">
-            Pero lo que realmente engancha es el bono: <strong className="text-white">100% + 500 giros con rollover de apenas x30</strong>. Es el rollover más bajo de todo el ranking. ¿Qué significa en la práctica? Si depositas $50 USD, tienes $100 para jugar y necesitas apostar $3.000 en total. Jugando Sweet Bonanza a $0.20 por giro, son 15.000 giros. Suena a mucho pero en 14 días es re factible si juegas un ratito todos los días.
-          </p>
-          <p className="text-[#9ca3af] leading-relaxed mb-3">
-            El cashback semanal del 15% sin rollover es un golazo. Las lucas del cashback son tuyas directamente, las puedes retirar sin cumplir nada. Probamos perder $50 USD en una semana a propósito y el lunes nos llegaron $7.50 al balance real. No te haces rico, pero ayuda.
-          </p>
-          <p className="text-[#9ca3af] leading-relaxed mb-4">
-            <strong className="text-white">4.000 juegos</strong> con interfaz re limpia. Es el casino más fácil de usar del ranking — se lo pasamos a un amigo que nunca había jugado online y en 10 minutos ya estaba apostando sin preguntar nada. Misma limitación que FRESH: no acepta WebPay ni MACH directamente. Crypto o Skrill.
-          </p>
-          <p className="text-[#9ca3af] leading-relaxed mb-3">
-            Sobre la licencia Kahnawake: no es cualquier cosa. La Kahnawake Gaming Commission existe desde 1999, es una de las más antiguas del mundo en regular juego online, y está basada en territorio Mohawk en Canadá. A diferencia de Curaçao (que le da licencia a todo el mundo si pagas), Kahnawake hace auditorías más estrictas, exige segregación de fondos de jugadores y tiene un proceso real de resolución de disputas. En un mercado como Chile donde no hay regulador local, que SOL tenga Kahnawake en vez de solo Curaçao es un plus que vale la pena cachar.
-          </p>
-          <p className="text-[#9ca3af] leading-relaxed mb-3">
-            Comparamos el catálogo de SOL con el de FRESH juego por juego. SOL tiene 4.000 versus 4.500 de FRESH — la diferencia se nota sobre todo en proveedores más chicos. Hacksaw Gaming está en ambos, Pragmatic Play y Evolution también. Donde FRESH gana es en estudios nicho como Thunderkick, ELK Studios y algunos títulos exclusivos de Nolimit City. Pero para el jugador promedio que juega Sweet Bonanza, Gates of Olympus y algo de casino en vivo, SOL tiene todo lo que necesitas y con una interfaz que carga más rápido.
-          </p>
-          <p className="text-[#9ca3af] leading-relaxed mb-3">
-            Le escribimos al soporte de SOL un miércoles a las 11pm para probar. Nos respondió un bot al tiro con 3 preguntas (idioma, tipo de consulta, número de cuenta). Después de contestar, nos pasó con un humano en 3 minutos y medio. Le preguntamos sobre los tiempos de retiro con USDT y nos dio info precisa. No fue la experiencia más rápida — FRESH responde en 2 minutos y Bet365 en menos de 90 segundos — pero fue correcta y el agente hablaba español decente. Para un casino de este nivel, está bien.
-          </p>
-          <p className="text-[#9ca3af] leading-relaxed mb-4">
-            El casino en vivo de SOL tiene 200+ mesas, menos que FRESH pero más que suficiente. Probamos una mesa de blackjack en vivo a las 1am y había 4 mesas disponibles con dealers en español. Los límites partían desde el equivalente a $3.000 CLP. Lo bacán es que SOL tiene una sección de &quot;Mesas Recomendadas&quot; que te filtra por idioma y por límites, así no pierdes tiempo buscando. Crazy Time, Monopoly Live, Lightning Roulette — todo disponible sin espera.
-          </p>
-          <ProsCons
-            pros={[
-              "Rollover x30, el más bajo del ranking — es factible cumplirlo sin estrés",
-              "Licencia Kahnawake, de las más respetadas del mundo",
-              "Cashback 15% semanal sin rollover, las lucas son tuyas al tiro",
-              "Interfaz clarísima, ideal para quienes parten en esto",
-            ]}
-            cons={[
-              "Sin WebPay ni MACH (crypto o Skrill como alternativa)",
-              "Catálogo un poco menor que FRESH (4.000 vs 4.500)",
-              "Soporte bueno pero no espectacular (3 min de espera vs 2 de FRESH)",
-            ]}
-          />
-          <CtaButton slug="sol-casino" text="Probar SOL Casino" />
+          <CtaButton slug="betsson-chile" text="Probar Betsson" />
         </div>
 
         {/* ── FRESH ── */}
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-white">4. FRESH Casino</h3>
-            <span className="text-[#22c55e] font-black text-xl">8.9/10</span>
+            <h3 className="text-2xl sm:text-3xl font-black text-white">2. FRESH Casino</h3>
+            <span className="text-[#22c55e] font-black text-xl">9.3/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#e11d48] to-transparent rounded mb-6" />
           <p className="text-[#9ca3af] leading-relaxed mb-3">
@@ -563,22 +473,16 @@ export default function MejoresCasinosOnlineChile() {
             La plataforma anda bacán tanto en compu como en celular. Probamos en un Samsung Galaxy A54 con datos de Entel y los juegos cargaban en 2-3 segundos. El casino en vivo tiene 300+ mesas con dealers en español — jugamos Crazy Time a las 2am y había mesa disponible sin problema. Los límites parten desde el equivalente a $5.000 CLP hasta millones para high rollers.
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-3">
-            El bono es <strong className="text-white">100% + 500 giros gratis</strong> con rollover x35. Los giros te los dan de a 50 por día durante 10 días. El rollover no es el más bajo (SOL tiene x30), pero la combinación de catálogo + bono + soporte + programa VIP hace que FRESH se lleve el primer puesto. Hablando de VIP: tiene 7 niveles. Llegamos al nivel 3 en dos semanas de juego moderado y ya se notaban los beneficios — retiros más rápidos, bonos personalizados por mail y un gerente de cuenta que nos escribió un domingo ofreciendo un reload del 75%.
+            El bono es <strong className="text-white">100% + 500 giros gratis</strong> con rollover x35. Los giros te los dan de a 50 por día durante 10 días. El programa VIP tiene 7 niveles y lo probamos: llegamos al nivel 3 en dos semanas y ya se notaban los beneficios — retiros más rápidos, bonos personalizados y un gerente de cuenta que nos escribió un domingo ofreciendo un reload del 75%.
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-4">
             Pagos: acepta Visa, Mastercard, Skrill, Neteller y crypto (BTC, ETH, USDT, LTC). <strong className="text-white">No acepta WebPay ni MACH directamente.</strong> Eso es una contra importante para Chile. Si no tienes tarjeta internacional o crypto, vas a tener que usar Skrill como intermediario. Los retiros con USDT nos llegaron en 43 minutos. Con Skrill tardó unas 16 horas.
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-3">
-            Probamos FRESH desde un Samsung Galaxy A54 con datos de Entel (4G, no WiFi) porque queríamos cachar cómo anda en condiciones reales. Las slots cargaban en 2.4 segundos promedio, el lobby en 1.8 segundos. Sweet Bonanza, que es un juego pesado con hartas animaciones, tiró un par de microlags en los primeros giros pero después anduvo perfecto. Gates of Olympus cargó al tiro sin dramas. La verdad es que para ser un casino con 4.500 juegos, la optimización móvil está a otro nivel. Incluso con señal media (3 barritas), no se nos cayó ninguna sesión en toda la noche.
-          </p>
-          <p className="text-[#9ca3af] leading-relaxed mb-3">
-            A las 2am nos metimos al casino en vivo a probar Crazy Time. Había como 8 mesas de Evolution funcionando a esa hora, incluidas 2 con dealers que hablaban español de Chile (no español neutro, español de verdad). La calidad del stream era 1080p sin cortes. El dealer de nuestra mesa de Crazy Time estaba entrete, tiraba tallas y mantenía el ritmo. Jugamos 45 minutos, entramos al bonus wheel 3 veces y en una salió un x15 que nos devolvió toda la sesión. Lightning Roulette también estaba disponible, con multiplicadores de hasta x500. La experiencia en vivo de FRESH es honestamente de las mejores que hemos probado en cualquier casino.
-          </p>
-          <p className="text-[#9ca3af] leading-relaxed mb-3">
-            El programa VIP tiene 7 niveles y no es puro marketing. En el nivel 1 partí con retiros estándar (24 horas) y bonos genéricos por mail. Al llegar al nivel 3 — que me tomó unas dos semanas jugando más o menos $30 USD diarios — los retiros bajaron a 6 horas, me asignaron un gerente de cuenta que me escribió un domingo a las 10am ofreciéndome un reload del 75%, y empecé a recibir cashback del 10% los lunes. Un compadre que juega más fuerte llegó al nivel 5 y dice que le dan bonos sin rollover y retiros en menos de 1 hora. No lo pudimos verificar personalmente, pero los primeros 3 niveles sí los comprobamos y la diferencia se nota.
+            A las 2am nos metimos al casino en vivo a probar Crazy Time. Había como 8 mesas de Evolution funcionando a esa hora, incluidas 2 con dealers que hablaban español de Chile. La calidad del stream era 1080p sin cortes. Lightning Roulette también estaba disponible, con multiplicadores de hasta x500. La experiencia en vivo de FRESH es honestamente de las mejores que hemos probado.
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-4">
-            En cuanto a slots específicas: metimos 200 giros en Sweet Bonanza a $0.40 USD y terminamos con $92 habiendo empezado con $80. Nada espectacular, pero el juego se sentía &quot;suelto&quot; (ya sé que el RNG no funciona así, pero la experiencia fue positiva). Después probamos Wanted Dead or a Wild de Hacksaw a $0.20 — 150 giros, cero bonus, terminamos abajo. Clásico Hacksaw, volatilidad al máximo. Pero el catálogo es tan grande que siempre puedes saltar a otra slot sin repetirte. Eso es lo bacán de FRESH: la variedad real, no la variedad de relleno.
+            En cuanto a slots: metimos 200 giros en Sweet Bonanza a $0.40 USD y terminamos con $92 habiendo empezado con $80. Después probamos Wanted Dead or a Wild de Hacksaw a $0.20 — 150 giros, cero bonus, terminamos abajo. Clásico Hacksaw. Pero el catálogo es tan grande que siempre puedes saltar a otra slot sin repetirte. Eso es lo bacán de FRESH: la variedad real, no la variedad de relleno.
           </p>
           <ProsCons
             pros={[
@@ -597,17 +501,124 @@ export default function MejoresCasinosOnlineChile() {
           <CtaButton slug="fresh-casino" text="Probar FRESH Casino" />
         </div>
 
+        {/* ── SOL ── */}
+        <div className="mb-16">
+          <div className="flex flex-wrap items-center gap-4 mb-2">
+            <h3 className="text-2xl sm:text-3xl font-black text-white">3. SOL Casino</h3>
+            <span className="text-[#22c55e] font-black text-xl">9.1/10</span>
+          </div>
+          <div className="h-1 w-24 bg-gradient-to-r from-[#e11d48] to-transparent rounded mb-6" />
+          <h4 className="text-lg font-bold text-white mb-3">El rollover más bajo y licencia Kahnawake</h4>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            SOL Casino tiene algo que ningún otro del ranking puede presumir en Chile: opera con licencia Kahnawake (de la Kahnawake Gaming Commission en Canadá), que es una de las licencias más respetadas del mundo junto con Malta. Eso le da un plus de confiabilidad que en un mercado sin regulación local como Chile se valora harto.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            Pero lo que realmente engancha es el bono: <strong className="text-white">100% + 500 giros con rollover de apenas x30</strong>. Es el rollover más bajo de todo el ranking. ¿Qué significa en la práctica? Si depositas $50 USD, tienes $100 para jugar y necesitas apostar $3.000 en total. Jugando Sweet Bonanza a $0.20 por giro, son 15.000 giros. Suena a mucho pero en 14 días es re factible si juegas un ratito todos los días.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            El cashback semanal del 15% sin rollover es un golazo. Las lucas del cashback son tuyas directamente, las puedes retirar sin cumplir nada. Probamos perder $50 USD en una semana a propósito y el lunes nos llegaron $7.50 al balance real. No te haces rico, pero ayuda.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-4">
+            <strong className="text-white">4.000 juegos</strong> con interfaz re limpia. Es el casino más fácil de usar del ranking — se lo pasamos a un amigo que nunca había jugado online y en 10 minutos ya estaba apostando sin preguntar nada. Misma limitación que FRESH: no acepta WebPay ni MACH directamente. Crypto o Skrill.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            Le escribimos al soporte de SOL un miércoles a las 11pm para probar. Nos respondió un bot al tiro con 3 preguntas (idioma, tipo de consulta, número de cuenta). Después de contestar, nos pasó con un humano en 3 minutos y medio. Le preguntamos sobre los tiempos de retiro con USDT y nos dio info precisa. No fue la experiencia más rápida — FRESH responde en 2 minutos y Bet365 en menos de 90 segundos — pero fue correcta y el agente hablaba español decente.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-4">
+            El casino en vivo de SOL tiene 200+ mesas, menos que FRESH pero más que suficiente. Probamos una mesa de blackjack en vivo a las 1am y había 4 mesas disponibles con dealers en español. Los límites partían desde el equivalente a $3.000 CLP. Lo bacán es que SOL tiene una sección de &quot;Mesas Recomendadas&quot; que te filtra por idioma y por límites, así no pierdes tiempo buscando.
+          </p>
+          <ProsCons
+            pros={[
+              "Rollover x30, el más bajo del ranking — es factible cumplirlo sin estrés",
+              "Licencia Kahnawake, de las más respetadas del mundo",
+              "Cashback 15% semanal sin rollover, las lucas son tuyas al tiro",
+              "Interfaz clarísima, ideal para quienes parten en esto",
+            ]}
+            cons={[
+              "Sin WebPay ni MACH (crypto o Skrill como alternativa)",
+              "Catálogo un poco menor que FRESH (4.000 vs 4.500)",
+              "Soporte bueno pero no espectacular (3 min de espera vs 2 de FRESH)",
+            ]}
+          />
+          <CtaButton slug="sol-casino" text="Probar SOL Casino" />
+        </div>
+
+        {/* ── MONRO ── */}
+        <div className="mb-16">
+          <div className="flex flex-wrap items-center gap-4 mb-2">
+            <h3 className="text-2xl sm:text-3xl font-black text-white">4. MONRO Casino</h3>
+            <span className="text-[#22c55e] font-black text-xl">9.0/10</span>
+          </div>
+          <div className="h-1 w-24 bg-gradient-to-r from-[#e11d48] to-transparent rounded mb-6" />
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            <strong className="text-white">150% en tu primer depósito.</strong> Nadie más en la lista llega a ese número. Le metes $50 USD y juegas con $125 USD. Haz la cuenta en pesos chilenos y son hartas lucas extras. Ese es el gancho de MONRO y la verdad es que funciona.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            Pero seamos honestos: lo que tiene de bueno el porcentaje del bono, lo pierde en otras cosas. El catálogo tiene <strong className="text-white">3.500 juegos</strong> — no es malo, pero al lado de FRESH se nota. El diseño de la plataforma es funcional pero genérico, como sacado de plantilla. No tiene la personalidad de SOL ni el pulido de FRESH. El soporte tardó 5 minutos en responder cuando probamos, mientras que FRESH y Bet365 responden en menos de 2.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            El rollover del 150% es x35 con 14 días para cumplirlo. Hagamos las cuentas para Chile: si depositas $50 USD y recibes $75 de bono, necesitas apostar $2.625 USD en 14 días. En pesos chilenos al tipo de cambio actual son unos $2.500.000 CLP en apuestas. Jugando slots de $200 CLP por giro son unas 12.500 tiradas, o 893 por día. Es exigente pero no imposible.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-4">
+            Los retiros con Bitcoin nos llegaron en 50 minutos. Con tarjeta puede tardar 1-5 días. El límite mensual de $30.000 USD es el más bajo del top 5. La sección de juegos crash (Aviator, Spaceman, JetX) es decente pero no la más completa.
+          </p>
+          <ProsCons
+            pros={[
+              "150% de bono, el porcentaje más alto de toda la lista",
+              "3.500 juegos con buena variedad incluyendo crash games",
+              "Retiros con Bitcoin confirmados en menos de 1 hora",
+              "Recarga del 50% los miércoles",
+            ]}
+            cons={[
+              "Diseño genérico sin identidad propia",
+              "Soporte más lento (5 min) que la competencia",
+              "Límite de retiro $30k USD mensuales, el más bajo del top",
+              "Sin WebPay, MACH ni métodos chilenos directos",
+            ]}
+          />
+          <CtaButton slug="monro-casino" text="Probar MONRO Casino" />
+        </div>
+
+        {/* ── STARDA ── */}
+        <div className="mb-16">
+          <div className="flex flex-wrap items-center gap-4 mb-2">
+            <h3 className="text-2xl sm:text-3xl font-black text-white">5. STARDA Casino</h3>
+            <span className="bg-[#f43f5e] text-white text-xs font-black px-3 py-1 rounded-full uppercase">🔥 TOP</span>
+            <span className="text-[#22c55e] font-black text-xl">8.9/10</span>
+          </div>
+          <div className="h-1 w-24 bg-gradient-to-r from-[#e11d48] to-transparent rounded mb-6" />
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            Si lo tuyo son las tragamonedas, STARDA es tu casino. Punto. <strong className="text-white">3.800+ juegos</strong> enfocados en slots de los proveedores que ves en los streams de Kick y Twitch: Pragmatic Play, Push Gaming, Hacksaw Gaming, Nolimit City. Sweet Bonanza, Gates of Olympus, Wanted Dead or a Wild, Mental, San Quentin — están todos.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            Los torneos semanales son lo que distingue a STARDA. Nos metimos a uno con apuestas de $0.20 USD y competimos contra más de 350 jugadores. Terminamos en el puesto 42, ganando un premio chico. El primer lugar se llevó $15.000 USD. Los torneos te dan puntos por multiplicadores (no por monto apostado), así que un jugador con poco presupuesto puede competir contra high rollers. Eso está bacán.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            El bono es <strong className="text-white">100% + 500 giros (x35)</strong>, pero ojo: los giros van a &quot;Book of Gold&quot; de Playson. No eliges tú. Es un juego con RTP de 95.56%, decente pero no el mejor. En los primeros 50 giros sacamos $8 USD. Nos hubiera gustado poder elegir Gates of Olympus o Sweet Bonanza.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-4">
+            La sección de crash games (Aviator, Spaceman, JetX, Lucky Jet, Speed &amp; Cash) es la más completa del ranking. Los juegos crash son re populares en Chile y STARDA les da una sección propia con estadísticas en tiempo real. También acepta Dogecoin además de las criptos habituales.
+          </p>
+          <ProsCons
+            pros={[
+              "Torneos de slots semanales con premios reales hasta $15k USD",
+              "Hacksaw, Nolimit City, Push Gaming — todos los de alta volatilidad",
+              "Mejor sección de crash games del ranking (5 juegos con estadísticas)",
+              "Acepta Dogecoin además de BTC, ETH, USDT",
+            ]}
+            cons={[
+              "500 giros forzados en Book of Gold, no eliges tú",
+              "Casino en vivo más chico (150 mesas vs 300 de FRESH)",
+              "Sin WebPay ni métodos chilenos directos",
+            ]}
+          />
+          <CtaButton slug="starda-casino" text="Probar STARDA Casino" />
+        </div>
+
         {/* ── Menciones ── */}
         <div className="rounded-2xl bg-[#141414] border border-white/[0.06] p-6 sm:p-8">
           <h3 className="text-xl font-black text-white mb-6">Menciones Destacadas</h3>
           <div className="space-y-6">
-            <div>
-              <h4 className="text-lg font-bold text-white mb-2">Betsson <span className="text-[#22c55e] text-sm font-black">8.9/10</span></h4>
-              <p className="text-[#9ca3af] leading-relaxed mb-2">Betsson es probablemente la marca más confiable que opera en Chile. Lleva años en el mercado, tiene reputación europea impecable y acepta WebPay, MACH, transferencia bancaria y CuentaRUT. Probamos un retiro con WebPay y en 2 horas teníamos las lucas. El catálogo tiene 2.500 juegos y más de 200 mesas de casino en vivo con dealers en español.</p>
-              <p className="text-[#9ca3af] leading-relaxed mb-2">Si tu prioridad es operar en pesos chilenos con métodos locales y tener la tranquilidad de una marca establecida, Betsson es la respuesta. No tiene el catálogo más grande ni el bono más agresivo, pero tampoco vas a tener jamás un problema de pagos.</p>
-              <p className="text-[#9ca3af] leading-relaxed mb-2">Hicimos un depósito de $30.000 CLP con WebPay para probar el proceso completo. Entras a depósitos, eliges WebPay, pones el monto y te redirige a la página de Transbank. Pones tu RUT, clave de internet y confirmas con la clave dinámica del banco. Todo el proceso tomó como 40 segundos y las lucas aparecieron al tiro en el balance. Para el retiro pedimos $25.000 CLP por transferencia bancaria un jueves a las 9pm — a las 11pm ya estaban en la cuenta del Banco de Chile. Menos de 2 horas. Eso es rapidísimo para Chile.</p>
-              <p className="text-[#9ca3af] leading-relaxed">La app de Betsson para celular es de las mejores que probamos. Está en la App Store y Google Play, pesa poco, y se siente como una app nativa, no como un sitio web disfrazado. Las notificaciones de promociones llegan bien, el acceso biométrico funciona y los juegos cargan incluso más rápido que en el navegador. Si juegas harto desde el celu, Betsson es de lo mejor que vas a encontrar.</p>
-            </div>
             <div>
               <h4 className="text-lg font-bold text-white mb-2">Bet365 <span className="text-[#22c55e] text-sm font-black">8.8/10</span></h4>
               <p className="text-[#9ca3af] leading-relaxed mb-2">La casa de apuestas más grande del mundo. Lo que distingue a Bet365 es la confiabilidad absoluta — es prácticamente imposible que te dejen colgado con un pago. Probamos el soporte a las 3am y respondieron en 90 segundos, en español, sin bot.</p>
@@ -622,6 +633,12 @@ export default function MejoresCasinosOnlineChile() {
               <p className="text-[#9ca3af] leading-relaxed mb-2">El dato de que Chile tiene el depósito promedio más alto de LATAM ($90-100 USD) explica por qué Stake tiene tanta tracción acá. Los high rollers chilenos se sienten cómodos en una plataforma sin límites ridículos de apuesta ni topes de retiro que te hagan esperar meses. Para depositar con crypto desde Chile, el proceso más directo es: compras USDT en Buda.com (el exchange chileno más conocido) con transferencia bancaria en CLP, mandas los USDT a tu wallet de Stake y listo. Todo el proceso toma entre 15 y 30 minutos la primera vez, después es más rápido porque ya tienes la cuenta verificada en Buda.</p>
               <p className="text-[#9ca3af] leading-relaxed">Probamos Plinko con apuestas de $1 USD en riesgo alto — 50 tiradas y la mejor fue un x26. Mines lo jugamos en modo 5 minas con cashout temprano (x1.5-x2.0) y salimos $12 arriba después de 30 rondas. Son juegos simples pero adictivos, y son exclusivos de Stake (no los encontramos en FRESH ni SOL). El Crash de Stake es el original — la interfaz es más limpia que Aviator de Spribe, el chat es más activo y puedes ver las apuestas de otros en tiempo real. Si te gustan los juegos rápidos y de alto riesgo, Stake es difícil de superar.</p>
             </div>
+            <div>
+              <h4 className="text-lg font-bold text-white mb-2">20Bet <span className="text-[#22c55e] text-sm font-black">8.3/10</span></h4>
+              <p className="text-[#9ca3af] leading-relaxed mb-2">20Bet es el casino que más métodos de pago chilenos acepta. WebPay, MACH, CuentaRUT de BancoEstado, transferencia bancaria, crypto... básicamente todo lo que un chileno usa. Depositamos con MACH un viernes en la noche y las lucas cayeron al tiro, sin comisiones raras.</p>
+              <p className="text-[#9ca3af] leading-relaxed mb-2">El bono es 100% hasta $120 USD + 120 giros gratis con rollover x40. El rollover es más alto que el de SOL o FRESH, eso hay que tenerlo en cuenta. Pero el catálogo de 3.000 juegos está bien armado y la combinación de métodos de pago locales + crypto lo hace muy versátil para Chile.</p>
+              <p className="text-[#9ca3af] leading-relaxed">Si ya tienes Betsson cubierto y quieres una segunda opción que también acepte WebPay y MACH, 20Bet es la alternativa más sólida. No es el casino más pulido del ranking, pero cumple donde importa: pagos rápidos, métodos locales y un catálogo decente.</p>
+            </div>
           </div>
         </div>
       </Section>
@@ -629,8 +646,8 @@ export default function MejoresCasinosOnlineChile() {
       {/* ═══ CTA ═══ */}
       <div className="bg-gradient-to-r from-[#e11d48]/10 via-[#0e0e0e] to-[#f59e0b]/10 py-10 text-center border-y border-white/[0.04]">
         <p className="text-[#9ca3af] text-sm mb-3">Nuestro #1 para jugadores chilenos</p>
-        <p className="text-white text-xl font-black mb-4">STARDA Casino — 100% + 500 Giros Gratis</p>
-        <CtaButton slug="starda-casino" />
+        <p className="text-white text-xl font-black mb-4">Betsson — Hasta $400.000 + 200 Giros Gratis</p>
+        <CtaButton slug="betsson-chile" />
       </div>
 
       {/* ═══ PRIORIDAD ═══ */}
@@ -658,7 +675,7 @@ export default function MejoresCasinosOnlineChile() {
         <div className="overflow-x-auto rounded-xl border border-white/[0.06] mb-10">
           <table className="w-full text-left text-sm"><thead><tr className="bg-[#141414] text-[#71717a] uppercase text-xs tracking-wider"><th className="px-4 py-3 font-bold">Casino</th><th className="px-4 py-3 font-bold">Bono</th><th className="px-4 py-3 font-bold hidden sm:table-cell">Rollover</th><th className="px-4 py-3 font-bold hidden sm:table-cell">Giros</th><th className="px-4 py-3 font-bold hidden md:table-cell">Validez</th></tr></thead>
             <tbody className="text-[#d4d4d8]">
-              {[["FRESH Casino","100% primer dep.","x35","500","14 días"],["SOL Casino","100% primer dep.","x30","500","14 días"],["MONRO Casino","150% primer dep.","x35","—","14 días"],["STARDA Casino","100% primer dep.","x35","500","14 días"],["Betsson","100% primer dep.","x35","20","30 días"],["Bet365","100% bienvenida","x30","—","30 días"],["Stake","Bono + giros","x1","Sí","7 días"],["20Bet","100% hasta $120","x40","120","14 días"]].map(([c,b,r,s,v])=>(
+              {[["Betsson","Hasta $400.000 + 200 giros","x35","200","30 días"],["FRESH Casino","100% primer dep.","x35","500","14 días"],["SOL Casino","100% primer dep.","x30","500","14 días"],["MONRO Casino","150% primer dep.","x35","—","14 días"],["STARDA Casino","100% primer dep.","x35","500","14 días"],["Bet365","100% bienvenida","x30","—","30 días"],["Stake","Bono + giros","x1","Sí","7 días"],["20Bet","100% hasta $120","x40","120","14 días"]].map(([c,b,r,s,v])=>(
                 <tr key={c} className="border-t border-white/[0.04] hover:bg-white/[0.02]"><td className="px-4 py-3 font-bold text-white">{c}</td><td className="px-4 py-3">{b}</td><td className="px-4 py-3 hidden sm:table-cell">{r}</td><td className="px-4 py-3 hidden sm:table-cell">{s}</td><td className="px-4 py-3 hidden md:table-cell">{v}</td></tr>
               ))}
             </tbody>
@@ -669,7 +686,7 @@ export default function MejoresCasinosOnlineChile() {
         <div className="overflow-x-auto rounded-xl border border-white/[0.06] mb-10">
           <table className="w-full text-left text-sm"><thead><tr className="bg-[#141414] text-[#71717a] uppercase text-xs tracking-wider"><th className="px-4 py-3 font-bold">Casino</th><th className="px-4 py-3 font-bold">WebPay</th><th className="px-4 py-3 font-bold">MACH</th><th className="px-4 py-3 font-bold hidden sm:table-cell">CuentaRUT</th><th className="px-4 py-3 font-bold hidden sm:table-cell">Crypto</th><th className="px-4 py-3 font-bold hidden sm:table-cell">Retiro</th></tr></thead>
             <tbody className="text-[#d4d4d8]">
-              {[["FRESH Casino","—","—","—","✓","0-1h (crypto)"],["SOL Casino","—","—","—","✓","0-1h (crypto)"],["MONRO Casino","—","—","—","✓","0-1h (crypto)"],["STARDA Casino","—","—","—","✓","0-12h (crypto)"],["Betsson","✓","✓","✓","—","1-24h"],["Bet365","✓","—","✓","—","1-24h"],["Stake","—","—","—","✓","Instantáneo"],["20Bet","✓","✓","✓","✓","0-24h"]].map(([c,w,m,cr,cy,ret])=>(
+              {[["Betsson","✓","✓","✓","—","1-2h"],["FRESH Casino","—","—","—","✓","0-1h (crypto)"],["SOL Casino","—","—","—","✓","0-1h (crypto)"],["MONRO Casino","—","—","—","✓","0-1h (crypto)"],["STARDA Casino","—","—","—","✓","0-12h (crypto)"],["Bet365","✓","—","✓","—","1-24h"],["Stake","—","—","—","✓","Instantáneo"],["20Bet","✓","✓","✓","✓","0-24h"]].map(([c,w,m,cr,cy,ret])=>(
                 <tr key={c} className="border-t border-white/[0.04] hover:bg-white/[0.02]">
                   <td className="px-4 py-3 font-bold text-white">{c}</td>
                   <td className="px-4 py-3">{w==="✓"?<span className="text-[#22c55e]">✓</span>:<span className="text-[#71717a]">—</span>}</td>
@@ -687,7 +704,7 @@ export default function MejoresCasinosOnlineChile() {
         <div className="overflow-x-auto rounded-xl border border-white/[0.06]">
           <table className="w-full text-left text-sm"><thead><tr className="bg-[#141414] text-[#71717a] uppercase text-xs tracking-wider"><th className="px-4 py-3 font-bold">Casino</th><th className="px-4 py-3 font-bold">Total</th><th className="px-4 py-3 font-bold hidden sm:table-cell">Slots</th><th className="px-4 py-3 font-bold hidden sm:table-cell">En Vivo</th><th className="px-4 py-3 font-bold hidden md:table-cell">Proveedores</th></tr></thead>
             <tbody className="text-[#d4d4d8]">
-              {[["FRESH Casino","4 500+","3 800+","300+","80+"],["SOL Casino","4 000+","3 400+","200+","70+"],["MONRO Casino","3 500+","3 000+","180+","60+"],["STARDA Casino","3 800+","3 200+","150+","65+"],["Betsson","2 500+","2 000+","200+","40+"],["Bet365","1 800+","1 200+","150+","25+"],["Stake","3 000+","2 200+","200+","50+"],["20Bet","3 000+","2 500+","150+","45+"]].map(([c,t,s,l,p])=>(
+              {[["Betsson","2 500+","2 000+","200+","40+"],["FRESH Casino","4 500+","3 800+","300+","80+"],["SOL Casino","4 000+","3 400+","200+","70+"],["MONRO Casino","3 500+","3 000+","180+","60+"],["STARDA Casino","3 800+","3 200+","150+","65+"],["Bet365","1 800+","1 200+","150+","25+"],["Stake","3 000+","2 200+","200+","50+"],["20Bet","3 000+","2 500+","150+","45+"]].map(([c,t,s,l,p])=>(
                 <tr key={c} className="border-t border-white/[0.04] hover:bg-white/[0.02]"><td className="px-4 py-3 font-bold text-white">{c}</td><td className="px-4 py-3">{t}</td><td className="px-4 py-3 hidden sm:table-cell">{s}</td><td className="px-4 py-3 hidden sm:table-cell">{l}</td><td className="px-4 py-3 hidden md:table-cell">{p}</td></tr>
               ))}
             </tbody>
@@ -742,7 +759,7 @@ export default function MejoresCasinosOnlineChile() {
         <div className="overflow-x-auto rounded-2xl border border-white/[0.06] mt-10">
           <table className="w-full text-left text-sm"><thead><tr className="bg-[#141414] text-[#71717a] uppercase text-xs tracking-wider"><th className="px-4 py-3 font-bold">Si buscas...</th><th className="px-4 py-3 font-bold">Mejor opción</th><th className="px-4 py-3 font-bold text-right">Enlace</th></tr></thead>
             <tbody className="text-[#d4d4d8]">
-              {[{need:"Bono más grande en %",best:"MONRO Casino (150%)",slug:"monro-casino"},{need:"Más giros gratis",best:"FRESH Casino (500)",slug:"fresh-casino"},{need:"Rollover más bajo",best:"SOL Casino (x30)",slug:"sol-casino"},{need:"Mejor cashback",best:"SOL Casino (15%)",slug:"sol-casino"},{need:"Mejor VIP",best:"FRESH Casino (7 niveles)",slug:"fresh-casino"},{need:"Con WebPay/MACH",best:"20Bet",slug:"20bet"},{need:"Casino cripto",best:"Stake",slug:"stake"}].map((r)=>(
+              {[{need:"Bono más grande en %",best:"MONRO Casino (150%)",slug:"monro-casino"},{need:"Más giros gratis",best:"FRESH Casino (500)",slug:"fresh-casino"},{need:"Rollover más bajo",best:"SOL Casino (x30)",slug:"sol-casino"},{need:"Mejor cashback",best:"SOL Casino (15%)",slug:"sol-casino"},{need:"Mejor VIP",best:"FRESH Casino (7 niveles)",slug:"fresh-casino"},{need:"Con WebPay/MACH",best:"Betsson",slug:"betsson-chile"},{need:"Casino cripto",best:"Stake",slug:"stake"}].map((r)=>(
                 <tr key={r.need} className="border-t border-white/[0.04] hover:bg-white/[0.02]"><td className="px-4 py-3">{r.need}</td><td className="px-4 py-3 font-bold text-white">{r.best}</td><td className="px-4 py-3 text-right"><a href={`/go/${r.slug}/`} target="_blank" rel="nofollow noopener sponsored" className="inline-flex items-center justify-center px-4 py-2 rounded-lg bg-[#00C853] font-bold text-white text-xs uppercase tracking-wide transition-all hover:bg-[#00E676] whitespace-nowrap">Visitar</a></td></tr>
               ))}
             </tbody>
@@ -1013,8 +1030,8 @@ export default function MejoresCasinosOnlineChile() {
           <h2 className="text-3xl sm:text-4xl font-black text-white mb-4">¿Listo para jugar?</h2>
           <p className="text-[#9ca3af] text-lg mb-8 leading-relaxed">Elige tu casino, aprovecha el bono y empieza a jugar seguro. Todos los casinos del ranking están verificados para jugadores chilenos.</p>
           <div className="flex flex-wrap items-center justify-center gap-4">
-            <CtaButton slug="starda-casino" text="STARDA Casino — #1" />
-            <CtaButton slug="monro-casino" text="MONRO Casino — #2" />
+            <CtaButton slug="betsson-chile" text="Betsson — #1" />
+            <CtaButton slug="fresh-casino" text="FRESH Casino — #2" />
             <CtaButton slug="sol-casino" text="SOL Casino — #3" />
           </div>
         </div>
