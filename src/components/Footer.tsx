@@ -1,6 +1,4 @@
-import Image from "next/image";
 import Link from "next/link";
-import { countries } from "@/data/countries";
 
 export default function Footer() {
   return (
@@ -53,31 +51,33 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Country Links */}
+          {/* Contacto */}
           <div>
             <h3 className="text-xs font-bold text-white uppercase tracking-widest mb-5">
-              Países
+              Contacto
             </h3>
-            <ul className="space-y-3.5">
-              {countries.map((country) => (
-                <li key={country.slug}>
-                  <Link
-                    href={`/${country.slug}/mejores-casinos-online/`}
-                    className="flex items-center gap-2.5 text-sm text-text-muted hover:text-white transition-colors"
-                  >
-                    <div className="relative w-5 h-3.5 rounded-sm overflow-hidden shrink-0">
-                      <Image
-                        src={`https://flagcdn.com/${country.flagCode}.svg`}
-                        alt={`Bandera de ${country.name}`}
-                        fill
-                        className="object-cover"
-                        sizes="20px"
-                      />
-                    </div>
-                    Casinos en {country.name}
-                  </Link>
-                </li>
-              ))}
+            <p className="text-sm text-text-muted mb-5">
+              ¿Tienes preguntas o sugerencias? Contáctanos:
+            </p>
+            <ul className="space-y-4">
+              <li>
+                <a href="mailto:contacto@jugarcasinosonline.net" className="flex items-center gap-3 text-sm text-text-muted hover:text-white transition-colors">
+                  <span className="text-base">&#9993;</span>
+                  contacto@jugarcasinosonline.net
+                </a>
+              </li>
+              <li>
+                <a href="tel:+34644293358" className="flex items-center gap-3 text-sm text-text-muted hover:text-white transition-colors">
+                  <span className="text-base">&#128241;</span>
+                  +34 644 29 33 58
+                </a>
+              </li>
+              <li>
+                <a href="https://jugarcasinosonline.net" className="flex items-center gap-3 text-sm text-text-muted hover:text-white transition-colors">
+                  <span className="text-base">&#127760;</span>
+                  jugarcasinosonline.net
+                </a>
+              </li>
             </ul>
           </div>
         </div>

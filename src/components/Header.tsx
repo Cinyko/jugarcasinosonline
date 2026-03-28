@@ -165,14 +165,11 @@ export default function Header() {
               )}
             </div>
 
-            <Link href="#streamers" className="px-4 py-2 text-sm font-medium text-text-secondary hover:text-white transition-colors rounded-lg hover:bg-white/5">
-              Streamers
-            </Link>
-            <Link href="#comparativas" className="px-4 py-2 text-sm font-medium text-text-secondary hover:text-white transition-colors rounded-lg hover:bg-white/5">
-              Comparativas
-            </Link>
             <Link href="/sobre-nosotros/" className="px-4 py-2 text-sm font-medium text-text-secondary hover:text-white transition-colors rounded-lg hover:bg-white/5">
               Sobre Nosotros
+            </Link>
+            <Link href="/contacto/" className="px-4 py-2 text-sm font-medium text-text-secondary hover:text-white transition-colors rounded-lg hover:bg-white/5">
+              Contacto
             </Link>
           </nav>
 
@@ -328,25 +325,18 @@ export default function Header() {
             )}
 
             <Link
-              href="#streamers"
-              className="block py-3 px-3 text-sm font-medium text-text-secondary hover:text-white hover:bg-white/5 rounded-lg transition-all"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Streamers
-            </Link>
-            <Link
-              href="#comparativas"
-              className="block py-3 px-3 text-sm font-medium text-text-secondary hover:text-white hover:bg-white/5 rounded-lg transition-all"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Comparativas
-            </Link>
-            <Link
               href="/sobre-nosotros/"
               className="block py-3 px-3 text-sm font-medium text-text-secondary hover:text-white hover:bg-white/5 rounded-lg transition-all"
               onClick={() => setIsMenuOpen(false)}
             >
               Sobre Nosotros
+            </Link>
+            <Link
+              href="/contacto/"
+              className="block py-3 px-3 text-sm font-medium text-text-secondary hover:text-white hover:bg-white/5 rounded-lg transition-all"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Contacto
             </Link>
           </div>
         </div>
