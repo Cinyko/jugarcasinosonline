@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 /* ───────── Casino data for this page ───────── */
 
 const mexicoCasinos = [
-  { rank: 1, name: "Betsson", slug: "betsson-latam", bonus: "¡Duplica tu depósito hasta $100!", rating: 9.5, license: "SEGOB", games: "2 500+", highlight: true },
+  { rank: 1, name: "Betsson", slug: "betsson-mexico", bonus: "¡Bono de $15,000 + 200 Giros Gratis!", rating: 9.5, license: "SEGOB", games: "2 500+", highlight: true },
   { rank: 2, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.3, license: "Curaçao", games: "4 500+", highlight: false },
   { rank: 3, name: "SOL Casino", slug: "sol-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.1, license: "Curaçao", games: "4 000+", highlight: false },
   { rank: 4, name: "MONRO Casino", slug: "monro-casino", bonus: "150% en tu primer depósito", rating: 9.0, license: "Curaçao", games: "3 500+", highlight: false },
@@ -32,7 +32,7 @@ const categoryPicks = [
   { title: "El más conocido en México", casino: "Caliente", slug: "caliente", reason: "Si le preguntas a cualquier mexicano por un casino, te va a decir Caliente. Licencia SEGOB, años en el mercado y puntos físicos en todo el país. La marca habla sola." },
   { title: "Mejor bono de bienvenida", casino: "MONRO Casino", slug: "monro-casino", reason: "150% en tu primer depósito. Nadie más en la lista llega a ese porcentaje. Le metes $1,000 y juegas con $2,500. Así de simple." },
   { title: "Mejor para tragamonedas", casino: "STARDA Casino", slug: "starda-casino", reason: "Torneos de slots semanales con premios de $15,000 USD, títulos exclusivos y la sección de juegos crash más completa que probamos (Aviator, Spaceman, JetX)." },
-  { title: "Mejor casino en vivo", casino: "Betsson", slug: "betsson-latam", reason: "200+ mesas con dealers en español de verdad. No es traducción automática, son dealers que hablan como tú y yo. Probamos una mesa de blackjack a las 2am y la experiencia fue premium." },
+  { title: "Mejor casino en vivo", casino: "Betsson", slug: "betsson-mexico", reason: "200+ mesas con dealers en español de verdad. No es traducción automática, son dealers que hablan como tú y yo. Probamos una mesa de blackjack a las 2am y la experiencia fue premium." },
   { title: "Para quienes empiezan", casino: "SOL Casino", slug: "sol-casino", reason: "Se lo pasamos a un cuate que nunca había jugado en línea. En 10 minutos ya estaba apostando sin preguntar nada. La interfaz es clarísima y el rollover x30 no te frustra." },
   { title: "Mejor atención al cliente", casino: "Bet365", slug: "bet365", reason: "Escribimos al chat a las 4am un domingo. Nos respondieron en 90 segundos. En español. Sin bot de por medio. Eso ya dice mucho." },
   { title: "Mejor para pagar con OXXO", casino: "Caliente", slug: "caliente", reason: "Generas tu ficha de pago, vas al OXXO de la esquina y listo. Probamos y el depósito se reflejó en menos de 30 minutos. Para quien no quiere meter tarjeta, es perfecto." },
@@ -271,7 +271,7 @@ export default function MejoresCasinosOnlineMexico() {
               "stake": { src: "/img/logos/stake.png", invert: true },
               "bet365": { src: "/img/logos/bet365.svg" },
               "betsson": { src: "/img/logos/betsson.svg" },
-              "betsson-latam": { src: "/img/logos/betsson.svg" },
+              "betsson-mexico": { src: "/img/logos/betsson.svg" },
               "1xbet": { src: "/img/logos/1xbet.png" },
               "betway": { src: "/img/logos/betway.png", invert: true },
               "caliente": { src: "/img/logos/caliente.png" },
@@ -402,7 +402,7 @@ export default function MejoresCasinosOnlineMexico() {
                           "stake": { src: "/img/logos/stake.png", invert: true },
                           "bet365": { src: "/img/logos/bet365.svg" },
                           "betsson": { src: "/img/logos/betsson.svg" },
-              "betsson-latam": { src: "/img/logos/betsson.svg" },
+              "betsson-mexico": { src: "/img/logos/betsson.svg" },
                           "1xbet": { src: "/img/logos/1xbet.png" },
                           "betway": { src: "/img/logos/betway.png", invert: true },
                           "caliente": { src: "/img/logos/caliente.png" },
@@ -565,7 +565,7 @@ export default function MejoresCasinosOnlineMexico() {
               "No acepta criptomonedas, si eso es lo tuyo ve con STARDA o FRESH",
             ]}
           />
-          <CtaButton slug="betsson-latam" text="Probar Betsson" />
+          <CtaButton slug="betsson-mexico" text="Probar Betsson" />
         </div>
 
         {/* ── FRESH Casino ── */}
@@ -915,8 +915,8 @@ export default function MejoresCasinosOnlineMexico() {
       {/* ═══ MINI CTA ═══ */}
       <div className="bg-gradient-to-r from-[#16a34a]/10 via-[#0e0e0e] to-[#f59e0b]/10 py-10 text-center border-y border-white/[0.04]">
         <p className="text-[#9ca3af] text-sm mb-3">Nuestro #1 para jugadores mexicanos</p>
-        <p className="text-white text-xl font-black mb-4">Betsson — ¡Duplica tu depósito hasta $100!</p>
-        <CtaButton slug="betsson-latam" />
+        <p className="text-white text-xl font-black mb-4">Betsson — ¡Bono de $15,000 + 200 Giros Gratis!</p>
+        <CtaButton slug="betsson-mexico" />
       </div>
 
       {/* ═══ MEJOR SEGÚN PRIORIDAD ═══ */}
@@ -2274,7 +2274,7 @@ export default function MejoresCasinosOnlineMexico() {
             casinos online de nuestro ranking están verificados para jugadores mexicanos.
           </p>
           <div className="flex flex-wrap items-center justify-center gap-4">
-            <CtaButton slug="betsson-latam" text="Betsson — #1" />
+            <CtaButton slug="betsson-mexico" text="Betsson — #1" />
             <CtaButton slug="fresh-casino" text="FRESH Casino — #2" />
             <CtaButton slug="sol-casino" text="SOL Casino — #3" />
           </div>

@@ -10,7 +10,7 @@ export const casinos: Casino[] = [
     license: "Internacional",
     countryData: {
       peru: { bonus: "Gana 300 Giros Gratis", affiliateSlug: "betsson-peru" },
-      mexico: { bonus: "¡Duplica tu depósito hasta $100!", affiliateSlug: "betsson-latam" },
+      mexico: { bonus: "¡Bono de Bienvenida de $15,000 + 200 Giros Gratis!", affiliateSlug: "betsson-mexico" },
       argentina: { bonus: "Hasta $350.000 + 200 Giros Gratis como Bono de Bienvenida", affiliateSlug: "betsson-argentina" },
       chile: { bonus: "Hasta $400.000 + 200 Giros Gratis", affiliateSlug: "betsson-chile" },
       ecuador: { bonus: "¡Duplica tu depósito hasta $100!", affiliateSlug: "betsson-latam" },
@@ -87,10 +87,11 @@ export const casinos: Casino[] = [
   {
     name: "Inkabet",
     slug: "inkabet",
-    bonus: "Hasta S/500 + giros gratis",
-    rating: 8.5,
-    affiliateUrl: "https://inkabet.pe",
+    bonus: "Hasta S/500 + 300 giros gratis",
+    rating: 9.2,
+    affiliateUrl: "https://record.inkabet.pe/_dshqSvtGM5G_Fwtr355KbGNd7ZgqdRLk/1/",
     license: "MINCETUR",
+    countries: ["peru"],
   },
   {
     name: "Doradobet",

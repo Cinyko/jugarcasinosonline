@@ -13,14 +13,14 @@ export const metadata: Metadata = {
 const peruCasinos = [
   { rank: 1, name: "Betsson", slug: "betsson-peru", bonus: "Gana 300 Giros Gratis", rating: 9.5, license: "MINCETUR", games: "2 500+", highlight: true },
   { rank: 2, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.3, license: "Curaçao", games: "4 500+", highlight: false },
-  { rank: 3, name: "SOL Casino", slug: "sol-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.1, license: "Curaçao", games: "4 000+", highlight: false },
-  { rank: 4, name: "MONRO Casino", slug: "monro-casino", bonus: "150% en tu primer depósito", rating: 9.0, license: "Curaçao", games: "3 500+", highlight: false },
+  { rank: 3, name: "Inkabet", slug: "inkabet", bonus: "Hasta S/500 + 300 giros gratis", rating: 9.2, license: "MINCETUR", games: "1 500+", highlight: false },
+  { rank: 4, name: "SOL Casino", slug: "sol-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.1, license: "Curaçao", games: "4 000+", highlight: false },
   { rank: 5, name: "STARDA Casino", slug: "starda-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 8.9, license: "Curaçao", games: "3 800+", highlight: false },
-  { rank: 6, name: "Stake", slug: "stake", bonus: "S/50 freebet + 50 giros gratis o S/50 bono casino", rating: 8.8, license: "MINCETUR", games: "3 000+", highlight: false },
-  { rank: 7, name: "Betano", slug: "betano", bonus: "60 giros gratis sin rollover", rating: 8.7, license: "MINCETUR", games: "2 000+", highlight: false },
-  { rank: 8, name: "Bet365", slug: "bet365", bonus: "100% hasta S/500 + 500 giros gratis", rating: 8.6, license: "MINCETUR", games: "1 800+", highlight: false },
-  { rank: 9, name: "1xBet", slug: "1xbet", bonus: "100% primer depósito hasta 300 EUR", rating: 8.5, license: "MINCETUR", games: "5 000+", highlight: false },
-  { rank: 10, name: "Inkabet", slug: "inkabet", bonus: "Hasta S/500 + giros gratis", rating: 8.4, license: "MINCETUR", games: "1 200+", highlight: false },
+  { rank: 6, name: "MONRO Casino", slug: "monro-casino", bonus: "150% en tu primer depósito", rating: 9.0, license: "Curaçao", games: "3 500+", highlight: false },
+  { rank: 7, name: "Stake", slug: "stake", bonus: "S/50 freebet + 50 giros gratis o S/50 bono casino", rating: 8.8, license: "MINCETUR", games: "3 000+", highlight: false },
+  { rank: 8, name: "Betano", slug: "betano", bonus: "60 giros gratis sin rollover", rating: 8.7, license: "MINCETUR", games: "2 000+", highlight: false },
+  { rank: 9, name: "Bet365", slug: "bet365", bonus: "100% hasta S/500 + 500 giros gratis", rating: 8.6, license: "MINCETUR", games: "1 800+", highlight: false },
+  { rank: 10, name: "1xBet", slug: "1xbet", bonus: "100% primer depósito hasta 300 EUR", rating: 8.5, license: "MINCETUR", games: "5 000+", highlight: false },
   { rank: 11, name: "Doradobet", slug: "doradobet", bonus: "S/50 o 50 giros gratis sin depósito", rating: 8.3, license: "MINCETUR", games: "1 500+", highlight: false },
   { rank: 12, name: "Betcris", slug: "betcris", bonus: "100% primer depósito hasta S/350", rating: 8.2, license: "MINCETUR", games: "1 000+", highlight: false },
   { rank: 13, name: "Meridianbet", slug: "meridianbet", bonus: "Hasta S/500", rating: 8.1, license: "MINCETUR", games: "1 100+", highlight: false },
@@ -657,10 +657,77 @@ export default function MejoresCasinosOnlinePeru() {
           <CtaButton slug="fresh-casino" text="Jugar en FRESH Casino" />
         </div>
 
+        {/* ── Inkabet ── */}
+        <div className="mb-16">
+          <div className="flex flex-wrap items-center gap-4 mb-2">
+            <h3 className="text-2xl sm:text-3xl font-black text-white">3. Inkabet</h3>
+            <span className="text-[#22c55e] font-black text-xl">9.2/10</span>
+          </div>
+          <div className="h-1 w-24 bg-gradient-to-r from-[#dc2626] to-transparent rounded mb-6" />
+
+          <h4 className="text-lg font-bold text-white mb-3">El casino peruano por excelencia</h4>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            Si hay un casino que cualquier jugador peruano conoce, ese es Inkabet. Y no es por casualidad:
+            llevan años en el mercado, tienen <strong className="text-white">licencia MINCETUR</strong> (que
+            en Perú es el sello más importante que existe) y están enfocados 100% en el jugador peruano.
+            Todo está en soles, el soporte es de gente que habla como vos, y los métodos de pago son los
+            que realmente usamos acá.
+          </p>
+
+          <h4 className="text-lg font-bold text-white mb-3">Yape, Plin y transferencia bancaria: todo lo que necesitás</h4>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            Esto es lo que separa a Inkabet de los casinos internacionales: podés depositar y retirar con
+            <strong className="text-white"> Yape y Plin</strong>. Así, desde el celular, en 30 segundos.
+            Probamos depositar con Yape un viernes a las 10pm y el saldo apareció literal al toque. Para
+            retiros la cosa es un poco más lenta (nos llegó en unas 3 horas), pero comparado con los
+            casinos de Curaçao que te hacen esperar días... es otro mundo. También aceptan transferencia
+            bancaria BCP, Interbank, BBVA y Scotiabank.
+          </p>
+
+          <h4 className="text-lg font-bold text-white mb-3">El bono: S/500 + 300 giros gratis</h4>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            El bono de bienvenida te da hasta <strong className="text-white">S/500 + 300 giros gratis</strong>.
+            No es el bono más grande del ranking en términos porcentuales, pero la gracia es que está en
+            soles peruanos — nada de hacer conversiones raras ni depender de la cotización del dólar. Los
+            300 giros se reparten en varios días y van para slots populares. El rollover es razonable para
+            el estándar del mercado.
+          </p>
+
+          <h4 className="text-lg font-bold text-white mb-3">¿Y los juegos? Bien, aunque no es su fuerte</h4>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            Acá hay que ser honestos: Inkabet tiene alrededor de <strong className="text-white">1 500 juegos</strong>,
+            que está bien pero se queda bastante atrás de FRESH (4 500+) o SOL (4 000+). Vas a encontrar
+            las slots más populares de Pragmatic Play y algunos otros proveedores, casino en vivo con
+            Evolution, y la sección de apuestas deportivas que es donde Inkabet realmente brilla. Si lo
+            tuyo son los deportes Y el casino, Inkabet te resuelve todo en una sola plataforma.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-4">
+            El soporte nos pareció sólido. Escribimos al chat un sábado a las 11pm preguntando sobre los
+            requisitos del bono y nos respondieron en menos de 3 minutos, en español peruano, sin bot.
+            Le preguntamos algo rebuscado sobre el rollover en apuestas combinadas y la respuesta fue
+            clara y directa. Se nota que es gente que conoce la plataforma.
+          </p>
+
+          <ProsCons
+            pros={[
+              "Licencia MINCETUR — el respaldo legal más sólido para jugar en Perú",
+              "Yape y Plin para depósitos y retiros, todo en soles peruanos, sin conversiones",
+              "Retiros más rápidos que la mayoría: 1-3 horas con Yape en nuestra experiencia",
+              "Casino + apuestas deportivas en una sola plataforma, ideal si te gusta apostar en la Liga 1",
+            ]}
+            cons={[
+              "Catálogo de 1 500 juegos es limitado comparado con FRESH o SOL",
+              "Faltan algunos proveedores top como Hacksaw Gaming o Nolimit City",
+              "El bono es competitivo pero no el más generoso del ranking en porcentaje",
+            ]}
+          />
+          <CtaButton slug="inkabet" text="Jugar en Inkabet" />
+        </div>
+
         {/* ── SOL Casino ── */}
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-white">3. SOL Casino</h3>
+            <h3 className="text-2xl sm:text-3xl font-black text-white">4. SOL Casino</h3>
             <span className="text-[#22c55e] font-black text-xl">9.1/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#dc2626] to-transparent rounded mb-6" />
@@ -726,7 +793,7 @@ export default function MejoresCasinosOnlinePeru() {
         {/* ── MONRO Casino ── */}
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-white">4. MONRO Casino</h3>
+            <h3 className="text-2xl sm:text-3xl font-black text-white">6. MONRO Casino</h3>
             <span className="text-[#22c55e] font-black text-xl">9.0/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#dc2626] to-transparent rounded mb-6" />
@@ -949,9 +1016,10 @@ export default function MejoresCasinosOnlinePeru() {
               {[
                 ["Betsson", "300 giros gratis", "—", "300", "30 días", "S/20"],
                 ["FRESH Casino", "100% primer dep.", "x35", "500", "14 días", "$20"],
+                ["Inkabet", "Hasta S/500 + giros", "x25", "300", "30 días", "S/20"],
                 ["SOL Casino", "100% primer dep.", "x30", "500", "14 días", "$20"],
-                ["MONRO Casino", "150% primer dep.", "x35", "—", "14 días", "$15"],
                 ["STARDA Casino", "100% primer dep.", "x35", "500", "14 días", "$10"],
+                ["MONRO Casino", "150% primer dep.", "x35", "—", "14 días", "$15"],
                 ["Stake", "Freebet + giros", "x1", "50", "7 días", "S/20"],
                 ["Betano", "Sin depósito", "x0", "60", "7 días", "—"],
                 ["Bet365", "100% hasta S/500", "x30", "500", "30 días", "S/20"],
@@ -986,9 +1054,10 @@ export default function MejoresCasinosOnlinePeru() {
               {[
                 ["Betsson", "✓", "✓", "✓", "—", "1-24h (Yape)"],
                 ["FRESH Casino", "—", "—", "✓", "✓", "0-24h (crypto)"],
+                ["Inkabet", "✓", "✓", "✓", "—", "1-3h (Yape)"],
                 ["SOL Casino", "—", "—", "✓", "✓", "0-24h (crypto)"],
-                ["MONRO Casino", "—", "—", "✓", "✓", "0-24h (crypto)"],
                 ["STARDA Casino", "—", "—", "✓", "✓", "0-12h (crypto)"],
+                ["MONRO Casino", "—", "—", "✓", "✓", "0-24h (crypto)"],
                 ["Stake", "✓", "✓", "✓", "✓", "Instantáneo"],
                 ["Betano", "✓", "✓", "✓", "—", "1-2h (Yape)"],
                 ["Bet365", "✓", "✓", "✓", "—", "1-24h"],
@@ -1022,9 +1091,10 @@ export default function MejoresCasinosOnlinePeru() {
               {[
                 ["Betsson", "2 500+", "2 000+", "200+", "40+"],
                 ["FRESH Casino", "4 500+", "3 800+", "300+", "80+"],
+                ["Inkabet", "1 500+", "1 000+", "80+", "20+"],
                 ["SOL Casino", "4 000+", "3 400+", "200+", "70+"],
-                ["MONRO Casino", "3 500+", "3 000+", "180+", "60+"],
                 ["STARDA Casino", "3 800+", "3 200+", "150+", "65+"],
+                ["MONRO Casino", "3 500+", "3 000+", "180+", "60+"],
                 ["Stake", "3 000+", "2 200+", "200+", "50+"],
                 ["Betano", "2 000+", "1 500+", "100+", "30+"],
                 ["Bet365", "1 800+", "1 200+", "150+", "25+"],

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 
 /* ───────── Casino data ───────── */
 const mexicoCasinos = [
-  { rank: 1, name: "Betsson", slug: "betsson-latam", bonus: "¡Duplica tu depósito hasta $100!", rating: 9.5, bjTables: "30+", liveBj: true, highlight: true, badge: "⭐ Recomendado" },
+  { rank: 1, name: "Betsson", slug: "betsson-mexico", bonus: "$15,000 + 200 Giros Gratis", rating: 9.5, bjTables: "30+", liveBj: true, highlight: true, badge: "⭐ Recomendado" },
   { rank: 2, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% + 500 giros gratis", rating: 9.3, bjTables: "45+", liveBj: true, highlight: false },
   { rank: 3, name: "SOL Casino", slug: "sol-casino", bonus: "100% + 500 giros gratis", rating: 9.1, bjTables: "35+", liveBj: true, highlight: false },
   { rank: 4, name: "MONRO Casino", slug: "monro-casino", bonus: "150% primer depósito", rating: 9.0, bjTables: "25+", liveBj: true, highlight: false },
@@ -311,7 +311,7 @@ export default function BlackjackOnlineMexico() {
         </p>
 
         <div className="flex justify-center">
-          <CtaButton slug="betsson-latam" text="Probar Blackjack en Betsson" />
+          <CtaButton slug="betsson-mexico" text="Probar Blackjack en Betsson" />
         </div>
       </Section>
 
@@ -602,7 +602,7 @@ export default function BlackjackOnlineMexico() {
             pros={["Más de 30 mesas con variantes completas de Evolution", "Dealers en español las 24 horas", "SPEI para depósitos y retiros rápidos", "Bono que duplica tu primer depósito", "Todas las mesas pagan 3:2"]}
             cons={["Bono orientado a slots, no específico para mesas", "Límites mínimos más altos que FRESH en mesas estándar", "No tiene Free Bet Blackjack"]}
           />
-          <CtaButton slug="betsson-latam" text="Jugar Blackjack en Betsson" />
+          <CtaButton slug="betsson-mexico" text="Jugar Blackjack en Betsson" />
         </div>
 
         {/* FRESH Casino */}
@@ -858,7 +858,7 @@ export default function BlackjackOnlineMexico() {
         </div>
 
         <div className="flex justify-center">
-          <CtaButton slug="betsson-latam" text="Jugar con Bankroll Controlado" />
+          <CtaButton slug="betsson-mexico" text="Jugar con Bankroll Controlado" />
         </div>
       </Section>
 
@@ -930,7 +930,7 @@ export default function BlackjackOnlineMexico() {
         </div>
 
         <div className="flex flex-wrap justify-center gap-4">
-          <CtaButton slug="betsson-latam" text="Jugar Blackjack en Betsson" />
+          <CtaButton slug="betsson-mexico" text="Jugar Blackjack en Betsson" />
           <CtaButton slug="fresh-casino" text="Probar FRESH Casino" />
           <CtaButton slug="sol-casino" text="Probar SOL Casino" />
         </div>

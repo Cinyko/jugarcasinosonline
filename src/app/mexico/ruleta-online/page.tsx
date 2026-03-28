@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 /* ───────── Casino data for this page ───────── */
 
 const mexicoCasinos = [
-  { rank: 1, name: "Betsson", slug: "betsson-latam", bonus: "¡Duplica tu depósito hasta $100!", rating: 9.5, rouletteTables: "45+", liveRoulette: true, highlight: true, badge: "⭐ Recomendado" },
+  { rank: 1, name: "Betsson", slug: "betsson-mexico", bonus: "$15,000 + 200 Giros Gratis", rating: 9.5, rouletteTables: "45+", liveRoulette: true, highlight: true, badge: "⭐ Recomendado" },
   { rank: 2, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% + 500 giros gratis", rating: 9.3, rouletteTables: "60+", liveRoulette: true, highlight: false },
   { rank: 3, name: "SOL Casino", slug: "sol-casino", bonus: "100% + 500 giros gratis", rating: 9.1, rouletteTables: "50+", liveRoulette: true, highlight: false },
   { rank: 4, name: "MONRO Casino", slug: "monro-casino", bonus: "150% primer depósito", rating: 9.0, rouletteTables: "40+", liveRoulette: true, highlight: false },
@@ -261,7 +261,7 @@ export default function RuletaOnlineMexico() {
                 "sol-casino": { src: "/img/logos/sol.svg" },
                 "fresh-casino": { src: "/img/logos/fresh.png" },
                 "bet365": { src: "/img/logos/bet365.svg" },
-                "betsson-latam": { src: "/img/logos/betsson.svg" },
+                "betsson-mexico": { src: "/img/logos/betsson.svg" },
                 "caliente": { src: "/img/logos/caliente.png" },
                 "codere": { src: "/img/logos/codere.svg", invert: true },
               };
@@ -359,7 +359,7 @@ export default function RuletaOnlineMexico() {
                     "sol-casino": { src: "/img/logos/sol.svg" },
                     "fresh-casino": { src: "/img/logos/fresh.png" },
                     "bet365": { src: "/img/logos/bet365.svg" },
-                    "betsson-latam": { src: "/img/logos/betsson.svg" },
+                    "betsson-mexico": { src: "/img/logos/betsson.svg" },
                     "caliente": { src: "/img/logos/caliente.png" },
                     "codere": { src: "/img/logos/codere.svg", invert: true },
                   };
@@ -689,7 +689,7 @@ export default function RuletaOnlineMexico() {
               "No tiene ruleta mexicana temática (solo europea y francesa)",
             ]}
           />
-          <CtaButton slug="betsson-latam" text="Jugar Ruleta en Betsson" />
+          <CtaButton slug="betsson-mexico" text="Jugar Ruleta en Betsson" />
         </div>
 
         {/* ── 2. FRESH Casino ── */}
@@ -1211,7 +1211,7 @@ export default function RuletaOnlineMexico() {
             Ya tienes toda la información. Ahora es cuestión de elegir tu casino, definir tu bankroll y sentarte en la mesa. Recuerda: juega con cabeza, no con el corazón.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <CtaButton slug="betsson-latam" text="Jugar en Betsson →" />
+            <CtaButton slug="betsson-mexico" text="Jugar en Betsson →" />
             <CtaButton slug="fresh-casino" text="Probar FRESH Casino" />
           </div>
           <p className="text-[9px] text-[#71717a] mt-4">+18 | Juega con responsabilidad | Los juegos de azar pueden generar adicción</p>

@@ -5,6 +5,7 @@ const countryRedirects: Record<string, string> = {
   "betsson-argentina": "https://record.caba.betsson.bet.ar/_dshqSvtGM5HfeH1R4yNo9GNd7ZgqdRLk/1",
   "betsson-chile": "https://record.betsn.info/_dshqSvtGM5FPtUZe0a-NX2Nd7ZgqdRLk/1/",
   "betsson-peru": "https://record.betsson.com/_dshqSvtGM5FWJv-piTzMMWNd7ZgqdRLk/1/",
+  "betsson-mexico": "https://record.betsson.mx/_dshqSvtGM5GabgPYu4W6NWNd7ZgqdRLk/1/",
   "betsson-latam": "https://record.betsson.com/_dshqSvtGM5HPjmj8zYpJR2Nd7ZgqdRLk/1/",
 };
 
