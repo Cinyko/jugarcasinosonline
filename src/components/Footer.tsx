@@ -45,6 +45,11 @@ export default function Footer() {
                   Contacto
                 </Link>
               </li>
+              <li>
+                <Link href="/sobre-nosotros/" className="text-sm text-text-muted hover:text-white transition-colors">
+                  Sobre Nosotros
+                </Link>
+              </li>
             </ul>
           </div>
 
