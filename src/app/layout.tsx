@@ -16,6 +16,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.jugarcasinosonline.net"),
+  alternates: {
+    canonical: "./",
+  },
   title: "JugarCasinosOnline.net | Mejores Casinos Online en Latinoamérica 2026",
   description:
     "Guía completa de casinos online en Latinoamérica. Reseñas, bonos sin depósito, ruleta, blackjack, slots y más para México, Perú, Argentina, Chile y Ecuador.",
