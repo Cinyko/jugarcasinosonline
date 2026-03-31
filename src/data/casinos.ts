@@ -79,7 +79,7 @@ export const casinos: Casino[] = [
   {
     name: "1xBet",
     slug: "1xbet",
-    bonus: "100% primer depósito hasta 300 EUR",
+    bonus: "100% primer depósito hasta $300",
     rating: 8.6,
     affiliateUrl: "https://1xbet.com",
     license: "MINCETUR",
@@ -156,6 +156,9 @@ export const casinos: Casino[] = [
     rating: 8.3,
     affiliateUrl: "https://betway.com",
     license: "Internacional",
+    countryData: {
+      mexico: { bonus: "100% hasta $4,000 MXN + 50 Free Spins", affiliateSlug: "betway-mexico" },
+    },
   },
   {
     name: "Luckia",
@@ -184,7 +187,7 @@ export const casinos: Casino[] = [
   {
     name: "20Bet",
     slug: "20bet",
-    bonus: "100% hasta $120 USD + 120 giros",
+    bonus: "100% hasta $120 + 120 giros",
     rating: 8.4,
     affiliateUrl: "https://20bet.com",
     license: "Curaçao",
@@ -192,7 +195,7 @@ export const casinos: Casino[] = [
   {
     name: "Dafabet",
     slug: "dafabet",
-    bonus: "100% hasta $200 USD",
+    bonus: "100% hasta $200",
     rating: 8.3,
     affiliateUrl: "https://dafabet.com",
     license: "Curaçao",
@@ -220,6 +223,28 @@ export const casinos: Casino[] = [
     rating: 8.3,
     affiliateUrl: "https://1win.com",
     license: "Curaçao",
+  },
+  {
+    name: "JackpotCity",
+    slug: "jackpotcity",
+    bonus: "Hasta $1.008.000 CLP + 200 Giros Gratis",
+    rating: 9.2,
+    affiliateUrl: "https://www.jackpotcitycasino.com/chile/?s=sp51956",
+    license: "Internacional",
+    countries: ["chile"],
+  },
+  {
+    name: "Gaming Club",
+    slug: "gamingclub",
+    bonus: "100% hasta $200 + 150% hasta $150",
+    rating: 8.5,
+    affiliateUrl: "https://www.gamingclub.com/cl/?s=sp51956",
+    license: "Internacional",
+    countryData: {
+      chile: { bonus: "100% hasta $200 + 150% hasta $150", affiliateSlug: "gamingclub-chile" },
+      bolivia: { bonus: "100% hasta Bs 2.500 + 150% hasta Bs 1.875", affiliateSlug: "gamingclub-bolivia" },
+    },
+    countries: ["chile", "bolivia"],
   },
 ];
 

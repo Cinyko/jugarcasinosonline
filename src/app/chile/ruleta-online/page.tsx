@@ -11,14 +11,16 @@ export const metadata: Metadata = {
 /* ───────── Data ───────── */
 
 const chileCasinos = [
-  { rank: 1, name: "Betsson", slug: "betsson-chile", bonus: "Hasta $400.000 + 200 Giros Gratis", rating: 9.5, rouletteTables: "45+", liveRoulette: true, highlight: true, badge: "\u2B50 Recomendado" },
+  { rank: 1, name: "Betsson", slug: "betsson-chile", bonus: "Hasta $400.000 + 200 Giros Gratis", rating: 9.5, rouletteTables: "45+", liveRoulette: true, highlight: true, badge: "⭐ Recomendado" },
   { rank: 2, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% + 500 giros gratis", rating: 9.3, rouletteTables: "60+", liveRoulette: true, highlight: false, badge: "" },
-  { rank: 3, name: "SOL Casino", slug: "sol-casino", bonus: "100% + 500 giros gratis", rating: 9.1, rouletteTables: "50+", liveRoulette: true, highlight: false, badge: "" },
-  { rank: 4, name: "MONRO Casino", slug: "monro-casino", bonus: "150% primer deposito", rating: 9.0, rouletteTables: "40+", liveRoulette: true, highlight: false, badge: "" },
-  { rank: 5, name: "STARDA Casino", slug: "starda-casino", bonus: "100% + 500 giros gratis", rating: 8.9, rouletteTables: "35+", liveRoulette: true, highlight: false, badge: "\uD83D\uDD25 TOP" },
-  { rank: 6, name: "Bet365", slug: "bet365", bonus: "100% bono bienvenida", rating: 8.8, rouletteTables: "20+", liveRoulette: true, highlight: false, badge: "" },
-  { rank: 7, name: "Stake", slug: "stake", bonus: "Bono primer deposito", rating: 8.7, rouletteTables: "30+", liveRoulette: true, highlight: false, badge: "" },
-  { rank: 8, name: "1xBet", slug: "1xbet", bonus: "100% hasta 300 EUR", rating: 8.6, rouletteTables: "25+", liveRoulette: true, highlight: false, badge: "" },
+  { rank: 3, name: "JackpotCity", slug: "jackpotcity-chile", bonus: "$1.008.000 CLP + 200 Giros", rating: 9.2, rouletteTables: "25+", liveRoulette: true, highlight: false, badge: "" },
+  { rank: 4, name: "SOL Casino", slug: "sol-casino", bonus: "100% + 500 giros gratis", rating: 9.1, rouletteTables: "50+", liveRoulette: true, highlight: false, badge: "" },
+  { rank: 5, name: "STARDA Casino", slug: "starda-casino", bonus: "100% + 500 giros gratis", rating: 8.9, rouletteTables: "35+", liveRoulette: true, highlight: false, badge: "🔥 TOP" },
+  { rank: 6, name: "MONRO Casino", slug: "monro-casino", bonus: "150% primer deposito", rating: 9.0, rouletteTables: "40+", liveRoulette: true, highlight: false, badge: "" },
+  { rank: 7, name: "Gaming Club", slug: "gamingclub-chile", bonus: "100% + 150% en 2 depósitos", rating: 8.5, rouletteTables: "15+", liveRoulette: true, highlight: false, badge: "" },
+  { rank: 8, name: "Bet365", slug: "bet365", bonus: "100% bono bienvenida", rating: 8.8, rouletteTables: "20+", liveRoulette: true, highlight: false, badge: "" },
+  { rank: 9, name: "Stake", slug: "stake", bonus: "Bono primer deposito", rating: 8.7, rouletteTables: "30+", liveRoulette: true, highlight: false, badge: "" },
+  { rank: 10, name: "1xBet", slug: "1xbet", bonus: "100% hasta $300", rating: 8.6, rouletteTables: "25+", liveRoulette: true, highlight: false, badge: "" },
 ];
 
 const faqItems = [
@@ -565,7 +567,7 @@ export default function RuletaOnlineChile() {
           </div>
           <div className="rounded-xl bg-[#141414] border border-white/[0.06] p-5">
             <h4 className="text-white font-bold mb-2">1xBet</h4>
-            <p className="text-[#9ca3af] text-sm leading-relaxed mb-3">1xBet acepta todo: crypto, Skrill, tarjeta, transferencia, hasta Sencillito para pagar en efectivo en el almacen de la esquina. 25+ mesas de ruleta, la mayoria de Ezugi y Evolution. El bono de 100% hasta 300 EUR es razonable. El punto debil: la interfaz es un caos. Hay tanta informacion en pantalla que encontrar la seccion de ruleta en vivo puede tomarte un par de minutos. Pero una vez que la encuentras, funciona bien.</p>
+            <p className="text-[#9ca3af] text-sm leading-relaxed mb-3">1xBet acepta todo: crypto, Skrill, tarjeta, transferencia, hasta Sencillito para pagar en efectivo en el almacen de la esquina. 25+ mesas de ruleta, la mayoria de Ezugi y Evolution. El bono de 100% hasta $300 es razonable. El punto debil: la interfaz es un caos. Hay tanta informacion en pantalla que encontrar la seccion de ruleta en vivo puede tomarte un par de minutos. Pero una vez que la encuentras, funciona bien.</p>
             <CtaButton slug="1xbet" text="Ir a 1xBet" />
           </div>
         </div>

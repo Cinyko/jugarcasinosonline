@@ -7,6 +7,10 @@ const countryRedirects: Record<string, string> = {
   "betsson-peru": "https://record.betsson.com/_dshqSvtGM5FWJv-piTzMMWNd7ZgqdRLk/1/",
   "betsson-mexico": "https://record.betsson.mx/_dshqSvtGM5GabgPYu4W6NWNd7ZgqdRLk/1/",
   "betsson-latam": "https://record.betsson.com/_dshqSvtGM5HPjmj8zYpJR2Nd7ZgqdRLk/1/",
+  "betway-mexico": "https://betway.mx/bwp/casino-welcome-50/es-mx/?s=sp51956",
+  "jackpotcity-chile": "https://www.jackpotcitycasino.com/chile/?s=sp51956",
+  "gamingclub-chile": "https://www.gamingclub.com/cl/?s=sp51956",
+  "gamingclub-bolivia": "https://www.gamingclub.com/bo/?s=sp51956",
 };
 
 export async function GET(

@@ -20,7 +20,7 @@ const peruCasinos = [
   { rank: 7, name: "Stake", slug: "stake", bonus: "S/50 freebet + 50 giros gratis o S/50 bono casino", rating: 8.8, license: "MINCETUR", games: "3 000+", highlight: false },
   { rank: 8, name: "Betano", slug: "betano", bonus: "60 giros gratis sin rollover", rating: 8.7, license: "MINCETUR", games: "2 000+", highlight: false },
   { rank: 9, name: "Bet365", slug: "bet365", bonus: "100% hasta S/500 + 500 giros gratis", rating: 8.6, license: "MINCETUR", games: "1 800+", highlight: false },
-  { rank: 10, name: "1xBet", slug: "1xbet", bonus: "100% primer depósito hasta 300 EUR", rating: 8.5, license: "MINCETUR", games: "5 000+", highlight: false },
+  { rank: 10, name: "1xBet", slug: "1xbet", bonus: "100% primer depósito hasta $300", rating: 8.5, license: "MINCETUR", games: "5 000+", highlight: false },
   { rank: 11, name: "Doradobet", slug: "doradobet", bonus: "S/50 o 50 giros gratis sin depósito", rating: 8.3, license: "MINCETUR", games: "1 500+", highlight: false },
   { rank: 12, name: "Betcris", slug: "betcris", bonus: "100% primer depósito hasta S/350", rating: 8.2, license: "MINCETUR", games: "1 000+", highlight: false },
   { rank: 13, name: "Meridianbet", slug: "meridianbet", bonus: "Hasta S/500", rating: 8.1, license: "MINCETUR", games: "1 100+", highlight: false },

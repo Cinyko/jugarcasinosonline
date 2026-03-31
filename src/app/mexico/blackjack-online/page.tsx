@@ -12,12 +12,13 @@ export const metadata: Metadata = {
 const mexicoCasinos = [
   { rank: 1, name: "Betsson", slug: "betsson-mexico", bonus: "$15,000 + 200 Giros Gratis", rating: 9.5, bjTables: "30+", liveBj: true, highlight: true, badge: "⭐ Recomendado" },
   { rank: 2, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% + 500 giros gratis", rating: 9.3, bjTables: "45+", liveBj: true, highlight: false },
-  { rank: 3, name: "SOL Casino", slug: "sol-casino", bonus: "100% + 500 giros gratis", rating: 9.1, bjTables: "35+", liveBj: true, highlight: false },
-  { rank: 4, name: "MONRO Casino", slug: "monro-casino", bonus: "150% primer depósito", rating: 9.0, bjTables: "25+", liveBj: true, highlight: false },
+  { rank: 3, name: "Betway", slug: "betway-mexico", bonus: "$4,000 MXN + 50 Free Spins", rating: 9.2, bjTables: "20+", liveBj: true, highlight: false },
+  { rank: 4, name: "SOL Casino", slug: "sol-casino", bonus: "100% + 500 giros gratis", rating: 9.1, bjTables: "35+", liveBj: true, highlight: false },
   { rank: 5, name: "STARDA Casino", slug: "starda-casino", bonus: "100% + 500 giros gratis", rating: 8.9, bjTables: "20+", liveBj: true, highlight: false, badge: "🔥 TOP" },
-  { rank: 6, name: "Caliente", slug: "caliente", bonus: "Bono + giros gratis", rating: 8.8, bjTables: "18+", liveBj: true, highlight: false },
-  { rank: 7, name: "Codere", slug: "codere", bonus: "100% hasta $3,000 MXN", rating: 8.7, bjTables: "15+", liveBj: true, highlight: false },
-  { rank: 8, name: "Strendus", slug: "strendus", bonus: "100% hasta $5,000 MXN", rating: 8.5, bjTables: "12+", liveBj: true, highlight: false },
+  { rank: 6, name: "MONRO Casino", slug: "monro-casino", bonus: "150% primer depósito", rating: 9.0, bjTables: "25+", liveBj: true, highlight: false },
+  { rank: 7, name: "Caliente", slug: "caliente", bonus: "Bono + giros gratis", rating: 8.8, bjTables: "18+", liveBj: true, highlight: false },
+  { rank: 8, name: "Codere", slug: "codere", bonus: "100% hasta $3,000 MXN", rating: 8.7, bjTables: "15+", liveBj: true, highlight: false },
+  { rank: 9, name: "Strendus", slug: "strendus", bonus: "100% hasta $5,000 MXN", rating: 8.5, bjTables: "12+", liveBj: true, highlight: false },
 ];
 
 const faqItems = [

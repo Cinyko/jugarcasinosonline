@@ -19,7 +19,7 @@ const argCasinos = [
   { rank: 6, name: "Stake", slug: "stake", bonus: "Bono primer depósito + giros gratis", rating: 8.8, license: "Internacional", games: "3 000+", highlight: false },
   { rank: 7, name: "Bet365", slug: "bet365", bonus: "100% hasta ARS", rating: 8.7, license: "LOTBA", games: "1 800+", highlight: false },
   { rank: 8, name: "Codere", slug: "codere", bonus: "Bono de bienvenida + giros", rating: 8.6, license: "LOTBA", games: "1 500+", highlight: false },
-  { rank: 9, name: "1xBet", slug: "1xbet", bonus: "100% primer depósito hasta 300 EUR", rating: 8.5, license: "Internacional", games: "5 000+", highlight: false },
+  { rank: 9, name: "1xBet", slug: "1xbet", bonus: "100% primer depósito hasta $300", rating: 8.5, license: "Internacional", games: "5 000+", highlight: false },
   { rank: 10, name: "Betway", slug: "betway", bonus: "100% bono de bienvenida", rating: 8.4, license: "Internacional", games: "1 500+", highlight: false },
   { rank: 11, name: "Betano", slug: "betano", bonus: "Giros gratis sin depósito", rating: 8.3, license: "LOTBA", games: "2 000+", highlight: false },
   { rank: 12, name: "Bplay", slug: "bplay", bonus: "100% primer depósito + giros gratis", rating: 8.2, license: "Provincial", games: "800+", highlight: false },
