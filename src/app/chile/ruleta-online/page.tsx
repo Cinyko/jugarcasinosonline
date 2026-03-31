@@ -12,10 +12,10 @@ export const metadata: Metadata = {
 
 const chileCasinos = [
   { rank: 1, name: "Betsson", slug: "betsson-chile", bonus: "Hasta $400.000 + 200 Giros Gratis", rating: 9.5, rouletteTables: "45+", liveRoulette: true, highlight: true, badge: "⭐ Recomendado" },
-  { rank: 2, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% + 500 giros gratis", rating: 9.3, rouletteTables: "60+", liveRoulette: true, highlight: false, badge: "" },
+  { rank: 2, name: "STARDA Casino", slug: "starda-casino", bonus: "100% + 500 giros gratis", rating: 9.3, rouletteTables: "35+", liveRoulette: true, highlight: false, badge: "🔥 TOP" },
   { rank: 3, name: "JackpotCity", slug: "jackpotcity-chile", bonus: "$1.008.000 CLP + 200 Giros", rating: 9.2, rouletteTables: "25+", liveRoulette: true, highlight: false, badge: "" },
   { rank: 4, name: "SOL Casino", slug: "sol-casino", bonus: "100% + 500 giros gratis", rating: 9.1, rouletteTables: "50+", liveRoulette: true, highlight: false, badge: "" },
-  { rank: 5, name: "STARDA Casino", slug: "starda-casino", bonus: "100% + 500 giros gratis", rating: 8.9, rouletteTables: "35+", liveRoulette: true, highlight: false, badge: "🔥 TOP" },
+  { rank: 5, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% + 500 giros gratis", rating: 8.9, rouletteTables: "60+", liveRoulette: true, highlight: false, badge: "" },
   { rank: 6, name: "MONRO Casino", slug: "monro-casino", bonus: "150% primer deposito", rating: 9.0, rouletteTables: "40+", liveRoulette: true, highlight: false, badge: "" },
   { rank: 7, name: "Gaming Club", slug: "gamingclub-chile", bonus: "100% + 150% en 2 depósitos", rating: 8.5, rouletteTables: "15+", liveRoulette: true, highlight: false, badge: "" },
   { rank: 8, name: "Bet365", slug: "bet365", bonus: "100% bono bienvenida", rating: 8.8, rouletteTables: "20+", liveRoulette: true, highlight: false, badge: "" },

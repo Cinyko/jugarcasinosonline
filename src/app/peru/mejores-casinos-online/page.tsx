@@ -12,10 +12,10 @@ export const metadata: Metadata = {
 
 const peruCasinos = [
   { rank: 1, name: "Betsson", slug: "betsson-peru", bonus: "Gana 300 Giros Gratis", rating: 9.5, license: "MINCETUR", games: "2 500+", highlight: true },
-  { rank: 2, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.3, license: "Curaçao", games: "4 500+", highlight: false },
+  { rank: 2, name: "STARDA Casino", slug: "starda-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.3, license: "Curaçao", games: "3 800+", highlight: false },
   { rank: 3, name: "Inkabet", slug: "inkabet", bonus: "Hasta S/500 + 300 giros gratis", rating: 9.2, license: "MINCETUR", games: "1 500+", highlight: false },
   { rank: 4, name: "SOL Casino", slug: "sol-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.1, license: "Curaçao", games: "4 000+", highlight: false },
-  { rank: 5, name: "STARDA Casino", slug: "starda-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 8.9, license: "Curaçao", games: "3 800+", highlight: false },
+  { rank: 5, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 8.9, license: "Curaçao", games: "4 500+", highlight: false },
   { rank: 6, name: "MONRO Casino", slug: "monro-casino", bonus: "150% en tu primer depósito", rating: 9.0, license: "Curaçao", games: "3 500+", highlight: false },
   { rank: 7, name: "Stake", slug: "stake", bonus: "S/50 freebet + 50 giros gratis o S/50 bono casino", rating: 8.8, license: "MINCETUR", games: "3 000+", highlight: false },
   { rank: 8, name: "Betano", slug: "betano", bonus: "60 giros gratis sin rollover", rating: 8.7, license: "MINCETUR", games: "2 000+", highlight: false },

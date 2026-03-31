@@ -11,10 +11,10 @@ export const metadata: Metadata = {
 /* ───────── Casino data ───────── */
 const peruCasinos = [
   { rank: 1, name: "Betsson", slug: "betsson-peru", bonus: "Gana 300 Giros Gratis", rating: 9.5, bjTables: "30+", liveBj: true, highlight: true, badge: "⭐ Recomendado" },
-  { rank: 2, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% + 500 giros gratis", rating: 9.3, bjTables: "45+", liveBj: true, highlight: false },
+  { rank: 2, name: "STARDA Casino", slug: "starda-casino", bonus: "100% + 500 giros gratis", rating: 9.3, bjTables: "20+", liveBj: true, highlight: false, badge: "🔥 TOP" },
   { rank: 3, name: "Inkabet", slug: "inkabet", bonus: "Hasta S/500 + 300 giros gratis", rating: 9.2, bjTables: "15+", liveBj: true, highlight: false },
   { rank: 4, name: "SOL Casino", slug: "sol-casino", bonus: "100% + 500 giros gratis", rating: 9.1, bjTables: "35+", liveBj: true, highlight: false },
-  { rank: 5, name: "STARDA Casino", slug: "starda-casino", bonus: "100% + 500 giros gratis", rating: 8.9, bjTables: "20+", liveBj: true, highlight: false, badge: "🔥 TOP" },
+  { rank: 5, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% + 500 giros gratis", rating: 8.9, bjTables: "45+", liveBj: true, highlight: false },
   { rank: 6, name: "MONRO Casino", slug: "monro-casino", bonus: "150% primer depósito", rating: 9.0, bjTables: "25+", liveBj: true, highlight: false },
   { rank: 7, name: "Stake", slug: "stake", bonus: "S/50 freebet", rating: 8.8, bjTables: "15+", liveBj: true, highlight: false },
   { rank: 8, name: "Betano", slug: "betano", bonus: "60 giros gratis", rating: 8.7, bjTables: "12+", liveBj: true, highlight: false },

@@ -12,10 +12,10 @@ export const metadata: Metadata = {
 
 const argCasinos = [
   { rank: 1, name: "Betsson", slug: "betsson-argentina", bonus: "Hasta $350.000 + 200 Giros Gratis", rating: 9.5, rouletteTables: "45+", liveRoulette: true, highlight: true, badge: "⭐ Recomendado" },
-  { rank: 2, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% + 500 giros gratis", rating: 9.3, rouletteTables: "60+", liveRoulette: true, highlight: false },
+  { rank: 2, name: "STARDA Casino", slug: "starda-casino", bonus: "100% + 500 giros gratis", rating: 9.3, rouletteTables: "35+", liveRoulette: true, highlight: false, badge: "🔥 TOP" },
   { rank: 3, name: "SOL Casino", slug: "sol-casino", bonus: "100% + 500 giros gratis", rating: 9.1, rouletteTables: "50+", liveRoulette: true, highlight: false },
   { rank: 4, name: "MONRO Casino", slug: "monro-casino", bonus: "150% primer depósito", rating: 9.0, rouletteTables: "40+", liveRoulette: true, highlight: false },
-  { rank: 5, name: "STARDA Casino", slug: "starda-casino", bonus: "100% + 500 giros gratis", rating: 8.9, rouletteTables: "35+", liveRoulette: true, highlight: false, badge: "🔥 TOP" },
+  { rank: 5, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% + 500 giros gratis", rating: 8.9, rouletteTables: "60+", liveRoulette: true, highlight: false },
   { rank: 6, name: "Stake", slug: "stake", bonus: "Bono primer depósito", rating: 8.8, rouletteTables: "30+", liveRoulette: true, highlight: false },
   { rank: 7, name: "Bet365", slug: "bet365", bonus: "100% hasta ARS", rating: 8.7, rouletteTables: "20+", liveRoulette: true, highlight: false },
   { rank: 8, name: "Codere", slug: "codere", bonus: "Bono bienvenida + giros", rating: 8.6, rouletteTables: "15+", liveRoulette: true, highlight: false },

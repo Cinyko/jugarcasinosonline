@@ -12,10 +12,10 @@ export const metadata: Metadata = {
 
 const ecuadorCasinos = [
   { rank: 1, name: "Betsson", slug: "betsson-latam", bonus: "¡Duplica tu depósito hasta $100!", rating: 9.5, license: "Internacional", games: "2 500+", highlight: true },
-  { rank: 2, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.3, license: "Curaçao", games: "4 500+", highlight: false },
+  { rank: 2, name: "STARDA Casino", slug: "starda-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.3, license: "Curaçao", games: "3 800+", highlight: false },
   { rank: 3, name: "SOL Casino", slug: "sol-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.1, license: "Curaçao", games: "4 000+", highlight: false },
   { rank: 4, name: "MONRO Casino", slug: "monro-casino", bonus: "150% en tu primer depósito", rating: 9.0, license: "Curaçao", games: "3 500+", highlight: false },
-  { rank: 5, name: "STARDA Casino", slug: "starda-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 8.9, license: "Curaçao", games: "3 800+", highlight: false },
+  { rank: 5, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 8.9, license: "Curaçao", games: "4 500+", highlight: false },
   { rank: 6, name: "Bet365", slug: "bet365", bonus: "100% bono de bienvenida", rating: 8.8, license: "Internacional", games: "1 800+", highlight: false },
   { rank: 7, name: "1xBet", slug: "1xbet", bonus: "100% primer depósito hasta $300", rating: 8.7, license: "Internacional", games: "5 000+", highlight: false },
   { rank: 8, name: "Stake", slug: "stake", bonus: "Bono primer depósito + giros", rating: 8.6, license: "Internacional", games: "3 000+", highlight: false },
