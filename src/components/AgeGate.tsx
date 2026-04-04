@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Link from "next/link";
 
 const COOKIE_NAME = "age_verified";
 const COOKIE_DAYS = 30;
@@ -27,56 +28,38 @@ export default function AgeGate() {
 
   if (!show) return null;
 
-  const handleConfirm = () => {
+  const handleAccept = () => {
     setCookie(COOKIE_NAME, "true", COOKIE_DAYS);
     setShow(false);
   };
 
-  const handleReject = () => {
-    window.location.href = "https://www.google.com";
-  };
-
   return (
-    <div className="fixed inset-0 z-[9999] flex items-center justify-center bg-black/80 backdrop-blur-sm px-4">
-      <div
-        className="relative w-full max-w-md rounded-2xl overflow-hidden"
-        style={{ boxShadow: "0 0 0 1px rgba(255,255,255,0.08), 0 25px 80px rgba(0,0,0,0.7)" }}
-      >
-        <div className="bg-gradient-to-b from-[#1a1a1a] to-[#111111] p-8 sm:p-10 text-center">
-          {/* Logo */}
-          <div className="mb-6">
-            <span className="inline-flex items-center gap-0.5 font-extrabold text-xl">
-              <span className="text-white">JugarCasinos</span>
-              <span className="text-white">Online</span>
-              <span className="text-[#dc2626]">.net</span>
-            </span>
-          </div>
-
-          {/* +18 icon */}
-          <div className="mx-auto mb-6 w-20 h-20 rounded-2xl bg-[#dc2626]/10 border-2 border-[#dc2626]/30 flex items-center justify-center">
-            <span className="text-[#dc2626] font-black text-3xl">+18</span>
-          </div>
-
-          {/* Text */}
-          <p className="text-[#d4d4d8] text-base leading-relaxed mb-8">
-            Este sitio contiene información sobre casinos online y está dirigido exclusivamente a mayores de 18 años.
+    <div className="fixed bottom-0 left-0 right-0 z-[9999] border-t border-white/10 bg-[#111111]/95 backdrop-blur-md shadow-[0_-4px_30px_rgba(0,0,0,0.5)]">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-4 flex flex-col sm:flex-row items-start sm:items-center gap-4">
+        <div className="flex items-start sm:items-center gap-3 flex-1 min-w-0">
+          <span className="inline-flex items-center justify-center w-10 h-10 rounded-lg bg-[#dc2626]/10 border border-[#dc2626]/25 text-[#dc2626] font-black text-sm shrink-0">
+            +18
+          </span>
+          <p className="text-sm text-[#9ca3af] leading-relaxed">
+            Este sitio está dirigido a mayores de 18 años. Utilizamos cookies para mejorar tu experiencia. Al continuar navegando, confirmas que eres mayor de 18 años y aceptas nuestra{" "}
+            <Link href="/politica-de-privacidad/" className="text-white underline underline-offset-2 hover:text-[#00C853] transition-colors">
+              política de cookies
+            </Link>.
           </p>
-
-          {/* Buttons */}
-          <div className="flex flex-col gap-3">
-            <button
-              onClick={handleConfirm}
-              className="w-full py-3.5 rounded-xl bg-[#00C853] font-extrabold text-white text-sm uppercase tracking-wide transition-all duration-300 hover:bg-[#00E676] hover:shadow-[0_0_30px_rgba(0,200,83,0.35)] cursor-pointer"
-            >
-              Soy mayor de 18 años
-            </button>
-            <button
-              onClick={handleReject}
-              className="w-full py-3.5 rounded-xl bg-[#dc2626]/10 border border-[#dc2626]/30 font-extrabold text-[#dc2626] text-sm uppercase tracking-wide transition-all duration-300 hover:bg-[#dc2626]/20 cursor-pointer"
-            >
-              Soy menor de edad
-            </button>
-          </div>
+        </div>
+        <div className="flex items-center gap-3 shrink-0 w-full sm:w-auto">
+          <button
+            onClick={handleAccept}
+            className="flex-1 sm:flex-none px-5 py-2.5 rounded-lg bg-[#00C853] font-bold text-white text-sm transition-all duration-200 hover:bg-[#00E676] cursor-pointer whitespace-nowrap"
+          >
+            Aceptar y continuar
+          </button>
+          <Link
+            href="/politica-de-privacidad/"
+            className="flex-1 sm:flex-none px-5 py-2.5 rounded-lg text-center font-bold text-[#9ca3af] text-sm transition-colors hover:text-white whitespace-nowrap"
+          >
+            Más información
+          </Link>
         </div>
       </div>
     </div>
