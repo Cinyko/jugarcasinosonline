@@ -49,7 +49,7 @@ export default function PoliticaDePrivacidad() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-white mb-4">4. Cookies</h2>
+            <h2 id="cookies" className="text-2xl font-bold text-white mb-4">4. Cookies</h2>
             <p>Utilizamos cookies para:</p>
             <ul className="list-disc pl-6 space-y-2 mt-3">
               <li><strong className="text-white">Cookies esenciales:</strong> necesarias para el funcionamiento básico del sitio</li>

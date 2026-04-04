@@ -42,7 +42,7 @@ export default function AgeGate() {
           </span>
           <p className="text-sm text-[#9ca3af] leading-relaxed">
             Este sitio está dirigido a mayores de 18 años. Utilizamos cookies para mejorar tu experiencia. Al continuar navegando, confirmas que eres mayor de 18 años y aceptas nuestra{" "}
-            <Link href="/politica-de-privacidad/" className="text-white underline underline-offset-2 hover:text-[#00C853] transition-colors">
+            <Link href="/politica-de-privacidad/#cookies" className="text-white underline underline-offset-2 hover:text-[#00C853] transition-colors">
               política de cookies
             </Link>.
           </p>
@@ -55,7 +55,7 @@ export default function AgeGate() {
             Aceptar y continuar
           </button>
           <Link
-            href="/politica-de-privacidad/"
+            href="/politica-de-privacidad/#cookies"
             className="flex-1 sm:flex-none px-5 py-2.5 rounded-lg text-center font-bold text-[#9ca3af] text-sm transition-colors hover:text-white whitespace-nowrap"
           >
             Más información
