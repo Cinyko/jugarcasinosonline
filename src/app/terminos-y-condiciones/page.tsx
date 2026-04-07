@@ -69,7 +69,7 @@ export default function TerminosYCondiciones() {
 
           <section>
             <h2 className="text-2xl font-bold text-white mb-4">9. Contacto</h2>
-            <p>Para cualquier consulta sobre estos términos, visitá nuestra <Link href="/contacto/" className="text-[#00C853] hover:underline">página de contacto</Link>.</p>
+            <p>Para cualquier consulta sobre estos términos, visitá nuestra <Link href="/contacto" className="text-[#00C853] hover:underline">página de contacto</Link>.</p>
           </section>
         </div>
       </div>

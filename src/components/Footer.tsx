@@ -24,27 +24,27 @@ export default function Footer() {
             </h3>
             <ul className="space-y-3.5">
               <li>
-                <Link href="/politica-de-privacidad/" className="text-sm text-text-muted hover:text-white transition-colors">
+                <Link href="/politica-de-privacidad" className="text-sm text-text-muted hover:text-white transition-colors">
                   Política de Privacidad
                 </Link>
               </li>
               <li>
-                <Link href="/terminos-y-condiciones/" className="text-sm text-text-muted hover:text-white transition-colors">
+                <Link href="/terminos-y-condiciones" className="text-sm text-text-muted hover:text-white transition-colors">
                   Términos y Condiciones
                 </Link>
               </li>
               <li>
-                <Link href="/juego-responsable/" className="text-sm text-text-muted hover:text-white transition-colors">
+                <Link href="/juego-responsable" className="text-sm text-text-muted hover:text-white transition-colors">
                   Juego Responsable
                 </Link>
               </li>
               <li>
-                <Link href="/contacto/" className="text-sm text-text-muted hover:text-white transition-colors">
+                <Link href="/contacto" className="text-sm text-text-muted hover:text-white transition-colors">
                   Contacto
                 </Link>
               </li>
               <li>
-                <Link href="/sobre-nosotros/" className="text-sm text-text-muted hover:text-white transition-colors">
+                <Link href="/sobre-nosotros" className="text-sm text-text-muted hover:text-white transition-colors">
                   Sobre Nosotros
                 </Link>
               </li>

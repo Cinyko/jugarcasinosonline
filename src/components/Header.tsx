@@ -57,7 +57,7 @@ export default function Header() {
                   {countries.map((country) => (
                     <Link
                       key={country.slug}
-                      href={`/${country.slug}/mejores-casinos-online/`}
+                      href={`/${country.slug}/mejores-casinos-online`}
                       className="flex items-center gap-3 px-4 py-3 text-sm text-text-secondary hover:text-white hover:bg-white/5 transition-all"
                     >
                       <div className="relative w-7 h-5 rounded-sm overflow-hidden shrink-0 shadow-sm">
@@ -101,7 +101,7 @@ export default function Header() {
                   {countries.map((country) => (
                     <Link
                       key={country.slug}
-                      href={`/${country.slug}/ruleta-online/`}
+                      href={`/${country.slug}/ruleta-online`}
                       className="flex items-center gap-3 px-4 py-3 text-sm text-text-secondary hover:text-white hover:bg-white/5 transition-all"
                     >
                       <div className="relative w-7 h-5 rounded-sm overflow-hidden shrink-0 shadow-sm">
@@ -145,7 +145,7 @@ export default function Header() {
                   {countries.map((country) => (
                     <Link
                       key={country.slug}
-                      href={`/${country.slug}/blackjack-online/`}
+                      href={`/${country.slug}/blackjack-online`}
                       className="flex items-center gap-3 px-4 py-3 text-sm text-text-secondary hover:text-white hover:bg-white/5 transition-all"
                     >
                       <div className="relative w-7 h-5 rounded-sm overflow-hidden shrink-0 shadow-sm">
@@ -165,10 +165,10 @@ export default function Header() {
               )}
             </div>
 
-            <Link href="/sobre-nosotros/" className="px-4 py-2 text-sm font-medium text-text-secondary hover:text-white transition-colors rounded-lg hover:bg-white/5">
+            <Link href="/sobre-nosotros" className="px-4 py-2 text-sm font-medium text-text-secondary hover:text-white transition-colors rounded-lg hover:bg-white/5">
               Sobre Nosotros
             </Link>
-            <Link href="/contacto/" className="px-4 py-2 text-sm font-medium text-text-secondary hover:text-white transition-colors rounded-lg hover:bg-white/5">
+            <Link href="/contacto" className="px-4 py-2 text-sm font-medium text-text-secondary hover:text-white transition-colors rounded-lg hover:bg-white/5">
               Contacto
             </Link>
           </nav>
@@ -225,7 +225,7 @@ export default function Header() {
                 {countries.map((country) => (
                   <Link
                     key={country.slug}
-                    href={`/${country.slug}/mejores-casinos-online/`}
+                    href={`/${country.slug}/mejores-casinos-online`}
                     className="flex items-center gap-3 py-2.5 px-3 text-sm text-text-secondary hover:text-white transition-colors"
                     onClick={() => setIsMenuOpen(false)}
                   >
@@ -265,7 +265,7 @@ export default function Header() {
                 {countries.map((country) => (
                   <Link
                     key={country.slug}
-                    href={`/${country.slug}/ruleta-online/`}
+                    href={`/${country.slug}/ruleta-online`}
                     className="flex items-center gap-3 py-2.5 px-3 text-sm text-text-secondary hover:text-white transition-colors"
                     onClick={() => setIsMenuOpen(false)}
                   >
@@ -305,7 +305,7 @@ export default function Header() {
                 {countries.map((country) => (
                   <Link
                     key={country.slug}
-                    href={`/${country.slug}/blackjack-online/`}
+                    href={`/${country.slug}/blackjack-online`}
                     className="flex items-center gap-3 py-2.5 px-3 text-sm text-text-secondary hover:text-white transition-colors"
                     onClick={() => setIsMenuOpen(false)}
                   >
@@ -325,14 +325,14 @@ export default function Header() {
             )}
 
             <Link
-              href="/sobre-nosotros/"
+              href="/sobre-nosotros"
               className="block py-3 px-3 text-sm font-medium text-text-secondary hover:text-white hover:bg-white/5 rounded-lg transition-all"
               onClick={() => setIsMenuOpen(false)}
             >
               Sobre Nosotros
             </Link>
             <Link
-              href="/contacto/"
+              href="/contacto"
               className="block py-3 px-3 text-sm font-medium text-text-secondary hover:text-white hover:bg-white/5 rounded-lg transition-all"
               onClick={() => setIsMenuOpen(false)}
             >

@@ -184,7 +184,7 @@ export default function SobreNosotros() {
               </div>
             </div>
             <p className="mt-4 text-sm text-[#71717a]">
-              También podés visitar nuestra <Link href="/contacto/" className="text-[#00C853] hover:underline">página de contacto</Link> para
+              También podés visitar nuestra <Link href="/contacto" className="text-[#00C853] hover:underline">página de contacto</Link> para
               más información.
             </p>
           </section>
@@ -199,7 +199,7 @@ export default function SobreNosotros() {
             </p>
             <p>
               Tenemos una sección completa dedicada al{" "}
-              <Link href="/juego-responsable/" className="text-[#00C853] hover:underline font-bold">juego responsable</Link>{" "}
+              <Link href="/juego-responsable" className="text-[#00C853] hover:underline font-bold">juego responsable</Link>{" "}
               con consejos prácticos, señales de alerta y recursos de ayuda. Te recomendamos leerla.
             </p>
           </section>

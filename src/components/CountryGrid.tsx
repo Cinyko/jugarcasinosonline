@@ -154,7 +154,7 @@ export default function CountryGrid({ title, description, pathSuffix, variant = 
             return (
               <Link
                 key={country.slug}
-                href={`/${country.slug}/${pathSuffix}/`}
+                href={`/${country.slug}/${pathSuffix}`}
                 className="group relative flex flex-col rounded-2xl overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:scale-[1.02]"
                 style={{
                   boxShadow: `0 0 0 1px ${country.color}15, 0 4px 20px rgba(0,0,0,0.3)`,

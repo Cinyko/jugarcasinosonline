@@ -75,7 +75,7 @@ export default function PoliticaDePrivacidad() {
 
           <section>
             <h2 className="text-2xl font-bold text-white mb-4">7. Contacto</h2>
-            <p>Si tenés preguntas sobre nuestra política de privacidad, podés contactarnos a través de nuestra <Link href="/contacto/" className="text-[#00C853] hover:underline">página de contacto</Link>.</p>
+            <p>Si tenés preguntas sobre nuestra política de privacidad, podés contactarnos a través de nuestra <Link href="/contacto" className="text-[#00C853] hover:underline">página de contacto</Link>.</p>
           </section>
         </div>
       </div>

@@ -66,7 +66,7 @@ function RatingBar({ rating }: { rating: number }) {
 function CtaButton({ slug, text = "Jugar Ahora" }: { slug: string; text?: string }) {
   return (
     <a
-      href={`/go/${slug}/`}
+      href={`/go/${slug}`}
       target="_blank"
       rel="nofollow noopener sponsored"
       className="inline-flex items-center justify-center px-6 py-3 rounded-xl bg-[#00C853] font-extrabold text-white text-sm uppercase tracking-wide transition-all duration-300 hover:bg-[#00E676] hover:shadow-[0_0_30px_rgba(0,200,83,0.35)]"
@@ -192,7 +192,7 @@ export default function RuletaOnlineMexico() {
                 <ol className="flex items-center gap-2 flex-wrap">
                   <li><Link href="/" className="hover:text-white transition-colors">Inicio</Link></li>
                   <li>/</li>
-                  <li><Link href="/mexico/" className="hover:text-white transition-colors">México</Link></li>
+                  <li><Link href="/mexico" className="hover:text-white transition-colors">México</Link></li>
                   <li>/</li>
                   <li className="text-white font-medium">Ruleta Online</li>
                 </ol>
@@ -322,7 +322,7 @@ export default function RuletaOnlineMexico() {
                   {/* CTA */}
                   <div className="px-4 pb-4">
                     <a
-                      href={`/go/${c.slug}/`}
+                      href={`/go/${c.slug}`}
                       target="_blank"
                       rel="nofollow noopener sponsored"
                       className="cta-animated flex items-center justify-center w-full py-3.5 rounded-xl bg-[#00C853] font-extrabold text-white text-sm uppercase tracking-wide"
@@ -401,7 +401,7 @@ export default function RuletaOnlineMexico() {
                       </td>
                       <td className="px-4 py-4 text-right">
                         <a
-                          href={`/go/${c.slug}/`}
+                          href={`/go/${c.slug}`}
                           target="_blank"
                           rel="nofollow noopener sponsored"
                           className="inline-flex items-center justify-center px-4 py-2 rounded-lg bg-[#00C853] font-bold text-white text-xs uppercase tracking-wide transition-all hover:bg-[#00E676] hover:shadow-[0_0_20px_rgba(0,200,83,0.3)] whitespace-nowrap"
@@ -651,7 +651,7 @@ export default function RuletaOnlineMexico() {
           Ya que sabes qué tipos de ruleta existen, toca hablar de dónde jugarla. No todos los casinos son iguales cuando se trata de ruleta — algunos tienen más variedad de mesas, otros mejores límites, y otros un streaming en vivo que se cae a cada rato. Probamos cada uno y acá va nuestro veredicto.
         </p>
         <p className="text-[#9ca3af] mb-12 max-w-3xl leading-relaxed">
-          Para esta selección nos enfocamos específicamente en la experiencia de ruleta: variedad de mesas, calidad del streaming, límites de apuesta, disponibilidad de mesas en español, y qué tan bien funcionan los bonos para jugar ruleta. Si quieres un ranking general de casinos en México, checa nuestra <Link href="/mexico/mejores-casinos-online/" className="text-[#00C853] hover:underline">guía completa de mejores casinos online en México</Link>.
+          Para esta selección nos enfocamos específicamente en la experiencia de ruleta: variedad de mesas, calidad del streaming, límites de apuesta, disponibilidad de mesas en español, y qué tan bien funcionan los bonos para jugar ruleta. Si quieres un ranking general de casinos en México, checa nuestra <Link href="/mexico/mejores-casinos-online" className="text-[#00C853] hover:underline">guía completa de mejores casinos online en México</Link>.
         </p>
 
         {/* ── 1. Betsson ── */}
@@ -1153,7 +1153,7 @@ export default function RuletaOnlineMexico() {
         </div>
 
         <p className="text-[#9ca3af] leading-relaxed mb-4">
-          Para un desglose completo de todos los métodos de pago disponibles por casino, revisa nuestra <Link href="/mexico/mejores-casinos-online/" className="text-[#00C853] hover:underline">guía de mejores casinos online en México</Link> donde cubrimos cada opción con detalle. Ahí también comparamos tiempos de retiro reales (no los que dice el casino, sino los que verificamos personalmente).
+          Para un desglose completo de todos los métodos de pago disponibles por casino, revisa nuestra <Link href="/mexico/mejores-casinos-online" className="text-[#00C853] hover:underline">guía de mejores casinos online en México</Link> donde cubrimos cada opción con detalle. Ahí también comparamos tiempos de retiro reales (no los que dice el casino, sino los que verificamos personalmente).
         </p>
       </Section>
 
@@ -1193,13 +1193,13 @@ export default function RuletaOnlineMexico() {
           <h3 className="text-xl font-bold text-white mb-4">Otras Guías que Te Pueden Servir</h3>
           <ul className="space-y-2">
             <li>
-              <Link href="/mexico/blackjack-online/" className="text-[#00C853] hover:underline">
+              <Link href="/mexico/blackjack-online" className="text-[#00C853] hover:underline">
                 Guía de Blackjack Online en México
               </Link>{" "}
               <span className="text-[#9ca3af]">— si te gusta la estrategia, el blackjack es el complemento perfecto a la ruleta.</span>
             </li>
             <li>
-              <Link href="/mexico/mejores-casinos-online/" className="text-[#00C853] hover:underline">
+              <Link href="/mexico/mejores-casinos-online" className="text-[#00C853] hover:underline">
                 Mejores Casinos Online en México
               </Link>{" "}
               <span className="text-[#9ca3af]">— nuestro ranking general con reseñas completas de cada plataforma.</span>

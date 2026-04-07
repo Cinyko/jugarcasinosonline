@@ -121,7 +121,7 @@ export default function Home() {
                   )}
 
                   <a
-                    href={`/go/${casino.slug}/`}
+                    href={`/go/${casino.slug}`}
                     target="_blank"
                     rel="nofollow noopener sponsored"
                     className={`group flex flex-col rounded-2xl overflow-hidden transition-all duration-300 hover:-translate-y-3 ${

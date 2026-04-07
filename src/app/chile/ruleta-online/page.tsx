@@ -73,7 +73,7 @@ function RatingBar({ rating }: { rating: number }) {
 
 function CtaButton({ slug, text = "Jugar Ahora" }: { slug: string; text?: string }) {
   return (
-    <a href={`/go/${slug}/`} target="_blank" rel="nofollow noopener sponsored" className="inline-flex items-center justify-center px-6 py-3 rounded-xl bg-[#00C853] font-extrabold text-white text-sm uppercase tracking-wide transition-all duration-300 hover:bg-[#00E676] hover:shadow-[0_0_30px_rgba(0,200,83,0.35)]">
+    <a href={`/go/${slug}`} target="_blank" rel="nofollow noopener sponsored" className="inline-flex items-center justify-center px-6 py-3 rounded-xl bg-[#00C853] font-extrabold text-white text-sm uppercase tracking-wide transition-all duration-300 hover:bg-[#00E676] hover:shadow-[0_0_30px_rgba(0,200,83,0.35)]">
       {text}
     </a>
   );
@@ -151,7 +151,7 @@ export default function RuletaOnlineChile() {
               <ol className="flex items-center gap-2 flex-wrap">
                 <li><Link href="/" className="hover:text-white transition-colors">Inicio</Link></li>
                 <li>/</li>
-                <li><Link href="/chile/" className="hover:text-white transition-colors">Chile</Link></li>
+                <li><Link href="/chile" className="hover:text-white transition-colors">Chile</Link></li>
                 <li>/</li>
                 <li className="text-white font-medium">Ruleta Online</li>
               </ol>
@@ -248,7 +248,7 @@ export default function RuletaOnlineChile() {
 
                   <div className="px-4 pb-4">
                     <a
-                      href={`/go/${c.slug}/`}
+                      href={`/go/${c.slug}`}
                       target="_blank"
                       rel="nofollow noopener sponsored"
                       className="cta-animated flex items-center justify-center w-full py-3.5 rounded-xl bg-[#00C853] font-extrabold text-white text-sm uppercase tracking-wide"
@@ -304,7 +304,7 @@ export default function RuletaOnlineChile() {
                       <td className="px-4 py-4 text-[#d4d4d8] hidden sm:table-cell">{c.bonus}</td>
                       <td className="px-4 py-4 text-[#9ca3af] hidden lg:table-cell">{c.rouletteTables} {c.liveRoulette && <span className="text-[#22c55e] text-xs ml-1">En vivo</span>}</td>
                       <td className="px-4 py-4 w-36"><RatingBar rating={c.rating} /></td>
-                      <td className="px-4 py-4 text-right"><a href={`/go/${c.slug}/`} target="_blank" rel="nofollow noopener sponsored" className="inline-flex items-center justify-center px-4 py-2 rounded-lg bg-[#00C853] font-bold text-white text-xs uppercase tracking-wide transition-all hover:bg-[#00E676] hover:shadow-[0_0_20px_rgba(0,200,83,0.3)] whitespace-nowrap">Jugar Ruleta</a></td>
+                      <td className="px-4 py-4 text-right"><a href={`/go/${c.slug}`} target="_blank" rel="nofollow noopener sponsored" className="inline-flex items-center justify-center px-4 py-2 rounded-lg bg-[#00C853] font-bold text-white text-xs uppercase tracking-wide transition-all hover:bg-[#00E676] hover:shadow-[0_0_20px_rgba(0,200,83,0.3)] whitespace-nowrap">Jugar Ruleta</a></td>
                     </tr>
                   );
                 })}
@@ -1226,11 +1226,11 @@ export default function RuletaOnlineChile() {
         <SectionTitle>Mas Guias de Casino para Chile</SectionTitle>
         <p className="text-[#9ca3af] mb-8 max-w-3xl leading-relaxed">Si llegaste hasta aca, probablemente te interesa el mundo de los casinos online en Chile mas alla de la ruleta. Estas guias complementan lo que acabas de leer.</p>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-          <Link href="/chile/mejores-casinos-online/" className="group rounded-2xl bg-[#141414] border border-white/[0.06] p-6 hover:border-[#e11d48]/30 transition-all">
+          <Link href="/chile/mejores-casinos-online" className="group rounded-2xl bg-[#141414] border border-white/[0.06] p-6 hover:border-[#e11d48]/30 transition-all">
             <h3 className="text-white font-bold mb-2 group-hover:text-[#e11d48] transition-colors">Mejores Casinos Online en Chile 2026</h3>
             <p className="text-[#9ca3af] text-sm leading-relaxed">Ranking completo de los 13 mejores casinos para jugadores chilenos. Incluye analisis de bonos, metodos de pago, juegos y soporte. Si quieres la vision general, empieza por aca.</p>
           </Link>
-          <Link href="/chile/blackjack-online/" className="group rounded-2xl bg-[#141414] border border-white/[0.06] p-6 hover:border-[#e11d48]/30 transition-all">
+          <Link href="/chile/blackjack-online" className="group rounded-2xl bg-[#141414] border border-white/[0.06] p-6 hover:border-[#e11d48]/30 transition-all">
             <h3 className="text-white font-bold mb-2 group-hover:text-[#e11d48] transition-colors">Blackjack Online en Chile 2026</h3>
             <p className="text-[#9ca3af] text-sm leading-relaxed">Si te gusta la ruleta, el blackjack es el paso natural. House edge aun mas bajo (0.5% con estrategia basica), mas control sobre las decisiones, y una experiencia de mesa diferente.</p>
           </Link>

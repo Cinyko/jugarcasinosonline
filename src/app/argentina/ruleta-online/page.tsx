@@ -63,7 +63,7 @@ function RatingBar({ rating }: { rating: number }) {
 
 function CtaButton({ slug, text = "Jugar Ahora" }: { slug: string; text?: string }) {
   return (
-    <a href={`/go/${slug}/`} target="_blank" rel="nofollow noopener sponsored" className="inline-flex items-center justify-center px-6 py-3 rounded-xl bg-[#00C853] font-extrabold text-white text-sm uppercase tracking-wide transition-all duration-300 hover:bg-[#00E676] hover:shadow-[0_0_30px_rgba(0,200,83,0.35)]">
+    <a href={`/go/${slug}`} target="_blank" rel="nofollow noopener sponsored" className="inline-flex items-center justify-center px-6 py-3 rounded-xl bg-[#00C853] font-extrabold text-white text-sm uppercase tracking-wide transition-all duration-300 hover:bg-[#00E676] hover:shadow-[0_0_30px_rgba(0,200,83,0.35)]">
       {text}
     </a>
   );
@@ -153,7 +153,7 @@ export default function RuletaOnlineArgentina() {
               <ol className="flex items-center gap-2 flex-wrap">
                 <li><Link href="/" className="hover:text-white transition-colors">Inicio</Link></li>
                 <li>/</li>
-                <li><Link href="/argentina/" className="hover:text-white transition-colors">Argentina</Link></li>
+                <li><Link href="/argentina" className="hover:text-white transition-colors">Argentina</Link></li>
                 <li>/</li>
                 <li className="text-white font-medium">Ruleta Online</li>
               </ol>
@@ -178,7 +178,7 @@ export default function RuletaOnlineArgentina() {
               ruleta europea, americana, francesa y variantes en vivo como Lightning Roulette. Depositamos
               con Mercado Pago, con crypto y con Skrill. Y acá te contamos qué onda cada uno, sin filtro
               y sin chamuyarte. Si querés la guía completa de casinos, pasate por{" "}
-              <Link href="/argentina/mejores-casinos-online/" className="text-[#38bdf8] hover:underline">
+              <Link href="/argentina/mejores-casinos-online" className="text-[#38bdf8] hover:underline">
                 nuestra guía de mejores casinos online en Argentina
               </Link>.
             </p>
@@ -258,7 +258,7 @@ export default function RuletaOnlineArgentina() {
 
                 <div className="px-4 pb-4">
                   <a
-                    href={`/go/${c.slug}/`}
+                    href={`/go/${c.slug}`}
                     target="_blank"
                     rel="nofollow noopener sponsored"
                     className="cta-animated flex items-center justify-center w-full py-3.5 rounded-xl bg-[#00C853] font-extrabold text-white text-sm uppercase tracking-wide"
@@ -323,7 +323,7 @@ export default function RuletaOnlineArgentina() {
                   <td className="px-4 py-4 hidden lg:table-cell">{c.liveRoulette ? <span className="text-[#22c55e] font-bold">Sí</span> : <span className="text-[#71717a]">No</span>}</td>
                   <td className="px-4 py-4 w-36"><RatingBar rating={c.rating} /></td>
                   <td className="px-4 py-4 text-right">
-                    <a href={`/go/${c.slug}/`} target="_blank" rel="nofollow noopener sponsored" className="inline-flex items-center justify-center px-4 py-2 rounded-lg bg-[#00C853] font-bold text-white text-xs uppercase tracking-wide transition-all hover:bg-[#00E676] hover:shadow-[0_0_20px_rgba(0,200,83,0.3)] whitespace-nowrap">Jugar Ahora</a>
+                    <a href={`/go/${c.slug}`} target="_blank" rel="nofollow noopener sponsored" className="inline-flex items-center justify-center px-4 py-2 rounded-lg bg-[#00C853] font-bold text-white text-xs uppercase tracking-wide transition-all hover:bg-[#00E676] hover:shadow-[0_0_20px_rgba(0,200,83,0.3)] whitespace-nowrap">Jugar Ahora</a>
                   </td>
                 </tr>
                 );
@@ -1316,7 +1316,7 @@ export default function RuletaOnlineArgentina() {
 
         <p className="text-[#9ca3af] leading-relaxed">
           Para más detalles sobre cada método y cómo configurarlos paso a paso, visitá nuestra{" "}
-          <Link href="/argentina/mejores-casinos-online/" className="text-[#38bdf8] hover:underline">
+          <Link href="/argentina/mejores-casinos-online" className="text-[#38bdf8] hover:underline">
             guía completa de casinos online en Argentina
           </Link>{" "}
           donde cubrimos cada opción en profundidad.
@@ -1339,11 +1339,11 @@ export default function RuletaOnlineArgentina() {
         </div>
         <p className="text-[#9ca3af] leading-relaxed text-sm">
           ¿Tenés otra pregunta sobre ruleta online en Argentina? Podés consultar también nuestra{" "}
-          <Link href="/argentina/mejores-casinos-online/" className="text-[#38bdf8] hover:underline">
+          <Link href="/argentina/mejores-casinos-online" className="text-[#38bdf8] hover:underline">
             guía general de casinos
           </Link>{" "}
           o la{" "}
-          <Link href="/argentina/blackjack-online/" className="text-[#38bdf8] hover:underline">
+          <Link href="/argentina/blackjack-online" className="text-[#38bdf8] hover:underline">
             guía de blackjack online
           </Link>{" "}
           si te interesa explorar otros juegos de mesa.

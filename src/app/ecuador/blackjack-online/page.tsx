@@ -64,7 +64,7 @@ function RatingBar({ rating }: { rating: number }) {
 
 function CtaButton({ slug, text = "Jugar Ahora" }: { slug: string; text?: string }) {
   return (
-    <a href={`/go/${slug}/`} target="_blank" rel="nofollow noopener sponsored"
+    <a href={`/go/${slug}`} target="_blank" rel="nofollow noopener sponsored"
       className="inline-flex items-center justify-center px-6 py-3 rounded-xl bg-[#00C853] font-extrabold text-white text-sm uppercase tracking-wide transition-all duration-300 hover:bg-[#00E676] hover:shadow-[0_0_30px_rgba(0,200,83,0.35)]">
       {text}
     </a>
@@ -166,7 +166,7 @@ export default function BlackjackOnlineEcuador() {
             <ol className="flex items-center gap-2 flex-wrap">
               <li><Link href="/" className="hover:text-white transition-colors">Inicio</Link></li>
               <li>/</li>
-              <li><Link href="/ecuador/" className="hover:text-white transition-colors">Ecuador</Link></li>
+              <li><Link href="/ecuador" className="hover:text-white transition-colors">Ecuador</Link></li>
               <li>/</li>
               <li className="text-white font-medium">Blackjack Online</li>
             </ol>
@@ -219,7 +219,7 @@ export default function BlackjackOnlineEcuador() {
                     <td className="px-4 py-4 text-[#d4d4d8] hidden sm:table-cell">{c.bonus}</td>
                     <td className="px-4 py-4 w-36"><RatingBar rating={c.rating} /></td>
                     <td className="px-4 py-4 text-right">
-                      <a href={`/go/${c.slug}/`} target="_blank" rel="nofollow noopener sponsored"
+                      <a href={`/go/${c.slug}`} target="_blank" rel="nofollow noopener sponsored"
                         className="inline-flex items-center justify-center px-4 py-2 rounded-lg bg-[#00C853] font-bold text-white text-xs uppercase tracking-wide transition-all hover:bg-[#00E676] whitespace-nowrap">
                         Jugar
                       </a>
@@ -720,7 +720,7 @@ export default function BlackjackOnlineEcuador() {
       <Section id="pagos" alt>
         <SectionTitle>Métodos de Pago en Ecuador</SectionTitle>
 
-        <p className="text-[#9ca3af] leading-relaxed mb-4">Detalles completos en nuestra <Link href="/ecuador/mejores-casinos-online/" className="text-[#00C853] hover:underline">guía de casinos en Ecuador</Link>. Resumen:</p>
+        <p className="text-[#9ca3af] leading-relaxed mb-4">Detalles completos en nuestra <Link href="/ecuador/mejores-casinos-online" className="text-[#00C853] hover:underline">guía de casinos en Ecuador</Link>. Resumen:</p>
 
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6">
           <div className="rounded-xl bg-[#141414] border border-white/[0.06] p-5">
@@ -771,8 +771,8 @@ export default function BlackjackOnlineEcuador() {
       <Section id="guias">
         <h3 className="text-lg font-bold text-white mb-4">Otras Guías para Ecuador</h3>
         <div className="flex flex-wrap gap-4 mb-8">
-          <Link href="/ecuador/mejores-casinos-online/" className="text-[#00C853] hover:underline text-sm font-bold">Mejores Casinos Online en Ecuador →</Link>
-          <Link href="/ecuador/ruleta-online/" className="text-[#00C853] hover:underline text-sm font-bold">Guía de Ruleta Online en Ecuador →</Link>
+          <Link href="/ecuador/mejores-casinos-online" className="text-[#00C853] hover:underline text-sm font-bold">Mejores Casinos Online en Ecuador →</Link>
+          <Link href="/ecuador/ruleta-online" className="text-[#00C853] hover:underline text-sm font-bold">Guía de Ruleta Online en Ecuador →</Link>
         </div>
         <div className="flex flex-wrap justify-center gap-4">
           <CtaButton slug="betsson-latam" text="Jugar Blackjack en Betsson" />

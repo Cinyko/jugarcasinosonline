@@ -51,7 +51,7 @@ export default function Contacto() {
           <p className="text-sm text-[#71717a] leading-relaxed">
             Intentamos responder todas las consultas dentro de las 48 horas hábiles.
             Para temas urgentes relacionados con juego responsable, visitá nuestra
-            sección de <Link href="/juego-responsable/" className="text-[#00C853] hover:underline">Juego Responsable</Link> donde
+            sección de <Link href="/juego-responsable" className="text-[#00C853] hover:underline">Juego Responsable</Link> donde
             encontrarás recursos de ayuda inmediata.
           </p>
         </div>

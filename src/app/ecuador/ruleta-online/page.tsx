@@ -57,7 +57,7 @@ function RatingBar({ rating }: { rating: number }) {
   return (<div className="flex items-center gap-2"><div className="flex-1 h-1.5 rounded-full bg-white/5 overflow-hidden"><div className="h-full rounded-full bg-gradient-to-r from-[#22c55e] to-[#4ade80]" style={{ width: `${pct}%` }} /></div><span className="text-[#22c55e] font-black text-sm tabular-nums">{rating}</span></div>);
 }
 function CtaButton({ slug, text = "Jugar Ahora" }: { slug: string; text?: string }) {
-  return (<a href={`/go/${slug}/`} target="_blank" rel="nofollow noopener sponsored" className="inline-flex items-center justify-center px-6 py-3 rounded-xl bg-[#00C853] font-extrabold text-white text-sm uppercase tracking-wide transition-all duration-300 hover:bg-[#00E676] hover:shadow-[0_0_30px_rgba(0,200,83,0.35)]">{text}</a>);
+  return (<a href={`/go/${slug}`} target="_blank" rel="nofollow noopener sponsored" className="inline-flex items-center justify-center px-6 py-3 rounded-xl bg-[#00C853] font-extrabold text-white text-sm uppercase tracking-wide transition-all duration-300 hover:bg-[#00E676] hover:shadow-[0_0_30px_rgba(0,200,83,0.35)]">{text}</a>);
 }
 function Section({ id, alt = false, bg, children }: { id: string; alt?: boolean; bg?: string; children: React.ReactNode }) {
   return (<section id={id} className={`${alt ? "bg-[#0e0e0e]" : "bg-[#0a0a0a]"} py-16 sm:py-24 relative`}>{bg && (<div className="absolute top-0 left-0 right-0 h-[50vh] pointer-events-none overflow-hidden">{/* eslint-disable-next-line @next/next/no-img-element */}<img src={bg} alt="" aria-hidden="true" className="absolute inset-0 w-full h-full object-cover opacity-[0.06]" /><div className={`absolute inset-0 bg-gradient-to-b from-transparent via-transparent ${alt ? "to-[#0e0e0e]" : "to-[#0a0a0a]"}`} /></div>)}<div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10">{children}</div></section>);
@@ -89,7 +89,7 @@ export default function RuletaOnlineEcuador() {
 
         <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-8 sm:pt-12 pb-16 sm:pb-24">
           <div className="mb-10"><div className="pb-4">
-            <nav className="text-sm text-[#71717a] mb-8"><ol className="flex items-center gap-2 flex-wrap"><li><Link href="/" className="hover:text-white transition-colors">Inicio</Link></li><li>/</li><li><Link href="/ecuador/" className="hover:text-white transition-colors">Ecuador</Link></li><li>/</li><li className="text-white font-medium">Ruleta Online</li></ol></nav>
+            <nav className="text-sm text-[#71717a] mb-8"><ol className="flex items-center gap-2 flex-wrap"><li><Link href="/" className="hover:text-white transition-colors">Inicio</Link></li><li>/</li><li><Link href="/ecuador" className="hover:text-white transition-colors">Ecuador</Link></li><li>/</li><li className="text-white font-medium">Ruleta Online</li></ol></nav>
             <div className="inline-flex items-center gap-2.5 rounded-full bg-white/[0.05] border border-white/[0.08] px-5 py-2 mb-8 backdrop-blur-sm"><span className="w-2 h-2 rounded-full bg-[#22c55e] animate-pulse" /><span className="text-sm font-semibold text-[#9ca3af]">Guía actualizada {LAST_UPDATED}</span></div>
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-white tracking-tighter mb-4 leading-[0.95]">
               Mejores Casinos con Ruleta Online<br />
@@ -185,7 +185,7 @@ export default function RuletaOnlineEcuador() {
                 {/* CTA */}
                 <div className="px-4 pb-4">
                   <a
-                    href={`/go/${c.slug}/`}
+                    href={`/go/${c.slug}`}
                     target="_blank"
                     rel="nofollow noopener sponsored"
                     className="cta-animated flex items-center justify-center w-full py-3.5 rounded-xl bg-[#00C853] font-extrabold text-white text-sm uppercase tracking-wide"
@@ -237,7 +237,7 @@ export default function RuletaOnlineEcuador() {
                   <td className="px-4 py-4 text-[#d4d4d8] hidden sm:table-cell">{c.bonus}</td>
                   <td className="px-4 py-4 text-[#9ca3af] hidden lg:table-cell">{c.rouletteTables}</td>
                   <td className="px-4 py-4 w-36"><RatingBar rating={c.rating} /></td>
-                  <td className="px-4 py-4 text-right"><a href={`/go/${c.slug}/`} target="_blank" rel="nofollow noopener sponsored" className="inline-flex items-center justify-center px-4 py-2 rounded-lg bg-[#00C853] font-bold text-white text-xs uppercase tracking-wide transition-all hover:bg-[#00E676] hover:shadow-[0_0_20px_rgba(0,200,83,0.3)] whitespace-nowrap">Jugar Ahora</a></td>
+                  <td className="px-4 py-4 text-right"><a href={`/go/${c.slug}`} target="_blank" rel="nofollow noopener sponsored" className="inline-flex items-center justify-center px-4 py-2 rounded-lg bg-[#00C853] font-bold text-white text-xs uppercase tracking-wide transition-all hover:bg-[#00E676] hover:shadow-[0_0_20px_rgba(0,200,83,0.3)] whitespace-nowrap">Jugar Ahora</a></td>
                 </tr>
               ))}
             </tbody>
@@ -1120,12 +1120,12 @@ export default function RuletaOnlineEcuador() {
           Si llegaste hasta acá, probablemente te interese explorar más opciones para jugar online en Ecuador. Estas guías complementan lo que acabas de leer.
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          <Link href="/ecuador/mejores-casinos-online/" className="rounded-2xl bg-[#141414] border border-white/[0.06] p-6 transition-all duration-300 hover:border-[#eab308]/30 hover:-translate-y-1 block">
+          <Link href="/ecuador/mejores-casinos-online" className="rounded-2xl bg-[#141414] border border-white/[0.06] p-6 transition-all duration-300 hover:border-[#eab308]/30 hover:-translate-y-1 block">
             <p className="text-xs font-bold text-[#eab308] uppercase tracking-wider mb-2">Guía completa</p>
             <p className="text-lg font-black text-white mb-2">Mejores Casinos Online en Ecuador {LAST_UPDATED_YEAR}</p>
             <p className="text-sm text-[#9ca3af]">Ranking completo con 11 casinos analizados, bonos verificados, métodos de pago y todo lo que necesitas para elegir casino en Ecuador.</p>
           </Link>
-          <Link href="/ecuador/blackjack-online/" className="rounded-2xl bg-[#141414] border border-white/[0.06] p-6 transition-all duration-300 hover:border-[#eab308]/30 hover:-translate-y-1 block">
+          <Link href="/ecuador/blackjack-online" className="rounded-2xl bg-[#141414] border border-white/[0.06] p-6 transition-all duration-300 hover:border-[#eab308]/30 hover:-translate-y-1 block">
             <p className="text-xs font-bold text-[#eab308] uppercase tracking-wider mb-2">Juegos de mesa</p>
             <p className="text-lg font-black text-white mb-2">Blackjack Online en Ecuador {LAST_UPDATED_YEAR}</p>
             <p className="text-sm text-[#9ca3af]">Si te gusta la ruleta, probablemente te guste el blackjack. Menor ventaja de la casa (0.5% con estrategia básica) y más control sobre tus decisiones.</p>

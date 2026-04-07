@@ -90,7 +90,7 @@ function RatingBar({ rating }: { rating: number }) {
 function CtaButton({ slug, text = "Jugar Ahora" }: { slug: string; text?: string }) {
   return (
     <a
-      href={`/go/${slug}/`}
+      href={`/go/${slug}`}
       target="_blank"
       rel="nofollow noopener sponsored"
       className="inline-flex items-center justify-center px-6 py-3 rounded-xl bg-[#00C853] font-extrabold text-white text-sm uppercase tracking-wide transition-all duration-300 hover:bg-[#00E676] hover:shadow-[0_0_30px_rgba(0,200,83,0.35)]"
@@ -222,7 +222,7 @@ export default function RuletaOnlinePeru() {
                 <ol className="flex items-center gap-2 flex-wrap">
                   <li><Link href="/" className="hover:text-white transition-colors">Inicio</Link></li>
                   <li>/</li>
-                  <li><Link href="/peru/" className="hover:text-white transition-colors">Perú</Link></li>
+                  <li><Link href="/peru" className="hover:text-white transition-colors">Perú</Link></li>
                   <li>/</li>
                   <li className="text-white font-medium">Ruleta Online</li>
                 </ol>
@@ -1244,7 +1244,7 @@ export default function RuletaOnlinePeru() {
           Un tip: antes de depositar, fijate cuáles son los requisitos de retiro del casino. Algunos te piden hacer un retiro por el mismo método que usaste para depositar. Otros te dejan elegir cualquier método. Y casi todos te van a pedir verificación de identidad (KYC) en tu primer retiro. Tené tu DNI a mano para que no te agarre desprevenido.
         </p>
         <p className="text-[#a1a1aa] leading-relaxed">
-          Para un análisis completo de todos los métodos de pago disponibles en cada casino, consultá nuestra <Link href="/peru/mejores-casinos-online/" className="text-[#22c55e] hover:underline font-semibold">guía de mejores casinos online en Perú</Link> donde detallamos todo.
+          Para un análisis completo de todos los métodos de pago disponibles en cada casino, consultá nuestra <Link href="/peru/mejores-casinos-online" className="text-[#22c55e] hover:underline font-semibold">guía de mejores casinos online en Perú</Link> donde detallamos todo.
         </p>
 
         <div className="mt-6">
@@ -1313,10 +1313,10 @@ export default function RuletaOnlinePeru() {
       <Section id="guias-relacionadas" alt>
         <h3 className="text-lg font-bold text-white mb-4">Guías relacionadas</h3>
         <div className="flex flex-wrap gap-3">
-          <Link href="/peru/mejores-casinos-online/" className="inline-flex items-center gap-2 rounded-xl bg-white/[0.04] border border-white/[0.08] px-5 py-3 text-sm text-[#d4d4d8] hover:bg-white/[0.08] transition-colors font-semibold">
+          <Link href="/peru/mejores-casinos-online" className="inline-flex items-center gap-2 rounded-xl bg-white/[0.04] border border-white/[0.08] px-5 py-3 text-sm text-[#d4d4d8] hover:bg-white/[0.08] transition-colors font-semibold">
             Mejores Casinos Online en Perú
           </Link>
-          <Link href="/peru/blackjack-online/" className="inline-flex items-center gap-2 rounded-xl bg-white/[0.04] border border-white/[0.08] px-5 py-3 text-sm text-[#d4d4d8] hover:bg-white/[0.08] transition-colors font-semibold">
+          <Link href="/peru/blackjack-online" className="inline-flex items-center gap-2 rounded-xl bg-white/[0.04] border border-white/[0.08] px-5 py-3 text-sm text-[#d4d4d8] hover:bg-white/[0.08] transition-colors font-semibold">
             Blackjack Online en Perú
           </Link>
         </div>

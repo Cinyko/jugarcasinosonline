@@ -90,7 +90,7 @@ function RatingBar({ rating }: { rating: number }) {
 function CtaButton({ slug, text = "Jugar Ahora" }: { slug: string; text?: string }) {
   return (
     <a
-      href={`/go/${slug}/`}
+      href={`/go/${slug}`}
       target="_blank"
       rel="nofollow noopener sponsored"
       className="inline-flex items-center justify-center px-6 py-3 rounded-xl bg-[#00C853] font-extrabold text-white text-sm uppercase tracking-wide transition-all duration-300 hover:bg-[#00E676] hover:shadow-[0_0_30px_rgba(0,200,83,0.35)]"
@@ -218,7 +218,7 @@ export default function MejoresCasinosOnlineMexico() {
                 <ol className="flex items-center gap-2 flex-wrap">
                   <li><Link href="/" className="hover:text-white transition-colors">Inicio</Link></li>
                   <li>/</li>
-                  <li><Link href="/mexico/" className="hover:text-white transition-colors">México</Link></li>
+                  <li><Link href="/mexico" className="hover:text-white transition-colors">México</Link></li>
                   <li>/</li>
                   <li className="text-white font-medium">Mejores Casinos Online</li>
                 </ol>
@@ -349,7 +349,7 @@ export default function MejoresCasinosOnlineMexico() {
                 {/* CTA */}
                 <div className="px-4 pb-4">
                   <a
-                    href={`/go/${c.slug}/`}
+                    href={`/go/${c.slug}`}
                     target="_blank"
                     rel="nofollow noopener sponsored"
                     className="cta-animated flex items-center justify-center w-full py-3.5 rounded-xl bg-[#00C853] font-extrabold text-white text-sm uppercase tracking-wide"
@@ -444,7 +444,7 @@ export default function MejoresCasinosOnlineMexico() {
                   </td>
                   <td className="px-4 py-4 text-right">
                     <a
-                      href={`/go/${c.slug}/`}
+                      href={`/go/${c.slug}`}
                       target="_blank"
                       rel="nofollow noopener sponsored"
                       className="inline-flex items-center justify-center px-4 py-2 rounded-lg bg-[#00C853] font-bold text-white text-xs uppercase tracking-wide transition-all hover:bg-[#00E676] hover:shadow-[0_0_20px_rgba(0,200,83,0.3)] whitespace-nowrap"
@@ -1266,7 +1266,7 @@ export default function MejoresCasinosOnlineMexico() {
                   <td className="px-4 py-3">{row.need}</td>
                   <td className="px-4 py-3 font-bold text-white">{row.best}</td>
                   <td className="px-4 py-3 text-right">
-                    <a href={`/go/${row.slug}/`} target="_blank" rel="nofollow noopener sponsored" className="inline-flex items-center justify-center px-4 py-2 rounded-lg bg-[#00C853] font-bold text-white text-xs uppercase tracking-wide transition-all hover:bg-[#00E676] hover:shadow-[0_0_20px_rgba(0,200,83,0.3)] whitespace-nowrap">Visitar</a>
+                    <a href={`/go/${row.slug}`} target="_blank" rel="nofollow noopener sponsored" className="inline-flex items-center justify-center px-4 py-2 rounded-lg bg-[#00C853] font-bold text-white text-xs uppercase tracking-wide transition-all hover:bg-[#00E676] hover:shadow-[0_0_20px_rgba(0,200,83,0.3)] whitespace-nowrap">Visitar</a>
                   </td>
                 </tr>
               ))}
