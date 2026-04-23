@@ -12,13 +12,14 @@ export const metadata: Metadata = {
 
 const ecuadorCasinos = [
   { rank: 1, name: "Betsson", slug: "betsson-latam", bonus: "¡Duplica tu depósito hasta $100!", rating: 9.5, rouletteTables: "45+", liveRoulette: true, highlight: true, badge: "⭐ Recomendado" },
-  { rank: 2, name: "STARDA Casino", slug: "starda-casino", bonus: "100% + 500 giros gratis", rating: 9.3, rouletteTables: "35+", liveRoulette: true, highlight: false, badge: "🔥 TOP" },
-  { rank: 3, name: "SOL Casino", slug: "sol-casino", bonus: "100% + 500 giros gratis", rating: 9.1, rouletteTables: "50+", liveRoulette: true, highlight: false },
-  { rank: 4, name: "MONRO Casino", slug: "monro-casino", bonus: "150% primer depósito", rating: 9.0, rouletteTables: "40+", liveRoulette: true, highlight: false },
-  { rank: 5, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% + 500 giros gratis", rating: 8.9, rouletteTables: "60+", liveRoulette: true, highlight: false },
-  { rank: 6, name: "Bet365", slug: "bet365", bonus: "100% bono bienvenida", rating: 8.8, rouletteTables: "20+", liveRoulette: true, highlight: false },
-  { rank: 7, name: "1xBet", slug: "1xbet", bonus: "100% hasta $300", rating: 8.7, rouletteTables: "25+", liveRoulette: true, highlight: false },
-  { rank: 8, name: "Stake", slug: "stake", bonus: "Bono primer depósito", rating: 8.6, rouletteTables: "30+", liveRoulette: true, highlight: false },
+  { rank: 2, name: "PIN-UP Casino", slug: "pinup", bonus: "120% primer depósito + 250 giros gratis", rating: 9.4, rouletteTables: "55+", liveRoulette: true, highlight: false },
+  { rank: 3, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% + 500 giros gratis", rating: 8.9, rouletteTables: "60+", liveRoulette: true, highlight: false },
+  { rank: 4, name: "SOL Casino", slug: "sol-casino", bonus: "100% + 500 giros gratis", rating: 9.1, rouletteTables: "50+", liveRoulette: true, highlight: false },
+  { rank: 5, name: "STARDA Casino", slug: "starda-casino", bonus: "100% + 500 giros gratis", rating: 9.3, rouletteTables: "35+", liveRoulette: true, highlight: false, badge: "🔥 TOP" },
+  { rank: 6, name: "MONRO Casino", slug: "monro-casino", bonus: "150% primer depósito", rating: 9.0, rouletteTables: "40+", liveRoulette: true, highlight: false },
+  { rank: 7, name: "Bet365", slug: "bet365", bonus: "100% bono bienvenida", rating: 8.8, rouletteTables: "20+", liveRoulette: true, highlight: false },
+  { rank: 8, name: "1xBet", slug: "1xbet", bonus: "100% hasta $300", rating: 8.7, rouletteTables: "25+", liveRoulette: true, highlight: false },
+  { rank: 9, name: "Stake", slug: "stake", bonus: "Bono primer depósito", rating: 8.6, rouletteTables: "30+", liveRoulette: true, highlight: false },
 ];
 
 const rouletteStrategies = [

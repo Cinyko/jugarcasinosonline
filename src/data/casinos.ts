@@ -17,6 +17,20 @@ export const casinos: Casino[] = [
     },
   },
   {
+    name: "PIN-UP Casino",
+    slug: "pinup",
+    bonus: "120% primer depósito + 250 giros gratis",
+    rating: 9.4,
+    affiliateUrl: "https://onlinepnplnk.com/9gVU5Xjw/",
+    license: "Curaçao",
+    countries: ["mexico", "chile", "ecuador"],
+    countryData: {
+      mexico: { bonus: "120% hasta $100,000 MXN + 250 giros gratis", affiliateSlug: "pinup" },
+      chile: { bonus: "120% hasta $5,000,000 CLP + 250 giros gratis", affiliateSlug: "pinup" },
+      ecuador: { bonus: "120% primer depósito + 250 giros gratis", affiliateSlug: "pinup" },
+    },
+  },
+  {
     name: "FRESH Casino",
     slug: "fresh-casino",
     bonus: "100% en tu primer depósito + 500 giros gratis",

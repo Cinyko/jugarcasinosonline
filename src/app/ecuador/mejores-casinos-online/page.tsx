@@ -12,22 +12,23 @@ export const metadata: Metadata = {
 
 const ecuadorCasinos = [
   { rank: 1, name: "Betsson", slug: "betsson-latam", bonus: "¡Duplica tu depósito hasta $100!", rating: 9.5, license: "Internacional", games: "2 500+", highlight: true },
-  { rank: 2, name: "STARDA Casino", slug: "starda-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.3, license: "Curaçao", games: "3 800+", highlight: false },
-  { rank: 3, name: "SOL Casino", slug: "sol-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.1, license: "Curaçao", games: "4 000+", highlight: false },
-  { rank: 4, name: "MONRO Casino", slug: "monro-casino", bonus: "150% en tu primer depósito", rating: 9.0, license: "Curaçao", games: "3 500+", highlight: false },
-  { rank: 5, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 8.9, license: "Curaçao", games: "4 500+", highlight: false },
-  { rank: 6, name: "Bet365", slug: "bet365", bonus: "100% bono de bienvenida", rating: 8.8, license: "Internacional", games: "1 800+", highlight: false },
-  { rank: 7, name: "1xBet", slug: "1xbet", bonus: "100% primer depósito hasta $300", rating: 8.7, license: "Internacional", games: "5 000+", highlight: false },
-  { rank: 8, name: "Stake", slug: "stake", bonus: "Bono primer depósito + giros", rating: 8.6, license: "Internacional", games: "3 000+", highlight: false },
-  { rank: 9, name: "Betway", slug: "betway", bonus: "100% bono de bienvenida", rating: 8.5, license: "Internacional", games: "1 500+", highlight: false },
-  { rank: 10, name: "Melbet", slug: "melbet", bonus: "100% primer depósito + 30 giros", rating: 8.4, license: "Curaçao", games: "2 000+", highlight: false },
-  { rank: 11, name: "1Win", slug: "1win", bonus: "500% hasta $1000 en 4 depósitos", rating: 8.3, license: "Curaçao", games: "2 500+", highlight: false },
+  { rank: 2, name: "PIN-UP Casino", slug: "pinup", bonus: "120% primer depósito + 250 giros gratis", rating: 9.4, license: "Curaçao", games: "10 000+", highlight: false },
+  { rank: 3, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 8.9, license: "Curaçao", games: "4 500+", highlight: false },
+  { rank: 4, name: "SOL Casino", slug: "sol-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.1, license: "Curaçao", games: "4 000+", highlight: false },
+  { rank: 5, name: "STARDA Casino", slug: "starda-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.3, license: "Curaçao", games: "3 800+", highlight: false },
+  { rank: 6, name: "MONRO Casino", slug: "monro-casino", bonus: "150% en tu primer depósito", rating: 9.0, license: "Curaçao", games: "3 500+", highlight: false },
+  { rank: 7, name: "Bet365", slug: "bet365", bonus: "100% bono de bienvenida", rating: 8.8, license: "Internacional", games: "1 800+", highlight: false },
+  { rank: 8, name: "1xBet", slug: "1xbet", bonus: "100% primer depósito hasta $300", rating: 8.7, license: "Internacional", games: "5 000+", highlight: false },
+  { rank: 9, name: "Stake", slug: "stake", bonus: "Bono primer depósito + giros", rating: 8.6, license: "Internacional", games: "3 000+", highlight: false },
+  { rank: 10, name: "Betway", slug: "betway", bonus: "100% bono de bienvenida", rating: 8.5, license: "Internacional", games: "1 500+", highlight: false },
+  { rank: 11, name: "Melbet", slug: "melbet", bonus: "100% primer depósito + 30 giros", rating: 8.4, license: "Curaçao", games: "2 000+", highlight: false },
+  { rank: 12, name: "1Win", slug: "1win", bonus: "500% hasta $1000 en 4 depósitos", rating: 8.3, license: "Curaçao", games: "2 500+", highlight: false },
 ];
 
 const categoryPicks = [
   { title: "Mejor variedad de juegos", casino: "FRESH Casino", slug: "fresh-casino", reason: "4 500+ juegos de 80+ proveedores. Buscamos hasta los títulos más rebuscados de Hacksaw y Nolimit City y estaban todos. Ningún otro casino del ranking se le acerca en catálogo." },
   { title: "Pagos más rápidos", casino: "Bet365", slug: "bet365", reason: "Probamos un retiro con tarjeta Visa un miércoles a las 8pm y en menos de 4 horas ya teníamos la plata. Con crypto fue todavía más rápido. Para Ecuador, donde las opciones de pago son más limitadas, eso vale mucho." },
-  { title: "Mejor bono de bienvenida", casino: "MONRO Casino", slug: "monro-casino", reason: "150% en tu primer depósito. Nadie más llega a ese porcentaje. Le metes $100 y juegas con $250. Así de simple." },
+  { title: "Mejor bono de bienvenida", casino: "PIN-UP Casino", slug: "pinup", reason: "120% en tu primer depósito + 250 giros gratis. Le metes $100 y juegas con $220, más 250 giros gratis para slots. Combinado con la cantidad de juegos que tienen (+10.000), es el bono más aprovechable del ranking." },
   { title: "Mejor para slots", casino: "STARDA Casino", slug: "starda-casino", reason: "Torneos semanales de slots con premios de $15.000 USD, proveedores de alta volatilidad y la sección de juegos crash más completa que probamos." },
   { title: "Mejor casino en vivo", casino: "Betsson", slug: "betsson-latam", reason: "200+ mesas en vivo con dealers en español de verdad. Probamos blackjack a las 2am y había mesa activa con dealer que hablaba como cualquiera de acá." },
   { title: "Mejor para principiantes", casino: "SOL Casino", slug: "sol-casino", reason: "Se lo pasamos a un pana que nunca había jugado online y en 10 minutos ya estaba apostando sin preguntar nada. El rollover x30 es el más bajo del ranking." },
@@ -139,6 +140,7 @@ export default function MejoresCasinosOnlineEcuador() {
             const initials = c.name.replace(/Casino|Online/gi, "").trim().substring(0, 2).toUpperCase();
             const logoMap: Record<string, { src: string; invert?: boolean; lightBg?: boolean }> = {
               "starda-casino": { src: "/img/logos/starda.svg" },
+              "pinup": { src: "/img/logos/pin-up.png" },
               "monro-casino": { src: "/img/logos/monro.svg" },
               "sol-casino": { src: "/img/logos/sol.svg" },
               "fresh-casino": { src: "/img/logos/fresh.png" },
@@ -249,6 +251,7 @@ export default function MejoresCasinosOnlineEcuador() {
                       {(() => {
                         const dLogoMap: Record<string, { src: string; invert?: boolean; lightBg?: boolean }> = {
                           "starda-casino": { src: "/img/logos/starda.svg" },
+              "pinup": { src: "/img/logos/pin-up.png" },
                           "monro-casino": { src: "/img/logos/monro.svg" },
                           "sol-casino": { src: "/img/logos/sol.svg" },
                           "fresh-casino": { src: "/img/logos/fresh.png" },
@@ -388,11 +391,73 @@ export default function MejoresCasinosOnlineEcuador() {
           <CtaButton slug="betsson-latam" text="Probar Betsson" />
         </div>
 
+        {/* ── PIN-UP Casino ── */}
+        <div className="mb-16">
+          <div className="flex flex-wrap items-center gap-4 mb-2">
+            <h3 className="text-2xl sm:text-3xl font-black text-white">2. PIN-UP Casino</h3>
+            <span className="text-[#22c55e] font-black text-xl">9.4/10</span>
+          </div>
+          <div className="h-1 w-24 bg-gradient-to-r from-[#eab308] to-transparent rounded mb-6" />
+
+          <h4 className="text-lg font-bold text-white mb-3">+10.000 juegos — nadie más tiene ese catálogo</h4>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            Partamos por lo obvio: PIN-UP tiene <strong className="text-white">más de 10.000 juegos</strong>.
+            Sí, diez mil. Para que tengas comparación, FRESH (que ya es grande) tiene 4.500. Pasamos un rato
+            largo probando y buscando, y la verdad es que están todos los proveedores grandes: Hacksaw,
+            Nolimit City, Pragmatic, NetEnt, Evolution, Play'n GO, Push Gaming. Y varios que no ves en otros
+            casinos.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            Con esa cantidad de juegos podrías pensar que encontrar lo que buscas es un lío, pero la
+            plataforma está bien organizada. Filtros por tipo de juego, proveedor, volatilidad, características
+            (megaways, bonus buy, jackpots). El buscador responde rápido. Si te gusta probar títulos nuevos,
+            acá vas a tener para meses sin repetir.
+          </p>
+
+          <h4 className="text-lg font-bold text-white mb-3">Bono de bienvenida: 120% + 250 giros gratis</h4>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            120% en tu primer depósito más 250 giros gratis. Todo en dólares, que para Ecuador es una ventaja
+            (no hay conversiones raras). Si depositas $100 USD, juegas con $220. El rollover es x50 en 7 días
+            — no te voy a mentir, es exigente. Lo cumplimos jugando unas 2 horas diarias de slots, pero si
+            juegas casual te va a costar. Los 250 giros se reparten en 5 días (50 por día) y las ganancias
+            no tienen rollover extra, eso es bueno.
+          </p>
+
+          <h4 className="text-lg font-bold text-white mb-3">Casino en vivo, deportes y app móvil</h4>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            PIN-UP no se queda solo en casino. Tienen <strong className="text-white">apuestas deportivas</strong>
+            con mercados para prácticamente cualquier deporte: fútbol (Liga Pro, Copa Libertadores, Champions),
+            NBA, tenis, incluso eSports. El casino en vivo es Evolution, Pragmatic Live y Ezugi — blackjack,
+            ruleta, baccarat, Crazy Time, Monopoly Live. Dealers en español en la mayoría.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-4">
+            Y tienen <strong className="text-white">app móvil para Android e iOS</strong>. La descargamos y
+            funciona mejor que la versión web en el celular. Interfaz optimizada, login con huella, guarda
+            métodos de pago. Si juegas desde el móvil (que es donde estamos la mayoría), esta app es un plus.
+          </p>
+
+          <ProsCons
+            pros={[
+              "+10.000 juegos — el catálogo más grande del ranking, por mucho",
+              "Bono de 120% + 250 giros, el porcentaje más alto que vas a encontrar",
+              "App móvil nativa Android/iOS que realmente funciona bien",
+              "Casino + apuestas deportivas en la misma cuenta",
+              "Soporte 24/7 en español, responden rápido incluso de madrugada",
+            ]}
+            cons={[
+              "Rollover x50 del bono es alto si juegas poco",
+              "Licencia Curaçao, como la mayoría de casinos internacionales en Ecuador",
+              "La cantidad de juegos puede abrumar al principio — hay que usar los filtros",
+            ]}
+          />
+          <CtaButton slug="pinup" text="Probar PIN-UP Casino" />
+        </div>
+
         {/* ── FRESH ── */}
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-white">2. FRESH Casino</h3>
-            <span className="text-[#22c55e] font-black text-xl">9.3/10</span>
+            <h3 className="text-2xl sm:text-3xl font-black text-white">3. FRESH Casino</h3>
+            <span className="text-[#22c55e] font-black text-xl">8.9/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#eab308] to-transparent rounded mb-6" />
           <p className="text-[#9ca3af] leading-relaxed mb-3">
@@ -437,7 +502,7 @@ export default function MejoresCasinosOnlineEcuador() {
         {/* ── SOL ── */}
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-white">3. SOL Casino</h3>
+            <h3 className="text-2xl sm:text-3xl font-black text-white">4. SOL Casino</h3>
             <span className="text-[#22c55e] font-black text-xl">9.1/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#eab308] to-transparent rounded mb-6" />
@@ -482,7 +547,7 @@ export default function MejoresCasinosOnlineEcuador() {
         {/* ── MONRO ── */}
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-white">4. MONRO Casino</h3>
+            <h3 className="text-2xl sm:text-3xl font-black text-white">6. MONRO Casino</h3>
             <span className="text-[#22c55e] font-black text-xl">9.0/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#eab308] to-transparent rounded mb-6" />

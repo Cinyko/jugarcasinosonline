@@ -12,26 +12,27 @@ export const metadata: Metadata = {
 
 const chileCasinos = [
   { rank: 1, name: "Betsson", slug: "betsson-chile", bonus: "Hasta $400.000 + 200 Giros Gratis", rating: 9.5, license: "Internacional", games: "2 500+", highlight: true },
-  { rank: 2, name: "STARDA Casino", slug: "starda-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.3, license: "Curaçao", games: "3 800+", highlight: false },
-  { rank: 3, name: "JackpotCity", slug: "jackpotcity-chile", bonus: "Hasta $1.008.000 CLP + 200 Giros Gratis", rating: 9.2, license: "Internacional", games: "2 000+", highlight: false },
+  { rank: 2, name: "PIN-UP Casino", slug: "pinup", bonus: "120% hasta $5.000.000 CLP + 250 giros gratis", rating: 9.4, license: "Curaçao", games: "10 000+", highlight: false },
+  { rank: 3, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 8.9, license: "Curaçao", games: "4 500+", highlight: false },
   { rank: 4, name: "SOL Casino", slug: "sol-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.1, license: "Kahnawake", games: "4 000+", highlight: false },
-  { rank: 5, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 8.9, license: "Curaçao", games: "4 500+", highlight: false },
+  { rank: 5, name: "STARDA Casino", slug: "starda-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.3, license: "Curaçao", games: "3 800+", highlight: false },
   { rank: 6, name: "MONRO Casino", slug: "monro-casino", bonus: "150% en tu primer depósito", rating: 9.0, license: "Curaçao", games: "3 500+", highlight: false },
-  { rank: 7, name: "Gaming Club", slug: "gamingclub-chile", bonus: "100% hasta $200 + 150% hasta $150", rating: 8.5, license: "Internacional", games: "1 200+", highlight: false },
-  { rank: 8, name: "Bet365", slug: "bet365", bonus: "100% bono de bienvenida", rating: 8.8, license: "Internacional", games: "1 800+", highlight: false },
-  { rank: 9, name: "Stake", slug: "stake", bonus: "Bono primer depósito + giros", rating: 8.7, license: "Internacional", games: "3 000+", highlight: false },
-  { rank: 10, name: "1xBet", slug: "1xbet", bonus: "100% primer depósito hasta $300", rating: 8.6, license: "Internacional", games: "5 000+", highlight: false },
-  { rank: 11, name: "Betway", slug: "betway", bonus: "100% bono de bienvenida", rating: 8.5, license: "Internacional", games: "1 500+", highlight: false },
-  { rank: 12, name: "Betano", slug: "betano", bonus: "Giros gratis sin depósito", rating: 8.4, license: "Internacional", games: "2 000+", highlight: false },
-  { rank: 13, name: "20Bet", slug: "20bet", bonus: "100% hasta $120 + 120 giros", rating: 8.3, license: "Curaçao", games: "3 000+", highlight: false },
-  { rank: 14, name: "Dafabet", slug: "dafabet", bonus: "100% hasta $200", rating: 8.2, license: "Curaçao", games: "1 500+", highlight: false },
-  { rank: 15, name: "Betfair", slug: "betfair", bonus: "Bono de bienvenida", rating: 8.1, license: "Internacional", games: "1 200+", highlight: false },
+  { rank: 7, name: "JackpotCity", slug: "jackpotcity-chile", bonus: "Hasta $1.008.000 CLP + 200 Giros Gratis", rating: 9.2, license: "Internacional", games: "2 000+", highlight: false },
+  { rank: 8, name: "Gaming Club", slug: "gamingclub-chile", bonus: "100% hasta $200 + 150% hasta $150", rating: 8.5, license: "Internacional", games: "1 200+", highlight: false },
+  { rank: 9, name: "Bet365", slug: "bet365", bonus: "100% bono de bienvenida", rating: 8.8, license: "Internacional", games: "1 800+", highlight: false },
+  { rank: 10, name: "Stake", slug: "stake", bonus: "Bono primer depósito + giros", rating: 8.7, license: "Internacional", games: "3 000+", highlight: false },
+  { rank: 11, name: "1xBet", slug: "1xbet", bonus: "100% primer depósito hasta $300", rating: 8.6, license: "Internacional", games: "5 000+", highlight: false },
+  { rank: 12, name: "Betway", slug: "betway", bonus: "100% bono de bienvenida", rating: 8.5, license: "Internacional", games: "1 500+", highlight: false },
+  { rank: 13, name: "Betano", slug: "betano", bonus: "Giros gratis sin depósito", rating: 8.4, license: "Internacional", games: "2 000+", highlight: false },
+  { rank: 14, name: "20Bet", slug: "20bet", bonus: "100% hasta $120 + 120 giros", rating: 8.3, license: "Curaçao", games: "3 000+", highlight: false },
+  { rank: 15, name: "Dafabet", slug: "dafabet", bonus: "100% hasta $200", rating: 8.2, license: "Curaçao", games: "1 500+", highlight: false },
+  { rank: 16, name: "Betfair", slug: "betfair", bonus: "Bono de bienvenida", rating: 8.1, license: "Internacional", games: "1 200+", highlight: false },
 ];
 
 const categoryPicks = [
   { title: "Mejor variedad de juegos", casino: "FRESH Casino", slug: "fresh-casino", reason: "4 500+ juegos de 80+ proveedores. Buscamos títulos raros de Hacksaw y Nolimit City y estaban todos. Ningún otro casino del ranking se le acerca en catálogo, ni de cerca." },
   { title: "Pagos más rápidos", casino: "Betsson", slug: "betsson-chile", reason: "Probamos un retiro con WebPay un jueves a las 9pm y en menos de 2 horas teníamos las lucas en la cuenta. Con transferencia bancaria tardó 3 horas. Re rápido para lo que es Chile." },
-  { title: "Mejor bono de bienvenida", casino: "MONRO Casino", slug: "monro-casino", reason: "150% en tu primer depósito. Nadie más llega a ese porcentaje. Le metes $50.000 CLP y juegas con $125.000. Haz la cuenta." },
+  { title: "Mejor bono de bienvenida", casino: "PIN-UP Casino", slug: "pinup", reason: "120% hasta $5.000.000 CLP + 250 giros gratis. El monto más alto en pesos chilenos del ranking, no hay ni uno que se le acerque. Le metes $50.000 y juegas con $110.000, más los 250 giros. Haz la cuenta, es bacán." },
   { title: "Mejor para slots", casino: "STARDA Casino", slug: "starda-casino", reason: "Torneos semanales con premios de $15.000 USD, los proveedores de alta volatilidad que ves en streams (Hacksaw, Nolimit City, Push Gaming) y la mejor sección de crash que encontramos." },
   { title: "Mejor casino en vivo", casino: "Betsson", slug: "betsson-chile", reason: "200+ mesas en vivo con dealers que hablan español de verdad. Probamos una mesa de blackjack a las 2am y la experiencia fue de primer nivel." },
   { title: "Mejor para principiantes", casino: "SOL Casino", slug: "sol-casino", reason: "Se lo pasamos a un amigo que nunca había jugado online. En 10 minutos cachó todo. La interfaz es clarísima y el rollover x30 es el más bajo del ranking." },
@@ -213,6 +214,8 @@ export default function MejoresCasinosOnlineChile() {
             const initials = c.name.replace(/Casino|Online/gi, "").trim().substring(0, 2).toUpperCase();
             const logoMap: Record<string, { src: string; invert?: boolean; lightBg?: boolean }> = {
               "starda-casino": { src: "/img/logos/starda.svg" },
+              "pinup": { src: "/img/logos/pin-up.png" },
+              "jackpotcity-chile": { src: "/img/logos/jackpotcity.png" },
               "monro-casino": { src: "/img/logos/monro.svg" },
               "sol-casino": { src: "/img/logos/sol.svg" },
               "fresh-casino": { src: "/img/logos/fresh.png" },
@@ -326,6 +329,8 @@ export default function MejoresCasinosOnlineChile() {
                       {(() => {
                         const dLogoMap: Record<string, { src: string; invert?: boolean; lightBg?: boolean }> = {
                           "starda-casino": { src: "/img/logos/starda.svg" },
+              "pinup": { src: "/img/logos/pin-up.png" },
+              "jackpotcity-chile": { src: "/img/logos/jackpotcity.png" },
                           "monro-casino": { src: "/img/logos/monro.svg" },
                           "sol-casino": { src: "/img/logos/sol.svg" },
                           "fresh-casino": { src: "/img/logos/fresh.png" },
@@ -461,11 +466,71 @@ export default function MejoresCasinosOnlineChile() {
           <CtaButton slug="betsson-chile" text="Probar Betsson" />
         </div>
 
+        {/* ── PIN-UP Casino ── */}
+        <div className="mb-16">
+          <div className="flex flex-wrap items-center gap-4 mb-2">
+            <h3 className="text-2xl sm:text-3xl font-black text-white">2. PIN-UP Casino</h3>
+            <span className="text-[#22c55e] font-black text-xl">9.4/10</span>
+          </div>
+          <div className="h-1 w-24 bg-gradient-to-r from-[#e11d48] to-transparent rounded mb-6" />
+
+          <h4 className="text-lg font-bold text-white mb-3">+10.000 juegos — el catálogo más grande del ranking</h4>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            Partamos por lo bacán: PIN-UP tiene <strong className="text-white">más de 10.000 juegos</strong>.
+            Y no es choreo: los contamos y están ahí. Para comparar, FRESH tiene 4.500 (que ya es un montón).
+            Acá vas a encontrar todo: Hacksaw, Nolimit City, Pragmatic, NetEnt, Evolution, Play'n GO, y
+            varios proveedores raros que no tienen otros casinos chilenos.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            La interfaz, considerando la cantidad de juegos, está bien organizada. Filtros por proveedor,
+            tipo, volatilidad, características. El buscador funciona al toque. Si cachai de slots, vas a
+            tener juegos nuevos para probar por meses.
+          </p>
+
+          <h4 className="text-lg font-bold text-white mb-3">Bono de bienvenida: $5.000.000 CLP + 250 giros gratis</h4>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            120% en tu primer depósito hasta $5 millones de pesos chilenos más 250 giros gratis. Es el monto
+            más alto en CLP que vas a encontrar, ni Betsson se le acerca en bruto. Si depositas $50.000,
+            juegas con $110.000. El rollover es x50 en 7 días. No te voy a mentir, es cuática esa condición:
+            la cumplimos jugando sesiones de 2 horas diarias, pero si juegas casual te va a costar. Los 250
+            giros se reparten en 5 días y las ganancias no tienen rollover extra.
+          </p>
+
+          <h4 className="text-lg font-bold text-white mb-3">Casino vivo, apuestas deportivas y app móvil</h4>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            PIN-UP no es solo casino. Tienen <strong className="text-white">apuestas deportivas</strong> con
+            mercados para todo: fútbol (Primera División, Premier, La Liga), NBA, tenis, hasta eSports. El
+            casino en vivo tiene mesas de Evolution, Pragmatic Live y Ezugi — blackjack, ruleta, baccarat,
+            Crazy Time, Monopoly Live. Dealers en español en la mayoría de las mesas.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-4">
+            Y tienen <strong className="text-white">app móvil nativa para Android e iOS</strong>. La probamos
+            y va más fluida que el navegador. Interfaz optimizada para celular, login rápido con huella,
+            guarda los métodos de pago. Si jugai desde el celu (como la mayoría), vai a agradecer esto.
+          </p>
+
+          <ProsCons
+            pros={[
+              "+10.000 juegos — el catálogo más grande del ranking chileno, sin competencia",
+              "Bono de $5 millones CLP + 250 giros, el más alto del ranking en bruto",
+              "App móvil nativa Android/iOS que funciona mejor que la web móvil",
+              "Casino + apuestas deportivas en una sola cuenta, ideal para fútbol chileno",
+              "Soporte 24/7 en español, probamos un domingo a las 2am y respondieron en 90 segundos",
+            ]}
+            cons={[
+              "Rollover x50 del bono es exigente si no juegas seguido",
+              "Licencia Curaçao, no regulación chilena específica",
+              "La interfaz puede abrumar con tantos juegos al principio",
+            ]}
+          />
+          <CtaButton slug="pinup" text="Probar PIN-UP Casino" />
+        </div>
+
         {/* ── FRESH ── */}
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-white">2. FRESH Casino</h3>
-            <span className="text-[#22c55e] font-black text-xl">9.3/10</span>
+            <h3 className="text-2xl sm:text-3xl font-black text-white">3. FRESH Casino</h3>
+            <span className="text-[#22c55e] font-black text-xl">8.9/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#e11d48] to-transparent rounded mb-6" />
           <p className="text-[#9ca3af] leading-relaxed mb-3">
@@ -506,7 +571,7 @@ export default function MejoresCasinosOnlineChile() {
         {/* ── SOL ── */}
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-white">3. SOL Casino</h3>
+            <h3 className="text-2xl sm:text-3xl font-black text-white">4. SOL Casino</h3>
             <span className="text-[#22c55e] font-black text-xl">9.1/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#e11d48] to-transparent rounded mb-6" />
@@ -548,7 +613,7 @@ export default function MejoresCasinosOnlineChile() {
         {/* ── MONRO ── */}
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-white">4. MONRO Casino</h3>
+            <h3 className="text-2xl sm:text-3xl font-black text-white">6. MONRO Casino</h3>
             <span className="text-[#22c55e] font-black text-xl">9.0/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#e11d48] to-transparent rounded mb-6" />

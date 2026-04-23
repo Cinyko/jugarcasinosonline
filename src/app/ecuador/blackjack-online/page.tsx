@@ -11,13 +11,14 @@ export const metadata: Metadata = {
 /* ───────── Casino data ───────── */
 const ecuadorCasinos = [
   { rank: 1, name: "Betsson", slug: "betsson-latam", bonus: "¡Duplica tu depósito hasta $100!", rating: 9.5, bjTables: "30+", liveBj: true, highlight: true, badge: "⭐ Recomendado" },
-  { rank: 2, name: "STARDA Casino", slug: "starda-casino", bonus: "100% + 500 giros gratis", rating: 9.3, bjTables: "20+", liveBj: true, highlight: false, badge: "🔥 TOP" },
-  { rank: 3, name: "SOL Casino", slug: "sol-casino", bonus: "100% + 500 giros gratis", rating: 9.1, bjTables: "35+", liveBj: true, highlight: false },
-  { rank: 4, name: "MONRO Casino", slug: "monro-casino", bonus: "150% primer depósito", rating: 9.0, bjTables: "25+", liveBj: true, highlight: false },
-  { rank: 5, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% + 500 giros gratis", rating: 8.9, bjTables: "45+", liveBj: true, highlight: false },
-  { rank: 6, name: "1xBet", slug: "1xbet", bonus: "100% hasta $300", rating: 8.6, bjTables: "15+", liveBj: true, highlight: false },
-  { rank: 7, name: "20Bet", slug: "20bet", bonus: "100% hasta $120 + 120 giros", rating: 8.4, bjTables: "12+", liveBj: true, highlight: false },
-  { rank: 8, name: "Melbet", slug: "melbet", bonus: "100% + 30 giros", rating: 8.3, bjTables: "10+", liveBj: true, highlight: false },
+  { rank: 2, name: "PIN-UP Casino", slug: "pinup", bonus: "120% primer depósito + 250 giros gratis", rating: 9.4, bjTables: "40+", liveBj: true, highlight: false },
+  { rank: 3, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% + 500 giros gratis", rating: 8.9, bjTables: "45+", liveBj: true, highlight: false },
+  { rank: 4, name: "SOL Casino", slug: "sol-casino", bonus: "100% + 500 giros gratis", rating: 9.1, bjTables: "35+", liveBj: true, highlight: false },
+  { rank: 5, name: "STARDA Casino", slug: "starda-casino", bonus: "100% + 500 giros gratis", rating: 9.3, bjTables: "20+", liveBj: true, highlight: false, badge: "🔥 TOP" },
+  { rank: 6, name: "MONRO Casino", slug: "monro-casino", bonus: "150% primer depósito", rating: 9.0, bjTables: "25+", liveBj: true, highlight: false },
+  { rank: 7, name: "1xBet", slug: "1xbet", bonus: "100% hasta $300", rating: 8.6, bjTables: "15+", liveBj: true, highlight: false },
+  { rank: 8, name: "20Bet", slug: "20bet", bonus: "100% hasta $120 + 120 giros", rating: 8.4, bjTables: "12+", liveBj: true, highlight: false },
+  { rank: 9, name: "Melbet", slug: "melbet", bonus: "100% + 30 giros", rating: 8.3, bjTables: "10+", liveBj: true, highlight: false },
 ];
 
 const faqItems = [

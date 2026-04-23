@@ -12,15 +12,16 @@ export const metadata: Metadata = {
 
 const chileCasinos = [
   { rank: 1, name: "Betsson", slug: "betsson-chile", bonus: "Hasta $400.000 + 200 Giros Gratis", rating: 9.5, rouletteTables: "45+", liveRoulette: true, highlight: true, badge: "⭐ Recomendado" },
-  { rank: 2, name: "STARDA Casino", slug: "starda-casino", bonus: "100% + 500 giros gratis", rating: 9.3, rouletteTables: "35+", liveRoulette: true, highlight: false, badge: "🔥 TOP" },
-  { rank: 3, name: "JackpotCity", slug: "jackpotcity-chile", bonus: "$1.008.000 CLP + 200 Giros", rating: 9.2, rouletteTables: "25+", liveRoulette: true, highlight: false, badge: "" },
+  { rank: 2, name: "PIN-UP Casino", slug: "pinup", bonus: "$5.000.000 CLP + 250 giros gratis", rating: 9.4, rouletteTables: "55+", liveRoulette: true, highlight: false, badge: "" },
+  { rank: 3, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% + 500 giros gratis", rating: 8.9, rouletteTables: "60+", liveRoulette: true, highlight: false, badge: "" },
   { rank: 4, name: "SOL Casino", slug: "sol-casino", bonus: "100% + 500 giros gratis", rating: 9.1, rouletteTables: "50+", liveRoulette: true, highlight: false, badge: "" },
-  { rank: 5, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% + 500 giros gratis", rating: 8.9, rouletteTables: "60+", liveRoulette: true, highlight: false, badge: "" },
+  { rank: 5, name: "STARDA Casino", slug: "starda-casino", bonus: "100% + 500 giros gratis", rating: 9.3, rouletteTables: "35+", liveRoulette: true, highlight: false, badge: "🔥 TOP" },
   { rank: 6, name: "MONRO Casino", slug: "monro-casino", bonus: "150% primer deposito", rating: 9.0, rouletteTables: "40+", liveRoulette: true, highlight: false, badge: "" },
-  { rank: 7, name: "Gaming Club", slug: "gamingclub-chile", bonus: "100% + 150% en 2 depósitos", rating: 8.5, rouletteTables: "15+", liveRoulette: true, highlight: false, badge: "" },
-  { rank: 8, name: "Bet365", slug: "bet365", bonus: "100% bono bienvenida", rating: 8.8, rouletteTables: "20+", liveRoulette: true, highlight: false, badge: "" },
-  { rank: 9, name: "Stake", slug: "stake", bonus: "Bono primer deposito", rating: 8.7, rouletteTables: "30+", liveRoulette: true, highlight: false, badge: "" },
-  { rank: 10, name: "1xBet", slug: "1xbet", bonus: "100% hasta $300", rating: 8.6, rouletteTables: "25+", liveRoulette: true, highlight: false, badge: "" },
+  { rank: 7, name: "JackpotCity", slug: "jackpotcity-chile", bonus: "$1.008.000 CLP + 200 Giros", rating: 9.2, rouletteTables: "25+", liveRoulette: true, highlight: false, badge: "" },
+  { rank: 8, name: "Gaming Club", slug: "gamingclub-chile", bonus: "100% + 150% en 2 depósitos", rating: 8.5, rouletteTables: "15+", liveRoulette: true, highlight: false, badge: "" },
+  { rank: 9, name: "Bet365", slug: "bet365", bonus: "100% bono bienvenida", rating: 8.8, rouletteTables: "20+", liveRoulette: true, highlight: false, badge: "" },
+  { rank: 10, name: "Stake", slug: "stake", bonus: "Bono primer deposito", rating: 8.7, rouletteTables: "30+", liveRoulette: true, highlight: false, badge: "" },
+  { rank: 11, name: "1xBet", slug: "1xbet", bonus: "100% hasta $300", rating: 8.6, rouletteTables: "25+", liveRoulette: true, highlight: false, badge: "" },
 ];
 
 const faqItems = [
@@ -188,6 +189,8 @@ export default function RuletaOnlineChile() {
               const initials = c.name.replace(/Casino|Online/gi, "").trim().substring(0, 2).toUpperCase();
               const logoMap: Record<string, { src: string; invert?: boolean }> = {
                 "starda-casino": { src: "/img/logos/starda.svg" },
+                "pinup": { src: "/img/logos/pin-up.png" },
+                "jackpotcity-chile": { src: "/img/logos/jackpotcity.png" },
                 "monro-casino": { src: "/img/logos/monro.svg" },
                 "sol-casino": { src: "/img/logos/sol.svg" },
                 "fresh-casino": { src: "/img/logos/fresh.png" },
@@ -275,6 +278,8 @@ export default function RuletaOnlineChile() {
                 {chileCasinos.map((c) => {
                   const dLogoMap: Record<string, { src: string; invert?: boolean }> = {
                     "starda-casino": { src: "/img/logos/starda.svg" },
+                "pinup": { src: "/img/logos/pin-up.png" },
+                "jackpotcity-chile": { src: "/img/logos/jackpotcity.png" },
                     "monro-casino": { src: "/img/logos/monro.svg" },
                     "sol-casino": { src: "/img/logos/sol.svg" },
                     "fresh-casino": { src: "/img/logos/fresh.png" },

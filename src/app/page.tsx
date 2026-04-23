@@ -34,6 +34,8 @@ const logoMap: Record<string, { src: string; invert?: boolean }> = {
   betfair: { src: "/img/logos/betfair.png" },
   melbet: { src: "/img/logos/melbet.webp" },
   "1win": { src: "/img/logos/1win.svg" },
+  pinup: { src: "/img/logos/pin-up.png" },
+  jackpotcity: { src: "/img/logos/jackpotcity.png" },
 };
 
 /* ───────── Comparison logo resolver ───────── */

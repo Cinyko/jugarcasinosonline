@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run:*)",
+      "Bash(find src/ -name \"*.tsx\" -exec sed -i -E 's|href=\\\\{`\\(/[^`]+\\)/`\\\\}|href={`\\\\1`}|g' {} +)"
+    ]
+  }
+}
