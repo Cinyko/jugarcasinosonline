@@ -270,8 +270,15 @@ export default function CasinoRanking({ casinos, infoColumnLabel }: CasinoRankin
                     {c.highlight ? (
                       <span className="inline-flex items-center gap-1.5 text-[#fbbf24]">
                         {c.rank}
-                        <span className="text-[10px] bg-[#fbbf24] text-black font-black px-1.5 py-0.5 rounded uppercase">
-                          Top
+                        <span className="text-[11px] bg-[#fbbf24] text-black font-black px-1.5 py-0.5 rounded leading-none">
+                          ⭐
+                        </span>
+                      </span>
+                    ) : c.badge ? (
+                      <span className="inline-flex items-center gap-1.5 text-white">
+                        {c.rank}
+                        <span className="text-[11px] bg-[#f43f5e] text-white font-black px-1.5 py-0.5 rounded leading-none">
+                          🔥
                         </span>
                       </span>
                     ) : (
