@@ -85,6 +85,7 @@ const logoMap: Record<string, { src: string; invert?: boolean; lightBg?: boolean
   "1win": { src: "/img/logos/1win.svg" },
   "pinup": { src: "/img/logos/pin-up.png" },
   "jackpotcity-chile": { src: "/img/logos/jackpotcity.png" },
+  "gamingclub-chile": { src: "/img/logos/Gaming-Club.png" },
 };
 
 export type CasinoRankingItem = {

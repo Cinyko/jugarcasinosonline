@@ -36,6 +36,7 @@ const logoMap: Record<string, { src: string; invert?: boolean }> = {
   "1win": { src: "/img/logos/1win.svg" },
   pinup: { src: "/img/logos/pin-up.png" },
   jackpotcity: { src: "/img/logos/jackpotcity.png" },
+  gamingclub: { src: "/img/logos/Gaming-Club.png" },
 };
 
 /* ───────── Comparison logo resolver ───────── */
