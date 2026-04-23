@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { LAST_UPDATED, LAST_UPDATED_ISO, LAST_UPDATED_YEAR } from "@/data/config";
+import CasinoRanking from "@/components/CasinoRanking";
 
 export const metadata: Metadata = {
   title: "Ruleta Online en Perú 2026 | Mejores Casinos con Ruleta en Vivo",
@@ -12,7 +13,7 @@ export const metadata: Metadata = {
 
 const peruCasinos = [
   { rank: 1, name: "Betsson", slug: "betsson-peru", bonus: "Gana 300 Giros Gratis", rating: 9.5, rouletteTables: "45+", liveRoulette: true, highlight: true, badge: "⭐ Recomendado" },
-  { rank: 2, name: "STARDA Casino", slug: "starda-casino", bonus: "100% + 500 giros gratis", rating: 9.3, rouletteTables: "35+", liveRoulette: true, highlight: false, badge: "🔥 TOP" },
+  { rank: 2, name: "STARDA Casino", slug: "starda-casino", bonus: "100% + 500 giros gratis", rating: 9.3, rouletteTables: "35+", liveRoulette: true, highlight: false },
   { rank: 3, name: "Inkabet", slug: "inkabet", bonus: "Hasta S/500 + 300 giros gratis", rating: 9.2, rouletteTables: "20+", liveRoulette: true, highlight: false },
   { rank: 4, name: "SOL Casino", slug: "sol-casino", bonus: "100% + 500 giros gratis", rating: 9.1, rouletteTables: "50+", liveRoulette: true, highlight: false },
   { rank: 5, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% + 500 giros gratis", rating: 8.9, rouletteTables: "60+", liveRoulette: true, highlight: false },
@@ -261,53 +262,19 @@ export default function RuletaOnlinePeru() {
           Este ranking está armado pensando exclusivamente en la experiencia de ruleta. No es lo mismo que un ranking general de casinos, porque acá lo que importa es la cantidad de mesas, la calidad del streaming en vivo, las variantes disponibles y los límites de apuesta. Un casino puede ser excelente para slots pero mediocre para ruleta, y viceversa.
         </p>
 
-        {/* Desktop table */}
-        <div className="overflow-x-auto rounded-2xl border border-white/[0.08]">
-          <table className="w-full text-left text-sm">
-            <thead>
-              <tr className="bg-white/[0.03] border-b border-white/[0.06]">
-                <th className="px-4 py-4 text-[#71717a] font-semibold text-xs uppercase tracking-wider">#</th>
-                <th className="px-4 py-4 text-[#71717a] font-semibold text-xs uppercase tracking-wider">Casino</th>
-                <th className="px-4 py-4 text-[#71717a] font-semibold text-xs uppercase tracking-wider">Mesas de Ruleta</th>
-                <th className="px-4 py-4 text-[#71717a] font-semibold text-xs uppercase tracking-wider">Ruleta en Vivo</th>
-                <th className="px-4 py-4 text-[#71717a] font-semibold text-xs uppercase tracking-wider">Bono</th>
-                <th className="px-4 py-4 text-[#71717a] font-semibold text-xs uppercase tracking-wider min-w-[140px]">Puntuación</th>
-                <th className="px-4 py-4" />
-              </tr>
-            </thead>
-            <tbody>
-              {peruCasinos.map((c) => (
-                <tr
-                  key={c.slug}
-                  className={`border-b border-white/[0.04] transition-colors hover:bg-white/[0.02] ${c.highlight ? "bg-[#fbbf24]/[0.04]" : ""}`}
-                >
-                  <td className="px-4 py-4">
-                    <span className={`font-black text-lg ${c.highlight ? "text-[#fbbf24]" : "text-white/40"}`}>{c.rank}</span>
-                  </td>
-                  <td className="px-4 py-4">
-                    <span className={`font-bold ${c.highlight ? "text-[#fbbf24]" : "text-white"}`}>{c.name}</span>
-                    {c.badge && <span className={`ml-2 text-[10px] font-bold px-2 py-0.5 rounded-full ${c.highlight ? "bg-[#fbbf24]/20 text-[#fbbf24]" : "bg-[#f43f5e]/20 text-[#f43f5e]"}`}>{c.badge}</span>}
-                  </td>
-                  <td className="px-4 py-4 text-[#d4d4d8] font-semibold">{c.rouletteTables}</td>
-                  <td className="px-4 py-4">
-                    {c.liveRoulette ? (
-                      <span className="text-[#22c55e] font-bold">&#10003; Sí</span>
-                    ) : (
-                      <span className="text-[#ef4444]">&#10007; No</span>
-                    )}
-                  </td>
-                  <td className="px-4 py-4 text-[#d4d4d8] text-xs max-w-[180px]">{c.bonus}</td>
-                  <td className="px-4 py-4 min-w-[140px]">
-                    <RatingBar rating={c.rating} />
-                  </td>
-                  <td className="px-4 py-4">
-                    <CtaButton slug={c.slug} text="Jugar Ruleta" />
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
+        <CasinoRanking
+          casinos={peruCasinos.map((c) => ({
+            rank: c.rank,
+            name: c.name,
+            slug: c.slug,
+            bonus: c.bonus,
+            rating: c.rating,
+            highlight: c.highlight,
+            badge: c.badge,
+            infoText: `${c.rouletteTables} mesas${c.liveRoulette ? " · en vivo" : ""}`,
+          }))}
+          infoColumnLabel="Mesas de Ruleta"
+        />
 
         <p className="text-[#71717a] text-xs mt-4 italic">
           * La cantidad de mesas puede variar según el horario. Los datos fueron verificados en {LAST_UPDATED}.
@@ -734,7 +701,6 @@ export default function RuletaOnlinePeru() {
         {/* ── STARDA Casino ── */}
         <div className="rounded-2xl border border-[#f43f5e]/20 bg-[#f43f5e]/[0.03] p-6 sm:p-8 mb-10">
           <div className="flex items-center gap-3 mb-2">
-            <span className="text-xs bg-[#f43f5e]/20 text-[#f43f5e] px-3 py-1 rounded-full font-bold">🔥 TOP</span>
           </div>
           <h3 className="text-2xl font-black text-white mb-1">STARDA Casino</h3>
           <p className="text-[#71717a] text-sm mb-6">35+ mesas de ruleta &middot; Ruleta en vivo &middot; Bono: 100% + 500 giros gratis</p>

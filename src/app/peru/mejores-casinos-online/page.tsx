@@ -860,7 +860,6 @@ export default function MejoresCasinosOnlinePeru() {
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
             <h3 className="text-2xl sm:text-3xl font-black text-white">5. STARDA Casino</h3>
-            <span className="bg-[#f43f5e] text-white text-xs font-black px-3 py-1 rounded-full uppercase">🔥 TOP</span>
             <span className="text-[#22c55e] font-black text-xl">8.9/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#dc2626] to-transparent rounded mb-6" />

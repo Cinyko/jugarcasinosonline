@@ -89,3 +89,9 @@ Que si alguien pasa el contenido por un detector de IA, no lo marque. Y más imp
 
 - Es válido inventar datos realistas sobre los casinos (número de juegos, tiempos de retiro, experiencias de uso) pero los BONOS deben ser los reales verificados
 - Las experiencias de primera mano son inventadas pero deben sonar creíbles y específicas
+
+## REGLAS DE EJECUCIÓN
+
+- NUNCA uses subagentes ni delegues tareas a otros agentes. Haz todo el trabajo tú mismo, secuencialmente, archivo por archivo.
+- NO uses Task, Dispatch, ni ningún sistema de agentes paralelos.
+- Si una tarea es grande, hazla tú mismo en pasos, no la dividas en agentes.

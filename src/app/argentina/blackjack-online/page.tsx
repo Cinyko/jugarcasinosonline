@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { LAST_UPDATED, LAST_UPDATED_ISO, LAST_UPDATED_YEAR } from "@/data/config";
+import CasinoRanking from "@/components/CasinoRanking";
 
 export const metadata: Metadata = {
   title: "Blackjack Online en Argentina 2026 | Casinos, Estrategia Básica y Mesas en Vivo",
@@ -11,7 +12,7 @@ export const metadata: Metadata = {
 /* ───────── Casino data ───────── */
 const argCasinos = [
   { rank: 1, name: "Betsson", slug: "betsson-argentina", bonus: "Hasta $350.000 + 200 Giros Gratis", rating: 9.5, bjTables: "30+", liveBj: true, highlight: true, badge: "⭐ Recomendado" },
-  { rank: 2, name: "STARDA Casino", slug: "starda-casino", bonus: "100% + 500 giros gratis", rating: 9.3, bjTables: "20+", liveBj: true, highlight: false, badge: "🔥 TOP" },
+  { rank: 2, name: "STARDA Casino", slug: "starda-casino", bonus: "100% + 500 giros gratis", rating: 9.3, bjTables: "20+", liveBj: true, highlight: false },
   { rank: 3, name: "SOL Casino", slug: "sol-casino", bonus: "100% + 500 giros gratis", rating: 9.1, bjTables: "35+", liveBj: true, highlight: false },
   { rank: 4, name: "MONRO Casino", slug: "monro-casino", bonus: "150% primer depósito", rating: 9.0, bjTables: "25+", liveBj: true, highlight: false },
   { rank: 5, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% + 500 giros gratis", rating: 8.9, bjTables: "45+", liveBj: true, highlight: false },
@@ -190,44 +191,21 @@ export default function BlackjackOnlineArgentina() {
             Probamos blackjack en los 8 casinos más usados por argentinos. Nos fijamos en la cantidad de mesas, si te dejan doblar y dividir sin restricciones truchas, la calidad del streaming en vivo, los límites en pesos y si pagan sin vueltas. Te contamos todo lo que encontramos, sin filtro.
           </p>
 
-          {/* ── COMPARISON TABLE ── */}
-          <div className="mt-12 overflow-x-auto rounded-2xl border border-white/[0.06]">
-            <table className="w-full text-left text-sm">
-              <thead>
-                <tr className="bg-[#141414] text-[#71717a] uppercase text-xs tracking-wider">
-                  <th className="px-4 py-4 font-bold">#</th>
-                  <th className="px-4 py-4 font-bold">Casino</th>
-                  <th className="px-4 py-4 font-bold hidden md:table-cell">Mesas BJ</th>
-                  <th className="px-4 py-4 font-bold hidden md:table-cell">BJ en Vivo</th>
-                  <th className="px-4 py-4 font-bold hidden sm:table-cell">Bono</th>
-                  <th className="px-4 py-4 font-bold">Puntuación</th>
-                  <th className="px-4 py-4 font-bold text-right">Enlace</th>
-                </tr>
-              </thead>
-              <tbody>
-                {argCasinos.map((c) => (
-                  <tr key={c.slug} className={`border-t border-white/[0.04] transition-colors hover:bg-white/[0.02] ${c.highlight ? "bg-[#fbbf24]/[0.03]" : ""}`}
-                    style={c.highlight ? { boxShadow: "inset 3px 0 0 #fbbf24" } : undefined}>
-                    <td className="px-4 py-4 font-black text-white">
-                      {c.highlight ? (
-                        <span className="inline-flex items-center gap-1.5 text-[#fbbf24]">{c.rank}<span className="text-[10px] bg-[#fbbf24] text-black font-black px-1.5 py-0.5 rounded uppercase">⭐</span></span>
-                      ) : c.rank}
-                    </td>
-                    <td className="px-4 py-4 font-extrabold text-white">{c.name}{c.badge && <span className={`ml-2 text-[10px] font-bold px-2 py-0.5 rounded-full ${c.highlight ? "bg-[#fbbf24]/20 text-[#fbbf24]" : "bg-[#f43f5e]/20 text-[#f43f5e]"}`}>{c.badge}</span>}</td>
-                    <td className="px-4 py-4 text-[#d4d4d8] hidden md:table-cell">{c.bjTables}</td>
-                    <td className="px-4 py-4 hidden md:table-cell">{c.liveBj ? <span className="text-[#22c55e]">✓ Sí</span> : <span className="text-[#71717a]">No</span>}</td>
-                    <td className="px-4 py-4 text-[#d4d4d8] hidden sm:table-cell">{c.bonus}</td>
-                    <td className="px-4 py-4 w-36"><RatingBar rating={c.rating} /></td>
-                    <td className="px-4 py-4 text-right">
-                      <a href={`/go/${c.slug}`} target="_blank" rel="nofollow noopener sponsored"
-                        className="inline-flex items-center justify-center px-4 py-2 rounded-lg bg-[#00C853] font-bold text-white text-xs uppercase tracking-wide transition-all hover:bg-[#00E676] whitespace-nowrap">
-                        Jugar
-                      </a>
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
+          {/* ── CASINO COMPARISON ── */}
+          <div className="mt-12">
+            <CasinoRanking
+              casinos={argCasinos.map((c) => ({
+                rank: c.rank,
+                name: c.name,
+                slug: c.slug,
+                bonus: c.bonus,
+                rating: c.rating,
+                highlight: c.highlight,
+                badge: c.badge,
+                infoText: `${c.bjTables} mesas${c.liveBj ? " · en vivo" : ""}`,
+              }))}
+              infoColumnLabel="Mesas de BJ"
+            />
           </div>
         </div>
       </section>
@@ -659,7 +637,6 @@ export default function BlackjackOnlineArgentina() {
         <div className="mb-8">
           <div className="flex flex-wrap items-center gap-4 mb-2">
             <h3 className="text-2xl sm:text-3xl font-black text-[#f43f5e]">5. STARDA Casino</h3>
-            <span className="bg-[#f43f5e] text-white text-xs font-black px-3 py-1 rounded-full uppercase">🔥 TOP</span>
             <span className="text-[#22c55e] font-black text-xl">8.9/10</span>
           </div>
 

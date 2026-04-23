@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 const ecuadorCasinos = [
   { rank: 1, name: "Betsson", slug: "betsson-latam", bonus: "¡Duplica tu depósito hasta $100!", rating: 9.5, license: "Internacional", games: "2 500+", highlight: true },
-  { rank: 2, name: "PIN-UP Casino", slug: "pinup", bonus: "120% primer depósito + 250 giros gratis", rating: 9.4, license: "Curaçao", games: "10 000+", highlight: false },
+  { rank: 2, name: "PIN-UP Casino", slug: "pinup", bonus: "120% primer depósito + 250 giros gratis", rating: 9.4, license: "Curaçao", games: "10 000+", highlight: false, badge: "🔥 TOP" },
   { rank: 3, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 8.9, license: "Curaçao", games: "4 500+", highlight: false },
   { rank: 4, name: "SOL Casino", slug: "sol-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.1, license: "Curaçao", games: "4 000+", highlight: false },
   { rank: 5, name: "STARDA Casino", slug: "starda-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.3, license: "Curaçao", games: "3 800+", highlight: false },
@@ -395,6 +395,7 @@ export default function MejoresCasinosOnlineEcuador() {
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
             <h3 className="text-2xl sm:text-3xl font-black text-white">2. PIN-UP Casino</h3>
+            <span className="bg-[#f43f5e] text-white text-xs font-black px-3 py-1 rounded-full uppercase">🔥 TOP</span>
             <span className="text-[#22c55e] font-black text-xl">9.4/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#eab308] to-transparent rounded mb-6" />
@@ -589,7 +590,6 @@ export default function MejoresCasinosOnlineEcuador() {
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
             <h3 className="text-2xl sm:text-3xl font-black text-white">5. STARDA Casino</h3>
-            <span className="bg-[#f43f5e] text-white text-xs font-black px-3 py-1 rounded-full uppercase">🔥 TOP</span>
             <span className="text-[#22c55e] font-black text-xl">8.9/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#eab308] to-transparent rounded mb-6" />
