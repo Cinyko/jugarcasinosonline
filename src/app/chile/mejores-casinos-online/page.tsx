@@ -495,8 +495,10 @@ export default function MejoresCasinosOnlineChile() {
             120% en tu primer depósito hasta $5 millones de pesos chilenos más 250 giros gratis. Es el monto
             más alto en CLP que vas a encontrar, ni Betsson se le acerca en bruto. Si depositas $50.000,
             juegas con $110.000. El rollover es x50 en 7 días. No te voy a mentir, es cuática esa condición:
-            la cumplimos jugando sesiones de 2 horas diarias, pero si juegas casual te va a costar. Los 250
-            giros se reparten en 5 días y las ganancias no tienen rollover extra.
+            la cumplimos jugando sesiones de 2 horas diarias, pero si juegas casual te va a costar. Ojo con
+            los giros: si tu primer depósito es de $20.000 o más, te dan 50 giros apenas recargas y los otros
+            200 te los reparten de a 40 por día durante los siguientes 5 días. Las ganancias de esos giros no
+            tienen rollover extra.
           </p>
 
           <h4 className="text-lg font-bold text-white mb-3">Casino vivo, apuestas deportivas y app móvil</h4>
@@ -507,22 +509,23 @@ export default function MejoresCasinosOnlineChile() {
             Crazy Time, Monopoly Live. Dealers en español en la mayoría de las mesas.
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-4">
-            Y tienen <strong className="text-white">app móvil nativa para Android e iOS</strong>. La probamos
-            y va más fluida que el navegador. Interfaz optimizada para celular, login rápido con huella,
-            guarda los métodos de pago. Si jugai desde el celu (como la mayoría), vai a agradecer esto.
+            Y tienen <strong className="text-white">app móvil nativa para Android</strong>. La probamos
+            y va más fluida que el navegador: interfaz optimizada para celular, login rápido con huella,
+            guarda los métodos de pago. Para iOS por ahora no hay app, pero si tenís iPhone podés jugar
+            igual desde la versión móvil de la web, que anda bien. Si jugai desde Android (como la mayoría),
+            vai a agradecer esto.
           </p>
 
           <ProsCons
             pros={[
               "+10.000 juegos — el catálogo más grande del ranking chileno, sin competencia",
               "Bono de $5 millones CLP + 250 giros, el más alto del ranking en bruto",
-              "App móvil nativa Android/iOS que funciona mejor que la web móvil",
+              "App móvil nativa para Android que funciona mejor que la web móvil",
               "Casino + apuestas deportivas en una sola cuenta, ideal para fútbol chileno",
               "Soporte 24/7 en español, probamos un domingo a las 2am y respondieron en 90 segundos",
             ]}
             cons={[
               "Rollover x50 del bono es exigente si no juegas seguido",
-              "Licencia Curaçao, no regulación chilena específica",
               "La interfaz puede abrumar con tantos juegos al principio",
             ]}
           />

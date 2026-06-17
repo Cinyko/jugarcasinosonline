@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 const ecuadorCasinos = [
   { rank: 1, name: "Betsson", slug: "betsson-latam", bonus: "¡Duplica tu depósito hasta $100!", rating: 9.5, license: "Internacional", games: "2 500+", highlight: true },
-  { rank: 2, name: "PIN-UP Casino", slug: "pinup", bonus: "120% primer depósito + 250 giros gratis", rating: 9.4, license: "Curaçao", games: "10 000+", highlight: false, badge: "🔥 TOP" },
+  { rank: 2, name: "PIN-UP Casino", slug: "pinup", bonus: "120% hasta $5,300 USD + 250 giros gratis", rating: 9.4, license: "Curaçao", games: "10 000+", highlight: false, badge: "🔥 TOP" },
   { rank: 3, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 8.9, license: "Curaçao", games: "4 500+", highlight: false },
   { rank: 4, name: "SOL Casino", slug: "sol-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.1, license: "Curaçao", games: "4 000+", highlight: false },
   { rank: 5, name: "STARDA Casino", slug: "starda-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.3, license: "Curaçao", games: "3 800+", highlight: false },
@@ -415,13 +415,14 @@ export default function MejoresCasinosOnlineEcuador() {
             acá vas a tener para meses sin repetir.
           </p>
 
-          <h4 className="text-lg font-bold text-white mb-3">Bono de bienvenida: 120% + 250 giros gratis</h4>
+          <h4 className="text-lg font-bold text-white mb-3">Bono de bienvenida: 120% hasta $5,300 USD + 250 giros gratis</h4>
           <p className="text-[#9ca3af] leading-relaxed mb-3">
-            120% en tu primer depósito más 250 giros gratis. Todo en dólares, que para Ecuador es una ventaja
-            (no hay conversiones raras). Si depositas $100 USD, juegas con $220. El rollover es x50 en 7 días
-            — no te voy a mentir, es exigente. Lo cumplimos jugando unas 2 horas diarias de slots, pero si
-            juegas casual te va a costar. Los 250 giros se reparten en 5 días (50 por día) y las ganancias
-            no tienen rollover extra, eso es bueno.
+            120% en tu primer depósito hasta $5,300 USD más 250 giros gratis. Todo en dólares, que para Ecuador
+            es una ventaja (no hay conversiones raras). Si depositas $100 USD, juegas con $220. El rollover es
+            x50 en 7 días — no te voy a mentir, es exigente. Lo cumplimos jugando unas 2 horas diarias de slots,
+            pero si juegas casual te va a costar. Ojo con los giros: si tu primer depósito es de $50 USD o más,
+            te dan 50 giros apenas recargas y los otros 200 te los reparten de a 40 por día durante los
+            siguientes 5 días. Las ganancias de esos giros no tienen rollover extra, eso es bueno.
           </p>
 
           <h4 className="text-lg font-bold text-white mb-3">Casino en vivo, deportes y app móvil</h4>
@@ -432,22 +433,23 @@ export default function MejoresCasinosOnlineEcuador() {
             ruleta, baccarat, Crazy Time, Monopoly Live. Dealers en español en la mayoría.
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-4">
-            Y tienen <strong className="text-white">app móvil para Android e iOS</strong>. La descargamos y
+            Y tienen <strong className="text-white">app móvil nativa para Android</strong>. La descargamos y
             funciona mejor que la versión web en el celular. Interfaz optimizada, login con huella, guarda
-            métodos de pago. Si juegas desde el móvil (que es donde estamos la mayoría), esta app es un plus.
+            métodos de pago. Para iOS por ahora no hay app, pero si tienes iPhone puedes jugar igual desde la
+            versión móvil de la web, que funciona bien. Si juegas desde Android (que es donde estamos la
+            mayoría), esta app es un plus.
           </p>
 
           <ProsCons
             pros={[
               "+10.000 juegos — el catálogo más grande del ranking, por mucho",
               "Bono de 120% + 250 giros, el porcentaje más alto que vas a encontrar",
-              "App móvil nativa Android/iOS que realmente funciona bien",
+              "App móvil nativa para Android que realmente funciona bien",
               "Casino + apuestas deportivas en la misma cuenta",
               "Soporte 24/7 en español, responden rápido incluso de madrugada",
             ]}
             cons={[
               "Rollover x50 del bono es alto si juegas poco",
-              "Licencia Curaçao, como la mayoría de casinos internacionales en Ecuador",
               "La cantidad de juegos puede abrumar al principio — hay que usar los filtros",
             ]}
           />

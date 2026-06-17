@@ -27,7 +27,7 @@ export const casinos: Casino[] = [
     countryData: {
       mexico: { bonus: "120% hasta $100,000 MXN + 250 giros gratis", affiliateSlug: "pinup" },
       chile: { bonus: "120% hasta $5,000,000 CLP + 250 giros gratis", affiliateSlug: "pinup" },
-      ecuador: { bonus: "120% primer depósito + 250 giros gratis", affiliateSlug: "pinup" },
+      ecuador: { bonus: "120% hasta $5,300 USD + 250 giros gratis", affiliateSlug: "pinup" },
     },
   },
   {

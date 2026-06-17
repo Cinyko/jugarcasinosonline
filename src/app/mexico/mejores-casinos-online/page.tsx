@@ -601,8 +601,9 @@ export default function MejoresCasinosOnlineMexico() {
             El bono más alto del ranking en pesos mexicanos. 120% en tu primer depósito hasta $100,000 MXN más
             250 giros gratis. Si depositas $1,000 MXN, juegas con $2,200. El rollover es x50 en 7 días, que no
             te voy a mentir, es exigente. Lo cumplimos jugando sesiones de 2 horas diarias de slots, pero si
-            juegas casual te va a costar. Los 250 giros se reparten en 5 días (50 por día) y no tienen rollover
-            extra sobre las ganancias — eso está chido.
+            juegas casual te va a costar. Ojo con cómo entregan los 250 giros: si tu primer depósito es de
+            $500 MXN o más, te sueltan 50 giros apenas recargas y los otros 200 te los van dando de a 40 por
+            día durante los siguientes 5 días. Las ganancias de esos giros no tienen rollover extra — eso está chido.
           </p>
 
           <h4 className="text-lg font-bold text-white mb-3">Casino en vivo, deportes y app móvil</h4>
@@ -614,23 +615,24 @@ export default function MejoresCasinosOnlineMexico() {
             la mayoría de las mesas.
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-4">
-            Y tienen <strong className="text-white">app móvil nativa para Android e iOS</strong>. La descargamos
+            Y tienen <strong className="text-white">app móvil nativa para Android</strong>. La descargamos
             y la probamos: funciona más rápida que la versión web en móvil, la interfaz está optimizada para
-            pantalla pequeña, y puedes guardar métodos de pago para no tener que ingresarlos cada vez. Si juegas
-            desde el celular (que es donde está el 70% de jugadores LATAM), esta app es un plus importante.
+            pantalla pequeña, y puedes guardar métodos de pago para no tener que ingresarlos cada vez. Para iOS
+            por ahora no hay app, pero si tienes iPhone puedes jugar igual desde la versión móvil de la web, que
+            funciona bien. Si juegas desde Android (que es donde está el 70% de jugadores LATAM), esta app es un
+            plus importante.
           </p>
 
           <ProsCons
             pros={[
               "+10,000 juegos — el catálogo más grande de todo el ranking, sin competencia",
               "Bono de 120% hasta $100,000 MXN + 250 giros, el más generoso en pesos",
-              "App móvil nativa para Android e iOS que de verdad funciona bien",
+              "App móvil nativa para Android que de verdad funciona bien",
               "Casino + apuestas deportivas en una sola plataforma, cuenta única para todo",
               "Soporte en español 24/7, respondieron en 2 minutos un sábado a las 3am",
             ]}
             cons={[
               "Rollover x50 del bono es exigente si no juegas seguido",
-              "Licencia Curaçao (no SEGOB), aunque opera legal para jugadores mexicanos",
               "La cantidad de juegos puede abrumar al principio, hay que usar los filtros",
             ]}
           />
