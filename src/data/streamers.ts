@@ -76,7 +76,7 @@ export const streamers: Streamer[] = [
   },
   {
     name: "ZonaGemelosOficial",
-    country: "LATAM",
+    country: "España",
     platform: "Kick",
     description:
       "116K seguidores en Kick. Dupla de gemelos que la rompen con streams de casino y entretenimiento.",
