@@ -599,7 +599,7 @@ export default function MejoresCasinosOnlineMexico() {
           <h4 className="text-lg font-bold text-white mb-3">Bono de bienvenida: 120% hasta $100,000 MXN + 250 giros</h4>
           <p className="text-[#9ca3af] leading-relaxed mb-3">
             El bono más alto del ranking en pesos mexicanos. 120% en tu primer depósito hasta $100,000 MXN más
-            250 giros gratis. Si depositas $1,000 MXN, juegas con $2,200. El rollover es x50 en 7 días, que no
+            250 giros gratis. Si depositas $1,000 MXN, juegas con $2,200. El rollover es x50 y tienes solo 72 horas (3 días) desde que se acredita para cumplirlo, que no
             te voy a mentir, es exigente. Lo cumplimos jugando sesiones de 2 horas diarias de slots, pero si
             juegas casual te va a costar. Ojo con cómo entregan los 250 giros: si tu primer depósito es de
             $500 MXN o más, te sueltan 50 giros apenas recargas y los otros 200 te los van dando de a 40 por

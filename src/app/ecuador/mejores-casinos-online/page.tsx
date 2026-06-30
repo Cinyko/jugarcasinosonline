@@ -419,7 +419,7 @@ export default function MejoresCasinosOnlineEcuador() {
           <p className="text-[#9ca3af] leading-relaxed mb-3">
             120% en tu primer depósito hasta $5,300 USD más 250 giros gratis. Todo en dólares, que para Ecuador
             es una ventaja (no hay conversiones raras). Si depositas $100 USD, juegas con $220. El rollover es
-            x50 en 7 días — no te voy a mentir, es exigente. Lo cumplimos jugando unas 2 horas diarias de slots,
+            x50 y tienes solo 72 horas (3 días) desde que se acredita para cumplirlo — no te voy a mentir, es exigente. Lo cumplimos jugando unas 2 horas diarias de slots,
             pero si juegas casual te va a costar. Ojo con los giros: si tu primer depósito es de $50 USD o más,
             te dan 50 giros apenas recargas y los otros 200 te los reparten de a 40 por día durante los
             siguientes 5 días. Las ganancias de esos giros no tienen rollover extra, eso es bueno.
