@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { LAST_UPDATED_ISO } from "@/data/config";
+import { streamers } from "@/data/streamers";
 
 const BASE = "https://www.jugarcasinosonline.net";
 
@@ -11,6 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const staticPages = [
     { url: `${BASE}`, changeFrequency: "weekly" as const, priority: 1.0 },
+    { url: `${BASE}/streamers`, changeFrequency: "weekly" as const, priority: 0.7 },
     { url: `${BASE}/sobre-nosotros`, changeFrequency: "monthly" as const, priority: 0.5 },
     { url: `${BASE}/contacto`, changeFrequency: "monthly" as const, priority: 0.4 },
     { url: `${BASE}/politica-de-privacidad`, changeFrequency: "yearly" as const, priority: 0.3 },
@@ -34,5 +36,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }))
   );
 
-  return [...staticPages, ...countryIndex, ...countryPages];
+  const streamerPages = streamers
+    .filter((s) => s.hasArticle)
+    .map((s) => ({
+      url: `${BASE}/streamers/casino-${s.slug}`,
+      lastModified: lastmod,
+      changeFrequency: "weekly" as const,
+      priority: 0.8,
+    }));
+
+  return [...staticPages, ...countryIndex, ...countryPages, ...streamerPages];
 }

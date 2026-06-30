@@ -260,6 +260,14 @@ export const casinos: Casino[] = [
     },
     countries: ["chile", "bolivia"],
   },
+  {
+    name: "LocoWin",
+    slug: "locowin",
+    bonus: "Bono de bienvenida + giros gratis",
+    rating: 8.5,
+    affiliateUrl: "https://locowin.com",
+    license: "MGA / Kahnawake",
+  },
 ];
 
 export const comparisons: Comparison[] = [

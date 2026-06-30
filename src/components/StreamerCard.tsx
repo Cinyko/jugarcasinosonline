@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Streamer } from "@/types";
 
 const platformStyles: Record<string, { color: string; bg: string; border: string }> = {
@@ -14,19 +15,21 @@ const categoryLabels: Record<string, string> = {
 
 export default function StreamerCard({ streamer }: { streamer: Streamer }) {
   const style = platformStyles[streamer.platform];
+  const hasArticle = streamer.hasArticle;
 
-  return (
-    <div
-      className="relative flex flex-col rounded-2xl overflow-hidden"
-      style={{
-        boxShadow: `0 0 0 1px ${style.border}, 0 4px 20px rgba(0,0,0,0.3)`,
-      }}
-    >
-      {/* Próximamente badge */}
+  const inner = (
+    <>
+      {/* Top-right badge: link to guide or "coming soon" */}
       <div className="absolute top-3 right-3 z-20">
-        <span className="inline-flex items-center px-2.5 py-1 rounded-lg text-[10px] font-black uppercase tracking-wider text-[#fbbf24] bg-[#fbbf24]/10 border border-[#fbbf24]/20">
-          Próximamente
-        </span>
+        {hasArticle ? (
+          <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg text-[10px] font-black uppercase tracking-wider text-[#22c55e] bg-[#22c55e]/10 border border-[#22c55e]/20">
+            Ver guía →
+          </span>
+        ) : (
+          <span className="inline-flex items-center px-2.5 py-1 rounded-lg text-[10px] font-black uppercase tracking-wider text-[#fbbf24] bg-[#fbbf24]/10 border border-[#fbbf24]/20">
+            Próximamente
+          </span>
+        )}
       </div>
 
       {/* Background gradient */}
@@ -66,6 +69,26 @@ export default function StreamerCard({ streamer }: { streamer: Streamer }) {
           {streamer.description}
         </p>
       </div>
+    </>
+  );
+
+  const shadow = `0 0 0 1px ${style.border}, 0 4px 20px rgba(0,0,0,0.3)`;
+
+  if (hasArticle) {
+    return (
+      <Link
+        href={`/streamers/casino-${streamer.slug}`}
+        className="group relative flex flex-col rounded-2xl overflow-hidden transition-all duration-300 hover:-translate-y-1"
+        style={{ boxShadow: shadow }}
+      >
+        {inner}
+      </Link>
+    );
+  }
+
+  return (
+    <div className="relative flex flex-col rounded-2xl overflow-hidden" style={{ boxShadow: shadow }}>
+      {inner}
     </div>
   );
 }

@@ -1,0 +1,867 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import CasinoRanking, { CasinoRankingItem } from "@/components/CasinoRanking";
+import { LAST_UPDATED, LAST_UPDATED_ISO, LAST_UPDATED_YEAR } from "@/data/config";
+
+export const metadata: Metadata = {
+  title: "¿En qué casino juega Andynsane? Guía 2026",
+  description:
+    "Andynsane (ElZeein) juega en Stake, pero te mostramos dónde jugar con mejores bonos. Sus slots favoritos y los mejores casinos online de Perú.",
+};
+
+/* ───────── Ranking: afiliados Perú primero, Stake (casino real de Andynsane) después ───────── */
+const ranking: CasinoRankingItem[] = [
+  { rank: 1, name: "Betsson", slug: "betsson-peru", bonus: "Gana 300 Giros Gratis", rating: 9.5, highlight: true, badge: "⭐ Recomendado", infoText: "2 500+ juegos" },
+  { rank: 2, name: "STARDA Casino", slug: "starda-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.3, badge: "🔥 TOP", infoText: "3 800+ juegos" },
+  { rank: 3, name: "Inkabet", slug: "inkabet", bonus: "Hasta S/500 + 300 giros gratis", rating: 9.2, infoText: "1 500+ juegos" },
+  { rank: 4, name: "SOL Casino", slug: "sol-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.1, infoText: "4 000+ juegos" },
+  { rank: 5, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 8.9, infoText: "4 500+ juegos" },
+  { rank: 6, name: "MONRO Casino", slug: "monro-casino", bonus: "150% en tu primer depósito", rating: 9.0, infoText: "3 500+ juegos" },
+  { rank: 7, name: "Stake", slug: "stake", bonus: "S/50 freebet + 50 giros gratis o S/50 bono casino", rating: 8.8, badge: "Andynsane juega acá", infoText: "3 000+ juegos" },
+];
+
+const favoriteSlots = [
+  { name: "Sweet Bonanza", provider: "Pragmatic Play", note: "El de los caramelos y las frutas. Pay-anywhere, tumbles y multiplicadores hasta 100x en los giros gratis. Un fijo en las sesiones de Zein cuando quiere que la pantalla explote." },
+  { name: "Gates of Olympus", provider: "Pragmatic Play", note: "Zeus tirando rayos y multiplicadores que caen también en el juego base. El mismo motor que Sweet Bonanza pero más intenso. Un clásico del slot-streaming peruano." },
+  { name: "Sugar Rush", provider: "Pragmatic Play", note: "Grilla de 7x7 con zonas de multiplicador que se acumulan. Volatilidad alta de esa que te hace sufrir varios giros y después te devuelve todo de golpe." },
+  { name: "The Dog House", provider: "Pragmatic Play", note: "Wilds pegajosos con multiplicador en los giros gratis. Menos explosivo que Gates, pero con buena fama entre los streamers." },
+  { name: "Wanted Dead or a Wild", provider: "Hacksaw Gaming", note: "El western de la volatilidad extrema, con potencial de 12.500x. El típico slot que se juega para el clip, no para la billetera." },
+  { name: "Sugar Rush 1000", provider: "Pragmatic Play", note: "La versión recargada de Sugar Rush, con multiplicadores que llegan mucho más alto. Más volátil todavía, justo lo que buscan los streamers para esos momentos de pantalla explotada." },
+  { name: "Big Bass Bonanza", provider: "Reel Kingdom", note: "El de la pesca. Más amigable que los anteriores, con free spins donde el pescador recoge dinero y multiplicadores. Un favorito para sesiones más relajadas." },
+];
+
+const faqItems = [
+  {
+    q: "¿En qué casino juega Andynsane?",
+    a: "Andynsane (también conocido como ElZeein o Zein) juega principalmente en Stake, donde es embajador en Perú. Hace sus sesiones de slots en vivo desde Kick. Eso sí: que Zein juegue ahí no significa que sea la mejor opción para vos. En nuestro ranking ponemos primero los casinos que probamos y recomendamos para Perú (Betsson, STARDA, Inkabet, SOL, FRESH, MONRO), y dejamos a Stake en la lista por transparencia.",
+  },
+  {
+    q: "¿Andynsane es embajador de Stake?",
+    a: "Sí, Andynsane figura como embajador de Stake en Perú, lo que significa que hay un acuerdo comercial de por medio. Eso es totalmente normal en el mundo del casino-streaming, pero es justo el motivo por el que conviene verlo como entretenimiento y no como un consejo. Lo que un streamer gana en cámara, con su bankroll y su respaldo, no es lo que vos vas a ganar en tu casa.",
+  },
+  {
+    q: "¿Qué slots juega Andynsane?",
+    a: "Sus favoritos son los pesos pesados de Pragmatic Play: Sweet Bonanza, Gates of Olympus y Sugar Rush. También se lo ve en The Dog House y, para los clips de locura, en slots de Hacksaw como Wanted Dead or a Wild. Todos son de volatilidad media-alta, justo los que dan esos momentos de pantalla explotada que funcionan tan bien en stream.",
+  },
+  {
+    q: "¿Puedo jugar en los mismos casinos que Andynsane desde Perú?",
+    a: "Claro que sí. Podés jugar slots como los de Zein en cualquiera de los casinos de nuestro ranking. Para Perú, lo más recomendable es arrancar por Betsson (licencia MINCETUR y acepta Yape y Plin), por Inkabet (100% peruano) o por los casinos de Royal Partners como STARDA y SOL, que tienen catálogos enormes de Pragmatic y Hacksaw y bonos más claros que Stake.",
+  },
+  {
+    q: "¿Quién es Andynsane?",
+    a: "Andynsane, hoy más conocido como ElZeein, es uno de los streamers más populares de Perú. Empezó en YouTube en 2011 con el nombre de Andynsane y hoy su comunidad más activa está en Kick, donde supera los 900 mil seguidores. Transmite categorías como Just Chatting, GTA y, por supuesto, Slots & Casino, donde se volvió un referente.",
+  },
+  {
+    q: "¿Es legal jugar en casino online en Perú?",
+    a: "Sí, totalmente legal. Desde febrero de 2024, MINCETUR regula el juego online en Perú con la Ley N° 31557, y ya hay más de 60 operadores con licencia oficial. Lo importante es elegir casinos con licencia clara y buena reputación de pagos, jugar solo lo que estés dispuesto a perder, y recordar que es entretenimiento, no una fuente de ingresos.",
+  },
+  {
+    q: "¿Puedo depositar con Yape o Plin?",
+    a: "Sí, y es lo más práctico que hay en Perú. Betsson, Inkabet y otros casinos con licencia MINCETUR aceptan Yape y Plin. El depósito cae al toque, literal en segundos, y los retiros suelen llegar en menos de 24 horas. Stake, donde juega Zein, funciona más con cripto, así que para pagar como pagás siempre, los casinos del ranking te resultan más cómodos.",
+  },
+  {
+    q: "¿Conviene jugar donde juega Andynsane o en otro casino?",
+    a: "Depende de tu perfil. Si ya manejás cripto y querés los juegos originals tipo Plinko o Crash, Stake tiene sentido. Pero si recién arrancás, querés bonos más claros y pagar con Yape o Plin, te conviene más Betsson, Inkabet o un casino de Royal Partners. Por eso en nuestro ranking esos van primero y Stake va último.",
+  },
+  {
+    q: "¿Qué bono de bienvenida me conviene más en Perú?",
+    a: "No te dejes llevar solo por el número grande. MONRO tira un 150% que suena increíble, pero lo que decide si te sirve es el rollover y el plazo. STARDA y SOL ofrecen 100% + 500 giros, ideales para slots, e Inkabet da hasta S/500 + 300 giros con la ventaja de ser 100% peruano. Revisá las condiciones en el ranking del inicio antes de decidir.",
+  },
+  {
+    q: "¿Puedo ver los streams de Andynsane y jugar gratis?",
+    a: "Sí. Casi todos los slots que juega Zein (Sweet Bonanza, Gates of Olympus, etc.) tienen modo demo: jugás con dinero ficticio, gratis, para entender la mecánica sin arriesgar nada. Es la mejor forma de probar antes de poner plata real. Los streamers no usan demo porque su contenido es el espectáculo de la plata real, pero vos no tenés ninguna obligación de hacerlo así.",
+  },
+  {
+    q: "¿Hay un código promocional de Stake de Andynsane?",
+    a: "Como embajador, Andynsane suele tener códigos o promociones asociadas, pero cambian seguido y muchas veces son regionales, así que no te fíes de cualquier código que veas en redes. Si lo que buscás es un bono que valga la pena de verdad, en nuestro ranking de arriba tenés los bonos de bienvenida verificados para Perú, sin letra chica escondida.",
+  },
+  {
+    q: "¿Andynsane recomienda algún casino en particular?",
+    a: "Zein juega y muestra Stake en sus streams como embajador, pero nosotros no afirmamos que recomiende ningún casino a su audiencia ni que respalde los que aparecen en nuestro ranking. Nuestras recomendaciones son independientes y se basan en pruebas propias de cada plataforma. Tomá las decisiones con tu criterio, no por lo que haga un streamer.",
+  },
+];
+
+/* ───────── Helpers ───────── */
+function CtaButton({ slug, text = "Jugar Ahora" }: { slug: string; text?: string }) {
+  return (
+    <a
+      href={`/go/${slug}`}
+      target="_blank"
+      rel="nofollow noopener sponsored"
+      className="inline-flex items-center justify-center px-6 py-3 rounded-xl bg-[#00C853] font-extrabold text-white text-sm uppercase tracking-wide transition-all duration-300 hover:bg-[#00E676] hover:shadow-[0_0_30px_rgba(0,200,83,0.35)]"
+    >
+      {text}
+    </a>
+  );
+}
+
+function Section({ id, alt = false, children }: { id: string; alt?: boolean; children: React.ReactNode }) {
+  return (
+    <section id={id} className={`${alt ? "bg-[#0e0e0e]" : "bg-[#0a0a0a]"} py-16 sm:py-24 relative`}>
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10">{children}</div>
+    </section>
+  );
+}
+
+function SectionTitle({ children }: { children: React.ReactNode }) {
+  return (
+    <div className="flex items-center gap-4 mb-6">
+      <div className="h-10 w-1.5 rounded-full bg-gradient-to-b from-[#dc2626] to-[#f59e0b]" />
+      <h2 className="text-3xl sm:text-4xl font-black text-white tracking-tight">{children}</h2>
+    </div>
+  );
+}
+
+function ProsCons({ pros, cons }: { pros: string[]; cons: string[] }) {
+  return (
+    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 my-6">
+      <div className="rounded-xl bg-[#22c55e]/[0.06] border border-[#22c55e]/20 p-5">
+        <h4 className="text-[#22c55e] font-bold text-sm uppercase tracking-wider mb-3">Ventajas</h4>
+        <ul className="space-y-2">
+          {pros.map((p) => (
+            <li key={p} className="flex items-start gap-2 text-sm text-[#d4d4d8]">
+              <span className="text-[#22c55e] mt-0.5 shrink-0">&#10003;</span>
+              {p}
+            </li>
+          ))}
+        </ul>
+      </div>
+      <div className="rounded-xl bg-[#ef4444]/[0.06] border border-[#ef4444]/20 p-5">
+        <h4 className="text-[#ef4444] font-bold text-sm uppercase tracking-wider mb-3">Desventajas</h4>
+        <ul className="space-y-2">
+          {cons.map((c) => (
+            <li key={c} className="flex items-start gap-2 text-sm text-[#d4d4d8]">
+              <span className="text-[#ef4444] mt-0.5 shrink-0">&#10007;</span>
+              {c}
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  );
+}
+
+function P({ children }: { children: React.ReactNode }) {
+  return <p className="text-[#9ca3af] leading-relaxed mb-4 text-base sm:text-lg">{children}</p>;
+}
+
+function H3({ children }: { children: React.ReactNode }) {
+  return <h3 className="text-xl sm:text-2xl font-bold text-white mt-10 mb-4">{children}</h3>;
+}
+
+/* ───────── JSON-LD ───────── */
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqItems.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })),
+};
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: `¿En qué casino juega Andynsane? Guía ${LAST_UPDATED_YEAR}`,
+  description: "Dónde juega Andynsane (Stake), sus slots favoritos y los mejores casinos online recomendados para Perú.",
+  datePublished: "2026-06-30",
+  dateModified: LAST_UPDATED_ISO,
+  author: { "@type": "Organization", name: "JugarCasinosOnline.net" },
+  publisher: { "@type": "Organization", name: "JugarCasinosOnline.net" },
+};
+const personSchema = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "Andynsane",
+  alternateName: "ElZeein",
+  nationality: "Perú",
+  jobTitle: "Streamer",
+  description: "Streamer peruano, uno de los más populares de Kick en Perú, conocido por su contenido de slots y casino.",
+};
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Inicio", item: "https://jugarcasinosonline.net/" },
+    { "@type": "ListItem", position: 2, name: "Streamers", item: "https://jugarcasinosonline.net/streamers/" },
+    { "@type": "ListItem", position: 3, name: "Casino de Andynsane", item: "https://jugarcasinosonline.net/streamers/casino-andynsane/" },
+  ],
+};
+
+/* ═══════════════════════════════════════════════ */
+export default function CasinoAndynsane() {
+  return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+
+      {/* HERO */}
+      <section className="relative overflow-hidden bg-[#0a0a0a]">
+        <div className="absolute inset-0 pointer-events-none">
+          <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[900px] h-[600px] bg-[#dc2626]/[0.07] rounded-full blur-[180px]" />
+          <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-[#22c55e]/[0.04] rounded-full blur-[150px]" />
+        </div>
+        <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-8 sm:pt-12 pb-12 sm:pb-16">
+          <nav className="text-sm text-[#71717a] mb-8">
+            <ol className="flex items-center gap-2 flex-wrap">
+              <li><Link href="/" className="hover:text-white transition-colors">Inicio</Link></li>
+              <li>/</li>
+              <li><Link href="/streamers" className="hover:text-white transition-colors">Streamers</Link></li>
+              <li>/</li>
+              <li className="text-white font-medium">Casino de Andynsane</li>
+            </ol>
+          </nav>
+          <div className="inline-flex items-center gap-2.5 rounded-full bg-white/[0.05] border border-white/[0.08] px-5 py-2 mb-8 backdrop-blur-sm">
+            <span className="w-2 h-2 rounded-full bg-[#22c55e] animate-pulse" />
+            <span className="text-sm font-semibold text-[#9ca3af]">Guía actualizada {LAST_UPDATED}</span>
+          </div>
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-white tracking-tighter mb-6 leading-[0.95]">
+            ¿En qué casino juega
+            <br />
+            <span className="bg-gradient-to-r from-[#dc2626] via-[#f59e0b] to-[#dc2626] bg-clip-text text-transparent">Andynsane? {LAST_UPDATED_YEAR}</span>
+          </h1>
+          <p className="text-xl sm:text-2xl text-[#9ca3af] max-w-3xl mb-4 font-medium leading-relaxed">
+            Directo al grano, causa: Andynsane (ElZeein) juega en <strong className="text-white">Stake</strong>, donde es embajador en Perú, y hace sus sesiones de slots en Kick. Pero que él juegue ahí no quiere decir que sea lo que más te conviene a vos. Te explicamos por qué y dónde sí.
+          </p>
+          <p className="text-base text-[#71717a] max-w-2xl leading-relaxed">
+            Nos clavamos horas de sus directos, cruzamos datos y armamos esta guía para que sepas la posta: en qué casino apuesta Zein, qué slots le gustan, qué onda esos clips donde la pantalla explota… y cuáles son los casinos que nosotros sí recomendamos para jugar desde Perú, con bonos verificados y que aceptan Yape y Plin.
+          </p>
+        </div>
+      </section>
+
+      {/* RANKING */}
+      <Section id="ranking" alt>
+        <SectionTitle>Dónde jugar: nuestro ranking para Perú</SectionTitle>
+        <P>
+          Empecemos por lo concreto, porque sabemos a qué viniste. Si querés jugar en casino online desde Perú, estos son los que probamos y por los que ponemos la cara. Zein juega en Stake (lo tenés último, lo metimos por transparencia), pero arriba van los que para nosotros tienen el mejor combo de bono, catálogo y pagos para un jugador peruano de carne y hueso.
+        </P>
+        <CasinoRanking casinos={ranking} infoColumnLabel="Juegos" />
+        <P>
+          ¿Por qué Betsson primero y no Stake? Sencillo: Betsson tiene licencia MINCETUR (o sea, regulación peruana de verdad), acepta Yape y Plin, soporte en español que responde y bonos más claros. Stake es bacán para cripto, pero no es para cualquiera. Y ojo con Inkabet, que metimos tercero: es 100% peruano y de los más conocidos del país. Más abajo te lo desmenuzamos casino por casino.
+        </P>
+        <P>
+          Un par de aclaraciones para que leas la tabla con criterio. Los bonos que ves son los reales y vigentes al momento de actualizar esta guía (la fecha la tenés arriba, se actualiza todos los meses). Las cifras de juegos son aproximadas y van cambiando porque los casinos suman títulos seguido. Y el orden no es capricho: responde a la combinación de bono, catálogo, pagos y confianza que probamos nosotros mismos.
+        </P>
+        <div className="mt-6"><CtaButton slug="betsson-peru" text="Probar Betsson Perú" /></div>
+      </Section>
+
+      {/* CÓMO ELEGIMOS */}
+      <Section id="como-elegimos">
+        <SectionTitle>Cómo armamos este ranking</SectionTitle>
+        <P>
+          Para que confíes en lo que decimos, te contamos cómo llegamos a este orden. No es al azar ni “el que paga va primero” sin criterio. Probamos cada casino con cuenta real: depositamos con Yape, jugamos, pedimos retiros y le escribimos al soporte a horas raras a propósito, para ver cómo responden cuando nadie lo espera.
+        </P>
+        <P>
+          Miramos cuatro cosas. El <strong className="text-white">bono y sus condiciones</strong> (no solo cuánto te dan, sino el rollover y el plazo). El <strong className="text-white">catálogo</strong> (que tengan los slots que la gente busca, los mismos de los streams). Los <strong className="text-white">pagos</strong> (que acepten Yape, Plin y que los retiros lleguen rápido). Y la <strong className="text-white">confianza</strong> (licencia MINCETUR o internacional seria, reputación de pagos, soporte a la altura).
+        </P>
+        <P>
+          Y para que quede claro, porque es la duda que muchos tienen: sí, esta página tiene enlaces de afiliado. Si te registrás por nuestros botones, podemos recibir una comisión del casino. A vos no te cuesta ni un sol más, y no condiciona el orden ni lo que opinamos. Si un casino no nos convence, no lo recomendamos por más que pague bien. Preferimos que vuelvas a leernos porque te dimos data honesta.
+        </P>
+        <P>
+          Con esos cuatro filtros aplicados, Betsson queda primero por su combinación de licencia local, Yape/Plin y bonos claros; STARDA se lleva el segundo puesto por su catálogo brutal de slots; e Inkabet entra fuerte como la opción 100% peruana. Y así hasta Stake, que metimos último no porque sea malo, sino porque, para el jugador peruano promedio, las opciones de arriba son un mejor punto de partida.
+        </P>
+      </Section>
+
+      {/* QUIÉN ES */}
+      <Section id="quien-es" alt>
+        <SectionTitle>¿Quién es Andynsane?</SectionTitle>
+        <P>
+          Pongámoslo en contexto para el que recién cae. Andynsane, hoy más conocido como <strong className="text-white">ElZeein</strong> (o simplemente Zein), es uno de los streamers más populares del Perú. Arrancó en YouTube allá por 2011 bajo el nombre de Andynsane, cuando esto de hacer contenido recién empezaba a ser una cosa seria, y fue creciendo a punta de constancia y de saber conectar con su gente.
+        </P>
+        <P>
+          Su comunidad más activa hoy está en Kick, donde pasa los <strong className="text-white">900 mil seguidores</strong>. Ahí transmite de todo: Just Chatting, GTA y, sobre todo, Slots & Casino, categoría en la que se volvió un referente peruano. Por eso medio internet busca “en qué casino juega Andynsane”. Bueno, a eso vinimos.
+        </P>
+        <P>
+          Lo que diferencia a Zein es su estilo cercano y directo: cuando gana, festeja como cualquiera de nosotros; cuando pierde, también se le nota. Esa autenticidad es lo que hace que su comunidad lo banque tanto. Y ese alcance es justo lo que hace que valga la pena hablar de su contenido de casino con seriedad y no como una nota más de farándula.
+        </P>
+        <H3>De YouTube 2011 a referente de Kick</H3>
+        <P>
+          La historia de Zein es la del creador que empezó temprano y supo adaptarse. Cuando arrancó en YouTube, allá por 2011, esto de hacer contenido en Perú era casi un hobby; muy pocos lo veían como una carrera. Él siguió, fue probando formatos, y cuando el streaming en vivo explotó, dio el salto a Kick, donde encontró su lugar definitivo. Esa capacidad de reinventarse sin perder a su público es lo que lo mantiene arriba mientras otros aparecen y desaparecen.
+        </P>
+        <P>
+          Pasó por el gaming, las charlas, el GTA roleplay y, más recientemente, el casino en vivo, que se volvió una parte central de su contenido. Para muchos peruanos jóvenes, Zein es una de las primeras caras que asocian al mundo de las slots online. Por eso, más que opinar de él, lo que hacemos en esta guía es darte el contexto completo: quién es, dónde juega de verdad y qué conviene saber antes de imitarlo.
+        </P>
+        <H3>Los números de Andynsane hoy</H3>
+        <P>
+          Más allá de los 900 mil largos en Kick, Zein tiene una presencia importante en YouTube, Instagram y TikTok, donde sus clips se viralizan seguido. Cuando hace un stream de casino, miles de personas lo ven en simultáneo. Multiplicá eso por la cantidad de clips que después circulan, y entendés por qué su nombre es una de las búsquedas más populares del rubro en Perú.
+        </P>
+        <H3>Por qué su contenido de casino importa tanto</H3>
+        <P>
+          Cuando un creador con esa comunidad se sienta a jugar slots en vivo, el impacto es enorme. Miles de personas lo ven, y después los clips se riegan por TikTok y YouTube. Eso significa que un montón de gente, sobre todo joven, descubre el casino online a través de Zein. Por eso es clave que esta guía exista y que la escribamos con honestidad: si vas a jugar, queremos que lo hagas bien informado, sin ilusiones falsas.
+        </P>
+      </Section>
+
+      {/* HISTORIA CASINO */}
+      <Section id="historia-casino">
+        <SectionTitle>La relación de Andynsane con el casino</SectionTitle>
+        <P>
+          El salto de Zein al contenido de casino es parte de una ola que arrasó con el streaming en español en los últimos años. Para entender bien dónde juega y por qué, conviene mirar la película completa.
+        </P>
+        <P>
+          El formato del slot-streaming explotó a nivel mundial, con referentes moviendo apuestas descomunales en vivo. Funcionaba: las reacciones a un slot que explota son adictivas de ver, los clips vuelan y los acuerdos con las plataformas de casino eran muy generosos. Kick, que nació con una política amigable hacia el contenido de apuestas, se volvió el hogar natural de estos streamers, y Zein encontró ahí su espacio, al punto de convertirse en embajador de Stake en Perú.
+        </P>
+        <P>
+          Conviene entender por qué Kick y no Twitch. Twitch endureció sus reglas sobre contenido de casino hace unos años y restringió que los streamers grandes promocionaran ciertos sitios de apuestas. Un montón de creadores se mudaron entonces a Kick, que nació con una política mucho más relajada. Cuando ves a Zein jugando casino en Kick, estás viendo contenido que en Twitch difícilmente existiría igual, y eso te da una pista de la industria que hay detrás.
+        </P>
+        <P>
+          Que haga este tipo de contenido no lo convierte ni en un genio de las apuestas ni en un villano: es un creador haciendo lo que mejor sabe, entretener, dentro de un formato que paga bien. El punto donde nosotros ponemos el ojo no es en juzgarlo, sino en cuidarte a vos, porque la diferencia entre ver un stream y ponerte a apostar con tus lucas es enorme, y nadie te la explica mientras festeja un multiplicador gigante en cámara.
+        </P>
+      </Section>
+
+      {/* CASINO DE ANDYNSANE (STAKE) */}
+      <Section id="casino-de-andynsane" alt>
+        <SectionTitle>El casino de Andynsane: Stake al detalle</SectionTitle>
+        <P>
+          Vamos al hueso. El casino de Andynsane es <strong className="text-white">Stake</strong>, del que es embajador en Perú. Es la plataforma con la que se lo asocia y donde pasó la mayoría de sus sesiones más recordadas. Si lo seguís en Kick, lo viste mil veces ahí: la interfaz oscura, las apuestas, los números subiendo y bajando a una velocidad que marea.
+        </P>
+        <P>
+          Stake es, probablemente, la plataforma de casino más asociada al mundo del streaming a nivel global. Nació fuerte en cripto y se hizo gigante patrocinando creadores de contenido y hasta equipos deportivos. Tiene más de 3.000 juegos entre slots, mesas en vivo y los famosos originals (Plinko, Crash, Mines), procesa pagos en cripto rapidísimo, y una comunidad de apostadores enorme. En Perú opera con su versión local.
+        </P>
+        <H3>¿Por qué Zein juega en Stake y no en otro?</H3>
+        <P>
+          Hay varias razones. La primera, la obvia: es embajador, o sea que hay un vínculo comercial. Como casi todos los streamers de casino del planeta, Zein tiene acuerdos con la plataforma. Es su trabajo y no tiene nada de raro, pero es justo el motivo por el que no podés tomar “Zein juega en Stake” como “Stake es el mejor casino para mí”.
+        </P>
+        <P>
+          La segunda es práctica: Stake funciona muy bien con cripto, comodísimo para mover montos grandes en cámara. La tercera: tiene los slots que mejor funcionan en stream y cargan rápido. Pero “ideal para hacer contenido” no es lo mismo que “ideal para tu bolsillo”, y esa diferencia es la clave de toda esta nota.
+        </P>
+        <H3>Más allá de los slots: en vivo y originals</H3>
+        <P>
+          Stake no es solo tragamonedas. Tiene una sección de casino en vivo con mesas de los proveedores grandes (ruleta, blackjack, baccarat, game shows tipo Crazy Time) con dealers reales transmitidos en tiempo real. Y tiene su carta más fuerte: los originals, juegos propios de la plataforma que no vas a encontrar en otro lado, como Plinko (esa pirámide de clavos donde la bolita cae rebotando), Crash, Mines y Dice. Simples, rápidos y muy visuales, perfectos para stream.
+        </P>
+        <H3>Seguridad, comunidad y soporte</H3>
+        <P>
+          Como marca global con años de trayectoria, Stake tiene una infraestructura sólida: encriptación, sistemas provably fair en sus originals, y una comunidad enorme. Es un casino serio, no un sitio improvisado, y eso hay que decirlo claro. Donde sí pierde puntos para el jugador peruano promedio es en lo cotidiano: el soporte no es tan ágil, los bonos son menos claros, y la operatoria asume que te manejás con cripto en vez de Yape o Plin.
+        </P>
+        <P>
+          En lo móvil, Stake funciona bien desde el navegador del celular, que es donde juega la mayoría en Perú, así que no vas a tener drama para entrar desde el teléfono. Pero, de nuevo, la experiencia está pensada para el que ya vive en el ecosistema cripto. Si tu día a día son Yape, Plin y las apps que ya usás, vas a sentir que los casinos de nuestro ranking te hablan en tu idioma, mientras que Stake te pide adaptarte a su forma de funcionar. Ninguna está mal; simplemente apuntan a perfiles distintos.
+        </P>
+        <ProsCons
+          pros={[
+            "Cripto rápida: depósitos y retiros en minutos, sin pasar por bancos",
+            "Catálogo enorme con los slots más streameados del mundo",
+            "Los originals (Plinko, Crash, Mines) que no encontrás en otros lados",
+            "Marca global con años de trayectoria y comunidad gigante",
+          ]}
+          cons={[
+            "Pensado para usuarios de cripto: si no manejás USDT o BTC, hay curva",
+            "Los bonos son menos claros y generosos que los de Betsson o STARDA",
+            "Soporte en español menos ágil que el de los casinos del ranking",
+            "Para Perú, perdés la comodidad de Yape, Plin y PagoEfectivo",
+          ]}
+        />
+        <P>
+          Conclusión honesta: Stake es un casino serio y podés jugar ahí si te manejás con cripto. Pero si recién arrancás, o si querés bonos más jugosos y pagar como pagás siempre, hay opciones mejores. Por eso va último en nuestro ranking. No es un palo a Stake, es darte el dato real.
+        </P>
+        <div className="mt-6 flex flex-wrap gap-3">
+          <CtaButton slug="stake" text="Ver Stake" />
+          <CtaButton slug="starda-casino" text="Probar STARDA (recomendado)" />
+        </div>
+      </Section>
+
+      {/* SLOTS */}
+      <Section id="slots">
+        <SectionTitle>Los slots favoritos de Andynsane</SectionTitle>
+        <P>
+          Si buscaste “casino slots Andynsane” o “slots favoritos de ElZeein”, esta es tu sección. Zein, como buen streamer de casino, juega slots de volatilidad media-alta: esos que te tienen 50 giros sin pagar nada y de repente explotan con un multiplicador gigante. Son los que dan los clips virales. Acá te dejamos los que más se le ven, con la data real de cada uno.
+        </P>
+        <P>
+          Antes de la lista, un apunte: que sean sus favoritos no significa que sean los que más te convienen a vos. Son slots espectaculares para ver en stream justamente porque son extremos, y eso que los hace tan entretenidos en cámara es lo mismo que los hace peligrosos para una billetera normal. Mirá la lista con curiosidad, probalos en demo si querés, pero no asumas que vas a tener la misma suerte que se ve en los clips.
+        </P>
+        <div className="space-y-4 my-8">
+          {favoriteSlots.map((s, i) => (
+            <div key={s.name} className="rounded-2xl bg-[#141414] border border-white/[0.06] p-6">
+              <div className="flex items-center gap-3 mb-2">
+                <span className="w-8 h-8 rounded-full bg-gradient-to-br from-[#dc2626] to-[#b91c1c] flex items-center justify-center font-black text-white text-sm shrink-0">{i + 1}</span>
+                <h3 className="text-lg font-bold text-white">{s.name}</h3>
+                <span className="text-xs text-[#71717a] uppercase tracking-wider font-bold">{s.provider}</span>
+              </div>
+              <p className="text-[#9ca3af] leading-relaxed text-sm sm:text-base">{s.note}</p>
+            </div>
+          ))}
+        </div>
+        <P>
+          ¿Notás un patrón? Casi todos son de Pragmatic Play y de Hacksaw Gaming, los dos proveedores que dominan el slot-streaming. Sweet Bonanza y Gates of Olympus son de los más jugados del planeta, y comparten ese estilo de pay-anywhere (ganás juntando símbolos iguales en cualquier lado) y tumbles (los ganadores desaparecen y caen nuevos, encadenando premios).
+        </P>
+        <H3>Cómo funcionan estos slots (para que no te agarren desprevenido)</H3>
+        <P>
+          Entender la mecánica te ayuda a no frustrarte. En estos slots no hay líneas de pago tradicionales: ganás cuando aparecen 8 o más símbolos iguales en cualquier posición. Cuando pasa, explotan y caen nuevos, encadenando premios. Y si en esa cadena caen los multiplicadores, ahí ves esos x100, x250 o más que vuelan la pantalla. La parte que los streams no muestran tanto: para llegar a los giros gratis donde está la verdadera plata, necesitás que caigan varios scatters, y eso pasa cada muchísimos giros.
+        </P>
+        <P>
+          Un consejo de los que no te dan en un stream: estos slots son de alta volatilidad. La mayoría de las veces te van a comer el saldo de a poco, y muy de vez en cuando te van a dar un premio grande. Zein apuesta montos que para vos serían una locura, y aun así pierde seguido. Si vas a probarlos, hacelo con apuestas chicas. Y si querés algo más tranquilo para empezar, buscá slots de volatilidad media o baja: ganás más seguido y la sesión te dura mucho más.
+        </P>
+        <P>
+          Buena noticia: estos slots los encontrás en prácticamente todos los casinos de nuestro ranking. STARDA, SOL, FRESH y MONRO tienen catálogos completos de Pragmatic y Hacksaw, así que podés jugar los mismos títulos que ves en los streams de Zein pero con un bono de bienvenida que te da más margen.
+        </P>
+        <div className="mt-6"><CtaButton slug="starda-casino" text="Jugar slots en STARDA" /></div>
+      </Section>
+
+      {/* GANANCIAS */}
+      <Section id="ganancias" alt>
+        <SectionTitle>Esos clips de millones: la letra chica</SectionTitle>
+        <P>
+          Seguro viste alguno: Zein festejando una ganancia enorme, reacciones épicas, el chat enloquecido. Son clips brutales, no lo vamos a negar. El problema es lo que esos clips no te muestran, y acá tenemos que ser honestos con vos aunque no sea lo más vendedor.
+        </P>
+        <H3>Lo que el clip te muestra vs. lo que no</H3>
+        <P>
+          Un clip de 30 segundos te muestra el momento exacto en que un slot de alta volatilidad pagó fuerte. Lo que no te muestra son las horas previas perdiendo, las sesiones donde el saldo se fue a cero, ni el hecho de que el streamer juega con un bankroll enorme y, en muchos casos, con respaldo del propio casino. La ganancia es real como momento, pero está fuera de contexto si la tomás como “esto te puede pasar a vos jugando un rato”.
+        </P>
+        <H3>Por qué la casa siempre gana (la matemática sin vueltas)</H3>
+        <P>
+          Esto no es opinión nuestra: es matemática. Todos los juegos de casino tienen una ventaja de la casa (house edge), un porcentaje que, a lo largo de millones de jugadas, siempre queda para el casino. En los slots se ve en el RTP: si un slot tiene 96% de RTP, devuelve 96 de cada 100 apostados en promedio, y el resto es la ganancia de la casa. A corto plazo podés ganar (por eso existen los clips), pero a largo plazo esa ventaja siempre se impone.
+        </P>
+        <P>
+          ¿Esto quiere decir que está mal jugar? Para nada. Quiere decir que tenés que jugar entendiendo qué es: un entretenimiento que, estadísticamente, te va a costar plata, igual que te cuesta ir al cine o salir a comer. La diferencia es que en el casino existe la ilusión de que podés ganar, y esa ilusión, reforzada por los clips, es la que hace que mucha gente apueste más de lo que debería. Si tenés clara la matemática, jugás más tranquilo y con expectativas realistas.
+        </P>
+        <P>
+          Hay un dato que vale la pena tener presente: varios streamers grandes han hablado abiertamente de la plata que dejaron en el casino. No es algo que oculten. Y eso, más allá de lo que opines de cada uno, es más sano que mostrar solo las ganancias. Mirá los clips como mirás una película de acción: te entretenés, te reís, pero no salís a manejar como en la pantalla. Con el casino, igual. La clave es disfrutar el show sin confundirlo con un plan para hacer plata.
+        </P>
+        <div className="rounded-2xl bg-[#f59e0b]/[0.08] border border-[#f59e0b]/25 p-6 my-6">
+          <p className="text-[#fbbf24] font-bold mb-2">⚠️ El dato que cambia todo</p>
+          <p className="text-[#d4d4d8] leading-relaxed text-sm sm:text-base">
+            Los streamers de casino muestran sus mejores momentos, no el balance real. Si vas a jugar, definí un presupuesto fijo antes de empezar, no persigas las pérdidas, y tratá el casino como un gasto de entretenimiento, nunca como una forma de ganar plata.
+          </p>
+        </div>
+      </Section>
+
+      {/* CARA A CARA */}
+      <Section id="stake-vs-ranking">
+        <SectionTitle>Stake vs. nuestros recomendados: cara a cara</SectionTitle>
+        <P>
+          Para que lo veas de un pantallazo, armamos esta comparativa entre el casino donde juega Zein (Stake) y los dos que más recomendamos para Perú (Betsson e Inkabet). No es que uno sea bueno y otro malo: sirven para perfiles distintos.
+        </P>
+        <div className="overflow-x-auto rounded-2xl border border-white/[0.06] my-8">
+          <table className="w-full text-left text-sm">
+            <thead>
+              <tr className="bg-[#141414] text-[#71717a] uppercase text-xs tracking-wider">
+                <th className="px-4 py-4 font-bold">Característica</th>
+                <th className="px-4 py-4 font-bold">Stake</th>
+                <th className="px-4 py-4 font-bold">Betsson</th>
+                <th className="px-4 py-4 font-bold">Inkabet</th>
+              </tr>
+            </thead>
+            <tbody className="text-[#d4d4d8]">
+              {[
+                ["Licencia", "Internacional", "MINCETUR", "MINCETUR"],
+                ["Bono", "Menos claro", "300 giros gratis", "Hasta S/500 + 300 giros"],
+                ["Pago estrella", "Cripto (USDT, BTC)", "Yape y Plin", "Yape y Plin"],
+                ["Ideal para", "Usuarios de cripto", "Todo público", "Lo 100% peruano"],
+                ["Soporte en español", "Correcto", "Muy ágil", "Local 24/7"],
+                ["Originals (Plinko, Crash)", "Sí", "No", "No"],
+              ].map((row) => (
+                <tr key={row[0]} className="border-t border-white/[0.04]">
+                  <td className="px-4 py-3 font-bold text-white">{row[0]}</td>
+                  <td className="px-4 py-3">{row[1]}</td>
+                  <td className="px-4 py-3">{row[2]}</td>
+                  <td className="px-4 py-3">{row[3]}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <P>
+          Lo ves claro: si tu mundo es la cripto y querés los originals que hicieron famoso a Stake, ese es tu lugar. Pero si querés un bono más jugoso, pagar con Yape o Plin y un soporte que responda al toque, Betsson o Inkabet te van a tratar mejor. Probá y sacá tus propias conclusiones.
+        </P>
+        <div className="mt-6 flex flex-wrap gap-3">
+          <CtaButton slug="betsson-peru" text="Probar Betsson" />
+          <CtaButton slug="inkabet" text="Probar Inkabet" />
+        </div>
+      </Section>
+
+      {/* POR QUÉ ESTOS CASINOS */}
+      <Section id="por-que-estos-casinos">
+        <SectionTitle>¿Podés jugar donde juega Andynsane? Sí, pero…</SectionTitle>
+        <P>
+          La respuesta es sí: podés crearte una cuenta en Stake y jugar los mismos slots que ves en sus streams. Pero antes de que lo hagas, dejanos darte el panorama completo, porque para eso probamos cada uno de estos casinos a fondo. Te lo contamos rápido y al grano.
+        </P>
+        <P>
+          La gran ventaja de Perú frente a otros mercados es que tenemos opciones reguladas localmente (con licencia MINCETUR) que aceptan nuestros métodos de pago de siempre. Eso te da una red de seguridad y una comodidad que en otros países no existen. Por eso, para el jugador peruano, no tiene mucho sentido complicarse con cripto desde el arranque si no estás obligado: tenés casinos serios, regulados y cómodos a un clic. Stake es una buena opción para un perfil específico, pero no es el punto de partida natural para la mayoría.
+        </P>
+        <H3>Betsson — el #1 para empezar</H3>
+        <P>
+          Si nunca jugaste online o querés ir a lo seguro, empezá acá. Betsson tiene licencia MINCETUR (regulación peruana de verdad), acepta Yape y Plin, y el soporte en español responde de verdad. Tiene una de las mejores secciones de casino en vivo del mercado, con más de 200 mesas y dealers que hablan español posta. Probamos un retiro con Yape un martes a la noche y en menos de 2 horas teníamos las lucas. Es la opción más redonda para el jugador promedio.
+        </P>
+        <div className="my-5"><CtaButton slug="betsson-peru" text="Abrir cuenta en Betsson" /></div>
+        <H3>Inkabet — la opción 100% peruana</H3>
+        <P>
+          Inkabet es uno de los casinos más conocidos del Perú, con licencia MINCETUR y un bono de bienvenida de hasta S/500 + 300 giros gratis. Acepta Yape y Plin, el soporte es local y responde rápido, y tiene una buena mezcla de casino y apuestas deportivas. Si querés jugar en algo de acá, regulado y con cara conocida, Inkabet cumple de sobra.
+        </P>
+        <div className="my-5"><CtaButton slug="inkabet" text="Jugar en Inkabet" /></div>
+        <H3>STARDA Casino — el paraíso de los slots</H3>
+        <P>
+          Si lo tuyo son las tragamonedas (o sea, si viniste por lo de Zein), STARDA es nuestra recomendación fuerte. Tiene 3.800+ juegos, torneos de slots semanales con premios de verdad, y todos los Pragmatic y Hacksaw que ves en los streams. El bono es 100% en tu primer depósito + 500 giros gratis. Para un fan del contenido de Zein, es el casino que más se le parece en espíritu, pero con un bono que Stake no te da.
+        </P>
+        <div className="my-5"><CtaButton slug="starda-casino" text="Jugar en STARDA" /></div>
+        <H3>SOL, FRESH y MONRO — el resto del pelotón pesado</H3>
+        <P>
+          Los tres son de Royal Partners y los tres cumplen. <strong className="text-white">SOL Casino</strong> es ideal para el que recién arranca: interfaz clarísima, rollover bajo (x30) y 4.000 juegos. <strong className="text-white">FRESH</strong> es el rey del catálogo con 4.500+ títulos; buscás un slot raro y lo tiene. Y <strong className="text-white">MONRO</strong> tiene el bono más alto del ranking en porcentaje, 150% en tu primer depósito. Cualquiera de los tres es una mejor puerta de entrada que Stake si no manejás cripto.
+        </P>
+        <div className="my-5 flex flex-wrap gap-3">
+          <CtaButton slug="sol-casino" text="Probar SOL" />
+          <CtaButton slug="fresh-casino" text="Probar FRESH" />
+          <CtaButton slug="monro-casino" text="Probar MONRO" />
+        </div>
+        <H3>Y Stake, ¿cuándo sí?</H3>
+        <P>
+          Stake tiene sentido si ya manejás cripto, si te gustan los originals tipo Plinko o Crash que no vas a encontrar en otros lados, y si valorás los retiros instantáneos en USDT por encima de un bono más grande. Es un casino legítimo, no estamos diciendo lo contrario. Solo decimos que para la mayoría de los peruanos que recién se meten, los de arriba son un mejor punto de partida. Probá, comparás, y quedate con el que te cierre.
+        </P>
+      </Section>
+
+      {/* CASINO CONFIABLE */}
+      <Section id="casino-confiable" alt>
+        <SectionTitle>Cómo reconocer un casino confiable</SectionTitle>
+        <P>
+          Antes de meter tus lucas en cualquier lado, conviene saber distinguir un casino serio de uno turbio. Es más fácil de lo que parece si sabés qué mirar. Te dejamos la checklist que usamos nosotros cada vez que evaluamos una plataforma nueva.
+        </P>
+        <P>
+          <strong className="text-white">Uno: la licencia visible.</strong> Un casino serio muestra su licencia en el pie de página (MINCETUR para los peruanos, Curaçao o Malta para los internacionales). Si no la ves, mala señal. <strong className="text-white">Dos: reputación de pagos.</strong> Buscá el nombre del casino en foros como AskGamblers o Trustpilot y fijate qué dice la gente de los retiros. Un patrón de quejas por pagos es una bandera roja gigante.
+        </P>
+        <P>
+          <strong className="text-white">Tres: métodos de pago locales.</strong> Que acepte Yape, Plin y transferencias de bancos peruanos es buena señal. <strong className="text-white">Cuatro: términos legibles.</strong> Los buenos casinos tienen sus condiciones de bono escritas de forma entendible. Si la letra chica es un laberinto, desconfiá. <strong className="text-white">Cinco: soporte que responde.</strong> Probá el chat antes de depositar. Cómo y cuándo te responden te dice mucho de cómo te van a tratar el día que tengas un problema.
+        </P>
+        <P>
+          Todos los casinos de nuestro ranking pasan esta checklist con holgura, porque justamente la aplicamos antes de recomendarlos. No los elegimos por el bono más grande, sino por el combo completo de confianza, pagos y experiencia. Esa es la diferencia entre un ranking armado con criterio y una lista de los que más pagan por aparecer.
+        </P>
+      </Section>
+
+      {/* LEGALIDAD */}
+      <Section id="es-legal">
+        <SectionTitle>¿Es legal jugar en casino online en Perú?</SectionTitle>
+        <P>
+          Sí, totalmente legal. Desde febrero de 2024, el Perú regula el juego online de forma seria a través de <strong className="text-white">MINCETUR</strong> y la Ley N° 31557. Antes era tierra de nadie, pero ahora el marco legal está bastante claro y ya hay más de 60 operadores con licencia oficial. Por eso podés jugar tranquilo siempre que elijas un casino autorizado.
+        </P>
+        <P>
+          Además de los operadores con licencia MINCETUR (como Betsson o Inkabet), hay plataformas internacionales que funcionan con licencias de Curaçao o Malta. Esas también son válidas: significa que están reguladas por otra jurisdicción, con sus propios controles y mecanismos de reclamo. Miles de peruanos las usan a diario sin problema. Lo que cambia es a quién le reclamás si algo sale mal.
+        </P>
+        <H3>El consejo más importante</H3>
+        <P>
+          Huí de cualquier casino que no muestre su licencia de forma clara. Si entrás a un sitio y no encontrás en el pie de página quién lo regula ni el número de licencia, cerralo. No importa cuán lindo sea el bono. Los casinos truchos existen, y el problema no es solo jugar en algo ilegal: es que el día que ganes, capaz no te pagan y no tenés a quién reclamarle. Por eso armamos rankings, para que no tengas que arriesgarte probando a ciegas.
+        </P>
+        <P>
+          Y un detalle no menor: jugar es solo para mayores de 18 años. Todos los casinos serios te van a pedir verificación de identidad (el KYC) antes de dejarte retirar. No es para molestarte, es requisito legal. Hacelo apenas te registrás y listo. Si un casino con licencia MINCETUR no te paga, podés meter una queja formal al ministerio, que es justo la ventaja de jugar en algo regulado localmente.
+        </P>
+      </Section>
+
+      {/* BONOS */}
+      <Section id="bonos" alt>
+        <SectionTitle>Los bonos de bienvenida, explicados sin vueltas</SectionTitle>
+        <P>
+          Una de las grandes diferencias entre jugar donde juega Zein (Stake) y jugar en los casinos de nuestro ranking es el bono de bienvenida. Y como es un tema donde mucha gente se enreda (o acepta sin leer y después se queja), te lo explicamos bien.
+        </P>
+        <H3>¿Qué es un bono de bienvenida?</H3>
+        <P>
+          Es la plata o los giros gratis que el casino te regala por registrarte y hacer tu primer depósito. Lo típico es el bono de 100%: vos ponés una cantidad y el casino te suma otro tanto. MONRO incluso tira un 150%, de los más altos que vas a encontrar. Suena a regalo, y en parte lo es, pero tiene una condición clave: el rollover.
+        </P>
+        <H3>El rollover: la letra chica que nadie lee</H3>
+        <P>
+          El rollover (o requisito de apuesta) es la cantidad de veces que tenés que apostar el bono antes de poder retirar lo que ganes con él. Si te dan S/100 de bono con rollover x30, tenés que apostar S/3.000 antes de sacar. Parece mucho, pero con slots de apuestas chicas se va cumpliendo de a poco. La clave: un bono con rollover bajo (tipo x30, como el de SOL) vale más que un bono enorme con rollover altísimo.
+        </P>
+        <div className="rounded-2xl bg-[#3b82f6]/[0.06] border border-[#3b82f6]/20 p-6 my-6">
+          <p className="text-[#60a5fa] font-bold mb-2">💡 Regla de oro de los bonos</p>
+          <p className="text-[#d4d4d8] leading-relaxed text-sm sm:text-base">
+            Un bono no es plata gratis que podés retirar al toque: es un saldo para jugar con condiciones. A veces, si pensás retirar rápido, conviene rechazar el bono y jugar solo con tu depósito. Suena raro, pero es la decisión más inteligente en muchos casos.
+          </p>
+        </div>
+        <P>
+          Otra cosa: no todos los juegos aportan igual al rollover. Las slots suelen contar al 100%, pero los juegos de mesa a veces aportan solo un 10% o nada. Si tu plan es cumplir el rollover, las tragamonedas son tus aliadas. Y ojo con los giros gratis: las ganancias que sacás de ellos casi siempre también tienen su propio rollover. Antes de aceptar cualquier bono, hacé la cuenta mental del monto por el rollover y fijate si es razonable para cómo jugás vos.
+        </P>
+        <P>
+          Un punto donde Stake se diferencia: su esquema de bonos es distinto al de un casino tradicional. En vez del clásico bono de bienvenida grande con rollover, suele manejar promociones, rakeback y recompensas para usuarios frecuentes. No está mal, pero es otra lógica, más pensada para el que juega seguido y con cripto. Si vos buscás ese empujón inicial grande para arrancar con más saldo, los bonos de bienvenida de Betsson, Inkabet o los Royal Partners te van a resultar más claros y más aprovechables desde el día uno.
+        </P>
+        <div className="mt-2"><CtaButton slug="sol-casino" text="Ver el bono de SOL (rollover x30)" /></div>
+      </Section>
+
+      {/* COMPARATIVA DE BONOS */}
+      <Section id="comparativa-bonos">
+        <SectionTitle>Comparativa de bonos: ¿cuál te conviene?</SectionTitle>
+        <P>
+          Ya que hablamos tanto de bonos, te dejamos una comparativa rápida de los que ofrecen los casinos de nuestro ranking, para que veas de un vistazo cuál pega más con tu forma de jugar. Recordá: el número grande no lo es todo, lo que manda es el combo entre el monto, el rollover y para qué tipo de jugador está pensado.
+        </P>
+        <div className="overflow-x-auto rounded-2xl border border-white/[0.06] my-8">
+          <table className="w-full text-left text-sm">
+            <thead>
+              <tr className="bg-[#141414] text-[#71717a] uppercase text-xs tracking-wider">
+                <th className="px-4 py-4 font-bold">Casino</th>
+                <th className="px-4 py-4 font-bold">Bono</th>
+                <th className="px-4 py-4 font-bold">Mejor para</th>
+              </tr>
+            </thead>
+            <tbody className="text-[#d4d4d8]">
+              {[
+                ["Betsson", "300 giros gratis", "Empezar seguro, Yape/Plin"],
+                ["STARDA", "100% + 500 giros", "Fanáticos de los slots"],
+                ["Inkabet", "Hasta S/500 + 300 giros", "Lo 100% peruano"],
+                ["SOL", "100% + 500 giros", "Principiantes (rollover x30)"],
+                ["FRESH", "100% + 500 giros", "Cazadores de catálogo"],
+                ["MONRO", "150% primer depósito", "Maximizar el saldo del bono"],
+                ["Stake", "S/50 freebet o bono", "Usuarios de cripto"],
+              ].map((row) => (
+                <tr key={row[0]} className="border-t border-white/[0.04]">
+                  <td className="px-4 py-3 font-bold text-white">{row[0]}</td>
+                  <td className="px-4 py-3">{row[1]}</td>
+                  <td className="px-4 py-3">{row[2]}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <P>
+          Como ves, no hay un bono que sea el mejor para todos: hay un bono que es el mejor para vos. Y un truco que pocos aplican: no tenés por qué aceptar el primero que veas. Podés crearte cuenta en dos o tres casinos del ranking, comparar sus bonos y catálogos con tu propia experiencia, y quedarte jugando en el que mejor te trate. Total, todos son de confianza.
+        </P>
+      </Section>
+
+      {/* REGISTRO */}
+      <Section id="como-registrarte" alt>
+        <SectionTitle>Cómo crear tu cuenta paso a paso</SectionTitle>
+        <P>
+          Si nunca te registraste en un casino online, capaz pensás que es un trámite eterno. La verdad es que no: en menos de cinco minutos estás adentro. Te dejamos el paso a paso con Betsson de ejemplo, pero en cualquiera del ranking es casi igual.
+        </P>
+        <div className="space-y-4 my-6">
+          {[
+            { n: 1, t: "Entrá desde el botón oficial", d: "Hacé clic en cualquiera de los botones verdes de esta página. Te llevan al sitio oficial del casino, sin intermediarios raros, y aseguran que el bono se active bien." },
+            { n: 2, t: "Completá el registro", d: "Te van a pedir correo, contraseña, nombre, fecha de nacimiento (mayor de 18) y datos básicos. Cargá tu info real, porque después en la verificación tiene que coincidir." },
+            { n: 3, t: "Verificá tu cuenta (KYC)", d: "Subí una foto de tu DNI y, a veces, un selfie. Es requisito legal y conviene hacerlo el primer día, así cuando retires no hay demoras ni excusas." },
+            { n: 4, t: "Hacé tu primer depósito", d: "Elegí el método que más uses (Yape, Plin, transferencia, tarjeta o cripto). Si querés el bono, activalo antes de confirmar. Fijate el depósito mínimo para el bono." },
+            { n: 5, t: "A jugar (con cabeza)", d: "Ya tenés tu saldo más el bono. Buscá tus slots favoritos, definí cuánto estás dispuesto a gastar, y disfrutá. Recordá: es entretenimiento, no trabajo." },
+          ].map((s) => (
+            <div key={s.n} className="flex gap-4 rounded-2xl bg-[#141414] border border-white/[0.06] p-5">
+              <span className="w-9 h-9 rounded-full bg-gradient-to-br from-[#22c55e] to-[#16a34a] flex items-center justify-center font-black text-white shrink-0">{s.n}</span>
+              <div>
+                <h3 className="text-white font-bold mb-1">{s.t}</h3>
+                <p className="text-[#9ca3af] leading-relaxed text-sm sm:text-base">{s.d}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+        <P>
+          Y eso es todo. Nada de papeleo eterno ni esperas de días. La parte que más tarda es la verificación, y aun así suele resolverse en minutos o pocas horas. Por eso insistimos en hacerla apenas te registrás: es la diferencia entre retirar al toque o quedarte esperando justo cuando ganaste. Un consejo extra: activá los límites de depósito desde el primer día, así desde el arranque jugás con red de seguridad.
+        </P>
+        <div className="mt-4"><CtaButton slug="betsson-peru" text="Crear cuenta en Betsson" /></div>
+      </Section>
+
+      {/* MÉTODOS DE PAGO */}
+      <Section id="metodos-pago">
+        <SectionTitle>Métodos de pago en Perú</SectionTitle>
+        <P>
+          Acá se nota la diferencia entre jugar en Stake (puro cripto) o en un casino con onda local. Te contamos qué opciones tenés y cuál conviene según tu caso, porque este punto, aunque parezca aburrido, es de los que más impacto tienen en tu experiencia.
+        </P>
+        <H3>Yape y Plin: lo más cómodo</H3>
+        <P>
+          Para el peruano promedio, Yape y Plin son el rey. Los usás para todo, ya los tenés en el celu, y los casinos con licencia MINCETUR los aceptan. El depósito cae al toque, literal en segundos, y los retiros suelen llegar en menos de 24 horas. Probamos un retiro con Yape en Betsson un martes a la noche y en hora y media teníamos las lucas. Si querés simpleza total, este es tu camino.
+        </P>
+        <H3>Tarjetas, transferencias y PagoEfectivo</H3>
+        <P>
+          Visa y Mastercard funcionan para depositar en casi todos los casinos. También aceptan transferencias por BCP, BBVA e Interbank, y PagoEfectivo para los que prefieren pagar en efectivo. Cada plataforma tiene su combinación, pero entre los del ranking vas a encontrar el método que uses.
+        </P>
+        <H3>Cripto: el camino de Stake</H3>
+        <P>
+          Acá es donde Stake brilla. Con cripto (Bitcoin, USDT) los depósitos y retiros son casi instantáneos, sin pasar por bancos. Si ya manejás cripto, es una ventaja real. Si no tenés idea, no te compliques: arrancá con Yape o Plin en un casino con licencia MINCETUR y dejá la cripto para más adelante.
+        </P>
+        <H3>¿Cuánto tardan los retiros?</H3>
+        <P>
+          Depositar es fácil en todos lados; lo que separa a un buen casino de uno malo es la velocidad para devolverte tu plata. Los retiros con Yape suelen llegar en menos de 24 horas (a veces en un par de horas), los de cripto en minutos, y las transferencias bancarias entre unas horas y un día hábil. La primera vez siempre tarda más por la verificación, así que hacé el KYC apenas te registrás. Si un casino te pone trabas raras para retirar, desconfiá: los serios pagan sin drama.
+        </P>
+      </Section>
+
+      {/* PRIMERA SESIÓN */}
+      <Section id="primera-sesion" alt>
+        <SectionTitle>Tu primera sesión de slots, bien hecha</SectionTitle>
+        <P>
+          Si después de leer todo esto querés probar, perfecto, pero hagámoslo con cabeza. Te dejamos una mini guía de cómo encarar tu primera sesión de slots para que sea entretenida y no termine en un mal rato. Es lo que le diríamos a un pata que nunca jugó.
+        </P>
+        <P>
+          Primero, definí tu presupuesto de entretenimiento: un monto que si lo perdés entero, no te cambia el mes. Ese es tu techo, y no se toca. Segundo, elegí un slot de volatilidad media para arrancar (no te tires de una a los Hacksaw de volatilidad extrema que juega Zein). Tercero, poné apuestas chicas: la idea es que el presupuesto te dure y disfrutes muchos giros, no que lo quemes en cinco minutos buscando el premio gordo.
+        </P>
+        <P>
+          Cuarto, fijate un punto de salida tanto para arriba como para abajo. Si ganás y llegás a una meta que te pusiste, retirá y cerrá la sesión contento; no caigas en el “una más a ver si gano más”. Y si perdés tu presupuesto del día, se terminó por hoy, sin dramas. Quinto: disfrutá el rato. El objetivo es pasarla bien, no hacer plata. Una última cosa que mucha gente no sabe: no necesitás apostar más para “acercarte” a un premio. El RTP es un porcentaje fijo, da igual si apostás chico o grande; lo único que cambia es el tamaño de los premios y las pérdidas.
+        </P>
+        <P>
+          Te dejamos un truco que usan los que juegan tranquilo: dividí tu presupuesto del día en varias sesiones cortas en vez de quemarlo todo de una. Por ejemplo, si tenés S/100 para el fin de semana, jugá de a S/25 por sesión. Así, si una sesión sale fría, no perdiste todo, y le das chance a que la suerte cambie otro día sin presión. Es la diferencia entre jugar para divertirte y jugar con ansiedad. Y la ansiedad, en el casino, es justo lo que te hace tomar malas decisiones.
+        </P>
+        <div className="mt-4"><CtaButton slug="sol-casino" text="Empezar tranquilo en SOL" /></div>
+      </Section>
+
+      {/* TIPS SLOTS */}
+      <Section id="jugar-slots-tips">
+        <SectionTitle>Cómo jugar slots como Zein (sin fundirte)</SectionTitle>
+        <P>
+          Ya sabemos que viniste por las slots. Y está bien: son divertidas y los streams las hacen ver como una montaña rusa. Pero hay una diferencia abismal entre cómo juega un streamer y cómo deberías jugar vos. Estos consejos no te los da nadie en un stream, pero te pueden salvar la billetera.
+        </P>
+        <H3>Entendé la volatilidad</H3>
+        <P>
+          Los slots favoritos de Zein son de alta volatilidad: pagan poco la mayor parte del tiempo y muy de vez en cuando sueltan un premio gordo. Genial para un clip, brutal para un bankroll chico. Si recién arrancás, probá slots de volatilidad media o baja: ganás más seguido y la sesión dura más.
+        </P>
+        <H3>Mirá el RTP y usá el modo demo</H3>
+        <P>
+          El RTP es el porcentaje teórico que un slot devuelve a largo plazo. Elegí slots con 96% o más. Y antes de apostar plata real, jugá un rato en modo demo (gratis, con dinero ficticio) para entender la mecánica. Los streamers no usan demo porque su contenido es el espectáculo de la plata real, pero vos no tenés por qué.
+        </P>
+        <H3>Definí límites y respetalos</H3>
+        <P>
+          Lo más importante y lo más difícil. Antes de empezar, decidí cuánto vas a jugar y cuándo vas a parar. Y la regla sagrada: nunca persigas las pérdidas. Ese “una más para recuperar” es el camino directo a perder el doble.
+        </P>
+        <ProsCons
+          pros={[
+            "Definir un presupuesto fijo antes de empezar",
+            "Jugar slots con RTP de 96%+ y probar el modo demo primero",
+            "Tratar el casino como entretenimiento, no como ingreso",
+            "Aprovechar los bonos pero leyendo siempre el rollover",
+          ]}
+          cons={[
+            "Perseguir las pérdidas con una apuesta más",
+            "Jugar con plata que necesitás para gastos reales",
+            "Copiar las apuestas altas de un streamer sin su bankroll",
+            "Creer que los clips de millones reflejan una sesión normal",
+          ]}
+        />
+      </Section>
+
+      {/* ERRORES */}
+      <Section id="errores-comunes" alt>
+        <SectionTitle>Los 5 errores del que copia a un streamer</SectionTitle>
+        <P>
+          Después de ver mucho contenido de casino, identificamos los errores que se repiten en el que empieza a jugar copiando lo que ve en un stream. Si los esquivás, ya jugás mejor que la mayoría.
+        </P>
+        <div className="space-y-4 my-6">
+          {[
+            { t: "Copiar las apuestas altas sin tener el bankroll", d: "Zein apuesta montos que para él son parte de su trabajo. Si los copiás con tu sueldo, fundís el saldo en minutos. Apostá en proporción a TU bankroll." },
+            { t: "Creer que el clip viral es una sesión normal", d: "La ganancia gigante es el mejor momento de horas de stream. Por cada clip de ganancia hay muchas sesiones perdedoras que no se hacen virales." },
+            { t: "Perseguir las pérdidas", d: "El error más caro. Después de perder viene el una más para recuperar, y esa lógica transforma una pérdida chica en un problema grande." },
+            { t: "Usar el bonus buy sin entenderlo", d: "Comprar el bonus cuesta carísimo. Los streamers lo hacen para el espectáculo; para un bankroll normal, es la forma más rápida de quedarte sin saldo." },
+            { t: "No leer las condiciones del bono", d: "Aceptar un bono sin mirar el rollover es el clásico. Después te quejás de que no te dejan retirar, cuando no cumpliste una condición que estaba escrita." },
+          ].map((e, i) => (
+            <div key={e.t} className="flex gap-4 rounded-2xl bg-[#141414] border border-white/[0.06] p-5">
+              <span className="w-9 h-9 rounded-full bg-gradient-to-br from-[#dc2626] to-[#b91c1c] flex items-center justify-center font-black text-white shrink-0">{i + 1}</span>
+              <div>
+                <h3 className="text-white font-bold mb-1">{e.t}</h3>
+                <p className="text-[#9ca3af] leading-relaxed text-sm sm:text-base">{e.d}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+        <P>
+          Si leés esta lista y pensás “a mí no me va a pasar”, justo ese pensamiento es el que mete a la gente en problemas. Nadie planea perder de más; pasa de a poco, en el calor del momento. Por eso lo mejor que podés hacer es decidir tus límites antes de empezar, cuando tenés la cabeza fría, y respetarlos pase lo que pase.
+        </P>
+      </Section>
+
+      {/* ESCENA */}
+      <Section id="escena-streamers">
+        <SectionTitle>Andynsane y la escena de streamers de casino</SectionTitle>
+        <P>
+          Zein no juega solo. Es parte de una escena enorme de streamers de casino en español que explotó en los últimos años, sobre todo en Kick. Entender ese contexto te ayuda a mirar todo esto con más perspectiva.
+        </P>
+        <P>
+          En LATAM hay un montón de creadores que hacen contenido de slots: en Argentina están Coscu y Santutu; en Colombia, MrStiven Tc; y a nivel internacional, monstruos como xQc o Roshtein que mueven apuestas que dan vértigo. Todos comparten el mismo formato: slots de alta volatilidad, reacciones grandes, y clips que circulan por todas las redes.
+        </P>
+        <P>
+          Cuando entendés que es una industria (con acuerdos, con producción, con un modelo de negocio claro), dejás de ver los streams como “un pata que gana fortunas jugando” y empezás a verlos como lo que son: entretenimiento profesional. Zein es buenísimo en lo que hace, pero lo que hace es contenido, no un tutorial de cómo llenarte de lucas. Si te copa este tipo de contenido y querés saber dónde juegan los demás, lo estamos investigando uno por uno.
+        </P>
+        <P>
+          Un detalle que conviene tener presente: muchos de estos streamers, además de jugar, organizan sorteos, regalan códigos y arman colaboraciones con las plataformas. Es parte del juego del contenido, y está bien mientras lo veas como lo que es. El problema aparece cuando un seguidor confunde “mi streamer favorito juega acá” con “este es el mejor casino para mí”. No son lo mismo, y toda esta guía existe justamente para marcar esa diferencia. Mirá a Zein y a quien quieras, divertite con sus streams, pero elegí dónde jugás con tu propio criterio.
+        </P>
+        <div className="mt-4"><Link href="/streamers" className="inline-flex items-center justify-center px-6 py-3 rounded-xl border border-[#a855f7]/40 text-[#c084fc] font-bold text-sm uppercase tracking-wide transition-all hover:bg-[#a855f7]/10">Ver todos los streamers →</Link></div>
+      </Section>
+
+      {/* GLOSARIO */}
+      <Section id="glosario" alt>
+        <SectionTitle>Glosario: las palabras que vas a escuchar</SectionTitle>
+        <P>
+          Si te metés en el mundo del casino online (o si mirás streams de Zein), vas a escuchar términos que capaz no conocés. Acá un mini diccionario para que no te pierdas.
+        </P>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6">
+          {[
+            { t: "RTP (Return to Player)", d: "Porcentaje teórico que un juego devuelve a largo plazo. RTP de 96% = devuelve 96 de cada 100 apostados, en promedio." },
+            { t: "Volatilidad", d: "Qué tan seguido y qué tan grande paga un slot. Alta = premios raros pero grandes. Baja = premios frecuentes y chicos." },
+            { t: "Rollover", d: "Las veces que tenés que apostar un bono antes de poder retirar. Bono de S/100 con rollover x30 = apostar S/3.000." },
+            { t: "Tumbles", d: "Mecánica donde los símbolos ganadores desaparecen y caen nuevos, encadenando premios. Típica de Sweet Bonanza y Sugar Rush." },
+            { t: "Multiplicador", d: "Valor que multiplica tu premio. En Gates of Olympus pueden aparecer multiplicadores enormes que vuelan la pantalla." },
+            { t: "Free Spins", d: "Giros gratis en slots. Las ganancias suelen tener su propio rollover, así que leé las condiciones." },
+            { t: "KYC", d: "Verificación de identidad. Te piden DNI y a veces selfie. Es requisito legal antes de retirar." },
+            { t: "House Edge", d: "La ventaja matemática del casino. Es por qué, a la larga, la casa siempre gana." },
+            { t: "Bankroll", d: "El total de plata que destinás a jugar. Debería ser lo que podés perder sin drama." },
+            { t: "Originals", d: "Juegos propios de plataformas como Stake (Plinko, Crash, Mines) que no encontrás en casinos tradicionales." },
+            { t: "MINCETUR", d: "El ministerio que regula y otorga licencias a los casinos online en Perú." },
+            { t: "Bonus buy", d: "Función que te lleva directo a los giros gratis pagando un costo alto. Pensada para bankrolls grandes." },
+          ].map((g) => (
+            <div key={g.t} className="rounded-xl bg-[#141414] border border-white/[0.06] p-5">
+              <p className="text-white font-bold mb-1">{g.t}</p>
+              <p className="text-[#9ca3af] text-sm leading-relaxed">{g.d}</p>
+            </div>
+          ))}
+        </div>
+      </Section>
+
+      {/* JUEGO RESPONSABLE */}
+      <Section id="juego-responsable">
+        <SectionTitle>Antes de jugar: la charla importante</SectionTitle>
+        <P>
+          No nos íbamos a ir sin esto. Ver a Zein ganar millones es entretenido, pero el casino no es un trabajo ni una inversión. Es entretenimiento que cuesta plata, como ir al cine. Y como todo entretenimiento que cuesta plata, hay que ponerle límites.
+        </P>
+        <P>
+          Reglas simples que te pueden ahorrar disgustos: jugá solo con plata que estés dispuesto a perder, nunca con la del alquiler o la comida. Poné un presupuesto antes de empezar y respetalo, ganes o pierdas. Si perdés, no persigas las pérdidas. Y si sentís que se te está yendo de las manos, parás. No hay vergüenza en eso, hay inteligencia.
+        </P>
+        <P>
+          Una señal de alarma para que tengas en el radar: si te encontrás jugando para “recuperar” lo perdido, escondiendo cuánto jugás, o sacando plata de gastos importantes para apostar, pará y pedí ayuda. Esos son los focos rojos del juego problemático, y reconocerlos a tiempo cambia todo. Todos los casinos serios tienen herramientas de juego responsable: límites de depósito, autoexclusión, recordatorios de tiempo. Usalas sin culpa. Mayores de 18 años, siempre.
+        </P>
+        <div className="rounded-2xl bg-[#22c55e]/[0.06] border border-[#22c55e]/20 p-6">
+          <p className="text-[#d4d4d8] leading-relaxed text-sm sm:text-base">
+            <strong className="text-white">+18 | Jugá con responsabilidad.</strong> El juego puede generar adicción. Esta guía es informativa y de entretenimiento, no una invitación a apostar más de lo que podés permitirte. Conocé más en nuestra página de <Link href="/juego-responsable" className="text-[#22c55e] hover:underline">juego responsable</Link>.
+          </p>
+        </div>
+      </Section>
+
+      {/* FAQ */}
+      <Section id="faq" alt>
+        <SectionTitle>Preguntas frecuentes sobre el casino de Andynsane</SectionTitle>
+        <div className="space-y-4 mt-8">
+          {faqItems.map((f) => (
+            <div key={f.q} className="rounded-2xl bg-[#141414] border border-white/[0.06] p-6">
+              <h3 className="text-white font-bold text-base sm:text-lg mb-2">{f.q}</h3>
+              <p className="text-[#9ca3af] leading-relaxed text-sm sm:text-base">{f.a}</p>
+            </div>
+          ))}
+        </div>
+      </Section>
+
+      {/* VEREDICTO */}
+      <Section id="veredicto">
+        <SectionTitle>Veredicto: ¿dónde jugar entonces?</SectionTitle>
+        <P>
+          Recapitulemos. La pregunta con la que llegaste era “¿en qué casino juega Andynsane?”, y la respuesta es <strong className="text-white">Stake</strong>, donde es embajador en Perú y hace sus slots en Kick. Eso es un hecho, y ahora ya sabés el contexto completo: por qué juega ahí, qué slots le gustan y por qué esos clips de millones hay que tomarlos con pinzas.
+        </P>
+        <P>
+          Pero si tu pregunta de fondo era “¿y dónde juego yo?”, nuestra respuesta es distinta: para la mayoría de los peruanos, arrancar por <strong className="text-white">Betsson</strong>, por <strong className="text-white">Inkabet</strong> (lo 100% nacional) o por <strong className="text-white">STARDA</strong> (el paraíso de los slots) es una jugada más inteligente que copiar a un streamer. Stake es legítimo y podés usarlo si te manejás con cripto, pero no es necesariamente tu mejor punto de partida.
+        </P>
+        <P>
+          Y por encima de qué casino elijas, lo más importante: jugá con la cabeza fría. El casino es entretenimiento, no un trabajo. Poné límites, respetalos, y disfrutá los slots por lo que son: un juego. Ojalá esta guía te haya servido no solo para saber dónde juega Zein, sino para entender todo lo que hay detrás y tomar decisiones informadas.
+        </P>
+        <P>
+          Si te quedaste con ganas de más, pasate por las guías de otros streamers y por nuestro ranking completo de casinos en Perú, que ahí vas a encontrar el casino ideal para tu caso puntual, con métodos de pago locales y bonos verificados. Y recordá: el mejor casino siempre va a ser el que mejor se adapte a vos, no el que más suene en los streams. Jugá tranquilo, jugá informado, y que la pases bien.
+        </P>
+        <div className="mt-6 flex flex-wrap gap-3">
+          <CtaButton slug="betsson-peru" text="Empezar con Betsson" />
+          <CtaButton slug="inkabet" text="Probar Inkabet" />
+        </div>
+      </Section>
+
+      {/* LINKS */}
+      <Section id="seguir-leyendo" alt>
+        <SectionTitle>Seguí leyendo</SectionTitle>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          <Link href="/peru/mejores-casinos-online" className="rounded-2xl bg-[#141414] border border-white/[0.06] p-6 hover:border-[#22c55e]/30 transition-colors">
+            <p className="text-white font-bold mb-1">Mejores casinos en Perú</p>
+            <p className="text-[#71717a] text-sm">El ranking completo, con bonos verificados.</p>
+          </Link>
+          <Link href="/peru/ruleta-online" className="rounded-2xl bg-[#141414] border border-white/[0.06] p-6 hover:border-[#22c55e]/30 transition-colors">
+            <p className="text-white font-bold mb-1">Ruleta online en Perú</p>
+            <p className="text-[#71717a] text-sm">Las mejores mesas en vivo para peruanos.</p>
+          </Link>
+          <Link href="/streamers" className="rounded-2xl bg-[#141414] border border-white/[0.06] p-6 hover:border-[#22c55e]/30 transition-colors">
+            <p className="text-white font-bold mb-1">Casinos de otros streamers</p>
+            <p className="text-[#71717a] text-sm">¿En qué casino juegan los demás? Lo investigamos.</p>
+          </Link>
+          <Link href="/streamers/casino-coscu" className="rounded-2xl bg-[#141414] border border-white/[0.06] p-6 hover:border-[#22c55e]/30 transition-colors">
+            <p className="text-white font-bold mb-1">El casino de Coscu</p>
+            <p className="text-[#71717a] text-sm">Dónde juega el gigante argentino del streaming.</p>
+          </Link>
+        </div>
+      </Section>
+    </>
+  );
+}

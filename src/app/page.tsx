@@ -1,3 +1,4 @@
+import Link from "next/link";
 import CountryGrid from "@/components/CountryGrid";
 import StreamerCard from "@/components/StreamerCard";
 import HeroBackground from "@/components/HeroBackground";
@@ -267,6 +268,16 @@ export default function Home() {
                   <StreamerCard key={s.slug} streamer={s} />
                 ))}
             </div>
+          </div>
+
+          {/* Ver todos */}
+          <div className="mt-12 flex justify-center">
+            <Link
+              href="/streamers"
+              className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl border border-[#a855f7]/40 text-[#c084fc] font-bold text-sm uppercase tracking-wide transition-all hover:bg-[#a855f7]/10 hover:border-[#a855f7]/60"
+            >
+              Ver todos los streamers →
+            </Link>
           </div>
         </div>
       </section>

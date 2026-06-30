@@ -10,6 +10,7 @@ export const streamers: Streamer[] = [
       "Uno de los streamers más grandes de Argentina. Juega en Stake y organiza los famosos Coscu Army Awards.",
     category: "LATAM",
     slug: "coscu",
+    hasArticle: true,
   },
   {
     name: "MrStiven Tc",
@@ -19,6 +20,7 @@ export const streamers: Streamer[] = [
       "Con más de 11 millones de suscriptores en YouTube, es uno de los creadores más grandes de todo LATAM.",
     category: "LATAM",
     slug: "mrstiven-tc",
+    hasArticle: true,
   },
   {
     name: "Andynsane / ElZeein",
@@ -28,6 +30,7 @@ export const streamers: Streamer[] = [
       "Empezó en YouTube en 2009 y ahora se la pasa en Kick con sesiones de casino en vivo que enganchan.",
     category: "LATAM",
     slug: "andynsane",
+    hasArticle: true,
   },
   {
     name: "Santutu",
@@ -37,6 +40,7 @@ export const streamers: Streamer[] = [
       "Conocido por sus sesiones explosivas de slots. Muy popular en Kick con una comunidad que crece cada día.",
     category: "LATAM",
     slug: "santutu",
+    hasArticle: true,
   },
   // Internacionales
   {
@@ -47,6 +51,7 @@ export const streamers: Streamer[] = [
       "Con 11 millones de seguidores en Twitch, es el streamer de casino más grande del mundo. Sus apuestas son legendarias.",
     category: "Internacional",
     slug: "xqc",
+    hasArticle: true,
   },
   {
     name: "Roshtein",
@@ -56,6 +61,7 @@ export const streamers: Streamer[] = [
       "El rey global de los slots. Sus sesiones con apuestas altísimas y reacciones épicas lo hicieron famoso en todo el planeta.",
     category: "Internacional",
     slug: "roshtein",
+    hasArticle: true,
   },
   // Nicho
   {
@@ -66,6 +72,7 @@ export const streamers: Streamer[] = [
       "Con 115K seguidores en Kick, viene creciendo fuerte con contenido de casino fresco y auténtico.",
     category: "Nicho",
     slug: "butisito",
+    hasArticle: true,
   },
   {
     name: "ZonaGemelosOficial",
@@ -75,6 +82,7 @@ export const streamers: Streamer[] = [
       "116K seguidores en Kick. Dupla de gemelos que la rompen con streams de casino y entretenimiento.",
     category: "Nicho",
     slug: "zonagemelosoficial",
+    hasArticle: true,
   },
   {
     name: "PlayermakerTV",
@@ -84,5 +92,6 @@ export const streamers: Streamer[] = [
       "El streamer de slots más visto en español. Sesiones intensas y una comunidad fiel que no se pierde ni un stream.",
     category: "Nicho",
     slug: "playermakertv",
+    hasArticle: true,
   },
 ];

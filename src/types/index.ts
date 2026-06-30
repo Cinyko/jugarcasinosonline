@@ -29,6 +29,8 @@ export interface Streamer {
   description: string;
   category: "LATAM" | "Internacional" | "Nicho";
   slug: string;
+  /** When true, the card links to /streamers/casino-${slug} instead of showing "Próximamente" */
+  hasArticle?: boolean;
 }
 
 export interface Comparison {
