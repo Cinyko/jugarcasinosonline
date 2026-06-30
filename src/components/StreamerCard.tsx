@@ -19,19 +19,6 @@ export default function StreamerCard({ streamer }: { streamer: Streamer }) {
 
   const inner = (
     <>
-      {/* Top-right badge: link to guide or "coming soon" */}
-      <div className="absolute top-3 right-3 z-20">
-        {hasArticle ? (
-          <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg text-[10px] font-black uppercase tracking-wider text-[#22c55e] bg-[#22c55e]/10 border border-[#22c55e]/20">
-            Ver guía →
-          </span>
-        ) : (
-          <span className="inline-flex items-center px-2.5 py-1 rounded-lg text-[10px] font-black uppercase tracking-wider text-[#fbbf24] bg-[#fbbf24]/10 border border-[#fbbf24]/20">
-            Próximamente
-          </span>
-        )}
-      </div>
-
       {/* Background gradient */}
       <div
         className="absolute inset-0 opacity-[0.06]"
@@ -68,6 +55,20 @@ export default function StreamerCard({ streamer }: { streamer: Streamer }) {
         <p className="text-sm text-[#9ca3af] leading-relaxed flex-1">
           {streamer.description}
         </p>
+
+        {/* Footer: link to guide or "coming soon" */}
+        <div className="mt-5 pt-4 border-t border-white/[0.06]">
+          {hasArticle ? (
+            <span className="inline-flex items-center gap-1.5 text-[13px] font-black uppercase tracking-wider text-[#22c55e] transition-colors group-hover:text-[#4ade80]">
+              Ver guía
+              <span className="transition-transform duration-300 group-hover:translate-x-1">→</span>
+            </span>
+          ) : (
+            <span className="inline-flex items-center px-2.5 py-1 rounded-lg text-[10px] font-black uppercase tracking-wider text-[#fbbf24] bg-[#fbbf24]/10 border border-[#fbbf24]/20">
+              Próximamente
+            </span>
+          )}
+        </div>
       </div>
     </>
   );

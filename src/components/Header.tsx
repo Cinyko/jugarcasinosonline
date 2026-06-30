@@ -4,12 +4,16 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { countries } from "@/data/countries";
+import { streamers } from "@/data/streamers";
+
+const streamerLinks = streamers.filter((s) => s.hasArticle);
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isCountryOpen, setIsCountryOpen] = useState(false);
   const [isRuletaOpen, setIsRuletaOpen] = useState(false);
   const [isBlackjackOpen, setIsBlackjackOpen] = useState(false);
+  const [isStreamersOpen, setIsStreamersOpen] = useState(false);
   const [mobileSubmenu, setMobileSubmenu] = useState<string | null>(null);
 
   const toggleMobileSubmenu = (menu: string) => {
@@ -165,9 +169,48 @@ export default function Header() {
               )}
             </div>
 
-            <Link href="/streamers" className="px-4 py-2 text-sm font-medium text-text-secondary hover:text-white transition-colors rounded-lg hover:bg-white/5">
-              Streamers
-            </Link>
+            {/* Streamers Dropdown */}
+            <div
+              className="relative"
+              onMouseEnter={() => setIsStreamersOpen(true)}
+              onMouseLeave={() => setIsStreamersOpen(false)}
+            >
+              <button className="flex items-center gap-1.5 px-4 py-2 text-sm font-medium text-text-secondary hover:text-white transition-colors rounded-lg hover:bg-white/5">
+                Streamers
+                <svg
+                  className={`w-3.5 h-3.5 transition-transform duration-200 ${isStreamersOpen ? "rotate-180" : ""}`}
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+
+              {isStreamersOpen && (
+                <div className="absolute top-full left-0 pt-2 w-64">
+                <div className="rounded-xl bg-surface-light border border-surface-border-light shadow-2xl shadow-black/50 py-2 overflow-hidden max-h-[70vh] overflow-y-auto">
+                  {streamerLinks.map((s) => (
+                    <Link
+                      key={s.slug}
+                      href={`/streamers/casino-${s.slug}`}
+                      className="flex items-center justify-between gap-3 px-4 py-2.5 text-sm text-text-secondary hover:text-white hover:bg-white/5 transition-all"
+                    >
+                      <span className="font-medium">{s.name}</span>
+                      <span className="text-[10px] font-bold uppercase tracking-wider text-[#71717a]">{s.country}</span>
+                    </Link>
+                  ))}
+                  <Link
+                    href="/streamers"
+                    className="block px-4 py-2.5 mt-1 text-sm font-bold text-primary hover:bg-white/5 transition-all border-t border-surface-border-light"
+                  >
+                    Ver todos →
+                  </Link>
+                </div>
+                </div>
+              )}
+            </div>
+
             <Link href="/sobre-nosotros" className="px-4 py-2 text-sm font-medium text-text-secondary hover:text-white transition-colors rounded-lg hover:bg-white/5">
               Sobre Nosotros
             </Link>
@@ -327,13 +370,45 @@ export default function Header() {
               </div>
             )}
 
-            <Link
-              href="/streamers"
-              className="block py-3 px-3 text-sm font-medium text-text-secondary hover:text-white hover:bg-white/5 rounded-lg transition-all"
-              onClick={() => setIsMenuOpen(false)}
+            {/* Mobile Streamers */}
+            <button
+              className="flex w-full items-center justify-between py-3 px-3 text-sm font-medium text-text-secondary hover:text-white hover:bg-white/5 rounded-lg transition-all"
+              onClick={() => toggleMobileSubmenu("streamers")}
             >
               Streamers
-            </Link>
+              <svg
+                className={`w-4 h-4 transition-transform duration-200 ${mobileSubmenu === "streamers" ? "rotate-180" : ""}`}
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+
+            {mobileSubmenu === "streamers" && (
+              <div className="pl-3 space-y-1 border-l-2 border-purple/30 ml-3">
+                {streamerLinks.map((s) => (
+                  <Link
+                    key={s.slug}
+                    href={`/streamers/casino-${s.slug}`}
+                    className="flex items-center justify-between gap-3 py-2.5 px-3 text-sm text-text-secondary hover:text-white transition-colors"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    <span>{s.name}</span>
+                    <span className="text-[10px] font-bold uppercase tracking-wider text-[#71717a]">{s.country}</span>
+                  </Link>
+                ))}
+                <Link
+                  href="/streamers"
+                  className="block py-2.5 px-3 text-sm font-bold text-primary"
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  Ver todos →
+                </Link>
+              </div>
+            )}
+
             <Link
               href="/sobre-nosotros"
               className="block py-3 px-3 text-sm font-medium text-text-secondary hover:text-white hover:bg-white/5 rounded-lg transition-all"
