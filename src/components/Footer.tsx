@@ -67,15 +67,9 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="tel:+34644293358" className="flex items-center gap-3 text-sm text-text-muted hover:text-white transition-colors">
-                  <span className="text-base">&#128241;</span>
-                  +34 644 29 33 58
-                </a>
-              </li>
-              <li>
-                <a href="https://jugarcasinosonline.net" className="flex items-center gap-3 text-sm text-text-muted hover:text-white transition-colors">
+                <a href="https://www.jugarcasinosonline.net" className="flex items-center gap-3 text-sm text-text-muted hover:text-white transition-colors">
                   <span className="text-base">&#127760;</span>
-                  jugarcasinosonline.net
+                  www.jugarcasinosonline.net
                 </a>
               </li>
             </ul>
