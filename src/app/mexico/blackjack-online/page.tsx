@@ -15,14 +15,14 @@ const mexicoCasinos = [
   { rank: 1, name: "Betsson", slug: "betsson-mexico", bonus: "$15,000 + 200 Giros Gratis", rating: 9.5, bjTables: "30+", liveBj: true, highlight: true, badge: "⭐ Recomendado" },
   { rank: 2, name: "PIN-UP Casino", slug: "pinup", bonus: "$100,000 MXN + 250 giros gratis", rating: 9.4, bjTables: "40+", liveBj: true, highlight: false, badge: "🔥 TOP" },
   { rank: 3, name: "1xBet", slug: "1xbet", bonus: "$40,000 MXN + 300 giros gratis", rating: 9.3, bjTables: "25+", liveBj: true, highlight: false },
-  { rank: 4, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% + 500 giros gratis", rating: 8.9, bjTables: "45+", liveBj: true, highlight: false },
-  { rank: 5, name: "SOL Casino", slug: "sol-casino", bonus: "100% + 500 giros gratis", rating: 9.1, bjTables: "35+", liveBj: true, highlight: false },
-  { rank: 6, name: "STARDA Casino", slug: "starda-casino", bonus: "100% + 500 giros gratis", rating: 9.3, bjTables: "20+", liveBj: true, highlight: false },
-  { rank: 7, name: "MONRO Casino", slug: "monro-casino", bonus: "150% primer depósito", rating: 9.0, bjTables: "25+", liveBj: true, highlight: false },
-  { rank: 8, name: "Betway", slug: "betway-mexico", bonus: "$4,000 MXN + 50 Free Spins", rating: 9.2, bjTables: "20+", liveBj: true, highlight: false },
-  { rank: 9, name: "Caliente", slug: "caliente", bonus: "Bono + giros gratis", rating: 8.8, bjTables: "18+", liveBj: true, highlight: false },
-  { rank: 10, name: "Codere", slug: "codere", bonus: "100% hasta $3,000 MXN", rating: 8.7, bjTables: "15+", liveBj: true, highlight: false },
-  { rank: 11, name: "Strendus", slug: "strendus", bonus: "100% hasta $5,000 MXN", rating: 8.5, bjTables: "12+", liveBj: true, highlight: false },
+  { rank: 4, name: "Betway", slug: "betway-mexico", bonus: "$4,000 MXN + 50 Free Spins", rating: 9.2, bjTables: "20+", liveBj: true, highlight: false },
+  { rank: 5, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% + 500 giros gratis", rating: 9.0, bjTables: "45+", liveBj: true, highlight: false },
+  { rank: 6, name: "SOL Casino", slug: "sol-casino", bonus: "100% + 500 giros gratis", rating: 8.9, bjTables: "35+", liveBj: true, highlight: false },
+  { rank: 7, name: "STARDA Casino", slug: "starda-casino", bonus: "100% + 500 giros gratis", rating: 8.8, bjTables: "20+", liveBj: true, highlight: false },
+  { rank: 8, name: "MONRO Casino", slug: "monro-casino", bonus: "150% primer depósito", rating: 8.7, bjTables: "25+", liveBj: true, highlight: false },
+  { rank: 9, name: "Caliente", slug: "caliente", bonus: "Bono + giros gratis", rating: 8.6, bjTables: "18+", liveBj: true, highlight: false },
+  { rank: 10, name: "Codere", slug: "codere", bonus: "100% hasta $3,000 MXN", rating: 8.5, bjTables: "15+", liveBj: true, highlight: false },
+  { rank: 11, name: "Strendus", slug: "strendus", bonus: "100% hasta $5,000 MXN", rating: 8.3, bjTables: "12+", liveBj: true, highlight: false },
 ];
 
 const faqItems = [
@@ -605,11 +605,27 @@ export default function BlackjackOnlineMexico() {
           <CtaButton slug="betsson-mexico" text="Jugar Blackjack en Betsson" />
         </div>
 
+        {/* 3. 1xBet */}
+        <div className="mb-12">
+          <div className="flex flex-wrap items-center gap-4 mb-2">
+            <h3 className="text-2xl sm:text-3xl font-black text-white">3. 1xBet</h3>
+            <span className="text-[#22c55e] font-black text-xl">9.3/10</span>
+          </div>
+          <div className="h-1 w-24 bg-gradient-to-r from-[#22c55e] to-transparent rounded mb-6" />
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            1xBet llega al top 3 con más de 25 mesas de blackjack en vivo: Infinite para empezar con apuestas bajas, Speed para partidas rápidas y VIP para quien juega en serio. Evolution y Ezugi como proveedores, dealers en español y la sección de deportes (Liga MX incluida) en la misma cuenta.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-4">
+            El paquete de bienvenida sube hasta $40,000 MXN + 300 giros en 4 depósitos, y puedes pagar con SPEI o cripto. Un consejo honesto: el blackjack aporta poco al rollover del bono, así que si lo tuyo es puro 21, quizá te convenga jugar sin bono y sin ataduras.
+          </p>
+          <CtaButton slug="1xbet" text="Probar 1xBet" />
+        </div>
+
         {/* FRESH Casino */}
         <div className="mb-12">
           <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-[#3b82f6]">2. FRESH Casino</h3>
-            <span className="text-[#22c55e] font-black text-xl">9.3/10</span>
+            <h3 className="text-2xl sm:text-3xl font-black text-[#3b82f6]">5. FRESH Casino</h3>
+            <span className="text-[#22c55e] font-black text-xl">9.0/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#3b82f6] to-transparent rounded mb-6" />
 
@@ -629,7 +645,7 @@ export default function BlackjackOnlineMexico() {
 
         {/* SOL Casino */}
         <div className="mb-12">
-          <h3 className="text-2xl sm:text-3xl font-black text-[#a855f7] mb-2">3. SOL Casino <span className="text-[#22c55e] font-black text-xl ml-3">9.1/10</span></h3>
+          <h3 className="text-2xl sm:text-3xl font-black text-[#a855f7] mb-2">6. SOL Casino <span className="text-[#22c55e] font-black text-xl ml-3">8.9/10</span></h3>
           <div className="h-1 w-24 bg-gradient-to-r from-[#a855f7] to-transparent rounded mb-6" />
 
           <p className="text-[#9ca3af] leading-relaxed mb-3">
@@ -648,7 +664,7 @@ export default function BlackjackOnlineMexico() {
 
         {/* MONRO */}
         <div className="mb-12">
-          <h3 className="text-2xl sm:text-3xl font-black text-[#06b6d4] mb-2">4. MONRO Casino <span className="text-[#22c55e] font-black text-xl ml-3">9.0/10</span></h3>
+          <h3 className="text-2xl sm:text-3xl font-black text-[#06b6d4] mb-2">8. MONRO Casino <span className="text-[#22c55e] font-black text-xl ml-3">8.7/10</span></h3>
 
           <p className="text-[#9ca3af] leading-relaxed mb-3">
             MONRO tiene algo que nadie más ofrece en este ranking: el bono más alto. 150% en tu primer depósito. Metes $2,000 MXN y juegas con $5,000 MXN. Sí, la contribución del blackjack al rollover es reducida (10-20%), pero aún así es el bono más generoso que vas a encontrar para empezar con mesas.
@@ -667,8 +683,8 @@ export default function BlackjackOnlineMexico() {
         {/* STARDA */}
         <div className="mb-8">
           <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-[#f43f5e]">5. STARDA Casino</h3>
-            <span className="text-[#22c55e] font-black text-xl">8.9/10</span>
+            <h3 className="text-2xl sm:text-3xl font-black text-[#f43f5e]">7. STARDA Casino</h3>
+            <span className="text-[#22c55e] font-black text-xl">8.8/10</span>
           </div>
 
           <p className="text-[#9ca3af] leading-relaxed mb-3">

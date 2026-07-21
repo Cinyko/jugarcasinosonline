@@ -13,32 +13,31 @@ export const metadata: Metadata = {
 
 const peruCasinos = [
   { rank: 1, name: "Betsson", slug: "betsson-peru", bonus: "Gana 300 Giros Gratis", rating: 9.5, license: "MINCETUR", games: "2 500+", highlight: true },
-  { rank: 2, name: "1xBet", slug: "1xbet", bonus: "Paquete hasta $2,275 + 150 giros gratis", rating: 9.3, license: "MINCETUR", games: "5 000+", highlight: false },
-  { rank: 3, name: "STARDA Casino", slug: "starda-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.3, license: "Curaçao", games: "3 800+", highlight: false },
-  { rank: 4, name: "Inkabet", slug: "inkabet", bonus: "Hasta S/500 + 300 giros gratis", rating: 9.2, license: "MINCETUR", games: "1 500+", highlight: false },
-  { rank: 5, name: "SOL Casino", slug: "sol-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.1, license: "Curaçao", games: "4 000+", highlight: false },
-  { rank: 6, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 8.9, license: "Curaçao", games: "4 500+", highlight: false },
-  { rank: 7, name: "MONRO Casino", slug: "monro-casino", bonus: "150% en tu primer depósito", rating: 9.0, license: "Curaçao", games: "3 500+", highlight: false },
-  { rank: 8, name: "Stake", slug: "stake", bonus: "S/50 freebet + 50 giros gratis o S/50 bono casino", rating: 8.8, license: "MINCETUR", games: "3 000+", highlight: false },
-  { rank: 9, name: "Betano", slug: "betano", bonus: "60 giros gratis sin rollover", rating: 8.7, license: "MINCETUR", games: "2 000+", highlight: false },
-  { rank: 10, name: "Bet365", slug: "bet365", bonus: "100% hasta S/500 + 500 giros gratis", rating: 8.6, license: "MINCETUR", games: "1 800+", highlight: false },
+  { rank: 2, name: "1xBet", slug: "1xbet", bonus: "Paquete hasta $2,275 + 150 giros gratis", rating: 9.3, license: "MINCETUR", games: "5 000+", highlight: false, badge: "🔥 TOP" },
+  { rank: 3, name: "Inkabet", slug: "inkabet", bonus: "Hasta S/500 + 300 giros gratis", rating: 9.2, license: "MINCETUR", games: "1 500+", highlight: false },
+  { rank: 4, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.0, license: "Curaçao", games: "4 500+", highlight: false },
+  { rank: 5, name: "SOL Casino", slug: "sol-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 8.9, license: "Curaçao", games: "4 000+", highlight: false },
+  { rank: 6, name: "STARDA Casino", slug: "starda-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 8.8, license: "Curaçao", games: "3 800+", highlight: false },
+  { rank: 7, name: "MONRO Casino", slug: "monro-casino", bonus: "150% en tu primer depósito", rating: 8.7, license: "Curaçao", games: "3 500+", highlight: false },
+  { rank: 8, name: "Betano", slug: "betano", bonus: "60 giros gratis sin rollover", rating: 8.6, license: "MINCETUR", games: "2 000+", highlight: false },
+  { rank: 9, name: "Bet365", slug: "bet365", bonus: "100% hasta S/500 + 500 giros gratis", rating: 8.5, license: "MINCETUR", games: "1 800+", highlight: false },
+  { rank: 10, name: "Stake", slug: "stake", bonus: "S/50 freebet + 50 giros gratis o S/50 bono casino", rating: 8.4, license: "MINCETUR", games: "3 000+", highlight: false },
   { rank: 11, name: "Doradobet", slug: "doradobet", bonus: "S/50 o 50 giros gratis sin depósito", rating: 8.3, license: "MINCETUR", games: "1 500+", highlight: false },
   { rank: 12, name: "Betcris", slug: "betcris", bonus: "100% primer depósito hasta S/350", rating: 8.2, license: "MINCETUR", games: "1 000+", highlight: false },
   { rank: 13, name: "Meridianbet", slug: "meridianbet", bonus: "Hasta S/500", rating: 8.1, license: "MINCETUR", games: "1 100+", highlight: false },
-  { rank: 14, name: "Caliente", slug: "caliente", bonus: "S/40 sin depósito + 100% hasta S/400", rating: 8.0, license: "MINCETUR", games: "1 300+", highlight: false },
 ];
 
 const categoryPicks = [
-  { title: "Mejor variedad de juegos", casino: "FRESH Casino", slug: "fresh-casino", reason: "4 500+ juegos y la verdad es que no encontramos otro casino que se le acerque. Probamos buscar títulos raros de Hacksaw y Nolimit City... siempre estaban. Impresionante." },
-  { title: "Pagos más rápidos", casino: "Betano", slug: "betano", reason: "Hicimos un retiro con Yape un martes a las 11pm y en menos de 2 horas ya teníamos la plata. Plin también vuela. Otros casinos te hacen esperar días, acá no." },
-  { title: "Mejor bono de bienvenida", casino: "MONRO Casino", slug: "monro-casino", reason: "150% en tu primer depósito. Sí, leíste bien: ciento cincuenta por ciento. Nadie más en el ranking llega a ese número. Ojo, el rollover es razonable también." },
-  { title: "Mejor para slots", casino: "STARDA Casino", slug: "starda-casino", reason: "Si te gustan las tragamonedas, acá viene lo bueno: tienen títulos exclusivos que no vas a encontrar en otros casinos peruanos. Y los torneos semanales reparten premios que valen la pena (sí, los revisamos)." },
-  { title: "Mejor casino en vivo", casino: "Betsson", slug: "betsson-peru", reason: "Más de 200 mesas en vivo y lo mejor es que hay dealers que hablan español de verdad, no traducción automática. Tienen hasta mesas exclusivas para Perú. La experiencia se siente premium." },
-  { title: "Mejor para principiantes", casino: "SOL Casino", slug: "sol-casino", reason: "Le pasamos la cuenta a un amigo que nunca había jugado online y en 10 minutos ya estaba apostando sin preguntar nada. La interfaz es súper clara, el soporte responde rápido y el bono tiene un rollover bajo que no te va a frustrar." },
-  { title: "Mejor atención al cliente", casino: "Bet365", slug: "bet365", reason: "Probamos el chat en vivo a las 3am un domingo (sí, lo hicimos) y nos respondieron en menos de 2 minutos. En español. Sin bot. Eso dice mucho." },
-  { title: "Mejores métodos de pago para Perú", casino: "Stake", slug: "stake", reason: "Yape, Plin, transferencia bancaria, crypto... la verdad es que aceptan de todo. Pero lo que nos voló la cabeza es que los retiros son prácticamente instantáneos. No te hacen rogar por tu plata." },
-  { title: "Casino más confiable", casino: "Betano", slug: "betano", reason: "Fue una de las primeras plataformas en sacar la licencia MINCETUR en Perú. Llevan años operando sin escándalos y los pagos siempre llegan. Cuando querés ir a lo seguro, Betano es la respuesta." },
-  { title: "Mejor casino cripto", casino: "Stake", slug: "stake", reason: "No te voy a mentir, Stake es otro nivel para crypto. Acepta BTC, ETH, USDT y varias más. Las transacciones son rapidísimas y no te cobran comisiones extras. Si ya manejás crypto, este es tu casino." },
+  { title: "Mejor variedad de juegos", casino: "1xBet", slug: "1xbet", reason: "Más de 5,000 juegos, el catálogo más grande disponible en el Perú. Buscamos títulos rebuscados de Hacksaw, Nolimit y hasta proveedores asiáticos que no conocíamos... estaban todos. Es un supermercado gigante de slots." },
+  { title: "Pagos más rápidos", casino: "Betsson", slug: "betsson-peru", reason: "Hicimos un retiro con Yape un martes a las 11pm y en menos de 2 horas ya teníamos la plata. Con licencia MINCETUR y métodos 100% peruanos, nadie te devuelve las lucas tan rápido y tan sin drama." },
+  { title: "Mejor bono de bienvenida", casino: "MONRO Casino", slug: "monro-casino", reason: "150% en tu primer depósito. Sí, leíste bien: ciento cincuenta por ciento. En porcentaje puro nadie del ranking le gana, y el rollover es razonable. Para arrancar con el saldo inflado, este es." },
+  { title: "Mejor para slots", casino: "STARDA Casino", slug: "starda-casino", reason: "Torneos de slots semanales con premios de $15,000 USD, títulos exclusivos y la sección de juegos crash más completa que probamos (Aviator, JetX y compañía). Si lo tuyo son los rodillos, acá está tu casa." },
+  { title: "Mejor casino en vivo", casino: "Betsson", slug: "betsson-peru", reason: "Más de 200 mesas en vivo con dealers que hablan español de verdad, no traducción automática. Tienen hasta mesas exclusivas para Perú. Probamos blackjack a las 2am y la experiencia fue premium." },
+  { title: "Mejor para principiantes", casino: "SOL Casino", slug: "sol-casino", reason: "Le pasamos la cuenta a un pata que nunca había jugado online y en 10 minutos ya estaba apostando sin preguntar nada. Interfaz clarísima y rollover x30, de los más bajos del mercado. Cero frustración." },
+  { title: "Mejor casino 100% peruano", casino: "Inkabet", slug: "inkabet", reason: "Licencia MINCETUR, soporte local que te atiende en peruano y hasta S/500 + 300 giros de bienvenida. Si querés jugar en algo de acá, con cara conocida y regulado por el gobierno, Inkabet es la respuesta." },
+  { title: "Mejor casino cripto", casino: "1xBet", slug: "1xbet", reason: "BTC, USDT, ETH y una lista larguísima. Depositamos con USDT un domingo y el saldo apareció en 10 minutos; el retiro tardó menos de una hora. Si ya manejás cripto, es otro nivel de velocidad." },
+  { title: "Mejor catálogo de slots raros", casino: "FRESH Casino", slug: "fresh-casino", reason: "4,500+ juegos y la verdad es que buscamos hasta los títulos más oscuros de Hacksaw y Nolimit City. Los tenían todos. Si te gusta descubrir slots que nadie más tiene, FRESH es tu lugar." },
+  { title: "Casino más confiable", casino: "Betsson", slug: "betsson-peru", reason: "Marca global con décadas de historia, licencia MINCETUR desde el arranque de la regulación y ni una sola queja de pagos que hayamos encontrado. Cuando querés ir a lo seguro sin pensarlo dos veces, es Betsson." },
 ];
 
 const faqItems = [
@@ -606,6 +605,7 @@ export default function MejoresCasinosOnlinePeru() {
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
             <h3 className="text-2xl sm:text-3xl font-black text-white">2. 1xBet</h3>
+            <span className="bg-[#f43f5e] text-white text-xs font-black px-3 py-1 rounded-full uppercase">🔥 TOP</span>
             <span className="text-[#22c55e] font-black text-xl">9.3/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#dc2626] to-transparent rounded mb-6" />
@@ -661,8 +661,8 @@ export default function MejoresCasinosOnlinePeru() {
         {/* ── FRESH Casino ── */}
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-white">6. FRESH Casino</h3>
-            <span className="text-[#22c55e] font-black text-xl">8.9/10</span>
+            <h3 className="text-2xl sm:text-3xl font-black text-white">4. FRESH Casino</h3>
+            <span className="text-[#22c55e] font-black text-xl">9.0/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#dc2626] to-transparent rounded mb-6" />
 
@@ -738,7 +738,7 @@ export default function MejoresCasinosOnlinePeru() {
         {/* ── Inkabet ── */}
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-white">4. Inkabet</h3>
+            <h3 className="text-2xl sm:text-3xl font-black text-white">3. Inkabet</h3>
             <span className="text-[#22c55e] font-black text-xl">9.2/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#dc2626] to-transparent rounded mb-6" />
@@ -806,7 +806,7 @@ export default function MejoresCasinosOnlinePeru() {
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
             <h3 className="text-2xl sm:text-3xl font-black text-white">5. SOL Casino</h3>
-            <span className="text-[#22c55e] font-black text-xl">9.1/10</span>
+            <span className="text-[#22c55e] font-black text-xl">8.9/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#dc2626] to-transparent rounded mb-6" />
 
@@ -872,7 +872,7 @@ export default function MejoresCasinosOnlinePeru() {
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
             <h3 className="text-2xl sm:text-3xl font-black text-white">7. MONRO Casino</h3>
-            <span className="text-[#22c55e] font-black text-xl">9.0/10</span>
+            <span className="text-[#22c55e] font-black text-xl">8.7/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#dc2626] to-transparent rounded mb-6" />
 
@@ -937,8 +937,8 @@ export default function MejoresCasinosOnlinePeru() {
         {/* ── STARDA Casino ── */}
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-white">3. STARDA Casino</h3>
-            <span className="text-[#22c55e] font-black text-xl">9.3/10</span>
+            <h3 className="text-2xl sm:text-3xl font-black text-white">6. STARDA Casino</h3>
+            <span className="text-[#22c55e] font-black text-xl">8.8/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#dc2626] to-transparent rounded mb-6" />
 
@@ -1092,14 +1092,15 @@ export default function MejoresCasinosOnlinePeru() {
             <tbody className="text-[#d4d4d8]">
               {[
                 ["Betsson", "300 giros gratis", "—", "300", "30 días", "S/20"],
-                ["FRESH Casino", "100% primer dep.", "x35", "500", "14 días", "$20"],
+                ["1xBet", "Paquete hasta $2,275", "x25", "150", "7 días", "$10"],
                 ["Inkabet", "Hasta S/500 + giros", "x25", "300", "30 días", "S/20"],
+                ["FRESH Casino", "100% primer dep.", "x35", "500", "14 días", "$20"],
                 ["SOL Casino", "100% primer dep.", "x30", "500", "14 días", "$20"],
                 ["STARDA Casino", "100% primer dep.", "x35", "500", "14 días", "$10"],
                 ["MONRO Casino", "150% primer dep.", "x35", "—", "14 días", "$15"],
-                ["Stake", "Freebet + giros", "x1", "50", "7 días", "S/20"],
                 ["Betano", "Sin depósito", "x0", "60", "7 días", "—"],
                 ["Bet365", "100% hasta S/500", "x30", "500", "30 días", "S/20"],
+                ["Stake", "Freebet + giros", "x1", "50", "7 días", "S/20"],
               ].map(([casino, bonus, roll, spins, valid, dep]) => (
                 <tr key={casino} className="border-t border-white/[0.04] hover:bg-white/[0.02] transition-colors">
                   <td className="px-4 py-3 font-bold text-white">{casino}</td>
@@ -1130,14 +1131,15 @@ export default function MejoresCasinosOnlinePeru() {
             <tbody className="text-[#d4d4d8]">
               {[
                 ["Betsson", "✓", "✓", "✓", "—", "1-24h (Yape)"],
-                ["FRESH Casino", "—", "—", "✓", "✓", "0-24h (crypto)"],
+                ["1xBet", "✓", "✓", "✓", "✓", "0-24h"],
                 ["Inkabet", "✓", "✓", "✓", "—", "1-3h (Yape)"],
+                ["FRESH Casino", "—", "—", "✓", "✓", "0-24h (crypto)"],
                 ["SOL Casino", "—", "—", "✓", "✓", "0-24h (crypto)"],
                 ["STARDA Casino", "—", "—", "✓", "✓", "0-12h (crypto)"],
                 ["MONRO Casino", "—", "—", "✓", "✓", "0-24h (crypto)"],
-                ["Stake", "✓", "✓", "✓", "✓", "Instantáneo"],
                 ["Betano", "✓", "✓", "✓", "—", "1-2h (Yape)"],
                 ["Bet365", "✓", "✓", "✓", "—", "1-24h"],
+                ["Stake", "✓", "✓", "✓", "✓", "Instantáneo"],
               ].map(([casino, yape, plin, visa, crypto, retiro]) => (
                 <tr key={casino} className="border-t border-white/[0.04] hover:bg-white/[0.02] transition-colors">
                   <td className="px-4 py-3 font-bold text-white">{casino}</td>
@@ -1167,14 +1169,15 @@ export default function MejoresCasinosOnlinePeru() {
             <tbody className="text-[#d4d4d8]">
               {[
                 ["Betsson", "2 500+", "2 000+", "200+", "40+"],
-                ["FRESH Casino", "4 500+", "3 800+", "300+", "80+"],
+                ["1xBet", "5 000+", "4 000+", "200+", "90+"],
                 ["Inkabet", "1 500+", "1 000+", "80+", "20+"],
+                ["FRESH Casino", "4 500+", "3 800+", "300+", "80+"],
                 ["SOL Casino", "4 000+", "3 400+", "200+", "70+"],
                 ["STARDA Casino", "3 800+", "3 200+", "150+", "65+"],
                 ["MONRO Casino", "3 500+", "3 000+", "180+", "60+"],
-                ["Stake", "3 000+", "2 200+", "200+", "50+"],
                 ["Betano", "2 000+", "1 500+", "100+", "30+"],
                 ["Bet365", "1 800+", "1 200+", "150+", "25+"],
+                ["Stake", "3 000+", "2 200+", "200+", "50+"],
               ].map(([casino, total, slots, live, provs]) => (
                 <tr key={casino} className="border-t border-white/[0.04] hover:bg-white/[0.02] transition-colors">
                   <td className="px-4 py-3 font-bold text-white">{casino}</td>

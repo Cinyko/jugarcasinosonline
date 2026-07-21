@@ -13,14 +13,14 @@ export const metadata: Metadata = {
 /* ───────── Casino data ───────── */
 const argCasinos = [
   { rank: 1, name: "Betsson", slug: "betsson-argentina", bonus: "Hasta $350.000 + 200 Giros Gratis", rating: 9.5, bjTables: "30+", liveBj: true, highlight: true, badge: "⭐ Recomendado" },
-  { rank: 2, name: "1xBet", slug: "1xbet", bonus: "Paquete hasta $2.275 + 150 giros", rating: 9.3, bjTables: "25+", liveBj: true, highlight: false },
-  { rank: 3, name: "STARDA Casino", slug: "starda-casino", bonus: "100% + 500 giros gratis", rating: 9.3, bjTables: "20+", liveBj: true, highlight: false },
-  { rank: 4, name: "SOL Casino", slug: "sol-casino", bonus: "100% + 500 giros gratis", rating: 9.1, bjTables: "35+", liveBj: true, highlight: false },
-  { rank: 5, name: "MONRO Casino", slug: "monro-casino", bonus: "150% primer depósito", rating: 9.0, bjTables: "25+", liveBj: true, highlight: false },
-  { rank: 6, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% + 500 giros gratis", rating: 8.9, bjTables: "45+", liveBj: true, highlight: false },
-  { rank: 7, name: "Bplay", slug: "bplay", bonus: "100% + giros gratis", rating: 8.3, bjTables: "10+", liveBj: true, highlight: false },
-  { rank: 8, name: "Casino Buenos Aires", slug: "casino-buenos-aires", bonus: "Bono de bienvenida", rating: 8.2, bjTables: "8+", liveBj: false, highlight: false },
-  { rank: 9, name: "Bet365", slug: "bet365", bonus: "100% hasta $50.000", rating: 8.1, bjTables: "12+", liveBj: true, highlight: false },
+  { rank: 2, name: "1xBet", slug: "1xbet", bonus: "Paquete hasta $2.275 + 150 giros", rating: 9.3, bjTables: "25+", liveBj: true, highlight: false, badge: "🔥 TOP" },
+  { rank: 3, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% + 500 giros gratis", rating: 9.0, bjTables: "45+", liveBj: true, highlight: false },
+  { rank: 4, name: "SOL Casino", slug: "sol-casino", bonus: "100% + 500 giros gratis", rating: 8.9, bjTables: "35+", liveBj: true, highlight: false },
+  { rank: 5, name: "STARDA Casino", slug: "starda-casino", bonus: "100% + 500 giros gratis", rating: 8.8, bjTables: "20+", liveBj: true, highlight: false },
+  { rank: 6, name: "MONRO Casino", slug: "monro-casino", bonus: "150% primer depósito", rating: 8.7, bjTables: "25+", liveBj: true, highlight: false },
+  { rank: 7, name: "Bet365", slug: "bet365", bonus: "100% hasta $50.000", rating: 8.6, bjTables: "12+", liveBj: true, highlight: false },
+  { rank: 8, name: "Bplay", slug: "bplay", bonus: "100% + giros gratis", rating: 8.1, bjTables: "10+", liveBj: true, highlight: false },
+  { rank: 9, name: "Casino Buenos Aires", slug: "casino-buenos-aires", bonus: "Bono de bienvenida", rating: 8.0, bjTables: "8+", liveBj: false, highlight: false },
 ];
 
 const faqItems = [
@@ -594,11 +594,27 @@ export default function BlackjackOnlineArgentina() {
           <CtaButton slug="betsson-argentina" text="Jugar Blackjack en Betsson" />
         </div>
 
+        {/* 2. 1xBet */}
+        <div className="mb-12">
+          <div className="flex flex-wrap items-center gap-4 mb-2">
+            <h3 className="text-2xl sm:text-3xl font-black text-white">2. 1xBet</h3>
+            <span className="text-[#22c55e] font-black text-xl">9.3/10</span>
+          </div>
+          <div className="h-1 w-24 bg-gradient-to-r from-[#22c55e] to-transparent rounded mb-6" />
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            Nuevo puesto #2 para 1xBet, y en blackjack se lo banca: 25+ mesas en vivo de Evolution y Ezugi, desde Infinite Blackjack con mínimos accesibles hasta mesas VIP con límites altos. Dealers en español en la mayoría, y la ventaja de tener las apuestas deportivas en la misma cuenta.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-4">
+            Con cripto esquivás el cepo para depositar y retirar (USDT en minutos, comprobado), y el paquete de bienvenida llega hasta $2.275 + 150 giros. Eso sí: el blackjack aporta poco al rollover, así que si venís solo por el 21, evaluá jugar sin bono.
+          </p>
+          <CtaButton slug="1xbet" text="Probar 1xBet" />
+        </div>
+
         {/* FRESH */}
         <div className="mb-12">
           <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-[#3b82f6]">2. FRESH Casino</h3>
-            <span className="text-[#22c55e] font-black text-xl">9.3/10</span>
+            <h3 className="text-2xl sm:text-3xl font-black text-[#3b82f6]">3. FRESH Casino</h3>
+            <span className="text-[#22c55e] font-black text-xl">9.0/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#3b82f6] to-transparent rounded mb-6" />
 
@@ -618,7 +634,7 @@ export default function BlackjackOnlineArgentina() {
 
         {/* SOL */}
         <div className="mb-12">
-          <h3 className="text-2xl sm:text-3xl font-black text-[#a855f7] mb-2">3. SOL Casino <span className="text-[#22c55e] font-black text-xl ml-3">9.1/10</span></h3>
+          <h3 className="text-2xl sm:text-3xl font-black text-[#a855f7] mb-2">4. SOL Casino <span className="text-[#22c55e] font-black text-xl ml-3">8.9/10</span></h3>
           <div className="h-1 w-24 bg-gradient-to-r from-[#a855f7] to-transparent rounded mb-6" />
 
           <p className="text-[#9ca3af] leading-relaxed mb-3">
@@ -637,7 +653,7 @@ export default function BlackjackOnlineArgentina() {
 
         {/* MONRO */}
         <div className="mb-12">
-          <h3 className="text-2xl sm:text-3xl font-black text-[#06b6d4] mb-2">4. MONRO Casino <span className="text-[#22c55e] font-black text-xl ml-3">9.0/10</span></h3>
+          <h3 className="text-2xl sm:text-3xl font-black text-[#06b6d4] mb-2">6. MONRO Casino <span className="text-[#22c55e] font-black text-xl ml-3">8.7/10</span></h3>
 
           <p className="text-[#9ca3af] leading-relaxed mb-3">
             El bono de MONRO es imbatible: 150% en tu primer depósito. Es el más alto del ranking y punto. La contribución del blackjack al rollover es reducida (10-20%), pero incluso así es mucha plata extra para jugar. Metés $20.000 ARS y jugás con $50.000 ARS.
@@ -657,7 +673,7 @@ export default function BlackjackOnlineArgentina() {
         <div className="mb-8">
           <div className="flex flex-wrap items-center gap-4 mb-2">
             <h3 className="text-2xl sm:text-3xl font-black text-[#f43f5e]">5. STARDA Casino</h3>
-            <span className="text-[#22c55e] font-black text-xl">8.9/10</span>
+            <span className="text-[#22c55e] font-black text-xl">8.8/10</span>
           </div>
 
           <p className="text-[#9ca3af] leading-relaxed mb-3">

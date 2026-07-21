@@ -16,14 +16,14 @@ const mexicoCasinos = [
   { rank: 1, name: "Betsson", slug: "betsson-mexico", bonus: "$15,000 + 200 Giros Gratis", rating: 9.5, rouletteTables: "45+", liveRoulette: true, highlight: true, badge: "⭐ Recomendado" },
   { rank: 2, name: "PIN-UP Casino", slug: "pinup", bonus: "$100,000 MXN + 250 giros gratis", rating: 9.4, rouletteTables: "55+", liveRoulette: true, highlight: false, badge: "🔥 TOP" },
   { rank: 3, name: "1xBet", slug: "1xbet", bonus: "$40,000 MXN + 300 giros gratis", rating: 9.3, rouletteTables: "40+", liveRoulette: true, highlight: false },
-  { rank: 4, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% + 500 giros gratis", rating: 8.9, rouletteTables: "60+", liveRoulette: true, highlight: false },
-  { rank: 5, name: "SOL Casino", slug: "sol-casino", bonus: "100% + 500 giros gratis", rating: 9.1, rouletteTables: "50+", liveRoulette: true, highlight: false },
-  { rank: 6, name: "STARDA Casino", slug: "starda-casino", bonus: "100% + 500 giros gratis", rating: 9.3, rouletteTables: "35+", liveRoulette: true, highlight: false },
-  { rank: 7, name: "MONRO Casino", slug: "monro-casino", bonus: "150% primer depósito", rating: 9.0, rouletteTables: "40+", liveRoulette: true, highlight: false },
-  { rank: 8, name: "Betway", slug: "betway-mexico", bonus: "$4,000 MXN + 50 Free Spins", rating: 9.2, rouletteTables: "25+", liveRoulette: true, highlight: false },
-  { rank: 9, name: "Caliente", slug: "caliente", bonus: "Bono bienvenida + giros", rating: 8.8, rouletteTables: "20+", liveRoulette: true, highlight: false },
-  { rank: 10, name: "Codere", slug: "codere", bonus: "100% hasta $3,000 MXN", rating: 8.7, rouletteTables: "15+", liveRoulette: true, highlight: false },
-  { rank: 11, name: "Bet365", slug: "bet365", bonus: "100% hasta $3,000 MXN", rating: 8.6, rouletteTables: "20+", liveRoulette: true, highlight: false },
+  { rank: 4, name: "Betway", slug: "betway-mexico", bonus: "$4,000 MXN + 50 Free Spins", rating: 9.2, rouletteTables: "25+", liveRoulette: true, highlight: false },
+  { rank: 5, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% + 500 giros gratis", rating: 9.0, rouletteTables: "60+", liveRoulette: true, highlight: false },
+  { rank: 6, name: "SOL Casino", slug: "sol-casino", bonus: "100% + 500 giros gratis", rating: 8.9, rouletteTables: "50+", liveRoulette: true, highlight: false },
+  { rank: 7, name: "STARDA Casino", slug: "starda-casino", bonus: "100% + 500 giros gratis", rating: 8.8, rouletteTables: "35+", liveRoulette: true, highlight: false },
+  { rank: 8, name: "MONRO Casino", slug: "monro-casino", bonus: "150% primer depósito", rating: 8.7, rouletteTables: "40+", liveRoulette: true, highlight: false },
+  { rank: 9, name: "Caliente", slug: "caliente", bonus: "Bono bienvenida + giros", rating: 8.6, rouletteTables: "20+", liveRoulette: true, highlight: false },
+  { rank: 10, name: "Codere", slug: "codere", bonus: "100% hasta $3,000 MXN", rating: 8.5, rouletteTables: "15+", liveRoulette: true, highlight: false },
+  { rank: 11, name: "Bet365", slug: "bet365", bonus: "100% hasta $3,000 MXN", rating: 8.4, rouletteTables: "20+", liveRoulette: true, highlight: false },
 ];
 
 const faqItems = [
@@ -556,11 +556,27 @@ export default function RuletaOnlineMexico() {
           <CtaButton slug="betsson-mexico" text="Jugar Ruleta en Betsson" />
         </div>
 
-        {/* ── 2. FRESH Casino ── */}
+        {/* ── 3. 1xBet ── */}
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-[#3b82f6]">2. FRESH Casino</h3>
+            <h3 className="text-2xl sm:text-3xl font-black text-white">3. 1xBet</h3>
             <span className="text-[#22c55e] font-black text-xl">9.3/10</span>
+          </div>
+          <div className="h-1 w-24 bg-gradient-to-r from-[#22c55e] to-transparent rounded mb-6" />
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            1xBet entra al top 3 con una carta fuerte: más de 40 mesas de ruleta con proveedores que nadie más tiene en México (SA Gaming, Asia Gaming, además de Evolution y Ezugi). Si te gusta experimentar con variantes raras de ruleta, aquí hay material para rato. Y todo en la misma cuenta que las apuestas de la Liga MX.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-4">
+            El paquete de bienvenida llega hasta $40,000 MXN + 300 giros en 4 depósitos (rollover x25, ojo), y acepta desde SPEI hasta cripto. ¿Lo malo? La página está saturada de banners; usa la app o los filtros y te ahorras el mareo.
+          </p>
+          <CtaButton slug="1xbet" text="Probar 1xBet" />
+        </div>
+
+        {/* ── 5. FRESH Casino ── */}
+        <div className="mb-16">
+          <div className="flex flex-wrap items-center gap-4 mb-2">
+            <h3 className="text-2xl sm:text-3xl font-black text-[#3b82f6]">5. FRESH Casino</h3>
+            <span className="text-[#22c55e] font-black text-xl">9.0/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#3b82f6] to-transparent rounded mb-6" />
 
@@ -589,8 +605,8 @@ export default function RuletaOnlineMexico() {
         {/* ── 3. SOL Casino ── */}
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-[#a855f7]">3. SOL Casino</h3>
-            <span className="text-[#22c55e] font-black text-xl">9.1/10</span>
+            <h3 className="text-2xl sm:text-3xl font-black text-[#a855f7]">6. SOL Casino</h3>
+            <span className="text-[#22c55e] font-black text-xl">8.9/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#a855f7] to-transparent rounded mb-6" />
 
@@ -629,8 +645,8 @@ export default function RuletaOnlineMexico() {
         {/* ── 4. MONRO Casino ── */}
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-[#06b6d4]">4. MONRO Casino</h3>
-            <span className="text-[#22c55e] font-black text-xl">9.0/10</span>
+            <h3 className="text-2xl sm:text-3xl font-black text-[#06b6d4]">8. MONRO Casino</h3>
+            <span className="text-[#22c55e] font-black text-xl">8.7/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#06b6d4] to-transparent rounded mb-6" />
 
@@ -659,9 +675,9 @@ export default function RuletaOnlineMexico() {
         {/* ── 5. STARDA Casino ── */}
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-[#f43f5e]">5. STARDA Casino</h3>
+            <h3 className="text-2xl sm:text-3xl font-black text-[#f43f5e]">7. STARDA Casino</h3>
             <span className="bg-[#f43f5e] text-white text-xs font-black px-3 py-1 rounded-full uppercase">🔥 TOP</span>
-            <span className="text-[#22c55e] font-black text-xl">8.9/10</span>
+            <span className="text-[#22c55e] font-black text-xl">8.8/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#f43f5e] to-transparent rounded mb-6" />
 

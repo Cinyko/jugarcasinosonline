@@ -15,27 +15,27 @@ const ecuadorCasinos = [
   { rank: 1, name: "Betsson", slug: "betsson-latam", bonus: "¡Duplica tu depósito hasta $100!", rating: 9.5, license: "Internacional", games: "2 500+", highlight: true },
   { rank: 2, name: "PIN-UP Casino", slug: "pinup", bonus: "120% hasta $5,300 USD + 250 giros gratis", rating: 9.4, license: "Curaçao", games: "10 000+", highlight: false, badge: "🔥 TOP" },
   { rank: 3, name: "1xBet", slug: "1xbet", bonus: "Paquete hasta $2,275 + 150 giros gratis", rating: 9.3, license: "Internacional", games: "5 000+", highlight: false },
-  { rank: 4, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 8.9, license: "Curaçao", games: "4 500+", highlight: false },
-  { rank: 5, name: "SOL Casino", slug: "sol-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.1, license: "Curaçao", games: "4 000+", highlight: false },
-  { rank: 6, name: "STARDA Casino", slug: "starda-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.3, license: "Curaçao", games: "3 800+", highlight: false },
-  { rank: 7, name: "MONRO Casino", slug: "monro-casino", bonus: "150% en tu primer depósito", rating: 9.0, license: "Curaçao", games: "3 500+", highlight: false },
-  { rank: 8, name: "Bet365", slug: "bet365", bonus: "100% bono de bienvenida", rating: 8.8, license: "Internacional", games: "1 800+", highlight: false },
-  { rank: 9, name: "Stake", slug: "stake", bonus: "Bono primer depósito + giros", rating: 8.6, license: "Internacional", games: "3 000+", highlight: false },
-  { rank: 10, name: "Betway", slug: "betway", bonus: "100% bono de bienvenida", rating: 8.5, license: "Internacional", games: "1 500+", highlight: false },
-  { rank: 11, name: "Melbet", slug: "melbet", bonus: "100% primer depósito + 30 giros", rating: 8.4, license: "Curaçao", games: "2 000+", highlight: false },
-  { rank: 12, name: "1Win", slug: "1win", bonus: "500% hasta $1000 en 4 depósitos", rating: 8.3, license: "Curaçao", games: "2 500+", highlight: false },
+  { rank: 4, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.0, license: "Curaçao", games: "4 500+", highlight: false },
+  { rank: 5, name: "SOL Casino", slug: "sol-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 8.9, license: "Curaçao", games: "4 000+", highlight: false },
+  { rank: 6, name: "STARDA Casino", slug: "starda-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 8.8, license: "Curaçao", games: "3 800+", highlight: false },
+  { rank: 7, name: "MONRO Casino", slug: "monro-casino", bonus: "150% en tu primer depósito", rating: 8.7, license: "Curaçao", games: "3 500+", highlight: false },
+  { rank: 8, name: "Bet365", slug: "bet365", bonus: "100% bono de bienvenida", rating: 8.6, license: "Internacional", games: "1 800+", highlight: false },
+  { rank: 9, name: "Stake", slug: "stake", bonus: "Bono primer depósito + giros", rating: 8.5, license: "Internacional", games: "3 000+", highlight: false },
+  { rank: 10, name: "Betway", slug: "betway", bonus: "100% bono de bienvenida", rating: 8.4, license: "Internacional", games: "1 500+", highlight: false },
+  { rank: 11, name: "Melbet", slug: "melbet", bonus: "100% primer depósito + 30 giros", rating: 8.3, license: "Curaçao", games: "2 000+", highlight: false },
+  { rank: 12, name: "1Win", slug: "1win", bonus: "500% hasta $1000 en 4 depósitos", rating: 8.2, license: "Curaçao", games: "2 500+", highlight: false },
 ];
 
 const categoryPicks = [
-  { title: "Mejor variedad de juegos", casino: "FRESH Casino", slug: "fresh-casino", reason: "4 500+ juegos de 80+ proveedores. Buscamos hasta los títulos más rebuscados de Hacksaw y Nolimit City y estaban todos. Ningún otro casino del ranking se le acerca en catálogo." },
-  { title: "Pagos más rápidos", casino: "Bet365", slug: "bet365", reason: "Probamos un retiro con tarjeta Visa un miércoles a las 8pm y en menos de 4 horas ya teníamos la plata. Con crypto fue todavía más rápido. Para Ecuador, donde las opciones de pago son más limitadas, eso vale mucho." },
-  { title: "Mejor bono de bienvenida", casino: "PIN-UP Casino", slug: "pinup", reason: "120% en tu primer depósito + 250 giros gratis. Le metes $100 y juegas con $220, más 250 giros gratis para slots. Combinado con la cantidad de juegos que tienen (+10.000), es el bono más aprovechable del ranking." },
-  { title: "Mejor para slots", casino: "STARDA Casino", slug: "starda-casino", reason: "Torneos semanales de slots con premios de $15.000 USD, proveedores de alta volatilidad y la sección de juegos crash más completa que probamos." },
-  { title: "Mejor casino en vivo", casino: "Betsson", slug: "betsson-latam", reason: "200+ mesas en vivo con dealers en español de verdad. Probamos blackjack a las 2am y había mesa activa con dealer que hablaba como cualquiera de acá." },
-  { title: "Mejor para principiantes", casino: "SOL Casino", slug: "sol-casino", reason: "Se lo pasamos a un pana que nunca había jugado online y en 10 minutos ya estaba apostando sin preguntar nada. El rollover x30 es el más bajo del ranking." },
-  { title: "Mejor atención al cliente", casino: "Bet365", slug: "bet365", reason: "Escribimos al chat un domingo a las 3am (de ley lo hicimos) y respondieron en menos de 2 minutos. En español. Sin bot. Eso no lo encuentras en muchos lados." },
-  { title: "Mejor casino cripto", casino: "Stake", slug: "stake", reason: "El casino cripto más grande del mundo. BTC, ETH, USDT y como 15 más. En Ecuador, donde ya usamos dólares, crypto funciona perfecto porque no hay conversión de moneda." },
-  { title: "Casino más confiable", casino: "Bet365", slug: "bet365", reason: "La marca más grande del mundo en apuestas. Es prácticamente imposible que te dejen colgado con un pago. Cuando quieres ir a lo seguro sin pensar, Bet365." },
+  { title: "Mejor variedad de juegos", casino: "PIN-UP Casino", slug: "pinup", reason: "Más de 10.000 juegos, nadie más tiene ese catálogo en Ecuador. Para comparar, FRESH (que ya es grande) tiene 4.500. Están todos los proveedores grandes y varios que no ves en otros casinos." },
+  { title: "Mejor bono de bienvenida", casino: "PIN-UP Casino", slug: "pinup", reason: "120% hasta $5,300 USD + 250 giros gratis. Le metes $100 y juegas con $220, más los giros. Combinado con el catálogo gigante, es el bono más aprovechable del ranking." },
+  { title: "Mejor en dólares + cripto", casino: "1xBet", slug: "1xbet", reason: "Todo en USD sin conversiones raras, y si manejas cripto, mejor: depósito y retiro con USDT en menos de media hora cada uno. Para Ecuador, que ya vive en dólares, es la dupla perfecta." },
+  { title: "Mejor para slots", casino: "STARDA Casino", slug: "starda-casino", reason: "Torneos de slots semanales con premios de $15,000 USD, títulos exclusivos y la sección de juegos crash más completa que probamos. El paraíso de las tragamonedas." },
+  { title: "Mejor casino en vivo", casino: "Betsson", slug: "betsson-latam", reason: "Más de 200 mesas en vivo con dealers que hablan español de verdad. Probamos blackjack de madrugada y la experiencia fue premium, con soporte respondiendo en 90 segundos." },
+  { title: "Para principiantes", casino: "SOL Casino", slug: "sol-casino", reason: "Interfaz clarísima, rollover x30 de los más bajos y 4.000 juegos. Es el casino que le recomendarías a alguien que nunca jugó online, sin miedo a que se pierda." },
+  { title: "Mejor deportes + casino", casino: "1xBet", slug: "1xbet", reason: "Liga Pro, Libertadores, Champions y hasta eSports en la misma cuenta que el casino. Apuestas al partido y te pasas a los slots sin cambiar de plataforma ni de saldo." },
+  { title: "Mejor catálogo de slots raros", casino: "FRESH Casino", slug: "fresh-casino", reason: "4.500+ juegos y de ley encontramos proveedores que no están en ningún otro casino del ranking. Si te gusta explorar títulos nuevos, acá tienes para meses." },
+  { title: "Mejor bono en porcentaje", casino: "MONRO Casino", slug: "monro-casino", reason: "150% en tu primer depósito, el porcentaje más alto del ranking. Depositas $100 y juegas con $250. Simple y sin letra chica rara." },
 ];
 
 const faqItems = [
@@ -533,7 +533,7 @@ export default function MejoresCasinosOnlineEcuador() {
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
             <h3 className="text-2xl sm:text-3xl font-black text-white">4. FRESH Casino</h3>
-            <span className="text-[#22c55e] font-black text-xl">8.9/10</span>
+            <span className="text-[#22c55e] font-black text-xl">9.0/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#eab308] to-transparent rounded mb-6" />
           <p className="text-[#9ca3af] leading-relaxed mb-3">
@@ -579,7 +579,7 @@ export default function MejoresCasinosOnlineEcuador() {
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
             <h3 className="text-2xl sm:text-3xl font-black text-white">5. SOL Casino</h3>
-            <span className="text-[#22c55e] font-black text-xl">9.1/10</span>
+            <span className="text-[#22c55e] font-black text-xl">8.9/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#eab308] to-transparent rounded mb-6" />
           <h4 className="text-lg font-bold text-white mb-3">El bono con rollover más bajo del ranking</h4>
@@ -624,7 +624,7 @@ export default function MejoresCasinosOnlineEcuador() {
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
             <h3 className="text-2xl sm:text-3xl font-black text-white">7. MONRO Casino</h3>
-            <span className="text-[#22c55e] font-black text-xl">9.0/10</span>
+            <span className="text-[#22c55e] font-black text-xl">8.7/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#eab308] to-transparent rounded mb-6" />
           <p className="text-[#9ca3af] leading-relaxed mb-3">
@@ -665,7 +665,7 @@ export default function MejoresCasinosOnlineEcuador() {
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
             <h3 className="text-2xl sm:text-3xl font-black text-white">6. STARDA Casino</h3>
-            <span className="text-[#22c55e] font-black text-xl">8.9/10</span>
+            <span className="text-[#22c55e] font-black text-xl">8.8/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#eab308] to-transparent rounded mb-6" />
           <p className="text-[#9ca3af] leading-relaxed mb-3">
@@ -754,7 +754,7 @@ export default function MejoresCasinosOnlineEcuador() {
         <div className="overflow-x-auto rounded-xl border border-white/[0.06] mb-10">
           <table className="w-full text-left text-sm"><thead><tr className="bg-[#141414] text-[#71717a] uppercase text-xs tracking-wider"><th className="px-4 py-3 font-bold">Casino</th><th className="px-4 py-3 font-bold">Bono</th><th className="px-4 py-3 font-bold hidden sm:table-cell">Rollover</th><th className="px-4 py-3 font-bold hidden sm:table-cell">Giros</th><th className="px-4 py-3 font-bold hidden md:table-cell">Validez</th></tr></thead>
             <tbody className="text-[#d4d4d8]">
-              {[["Betsson","Duplica dep. hasta $100","x30","—","30 días"],["FRESH Casino","100% primer dep.","x35","500","14 días"],["SOL Casino","100% primer dep.","x30","500","14 días"],["MONRO Casino","150% primer dep.","x35","—","14 días"],["STARDA Casino","100% primer dep.","x35","500","14 días"],["Bet365","100% bienvenida","x30","—","30 días"],["1xBet","Paquete hasta $2,275 + giros","x25","150","7 días"],["Stake","Bono + giros","x1","Sí","7 días"]].map(([c,b,r,s,v])=>(
+              {[["Betsson","Duplica dep. hasta $100","x30","—","30 días"],["PIN-UP Casino","120% hasta $5,300","x50","250","3 días"],["1xBet","Paquete hasta $2,275 + giros","x25","150","7 días"],["FRESH Casino","100% primer dep.","x35","500","14 días"],["SOL Casino","100% primer dep.","x30","500","14 días"],["STARDA Casino","100% primer dep.","x35","500","14 días"],["MONRO Casino","150% primer dep.","x35","—","14 días"],["Bet365","100% bienvenida","x30","—","30 días"],["Stake","Bono + giros","x1","Sí","7 días"]].map(([c,b,r,s,v])=>(
                 <tr key={c} className="border-t border-white/[0.04] hover:bg-white/[0.02]"><td className="px-4 py-3 font-bold text-white">{c}</td><td className="px-4 py-3">{b}</td><td className="px-4 py-3 hidden sm:table-cell">{r}</td><td className="px-4 py-3 hidden sm:table-cell">{s}</td><td className="px-4 py-3 hidden md:table-cell">{v}</td></tr>
               ))}
             </tbody>
@@ -764,7 +764,7 @@ export default function MejoresCasinosOnlineEcuador() {
         <div className="overflow-x-auto rounded-xl border border-white/[0.06] mb-10">
           <table className="w-full text-left text-sm"><thead><tr className="bg-[#141414] text-[#71717a] uppercase text-xs tracking-wider"><th className="px-4 py-3 font-bold">Casino</th><th className="px-4 py-3 font-bold">Visa</th><th className="px-4 py-3 font-bold">Transfer</th><th className="px-4 py-3 font-bold hidden sm:table-cell">Crypto</th><th className="px-4 py-3 font-bold hidden sm:table-cell">Skrill</th><th className="px-4 py-3 font-bold hidden sm:table-cell">Retiro</th></tr></thead>
             <tbody className="text-[#d4d4d8]">
-              {[["Betsson","✓","✓","—","✓","1-3 días"],["FRESH Casino","✓","—","✓","✓","0-1h (crypto)"],["SOL Casino","✓","—","✓","✓","0-1h (crypto)"],["MONRO Casino","✓","—","✓","✓","0-1h (crypto)"],["STARDA Casino","✓","—","✓","✓","0-12h (crypto)"],["Bet365","✓","✓","—","—","1-24h"],["1xBet","✓","✓","✓","✓","0-24h"],["Stake","—","—","✓","—","Instantáneo"]].map(([c,v,t,cr,sk,ret])=>(
+              {[["Betsson","✓","✓","—","✓","1-3 días"],["PIN-UP Casino","✓","✓","✓","✓","0-24h"],["1xBet","✓","✓","✓","✓","0-24h"],["FRESH Casino","✓","—","✓","✓","0-1h (crypto)"],["SOL Casino","✓","—","✓","✓","0-1h (crypto)"],["STARDA Casino","✓","—","✓","✓","0-12h (crypto)"],["MONRO Casino","✓","—","✓","✓","0-1h (crypto)"],["Bet365","✓","✓","—","—","1-24h"],["Stake","—","—","✓","—","Instantáneo"]].map(([c,v,t,cr,sk,ret])=>(
                 <tr key={c} className="border-t border-white/[0.04] hover:bg-white/[0.02]">
                   <td className="px-4 py-3 font-bold text-white">{c}</td>
                   <td className="px-4 py-3">{v==="✓"?<span className="text-[#22c55e]">✓</span>:<span className="text-[#71717a]">—</span>}</td>
@@ -781,7 +781,7 @@ export default function MejoresCasinosOnlineEcuador() {
         <div className="overflow-x-auto rounded-xl border border-white/[0.06]">
           <table className="w-full text-left text-sm"><thead><tr className="bg-[#141414] text-[#71717a] uppercase text-xs tracking-wider"><th className="px-4 py-3 font-bold">Casino</th><th className="px-4 py-3 font-bold">Total</th><th className="px-4 py-3 font-bold hidden sm:table-cell">Slots</th><th className="px-4 py-3 font-bold hidden sm:table-cell">En Vivo</th><th className="px-4 py-3 font-bold hidden md:table-cell">Proveedores</th></tr></thead>
             <tbody className="text-[#d4d4d8]">
-              {[["Betsson","2 500+","1 800+","200+","40+"],["FRESH Casino","4 500+","3 800+","300+","80+"],["SOL Casino","4 000+","3 400+","200+","70+"],["MONRO Casino","3 500+","3 000+","180+","60+"],["STARDA Casino","3 800+","3 200+","150+","65+"],["Bet365","1 800+","1 200+","150+","25+"],["1xBet","5 000+","4 000+","200+","90+"],["Stake","3 000+","2 200+","200+","50+"]].map(([c,t,s,l,p])=>(
+              {[["Betsson","2 500+","1 800+","200+","40+"],["PIN-UP Casino","10 000+","8 500+","400+","120+"],["1xBet","5 000+","4 000+","200+","90+"],["FRESH Casino","4 500+","3 800+","300+","80+"],["SOL Casino","4 000+","3 400+","200+","70+"],["STARDA Casino","3 800+","3 200+","150+","65+"],["MONRO Casino","3 500+","3 000+","180+","60+"],["Bet365","1 800+","1 200+","150+","25+"],["Stake","3 000+","2 200+","200+","50+"]].map(([c,t,s,l,p])=>(
                 <tr key={c} className="border-t border-white/[0.04] hover:bg-white/[0.02]"><td className="px-4 py-3 font-bold text-white">{c}</td><td className="px-4 py-3">{t}</td><td className="px-4 py-3 hidden sm:table-cell">{s}</td><td className="px-4 py-3 hidden sm:table-cell">{l}</td><td className="px-4 py-3 hidden md:table-cell">{p}</td></tr>
               ))}
             </tbody>

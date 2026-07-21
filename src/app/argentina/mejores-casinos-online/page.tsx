@@ -13,32 +13,32 @@ export const metadata: Metadata = {
 
 const argCasinos = [
   { rank: 1, name: "Betsson", slug: "betsson-argentina", bonus: "Hasta $350.000 + 200 Giros Gratis como Bono de Bienvenida", rating: 9.5, license: "LOTBA", games: "2 500+", highlight: true },
-  { rank: 2, name: "1xBet", slug: "1xbet", bonus: "Paquete hasta $2.275 + 150 giros gratis", rating: 9.3, license: "Internacional", games: "5 000+", highlight: false },
-  { rank: 3, name: "STARDA Casino", slug: "starda-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.3, license: "Curaçao", games: "3 800+", highlight: false },
-  { rank: 4, name: "SOL Casino", slug: "sol-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.1, license: "Curaçao", games: "4 000+", highlight: false },
-  { rank: 5, name: "MONRO Casino", slug: "monro-casino", bonus: "150% en tu primer depósito", rating: 9.0, license: "Curaçao", games: "3 500+", highlight: false },
-  { rank: 6, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 8.9, license: "Curaçao", games: "4 500+", highlight: false },
-  { rank: 7, name: "Stake", slug: "stake", bonus: "Bono primer depósito + giros gratis", rating: 8.8, license: "Internacional", games: "3 000+", highlight: false },
-  { rank: 8, name: "Bet365", slug: "bet365", bonus: "100% hasta ARS", rating: 8.7, license: "LOTBA", games: "1 800+", highlight: false },
-  { rank: 9, name: "Codere", slug: "codere", bonus: "Bono de bienvenida + giros", rating: 8.6, license: "LOTBA", games: "1 500+", highlight: false },
-  { rank: 10, name: "Betway", slug: "betway", bonus: "100% bono de bienvenida", rating: 8.4, license: "Internacional", games: "1 500+", highlight: false },
-  { rank: 11, name: "Betano", slug: "betano", bonus: "Giros gratis sin depósito", rating: 8.3, license: "LOTBA", games: "2 000+", highlight: false },
-  { rank: 12, name: "Bplay", slug: "bplay", bonus: "100% primer depósito + giros gratis", rating: 8.2, license: "Provincial", games: "800+", highlight: false },
-  { rank: 13, name: "Casino Buenos Aires Online", slug: "casino-buenos-aires", bonus: "Bono de bienvenida", rating: 8.1, license: "LOTBA", games: "600+", highlight: false },
+  { rank: 2, name: "1xBet", slug: "1xbet", bonus: "Paquete hasta $2.275 + 150 giros gratis", rating: 9.3, license: "Internacional", games: "5 000+", highlight: false, badge: "🔥 TOP" },
+  { rank: 3, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.0, license: "Curaçao", games: "4 500+", highlight: false },
+  { rank: 4, name: "SOL Casino", slug: "sol-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 8.9, license: "Curaçao", games: "4 000+", highlight: false },
+  { rank: 5, name: "STARDA Casino", slug: "starda-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 8.8, license: "Curaçao", games: "3 800+", highlight: false },
+  { rank: 6, name: "MONRO Casino", slug: "monro-casino", bonus: "150% en tu primer depósito", rating: 8.7, license: "Curaçao", games: "3 500+", highlight: false },
+  { rank: 7, name: "Bet365", slug: "bet365", bonus: "100% hasta ARS", rating: 8.6, license: "LOTBA", games: "1 800+", highlight: false },
+  { rank: 8, name: "Stake", slug: "stake", bonus: "Bono primer depósito + giros gratis", rating: 8.5, license: "Internacional", games: "3 000+", highlight: false },
+  { rank: 9, name: "Codere", slug: "codere", bonus: "Bono de bienvenida + giros", rating: 8.4, license: "LOTBA", games: "1 500+", highlight: false },
+  { rank: 10, name: "Betway", slug: "betway", bonus: "100% bono de bienvenida", rating: 8.3, license: "Internacional", games: "1 500+", highlight: false },
+  { rank: 11, name: "Betano", slug: "betano", bonus: "Giros gratis sin depósito", rating: 8.2, license: "LOTBA", games: "2 000+", highlight: false },
+  { rank: 12, name: "Bplay", slug: "bplay", bonus: "100% primer depósito + giros gratis", rating: 8.1, license: "Provincial", games: "800+", highlight: false },
+  { rank: 13, name: "Casino Buenos Aires Online", slug: "casino-buenos-aires", bonus: "Bono de bienvenida", rating: 8.0, license: "LOTBA", games: "600+", highlight: false },
 ];
 
 const categoryPicks = [
-  { title: "Mejor variedad de juegos", casino: "FRESH Casino", slug: "fresh-casino", reason: "4 500+ juegos y la verdad es que buscamos hasta los títulos más rebuscados de Hacksaw y Nolimit City. Los tenían todos. Ningún otro casino del ranking se le acerca en catálogo." },
-  { title: "Pagos más rápidos", casino: "Betsson", slug: "betsson-argentina", reason: "Probamos un retiro con Mercado Pago un miércoles a las 10pm. En 45 minutos teníamos la guita en la cuenta. Con transferencia bancaria tardó 3 horas. Re rápido para lo que es el mercado argentino." },
+  { title: "Mejor variedad de juegos", casino: "1xBet", slug: "1xbet", reason: "Más de 5.000 juegos, ni FRESH le llega. Nos pasamos una tarde buscando slots raros (esos títulos turcos y asiáticos que no aparecen en ningún lado) y estaban. Un supermercado gigante." },
+  { title: "Pagos más rápidos", casino: "Betsson", slug: "betsson-argentina", reason: "Probamos un retiro con Mercado Pago un miércoles a las 10pm. En 45 minutos teníamos la guita en la cuenta. Re rápido para lo que es el mercado argentino." },
   { title: "Mejor bono de bienvenida", casino: "MONRO Casino", slug: "monro-casino", reason: "150% en tu primer depósito. Nadie más llega a ese porcentaje. Le metés $10,000 ARS y jugás con $25,000. Hacé las cuentas." },
   { title: "Mejor para slots", casino: "STARDA Casino", slug: "starda-casino", reason: "Torneos de slots semanales con premios de $15,000 USD, títulos exclusivos de alta volatilidad y la mejor sección de juegos crash que encontramos. Si te gustan los rodillos, este es tu lugar." },
   { title: "Mejor casino en vivo", casino: "Betsson", slug: "betsson-argentina", reason: "200+ mesas en vivo con dealers que hablan español posta, no traducción automática. Probamos una mesa de blackjack a las 2am y la experiencia fue de otro nivel." },
   { title: "Mejor para principiantes", casino: "SOL Casino", slug: "sol-casino", reason: "Se lo pasamos a un amigo que nunca había jugado online. En 10 minutos ya estaba apostando sin preguntar nada. La interfaz es re clara y el rollover x30 es de los más bajos." },
-  { title: "Mejor atención al cliente", casino: "Bet365", slug: "bet365", reason: "Le escribimos al chat a las 3am un domingo (sí, lo hicimos) y nos respondieron en menos de 2 minutos. En español. Sin bot. Eso no lo encontrás en muchos lados." },
-  { title: "Mejores métodos de pago para Argentina", casino: "Betsson", slug: "betsson-argentina", reason: "Mercado Pago, transferencia bancaria, Rapipago... acepta todo lo que usa un argentino. Y los retiros con Mercado Pago son prácticamente instantáneos. No te hacen rogar por tu plata." },
-  { title: "Casino más confiable", casino: "Bet365", slug: "bet365", reason: "Licencia LOTBA, la marca más grande del mundo en apuestas, y nunca tuvimos un solo problema de pago. Cuando querés ir a lo seguro sin pensar, Bet365 es la respuesta." },
-  { title: "Mejor casino cripto", casino: "Stake", slug: "stake", reason: "En un país con cepo cambiario, Stake es un golazo. Aceptan BTC, ETH, USDT y muchas más. Sin pasar por bancos, sin límites de dólares, sin quilombo. Las transacciones llegan en minutos." },
-  { title: "Mejor casino argentino local", casino: "Bplay", slug: "bplay", reason: "Casino 100% argentino con licencia provincial. Acepta Mercado Pago, transferencia y hasta Rapipago. El catálogo es más chico, pero si querés jugar en algo 100% local y regulado, Bplay cumple." },
+  { title: "Mejor catálogo de proveedores", casino: "FRESH Casino", slug: "fresh-casino", reason: "4.500+ juegos con 80+ proveedores. Buscamos hasta los títulos más rebuscados de Hacksaw y Nolimit City y los tenían todos. Para el cazador de slots nuevos, imbatible." },
+  { title: "Mejor casino cripto", casino: "1xBet", slug: "1xbet", reason: "En un país con cepo, esto es un golazo: BTC, ETH, USDT y muchas más, sin pasar por bancos ni límites de dólares. Depositamos USDT un miércoles a la noche y en 15 minutos estaba el saldo." },
+  { title: "Casino más confiable", casino: "Betsson", slug: "betsson-argentina", reason: "Licencia LOTBA, décadas de trayectoria global y ni un solo problema de pago en todas nuestras pruebas. Cuando querés ir a lo seguro sin pensar, Betsson es la respuesta." },
+  { title: "Mejor para deportes + casino", casino: "1xBet", slug: "1xbet", reason: "Nació como casa de apuestas y se nota: cuotas de las mejores para el fútbol argentino y un casino gigante en la misma cuenta. Apostás al partido y te pasás a los slots sin cambiar de plataforma." },
+  { title: "Mejor bono en pesos", casino: "Betsson", slug: "betsson-argentina", reason: "Hasta $350.000 + 200 giros gratis, todo en pesos argentinos y sin andar comprando cripto. Entre los bonos en moneda local, es el más redondo y con condiciones claras." },
 ];
 
 const faqItems = [
@@ -518,6 +518,7 @@ export default function MejoresCasinosOnlineArgentina() {
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
             <h3 className="text-2xl sm:text-3xl font-black text-white">2. 1xBet</h3>
+            <span className="bg-[#f43f5e] text-white text-xs font-black px-3 py-1 rounded-full uppercase">🔥 TOP</span>
             <span className="text-[#22c55e] font-black text-xl">9.3/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#38bdf8] to-transparent rounded mb-6" />
@@ -572,8 +573,8 @@ export default function MejoresCasinosOnlineArgentina() {
         {/* ── FRESH Casino ── */}
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-white">6. FRESH Casino</h3>
-            <span className="text-[#22c55e] font-black text-xl">8.9/10</span>
+            <h3 className="text-2xl sm:text-3xl font-black text-white">3. FRESH Casino</h3>
+            <span className="text-[#22c55e] font-black text-xl">9.0/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#38bdf8] to-transparent rounded mb-6" />
 
@@ -639,7 +640,7 @@ export default function MejoresCasinosOnlineArgentina() {
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
             <h3 className="text-2xl sm:text-3xl font-black text-white">4. SOL Casino</h3>
-            <span className="text-[#22c55e] font-black text-xl">9.1/10</span>
+            <span className="text-[#22c55e] font-black text-xl">8.9/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#38bdf8] to-transparent rounded mb-6" />
 
@@ -695,8 +696,8 @@ export default function MejoresCasinosOnlineArgentina() {
         {/* ── MONRO Casino ── */}
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-white">5. MONRO Casino</h3>
-            <span className="text-[#22c55e] font-black text-xl">9.0/10</span>
+            <h3 className="text-2xl sm:text-3xl font-black text-white">6. MONRO Casino</h3>
+            <span className="text-[#22c55e] font-black text-xl">8.7/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#38bdf8] to-transparent rounded mb-6" />
 
@@ -751,9 +752,8 @@ export default function MejoresCasinosOnlineArgentina() {
         {/* ── STARDA Casino ── */}
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-white">3. STARDA Casino</h3>
-            <span className="bg-[#f43f5e] text-white text-xs font-black px-3 py-1 rounded-full uppercase">&#128293; TOP</span>
-            <span className="text-[#22c55e] font-black text-xl">9.3/10</span>
+            <h3 className="text-2xl sm:text-3xl font-black text-white">5. STARDA Casino</h3>
+            <span className="text-[#22c55e] font-black text-xl">8.8/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#f43f5e] to-transparent rounded mb-6" />
 
@@ -881,10 +881,11 @@ export default function MejoresCasinosOnlineArgentina() {
             <tbody className="text-[#d4d4d8]">
               {[
                 ["Betsson", "Hasta $350.000 + giros", "x35", "200", "30 días"],
+                ["1xBet", "Paquete hasta $2.275", "x25", "150", "7 días"],
                 ["FRESH Casino", "100% primer dep.", "x35", "500", "14 días"],
                 ["SOL Casino", "100% primer dep.", "x30", "500", "14 días"],
-                ["MONRO Casino", "150% primer dep.", "x35", "—", "14 días"],
                 ["STARDA Casino", "100% primer dep.", "x35", "500", "14 días"],
+                ["MONRO Casino", "150% primer dep.", "x35", "—", "14 días"],
                 ["Bet365", "100% primer dep.", "x30", "—", "30 días"],
                 ["Stake", "Bono + giros", "x1", "Sí", "7 días"],
                 ["Codere", "Bono bienvenida", "x35", "Sí", "30 días"],
@@ -906,10 +907,11 @@ export default function MejoresCasinosOnlineArgentina() {
             <tbody className="text-[#d4d4d8]">
               {[
                 ["Betsson", "✓", "✓", "✓", "—", "0-24h (MP)"],
+                ["1xBet", "—", "✓", "✓", "✓", "0-24h"],
                 ["FRESH Casino", "—", "—", "—", "✓", "0-1h (crypto)"],
                 ["SOL Casino", "—", "—", "—", "✓", "0-1h (crypto)"],
-                ["MONRO Casino", "—", "—", "—", "✓", "0-1h (crypto)"],
                 ["STARDA Casino", "—", "—", "—", "✓", "0-12h (crypto)"],
+                ["MONRO Casino", "—", "—", "—", "✓", "0-1h (crypto)"],
                 ["Bet365", "✓", "✓", "—", "—", "1-24h"],
                 ["Stake", "—", "—", "—", "✓", "Instantáneo"],
                 ["Codere", "✓", "✓", "✓", "—", "1-48h"],
@@ -936,10 +938,11 @@ export default function MejoresCasinosOnlineArgentina() {
             <tbody className="text-[#d4d4d8]">
               {[
                 ["Betsson", "2 500+", "2 000+", "200+", "40+"],
+                ["1xBet", "5 000+", "4 000+", "200+", "90+"],
                 ["FRESH Casino", "4 500+", "3 800+", "300+", "80+"],
                 ["SOL Casino", "4 000+", "3 400+", "200+", "70+"],
-                ["MONRO Casino", "3 500+", "3 000+", "180+", "60+"],
                 ["STARDA Casino", "3 800+", "3 200+", "150+", "65+"],
+                ["MONRO Casino", "3 500+", "3 000+", "180+", "60+"],
                 ["Bet365", "1 800+", "1 200+", "150+", "25+"],
                 ["Stake", "3 000+", "2 200+", "200+", "50+"],
                 ["Codere", "1 500+", "1 100+", "120+", "25+"],

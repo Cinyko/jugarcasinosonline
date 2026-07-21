@@ -16,12 +16,12 @@ const ecuadorCasinos = [
   { rank: 1, name: "Betsson", slug: "betsson-latam", bonus: "¡Duplica tu depósito hasta $100!", rating: 9.5, rouletteTables: "45+", liveRoulette: true, highlight: true, badge: "⭐ Recomendado" },
   { rank: 2, name: "PIN-UP Casino", slug: "pinup", bonus: "120% primer depósito + 250 giros gratis", rating: 9.4, rouletteTables: "55+", liveRoulette: true, highlight: false, badge: "🔥 TOP" },
   { rank: 3, name: "1xBet", slug: "1xbet", bonus: "Paquete hasta $2,275 + 150 giros", rating: 9.3, rouletteTables: "40+", liveRoulette: true, highlight: false },
-  { rank: 4, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% + 500 giros gratis", rating: 8.9, rouletteTables: "60+", liveRoulette: true, highlight: false },
-  { rank: 5, name: "SOL Casino", slug: "sol-casino", bonus: "100% + 500 giros gratis", rating: 9.1, rouletteTables: "50+", liveRoulette: true, highlight: false },
-  { rank: 6, name: "STARDA Casino", slug: "starda-casino", bonus: "100% + 500 giros gratis", rating: 9.3, rouletteTables: "35+", liveRoulette: true, highlight: false },
-  { rank: 7, name: "MONRO Casino", slug: "monro-casino", bonus: "150% primer depósito", rating: 9.0, rouletteTables: "40+", liveRoulette: true, highlight: false },
-  { rank: 8, name: "Bet365", slug: "bet365", bonus: "100% bono bienvenida", rating: 8.8, rouletteTables: "20+", liveRoulette: true, highlight: false },
-  { rank: 9, name: "Stake", slug: "stake", bonus: "Bono primer depósito", rating: 8.6, rouletteTables: "30+", liveRoulette: true, highlight: false },
+  { rank: 4, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% + 500 giros gratis", rating: 9.0, rouletteTables: "60+", liveRoulette: true, highlight: false },
+  { rank: 5, name: "SOL Casino", slug: "sol-casino", bonus: "100% + 500 giros gratis", rating: 8.9, rouletteTables: "50+", liveRoulette: true, highlight: false },
+  { rank: 6, name: "STARDA Casino", slug: "starda-casino", bonus: "100% + 500 giros gratis", rating: 8.8, rouletteTables: "35+", liveRoulette: true, highlight: false },
+  { rank: 7, name: "MONRO Casino", slug: "monro-casino", bonus: "150% primer depósito", rating: 8.7, rouletteTables: "40+", liveRoulette: true, highlight: false },
+  { rank: 8, name: "Bet365", slug: "bet365", bonus: "100% bono bienvenida", rating: 8.6, rouletteTables: "20+", liveRoulette: true, highlight: false },
+  { rank: 9, name: "Stake", slug: "stake", bonus: "Bono primer depósito", rating: 8.5, rouletteTables: "30+", liveRoulette: true, highlight: false },
 ];
 
 const rouletteStrategies = [
@@ -228,11 +228,27 @@ export default function RuletaOnlineEcuador() {
           <CtaButton slug="betsson-latam" text="Jugar Ruleta en Betsson" />
         </div>
 
+        {/* ── 3. 1xBet ── */}
+        <div className="mb-16">
+          <div className="flex flex-wrap items-center gap-4 mb-2">
+            <h3 className="text-2xl sm:text-3xl font-black text-white">3. 1xBet</h3>
+            <span className="text-[#22c55e] font-black text-xl">9.3/10</span>
+          </div>
+          <div className="h-1 w-24 bg-gradient-to-r from-[#22c55e] to-transparent rounded mb-6" />
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            El ascenso de 1xBet al puesto #3 tiene lógica para el jugador de ruleta: 40+ mesas con una variedad de proveedores que incluye rarezas como SA Gaming y Asia Gaming junto a los clásicos Evolution y Ezugi. Todo en dólares, sin conversiones, y con la opción de cripto para retiros en minutos.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-4">
+            El paquete de bienvenida de hasta $2,275 + 150 giros te da colchón de sobra para las sesiones de ruleta (aunque recuerda que la ruleta suele aportar menos al rollover). La interfaz sigue siendo un laberinto al principio — usa el buscador y listo.
+          </p>
+          <CtaButton slug="1xbet" text="Probar 1xBet" />
+        </div>
+
         {/* ── FRESH ── */}
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-white">2. FRESH Casino</h3>
-            <span className="text-[#22c55e] font-black text-xl">9.3/10</span>
+            <h3 className="text-2xl sm:text-3xl font-black text-white">4. FRESH Casino</h3>
+            <span className="text-[#22c55e] font-black text-xl">9.0/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#eab308] to-transparent rounded mb-6" />
           <p className="text-[#9ca3af] leading-relaxed mb-3">
@@ -276,8 +292,8 @@ export default function RuletaOnlineEcuador() {
         {/* ── SOL ── */}
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-white">3. SOL Casino</h3>
-            <span className="text-[#22c55e] font-black text-xl">9.1/10</span>
+            <h3 className="text-2xl sm:text-3xl font-black text-white">5. SOL Casino</h3>
+            <span className="text-[#22c55e] font-black text-xl">8.9/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#eab308] to-transparent rounded mb-6" />
           <h4 className="text-lg font-bold text-white mb-3">El más fácil para empezar a jugar ruleta</h4>
@@ -319,8 +335,8 @@ export default function RuletaOnlineEcuador() {
         {/* ── MONRO ── */}
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-white">4. MONRO Casino</h3>
-            <span className="text-[#22c55e] font-black text-xl">9.0/10</span>
+            <h3 className="text-2xl sm:text-3xl font-black text-white">7. MONRO Casino</h3>
+            <span className="text-[#22c55e] font-black text-xl">8.7/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#eab308] to-transparent rounded mb-6" />
           <p className="text-[#9ca3af] leading-relaxed mb-3">
@@ -358,8 +374,8 @@ export default function RuletaOnlineEcuador() {
         {/* ── STARDA ── */}
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-white">5. STARDA Casino</h3>
-            <span className="text-[#22c55e] font-black text-xl">8.9/10</span>
+            <h3 className="text-2xl sm:text-3xl font-black text-white">6. STARDA Casino</h3>
+            <span className="text-[#22c55e] font-black text-xl">8.8/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#eab308] to-transparent rounded mb-6" />
           <p className="text-[#9ca3af] leading-relaxed mb-3">

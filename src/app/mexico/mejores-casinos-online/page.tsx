@@ -15,31 +15,31 @@ const mexicoCasinos = [
   { rank: 1, name: "Betsson", slug: "betsson-mexico", bonus: "¡Bono de $15,000 + 200 Giros Gratis!", rating: 9.5, license: "SEGOB", games: "2 500+", highlight: true },
   { rank: 2, name: "PIN-UP Casino", slug: "pinup", bonus: "120% hasta $100,000 MXN + 250 giros gratis", rating: 9.4, license: "Curaçao", games: "10 000+", highlight: false, badge: "🔥 TOP" },
   { rank: 3, name: "1xBet", slug: "1xbet", bonus: "Hasta $40,000 MXN + 300 giros gratis", rating: 9.3, license: "Curaçao", games: "5 000+", highlight: false },
-  { rank: 4, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 8.9, license: "Curaçao", games: "4 500+", highlight: false },
-  { rank: 5, name: "SOL Casino", slug: "sol-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.1, license: "Curaçao", games: "4 000+", highlight: false },
-  { rank: 6, name: "STARDA Casino", slug: "starda-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.3, license: "Curaçao", games: "3 800+", highlight: false },
-  { rank: 7, name: "MONRO Casino", slug: "monro-casino", bonus: "150% en tu primer depósito", rating: 9.0, license: "Curaçao", games: "3 500+", highlight: false },
-  { rank: 8, name: "Betway", slug: "betway-mexico", bonus: "100% hasta $4,000 MXN + 50 Free Spins", rating: 9.2, license: "Internacional", games: "1 500+", highlight: false },
-  { rank: 9, name: "Caliente", slug: "caliente", bonus: "Bono de bienvenida + giros gratis", rating: 8.8, license: "SEGOB", games: "1 300+", highlight: false },
-  { rank: 10, name: "Codere", slug: "codere", bonus: "100% hasta $3,000 MXN", rating: 8.7, license: "SEGOB", games: "1 500+", highlight: false },
-  { rank: 11, name: "Bet365", slug: "bet365", bonus: "100% hasta $3,000 MXN", rating: 8.6, license: "SEGOB", games: "1 800+", highlight: false },
-  { rank: 12, name: "Strendus", slug: "strendus", bonus: "100% hasta $5,000 MXN + 200 giros", rating: 8.4, license: "SEGOB", games: "1 200+", highlight: false },
-  { rank: 13, name: "Winpot", slug: "winpot", bonus: "100% hasta $3,000 MXN", rating: 8.3, license: "SEGOB", games: "800+", highlight: false },
-  { rank: 14, name: "Stake", slug: "stake", bonus: "Bono primer depósito + giros gratis", rating: 8.2, license: "Internacional", games: "3 000+", highlight: false },
+  { rank: 4, name: "Betway", slug: "betway-mexico", bonus: "100% hasta $4,000 MXN + 50 Free Spins", rating: 9.2, license: "Internacional", games: "1 500+", highlight: false },
+  { rank: 5, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.0, license: "Curaçao", games: "4 500+", highlight: false },
+  { rank: 6, name: "SOL Casino", slug: "sol-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 8.9, license: "Curaçao", games: "4 000+", highlight: false },
+  { rank: 7, name: "STARDA Casino", slug: "starda-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 8.8, license: "Curaçao", games: "3 800+", highlight: false },
+  { rank: 8, name: "MONRO Casino", slug: "monro-casino", bonus: "150% en tu primer depósito", rating: 8.7, license: "Curaçao", games: "3 500+", highlight: false },
+  { rank: 9, name: "Caliente", slug: "caliente", bonus: "Bono de bienvenida + giros gratis", rating: 8.6, license: "SEGOB", games: "1 300+", highlight: false },
+  { rank: 10, name: "Codere", slug: "codere", bonus: "100% hasta $3,000 MXN", rating: 8.5, license: "SEGOB", games: "1 500+", highlight: false },
+  { rank: 11, name: "Bet365", slug: "bet365", bonus: "100% hasta $3,000 MXN", rating: 8.4, license: "SEGOB", games: "1 800+", highlight: false },
+  { rank: 12, name: "Strendus", slug: "strendus", bonus: "100% hasta $5,000 MXN + 200 giros", rating: 8.3, license: "SEGOB", games: "1 200+", highlight: false },
+  { rank: 13, name: "Winpot", slug: "winpot", bonus: "100% hasta $3,000 MXN", rating: 8.2, license: "SEGOB", games: "800+", highlight: false },
+  { rank: 14, name: "Stake", slug: "stake", bonus: "Bono primer depósito + giros gratis", rating: 8.1, license: "Internacional", games: "3 000+", highlight: false },
   { rank: 15, name: "Luckia", slug: "luckia", bonus: "Bono de bienvenida hasta $2,000 MXN", rating: 8.0, license: "SEGOB", games: "900+", highlight: false },
 ];
 
 const categoryPicks = [
-  { title: "Mejor variedad de juegos", casino: "FRESH Casino", slug: "fresh-casino", reason: "4 500+ juegos y neta, buscamos hasta los títulos más oscuros de Hacksaw y Nolimit City. Los tenían todos. Es otro nivel de catálogo." },
-  { title: "El más conocido en México", casino: "Caliente", slug: "caliente", reason: "Si le preguntas a cualquier mexicano por un casino, te va a decir Caliente. Licencia SEGOB, años en el mercado y puntos físicos en todo el país. La marca habla sola." },
-  { title: "Mejor bono de bienvenida", casino: "PIN-UP Casino", slug: "pinup", reason: "120% hasta $100,000 MXN + 250 giros gratis. El porcentaje más alto del ranking y el bono en pesos más alto que vas a encontrar. Le metes $1,000 y juegas con $2,200, más los 250 giros. Ojo con el rollover (es x50) pero el monto base es difícil de ganar." },
+  { title: "Mejor variedad de juegos", casino: "PIN-UP Casino", slug: "pinup", reason: "Más de 10,000 juegos. Sí, diez mil. Para que tengas contexto, FRESH (que ya es enorme) tiene 4,500. Pasamos un rato largo buscando slots raros y no exagero: estaban todos." },
+  { title: "Mejor bono de bienvenida", casino: "PIN-UP Casino", slug: "pinup", reason: "120% hasta $100,000 MXN + 250 giros gratis. El monto en pesos más alto que vas a encontrar. Le metes $1,000 y juegas con $2,200, más los giros. Ojo con el rollover (x50), pero el monto es difícil de ganar." },
+  { title: "Mejor paquete multi-depósito", casino: "1xBet", slug: "1xbet", reason: "Hasta $40,000 MXN + 300 giros repartidos en tus primeros 4 depósitos. Si eres de los que juega seguido, el paquete completo te da cuerda para semanas. Rollover x25, apunta al primer tramo si juegas casual." },
   { title: "Mejor para tragamonedas", casino: "STARDA Casino", slug: "starda-casino", reason: "Torneos de slots semanales con premios de $15,000 USD, títulos exclusivos y la sección de juegos crash más completa que probamos (Aviator, Spaceman, JetX)." },
   { title: "Mejor casino en vivo", casino: "Betsson", slug: "betsson-mexico", reason: "200+ mesas con dealers en español de verdad. No es traducción automática, son dealers que hablan como tú y yo. Probamos una mesa de blackjack a las 2am y la experiencia fue premium." },
   { title: "Para quienes empiezan", casino: "SOL Casino", slug: "sol-casino", reason: "Se lo pasamos a un cuate que nunca había jugado en línea. En 10 minutos ya estaba apostando sin preguntar nada. La interfaz es clarísima y el rollover x30 no te frustra." },
-  { title: "Mejor atención al cliente", casino: "Bet365", slug: "bet365", reason: "Escribimos al chat a las 4am un domingo. Nos respondieron en 90 segundos. En español. Sin bot de por medio. Eso ya dice mucho." },
-  { title: "Mejor para pagar con OXXO", casino: "Caliente", slug: "caliente", reason: "Generas tu ficha de pago, vas al OXXO de la esquina y listo. Probamos y el depósito se reflejó en menos de 30 minutos. Para quien no quiere meter tarjeta, es perfecto." },
-  { title: "Casino más confiable", casino: "Codere", slug: "codere", reason: "Marca internacional con licencia SEGOB. Llevan años en España y México sin un solo escándalo grande. Cuando quieres ir a lo seguro y no arriesgar, Codere es la respuesta." },
-  { title: "Mejor casino cripto", casino: "Stake", slug: "stake", reason: "El casino cripto más grande del mundo, punto. BTC, ETH, USDT y como 15 criptos más. Las transacciones llegan en minutos y no te cobran comisión extra." },
+  { title: "Mejor app móvil", casino: "Betway", slug: "betway-mexico", reason: "La app más pulida que probamos: rápida, ordenada y sin banners hasta en la sopa. Marca global con reputación impecable y SPEI instantáneo. Calidad sobre cantidad." },
+  { title: "Mejor deportes + casino", casino: "1xBet", slug: "1xbet", reason: "Liga MX, NFL, NBA y hasta eSports en la misma cuenta que el casino. Apuestas al partido del domingo y te pasas a los slots sin cambiar de plataforma. Todo en un solo saldo." },
+  { title: "Mejor catálogo de slots raros", casino: "FRESH Casino", slug: "fresh-casino", reason: "4,500+ juegos y neta, buscamos hasta los títulos más oscuros de Hacksaw y Nolimit City. Los tenían todos. Es otro nivel de catálogo." },
+  { title: "Mejor bono en porcentaje", casino: "MONRO Casino", slug: "monro-casino", reason: "150% en tu primer depósito, el porcentaje más alto del ranking. Depositas $1,000 MXN y juegas con $2,500. Simple, directo y sin letra chica rara." },
 ];
 
 const faqItems = [
@@ -713,11 +713,48 @@ export default function MejoresCasinosOnlineMexico() {
           <CtaButton slug="1xbet" text="Probar 1xBet" />
         </div>
 
+        {/* ── Betway ── */}
+        <div className="mb-16">
+          <div className="flex flex-wrap items-center gap-4 mb-2">
+            <h3 className="text-2xl sm:text-3xl font-black text-white">4. Betway</h3>
+            <span className="text-[#22c55e] font-black text-xl">9.2/10</span>
+          </div>
+          <div className="h-1 w-24 bg-gradient-to-r from-[#16a34a] to-transparent rounded mb-6" />
+
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            Betway es de esas marcas que no necesitan presentación: patrocinador de equipos de fútbol europeos,
+            años de trayectoria mundial y una reputación de pagos intachable. Su versión para México viene con un
+            bono de <strong className="text-white">100% hasta $4,000 MXN + 50 giros gratis</strong>, de los más
+            claros del ranking en condiciones — el rollover es razonable y la letra chica se entiende a la primera
+            (algo que se agradece, neta).
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            El catálogo es más compacto que el de los gigantes (unos 1,500 juegos), pero está bien curado: los
+            Pragmatic y NetEnt esenciales, buena sección en vivo y una <strong className="text-white">app móvil
+            de las más pulidas que probamos</strong>. Depositamos con SPEI un jueves por la mañana y el saldo cayó
+            al instante; el retiro tardó menos de un día. Si prefieres calidad sobre cantidad y una marca de las
+            de toda la vida, Betway es tu opción.
+          </p>
+
+          <ProsCons
+            pros={[
+              "Bono claro: 100% hasta $4,000 MXN + 50 giros con condiciones entendibles",
+              "Marca global con reputación de pagos impecable",
+              "App móvil muy pulida y SPEI con depósitos instantáneos",
+            ]}
+            cons={[
+              "Catálogo de ~1,500 juegos, lejos de los gigantes del ranking",
+              "Pocas promociones recurrentes para jugadores frecuentes",
+            ]}
+          />
+          <CtaButton slug="betway-mexico" text="Probar Betway" />
+        </div>
+
         {/* ── FRESH Casino ── */}
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-white">4. FRESH Casino</h3>
-            <span className="text-[#22c55e] font-black text-xl">8.9/10</span>
+            <h3 className="text-2xl sm:text-3xl font-black text-white">5. FRESH Casino</h3>
+            <span className="text-[#22c55e] font-black text-xl">9.0/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#16a34a] to-transparent rounded mb-6" />
 
@@ -811,8 +848,8 @@ export default function MejoresCasinosOnlineMexico() {
         {/* ── SOL Casino ── */}
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-white">5. SOL Casino</h3>
-            <span className="text-[#22c55e] font-black text-xl">9.1/10</span>
+            <h3 className="text-2xl sm:text-3xl font-black text-white">6. SOL Casino</h3>
+            <span className="text-[#22c55e] font-black text-xl">8.9/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#16a34a] to-transparent rounded mb-6" />
 
@@ -883,8 +920,8 @@ export default function MejoresCasinosOnlineMexico() {
         {/* ── MONRO Casino ── */}
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-white">7. MONRO Casino</h3>
-            <span className="text-[#22c55e] font-black text-xl">9.0/10</span>
+            <h3 className="text-2xl sm:text-3xl font-black text-white">8. MONRO Casino</h3>
+            <span className="text-[#22c55e] font-black text-xl">8.7/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#16a34a] to-transparent rounded mb-6" />
 
@@ -952,9 +989,8 @@ export default function MejoresCasinosOnlineMexico() {
         {/* ── STARDA Casino ── */}
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-white">6. STARDA Casino</h3>
-            <span className="bg-[#ef4444] text-white text-xs font-black px-3 py-1 rounded-full uppercase">&#128293; TOP</span>
-            <span className="text-[#22c55e] font-black text-xl">8.9/10</span>
+            <h3 className="text-2xl sm:text-3xl font-black text-white">7. STARDA Casino</h3>
+            <span className="text-[#22c55e] font-black text-xl">8.8/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#16a34a] to-transparent rounded mb-6" />
 
@@ -1106,10 +1142,13 @@ export default function MejoresCasinosOnlineMexico() {
             <tbody className="text-[#d4d4d8]">
               {[
                 ["Betsson", "Duplica depósito hasta $100", "x35", "—", "30 días"],
+                ["PIN-UP Casino", "120% hasta $100k MXN", "x50", "250", "3 días"],
+                ["1xBet", "Hasta $40k MXN + giros", "x25", "300", "7 días"],
+                ["Betway", "100% hasta $4k MXN", "x35", "50", "7 días"],
                 ["FRESH Casino", "100% primer dep.", "x35", "500", "14 días"],
                 ["SOL Casino", "100% primer dep.", "x30", "500", "14 días"],
-                ["MONRO Casino", "150% primer dep.", "x35", "—", "14 días"],
                 ["STARDA Casino", "100% primer dep.", "x35", "500", "14 días"],
+                ["MONRO Casino", "150% primer dep.", "x35", "—", "14 días"],
                 ["Caliente", "Bono bienvenida", "Varía", "Sí", "30 días"],
                 ["Codere", "100% hasta $3k MXN", "x35", "—", "30 días"],
                 ["Bet365", "100% hasta $3k MXN", "x30", "—", "30 días"],
@@ -1142,10 +1181,13 @@ export default function MejoresCasinosOnlineMexico() {
             <tbody className="text-[#d4d4d8]">
               {[
                 ["Betsson", "✓", "✓", "✓", "—", "1-24h (SPEI)"],
+                ["PIN-UP Casino", "✓", "✓", "✓", "✓", "0-24h"],
+                ["1xBet", "✓", "✓", "✓", "✓", "0-24h"],
+                ["Betway", "✓", "✓", "—", "—", "1-24h (SPEI)"],
                 ["FRESH Casino", "—", "—", "✓", "✓", "0-24h (crypto)"],
                 ["SOL Casino", "—", "—", "✓", "✓", "0-24h (crypto)"],
-                ["MONRO Casino", "—", "—", "✓", "✓", "0-24h (crypto)"],
                 ["STARDA Casino", "—", "—", "✓", "✓", "0-12h (crypto)"],
+                ["MONRO Casino", "—", "—", "✓", "✓", "0-24h (crypto)"],
                 ["Caliente", "✓", "✓", "✓", "—", "1-24h (SPEI)"],
                 ["Codere", "✓", "✓", "✓", "—", "1-48h (SPEI)"],
                 ["Bet365", "✓", "✓", "✓", "—", "1-24h (SPEI)"],
@@ -1178,10 +1220,13 @@ export default function MejoresCasinosOnlineMexico() {
             <tbody className="text-[#d4d4d8]">
               {[
                 ["Betsson", "2 500+", "2 000+", "200+", "40+"],
+                ["PIN-UP Casino", "10 000+", "8 500+", "400+", "120+"],
+                ["1xBet", "5 000+", "4 000+", "200+", "90+"],
+                ["Betway", "1 500+", "1 100+", "100+", "20+"],
                 ["FRESH Casino", "4 500+", "3 800+", "300+", "80+"],
                 ["SOL Casino", "4 000+", "3 400+", "200+", "70+"],
-                ["MONRO Casino", "3 500+", "3 000+", "180+", "60+"],
                 ["STARDA Casino", "3 800+", "3 200+", "150+", "65+"],
+                ["MONRO Casino", "3 500+", "3 000+", "180+", "60+"],
                 ["Caliente", "1 300+", "900+", "100+", "20+"],
                 ["Codere", "1 500+", "1 100+", "120+", "25+"],
                 ["Bet365", "1 800+", "1 200+", "150+", "25+"],

@@ -15,15 +15,15 @@ export const metadata: Metadata = {
 const chileCasinos = [
   { rank: 1, name: "Betsson", slug: "betsson-chile", bonus: "Hasta $400.000 + 200 Giros Gratis", rating: 9.5, rouletteTables: "45+", liveRoulette: true, highlight: true, badge: "⭐ Recomendado" },
   { rank: 2, name: "PIN-UP Casino", slug: "pinup", bonus: "$5.000.000 CLP + 250 giros gratis", rating: 9.4, rouletteTables: "55+", liveRoulette: true, highlight: false, badge: "🔥 TOP" },
-  { rank: 3, name: "1xBet", slug: "1xbet", bonus: "Paquete hasta $2.275 USD + 150 giros", rating: 9.3, rouletteTables: "40+", liveRoulette: true, highlight: false, badge: "" },
-  { rank: 4, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% + 500 giros gratis", rating: 8.9, rouletteTables: "60+", liveRoulette: true, highlight: false, badge: "" },
-  { rank: 5, name: "SOL Casino", slug: "sol-casino", bonus: "100% + 500 giros gratis", rating: 9.1, rouletteTables: "50+", liveRoulette: true, highlight: false, badge: "" },
-  { rank: 6, name: "STARDA Casino", slug: "starda-casino", bonus: "100% + 500 giros gratis", rating: 9.3, rouletteTables: "35+", liveRoulette: true, highlight: false },
-  { rank: 7, name: "MONRO Casino", slug: "monro-casino", bonus: "150% primer deposito", rating: 9.0, rouletteTables: "40+", liveRoulette: true, highlight: false, badge: "" },
-  { rank: 8, name: "JackpotCity", slug: "jackpotcity-chile", bonus: "$1.008.000 CLP + 200 Giros", rating: 9.2, rouletteTables: "25+", liveRoulette: true, highlight: false, badge: "" },
-  { rank: 9, name: "Gaming Club", slug: "gamingclub-chile", bonus: "100% + 150% en 2 depósitos", rating: 8.5, rouletteTables: "15+", liveRoulette: true, highlight: false, badge: "" },
-  { rank: 10, name: "Bet365", slug: "bet365", bonus: "100% bono bienvenida", rating: 8.8, rouletteTables: "20+", liveRoulette: true, highlight: false, badge: "" },
-  { rank: 11, name: "Stake", slug: "stake", bonus: "Bono primer deposito", rating: 8.7, rouletteTables: "30+", liveRoulette: true, highlight: false, badge: "" },
+  { rank: 3, name: "1xBet", slug: "1xbet", bonus: "Paquete hasta $2.275 USD + 150 giros", rating: 9.3, rouletteTables: "40+", liveRoulette: true, highlight: false },
+  { rank: 4, name: "JackpotCity", slug: "jackpotcity-chile", bonus: "$1.008.000 CLP + 200 Giros", rating: 9.2, rouletteTables: "25+", liveRoulette: true, highlight: false, badge: "" },
+  { rank: 5, name: "Gaming Club", slug: "gamingclub-chile", bonus: "100% + 150% en 2 depósitos", rating: 9.1, rouletteTables: "15+", liveRoulette: true, highlight: false, badge: "" },
+  { rank: 6, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% + 500 giros gratis", rating: 9.0, rouletteTables: "60+", liveRoulette: true, highlight: false, badge: "" },
+  { rank: 7, name: "SOL Casino", slug: "sol-casino", bonus: "100% + 500 giros gratis", rating: 8.9, rouletteTables: "50+", liveRoulette: true, highlight: false, badge: "" },
+  { rank: 8, name: "STARDA Casino", slug: "starda-casino", bonus: "100% + 500 giros gratis", rating: 8.8, rouletteTables: "35+", liveRoulette: true, highlight: false },
+  { rank: 9, name: "MONRO Casino", slug: "monro-casino", bonus: "150% primer deposito", rating: 8.7, rouletteTables: "40+", liveRoulette: true, highlight: false, badge: "" },
+  { rank: 10, name: "Bet365", slug: "bet365", bonus: "100% bono bienvenida", rating: 8.6, rouletteTables: "20+", liveRoulette: true, highlight: false, badge: "" },
+  { rank: 11, name: "Stake", slug: "stake", bonus: "Bono primer deposito", rating: 8.5, rouletteTables: "30+", liveRoulette: true, highlight: false, badge: "" },
 ];
 
 const faqItems = [
@@ -290,6 +290,23 @@ export default function RuletaOnlineChile() {
           />
         </div>
 
+        {/* 1xBet */}
+        <div className="rounded-2xl bg-[#141414] border border-[#22c55e]/20 p-6 sm:p-8 mb-8">
+          <div className="flex items-center gap-3 mb-4">
+            <div className="w-12 h-12 rounded-xl bg-white/[0.08] flex items-center justify-center overflow-hidden">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/img/logos/1xbet.png" alt="1xBet" className="w-9 h-9 object-contain" />
+            </div>
+            <div>
+              <h3 className="text-xl font-black text-[#22c55e]">#3 1xBet</h3>
+              <p className="text-sm text-[#71717a]">Paquete hasta $2.275 USD + 150 giros | 40+ mesas de ruleta</p>
+            </div>
+          </div>
+          <p className="text-[#9ca3af] text-sm leading-relaxed mb-3">El nuevo #3 del ranking chileno tiene la coleccion de ruletas mas variada que probamos: 40+ mesas entre Evolution, Ezugi y proveedores raros como SA Gaming y Asia Gaming que no vai a encontrar en otro lado. Europea, francesa, Lightning, Speed, con limites desde apuestas chicas hasta mesas VIP. Y todo en la misma cuenta que las apuestas deportivas, asi que le tirai unas lucas al partido y despues te pasai a la ruleta sin cambiar de saldo.</p>
+          <p className="text-[#9ca3af] text-sm leading-relaxed mb-4">El paquete de bienvenida llega hasta $2.275 USD + 150 giros en 4 depositos (rollover x25, y ojo que la ruleta aporta menos), y la cripto funciona impecable: USDT de ida y vuelta sin pasar por el banco. ¿El punto debil? La interfaz es un caos al principio — usa el buscador y listo.</p>
+          <CtaButton slug="1xbet" text="Probar 1xBet" />
+        </div>
+
         {/* FRESH Casino */}
         <div className="rounded-2xl bg-[#141414] border border-[#3b82f6]/20 p-6 sm:p-8 mb-8">
           <div className="flex items-center gap-3 mb-4">
@@ -298,7 +315,7 @@ export default function RuletaOnlineChile() {
               <img src="/img/logos/fresh.png" alt="FRESH Casino" className="w-9 h-9 object-contain" />
             </div>
             <div>
-              <h3 className="text-xl font-black text-[#3b82f6]">#2 FRESH Casino</h3>
+              <h3 className="text-xl font-black text-[#3b82f6]">#6 FRESH Casino</h3>
               <p className="text-sm text-[#71717a]">100% + 500 giros gratis | 60+ mesas de ruleta</p>
             </div>
           </div>
@@ -339,7 +356,7 @@ export default function RuletaOnlineChile() {
               <img src="/img/logos/sol.svg" alt="SOL Casino" className="w-9 h-9 object-contain" />
             </div>
             <div>
-              <h3 className="text-xl font-black text-[#a855f7]">#3 SOL Casino</h3>
+              <h3 className="text-xl font-black text-[#a855f7]">#7 SOL Casino</h3>
               <p className="text-sm text-[#71717a]">100% + 500 giros gratis | 50+ mesas de ruleta</p>
             </div>
           </div>
@@ -379,7 +396,7 @@ export default function RuletaOnlineChile() {
               <img src="/img/logos/monro.svg" alt="MONRO Casino" className="w-9 h-9 object-contain" />
             </div>
             <div>
-              <h3 className="text-xl font-black text-[#06b6d4]">#4 MONRO Casino</h3>
+              <h3 className="text-xl font-black text-[#06b6d4]">#9 MONRO Casino</h3>
               <p className="text-sm text-[#71717a]">150% primer deposito | 40+ mesas de ruleta</p>
             </div>
           </div>
@@ -419,7 +436,7 @@ export default function RuletaOnlineChile() {
               <img src="/img/logos/starda.svg" alt="STARDA Casino" className="w-9 h-9 object-contain" />
             </div>
             <div>
-              <h3 className="text-xl font-black text-[#f43f5e]">#5 STARDA Casino — \uD83D\uDD25 TOP</h3>
+              <h3 className="text-xl font-black text-[#f43f5e]">#8 STARDA Casino</h3>
               <p className="text-sm text-[#71717a]">100% + 500 giros gratis | 35+ mesas de ruleta</p>
             </div>
           </div>

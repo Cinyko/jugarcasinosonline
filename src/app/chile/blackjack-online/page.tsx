@@ -15,15 +15,15 @@ const chileCasinos = [
   { rank: 1, name: "Betsson", slug: "betsson-chile", bonus: "Hasta $400.000 + 200 Giros Gratis", rating: 9.5, bjTables: "30+", liveBj: true, highlight: true, badge: "⭐ Recomendado" },
   { rank: 2, name: "PIN-UP Casino", slug: "pinup", bonus: "$5.000.000 CLP + 250 giros gratis", rating: 9.4, bjTables: "40+", liveBj: true, highlight: false, badge: "🔥 TOP" },
   { rank: 3, name: "1xBet", slug: "1xbet", bonus: "Paquete hasta $2.275 USD + 150 giros", rating: 9.3, bjTables: "25+", liveBj: true, highlight: false },
-  { rank: 4, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% + 500 giros gratis", rating: 8.9, bjTables: "45+", liveBj: true, highlight: false },
-  { rank: 5, name: "SOL Casino", slug: "sol-casino", bonus: "100% + 500 giros gratis", rating: 9.1, bjTables: "35+", liveBj: true, highlight: false },
-  { rank: 6, name: "STARDA Casino", slug: "starda-casino", bonus: "100% + 500 giros gratis", rating: 9.3, bjTables: "20+", liveBj: true, highlight: false },
-  { rank: 7, name: "MONRO Casino", slug: "monro-casino", bonus: "150% primer depósito", rating: 9.0, bjTables: "25+", liveBj: true, highlight: false },
-  { rank: 8, name: "JackpotCity", slug: "jackpotcity-chile", bonus: "$1.008.000 CLP + 200 Giros", rating: 9.2, bjTables: "20+", liveBj: true, highlight: false },
-  { rank: 9, name: "Gaming Club", slug: "gamingclub-chile", bonus: "100% + 150% en 2 depósitos", rating: 8.5, bjTables: "12+", liveBj: true, highlight: false },
-  { rank: 10, name: "Betway", slug: "betway", bonus: "100% hasta $100", rating: 8.3, bjTables: "15+", liveBj: true, highlight: false },
-  { rank: 11, name: "20Bet", slug: "20bet", bonus: "100% hasta $120 + 120 giros", rating: 8.2, bjTables: "12+", liveBj: true, highlight: false },
-  { rank: 12, name: "Bet365", slug: "bet365", bonus: "100% primer depósito", rating: 8.1, bjTables: "10+", liveBj: true, highlight: false },
+  { rank: 4, name: "JackpotCity", slug: "jackpotcity-chile", bonus: "$1.008.000 CLP + 200 Giros", rating: 9.2, bjTables: "20+", liveBj: true, highlight: false },
+  { rank: 5, name: "Gaming Club", slug: "gamingclub-chile", bonus: "100% + 150% en 2 depósitos", rating: 9.1, bjTables: "12+", liveBj: true, highlight: false },
+  { rank: 6, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% + 500 giros gratis", rating: 9.0, bjTables: "45+", liveBj: true, highlight: false },
+  { rank: 7, name: "SOL Casino", slug: "sol-casino", bonus: "100% + 500 giros gratis", rating: 8.9, bjTables: "35+", liveBj: true, highlight: false },
+  { rank: 8, name: "STARDA Casino", slug: "starda-casino", bonus: "100% + 500 giros gratis", rating: 8.8, bjTables: "20+", liveBj: true, highlight: false },
+  { rank: 9, name: "MONRO Casino", slug: "monro-casino", bonus: "150% primer depósito", rating: 8.7, bjTables: "25+", liveBj: true, highlight: false },
+  { rank: 10, name: "Bet365", slug: "bet365", bonus: "100% primer depósito", rating: 8.6, bjTables: "10+", liveBj: true, highlight: false },
+  { rank: 11, name: "Betway", slug: "betway", bonus: "100% hasta $100", rating: 8.4, bjTables: "15+", liveBj: true, highlight: false },
+  { rank: 12, name: "20Bet", slug: "20bet", bonus: "100% hasta $120 + 120 giros", rating: 8.2, bjTables: "12+", liveBj: true, highlight: false },
 ];
 
 const faqItems = [
@@ -546,10 +546,26 @@ export default function BlackjackOnlineChile() {
           <CtaButton slug="betsson-chile" text="Jugar Blackjack en Betsson" />
         </div>
 
+        {/* 3. 1xBet */}
         <div className="mb-12">
           <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-[#3b82f6]">2. FRESH Casino</h3>
+            <h3 className="text-2xl sm:text-3xl font-black text-white">3. 1xBet</h3>
             <span className="text-[#22c55e] font-black text-xl">9.3/10</span>
+          </div>
+          <div className="h-1 w-24 bg-gradient-to-r from-[#22c55e] to-transparent rounded mb-6" />
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            1xBet se instala en el top 3 chileno con 25+ mesas de blackjack en vivo: Infinite con mínimos bajos para partir tranquilo, Speed si andai apurado y mesas VIP con límites altos. Evolution y Ezugi de proveedores, y el plus de tener las apuestas deportivas en la misma cuenta y el mismo saldo.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-4">
+            El paquete de bienvenida llega hasta $2.275 USD + 150 giros, y la cripto funciona impecable para depositar y retirar sin pasar por el banco. Dato honesto: el blackjack aporta poco al rollover, así que si vai solo por el 21, considerá jugar sin bono.
+          </p>
+          <CtaButton slug="1xbet" text="Probar 1xBet" />
+        </div>
+
+        <div className="mb-12">
+          <div className="flex flex-wrap items-center gap-4 mb-2">
+            <h3 className="text-2xl sm:text-3xl font-black text-[#3b82f6]">6. FRESH Casino</h3>
+            <span className="text-[#22c55e] font-black text-xl">9.0/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#3b82f6] to-transparent rounded mb-6" />
           <p className="text-[#9ca3af] leading-relaxed mb-3">
@@ -566,7 +582,7 @@ export default function BlackjackOnlineChile() {
         </div>
 
         <div className="mb-12">
-          <h3 className="text-2xl sm:text-3xl font-black text-[#a855f7] mb-2">3. SOL Casino <span className="text-[#22c55e] font-black text-xl ml-3">9.1/10</span></h3>
+          <h3 className="text-2xl sm:text-3xl font-black text-[#a855f7] mb-2">7. SOL Casino <span className="text-[#22c55e] font-black text-xl ml-3">8.9/10</span></h3>
           <div className="h-1 w-24 bg-gradient-to-r from-[#a855f7] to-transparent rounded mb-6" />
           <p className="text-[#9ca3af] leading-relaxed mb-3">
             El más amigable para principiantes. Interfaz clarísima, rollover bajo (x30), y cashback del 15% semanal que aplica a blackjack. 35+ mesas de Evolution. Si nunca jugaste blackjack online, partí acá.
@@ -579,7 +595,7 @@ export default function BlackjackOnlineChile() {
         </div>
 
         <div className="mb-12">
-          <h3 className="text-2xl sm:text-3xl font-black text-[#06b6d4] mb-2">4. MONRO Casino <span className="text-[#22c55e] font-black text-xl ml-3">9.0/10</span></h3>
+          <h3 className="text-2xl sm:text-3xl font-black text-[#06b6d4] mb-2">9. MONRO Casino <span className="text-[#22c55e] font-black text-xl ml-3">8.7/10</span></h3>
           <p className="text-[#9ca3af] leading-relaxed mb-3">
             El bono más alto: 150% primer depósito. 25+ mesas con Free Bet Blackjack incluido — doblas y divides gratis en ciertas situaciones. Si quieres empezar con más plata y la onda de doblar sin arriesgar de más te tinca, MONRO es tu opción.
           </p>
@@ -592,8 +608,8 @@ export default function BlackjackOnlineChile() {
 
         <div className="mb-8">
           <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-[#f43f5e]">5. STARDA Casino</h3>
-            <span className="text-[#22c55e] font-black text-xl">8.9/10</span>
+            <h3 className="text-2xl sm:text-3xl font-black text-[#f43f5e]">8. STARDA Casino</h3>
+            <span className="text-[#22c55e] font-black text-xl">8.8/10</span>
           </div>
           <p className="text-[#9ca3af] leading-relaxed mb-3">
             Torneos de casino en vivo donde el blackjack cuenta — eso no lo encontrai en otro lado. 20+ mesas, dealers en español en mesas seleccionadas, y la competitividad del torneo le agrega otra dimensión al juego. Si te gusta competir además de jugar, dale una oportunidad.

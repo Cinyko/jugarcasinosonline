@@ -14,15 +14,15 @@ export const metadata: Metadata = {
 
 const peruCasinos = [
   { rank: 1, name: "Betsson", slug: "betsson-peru", bonus: "Gana 300 Giros Gratis", rating: 9.5, rouletteTables: "45+", liveRoulette: true, highlight: true, badge: "⭐ Recomendado" },
-  { rank: 2, name: "1xBet", slug: "1xbet", bonus: "Paquete hasta $2,275 + 150 giros", rating: 9.3, rouletteTables: "40+", liveRoulette: true, highlight: false },
-  { rank: 3, name: "STARDA Casino", slug: "starda-casino", bonus: "100% + 500 giros gratis", rating: 9.3, rouletteTables: "35+", liveRoulette: true, highlight: false },
-  { rank: 4, name: "Inkabet", slug: "inkabet", bonus: "Hasta S/500 + 300 giros gratis", rating: 9.2, rouletteTables: "20+", liveRoulette: true, highlight: false },
-  { rank: 5, name: "SOL Casino", slug: "sol-casino", bonus: "100% + 500 giros gratis", rating: 9.1, rouletteTables: "50+", liveRoulette: true, highlight: false },
-  { rank: 6, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% + 500 giros gratis", rating: 8.9, rouletteTables: "60+", liveRoulette: true, highlight: false },
-  { rank: 7, name: "MONRO Casino", slug: "monro-casino", bonus: "150% primer depósito", rating: 9.0, rouletteTables: "40+", liveRoulette: true, highlight: false },
-  { rank: 8, name: "Stake", slug: "stake", bonus: "S/50 freebet", rating: 8.8, rouletteTables: "30+", liveRoulette: true, highlight: false },
-  { rank: 9, name: "Betano", slug: "betano", bonus: "60 giros gratis", rating: 8.7, rouletteTables: "25+", liveRoulette: true, highlight: false },
-  { rank: 10, name: "Bet365", slug: "bet365", bonus: "100% hasta S/500", rating: 8.6, rouletteTables: "20+", liveRoulette: true, highlight: false },
+  { rank: 2, name: "1xBet", slug: "1xbet", bonus: "Paquete hasta $2,275 + 150 giros", rating: 9.3, rouletteTables: "40+", liveRoulette: true, highlight: false, badge: "🔥 TOP" },
+  { rank: 3, name: "Inkabet", slug: "inkabet", bonus: "Hasta S/500 + 300 giros gratis", rating: 9.2, rouletteTables: "20+", liveRoulette: true, highlight: false },
+  { rank: 4, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% + 500 giros gratis", rating: 9.0, rouletteTables: "60+", liveRoulette: true, highlight: false },
+  { rank: 5, name: "SOL Casino", slug: "sol-casino", bonus: "100% + 500 giros gratis", rating: 8.9, rouletteTables: "50+", liveRoulette: true, highlight: false },
+  { rank: 6, name: "STARDA Casino", slug: "starda-casino", bonus: "100% + 500 giros gratis", rating: 8.8, rouletteTables: "35+", liveRoulette: true, highlight: false },
+  { rank: 7, name: "MONRO Casino", slug: "monro-casino", bonus: "150% primer depósito", rating: 8.7, rouletteTables: "40+", liveRoulette: true, highlight: false },
+  { rank: 8, name: "Betano", slug: "betano", bonus: "60 giros gratis", rating: 8.6, rouletteTables: "25+", liveRoulette: true, highlight: false },
+  { rank: 9, name: "Bet365", slug: "bet365", bonus: "100% hasta S/500", rating: 8.5, rouletteTables: "20+", liveRoulette: true, highlight: false },
+  { rank: 10, name: "Stake", slug: "stake", bonus: "S/50 freebet", rating: 8.4, rouletteTables: "30+", liveRoulette: true, highlight: false },
 ];
 
 const faqItems = [
@@ -576,6 +576,29 @@ export default function RuletaOnlinePeru() {
         </div>
 
         {/* ── FRESH Casino ── */}
+        {/* ── 1XBET ── */}
+        <div className="rounded-2xl border border-[#22c55e]/20 bg-[#22c55e]/[0.03] p-6 sm:p-8 mb-10">
+          <div className="flex items-center gap-3 mb-2">
+            <span className="text-xs bg-[#22c55e]/20 text-[#22c55e] px-3 py-1 rounded-full font-bold">#2 para Ruleta</span>
+            <span className="text-xs bg-[#f43f5e]/20 text-[#fb7185] px-3 py-1 rounded-full font-bold">🔥 TOP</span>
+          </div>
+          <h3 className="text-2xl font-black text-white mb-1">1xBet</h3>
+          <p className="text-sm text-[#71717a] mb-4">Paquete hasta $2,275 + 150 giros | 40+ mesas de ruleta | 9.3/10</p>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            El nuevo #2 del ranking se lo gana con variedad: más de 40 mesas de ruleta entre Evolution, Ezugi y
+            proveedores que no vas a encontrar en ningún otro casino peruano (SA Gaming, Asia Gaming). Europea,
+            francesa, Lightning, Speed... hay de todo, con límites desde apuestas chicas hasta mesas VIP. Y con
+            licencia MINCETUR, jugando regulado desde el Perú.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-4">
+            El paquete de bienvenida de hasta $2,275 + 150 giros te da colchón de sobra (ojo: la ruleta suele
+            aportar menos al rollover), y podés pagar con métodos locales o cripto — depositamos USDT y en 10
+            minutos estábamos girando. ¿La contra? La interfaz está recargada; usá el buscador y te ahorrás el
+            mareo del primer día.
+          </p>
+          <CtaButton slug="1xbet" text="Probar 1xBet" />
+        </div>
+
         <div className="rounded-2xl border border-white/[0.08] bg-white/[0.02] p-6 sm:p-8 mb-10">
           <h3 className="text-2xl font-black text-white mb-1">FRESH Casino</h3>
           <p className="text-[#71717a] text-sm mb-6">60+ mesas de ruleta &middot; Ruleta en vivo &middot; Bono: 100% + 500 giros gratis</p>

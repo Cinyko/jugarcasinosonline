@@ -80,8 +80,8 @@ Que si alguien pasa el contenido por un detector de IA, no lo marque. Y más imp
 ## CASINOS — ORDEN Y BADGES
 
 - Betsson siempre #1 con badge "⭐ Recomendado" (usa /go/betsson-[pais]/ según el país)
-- STARDA Casino lleva badge "🔥 TOP"
-- Orden: Betsson → FRESH → SOL → STARDA → MONRO → casinos grandes sin afiliado
+- Badge "🔥 TOP": PIN-UP en México/Chile/Ecuador; 1xBet en Perú/Argentina
+- Orden general: afiliados activos primero (Betsson → PIN-UP → 1xBet → Inkabet/Betway/JackpotCity/Gaming Club según país) → Royal Partners (FRESH → SOL → STARDA → MONRO, ratings 8.7–9.0) → casinos sin afiliado (ratings por debajo de 8.7)
 - Los bonos de Betsson varían por país — verificar en src/data/casinos.ts
 - Los 4 de Royal Partners (FRESH, SOL, STARDA, MONRO) solo aparecen en: mexico, peru, argentina, chile, ecuador
 
