@@ -20,6 +20,8 @@ export interface Casino {
   license: string;
   countries?: string[];
   countryData?: Record<string, CasinoCountryData>;
+  /** When true, the casino is resolvable via /go/ but excluded from the homepage listing */
+  hidden?: boolean;
 }
 
 export interface Streamer {

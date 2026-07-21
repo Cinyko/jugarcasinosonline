@@ -267,6 +267,7 @@ export const casinos: Casino[] = [
     rating: 8.5,
     affiliateUrl: "https://locowin.com",
     license: "MGA / Kahnawake",
+    hidden: true,
   },
 ];
 

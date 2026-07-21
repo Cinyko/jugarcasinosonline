@@ -292,7 +292,7 @@ export default function MejoresCasinosOnlineMexico() {
               "20bet": { src: "/img/logos/20bet.png" },
               "dafabet": { src: "/img/logos/dafabet.png" },
               "betfair": { src: "/img/logos/betfair.png" },
-              "melbet": { src: "/img/logos/melbet.webp" },
+              "melbet": { src: "/img/logos/melbet.jpg" },
               "1win": { src: "/img/logos/1win.svg" },
             };
             const logoData = logoMap[c.slug];
@@ -425,7 +425,7 @@ export default function MejoresCasinosOnlineMexico() {
                           "20bet": { src: "/img/logos/20bet.png" },
                           "dafabet": { src: "/img/logos/dafabet.png" },
                           "betfair": { src: "/img/logos/betfair.png" },
-                          "melbet": { src: "/img/logos/melbet.webp" },
+                          "melbet": { src: "/img/logos/melbet.jpg" },
                           "1win": { src: "/img/logos/1win.svg" },
                         };
                         const dl = dLogoMap[c.slug];

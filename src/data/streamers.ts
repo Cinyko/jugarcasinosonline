@@ -34,7 +34,7 @@ export const streamers: Streamer[] = [
   },
   {
     name: "Santutu",
-    country: "LATAM",
+    country: "Argentina",
     platform: "Kick",
     description:
       "Conocido por sus sesiones explosivas de slots. Muy popular en Kick con una comunidad que crece cada día.",

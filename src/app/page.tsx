@@ -33,7 +33,7 @@ const logoMap: Record<string, { src: string; invert?: boolean }> = {
   "20bet": { src: "/img/logos/20bet.png" },
   dafabet: { src: "/img/logos/dafabet.png" },
   betfair: { src: "/img/logos/betfair.png" },
-  melbet: { src: "/img/logos/melbet.webp" },
+  melbet: { src: "/img/logos/melbet.jpg" },
   "1win": { src: "/img/logos/1win.svg" },
   pinup: { src: "/img/logos/pin-up.png" },
   jackpotcity: { src: "/img/logos/jackpotcity.png" },
@@ -108,7 +108,7 @@ export default function Home() {
           </h2>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 items-end">
-            {casinos.map((casino, i) => {
+            {casinos.filter((c) => !c.hidden).map((casino, i) => {
               const logo = logoMap[casino.slug];
 
               return (
