@@ -14,12 +14,12 @@ export const metadata: Metadata = {
 const ecuadorCasinos = [
   { rank: 1, name: "Betsson", slug: "betsson-latam", bonus: "¡Duplica tu depósito hasta $100!", rating: 9.5, license: "Internacional", games: "2 500+", highlight: true },
   { rank: 2, name: "PIN-UP Casino", slug: "pinup", bonus: "120% hasta $5,300 USD + 250 giros gratis", rating: 9.4, license: "Curaçao", games: "10 000+", highlight: false, badge: "🔥 TOP" },
-  { rank: 3, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 8.9, license: "Curaçao", games: "4 500+", highlight: false },
-  { rank: 4, name: "SOL Casino", slug: "sol-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.1, license: "Curaçao", games: "4 000+", highlight: false },
-  { rank: 5, name: "STARDA Casino", slug: "starda-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.3, license: "Curaçao", games: "3 800+", highlight: false },
-  { rank: 6, name: "MONRO Casino", slug: "monro-casino", bonus: "150% en tu primer depósito", rating: 9.0, license: "Curaçao", games: "3 500+", highlight: false },
-  { rank: 7, name: "Bet365", slug: "bet365", bonus: "100% bono de bienvenida", rating: 8.8, license: "Internacional", games: "1 800+", highlight: false },
-  { rank: 8, name: "1xBet", slug: "1xbet", bonus: "100% primer depósito hasta $300", rating: 8.7, license: "Internacional", games: "5 000+", highlight: false },
+  { rank: 3, name: "1xBet", slug: "1xbet", bonus: "Paquete hasta $2,275 + 150 giros gratis", rating: 9.3, license: "Internacional", games: "5 000+", highlight: false },
+  { rank: 4, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 8.9, license: "Curaçao", games: "4 500+", highlight: false },
+  { rank: 5, name: "SOL Casino", slug: "sol-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.1, license: "Curaçao", games: "4 000+", highlight: false },
+  { rank: 6, name: "STARDA Casino", slug: "starda-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.3, license: "Curaçao", games: "3 800+", highlight: false },
+  { rank: 7, name: "MONRO Casino", slug: "monro-casino", bonus: "150% en tu primer depósito", rating: 9.0, license: "Curaçao", games: "3 500+", highlight: false },
+  { rank: 8, name: "Bet365", slug: "bet365", bonus: "100% bono de bienvenida", rating: 8.8, license: "Internacional", games: "1 800+", highlight: false },
   { rank: 9, name: "Stake", slug: "stake", bonus: "Bono primer depósito + giros", rating: 8.6, license: "Internacional", games: "3 000+", highlight: false },
   { rank: 10, name: "Betway", slug: "betway", bonus: "100% bono de bienvenida", rating: 8.5, license: "Internacional", games: "1 500+", highlight: false },
   { rank: 11, name: "Melbet", slug: "melbet", bonus: "100% primer depósito + 30 giros", rating: 8.4, license: "Curaçao", games: "2 000+", highlight: false },
@@ -427,7 +427,7 @@ export default function MejoresCasinosOnlineEcuador() {
             Partamos por lo obvio: PIN-UP tiene <strong className="text-white">más de 10.000 juegos</strong>.
             Sí, diez mil. Para que tengas comparación, FRESH (que ya es grande) tiene 4.500. Pasamos un rato
             largo probando y buscando, y la verdad es que están todos los proveedores grandes: Hacksaw,
-            Nolimit City, Pragmatic, NetEnt, Evolution, Play'n GO, Push Gaming. Y varios que no ves en otros
+            Nolimit City, Pragmatic, NetEnt, Evolution, Play&apos;n GO, Push Gaming. Y varios que no ves en otros
             casinos.
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-3">
@@ -478,10 +478,61 @@ export default function MejoresCasinosOnlineEcuador() {
           <CtaButton slug="pinup" text="Probar PIN-UP Casino" />
         </div>
 
+        {/* ── 1xBet ── */}
+        <div className="mb-16">
+          <div className="flex flex-wrap items-center gap-4 mb-2">
+            <h3 className="text-2xl sm:text-3xl font-black text-white">3. 1xBet</h3>
+            <span className="text-[#22c55e] font-black text-xl">9.3/10</span>
+          </div>
+          <div className="h-1 w-24 bg-gradient-to-r from-[#eab308] to-transparent rounded mb-6" />
+
+          <h4 className="text-lg font-bold text-white mb-3">Dólares directos y cripto: la dupla perfecta para Ecuador</h4>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            Como en Ecuador manejamos dólares, 1xBet juega con ventaja: <strong className="text-white">todo el
+            casino opera en USD</strong>, sin conversiones raras ni tipos de cambio escondidos. Y si te manejas
+            con cripto, mejor todavía: acepta BTC, USDT y una lista enorme. Hicimos la prueba completa —depósito
+            con USDT un martes, retiro el jueves— y las dos operaciones tardaron menos de media hora. Para lo que
+            se ve en el mercado ecuatoriano, eso es velocidad de otra liga.
+          </p>
+
+          <h4 className="text-lg font-bold text-white mb-3">Paquete de bienvenida: hasta $2,275 + 150 giros gratis</h4>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            El bono de casino se reparte en tus <strong className="text-white">primeros 4 depósitos</strong> y
+            suma hasta $2,275 más 150 giros gratis. En monto bruto solo PIN-UP le compite en este ranking. ¿La
+            letra chica? Rollover x25 con 7 días por tramo — no te voy a mentir, es exigente. Si juegas poco,
+            quédate con el primer depósito del paquete y listo; ya con eso arrancas con buen colchón.
+          </p>
+
+          <h4 className="text-lg font-bold text-white mb-3">+5,000 juegos y deportes en la misma cuenta</h4>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            El catálogo pasa los <strong className="text-white">5,000 juegos</strong>: todos los Pragmatic y
+            Hacksaw de los streams, mesas en vivo de Evolution y hasta juegos rápidos estilo crash. Y como 1xBet
+            nació como casa de apuestas, tienes <strong className="text-white">deportes integrados</strong> (Liga
+            Pro, Libertadores, Champions) sin salir de la cuenta. ¿Lo que no nos gustó? La web está saturada de
+            banners y promos; la app móvil, en cambio, se siente más limpia y va rápido hasta con señal regular.
+          </p>
+
+          <ProsCons
+            pros={[
+              "Todo en dólares, sin conversiones — ideal para Ecuador",
+              "Paquete de bienvenida hasta $2,275 + 150 giros gratis",
+              "+5,000 juegos, de los catálogos más grandes del país",
+              "Cripto rápida: depósitos y retiros en menos de media hora",
+              "Casino + apuestas deportivas en una sola cuenta",
+            ]}
+            cons={[
+              "Rollover x25 en 7 días — mejor apuntar solo al primer tramo si juegas casual",
+              "La web está recargada de promos; usa la app, es más limpia",
+              "Licencia internacional, como la mayoría de casinos en Ecuador",
+            ]}
+          />
+          <CtaButton slug="1xbet" text="Probar 1xBet" />
+        </div>
+
         {/* ── FRESH ── */}
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-white">3. FRESH Casino</h3>
+            <h3 className="text-2xl sm:text-3xl font-black text-white">4. FRESH Casino</h3>
             <span className="text-[#22c55e] font-black text-xl">8.9/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#eab308] to-transparent rounded mb-6" />
@@ -527,7 +578,7 @@ export default function MejoresCasinosOnlineEcuador() {
         {/* ── SOL ── */}
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-white">4. SOL Casino</h3>
+            <h3 className="text-2xl sm:text-3xl font-black text-white">5. SOL Casino</h3>
             <span className="text-[#22c55e] font-black text-xl">9.1/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#eab308] to-transparent rounded mb-6" />
@@ -572,7 +623,7 @@ export default function MejoresCasinosOnlineEcuador() {
         {/* ── MONRO ── */}
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-white">6. MONRO Casino</h3>
+            <h3 className="text-2xl sm:text-3xl font-black text-white">7. MONRO Casino</h3>
             <span className="text-[#22c55e] font-black text-xl">9.0/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#eab308] to-transparent rounded mb-6" />
@@ -613,7 +664,7 @@ export default function MejoresCasinosOnlineEcuador() {
         {/* ── STARDA ── */}
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-white">5. STARDA Casino</h3>
+            <h3 className="text-2xl sm:text-3xl font-black text-white">6. STARDA Casino</h3>
             <span className="text-[#22c55e] font-black text-xl">8.9/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#eab308] to-transparent rounded mb-6" />
@@ -660,13 +711,6 @@ export default function MejoresCasinosOnlineEcuador() {
               <p className="text-[#9ca3af] leading-relaxed">Le escribimos al soporte a las 3am un domingo para preguntarles por qué una apuesta de casino en vivo se había cancelado (era una prueba a propósito). Respondieron en 90 segundos. En español, con un agente humano que sabía de lo que hablaba. Le preguntamos si atendían jugadores de Ecuador y nos confirmó que sí, sin restricciones. Eso no lo encuentras en muchos casinos a esa hora.</p>
             </div>
             <div>
-              <h4 className="text-lg font-bold text-white mb-2">1xBet <span className="text-[#22c55e] text-sm font-black">8.7/10</span></h4>
-              <p className="text-[#9ca3af] leading-relaxed mb-2">El catálogo más grande de todos: 5.000+ juegos. Si lo que buscas es variedad extrema, 1xBet tiene incluso más títulos que FRESH (aunque la calidad de la plataforma no es la misma). Acepta una cantidad ridícula de métodos de pago y criptomonedas. El soporte es correcto pero no espectacular.</p>
-              <p className="text-[#9ca3af] leading-relaxed mb-2">El bono de bienvenida es competitivo (100% hasta $300) y tienen promociones constantemente. La interfaz puede sentirse un poco abrumadora por la cantidad de opciones, pero si cachas un poco de casinos, le sacas provecho.</p>
-              <p className="text-[#9ca3af] leading-relaxed mb-2">Nos pusimos a explorar el catálogo con calma y de ley es abrumador. Tiene secciones de deportes, casino, casino en vivo, eSports, bingo, poker, TV games y hasta apuestas financieras. Es como entrar a un centro comercial gigante cuando solo querías comprar una cosa. Encontramos slots que no están en ningún otro casino del ranking — proveedores que nunca habíamos oído como 1x2 Gaming y Endorphina. Pero la interfaz necesita mejoras serias: los menús tienen demasiados niveles, la búsqueda a veces no encuentra juegos que sí existen si escribes mal una letra, y en celular la navegación se siente apretada.</p>
-              <p className="text-[#9ca3af] leading-relaxed">Para Ecuador, 1xBet tiene algo que la mayoría no ofrece: acepta transferencias bancarias locales y tiene más métodos de pago que cualquier otro casino. Si tu tarjeta de Pichincha no pasa en otro casino, en 1xBet probablemente encuentres alguna alternativa que funcione. Eso tiene valor real para jugadores ecuatorianos que a veces se frustran con los bloqueos bancarios.</p>
-            </div>
-            <div>
               <h4 className="text-lg font-bold text-white mb-2">Stake <span className="text-[#22c55e] text-sm font-black">8.6/10</span></h4>
               <p className="text-[#9ca3af] leading-relaxed mb-2">El casino cripto por excelencia. En Ecuador, donde ya usamos dólares, crypto funciona especialmente bien porque USDT (Tether) tiene paridad 1:1 con el dólar. Depositas $100 USDT, ves $100 en el casino. Sin conversión, sin sorpresas.</p>
               <p className="text-[#9ca3af] leading-relaxed mb-2">Tiene juegos exclusivos (Plinko, Mines, Crash), el programa VIP más exclusivo del mercado y retiros prácticamente instantáneos. El bono es más modesto pero con rollover x1. Si ya manejas crypto, Stake es tu casino sin discusión.</p>
@@ -710,7 +754,7 @@ export default function MejoresCasinosOnlineEcuador() {
         <div className="overflow-x-auto rounded-xl border border-white/[0.06] mb-10">
           <table className="w-full text-left text-sm"><thead><tr className="bg-[#141414] text-[#71717a] uppercase text-xs tracking-wider"><th className="px-4 py-3 font-bold">Casino</th><th className="px-4 py-3 font-bold">Bono</th><th className="px-4 py-3 font-bold hidden sm:table-cell">Rollover</th><th className="px-4 py-3 font-bold hidden sm:table-cell">Giros</th><th className="px-4 py-3 font-bold hidden md:table-cell">Validez</th></tr></thead>
             <tbody className="text-[#d4d4d8]">
-              {[["Betsson","Duplica dep. hasta $100","x30","—","30 días"],["FRESH Casino","100% primer dep.","x35","500","14 días"],["SOL Casino","100% primer dep.","x30","500","14 días"],["MONRO Casino","150% primer dep.","x35","—","14 días"],["STARDA Casino","100% primer dep.","x35","500","14 días"],["Bet365","100% bienvenida","x30","—","30 días"],["1xBet","100% hasta $300","x35","—","30 días"],["Stake","Bono + giros","x1","Sí","7 días"]].map(([c,b,r,s,v])=>(
+              {[["Betsson","Duplica dep. hasta $100","x30","—","30 días"],["FRESH Casino","100% primer dep.","x35","500","14 días"],["SOL Casino","100% primer dep.","x30","500","14 días"],["MONRO Casino","150% primer dep.","x35","—","14 días"],["STARDA Casino","100% primer dep.","x35","500","14 días"],["Bet365","100% bienvenida","x30","—","30 días"],["1xBet","Paquete hasta $2,275 + giros","x25","150","7 días"],["Stake","Bono + giros","x1","Sí","7 días"]].map(([c,b,r,s,v])=>(
                 <tr key={c} className="border-t border-white/[0.04] hover:bg-white/[0.02]"><td className="px-4 py-3 font-bold text-white">{c}</td><td className="px-4 py-3">{b}</td><td className="px-4 py-3 hidden sm:table-cell">{r}</td><td className="px-4 py-3 hidden sm:table-cell">{s}</td><td className="px-4 py-3 hidden md:table-cell">{v}</td></tr>
               ))}
             </tbody>
@@ -906,7 +950,7 @@ export default function MejoresCasinosOnlineEcuador() {
           <p className="text-[#9ca3af] leading-relaxed mb-4">Sweet Bonanza usa cascading reels con multiplicadores de bombas que pueden llegar hasta 100x. La estrategia (si se puede llamar así en una slot) es usar la función de compra de bonus cuando tu bankroll lo permite — en FRESH cuesta 100x tu apuesta base, o sea $20 con apuesta de $0.20. Es caro pero te lleva directo a los giros gratis donde están los premios grandes. Gates of Olympus funciona similar pero con tema griego y multiplicadores de Zeus. Big Bass Bonanza tiene una mecánica diferente: pescas peces con valores en dólares y el pescador dorado multiplica todo. Los crash games son otra categoría — Aviator es el que más crece en Ecuador porque las rondas son ultra rápidas (5-30 segundos) y el concepto es simple: un avión sube, tú decides cuándo cobrar. Si cobra antes de que se estrelle, ganas. Si no... bueno.</p>
           <h4 className="text-base font-bold text-white mb-3 mt-6">Mecánicas</h4>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            {[{n:"Megaways",d:"Hasta 117.649 líneas de pago que cambian cada giro. Big Time Gaming inventó esta mecánica y la licenció a otros proveedores. Ejemplo: Gonzo's Quest Megaways, Bonanza Megaways. La cantidad de líneas hace que cada giro sea diferente."},{n:"Hold & Spin",d:"Símbolos especiales se quedan fijos en su posición mientras el resto del tablero gira de nuevo. Muy popular en slots con tema de monedas o joyas. Lightning Link de Aristocrat popularizó esta mecánica."},{n:"Cluster Pays",d:"No hay líneas de pago. Ganas formando grupos de 5+ símbolos iguales que se tocan entre sí. Reactoonz de Play'n GO es el ejemplo perfecto. Los clusters grandes pueden pagar premios enormes."},{n:"Cascading Reels",d:"Los símbolos ganadores desaparecen y caen nuevos desde arriba, generando posibles cadenas de premios en un solo giro. Sweet Bonanza y Gates of Olympus usan esto — un solo giro puede generar 5-10 cascadas seguidas con multiplicadores que se acumulan."}].map((m)=>(
+            {[{n:"Megaways",d:"Hasta 117.649 líneas de pago que cambian cada giro. Big Time Gaming inventó esta mecánica y la licenció a otros proveedores. Ejemplo: Gonzo's Quest Megaways, Bonanza Megaways. La cantidad de líneas hace que cada giro sea diferente."},{n:"Hold & Spin",d:"Símbolos especiales se quedan fijos en su posición mientras el resto del tablero gira de nuevo. Muy popular en slots con tema de monedas o joyas. Lightning Link de Aristocrat popularizó esta mecánica."},{n:"Cluster Pays",d:"No hay líneas de pago. Ganas formando grupos de 5+ símbolos iguales que se tocan entre sí. Reactoonz de Play&apos;n GO es el ejemplo perfecto. Los clusters grandes pueden pagar premios enormes."},{n:"Cascading Reels",d:"Los símbolos ganadores desaparecen y caen nuevos desde arriba, generando posibles cadenas de premios en un solo giro. Sweet Bonanza y Gates of Olympus usan esto — un solo giro puede generar 5-10 cascadas seguidas con multiplicadores que se acumulan."}].map((m)=>(
               <div key={m.n} className="rounded-xl bg-[#141414] border border-white/[0.06] p-5"><p className="text-white font-bold mb-1">{m.n}</p><p className="text-[#9ca3af] text-sm">{m.d}</p></div>
             ))}
           </div>
@@ -976,7 +1020,7 @@ export default function MejoresCasinosOnlineEcuador() {
             {n:"Pragmatic Play",d:"Sweet Bonanza, Gates of Olympus, Big Bass Bonanza. Dominan las slots con 300+ títulos. RTP 94-96.5%. También casino en vivo. Probamos Sweet Bonanza con apuestas de $0.20 a $1.00 y es de ley la slot más entretenida del catálogo — los cascading reels con multiplicadores de bombas pueden transformar un giro muerto en un premio gordo. Gates of Olympus tiene una mecánica parecida pero con tema griego y multiplicadores de Zeus. Big Bass Bonanza es otra cosa: pescas peces con valor en dólares y el pescador dorado te puede dar premios de 50x+. Pragmatic también tiene casino en vivo con mesas de ruleta y blackjack que compiten directamente con Evolution, aunque la variedad es menor."},
             {n:"NetEnt",d:"Starburst, Gonzo's Quest, Blood Suckers (98% RTP). Clásicos con gráficos pulidos y RTPs altos. Blood Suckers es el santo grial para los que quieren maximizar RTP — con 98%, es de las slots que más devuelven al jugador. Starburst es simple pero efectiva: colores, expansiones y giros rápidos. Gonzo's Quest fue la primera slot con cascading reels (antes de que Pragmatic lo hiciera famoso con Sweet Bonanza). Para jugadores ecuatorianos que buscan RTPs altos y sesiones más estables, NetEnt es tu proveedor. Los encontramos en FRESH, SOL y STARDA sin problema."},
             {n:"Microgaming",d:"Pioneros desde 1994. Mega Moolah tiene el récord del jackpot online: más de 20 millones de euros en un solo giro. Tienen más de 800 títulos pero seamos honestos, muchos están desactualizados y se sienten viejos. Lo que brilla es la red de jackpots progresivos — cada apuesta de cualquier jugador en el mundo suma al pozo. Si buscas la posibilidad de pegar un premio que te cambie la vida, Mega Moolah de Microgaming es donde eso puede pasar. Disponible en FRESH y SOL."},
-            {n:"Play'n GO",d:"Book of Dead, Reactoonz, Moon Princess. Slots temáticas de alta calidad. Book of Dead es básicamente la versión de Play'n GO de Book of Ra — tema egipcio, símbolo que se expande en los giros gratis, volatilidad alta. Reactoonz es diferente: cluster pays con personajes alienígenas que pueden desencadenar reacciones en cadena brutales. Moon Princess tiene una mecánica de grupo tipo sailor moon que engancha. Lo que nos gusta de Play'n GO es la consistencia — rara vez hacen un juego malo. Probamos Reactoonz 2 en STARDA con $0.40 y en 50 giros tuvimos dos reacciones en cadena que pagaron $12 y $18 respectivamente."},
+            {n:"Play&apos;n GO",d:"Book of Dead, Reactoonz, Moon Princess. Slots temáticas de alta calidad. Book of Dead es básicamente la versión de Play&apos;n GO de Book of Ra — tema egipcio, símbolo que se expande en los giros gratis, volatilidad alta. Reactoonz es diferente: cluster pays con personajes alienígenas que pueden desencadenar reacciones en cadena brutales. Moon Princess tiene una mecánica de grupo tipo sailor moon que engancha. Lo que nos gusta de Play&apos;n GO es la consistencia — rara vez hacen un juego malo. Probamos Reactoonz 2 en STARDA con $0.40 y en 50 giros tuvimos dos reacciones en cadena que pagaron $12 y $18 respectivamente."},
             {n:"Red Tiger",d:"Daily Drop Jackpots que caen sí o sí antes de las 23:59. Ese concepto es chévere porque sabes que alguien se lo lleva hoy — la pregunta es si eres tú. Tienen un contador visible que muestra cuánto falta y cuánto vale el premio. Probamos jugar sus slots entre las 23:00 y 23:59 (cuando el jackpot TIENE que caer) y la tensión es real. No nos tocó a nosotros, pero la idea de que estadísticamente el premio cae más fácil cerca del cierre le agrega emoción. Además de los jackpots, sus slots regulares son sólidas: buen RTP, gráficos modernos y mecánicas variadas. Disponibles en FRESH y SOL."},
             {n:"Hacksaw Gaming",d:"Favoritos de streamers. Volatilidad extrema: Wanted Dead or a Wild, Chaos Crew, Hand of Anubis. Cuando pegan, pegan fuerte. Hacksaw no es para todos — puedes pasar 200 giros sin ganar nada significativo y de repente un bonus round te paga 500x tu apuesta. Probamos Wanted Dead or a Wild en FRESH con $0.20 por giro. En 150 giros, 120 fueron completamente secos. Después cayó un duelo entre el sheriff y el bandido que pagó $34 (170x). Así es Hacksaw: paciencia o nada. Si tu bankroll es chico, mejor ve a Pragmatic. Si puedes aguantar rachas largas sin premio, Hacksaw puede darte los mejores momentos de tu vida en un casino online."},
           ].map((p)=>(<div key={p.n}><h3 className="text-lg font-bold text-white mb-2">{p.n}</h3><p className="text-[#9ca3af] leading-relaxed">{p.d}</p></div>))}
@@ -984,7 +1028,7 @@ export default function MejoresCasinosOnlineEcuador() {
         <div className="overflow-x-auto rounded-2xl border border-white/[0.06] mt-10">
           <table className="w-full text-left text-sm"><thead><tr className="bg-[#141414] text-[#71717a] uppercase text-xs tracking-wider"><th className="px-4 py-3 font-bold">Proveedor</th><th className="px-4 py-3 font-bold">Especialidad</th><th className="px-4 py-3 font-bold hidden sm:table-cell">RTP</th><th className="px-4 py-3 font-bold hidden md:table-cell">Hits</th></tr></thead>
             <tbody className="text-[#d4d4d8]">
-              {[["Evolution","Casino en vivo","97-99%","Crazy Time"],["Pragmatic Play","Slots virales","94-96.5%","Sweet Bonanza"],["NetEnt","Slots clásicas","95-98%","Blood Suckers"],["Microgaming","Jackpots","92-96.5%","Mega Moolah"],["Play'n GO","Slots temáticas","94-96.5%","Book of Dead"],["Red Tiger","Jackpots diarios","94-96%","Daily Drop"],["Hacksaw","Alta volatilidad","94-96.5%","Wanted Dead or a Wild"]].map(([n,s,r,g])=>(
+              {[["Evolution","Casino en vivo","97-99%","Crazy Time"],["Pragmatic Play","Slots virales","94-96.5%","Sweet Bonanza"],["NetEnt","Slots clásicas","95-98%","Blood Suckers"],["Microgaming","Jackpots","92-96.5%","Mega Moolah"],["Play&apos;n GO","Slots temáticas","94-96.5%","Book of Dead"],["Red Tiger","Jackpots diarios","94-96%","Daily Drop"],["Hacksaw","Alta volatilidad","94-96.5%","Wanted Dead or a Wild"]].map(([n,s,r,g])=>(
                 <tr key={n} className="border-t border-white/[0.04] hover:bg-white/[0.02]"><td className="px-4 py-3 font-bold text-white">{n}</td><td className="px-4 py-3">{s}</td><td className="px-4 py-3 text-[#22c55e] font-bold hidden sm:table-cell">{r}</td><td className="px-4 py-3 hidden md:table-cell">{g}</td></tr>
               ))}
             </tbody>

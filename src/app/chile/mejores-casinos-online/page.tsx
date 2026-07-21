@@ -14,15 +14,15 @@ export const metadata: Metadata = {
 const chileCasinos = [
   { rank: 1, name: "Betsson", slug: "betsson-chile", bonus: "Hasta $400.000 + 200 Giros Gratis", rating: 9.5, license: "Internacional", games: "2 500+", highlight: true },
   { rank: 2, name: "PIN-UP Casino", slug: "pinup", bonus: "120% hasta $5.000.000 CLP + 250 giros gratis", rating: 9.4, license: "Curaçao", games: "10 000+", highlight: false, badge: "🔥 TOP" },
-  { rank: 3, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 8.9, license: "Curaçao", games: "4 500+", highlight: false },
-  { rank: 4, name: "SOL Casino", slug: "sol-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.1, license: "Kahnawake", games: "4 000+", highlight: false },
-  { rank: 5, name: "STARDA Casino", slug: "starda-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.3, license: "Curaçao", games: "3 800+", highlight: false },
-  { rank: 6, name: "MONRO Casino", slug: "monro-casino", bonus: "150% en tu primer depósito", rating: 9.0, license: "Curaçao", games: "3 500+", highlight: false },
-  { rank: 7, name: "JackpotCity", slug: "jackpotcity-chile", bonus: "Hasta $1.008.000 CLP + 200 Giros Gratis", rating: 9.2, license: "Internacional", games: "2 000+", highlight: false },
-  { rank: 8, name: "Gaming Club", slug: "gamingclub-chile", bonus: "100% hasta $200 + 150% hasta $150", rating: 8.5, license: "Internacional", games: "1 200+", highlight: false },
-  { rank: 9, name: "Bet365", slug: "bet365", bonus: "100% bono de bienvenida", rating: 8.8, license: "Internacional", games: "1 800+", highlight: false },
-  { rank: 10, name: "Stake", slug: "stake", bonus: "Bono primer depósito + giros", rating: 8.7, license: "Internacional", games: "3 000+", highlight: false },
-  { rank: 11, name: "1xBet", slug: "1xbet", bonus: "100% primer depósito hasta $300", rating: 8.6, license: "Internacional", games: "5 000+", highlight: false },
+  { rank: 3, name: "1xBet", slug: "1xbet", bonus: "Paquete hasta $2.275 USD + 150 giros gratis", rating: 9.3, license: "Internacional", games: "5 000+", highlight: false },
+  { rank: 4, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 8.9, license: "Curaçao", games: "4 500+", highlight: false },
+  { rank: 5, name: "SOL Casino", slug: "sol-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.1, license: "Kahnawake", games: "4 000+", highlight: false },
+  { rank: 6, name: "STARDA Casino", slug: "starda-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.3, license: "Curaçao", games: "3 800+", highlight: false },
+  { rank: 7, name: "MONRO Casino", slug: "monro-casino", bonus: "150% en tu primer depósito", rating: 9.0, license: "Curaçao", games: "3 500+", highlight: false },
+  { rank: 8, name: "JackpotCity", slug: "jackpotcity-chile", bonus: "Hasta $1.008.000 CLP + 200 Giros Gratis", rating: 9.2, license: "Internacional", games: "2 000+", highlight: false },
+  { rank: 9, name: "Gaming Club", slug: "gamingclub-chile", bonus: "100% hasta $200 + 150% hasta $150", rating: 8.5, license: "Internacional", games: "1 200+", highlight: false },
+  { rank: 10, name: "Bet365", slug: "bet365", bonus: "100% bono de bienvenida", rating: 8.8, license: "Internacional", games: "1 800+", highlight: false },
+  { rank: 11, name: "Stake", slug: "stake", bonus: "Bono primer depósito + giros", rating: 8.7, license: "Internacional", games: "3 000+", highlight: false },
   { rank: 12, name: "Betway", slug: "betway", bonus: "100% bono de bienvenida", rating: 8.5, license: "Internacional", games: "1 500+", highlight: false },
   { rank: 13, name: "Betano", slug: "betano", bonus: "Giros gratis sin depósito", rating: 8.4, license: "Internacional", games: "2 000+", highlight: false },
   { rank: 14, name: "20Bet", slug: "20bet", bonus: "100% hasta $120 + 120 giros", rating: 8.3, license: "Curaçao", games: "3 000+", highlight: false },
@@ -503,7 +503,7 @@ export default function MejoresCasinosOnlineChile() {
           <p className="text-[#9ca3af] leading-relaxed mb-3">
             Partamos por lo bacán: PIN-UP tiene <strong className="text-white">más de 10.000 juegos</strong>.
             Y no es choreo: los contamos y están ahí. Para comparar, FRESH tiene 4.500 (que ya es un montón).
-            Acá vas a encontrar todo: Hacksaw, Nolimit City, Pragmatic, NetEnt, Evolution, Play'n GO, y
+            Acá vas a encontrar todo: Hacksaw, Nolimit City, Pragmatic, NetEnt, Evolution, Play&apos;n GO, y
             varios proveedores raros que no tienen otros casinos chilenos.
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-3">
@@ -554,10 +554,61 @@ export default function MejoresCasinosOnlineChile() {
           <CtaButton slug="pinup" text="Probar PIN-UP Casino" />
         </div>
 
+        {/* ── 1xBet ── */}
+        <div className="mb-16">
+          <div className="flex flex-wrap items-center gap-4 mb-2">
+            <h3 className="text-2xl sm:text-3xl font-black text-white">3. 1xBet</h3>
+            <span className="text-[#22c55e] font-black text-xl">9.3/10</span>
+          </div>
+          <div className="h-1 w-24 bg-gradient-to-r from-[#e11d48] to-transparent rounded mb-6" />
+
+          <h4 className="text-lg font-bold text-white mb-3">Todo en una sola cuenta: casino, deportes y cripto</h4>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            Lo que más nos gustó de 1xBet es que es una navaja suiza: <strong className="text-white">casino,
+            apuestas deportivas y pagos con cripto</strong> en la misma cuenta. Si eris de los que ve el partido
+            de la U o del Colo y le tira unas lucas, y después se pasa a los slots, acá no andai saltando entre
+            plataformas. Todo queda en un solo saldo, y eso en el día a día se agradece caleta.
+          </p>
+
+          <h4 className="text-lg font-bold text-white mb-3">+5.000 juegos y una app que anda al tiro</h4>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            El catálogo es gigante: <strong className="text-white">más de 5.000 juegos</strong>, con todos los
+            Pragmatic, Hacksaw y Evolution que cachai de los streams, más proveedores que no vimos en ningún otro
+            casino del ranking chileno. Probamos la <strong className="text-white">app móvil</strong> con 4G de
+            Entel y carga rapidísimo, más ordenada que la web (que, seamos honestos, está tapada de banners y al
+            principio marea). Si jugai desde el celu, andá directo a la app.
+          </p>
+
+          <h4 className="text-lg font-bold text-white mb-3">Paquete de bienvenida: hasta $2.275 USD + 150 giros</h4>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            El bono de casino se reparte en los <strong className="text-white">primeros 4 depósitos</strong> y
+            llega hasta $2.275 USD más 150 giros gratis. Es harta plata, pero la condición es cuática: rollover
+            x25 con 7 días de plazo. Nuestro consejo honesto: aprovechá el primer tramo del bono y no te
+            obsesiones con completar el paquete entero si no jugai seguido. La cripto (BTC, USDT y más) funciona
+            impecable para depositar y retirar sin pasar por el banco.
+          </p>
+
+          <ProsCons
+            pros={[
+              "+5.000 juegos — de los catálogos más grandes disponibles en Chile",
+              "Paquete de bienvenida hasta $2.275 USD + 150 giros gratis",
+              "Casino + apuestas deportivas en una sola cuenta y un solo saldo",
+              "Acepta cripto (BTC, USDT) para depósitos y retiros rápidos",
+              "App móvil rápida y más ordenada que la versión web",
+            ]}
+            cons={[
+              "Rollover x25 en 7 días — exigente si jugai casual",
+              "La web está recargada de promos y banners",
+              "Sin regulación chilena específica (licencia internacional)",
+            ]}
+          />
+          <CtaButton slug="1xbet" text="Probar 1xBet" />
+        </div>
+
         {/* ── FRESH ── */}
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-white">3. FRESH Casino</h3>
+            <h3 className="text-2xl sm:text-3xl font-black text-white">4. FRESH Casino</h3>
             <span className="text-[#22c55e] font-black text-xl">8.9/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#e11d48] to-transparent rounded mb-6" />
@@ -599,7 +650,7 @@ export default function MejoresCasinosOnlineChile() {
         {/* ── SOL ── */}
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-white">4. SOL Casino</h3>
+            <h3 className="text-2xl sm:text-3xl font-black text-white">5. SOL Casino</h3>
             <span className="text-[#22c55e] font-black text-xl">9.1/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#e11d48] to-transparent rounded mb-6" />
@@ -641,7 +692,7 @@ export default function MejoresCasinosOnlineChile() {
         {/* ── MONRO ── */}
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-white">6. MONRO Casino</h3>
+            <h3 className="text-2xl sm:text-3xl font-black text-white">7. MONRO Casino</h3>
             <span className="text-[#22c55e] font-black text-xl">9.0/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#e11d48] to-transparent rounded mb-6" />
@@ -677,7 +728,7 @@ export default function MejoresCasinosOnlineChile() {
         {/* ── STARDA ── */}
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-white">5. STARDA Casino</h3>
+            <h3 className="text-2xl sm:text-3xl font-black text-white">6. STARDA Casino</h3>
             <span className="text-[#22c55e] font-black text-xl">8.9/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#e11d48] to-transparent rounded mb-6" />
@@ -1004,7 +1055,7 @@ export default function MejoresCasinosOnlineChile() {
             {n:"Pragmatic Play",d:"Sweet Bonanza, Gates of Olympus, Big Bass Bonanza — estas tres slots dominan el mercado chileno y las tres son de Pragmatic Play. Tienen más de 300 títulos con RTPs entre 94-96.5%. Probamos Sweet Bonanza en FRESH y en SOL: misma slot, mismo RTP, misma experiencia. Gates of Olympus nos dio un x150 en STARDA que nos dejó pa' arriba toda la noche. Pragmatic también tiene casino en vivo que cada año mejora más — sus mesas de Mega Roulette y Sweet Bonanza Candyland compiten directamente con Evolution y ya no se quedan atrás. Si solo vas a conocer un proveedor de slots, que sea este."},
             {n:"NetEnt",d:"Starburst, Gonzo's Quest, Blood Suckers (98% RTP) — estos son los clásicos que todo el mundo conoce. NetEnt fue el proveedor que básicamente inventó las slots online modernas. Sus RTPs son de los más altos de la industria (95-98%), los gráficos son impecables y la experiencia en móvil es perfecta. Probamos Blood Suckers en FRESH con 200 giros y el retorno fue del 97.2%, súper cerca del RTP teórico. Starburst es la slot más jugada de la historia y sigue siendo adictiva después de tantos años. Si buscas calidad sobre cantidad, gráficos limpios y RTPs altos, NetEnt es lo más seguro que hay."},
             {n:"Microgaming",d:"Los pioneros. Llevan desde 1994, prácticamente inventaron el casino online. Mega Moolah tiene el récord del jackpot progresivo más grande pagado online: más de 20 millones de euros a un solo jugador. Tienen más de 800 títulos, y la verdad es que la calidad varía harto — tienen slots increíbles y otras que parecen de 2005. Pero los hits son legendarios: Immortal Romance, Thunderstruck II, Mega Moolah. Probamos Immortal Romance en SOL y la mecánica de bonus que se desbloquea progresivamente sigue siendo una de las mejores ideas en slots. Si te gustan los jackpots progresivos, Microgaming es tu proveedor."},
-            {n:"Play'n GO",d:"Book of Dead, Reactoonz, Moon Princess — cada slot de Play'n GO se siente completamente diferente a la otra. Tienen RTPs entre 94-96.5% y una variedad de mecánicas que impresiona. Book of Dead es básicamente el Book of Ra moderno y sigue siendo de las más jugadas en Chile. Reactoonz con su mecánica Cluster Pays es adictiva — probamos 100 giros en FRESH y la función de Gargantoon nos salvó la sesión con un x42. Moon Princess tiene una mecánica de bonus progresivo que se siente fresca. Lo que más nos gusta de Play'n GO es que cada slot tiene una personalidad propia, no se siente como si hubieran copiado y pegado la misma plantilla 300 veces."},
+            {n:"Play&apos;n GO",d:"Book of Dead, Reactoonz, Moon Princess — cada slot de Play&apos;n GO se siente completamente diferente a la otra. Tienen RTPs entre 94-96.5% y una variedad de mecánicas que impresiona. Book of Dead es básicamente el Book of Ra moderno y sigue siendo de las más jugadas en Chile. Reactoonz con su mecánica Cluster Pays es adictiva — probamos 100 giros en FRESH y la función de Gargantoon nos salvó la sesión con un x42. Moon Princess tiene una mecánica de bonus progresivo que se siente fresca. Lo que más nos gusta de Play&apos;n GO es que cada slot tiene una personalidad propia, no se siente como si hubieran copiado y pegado la misma plantilla 300 veces."},
             {n:"Red Tiger",d:"Los Daily Drop Jackpots son el concepto más bacán de Red Tiger. Funciona así: hay un premio que TIENE que caer antes de las 23:59 de ese día. Mientras más avanza el día sin que caiga, más grande se hace y más gente juega. Es como un Aviator pero en formato slot. Probamos jugar Dragon's Luck de Red Tiger a las 11pm cuando el jackpot diario ya estaba abultado — no lo ganamos, pero la emoción de saber que va a caer en la próxima hora le da otra energía a la sesión. Sus slots en general tienen gráficos sólidos y RTPs decentes (94-96%). No son los más conocidos, pero son de los más innovadores."},
             {n:"Hacksaw Gaming",d:"Si ves streams de slots en Kick o Twitch, el 70% del tiempo están jugando Hacksaw. Volatilidad extrema: Wanted Dead or a Wild, Chaos Crew, Le Bandit, Itero — cuando pegan, pegan multiplicadores de x5.000 o más. Pero también puedes pasar 200 giros sin ver un bonus. No son para todos. Probamos Wanted Dead or a Wild en STARDA con $0.20 por giro, 150 giros, y no entramos al bonus ni una vez. Después en FRESH, con los mismos $0.20, el bonus salió al giro 47 y pagó un x86. Esa es la esencia de Hacksaw: frustración absoluta o euforia total. Si tienes paciencia y bankroll para aguantar las sequías, las recompensas pueden ser brutales."},
           ].map((p)=>(<div key={p.n}><h3 className="text-lg font-bold text-white mb-2">{p.n}</h3><p className="text-[#9ca3af] leading-relaxed">{p.d}</p></div>))}
@@ -1012,7 +1063,7 @@ export default function MejoresCasinosOnlineChile() {
         <div className="overflow-x-auto rounded-2xl border border-white/[0.06] mt-10">
           <table className="w-full text-left text-sm"><thead><tr className="bg-[#141414] text-[#71717a] uppercase text-xs tracking-wider"><th className="px-4 py-3 font-bold">Proveedor</th><th className="px-4 py-3 font-bold">Especialidad</th><th className="px-4 py-3 font-bold hidden sm:table-cell">RTP</th><th className="px-4 py-3 font-bold hidden md:table-cell">Hits</th></tr></thead>
             <tbody className="text-[#d4d4d8]">
-              {[["Evolution","Casino en vivo","97-99%","Crazy Time, Lightning Roulette"],["Pragmatic Play","Slots virales","94-96.5%","Sweet Bonanza, Gates of Olympus"],["NetEnt","Slots clásicas","95-98%","Starburst, Blood Suckers"],["Microgaming","Jackpots","92-96.5%","Mega Moolah"],["Play'n GO","Slots temáticas","94-96.5%","Book of Dead, Reactoonz"],["Red Tiger","Jackpots diarios","94-96%","Daily Drop"],["Hacksaw","Alta volatilidad","94-96.5%","Wanted Dead or a Wild"]].map(([n,s,r,g])=>(
+              {[["Evolution","Casino en vivo","97-99%","Crazy Time, Lightning Roulette"],["Pragmatic Play","Slots virales","94-96.5%","Sweet Bonanza, Gates of Olympus"],["NetEnt","Slots clásicas","95-98%","Starburst, Blood Suckers"],["Microgaming","Jackpots","92-96.5%","Mega Moolah"],["Play&apos;n GO","Slots temáticas","94-96.5%","Book of Dead, Reactoonz"],["Red Tiger","Jackpots diarios","94-96%","Daily Drop"],["Hacksaw","Alta volatilidad","94-96.5%","Wanted Dead or a Wild"]].map(([n,s,r,g])=>(
                 <tr key={n} className="border-t border-white/[0.04] hover:bg-white/[0.02]"><td className="px-4 py-3 font-bold text-white">{n}</td><td className="px-4 py-3">{s}</td><td className="px-4 py-3 text-[#22c55e] font-bold hidden sm:table-cell">{r}</td><td className="px-4 py-3 hidden md:table-cell">{g}</td></tr>
               ))}
             </tbody>

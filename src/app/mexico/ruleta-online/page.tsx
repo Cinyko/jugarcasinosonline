@@ -15,14 +15,15 @@ export const metadata: Metadata = {
 const mexicoCasinos = [
   { rank: 1, name: "Betsson", slug: "betsson-mexico", bonus: "$15,000 + 200 Giros Gratis", rating: 9.5, rouletteTables: "45+", liveRoulette: true, highlight: true, badge: "⭐ Recomendado" },
   { rank: 2, name: "PIN-UP Casino", slug: "pinup", bonus: "$100,000 MXN + 250 giros gratis", rating: 9.4, rouletteTables: "55+", liveRoulette: true, highlight: false, badge: "🔥 TOP" },
-  { rank: 3, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% + 500 giros gratis", rating: 8.9, rouletteTables: "60+", liveRoulette: true, highlight: false },
-  { rank: 4, name: "SOL Casino", slug: "sol-casino", bonus: "100% + 500 giros gratis", rating: 9.1, rouletteTables: "50+", liveRoulette: true, highlight: false },
-  { rank: 5, name: "STARDA Casino", slug: "starda-casino", bonus: "100% + 500 giros gratis", rating: 9.3, rouletteTables: "35+", liveRoulette: true, highlight: false },
-  { rank: 6, name: "MONRO Casino", slug: "monro-casino", bonus: "150% primer depósito", rating: 9.0, rouletteTables: "40+", liveRoulette: true, highlight: false },
-  { rank: 7, name: "Betway", slug: "betway-mexico", bonus: "$4,000 MXN + 50 Free Spins", rating: 9.2, rouletteTables: "25+", liveRoulette: true, highlight: false },
-  { rank: 8, name: "Caliente", slug: "caliente", bonus: "Bono bienvenida + giros", rating: 8.8, rouletteTables: "20+", liveRoulette: true, highlight: false },
-  { rank: 9, name: "Codere", slug: "codere", bonus: "100% hasta $3,000 MXN", rating: 8.7, rouletteTables: "15+", liveRoulette: true, highlight: false },
-  { rank: 10, name: "Bet365", slug: "bet365", bonus: "100% hasta $3,000 MXN", rating: 8.6, rouletteTables: "20+", liveRoulette: true, highlight: false },
+  { rank: 3, name: "1xBet", slug: "1xbet", bonus: "$40,000 MXN + 300 giros gratis", rating: 9.3, rouletteTables: "40+", liveRoulette: true, highlight: false },
+  { rank: 4, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% + 500 giros gratis", rating: 8.9, rouletteTables: "60+", liveRoulette: true, highlight: false },
+  { rank: 5, name: "SOL Casino", slug: "sol-casino", bonus: "100% + 500 giros gratis", rating: 9.1, rouletteTables: "50+", liveRoulette: true, highlight: false },
+  { rank: 6, name: "STARDA Casino", slug: "starda-casino", bonus: "100% + 500 giros gratis", rating: 9.3, rouletteTables: "35+", liveRoulette: true, highlight: false },
+  { rank: 7, name: "MONRO Casino", slug: "monro-casino", bonus: "150% primer depósito", rating: 9.0, rouletteTables: "40+", liveRoulette: true, highlight: false },
+  { rank: 8, name: "Betway", slug: "betway-mexico", bonus: "$4,000 MXN + 50 Free Spins", rating: 9.2, rouletteTables: "25+", liveRoulette: true, highlight: false },
+  { rank: 9, name: "Caliente", slug: "caliente", bonus: "Bono bienvenida + giros", rating: 8.8, rouletteTables: "20+", liveRoulette: true, highlight: false },
+  { rank: 10, name: "Codere", slug: "codere", bonus: "100% hasta $3,000 MXN", rating: 8.7, rouletteTables: "15+", liveRoulette: true, highlight: false },
+  { rank: 11, name: "Bet365", slug: "bet365", bonus: "100% hasta $3,000 MXN", rating: 8.6, rouletteTables: "20+", liveRoulette: true, highlight: false },
 ];
 
 const faqItems = [

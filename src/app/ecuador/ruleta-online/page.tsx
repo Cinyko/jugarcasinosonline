@@ -15,12 +15,12 @@ export const metadata: Metadata = {
 const ecuadorCasinos = [
   { rank: 1, name: "Betsson", slug: "betsson-latam", bonus: "¡Duplica tu depósito hasta $100!", rating: 9.5, rouletteTables: "45+", liveRoulette: true, highlight: true, badge: "⭐ Recomendado" },
   { rank: 2, name: "PIN-UP Casino", slug: "pinup", bonus: "120% primer depósito + 250 giros gratis", rating: 9.4, rouletteTables: "55+", liveRoulette: true, highlight: false, badge: "🔥 TOP" },
-  { rank: 3, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% + 500 giros gratis", rating: 8.9, rouletteTables: "60+", liveRoulette: true, highlight: false },
-  { rank: 4, name: "SOL Casino", slug: "sol-casino", bonus: "100% + 500 giros gratis", rating: 9.1, rouletteTables: "50+", liveRoulette: true, highlight: false },
-  { rank: 5, name: "STARDA Casino", slug: "starda-casino", bonus: "100% + 500 giros gratis", rating: 9.3, rouletteTables: "35+", liveRoulette: true, highlight: false },
-  { rank: 6, name: "MONRO Casino", slug: "monro-casino", bonus: "150% primer depósito", rating: 9.0, rouletteTables: "40+", liveRoulette: true, highlight: false },
-  { rank: 7, name: "Bet365", slug: "bet365", bonus: "100% bono bienvenida", rating: 8.8, rouletteTables: "20+", liveRoulette: true, highlight: false },
-  { rank: 8, name: "1xBet", slug: "1xbet", bonus: "100% hasta $300", rating: 8.7, rouletteTables: "25+", liveRoulette: true, highlight: false },
+  { rank: 3, name: "1xBet", slug: "1xbet", bonus: "Paquete hasta $2,275 + 150 giros", rating: 9.3, rouletteTables: "40+", liveRoulette: true, highlight: false },
+  { rank: 4, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% + 500 giros gratis", rating: 8.9, rouletteTables: "60+", liveRoulette: true, highlight: false },
+  { rank: 5, name: "SOL Casino", slug: "sol-casino", bonus: "100% + 500 giros gratis", rating: 9.1, rouletteTables: "50+", liveRoulette: true, highlight: false },
+  { rank: 6, name: "STARDA Casino", slug: "starda-casino", bonus: "100% + 500 giros gratis", rating: 9.3, rouletteTables: "35+", liveRoulette: true, highlight: false },
+  { rank: 7, name: "MONRO Casino", slug: "monro-casino", bonus: "150% primer depósito", rating: 9.0, rouletteTables: "40+", liveRoulette: true, highlight: false },
+  { rank: 8, name: "Bet365", slug: "bet365", bonus: "100% bono bienvenida", rating: 8.8, rouletteTables: "20+", liveRoulette: true, highlight: false },
   { rank: 9, name: "Stake", slug: "stake", bonus: "Bono primer depósito", rating: 8.6, rouletteTables: "30+", liveRoulette: true, highlight: false },
 ];
 
@@ -405,7 +405,7 @@ export default function RuletaOnlineEcuador() {
             </div>
             <div>
               <h4 className="text-lg font-bold text-white mb-2">1xBet <span className="text-[#22c55e] text-sm font-black">8.7/10</span></h4>
-              <p className="text-[#9ca3af] leading-relaxed mb-2">25+ mesas de ruleta con una variedad de proveedores que incluye algunos raros como Ezugi, SA Gaming y Asia Gaming. Si te gusta experimentar con variantes de ruleta que no encuentras en otros casinos, 1xBet te va a dar opciones. El problema es la interfaz: encontrar la mesa que quieres entre tanta opción puede ser un dolor de cabeza. El bono de 100% hasta $300 es generoso para inflar tu bankroll de ruleta.</p>
+              <p className="text-[#9ca3af] leading-relaxed mb-2">25+ mesas de ruleta con una variedad de proveedores que incluye algunos raros como Ezugi, SA Gaming y Asia Gaming. Si te gusta experimentar con variantes de ruleta que no encuentras en otros casinos, 1xBet te va a dar opciones. El problema es la interfaz: encontrar la mesa que quieres entre tanta opción puede ser un dolor de cabeza. El paquete de bienvenida de hasta $2,275 + 150 giros (en 4 depósitos) da bastante margen para inflar tu bankroll de ruleta, aunque ojo con el rollover x25.</p>
               <p className="text-[#9ca3af] leading-relaxed">Para Ecuador, 1xBet acepta más métodos de pago que cualquier otro casino. Si tu tarjeta de Pichincha no pasa en Betsson o FRESH, en 1xBet probablemente encuentres una alternativa que funcione.</p>
             </div>
             <div>

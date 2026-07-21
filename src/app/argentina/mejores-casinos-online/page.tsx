@@ -13,14 +13,14 @@ export const metadata: Metadata = {
 
 const argCasinos = [
   { rank: 1, name: "Betsson", slug: "betsson-argentina", bonus: "Hasta $350.000 + 200 Giros Gratis como Bono de Bienvenida", rating: 9.5, license: "LOTBA", games: "2 500+", highlight: true },
-  { rank: 2, name: "STARDA Casino", slug: "starda-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.3, license: "Curaçao", games: "3 800+", highlight: false },
-  { rank: 3, name: "SOL Casino", slug: "sol-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.1, license: "Curaçao", games: "4 000+", highlight: false },
-  { rank: 4, name: "MONRO Casino", slug: "monro-casino", bonus: "150% en tu primer depósito", rating: 9.0, license: "Curaçao", games: "3 500+", highlight: false },
-  { rank: 5, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 8.9, license: "Curaçao", games: "4 500+", highlight: false },
-  { rank: 6, name: "Stake", slug: "stake", bonus: "Bono primer depósito + giros gratis", rating: 8.8, license: "Internacional", games: "3 000+", highlight: false },
-  { rank: 7, name: "Bet365", slug: "bet365", bonus: "100% hasta ARS", rating: 8.7, license: "LOTBA", games: "1 800+", highlight: false },
-  { rank: 8, name: "Codere", slug: "codere", bonus: "Bono de bienvenida + giros", rating: 8.6, license: "LOTBA", games: "1 500+", highlight: false },
-  { rank: 9, name: "1xBet", slug: "1xbet", bonus: "100% primer depósito hasta $300", rating: 8.5, license: "Internacional", games: "5 000+", highlight: false },
+  { rank: 2, name: "1xBet", slug: "1xbet", bonus: "Paquete hasta $2.275 + 150 giros gratis", rating: 9.3, license: "Internacional", games: "5 000+", highlight: false },
+  { rank: 3, name: "STARDA Casino", slug: "starda-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.3, license: "Curaçao", games: "3 800+", highlight: false },
+  { rank: 4, name: "SOL Casino", slug: "sol-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.1, license: "Curaçao", games: "4 000+", highlight: false },
+  { rank: 5, name: "MONRO Casino", slug: "monro-casino", bonus: "150% en tu primer depósito", rating: 9.0, license: "Curaçao", games: "3 500+", highlight: false },
+  { rank: 6, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 8.9, license: "Curaçao", games: "4 500+", highlight: false },
+  { rank: 7, name: "Stake", slug: "stake", bonus: "Bono primer depósito + giros gratis", rating: 8.8, license: "Internacional", games: "3 000+", highlight: false },
+  { rank: 8, name: "Bet365", slug: "bet365", bonus: "100% hasta ARS", rating: 8.7, license: "LOTBA", games: "1 800+", highlight: false },
+  { rank: 9, name: "Codere", slug: "codere", bonus: "Bono de bienvenida + giros", rating: 8.6, license: "LOTBA", games: "1 500+", highlight: false },
   { rank: 10, name: "Betway", slug: "betway", bonus: "100% bono de bienvenida", rating: 8.4, license: "Internacional", games: "1 500+", highlight: false },
   { rank: 11, name: "Betano", slug: "betano", bonus: "Giros gratis sin depósito", rating: 8.3, license: "LOTBA", games: "2 000+", highlight: false },
   { rank: 12, name: "Bplay", slug: "bplay", bonus: "100% primer depósito + giros gratis", rating: 8.2, license: "Provincial", games: "800+", highlight: false },
@@ -514,11 +514,66 @@ export default function MejoresCasinosOnlineArgentina() {
           <CtaButton slug="betsson-argentina" text="Probar Betsson" />
         </div>
 
+        {/* ── 1xBet ── */}
+        <div className="mb-16">
+          <div className="flex flex-wrap items-center gap-4 mb-2">
+            <h3 className="text-2xl sm:text-3xl font-black text-white">2. 1xBet</h3>
+            <span className="text-[#22c55e] font-black text-xl">9.3/10</span>
+          </div>
+          <div className="h-1 w-24 bg-gradient-to-r from-[#38bdf8] to-transparent rounded mb-6" />
+
+          <h4 className="text-lg font-bold text-white mb-3">El catálogo más grande del ranking: +5.000 juegos</h4>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            Arranquemos por el número que importa: 1xBet tiene <strong className="text-white">más de 5.000
+            juegos</strong>. Ni FRESH, que ya es enorme, le llega. Nos pasamos una tarde entera buscando títulos
+            raros (esos slots turcos y asiáticos que no aparecen en ningún lado) y estaban. Es el típico casino
+            donde entrás a jugar una cosa y terminás descubriendo tres proveedores que no conocías.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            ¿La contra de tanto volumen? La interfaz. La página está recargada de banners y promos por todos
+            lados, y hasta que le agarrás la mano te sentís en una feria. No es un drama, pero al lado de la
+            prolijidad de Betsson se nota... y bueno, es el estilo de la casa.
+          </p>
+
+          <h4 className="text-lg font-bold text-white mb-3">Cripto sin vueltas (clave con el cepo)</h4>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            Para el jugador argentino esto es un golazo: 1xBet acepta <strong className="text-white">BTC, USDT,
+            ETH y una lista de cripto larguísima</strong>. Depositamos USDT un miércoles a la noche y en 15
+            minutos estaba el saldo; el retiro, también en USDT, tardó menos de una hora. Sin bancos, sin cepo,
+            sin quilombo. Y si preferís lo tradicional, también hay opciones locales.
+          </p>
+
+          <h4 className="text-lg font-bold text-white mb-3">Bono, deportes y app</h4>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            El paquete de bienvenida de casino llega <strong className="text-white">hasta $2.275 + 150 giros
+            gratis</strong>, repartido en los primeros 4 depósitos. Ojo con la letra chica: rollover x25 y 7 días
+            de plazo, así que jugalo con cabeza. Aparte tenés las apuestas deportivas integradas (con cuotas que
+            suelen estar entre las mejores para el fútbol argentino) y una app móvil que anda fluida en cualquier
+            celular, hasta en uno viejito.
+          </p>
+
+          <ProsCons
+            pros={[
+              "+5.000 juegos, el catálogo más grande de todo el ranking",
+              "Acepta cripto (BTC, USDT, ETH y más) — ideal con el cepo",
+              "Paquete de bienvenida hasta $2.275 + 150 giros gratis",
+              "Casino y apuestas deportivas en una sola cuenta",
+              "App móvil liviana que funciona bien en celulares modestos",
+            ]}
+            cons={[
+              "Rollover x25 en 7 días — jugalo con cabeza o andá solo al primer depósito",
+              "Interfaz recargada de promos, mareante al principio",
+              "Sin licencia argentina local (opera con licencia internacional)",
+            ]}
+          />
+          <CtaButton slug="1xbet" text="Probar 1xBet" />
+        </div>
+
         {/* ── FRESH Casino ── */}
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-white">2. FRESH Casino</h3>
-            <span className="text-[#22c55e] font-black text-xl">9.3/10</span>
+            <h3 className="text-2xl sm:text-3xl font-black text-white">6. FRESH Casino</h3>
+            <span className="text-[#22c55e] font-black text-xl">8.9/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#38bdf8] to-transparent rounded mb-6" />
 
@@ -583,7 +638,7 @@ export default function MejoresCasinosOnlineArgentina() {
         {/* ── SOL Casino ── */}
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-white">3. SOL Casino</h3>
+            <h3 className="text-2xl sm:text-3xl font-black text-white">4. SOL Casino</h3>
             <span className="text-[#22c55e] font-black text-xl">9.1/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#38bdf8] to-transparent rounded mb-6" />
@@ -640,7 +695,7 @@ export default function MejoresCasinosOnlineArgentina() {
         {/* ── MONRO Casino ── */}
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-white">4. MONRO Casino</h3>
+            <h3 className="text-2xl sm:text-3xl font-black text-white">5. MONRO Casino</h3>
             <span className="text-[#22c55e] font-black text-xl">9.0/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#38bdf8] to-transparent rounded mb-6" />
@@ -696,9 +751,9 @@ export default function MejoresCasinosOnlineArgentina() {
         {/* ── STARDA Casino ── */}
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-white">5. STARDA Casino</h3>
+            <h3 className="text-2xl sm:text-3xl font-black text-white">3. STARDA Casino</h3>
             <span className="bg-[#f43f5e] text-white text-xs font-black px-3 py-1 rounded-full uppercase">&#128293; TOP</span>
-            <span className="text-[#22c55e] font-black text-xl">8.9/10</span>
+            <span className="text-[#22c55e] font-black text-xl">9.3/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#f43f5e] to-transparent rounded mb-6" />
 
@@ -1467,7 +1522,7 @@ export default function MejoresCasinosOnlineArgentina() {
             { name: "Pragmatic Play", desc: "Sweet Bonanza, Gates of Olympus, Big Bass Bonanza — los tres juegos más populares en Argentina son de Pragmatic. Dominan el mercado de slots con más de 300 títulos y RTP entre 94% y 96.5%. Pero no son solo slots: también tienen una división de casino en vivo bastante sólida con mesas de ruleta y blackjack que van ganando terreno contra Evolution. Lo que más nos gusta es que sacan juegos nuevos casi semanalmente y las mecánicas son accesibles: no necesitás un manual para entender cómo funciona cada slot. Probamos como 30 de sus títulos en STARDA y la carga fue rápida en todos, incluso desde el celular con datos móviles." },
             { name: "NetEnt", desc: "Los clásicos. Starburst, Gonzo's Quest, Blood Suckers (98% RTP), Dead or Alive — si alguna vez jugaste en un casino online, seguro te cruzaste con un juego de NetEnt. Sus RTPs están entre los más altos de la industria (95-98%) y los gráficos siguen aguantando bien a pesar de que algunos títulos tienen años encima. Blood Suckers es nuestra recomendación si querés maximizar tu bankroll: con 98% de RTP es de los juegos que menos ventaja le dan al casino. Ahora pertenecen a Evolution (los compraron en 2020) y la integración les hizo bien porque siguen sacando títulos de calidad sin bajar el estándar." },
             { name: "Microgaming", desc: "Los pioneros del casino online desde 1994, cuando la mayoría de nosotros ni teníamos internet en casa. Mega Moolah es su joya: tiene el récord del jackpot progresivo más grande pagado online (más de 20 millones de euros). El catálogo supera los 800 títulos, aunque la calidad es variable — tienen joyas y también juegos que parecen de hace dos décadas. Nosotros los buscamos más que nada por los jackpots progresivos, que están conectados entre casinos y acumulan montos que te pueden cambiar la vida. En FRESH encontramos toda la línea de Mega Moolah sin problema." },
-            { name: "Play'n GO", desc: "Book of Dead, Reactoonz, Moon Princess, Rise of Olympus. Slots temáticas de alta calidad con mecánicas variadas y un cuidado visual que se nota. RTP va de 94% a 96.5% dependiendo del título. Lo que diferencia a Play'n GO es la profundidad de las mecánicas: cada slot tiene algo propio, no se sienten como variaciones del mismo juego. Reactoonz, por ejemplo, tiene una grilla de 7x7 con cluster pays y reacciones en cadena que pueden encadenar premios enormes. Los encontrás en prácticamente todos los casinos del ranking." },
+            { name: "Play&apos;n GO", desc: "Book of Dead, Reactoonz, Moon Princess, Rise of Olympus. Slots temáticas de alta calidad con mecánicas variadas y un cuidado visual que se nota. RTP va de 94% a 96.5% dependiendo del título. Lo que diferencia a Play&apos;n GO es la profundidad de las mecánicas: cada slot tiene algo propio, no se sienten como variaciones del mismo juego. Reactoonz, por ejemplo, tiene una grilla de 7x7 con cluster pays y reacciones en cadena que pueden encadenar premios enormes. Los encontrás en prácticamente todos los casinos del ranking." },
             { name: "Red Tiger", desc: "Su fuerte son los Daily Drop Jackpots: premios que caen sí o sí antes de las 23:59 de cada día. Cuanto más avanza el día sin que caigan, más grande se pone el premio, y eso genera una dinámica re interesante donde conviene jugar a la tarde-noche. Pertenecen a Evolution y eso les abrió las puertas a más casinos. En Betsson los encontramos integrados con un contador en vivo que muestra cuánto falta para que caiga el jackpot diario. Las slots en sí son sólidas: buena volatilidad media, gráficos prolijos y RTPs entre 94% y 96%. Los jackpots diarios son un diferencial que nadie más ofrece." },
             { name: "Hacksaw Gaming", desc: "Los favoritos de los streamers de Kick y Twitch, y con razón. Volatilidad extrema: Wanted Dead or a Wild, Chaos Crew, Le Bandit, Hand of Anubis. Cuando pegan, pegan fuerte — hablamos de multiplicadores de x10,000 o más en algunos títulos. Pero ojo: esa volatilidad extrema significa que podés pasar 200 giros sin ver nada y de repente en un solo bonus recuperar todo y más. No son para cardíacos ni para bankrolls chicos. Nosotros jugamos Wanted Dead or a Wild en STARDA durante un torneo y en 50 giros no ganamos nada, pero un tipo en la tabla de líderes sacó un x5,000 en un solo giro. Esa es la magia (y el riesgo) de Hacksaw." },
           ].map((p) => (
@@ -1483,7 +1538,7 @@ export default function MejoresCasinosOnlineArgentina() {
               <th className="px-4 py-3 font-bold">Proveedor</th><th className="px-4 py-3 font-bold">Especialidad</th><th className="px-4 py-3 font-bold hidden sm:table-cell">RTP</th><th className="px-4 py-3 font-bold hidden md:table-cell">Hits</th>
             </tr></thead>
             <tbody className="text-[#d4d4d8]">
-              {[["Evolution","Casino en vivo","97-99%","Crazy Time, Lightning Roulette"],["Pragmatic Play","Slots virales","94-96.5%","Sweet Bonanza, Gates of Olympus"],["NetEnt","Slots clásicas","95-98%","Starburst, Blood Suckers"],["Microgaming","Jackpots","92-96.5%","Mega Moolah"],["Play'n GO","Slots temáticas","94-96.5%","Book of Dead, Reactoonz"],["Red Tiger","Jackpots diarios","94-96%","Daily Drop Jackpots"],["Hacksaw","Alta volatilidad","94-96.5%","Wanted Dead or a Wild"]].map(([n,s,r,g])=>(
+              {[["Evolution","Casino en vivo","97-99%","Crazy Time, Lightning Roulette"],["Pragmatic Play","Slots virales","94-96.5%","Sweet Bonanza, Gates of Olympus"],["NetEnt","Slots clásicas","95-98%","Starburst, Blood Suckers"],["Microgaming","Jackpots","92-96.5%","Mega Moolah"],["Play&apos;n GO","Slots temáticas","94-96.5%","Book of Dead, Reactoonz"],["Red Tiger","Jackpots diarios","94-96%","Daily Drop Jackpots"],["Hacksaw","Alta volatilidad","94-96.5%","Wanted Dead or a Wild"]].map(([n,s,r,g])=>(
                 <tr key={n} className="border-t border-white/[0.04] hover:bg-white/[0.02]"><td className="px-4 py-3 font-bold text-white">{n}</td><td className="px-4 py-3">{s}</td><td className="px-4 py-3 text-[#22c55e] font-bold hidden sm:table-cell">{r}</td><td className="px-4 py-3 hidden md:table-cell">{g}</td></tr>
               ))}
             </tbody>

@@ -13,15 +13,15 @@ export const metadata: Metadata = {
 
 const peruCasinos = [
   { rank: 1, name: "Betsson", slug: "betsson-peru", bonus: "Gana 300 Giros Gratis", rating: 9.5, license: "MINCETUR", games: "2 500+", highlight: true },
-  { rank: 2, name: "STARDA Casino", slug: "starda-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.3, license: "Curaçao", games: "3 800+", highlight: false },
-  { rank: 3, name: "Inkabet", slug: "inkabet", bonus: "Hasta S/500 + 300 giros gratis", rating: 9.2, license: "MINCETUR", games: "1 500+", highlight: false },
-  { rank: 4, name: "SOL Casino", slug: "sol-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.1, license: "Curaçao", games: "4 000+", highlight: false },
-  { rank: 5, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 8.9, license: "Curaçao", games: "4 500+", highlight: false },
-  { rank: 6, name: "MONRO Casino", slug: "monro-casino", bonus: "150% en tu primer depósito", rating: 9.0, license: "Curaçao", games: "3 500+", highlight: false },
-  { rank: 7, name: "Stake", slug: "stake", bonus: "S/50 freebet + 50 giros gratis o S/50 bono casino", rating: 8.8, license: "MINCETUR", games: "3 000+", highlight: false },
-  { rank: 8, name: "Betano", slug: "betano", bonus: "60 giros gratis sin rollover", rating: 8.7, license: "MINCETUR", games: "2 000+", highlight: false },
-  { rank: 9, name: "Bet365", slug: "bet365", bonus: "100% hasta S/500 + 500 giros gratis", rating: 8.6, license: "MINCETUR", games: "1 800+", highlight: false },
-  { rank: 10, name: "1xBet", slug: "1xbet", bonus: "100% primer depósito hasta $300", rating: 8.5, license: "MINCETUR", games: "5 000+", highlight: false },
+  { rank: 2, name: "1xBet", slug: "1xbet", bonus: "Paquete hasta $2,275 + 150 giros gratis", rating: 9.3, license: "MINCETUR", games: "5 000+", highlight: false },
+  { rank: 3, name: "STARDA Casino", slug: "starda-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.3, license: "Curaçao", games: "3 800+", highlight: false },
+  { rank: 4, name: "Inkabet", slug: "inkabet", bonus: "Hasta S/500 + 300 giros gratis", rating: 9.2, license: "MINCETUR", games: "1 500+", highlight: false },
+  { rank: 5, name: "SOL Casino", slug: "sol-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.1, license: "Curaçao", games: "4 000+", highlight: false },
+  { rank: 6, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 8.9, license: "Curaçao", games: "4 500+", highlight: false },
+  { rank: 7, name: "MONRO Casino", slug: "monro-casino", bonus: "150% en tu primer depósito", rating: 9.0, license: "Curaçao", games: "3 500+", highlight: false },
+  { rank: 8, name: "Stake", slug: "stake", bonus: "S/50 freebet + 50 giros gratis o S/50 bono casino", rating: 8.8, license: "MINCETUR", games: "3 000+", highlight: false },
+  { rank: 9, name: "Betano", slug: "betano", bonus: "60 giros gratis sin rollover", rating: 8.7, license: "MINCETUR", games: "2 000+", highlight: false },
+  { rank: 10, name: "Bet365", slug: "bet365", bonus: "100% hasta S/500 + 500 giros gratis", rating: 8.6, license: "MINCETUR", games: "1 800+", highlight: false },
   { rank: 11, name: "Doradobet", slug: "doradobet", bonus: "S/50 o 50 giros gratis sin depósito", rating: 8.3, license: "MINCETUR", games: "1 500+", highlight: false },
   { rank: 12, name: "Betcris", slug: "betcris", bonus: "100% primer depósito hasta S/350", rating: 8.2, license: "MINCETUR", games: "1 000+", highlight: false },
   { rank: 13, name: "Meridianbet", slug: "meridianbet", bonus: "Hasta S/500", rating: 8.1, license: "MINCETUR", games: "1 100+", highlight: false },
@@ -602,11 +602,67 @@ export default function MejoresCasinosOnlinePeru() {
           <CtaButton slug="betsson-peru" text="Jugar en Betsson" />
         </div>
 
+        {/* ── 1xBet ── */}
+        <div className="mb-16">
+          <div className="flex flex-wrap items-center gap-4 mb-2">
+            <h3 className="text-2xl sm:text-3xl font-black text-white">2. 1xBet</h3>
+            <span className="text-[#22c55e] font-black text-xl">9.3/10</span>
+          </div>
+          <div className="h-1 w-24 bg-gradient-to-r from-[#dc2626] to-transparent rounded mb-6" />
+
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            Si le preguntas a cualquier pata que apuesta al fútbol, seguro conoce 1xBet por las cuotas. Lo que
+            no todo el mundo sabe es que detrás de la casa de apuestas hay un <strong className="text-white">casino
+            gigante con más de 5,000 juegos</strong>, el catálogo más grande de todo nuestro ranking peruano. Y
+            desde que sacaron su licencia MINCETUR, opera regulado acá, con todas las de la ley.
+          </p>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            Lo probamos a fondo un fin de semana completo y la sensación es la de un supermercado enorme: hay de
+            todo, desde los Pragmatic y Hacksaw de siempre hasta proveedores que no habíamos visto en ningún otro
+            casino del Perú. ¿El buscador? Cumple, aunque con tantísimo título a veces demora en encontrar lo que
+            buscas (usa los filtros por proveedor, es la vía rápida).
+          </p>
+
+          <h4 className="text-lg font-bold text-white mb-3">Paquete de bienvenida: hasta $2,275 + 150 giros gratis</h4>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            El bono de casino se reparte en tus <strong className="text-white">primeros 4 depósitos</strong>, y
+            sumando todo llega hasta $2,275 más 150 giros gratis. Es de los paquetes más gordos del mercado, pero
+            no te voy a mentir: el rollover es x25 con 7 días de plazo, así que si juegas casual, apunta al primer
+            depósito y ya. Mejor un bono aprovechado a medias que uno vencido completo.
+          </p>
+
+          <h4 className="text-lg font-bold text-white mb-3">Deportes, cripto y app en la misma cuenta</h4>
+          <p className="text-[#9ca3af] leading-relaxed mb-3">
+            Acá viene lo bueno para el jugador peruano: con una sola cuenta tienes casino, apuestas deportivas
+            (Liga 1 incluida, obvio), y pagos con métodos locales o <strong className="text-white">cripto</strong>
+            (BTC, USDT y una lista larguísima). Depositamos con USDT un domingo por la tarde y el saldo apareció
+            en unos 10 minutos. La <strong className="text-white">app móvil</strong> para Android e iOS va fluida
+            y pesa poco, aunque la interfaz está cargada de promos por todos lados... y bueno, es el estilo 1xBet:
+            o lo amas o te marea.
+          </p>
+
+          <ProsCons
+            pros={[
+              "Más de 5,000 juegos — el catálogo más grande del ranking peruano",
+              "Paquete de bienvenida hasta $2,275 + 150 giros en 4 depósitos",
+              "Licencia MINCETUR: opera regulado en el Perú",
+              "Casino + deportes en una cuenta, con cripto y métodos locales",
+              "App móvil ligera para Android e iOS",
+            ]}
+            cons={[
+              "Rollover x25 en 7 días — exigente si juegas poco",
+              "La interfaz está saturada de promociones y puede marear al inicio",
+              "El soporte por chat a veces tarda más que el de Betsson",
+            ]}
+          />
+          <CtaButton slug="1xbet" text="Probar 1xBet" />
+        </div>
+
         {/* ── FRESH Casino ── */}
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-white">2. FRESH Casino</h3>
-            <span className="text-[#22c55e] font-black text-xl">9.3/10</span>
+            <h3 className="text-2xl sm:text-3xl font-black text-white">6. FRESH Casino</h3>
+            <span className="text-[#22c55e] font-black text-xl">8.9/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#dc2626] to-transparent rounded mb-6" />
 
@@ -682,7 +738,7 @@ export default function MejoresCasinosOnlinePeru() {
         {/* ── Inkabet ── */}
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-white">3. Inkabet</h3>
+            <h3 className="text-2xl sm:text-3xl font-black text-white">4. Inkabet</h3>
             <span className="text-[#22c55e] font-black text-xl">9.2/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#dc2626] to-transparent rounded mb-6" />
@@ -749,7 +805,7 @@ export default function MejoresCasinosOnlinePeru() {
         {/* ── SOL Casino ── */}
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-white">4. SOL Casino</h3>
+            <h3 className="text-2xl sm:text-3xl font-black text-white">5. SOL Casino</h3>
             <span className="text-[#22c55e] font-black text-xl">9.1/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#dc2626] to-transparent rounded mb-6" />
@@ -815,7 +871,7 @@ export default function MejoresCasinosOnlinePeru() {
         {/* ── MONRO Casino ── */}
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-white">6. MONRO Casino</h3>
+            <h3 className="text-2xl sm:text-3xl font-black text-white">7. MONRO Casino</h3>
             <span className="text-[#22c55e] font-black text-xl">9.0/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#dc2626] to-transparent rounded mb-6" />
@@ -881,8 +937,8 @@ export default function MejoresCasinosOnlinePeru() {
         {/* ── STARDA Casino ── */}
         <div className="mb-16">
           <div className="flex flex-wrap items-center gap-4 mb-2">
-            <h3 className="text-2xl sm:text-3xl font-black text-white">5. STARDA Casino</h3>
-            <span className="text-[#22c55e] font-black text-xl">8.9/10</span>
+            <h3 className="text-2xl sm:text-3xl font-black text-white">3. STARDA Casino</h3>
+            <span className="text-[#22c55e] font-black text-xl">9.3/10</span>
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#dc2626] to-transparent rounded mb-6" />
 
@@ -2021,7 +2077,7 @@ export default function MejoresCasinosOnlinePeru() {
                 ["Pragmatic Play", "Slots virales", "94-96.5%", "Sweet Bonanza, Gates of Olympus"],
                 ["NetEnt", "Slots clásicas", "95-98%", "Starburst, Blood Suckers"],
                 ["Microgaming", "Jackpots progresivos", "92-96.5%", "Mega Moolah"],
-                ["Play'n GO", "Slots temáticas", "94-96.5%", "Book of Dead, Reactoonz"],
+                ["Play&apos;n GO", "Slots temáticas", "94-96.5%", "Book of Dead, Reactoonz"],
                 ["Red Tiger", "Jackpots diarios", "94-96%", "Daily Drop Jackpots"],
                 ["Hacksaw Gaming", "Alta volatilidad", "94-96.5%", "Wanted Dead or a Wild"],
               ].map(([name, spec, rtp, games]) => (

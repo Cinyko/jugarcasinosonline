@@ -31,6 +31,17 @@ export const casinos: Casino[] = [
     },
   },
   {
+    name: "1xBet",
+    slug: "1xbet",
+    bonus: "Paquete de bienvenida hasta $2.275 + 150 giros gratis",
+    rating: 9.3,
+    affiliateUrl: "https://betoholictrack.name/ucLlKtYh",
+    license: "Curaçao",
+    countryData: {
+      mexico: { bonus: "Hasta $40,000 MXN + 300 giros gratis", affiliateSlug: "1xbet" },
+    },
+  },
+  {
     name: "FRESH Casino",
     slug: "fresh-casino",
     bonus: "100% en tu primer depósito + 500 giros gratis",
@@ -88,14 +99,6 @@ export const casinos: Casino[] = [
     bonus: "100% hasta S/500 + 500 giros gratis",
     rating: 8.7,
     affiliateUrl: "https://bet365.pe",
-    license: "MINCETUR",
-  },
-  {
-    name: "1xBet",
-    slug: "1xbet",
-    bonus: "100% primer depósito hasta $300",
-    rating: 8.6,
-    affiliateUrl: "https://1xbet.com",
     license: "MINCETUR",
   },
   {
