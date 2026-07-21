@@ -42,6 +42,12 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Keep anchor targets clear of the sticky header */
+section[id],
+div[id] {
+  scroll-margin-top: 88px;
+}
+
 /* Scrollbar */
 ::-webkit-scrollbar {
   width: 6px;

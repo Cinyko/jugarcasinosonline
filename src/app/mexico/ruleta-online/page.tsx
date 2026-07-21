@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { LAST_UPDATED, LAST_UPDATED_ISO, LAST_UPDATED_YEAR } from "@/data/config";
 import CasinoRanking from "@/components/CasinoRanking";
+import TableOfContents from "@/components/TableOfContents";
 
 export const metadata: Metadata = {
   title: "Ruleta Online en México 2026 | Mejores Casinos con Ruleta en Vivo",
@@ -262,6 +263,22 @@ export default function RuletaOnlineMexico() {
       </section>
 
       {/* ═══ SECTION 2: TIPOS DE RULETA ═══ */}
+      {/* ── TABLA DE CONTENIDOS ── */}
+      <TableOfContents
+        items={[
+          { id: "ranking", label: "Ranking de casinos para ruleta" },
+          { id: "tipos", label: "Tipos de ruleta online" },
+          { id: "analisis", label: "Análisis del top 5" },
+          { id: "estrategias", label: "Estrategias de ruleta" },
+          { id: "en-vivo-vs-virtual", label: "Ruleta en vivo vs virtual" },
+          { id: "proveedores", label: "Proveedores de ruleta" },
+          { id: "errores", label: "Errores comunes" },
+          { id: "pagos", label: "Métodos de pago" },
+          { id: "faq", label: "Preguntas frecuentes" },
+          { id: "glosario", label: "Glosario de ruleta" },
+        ]}
+      />
+
       <Section id="tipos" alt>
         <SectionTitle>Tipos de Ruleta Online: Guía Completa para Mexicanos</SectionTitle>
 

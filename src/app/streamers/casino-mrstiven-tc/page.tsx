@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import CasinoRanking, { CasinoRankingItem } from "@/components/CasinoRanking";
+import TableOfContents from "@/components/TableOfContents";
 import { LAST_UPDATED, LAST_UPDATED_ISO, LAST_UPDATED_YEAR } from "@/data/config";
 
 export const metadata: Metadata = {
@@ -221,6 +222,35 @@ export default function CasinoMrStiven() {
           </p>
         </div>
       </section>
+
+      {/* TABLA DE CONTENIDOS */}
+      <TableOfContents
+        items={[
+          { id: "ranking", label: "Ranking para LATAM" },
+          { id: "como-elegimos", label: "Cómo armamos el ranking" },
+          { id: "quien-es", label: "¿Quién es MrStiven Tc?" },
+          { id: "historia-casino", label: "Su relación con el casino" },
+          { id: "casino-de-mrstiven", label: "Stake al detalle" },
+          { id: "slots", label: "Slots favoritos" },
+          { id: "ganancias", label: "Los clips de millones" },
+          { id: "stake-vs-ranking", label: "Stake vs recomendados" },
+          { id: "por-que-estos-casinos", label: "¿Dónde te conviene jugar?" },
+          { id: "es-legal", label: "¿Es legal en Colombia?" },
+          { id: "casino-confiable", label: "Reconocer un casino confiable" },
+          { id: "bonos", label: "Bonos explicados" },
+          { id: "como-registrarte", label: "Cómo registrarte" },
+          { id: "metodos-pago", label: "Métodos de pago" },
+          { id: "jugar-slots-tips", label: "Jugar slots con cabeza" },
+          { id: "errores-comunes", label: "Errores comunes" },
+          { id: "escena-streamers", label: "La escena de streamers" },
+          { id: "glosario", label: "Glosario" },
+          { id: "comparativa-bonos", label: "Comparativa de bonos" },
+          { id: "primera-sesion", label: "Tu primera sesión" },
+          { id: "juego-responsable", label: "Juego responsable" },
+          { id: "faq", label: "Preguntas frecuentes" },
+          { id: "veredicto", label: "Veredicto" },
+        ]}
+      />
 
       {/* RANKING */}
       <Section id="ranking" alt>

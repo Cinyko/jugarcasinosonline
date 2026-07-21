@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { LAST_UPDATED, LAST_UPDATED_ISO, LAST_UPDATED_YEAR } from "@/data/config";
 import CasinoRanking from "@/components/CasinoRanking";
+import TableOfContents from "@/components/TableOfContents";
 
 export const metadata: Metadata = {
   title: "Blackjack Online en Ecuador 2026 | Casinos, Estrategia y Mesas en Vivo",
@@ -212,6 +213,24 @@ export default function BlackjackOnlineEcuador() {
       </section>
 
       {/* ═══ REGLAS ═══ */}
+      {/* ── TABLA DE CONTENIDOS ── */}
+      <TableOfContents
+        items={[
+          { id: "como-jugar", label: "Cómo jugar blackjack" },
+          { id: "estrategia", label: "Estrategia básica completa" },
+          { id: "variantes", label: "Variantes de blackjack" },
+          { id: "analisis", label: "Mejor casino para blackjack" },
+          { id: "vivo-vs-virtual", label: "En vivo vs virtual" },
+          { id: "errores", label: "Errores comunes" },
+          { id: "conteo", label: "Conteo de cartas online" },
+          { id: "bankroll", label: "Gestión de bankroll" },
+          { id: "pagos", label: "Métodos de pago" },
+          { id: "faq", label: "Preguntas frecuentes" },
+          { id: "glosario", label: "Glosario de blackjack" },
+          { id: "guias", label: "Más guías de casino" },
+        ]}
+      />
+
       <Section id="como-jugar" alt>
         <SectionTitle>Reglas del Blackjack — Lo que Necesitas Saber</SectionTitle>
 

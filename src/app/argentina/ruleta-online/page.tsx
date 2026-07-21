@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { LAST_UPDATED, LAST_UPDATED_ISO, LAST_UPDATED_YEAR } from "@/data/config";
 import CasinoRanking from "@/components/CasinoRanking";
+import TableOfContents from "@/components/TableOfContents";
 
 export const metadata: Metadata = {
   title: "Ruleta Online en Argentina 2026 | Mejores Casinos con Ruleta en Vivo",
@@ -225,6 +226,22 @@ export default function RuletaOnlineArgentina() {
       </section>
 
       {/* ═══ TIPOS DE RULETA ═══ */}
+      {/* ── TABLA DE CONTENIDOS ── */}
+      <TableOfContents
+        items={[
+          { id: "ranking", label: "Ranking de casinos para ruleta" },
+          { id: "tipos-ruleta", label: "Tipos de ruleta online" },
+          { id: "analisis", label: "Análisis de los mejores casinos" },
+          { id: "estrategias", label: "Estrategias y sistemas" },
+          { id: "en-vivo-vs-virtual", label: "Ruleta en vivo vs virtual" },
+          { id: "proveedores", label: "Proveedores de ruleta" },
+          { id: "errores", label: "Errores comunes" },
+          { id: "pagos", label: "Métodos de pago" },
+          { id: "faq", label: "Preguntas frecuentes" },
+          { id: "glosario", label: "Glosario de ruleta" },
+        ]}
+      />
+
       <Section id="tipos-ruleta" alt>
         <SectionTitle>Tipos de Ruleta Online: Cuál Te Conviene Según Tu Estilo</SectionTitle>
         <p className="text-[#9ca3af] mb-6 max-w-3xl leading-relaxed">

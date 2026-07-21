@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import TableOfContents from "@/components/TableOfContents";
 import { LAST_UPDATED, LAST_UPDATED_ISO, LAST_UPDATED_YEAR } from "@/data/config";
 
 export const metadata: Metadata = {
@@ -431,6 +432,27 @@ export default function MejoresCasinosOnlineArgentina() {
       </section>
 
       {/* ═══ ANÁLISIS ═══ */}
+      {/* ── TABLA DE CONTENIDOS ── */}
+      <TableOfContents
+        items={[
+          { id: "ranking", label: "Ranking de los mejores casinos" },
+          { id: "analisis", label: "Análisis detallado casino por casino" },
+          { id: "prioridad", label: "El mejor casino según tu prioridad" },
+          { id: "comparativa-casinos", label: "Comparativa detallada" },
+          { id: "bonos", label: "Tipos de bonos" },
+          { id: "pagos", label: "Métodos de pago" },
+          { id: "legal", label: "¿Es legal jugar?" },
+          { id: "online-vs-fisico", label: "Casinos online vs físicos" },
+          { id: "juegos", label: "Juegos más populares" },
+          { id: "proveedores", label: "Proveedores de juegos" },
+          { id: "mitos", label: "Mitos y verdades" },
+          { id: "responsable", label: "Juego responsable" },
+          { id: "como-elegir", label: "Cómo elegir un casino" },
+          { id: "faq", label: "Preguntas frecuentes" },
+          { id: "glosario", label: "Glosario de términos" },
+        ]}
+      />
+
       <Section id="analisis" alt bg="/img/backgrounds/paises.png">
         <SectionTitle>Análisis de los Mejores Casinos Online en Argentina</SectionTitle>
         <p className="text-[#9ca3af] mb-4 max-w-3xl leading-relaxed">

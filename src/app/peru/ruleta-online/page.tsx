@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { LAST_UPDATED, LAST_UPDATED_ISO, LAST_UPDATED_YEAR } from "@/data/config";
 import CasinoRanking from "@/components/CasinoRanking";
+import TableOfContents from "@/components/TableOfContents";
 
 export const metadata: Metadata = {
   title: "Ruleta Online en Perú 2026 | Mejores Casinos con Ruleta en Vivo",
@@ -282,6 +283,23 @@ export default function RuletaOnlinePeru() {
       </Section>
 
       {/* ═══ SECTION 2: TIPOS DE RULETA ═══ */}
+      {/* ── TABLA DE CONTENIDOS ── */}
+      <TableOfContents
+        items={[
+          { id: "ranking", label: "Ranking de casinos para ruleta" },
+          { id: "tipos-de-ruleta", label: "Tipos de ruleta online" },
+          { id: "analisis-casinos", label: "Análisis del top 5" },
+          { id: "estrategias", label: "Estrategias de ruleta" },
+          { id: "ruleta-en-vivo-vs-virtual", label: "Ruleta en vivo vs virtual" },
+          { id: "proveedores", label: "Mejores proveedores" },
+          { id: "errores-comunes", label: "Errores comunes" },
+          { id: "metodos-de-pago", label: "Métodos de pago" },
+          { id: "preguntas-frecuentes", label: "Preguntas frecuentes" },
+          { id: "glosario", label: "Glosario de ruleta" },
+          { id: "guias-relacionadas", label: "Guías relacionadas" },
+        ]}
+      />
+
       <Section id="tipos-de-ruleta">
         <SectionTitle>Tipos de Ruleta Online: Cuál Elegir y Por Qué</SectionTitle>
 

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { LAST_UPDATED, LAST_UPDATED_ISO, LAST_UPDATED_YEAR } from "@/data/config";
 import CasinoRanking from "@/components/CasinoRanking";
+import TableOfContents from "@/components/TableOfContents";
 
 export const metadata: Metadata = {
   title: "Ruleta Online en Chile 2026 | Mejores Casinos con Ruleta en Vivo",
@@ -223,6 +224,27 @@ export default function RuletaOnlineChile() {
       </div>
 
       {/* ═══ ANALISIS TOP 5 ═══ */}
+      {/* ── TABLA DE CONTENIDOS ── */}
+      <TableOfContents
+        items={[
+          { id: "ranking", label: "Ranking de casinos para ruleta" },
+          { id: "analisis", label: "Análisis del top 5" },
+          { id: "variantes", label: "Variantes de ruleta" },
+          { id: "ruleta-vivo", label: "Ruleta en vivo en Chile" },
+          { id: "estrategias", label: "Estrategias y sistemas" },
+          { id: "bonos-ruleta", label: "Bonos para ruleta" },
+          { id: "errores", label: "Errores comunes" },
+          { id: "pagos", label: "Métodos de pago" },
+          { id: "probabilidades", label: "Probabilidades y house edge" },
+          { id: "responsable", label: "Juego responsable" },
+          { id: "online-vs-fisico", label: "Online vs casino físico" },
+          { id: "legal", label: "¿Es legal en Chile?" },
+          { id: "guias-chile", label: "Más guías para Chile" },
+          { id: "faq", label: "Preguntas frecuentes" },
+          { id: "glosario", label: "Glosario de ruleta" },
+        ]}
+      />
+
       <Section id="analisis" alt>
         <SectionTitle>Analisis Detallado: Top 5 Casinos con Ruleta en Chile</SectionTitle>
         <p className="text-[#9ca3af] mb-10 max-w-3xl leading-relaxed">Jugamos ruleta en cada uno de estos casinos durante al menos una semana. No fue solo entrar, hacer dos giros y escribir una reseña — metimos lucas, probamos las variantes, hablamos con el soporte y retiramos ganancias. Esto es lo que encontramos.</p>

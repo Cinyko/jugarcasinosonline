@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { LAST_UPDATED, LAST_UPDATED_ISO, LAST_UPDATED_YEAR } from "@/data/config";
 import CasinoRanking from "@/components/CasinoRanking";
+import TableOfContents from "@/components/TableOfContents";
 
 export const metadata: Metadata = {
   title: "Ruleta Online en Ecuador 2026 | Mejores Casinos con Ruleta en Vivo",
@@ -148,6 +149,26 @@ export default function RuletaOnlineEcuador() {
       </section>
 
       {/* ═══ ANÁLISIS TOP 5 ═══ */}
+      {/* ── TABLA DE CONTENIDOS ── */}
+      <TableOfContents
+        items={[
+          { id: "ranking", label: "Ranking de casinos para ruleta" },
+          { id: "analisis", label: "Análisis de los mejores casinos" },
+          { id: "tipos-ruleta", label: "Tipos de ruleta online" },
+          { id: "ruleta-en-vivo", label: "Ruleta en vivo vs RNG" },
+          { id: "estrategias", label: "Estrategias de ruleta" },
+          { id: "como-jugar", label: "Cómo jugar paso a paso" },
+          { id: "pagos-apuestas", label: "Pagos y tipos de apuestas" },
+          { id: "pagos-ecuador", label: "Métodos de pago en Ecuador" },
+          { id: "errores", label: "Errores de principiantes" },
+          { id: "responsable", label: "Juego responsable" },
+          { id: "faq", label: "Preguntas frecuentes" },
+          { id: "glosario", label: "Glosario de ruleta" },
+          { id: "relacionados", label: "Otras guías para Ecuador" },
+          { id: "conclusion", label: "Veredicto final" },
+        ]}
+      />
+
       <Section id="analisis" alt bg="/img/backgrounds/paises.png">
         <SectionTitle>Análisis de los Mejores Casinos con Ruleta en Ecuador</SectionTitle>
         <p className="text-[#9ca3af] mb-4 max-w-3xl leading-relaxed">
