@@ -5,7 +5,7 @@ import CasinoRanking from "@/components/CasinoRanking";
 import TableOfContents from "@/components/TableOfContents";
 
 export const metadata: Metadata = {
-  title: "Ruleta Online en Chile 2026 | Mejores Casinos con Ruleta en Vivo",
+  title: "Ruleta Online en Chile 2026 | Mejores Casinos",
   description:
     "Encuentra los mejores casinos con ruleta online en Chile. Ruleta en vivo, europea, francesa, métodos de pago locales.",
 };
@@ -124,7 +124,7 @@ function ProsCons({ pros, cons }: { pros: string[]; cons: string[] }) {
 /* ───────── JSON-LD ───────── */
 const faqSchema = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faqItems.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) };
 const articleSchema = { "@context": "https://schema.org", "@type": "Article", headline: "Mejores Casinos con Ruleta Online en Chile 2026", description: "Guia completa de ruleta online para jugadores chilenos. Variantes, estrategias, casinos recomendados y metodos de pago.", datePublished: "2026-03-01", dateModified: LAST_UPDATED_ISO, author: { "@type": "Organization", name: "JugarCasinosOnline.net" }, publisher: { "@type": "Organization", name: "JugarCasinosOnline.net" } };
-const breadcrumbSchema = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Inicio", item: "https://jugarcasinosonline.net/" }, { "@type": "ListItem", position: 2, name: "Chile", item: "https://jugarcasinosonline.net/chile/" }, { "@type": "ListItem", position: 3, name: "Ruleta Online", item: "https://jugarcasinosonline.net/chile/ruleta-online/" }] };
+const breadcrumbSchema = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Inicio", item: "https://www.jugarcasinosonline.net/" }, { "@type": "ListItem", position: 2, name: "Chile", item: "https://www.jugarcasinosonline.net/chile/" }, { "@type": "ListItem", position: 3, name: "Ruleta Online", item: "https://www.jugarcasinosonline.net/chile/ruleta-online/" }] };
 
 /* ═══ PAGE ═══ */
 
@@ -160,7 +160,7 @@ export default function RuletaOnlineChile() {
               </ol>
             </nav>
             <div className="inline-flex items-center gap-2.5 rounded-full bg-white/[0.05] border border-white/[0.08] px-5 py-2 mb-8 backdrop-blur-sm">
-              <span className="w-2 h-2 rounded-full bg-[#22c55e] animate-pulse" />
+              <span className="w-2 h-2 rounded-full bg-[#22c55e] anímate-pulse" />
               <span className="text-sm font-semibold text-[#9ca3af]">Guia actualizada {LAST_UPDATED}</span>
             </div>
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-white tracking-tighter mb-4 leading-[0.95]">
@@ -635,7 +635,7 @@ export default function RuletaOnlineChile() {
           Las mesas de ruleta en vivo de Evolution estan abiertas 24/7. Siempre hay al menos 5-6 mesas activas sin importar la hora. Pero la experiencia varia mucho segun cuando juegues. Un viernes o sabado a las 11pm (hora Chile) las mesas estan llenas — mas dealers activos, mas energia, los dealers estan mas animados. Un martes a las 10am puede haber 2-3 mesas con dealers medio dormidos (los entendemos, no es facil estar animado a esa hora).
         </p>
         <p className="text-[#d4d4d8] leading-relaxed mb-4">
-          Las mesas con dealers hispanohablantes tienen horarios mas limitados. Generalmente estan activas de 2pm a 6am hora de Chile (que coincide con horario laboral y nocturno en Colombia, donde estan los estudios de LATAM). Fuera de ese horario, las mesas disponibles suelen tener dealers en ingles, turco o ruso. No es drama si entiendes lo basico (&quot;no more bets&quot;, &quot;place your bets&quot;) pero si prefieres español, jugá en esos horarios.
+          Las mesas con dealers hispanohablantes tienen horarios mas limitados. Generalmente estan activas de 2pm a 6am hora de Chile (que coincide con horario laboral y nocturno en Colombia, donde estan los estudios de LATAM). Fuera de ese horario, las mesas disponibles suelen tener dealers en ingles, turco o ruso. No es drama si entiendes lo basico (&quot;no more bets&quot;, &quot;place your bets&quot;) pero si prefieres español, juega en esos horarios.
         </p>
         <p className="text-[#d4d4d8] leading-relaxed mb-8">
           Pro tip: los domingos por la tarde (3pm-7pm hora Chile) son un horario bacan para jugar. Las mesas estan menos llenas que un viernes pero los dealers estan mas animados que un dia de semana. Y si quieres la experiencia mas tranquila posible, prueba un miercoles a las 3am — pocas personas en la mesa, giros rapidos, y a veces el dealer hasta te tira uno que otro dato sobre la rueda o te cuenta sobre su dia. Es otra experiencia.
@@ -826,7 +826,7 @@ export default function RuletaOnlineChile() {
               Este es el error mas basico y el que mas lucas te cuesta. La ruleta americana tiene dos ceros (0 y 00) y eso sube el house edge a 5.26%. La europea tiene uno solo y se queda en 2.7%. &quot;Ya po, es solo un numero mas&quot; — no weón, es practicamente el doble de ventaja para el casino. Si apostai $500.000 CLP en una noche, la americana te come estadisticamente $13.000 mas que la europea. Eso no es poco.
             </p>
             <p className="text-[#d4d4d8] leading-relaxed mb-4">
-              Lo peor es que algunos casinos te meten la americana como opcion por defecto. Entrai a la seccion de ruleta, le dai click a la primera mesa que ves, y resulta que tiene doble cero. Nos paso en 1xBet — la primera mesa que aparecia era americana. Hay que fijarse siempre antes de sentarse. Buscá &quot;European&quot; en el nombre o revisá que la rueda tenga solo un cero verde.
+              Lo peor es que algunos casinos te meten la americana como opcion por defecto. Entrai a la seccion de ruleta, le dai click a la primera mesa que ves, y resulta que tiene doble cero. Nos paso en 1xBet — la primera mesa que aparecia era americana. Hay que fijarse siempre antes de sentarse. Busca &quot;European&quot; en el nombre o revisa que la rueda tenga solo un cero verde.
             </p>
             <p className="text-[#d4d4d8] leading-relaxed">
               Y si cachái la ruleta francesa con La Partage, mejor todavia. House edge de 1.35% en apuestas pares. Esa es la movida inteligente.
@@ -868,7 +868,7 @@ export default function RuletaOnlineChile() {
               Algo bacan que tienen Betsson y Bet365 es que te dejan poner limites de deposito directamente en la plataforma. Limite diario, semanal o mensual. Configuralo al tiro apenas te registres. Si tu limite es $200.000 al mes, el casino no te va a dejar depositar mas aunque quieras. Es como ponerte un candado a ti mismo. Suena extremo, pero funciona.
             </p>
             <p className="text-[#d4d4d8] leading-relaxed">
-              Tambien ayuda definir un limite de ganancia. Si llegai a $100.000 de profit, retirá la ganancia y seguí jugando solo con tu deposito original. Asi te asegurai de salir con algo en el bolsillo.
+              Tambien ayuda definir un limite de ganancia. Si llegai a $100.000 de profit, retira la ganancia y sigue jugando solo con tu deposito original. Asi te asegurai de salir con algo en el bolsillo.
             </p>
           </div>
 
@@ -881,7 +881,7 @@ export default function RuletaOnlineChile() {
               La regla general que ocupamos nosotros: nunca apuestes mas del 5% de tu bankroll en un solo giro. Si tenis $100.000 para jugar, tus apuestas deberian ser de $5.000 maximo. Asi te asegurai al menos 20 giros de juego, que es donde empieza a ser entretenido. Con apuestas de $2.000-$3.000 podi jugar como una hora tranquilo en una mesa de ruleta europea.
             </p>
             <p className="text-[#d4d4d8] leading-relaxed">
-              Pero hey, si querís meter $10.000 en un numero recto por la emocion, hacelo una vez y ya. Como experiencia. Solo que no sea tu &quot;estrategia&quot;.
+              Pero hey, si querís meter $10.000 en un numero recto por la emocion, hazlo una vez y ya. Como experiencia. Solo que no sea tu &quot;estrategia&quot;.
             </p>
           </div>
 
@@ -894,14 +894,14 @@ export default function RuletaOnlineChile() {
               Tambien hay torneos de ruleta en vivo. Betsson hace torneos semanales donde compites contra otros jugadores por un pozo de premios. No necesitai ganarle al casino, solo necesitai ganar mas (o perder menos) que los demas jugadores del torneo. Es otra dinamica y puede ser bastante entretenida.
             </p>
             <p className="text-[#d4d4d8] leading-relaxed">
-              El punto es: no ignoris las promos solo porque &quot;los bonos no sirven para ruleta&quot;. Lee la letra chica, buscá las ofertas de casino en vivo especificamente, y aprovechá lo que te sirva. Plata gratis es plata gratis po.
+              El punto es: no ignoris las promos solo porque &quot;los bonos no sirven para ruleta&quot;. Lee la letra chica, busca las ofertas de casino en vivo especificamente, y aprovecha lo que te sirva. Plata gratis es plata gratis po.
             </p>
           </div>
         </div>
 
         <div className="rounded-2xl bg-[#f59e0b]/[0.06] border border-[#f59e0b]/20 p-6 mt-8">
           <p className="text-[#f59e0b] font-bold mb-2">Resumen rapido</p>
-          <p className="text-[#d4d4d8] leading-relaxed text-sm">Jugá europea (nunca americana), poné limites antes de sentarte, no persigai perdidas, ignorá los &quot;numeros calientes&quot;, no metai todo en un giro, y revisá las promos de casino en vivo. Si hacís estas 6 cosas, ya estai jugando mejor que el 80% de la gente.</p>
+          <p className="text-[#d4d4d8] leading-relaxed text-sm">Juega europea (nunca americana), pon limites antes de sentarte, no persigai perdidas, ignora los &quot;numeros calientes&quot;, no metai todo en un giro, y revisa las promos de casino en vivo. Si hacís estas 6 cosas, ya estai jugando mejor que el 80% de la gente.</p>
         </div>
       </Section>
 

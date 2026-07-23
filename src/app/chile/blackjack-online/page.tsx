@@ -5,7 +5,7 @@ import CasinoRanking from "@/components/CasinoRanking";
 import TableOfContents from "@/components/TableOfContents";
 
 export const metadata: Metadata = {
-  title: "Blackjack Online en Chile 2026 | Casinos, Estrategia y Mesas en Vivo",
+  title: "Blackjack Online en Chile 2026 | Guía y Casinos",
   description:
     "Mejores casinos con blackjack online en Chile. Estrategia básica completa, mesas en vivo, variantes y bonos verificados para jugadores chilenos.",
 };
@@ -139,9 +139,9 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Inicio", item: "https://jugarcasinosonline.net/" },
-    { "@type": "ListItem", position: 2, name: "Chile", item: "https://jugarcasinosonline.net/chile/" },
-    { "@type": "ListItem", position: 3, name: "Blackjack Online", item: "https://jugarcasinosonline.net/chile/blackjack-online/" },
+    { "@type": "ListItem", position: 1, name: "Inicio", item: "https://www.jugarcasinosonline.net/" },
+    { "@type": "ListItem", position: 2, name: "Chile", item: "https://www.jugarcasinosonline.net/chile/" },
+    { "@type": "ListItem", position: 3, name: "Blackjack Online", item: "https://www.jugarcasinosonline.net/chile/blackjack-online/" },
   ],
 };
 
@@ -179,7 +179,7 @@ export default function BlackjackOnlineChile() {
           </nav>
 
           <div className="inline-flex items-center gap-2.5 rounded-full bg-white/[0.05] border border-white/[0.08] px-5 py-2 mb-8 backdrop-blur-sm">
-            <span className="w-2 h-2 rounded-full bg-[#22c55e] animate-pulse" />
+            <span className="w-2 h-2 rounded-full bg-[#22c55e] anímate-pulse" />
             <span className="text-sm font-semibold text-[#9ca3af]">Guía actualizada {LAST_UPDATED}</span>
           </div>
 
@@ -464,7 +464,7 @@ export default function BlackjackOnlineChile() {
           </div>
           <div className="rounded-xl bg-[#141414] border border-white/[0.06] p-6">
             <h3 className="text-lg font-black text-[#3b82f6] mb-2">Blackjack Europeo</h3>
-            <p className="text-[#9ca3af] text-sm leading-relaxed">Solo 2 barajas pero el dealer no recibe segunda carta hasta que todos actúan. Si doblai o dividí y el dealer saca BJ después, pierdes todo lo extra. El americano te ahorra esa plata. Disponible en SOL y Betsson.</p>
+            <p className="text-[#9ca3af] text-sm leading-relaxed">Solo 2 barajas pero el dealer no recibe segunda carta hasta que todos actúan. Si doblai o divide y el dealer saca BJ después, pierdes todo lo extra. El americano te ahorra esa plata. Disponible en SOL y Betsson.</p>
           </div>
           <div className="rounded-xl bg-[#141414] border border-white/[0.06] p-6">
             <h3 className="text-lg font-black text-[#22c55e] mb-2">Infinite Blackjack</h3>
@@ -557,7 +557,7 @@ export default function BlackjackOnlineChile() {
             1xBet se instala en el top 3 chileno con 25+ mesas de blackjack en vivo: Infinite con mínimos bajos para partir tranquilo, Speed si andai apurado y mesas VIP con límites altos. Evolution y Ezugi de proveedores, y el plus de tener las apuestas deportivas en la misma cuenta y el mismo saldo.
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-4">
-            El paquete de bienvenida llega hasta $2.275 USD + 150 giros, y la cripto funciona impecable para depositar y retirar sin pasar por el banco. Dato honesto: el blackjack aporta poco al rollover, así que si vai solo por el 21, considerá jugar sin bono.
+            El paquete de bienvenida llega hasta $2.275 USD + 150 giros, y la cripto funciona impecable para depositar y retirar sin pasar por el banco. Dato honesto: el blackjack aporta poco al rollover, así que si vai solo por el 21, considera jugar sin bono.
           </p>
           <CtaButton slug="1xbet" text="Probar 1xBet" />
         </div>
@@ -654,7 +654,7 @@ export default function BlackjackOnlineChile() {
         </div>
 
         <p className="text-[#9ca3af] leading-relaxed mb-3">
-          <strong className="text-white">Nuestra recomendación:</strong> Parte con el virtual en modo demo. Gratis, sin presión, con la tabla al lado. Cuando te sentís seguro, pásate al vivo. La diferencia de experiencia es enorme.
+          <strong className="text-white">Nuestra recomendación:</strong> Parte con el virtual en modo demo. Gratis, sin presión, con la tabla al lado. Cuando te sientes seguro, pásate al vivo. La diferencia de experiencia es enorme.
         </p>
 
         <h3 className="text-lg font-black text-white mb-3 mt-6">Proveedores</h3>

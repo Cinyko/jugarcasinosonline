@@ -5,7 +5,7 @@ import CasinoRanking from "@/components/CasinoRanking";
 import TableOfContents from "@/components/TableOfContents";
 
 export const metadata: Metadata = {
-  title: "Ruleta Online en Argentina 2026 | Mejores Casinos con Ruleta en Vivo",
+  title: "Ruleta Online en Argentina 2026 | Mejores Casinos",
   description:
     "Encontrá los mejores casinos con ruleta online en Argentina. Ruleta en vivo, europea, francesa, estrategias y bonos.",
 };
@@ -126,7 +126,7 @@ function ProsCons({ pros, cons }: { pros: string[]; cons: string[] }) {
 /* ───────── JSON-LD ───────── */
 const faqSchema = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faqItems.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) };
 const articleSchema = { "@context": "https://schema.org", "@type": "Article", headline: "Mejores Casinos con Ruleta Online en Argentina 2026", description: "Guía completa de ruleta online para jugadores argentinos. Tipos de ruleta, estrategias, casinos recomendados y métodos de pago.", datePublished: "2026-02-10", dateModified: LAST_UPDATED_ISO, author: { "@type": "Organization", name: "JugarCasinosOnline.net" }, publisher: { "@type": "Organization", name: "JugarCasinosOnline.net" } };
-const breadcrumbSchema = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Inicio", item: "https://jugarcasinosonline.net/" }, { "@type": "ListItem", position: 2, name: "Argentina", item: "https://jugarcasinosonline.net/argentina/" }, { "@type": "ListItem", position: 3, name: "Ruleta Online", item: "https://jugarcasinosonline.net/argentina/ruleta-online/" }] };
+const breadcrumbSchema = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Inicio", item: "https://www.jugarcasinosonline.net/" }, { "@type": "ListItem", position: 2, name: "Argentina", item: "https://www.jugarcasinosonline.net/argentina/" }, { "@type": "ListItem", position: 3, name: "Ruleta Online", item: "https://www.jugarcasinosonline.net/argentina/ruleta-online/" }] };
 
 /* ═══ PAGE ═══ */
 

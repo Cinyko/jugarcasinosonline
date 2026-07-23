@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Casinos Online en Perú 2026 | JugarCasinosOnline.net",
   description:
-    "Guía completa de casinos online en Perú 2026. Descubre los mejores casinos, bonos sin depósito, ruleta, blackjack, slots y casinos con criptomonedas para jugadores peruanos.",
+    "Guía de casinos online en Perú 2026: los mejores casinos con licencia, bonos, ruleta, blackjack, slots y pagos con Yape y Plin.",
 };
 
 const sections = [

@@ -14,8 +14,8 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Inicio", item: "https://jugarcasinosonline.net/" },
-    { "@type": "ListItem", position: 2, name: "Streamers", item: "https://jugarcasinosonline.net/streamers/" },
+    { "@type": "ListItem", position: 1, name: "Inicio", item: "https://www.jugarcasinosonline.net/" },
+    { "@type": "ListItem", position: 2, name: "Streamers", item: "https://www.jugarcasinosonline.net/streamers/" },
   ],
 };
 
@@ -49,7 +49,7 @@ export default function StreamersHub() {
 
           {/* Badge */}
           <div className="inline-flex items-center gap-2.5 rounded-full bg-white/[0.05] border border-white/[0.08] px-5 py-2 mb-8 backdrop-blur-sm">
-            <span className="w-2 h-2 rounded-full bg-[#22c55e] animate-pulse" />
+            <span className="w-2 h-2 rounded-full bg-[#22c55e] anímate-pulse" />
             <span className="text-sm font-semibold text-[#9ca3af]">Guía actualizada {LAST_UPDATED}</span>
           </div>
 
@@ -60,7 +60,7 @@ export default function StreamersHub() {
           </h1>
 
           <p className="text-xl sm:text-2xl text-[#9ca3af] max-w-3xl mb-4 font-medium leading-relaxed">
-            ¿Te preguntaste alguna vez en qué casino juega tu streamer favorito? Acá lo desglosamos uno por uno: dónde apuestan de verdad, qué slots les gustan y dónde podés jugar vos con bonos que valen la pena.
+            ¿Te preguntaste alguna vez en qué casino juega tu streamer favorito? Acá lo desglosamos uno por uno: dónde apuestan de verdad, qué slots les gustan y dónde puedes jugar tú con bonos que valen la pena.
           </p>
           <p className="text-base text-[#71717a] max-w-2xl leading-relaxed">
             Investigamos a los creadores de casino más grandes de LATAM y del mundo. Te contamos la posta de cada uno y, ojo, siempre con la cabeza fría: el juego es entretenimiento, no una forma de hacer plata.

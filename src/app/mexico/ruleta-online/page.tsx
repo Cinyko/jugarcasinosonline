@@ -5,7 +5,7 @@ import CasinoRanking from "@/components/CasinoRanking";
 import TableOfContents from "@/components/TableOfContents";
 
 export const metadata: Metadata = {
-  title: "Ruleta Online en México 2026 | Mejores Casinos con Ruleta en Vivo",
+  title: "Ruleta Online en México 2026 | Mejores Casinos",
   description:
     "Descubre los mejores casinos con ruleta online en México. Ruleta en vivo, europea, francesa, bonos y estrategias.",
 };
@@ -154,9 +154,9 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Inicio", item: "https://jugarcasinosonline.net/" },
-    { "@type": "ListItem", position: 2, name: "México", item: "https://jugarcasinosonline.net/mexico/" },
-    { "@type": "ListItem", position: 3, name: "Ruleta Online", item: "https://jugarcasinosonline.net/mexico/ruleta-online/" },
+    { "@type": "ListItem", position: 1, name: "Inicio", item: "https://www.jugarcasinosonline.net/" },
+    { "@type": "ListItem", position: 2, name: "México", item: "https://www.jugarcasinosonline.net/mexico/" },
+    { "@type": "ListItem", position: 3, name: "Ruleta Online", item: "https://www.jugarcasinosonline.net/mexico/ruleta-online/" },
   ],
 };
 
@@ -292,7 +292,7 @@ export default function RuletaOnlineMexico() {
           <h3 className="text-xl sm:text-2xl font-black text-white mb-4">Ruleta Europea — La Base de Todo</h3>
 
           <p className="text-[#9ca3af] leading-relaxed mb-3">
-            Si solo vas a aprender una variante, que sea esta. La ruleta europea tiene 37 casillas: los números del 1 al 36 (alternando entre rojo y negro) más un solo cero verde. Ese único cero le da al casino una ventaja del 2.7%, que en el mundo de los juegos de mesa es bastante razonable.
+            Si solo vas a aprender una variante, que sea esta. La ruleta europea tiene 37 casillas: los números del 1 al 36 (alternando entre rojo y negro) más un solo cero verde. Ese único cero le da al casino una ventaja del 2.7%, que para un juego de mesa es bastante razonable.
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-3">
             ¿Qué significa eso en tu bolsillo? Que por cada $1,000 MXN que apuestes a lo largo de una sesión, estadísticamente vas a perder $27. Claro, eso es el promedio a largo plazo — en una noche puedes ganar un chorro o perder todo. Pero la matemática no miente y es la variante que más te favorece después de la francesa.

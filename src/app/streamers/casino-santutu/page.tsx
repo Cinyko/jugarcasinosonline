@@ -176,9 +176,9 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Inicio", item: "https://jugarcasinosonline.net/" },
-    { "@type": "ListItem", position: 2, name: "Streamers", item: "https://jugarcasinosonline.net/streamers/" },
-    { "@type": "ListItem", position: 3, name: "Casino de Santutu", item: "https://jugarcasinosonline.net/streamers/casino-santutu/" },
+    { "@type": "ListItem", position: 1, name: "Inicio", item: "https://www.jugarcasinosonline.net/" },
+    { "@type": "ListItem", position: 2, name: "Streamers", item: "https://www.jugarcasinosonline.net/streamers/" },
+    { "@type": "ListItem", position: 3, name: "Casino de Santutu", item: "https://www.jugarcasinosonline.net/streamers/casino-santutu/" },
   ],
 };
 
@@ -764,7 +764,7 @@ export default function CasinoSantutu() {
       <Section id="glosario" alt>
         <SectionTitle>Glosario: las palabras que vas a escuchar</SectionTitle>
         <P>
-          Si te metés en el mundo del casino online (o si mirás streams de Santu), vas a escuchar términos que capaz no conocés. Acá un mini diccionario para que no te pierdas.
+          Si te estás metiendo al casino online (o si mirás streams de Santu), vas a escuchar términos que capaz no conocés. Acá un mini diccionario para que no te pierdas.
         </P>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6">
           {[

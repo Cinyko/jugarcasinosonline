@@ -6,7 +6,7 @@ import { LAST_UPDATED, LAST_UPDATED_ISO, LAST_UPDATED_YEAR } from "@/data/config
 export const metadata: Metadata = {
   title: "Mejores Casinos Online en Argentina 2026 | Guía Completa",
   description:
-    "Encontrá los mejores casinos online en Argentina. Ranking actualizado, bonos verificados, métodos de pago con Mercado Pago y transferencia, y todo para jugar seguro.",
+    "Encontrá los mejores casinos online en Argentina. Ranking actualizado, bonos verificados, pagos con Mercado Pago y todo para jugar seguro.",
 };
 
 /* ───────── Casino data ───────── */
@@ -155,7 +155,7 @@ function ProsCons({ pros, cons }: { pros: string[]; cons: string[] }) {
 /* ───────── JSON-LD ───────── */
 const faqSchema = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faqItems.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) };
 const articleSchema = { "@context": "https://schema.org", "@type": "Article", headline: "Mejores Casinos Online en Argentina 2026", description: "Guía completa de los mejores casinos online para jugadores argentinos.", datePublished: "2026-01-25", dateModified: LAST_UPDATED_ISO, author: { "@type": "Organization", name: "JugarCasinosOnline.net" }, publisher: { "@type": "Organization", name: "JugarCasinosOnline.net" } };
-const breadcrumbSchema = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Inicio", item: "https://jugarcasinosonline.net/" }, { "@type": "ListItem", position: 2, name: "Argentina", item: "https://jugarcasinosonline.net/argentina/" }, { "@type": "ListItem", position: 3, name: "Mejores Casinos Online", item: "https://jugarcasinosonline.net/argentina/mejores-casinos-online/" }] };
+const breadcrumbSchema = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Inicio", item: "https://www.jugarcasinosonline.net/" }, { "@type": "ListItem", position: 2, name: "Argentina", item: "https://www.jugarcasinosonline.net/argentina/" }, { "@type": "ListItem", position: 3, name: "Mejores Casinos Online", item: "https://www.jugarcasinosonline.net/argentina/mejores-casinos-online/" }] };
 
 /* ═══ PAGE ═══ */
 

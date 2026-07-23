@@ -5,7 +5,7 @@ import CasinoRanking from "@/components/CasinoRanking";
 import TableOfContents from "@/components/TableOfContents";
 
 export const metadata: Metadata = {
-  title: "Blackjack Online en Perú 2026 | Mejores Casinos y Estrategia Básica",
+  title: "Blackjack Online en Perú 2026 | Guía y Casinos",
   description:
     "Descubrí los mejores casinos con blackjack online en Perú. Blackjack en vivo, estrategia básica completa y bonos para jugar.",
 };
@@ -25,33 +25,33 @@ const peruCasinos = [
 ];
 
 const faqItems = [
-  { q: "¿Cuál es el mejor casino para jugar blackjack online en Perú?", a: "Betsson se lleva el primer puesto. Tiene licencia MINCETUR, más de 30 mesas de blackjack (incluyendo en vivo con dealers en español), y el bono de 300 giros gratis te permite empezar con colchón. Ahora, si lo que querés es la mayor variedad de mesas posible, FRESH Casino tiene 45+ mesas con variantes como Infinite Blackjack y Lightning Blackjack que no vas a encontrar fácil en otro lado." },
-  { q: "¿La estrategia básica de blackjack realmente funciona?", a: "Sí, y no es opinión: es matemática pura. La estrategia básica reduce la ventaja del casino de un 2-3% a apenas 0.5%. La probamos durante 500 manos en Betsson y la diferencia contra jugar por instinto fue clarísima. No vas a ganar todas las manos (eso no existe), pero a largo plazo perdés MUCHO menos. Es literalmente la diferencia entre quemar tu bankroll en una hora o que te dure toda la noche." },
-  { q: "¿El blackjack online está trucado?", a: "No, si jugás en casinos con licencia. Los casinos con licencia MINCETUR usan generadores de números aleatorios (RNG) auditados por laboratorios independientes como eCOGRA y iTech Labs. En el blackjack en vivo ni siquiera hay RNG: ves al dealer repartir cartas reales en tiempo real. Literalmente no hay forma de trucar eso. Los casinos ganan por la ventaja matemática natural del juego, no necesitan hacer trampa." },
+  { q: "¿Cuál es el mejor casino para jugar blackjack online en Perú?", a: "Betsson se lleva el primer puesto. Tiene licencia MINCETUR, más de 30 mesas de blackjack (incluyendo en vivo con dealers en español), y el bono de 300 giros gratis te permite empezar con colchón. Ahora, si lo que quieres es la mayor variedad de mesas posible, FRESH Casino tiene 45+ mesas con variantes como Infinite Blackjack y Lightning Blackjack que no vas a encontrar fácil en otro lado." },
+  { q: "¿La estrategia básica de blackjack realmente funciona?", a: "Sí, y no es opinión: es matemática pura. La estrategia básica reduce la ventaja del casino de un 2-3% a apenas 0.5%. La probamos durante 500 manos en Betsson y la diferencia contra jugar por instinto fue clarísima. No vas a ganar todas las manos (eso no existe), pero a largo plazo pierdes MUCHO menos. Es literalmente la diferencia entre quemar tu bankroll en una hora o que te dure toda la noche." },
+  { q: "¿El blackjack online está trucado?", a: "No, si juegas en casinos con licencia. Los casinos con licencia MINCETUR usan generadores de números aleatorios (RNG) auditados por laboratorios independientes como eCOGRA y iTech Labs. En el blackjack en vivo ni siquiera hay RNG: ves al dealer repartir cartas reales en tiempo real. Literalmente no hay forma de trucar eso. Los casinos ganan por la ventaja matemática natural del juego, no necesitan hacer trampa." },
   { q: "¿Puedo contar cartas en el blackjack online?", a: "En teoría sí, en la práctica no sirve de nada. En las mesas virtuales (RNG) las cartas se mezclan después de cada mano, así que el conteo no tiene sentido. En las mesas en vivo, la penetración del zapato es muy baja (50-60%), las barajas se mezclan frecuentemente y hay 8 mazos. No pierdas el tiempo intentándolo online. El conteo solo funciona en casinos físicos con condiciones muy específicas." },
-  { q: "¿Qué es Infinite Blackjack?", a: "Es una variante de Evolution Gaming donde no hay límite de jugadores en la mesa. Todos reciben las mismas cartas iniciales pero toman decisiones individuales. La ventaja es que siempre hay asiento disponible (nunca esperás) y los límites de apuesta arrancan bien bajos, tipo S/2. Es perfecta para principiantes porque podés jugar tranquilo sin presión." },
-  { q: "¿Cuál es la diferencia entre blackjack europeo y americano?", a: "La diferencia clave es cuándo el dealer recibe su segunda carta. En el americano, el dealer recibe dos cartas al inicio y puede revisar si tiene blackjack. En el europeo, el dealer solo recibe una carta y la segunda llega después de que todos los jugadores actuaron. Esto cambia la estrategia porque en el europeo podés doblar o dividir y que el dealer saque blackjack después, perdiendo toda tu apuesta extra. Por eso el americano es ligeramente más favorable para el jugador." },
-  { q: "¿Debo tomar el seguro (insurance)?", a: "No. Nunca. Jamás. Es la peor apuesta del blackjack y los casinos lo saben — por eso la ofrecen siempre. Matemáticamente, el seguro tiene una ventaja para la casa del 7.4%. Vos apostás la mitad de tu apuesta original a que el dealer tiene blackjack, y te pagan 2:1 si acertás. Pero las probabilidades no están a tu favor: solo 4 de 13 cartas valen 10. A largo plazo, el seguro te come el bankroll sin que te des cuenta." },
-  { q: "¿Cuánto es lo mínimo para jugar blackjack en vivo en Perú?", a: "Depende del casino y la mesa. En Infinite Blackjack (Evolution) podés arrancar desde S/2-5. Las mesas estándar de blackjack en vivo suelen empezar en S/10-25. Las mesas VIP o exclusivas pueden pedir S/100 o más. Betsson y FRESH tienen las mejores opciones para empezar con poco. Si estás aprendiendo, empezá con las mesas de apuesta mínima y no te apures." },
+  { q: "¿Qué es Infinite Blackjack?", a: "Es una variante de Evolution Gaming donde no hay límite de jugadores en la mesa. Todos reciben las mismas cartas iniciales pero toman decisiones individuales. La ventaja es que siempre hay asiento disponible (nunca esperas) y los límites de apuesta arrancan bien bajos, tipo S/2. Es perfecta para principiantes porque puedes jugar tranquilo sin presión." },
+  { q: "¿Cuál es la diferencia entre blackjack europeo y americano?", a: "La diferencia clave es cuándo el dealer recibe su segunda carta. En el americano, el dealer recibe dos cartas al inicio y puede revisar si tiene blackjack. En el europeo, el dealer solo recibe una carta y la segunda llega después de que todos los jugadores actuaron. Esto cambia la estrategia porque en el europeo puedes doblar o dividir y que el dealer saque blackjack después, perdiendo toda tu apuesta extra. Por eso el americano es ligeramente más favorable para el jugador." },
+  { q: "¿Debo tomar el seguro (insurance)?", a: "No. Nunca. Jamás. Es la peor apuesta del blackjack y los casinos lo saben — por eso la ofrecen siempre. Matemáticamente, el seguro tiene una ventaja para la casa del 7.4%. Tú apuestas la mitad de tu apuesta original a que el dealer tiene blackjack, y te pagan 2:1 si aciertas. Pero las probabilidades no están a tu favor: solo 4 de 13 cartas valen 10. A largo plazo, el seguro te come el bankroll sin que te des cuenta." },
+  { q: "¿Cuánto es lo mínimo para jugar blackjack en vivo en Perú?", a: "Depende del casino y la mesa. En Infinite Blackjack (Evolution) puedes arrancar desde S/2-5. Las mesas estándar de blackjack en vivo suelen empezar en S/10-25. Las mesas VIP o exclusivas pueden pedir S/100 o más. Betsson y FRESH tienen las mejores opciones para empezar con poco. Si estás aprendiendo, empieza con las mesas de apuesta mínima y no te apures." },
 ];
 
 const glossary = [
-  { term: "Hit (Pedir)", def: "Pedir una carta más al dealer. Si tu total supera 21, te pasás y perdés automáticamente." },
-  { term: "Stand (Plantarse)", def: "Quedarte con las cartas que tenés. No pedís más y esperás a ver qué hace el dealer." },
-  { term: "Double Down (Doblar)", def: "Duplicar tu apuesta original y recibir exactamente una carta más. Se usa cuando tenés ventaja clara (como 11 contra un 6 del dealer)." },
-  { term: "Split (Dividir)", def: "Si tenés dos cartas iguales, podés dividirlas en dos manos separadas, cada una con su propia apuesta. Siempre se dividen Ases y 8s." },
+  { term: "Hit (Pedir)", def: "Pedir una carta más al dealer. Si tu total supera 21, te pasas y pierdes automáticamente." },
+  { term: "Stand (Plantarse)", def: "Quedarte con las cartas que tienes. No pides más y esperas a ver qué hace el dealer." },
+  { term: "Double Down (Doblar)", def: "Duplicar tu apuesta original y recibir exactamente una carta más. Se usa cuando tienes ventaja clara (como 11 contra un 6 del dealer)." },
+  { term: "Split (Dividir)", def: "Si tienes dos cartas iguales, puedes dividirlas en dos manos separadas, cada una con su propia apuesta. Siempre se dividen Ases y 8s." },
   { term: "Surrender (Rendirse)", def: "Rendirte y recuperar la mitad de tu apuesta. Solo disponible en algunas variantes. Se usa contra manos muy fuertes del dealer." },
-  { term: "Insurance (Seguro)", def: "Apuesta lateral cuando el dealer muestra un As. Pagás la mitad de tu apuesta y cobrás 2:1 si el dealer tiene blackjack. Matemáticamente es una trampa — no lo tomes nunca." },
-  { term: "Push (Empate)", def: "Cuando vos y el dealer tenés el mismo total. Recuperás tu apuesta original sin ganar ni perder." },
-  { term: "Blackjack Natural", def: "As + carta de valor 10 (10, J, Q, K) en las dos primeras cartas. Paga 3:2 (o sea, apostás S/10 y ganás S/15). Cuidado con mesas que paguen 6:5." },
-  { term: "Soft Hand (Mano Blanda)", def: "Cualquier mano que incluya un As contado como 11. Por ejemplo, As+6 = soft 17. Es blanda porque no te podés pasar al pedir otra carta." },
+  { term: "Insurance (Seguro)", def: "Apuesta lateral cuando el dealer muestra un As. Pagas la mitad de tu apuesta y cobras 2:1 si el dealer tiene blackjack. Matemáticamente es una trampa — no lo tomes nunca." },
+  { term: "Push (Empate)", def: "Cuando tú y el dealer tienes el mismo total. Recuperas tu apuesta original sin ganar ni perder." },
+  { term: "Blackjack Natural", def: "As + carta de valor 10 (10, J, Q, K) en las dos primeras cartas. Paga 3:2 (o sea, apuestas S/10 y ganas S/15). Cuidado con mesas que paguen 6:5." },
+  { term: "Soft Hand (Mano Blanda)", def: "Cualquier mano que incluya un As contado como 11. Por ejemplo, As+6 = soft 17. Es blanda porque no te puedes pasar al pedir otra carta." },
   { term: "Hard Hand (Mano Dura)", def: "Mano sin As, o con As contado como 1. Por ejemplo, 10+7 = hard 17. Con mano dura hay riesgo real de pasarte al pedir." },
-  { term: "Bust (Pasarse)", def: "Superar 21. Perdés automáticamente, sin importar lo que tenga el dealer." },
+  { term: "Bust (Pasarse)", def: "Superar 21. Pierdes automáticamente, sin importar lo que tenga el dealer." },
   { term: "Shoe (Zapato)", def: "Dispositivo que contiene varios mazos de cartas (normalmente 6-8). El dealer saca las cartas del zapato." },
   { term: "Penetración", def: "Porcentaje del zapato que se reparte antes de mezclar. Mayor penetración = más favorable para el conteo de cartas (irrelevante online)." },
   { term: "House Edge (Ventaja de la Casa)", def: "Porcentaje de ventaja matemática del casino. En blackjack con estrategia básica perfecta es solo 0.5%, el más bajo de todo el casino." },
   { term: "Side Bet (Apuesta Lateral)", def: "Apuestas opcionales como Perfect Pairs o 21+3. Tienen house edge mucho más alto (5-10%) — son divertidas pero no rentables." },
-  { term: "3:2 vs 6:5", def: "La proporción de pago por blackjack natural. 3:2 es el estándar (ganás S/15 por cada S/10). 6:5 es peor (ganás S/12). NUNCA juegues en mesas 6:5 si hay opción 3:2." },
+  { term: "3:2 vs 6:5", def: "La proporción de pago por blackjack natural. 3:2 es el estándar (ganas S/15 por cada S/10). 6:5 es peor (ganas S/12). NUNCA juegues en mesas 6:5 si hay opción 3:2." },
 ];
 
 /* ───────── Components ───────── */
@@ -138,9 +138,9 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Inicio", item: "https://jugarcasinosonline.net/" },
-    { "@type": "ListItem", position: 2, name: "Perú", item: "https://jugarcasinosonline.net/peru/" },
-    { "@type": "ListItem", position: 3, name: "Blackjack Online", item: "https://jugarcasinosonline.net/peru/blackjack-online/" },
+    { "@type": "ListItem", position: 1, name: "Inicio", item: "https://www.jugarcasinosonline.net/" },
+    { "@type": "ListItem", position: 2, name: "Perú", item: "https://www.jugarcasinosonline.net/peru/" },
+    { "@type": "ListItem", position: 3, name: "Blackjack Online", item: "https://www.jugarcasinosonline.net/peru/blackjack-online/" },
   ],
 };
 
@@ -178,7 +178,7 @@ export default function BlackjackOnlinePeru() {
           </nav>
 
           <div className="inline-flex items-center gap-2.5 rounded-full bg-white/[0.05] border border-white/[0.08] px-5 py-2 mb-8 backdrop-blur-sm">
-            <span className="w-2 h-2 rounded-full bg-[#22c55e] animate-pulse" />
+            <span className="w-2 h-2 rounded-full bg-[#22c55e] anímate-pulse" />
             <span className="text-sm font-semibold text-[#9ca3af]">Guía actualizada {LAST_UPDATED}</span>
           </div>
 
@@ -189,7 +189,7 @@ export default function BlackjackOnlinePeru() {
           </h1>
 
           <p className="text-xl sm:text-2xl text-[#9ca3af] max-w-3xl mb-4 font-medium leading-relaxed">
-            El blackjack es el único juego del casino donde podés reducir la ventaja de la casa a menos del 1% si sabés lo que hacés. Eso no es marketing, es matemática. Y en Perú hoy tenés acceso a mesas de blackjack en vivo con dealers que hablan español, variantes como Infinite Blackjack y Lightning Blackjack, y todo desde el celular con Yape o Plin.
+            El blackjack es el único juego del casino donde puedes reducir la ventaja de la casa a menos del 1% si sabes lo que haces. Eso no es marketing, es matemática. Y en Perú hoy tienes acceso a mesas de blackjack en vivo con dealers que hablan español, variantes como Infinite Blackjack y Lightning Blackjack, y todo desde el celular con Yape o Plin.
           </p>
           <p className="text-base text-[#71717a] max-w-2xl leading-relaxed">
             Nos sentamos a jugar blackjack en los 8 casinos más populares disponibles para peruanos. Evaluamos la variedad de mesas, si te dejan doblar y dividir cuando corresponde (hay casinos que restringen esto), la calidad del streaming en vivo, los límites de apuesta y obviamente si pagan sin hacerte drama. Acá te contamos todo lo que encontramos.
@@ -237,12 +237,12 @@ export default function BlackjackOnlinePeru() {
         <SectionTitle>Cómo Jugar Blackjack — Reglas Completas</SectionTitle>
 
         <p className="text-[#9ca3af] leading-relaxed mb-6 max-w-4xl">
-          Si nunca jugaste blackjack o siempre jugaste &quot;a ojo&quot;, acá te explicamos todo desde cero. Y si ya sabés jugar, seguro hay algún detalle que no conocías (nos pasó a nosotros cuando investigamos para esta guía).
+          Si nunca jugaste blackjack o siempre jugaste &quot;a ojo&quot;, acá te explicamos todo desde cero. Y si ya sabes jugar, seguro hay algún detalle que no conocías (nos pasó a nosotros cuando investigamos para esta guía).
         </p>
 
         <h3 className="text-xl font-black text-white mb-3">El objetivo del juego</h3>
         <p className="text-[#9ca3af] leading-relaxed mb-4">
-          Mucha gente piensa que el objetivo del blackjack es llegar a 21. No exactamente. El objetivo real es ganarle al dealer. Podés ganar con 15 si el dealer se pasa de 21. Podés perder con 20 si el dealer saca 21. El número mágico no es 21 — es tener más que el dealer sin pasarte. Esa distinción es clave porque cambia completamente cómo tomás decisiones.
+          Mucha gente piensa que el objetivo del blackjack es llegar a 21. No exactamente. El objetivo real es ganarle al dealer. Puedes ganar con 15 si el dealer se pasa de 21. Puedes perder con 20 si el dealer saca 21. El número mágico no es 21 — es tener más que el dealer sin pasarte. Esa distinción es clave porque cambia completamente cómo tomas decisiones.
         </p>
 
         <h3 className="text-xl font-black text-white mb-3">Valor de las cartas</h3>
@@ -266,42 +266,42 @@ export default function BlackjackOnlinePeru() {
           Así funciona cada mano paso a paso (probamos cientos en Betsson y FRESH para confirmar que todos siguen el mismo proceso):
         </p>
         <ol className="space-y-3 mb-6 text-[#d4d4d8] text-sm">
-          <li className="flex gap-3"><span className="text-[#fbbf24] font-black shrink-0">1.</span>Hacés tu apuesta antes de que se repartan las cartas.</li>
-          <li className="flex gap-3"><span className="text-[#fbbf24] font-black shrink-0">2.</span>Recibís dos cartas boca arriba. El dealer recibe una boca arriba y una boca abajo (en blackjack americano).</li>
-          <li className="flex gap-3"><span className="text-[#fbbf24] font-black shrink-0">3.</span>Evaluás tu mano y decidís: pedir (hit), plantarte (stand), doblar (double), dividir (split) o rendirte (surrender).</li>
+          <li className="flex gap-3"><span className="text-[#fbbf24] font-black shrink-0">1.</span>Haces tu apuesta antes de que se repartan las cartas.</li>
+          <li className="flex gap-3"><span className="text-[#fbbf24] font-black shrink-0">2.</span>Recibes dos cartas boca arriba. El dealer recibe una boca arriba y una boca abajo (en blackjack americano).</li>
+          <li className="flex gap-3"><span className="text-[#fbbf24] font-black shrink-0">3.</span>Evaluás tu mano y decides: pedir (hit), plantarte (stand), doblar (double), dividir (split) o rendirte (surrender).</li>
           <li className="flex gap-3"><span className="text-[#fbbf24] font-black shrink-0">4.</span>Cuando todos los jugadores terminaron, el dealer revela su carta oculta.</li>
           <li className="flex gap-3"><span className="text-[#fbbf24] font-black shrink-0">5.</span>El dealer DEBE pedir con 16 o menos y plantarse con 17 o más (en la mayoría de variantes).</li>
-          <li className="flex gap-3"><span className="text-[#fbbf24] font-black shrink-0">6.</span>Si tu mano es más alta que la del dealer sin pasarte de 21, ganás. Si el dealer se pasa y vos no, también ganás.</li>
+          <li className="flex gap-3"><span className="text-[#fbbf24] font-black shrink-0">6.</span>Si tu mano es más alta que la del dealer sin pasarte de 21, ganas. Si el dealer se pasa y tú no, también ganas.</li>
         </ol>
 
-        <h3 className="text-xl font-black text-white mb-3">Las acciones que podés tomar</h3>
+        <h3 className="text-xl font-black text-white mb-3">Las acciones que puedes tomar</h3>
 
         <div className="space-y-4 mb-6">
           <div className="rounded-xl bg-[#141414] border border-white/[0.06] p-5">
             <h4 className="text-[#22c55e] font-bold mb-2">Hit (Pedir) 👆</h4>
-            <p className="text-sm text-[#9ca3af]">Pedís otra carta. Podés pedir las veces que quieras, pero si tu total supera 21 te pasaste y perdés al toque. Ejemplo: tenés 8+5=13, pedís y sale un 7, ahora tenés 20. Bien ahí. Pero si hubiese salido un 9, tendrías 22 y chau.</p>
+            <p className="text-sm text-[#9ca3af]">Pides otra carta. Puedes pedir las veces que quieras, pero si tu total supera 21 te pasaste y pierdes al toque. Ejemplo: tienes 8+5=13, pides y sale un 7, ahora tienes 20. Bien ahí. Pero si hubiese salido un 9, tendrías 22 y chau.</p>
           </div>
           <div className="rounded-xl bg-[#141414] border border-white/[0.06] p-5">
             <h4 className="text-[#f59e0b] font-bold mb-2">Stand (Plantarse) ✋</h4>
-            <p className="text-sm text-[#9ca3af]">Te quedás con lo que tenés. No pedís más cartas. Generalmente te plantás con 17 o más (hay excepciones, las vemos en la estrategia básica). También te plantás si el dealer tiene una carta baja y creés que se va a pasar.</p>
+            <p className="text-sm text-[#9ca3af]">Te quedas con lo que tienes. No pides más cartas. Generalmente te plantas con 17 o más (hay excepciones, las vemos en la estrategia básica). También te plantas si el dealer tiene una carta baja y crees que se va a pasar.</p>
           </div>
           <div className="rounded-xl bg-[#141414] border border-white/[0.06] p-5">
             <h4 className="text-[#dc2626] font-bold mb-2">Double Down (Doblar) ⬆️</h4>
-            <p className="text-sm text-[#9ca3af]">Duplicás tu apuesta y recibís exactamente una carta más. Es la jugada más rentable del blackjack cuando se usa bien. ¿Cuándo doblar? Cuando tenés 11 contra casi cualquier carta del dealer, cuando tenés 10 contra 2-9, y en ciertas manos blandas. Es donde se hace la plata de verdad en el blackjack.</p>
+            <p className="text-sm text-[#9ca3af]">Duplicas tu apuesta y recibes exactamente una carta más. Es la jugada más rentable del blackjack cuando se usa bien. ¿Cuándo doblar? Cuando tienes 11 contra casi cualquier carta del dealer, cuando tienes 10 contra 2-9, y en ciertas manos blandas. Es donde se hace la plata de verdad en el blackjack.</p>
           </div>
           <div className="rounded-xl bg-[#141414] border border-white/[0.06] p-5">
             <h4 className="text-[#a855f7] font-bold mb-2">Split (Dividir) ✌️</h4>
-            <p className="text-sm text-[#9ca3af]">Si tenés dos cartas iguales (ej: 8-8), podés dividirlas en dos manos separadas. Cada mano recibe una nueva carta y se juega de forma independiente. Regla de oro: SIEMPRE dividir Ases y 8s. NUNCA dividir 10s, figuras ni 5s. El resto depende de la carta del dealer (lo vemos en la tabla de estrategia).</p>
+            <p className="text-sm text-[#9ca3af]">Si tienes dos cartas iguales (ej: 8-8), puedes dividirlas en dos manos separadas. Cada mano recibe una nueva carta y se juega de forma independiente. Regla de oro: SIEMPRE dividir Ases y 8s. NUNCA dividir 10s, figuras ni 5s. El resto depende de la carta del dealer (lo vemos en la tabla de estrategia).</p>
           </div>
           <div className="rounded-xl bg-[#141414] border border-white/[0.06] p-5">
             <h4 className="text-[#71717a] font-bold mb-2">Surrender (Rendirse) 🏳️</h4>
-            <p className="text-sm text-[#9ca3af]">Tirás tu mano y recuperás la mitad de tu apuesta. No todos los casinos la ofrecen. Se usa en situaciones muy desfavorables, como 16 contra un 10 del dealer. Es mejor perder la mitad que perder todo. Betsson y FRESH ofrecen surrender en algunas mesas.</p>
+            <p className="text-sm text-[#9ca3af]">Tiras tu mano y recuperas la mitad de tu apuesta. No todos los casinos la ofrecen. Se usa en situaciones muy desfavorables, como 16 contra un 10 del dealer. Es mejor perder la mitad que perder todo. Betsson y FRESH ofrecen surrender en algunas mesas.</p>
           </div>
         </div>
 
         <h3 className="text-xl font-black text-white mb-3">Blackjack Natural — La mano soñada</h3>
         <p className="text-[#9ca3af] leading-relaxed mb-4">
-          As + cualquier carta de valor 10 (10, J, Q, K) en las primeras dos cartas. Paga 3:2 en mesas normales, lo que significa que si apostaste S/20, ganás S/30. Ojo acá: hay mesas que pagan solo 6:5, que significa S/24 por los mismos S/20. Parece poca diferencia pero a largo plazo es ENORME. Siempre buscá mesas 3:2. En Betsson todas las mesas de blackjack en vivo pagan 3:2, lo verificamos personalmente.
+          As + cualquier carta de valor 10 (10, J, Q, K) en las primeras dos cartas. Paga 3:2 en mesas normales, lo que significa que si apostaste S/20, ganas S/30. Ojo acá: hay mesas que pagan solo 6:5, que significa S/24 por los mismos S/20. Parece poca diferencia pero a largo plazo es ENORME. Siempre busca mesas 3:2. En Betsson todas las mesas de blackjack en vivo pagan 3:2, lo verificamos personalmente.
         </p>
 
         <h3 className="text-xl font-black text-white mb-3">¿Y el seguro? (Insurance)</h3>
@@ -319,11 +319,11 @@ export default function BlackjackOnlinePeru() {
         <SectionTitle>Estrategia Básica Completa de Blackjack</SectionTitle>
 
         <p className="text-[#9ca3af] leading-relaxed mb-4 max-w-4xl">
-          La estrategia básica no es una opinión ni un sistema inventado. Es la jugada matemáticamente óptima para cada combinación posible de tu mano y la carta del dealer. Fue calculada por computadoras simulando millones de manos. Seguirla reduce la ventaja del casino del 2-3% a apenas 0.5%. Y no, no necesitás memorizarla toda — con la tabla a mano ya estás.
+          La estrategia básica no es una opinión ni un sistema inventado. Es la jugada matemáticamente óptima para cada combinación posible de tu mano y la carta del dealer. Fue calculada por computadoras simulando millones de manos. Seguirla reduce la ventaja del casino del 2-3% a apenas 0.5%. Y no, no necesitas memorizarla toda — con la tabla a mano ya estás.
         </p>
 
         <div className="rounded-xl bg-[#dc2626]/[0.06] border border-[#dc2626]/20 p-5 mb-8">
-          <p className="text-sm text-[#d4d4d8]"><strong className="text-[#dc2626]">Dato clave:</strong> Sin estrategia básica, la ventaja de la casa es 2-3%. Con estrategia básica perfecta, baja a 0.5%. Es la diferencia entre perder S/20-30 por hora y perder S/5 por hora (con apuestas promedio de S/10). En una sesión de 3 horas, hablamos de S/60-90 vs S/15. Hacé las cuentas.</p>
+          <p className="text-sm text-[#d4d4d8]"><strong className="text-[#dc2626]">Dato clave:</strong> Sin estrategia básica, la ventaja de la casa es 2-3%. Con estrategia básica perfecta, baja a 0.5%. Es la diferencia entre perder S/20-30 por hora y perder S/5 por hora (con apuestas promedio de S/10). En una sesión de 3 horas, hablamos de S/60-90 vs S/15. Haz las cuentas.</p>
         </div>
 
         <h3 className="text-xl font-black text-white mb-4">Tabla de Estrategia Básica — Manos Duras</h3>
@@ -459,18 +459,18 @@ export default function BlackjackOnlinePeru() {
         </div>
 
         <div className="rounded-xl bg-[#22c55e]/[0.06] border border-[#22c55e]/20 p-5 mb-6">
-          <p className="text-sm text-[#d4d4d8]"><strong className="text-[#22c55e]">Tip práctico:</strong> No necesitás memorizar toda la tabla. Empezá por las reglas más importantes: siempre dividir Ases y 8s, nunca dividir 10s ni 5s, plantarte con 17+, y doblar con 11. Solo esas reglas ya te ponen muy por encima del jugador promedio. Después vas incorporando el resto a medida que jugás.</p>
+          <p className="text-sm text-[#d4d4d8]"><strong className="text-[#22c55e]">Tip práctico:</strong> No necesitas memorizar toda la tabla. Empieza por las reglas más importantes: siempre dividir Ases y 8s, nunca dividir 10s ni 5s, plantarte con 17+, y doblar con 11. Solo esas reglas ya te ponen muy por encima del jugador promedio. Después vas incorporando el resto a medida que juegas.</p>
         </div>
 
         <h3 className="text-xl font-black text-white mb-3">Decisiones clave explicadas</h3>
         <p className="text-[#9ca3af] leading-relaxed mb-3">
-          <strong className="text-white">¿Por qué siempre dividir 8s?</strong> Porque 16 es la peor mano del blackjack. Si pedís, te pasás con cualquier carta mayor a 5. Si te plantás, el dealer te gana con 17+. Al dividir, convertís una mano horrible en dos manos con potencial (8 es un buen inicio). Probamos esto 100 veces en FRESH Casino: dividir 8s vs plantarse con 16. La diferencia fue brutal — con 16 perdimos el 70% de las manos, dividiendo 8s ganamos el 43%.
+          <strong className="text-white">¿Por qué siempre dividir 8s?</strong> Porque 16 es la peor mano del blackjack. Si pides, te pasas con cualquier carta mayor a 5. Si te plantas, el dealer te gana con 17+. Al dividir, conviertes una mano horrible en dos manos con potencial (8 es un buen inicio). Probamos esto 100 veces en FRESH Casino: dividir 8s vs plantarse con 16. La diferencia fue brutal — con 16 perdimos el 70% de las manos, dividiendo 8s ganamos el 43%.
         </p>
         <p className="text-[#9ca3af] leading-relaxed mb-3">
-          <strong className="text-white">¿Por qué nunca dividir 10s?</strong> Porque 20 es una mano excelente. Ganás contra casi todo. Dividirlos es convertir una mano casi ganada en dos manos inciertas. Sí, puede salir bien a veces, pero matemáticamente perdés plata a largo plazo. Cada vez que veas a alguien dividir 10s en una mesa en vivo, sabé que está regalando guita.
+          <strong className="text-white">¿Por qué nunca dividir 10s?</strong> Porque 20 es una mano excelente. Ganas contra casi todo. Dividirlos es convertir una mano casi ganada en dos manos inciertas. Sí, puede salir bien a veces, pero matemáticamente pierdes plata a largo plazo. Cada vez que veas a alguien dividir 10s en una mesa en vivo, date cuenta de que está regalando plata.
         </p>
         <p className="text-[#9ca3af] leading-relaxed mb-6">
-          <strong className="text-white">¿Por qué doblar con 11?</strong> Porque con 11 no te podés pasar (cualquier carta te deja en 12-21) y tenés buena chance de sacar 20 o 21. Es la situación más favorable para doblar la apuesta. Contra un dealer mostrando 2-9, el doblar con 11 tiene un valor esperado positivo altísimo. Es donde se hace la diferencia real en el blackjack.
+          <strong className="text-white">¿Por qué doblar con 11?</strong> Porque con 11 no te puedes pasar (cualquier carta te deja en 12-21) y tienes buena chance de sacar 20 o 21. Es la situación más favorable para doblar la apuesta. Contra un dealer mostrando 2-9, el doblar con 11 tiene un valor esperado positivo altísimo. Es donde se hace la diferencia real en el blackjack.
         </p>
 
         <div className="flex justify-center">
@@ -483,55 +483,55 @@ export default function BlackjackOnlinePeru() {
         <SectionTitle>Variantes de Blackjack Online</SectionTitle>
 
         <p className="text-[#9ca3af] leading-relaxed mb-8 max-w-4xl">
-          No todo el blackjack es igual. Hay variantes que cambian las reglas, la velocidad, los pagos y hasta agregan multiplicadores. Acá te explicamos cada una para que sepas exactamente qué estás jugando cuando entrás a una mesa.
+          No todo el blackjack es igual. Hay variantes que cambian las reglas, la velocidad, los pagos y hasta agregan multiplicadores. Acá te explicamos cada una para que sepas exactamente qué estás jugando cuando entras a una mesa.
         </p>
 
         <div className="space-y-6 mb-8">
           <div className="rounded-xl bg-[#141414] border border-white/[0.06] p-6">
             <h3 className="text-lg font-black text-[#fbbf24] mb-2">Blackjack Clásico (6-8 barajas)</h3>
             <p className="text-[#9ca3af] text-sm leading-relaxed mb-2">
-              El estándar. Seis u ocho barajas en el zapato, dealer se planta en soft 17 (en la mayoría de mesas), blackjack paga 3:2, podés doblar en cualquier mano y dividir hasta 3 veces. Es la versión que deberías jugar si estás empezando porque toda la estrategia básica está diseñada para esta variante. House edge: 0.5% con estrategia perfecta.
+              El estándar. Seis u ocho barajas en el zapato, dealer se planta en soft 17 (en la mayoría de mesas), blackjack paga 3:2, puedes doblar en cualquier mano y dividir hasta 3 veces. Es la versión que deberías jugar si estás empezando porque toda la estrategia básica está diseñada para esta variante. House edge: 0.5% con estrategia perfecta.
             </p>
             <p className="text-[#9ca3af] text-sm leading-relaxed">
-              Lo probamos extensivamente en Betsson y FRESH. Las mesas de FRESH tienen una variante donde el dealer pide en soft 17, lo cual sube el house edge un poquito (0.2% más). No es un drama, pero fijate en las reglas antes de sentarte.
+              Lo probamos extensivamente en Betsson y FRESH. Las mesas de FRESH tienen una variante donde el dealer pide en soft 17, lo cual sube el house edge un poquito (0.2% más). No es un drama, pero fíjate en las reglas antes de sentarte.
             </p>
           </div>
 
           <div className="rounded-xl bg-[#141414] border border-white/[0.06] p-6">
             <h3 className="text-lg font-black text-[#3b82f6] mb-2">Blackjack Europeo (2 barajas)</h3>
             <p className="text-[#9ca3af] text-sm leading-relaxed">
-              Usa solo 2 barajas, lo cual técnicamente es mejor para el jugador. Pero ojo: el dealer no recibe la segunda carta hasta que todos los jugadores actuaron. ¿Qué significa? Que si doblás o dividís, y después el dealer saca blackjack, perdés toda tu apuesta extra. En el americano, el dealer revisa antes y al menos te ahorrarías esa plata. Disponible en SOL Casino y Betsson.
+              Usa solo 2 barajas, lo cual técnicamente es mejor para el jugador. Pero ojo: el dealer no recibe la segunda carta hasta que todos los jugadores actuaron. ¿Qué significa? Que si doblas o divides, y después el dealer saca blackjack, pierdes toda tu apuesta extra. En el americano, el dealer revisa antes y al menos te ahorrarías esa plata. Disponible en SOL Casino y Betsson.
             </p>
           </div>
 
           <div className="rounded-xl bg-[#141414] border border-white/[0.06] p-6">
             <h3 className="text-lg font-black text-[#22c55e] mb-2">Infinite Blackjack (Evolution)</h3>
             <p className="text-[#9ca3af] text-sm leading-relaxed mb-2">
-              La variante más popular del blackjack en vivo. Jugadores ilimitados, todos reciben las mismas cartas iniciales pero toman decisiones individuales. No tenés que esperar a que se libere un asiento. Las apuestas arrancan desde S/2-5, lo que lo hace perfecto para principiantes o para jugar con poco bankroll.
+              La variante más popular del blackjack en vivo. Jugadores ilimitados, todos reciben las mismas cartas iniciales pero toman decisiones individuales. No tienes que esperar a que se libere un asiento. Las apuestas arrancan desde S/2-5, lo que lo hace perfecto para principiantes o para jugar con poco bankroll.
             </p>
             <p className="text-[#9ca3af] text-sm leading-relaxed">
-              Lo que más nos gustó: incluye 4 side bets opcionales (Any Pair, 21+3, Hot 3, Bust It) y una regla especial de &quot;Six Card Charlie&quot; — si sacás 6 cartas sin pasarte de 21, ganás automáticamente. Disponible en Betsson, FRESH, SOL y STARDA. Lo jugamos una noche entera en Betsson y la experiencia fue excelente.
+              Lo que más nos gustó: incluye 4 side bets opcionales (Any Pair, 21+3, Hot 3, Bust It) y una regla especial de &quot;Six Card Charlie&quot; — si sacas 6 cartas sin pasarte de 21, ganas automáticamente. Disponible en Betsson, FRESH, SOL y STARDA. Lo jugamos una noche entera en Betsson y la experiencia fue excelente.
             </p>
           </div>
 
           <div className="rounded-xl bg-[#141414] border border-white/[0.06] p-6">
             <h3 className="text-lg font-black text-[#dc2626] mb-2">Lightning Blackjack (Evolution)</h3>
             <p className="text-[#9ca3af] text-sm leading-relaxed">
-              Blackjack con multiplicadores aleatorios. Antes de cada mano, se seleccionan cartas aleatorias con multiplicadores de x2 a x25. Si ganás la mano y tu carta tiene multiplicador, tu pago se multiplica. El catch: hay una comisión del 100% sobre tu apuesta (apostás doble básicamente). Es divertido y puede dar pagos enormes, pero matemáticamente el house edge es más alto que el blackjack clásico. Jugalo por diversión, no como tu mesa principal.
+              Blackjack con multiplicadores aleatorios. Antes de cada mano, se seleccionan cartas aleatorias con multiplicadores de x2 a x25. Si ganas la mano y tu carta tiene multiplicador, tu pago se multiplica. El catch: hay una comisión del 100% sobre tu apuesta (apuestas doble básicamente). Es divertido y puede dar pagos enormes, pero matemáticamente el house edge es más alto que el blackjack clásico. Juégalo por diversión, no como tu mesa principal.
             </p>
           </div>
 
           <div className="rounded-xl bg-[#141414] border border-white/[0.06] p-6">
             <h3 className="text-lg font-black text-[#a855f7] mb-2">Speed Blackjack (Evolution)</h3>
             <p className="text-[#9ca3af] text-sm leading-relaxed">
-              Blackjack en vivo turbo. Todos los jugadores reciben cartas al mismo tiempo y los que deciden más rápido juegan primero. Una mano dura unos 25-30 segundos en vez de los 50-60 del blackjack normal. Perfecto si ya sabés bien la estrategia básica y querés más acción por hora. Lo probamos en FRESH y jugamos 80 manos en una hora, casi el doble que en una mesa normal.
+              Blackjack en vivo turbo. Todos los jugadores reciben cartas al mismo tiempo y los que deciden más rápido juegan primero. Una mano dura unos 25-30 segundos en vez de los 50-60 del blackjack normal. Perfecto si ya sabes bien la estrategia básica y quieres más acción por hora. Lo probamos en FRESH y jugamos 80 manos en una hora, casi el doble que en una mesa normal.
             </p>
           </div>
 
           <div className="rounded-xl bg-[#141414] border border-white/[0.06] p-6">
             <h3 className="text-lg font-black text-[#06b6d4] mb-2">Free Bet Blackjack (Evolution)</h3>
             <p className="text-[#9ca3af] text-sm leading-relaxed">
-              Acá viene lo interesante: el casino te paga las dobladas y splits en ciertas manos. Si tenés un hard 9, 10 u 11, podés doblar gratis. Si tenés par (excepto 10s), podés dividir gratis. Suena genial, ¿no? El trade-off: si el dealer saca 22, es push (empate) en vez de perder. Esto sube el house edge, pero la posibilidad de doblar gratis lo compensa bastante si jugás bien. Disponible en MONRO y STARDA.
+              Acá viene lo interesante: el casino te paga las dobladas y splits en ciertas manos. Si tienes un hard 9, 10 u 11, puedes doblar gratis. Si tienes par (excepto 10s), puedes dividir gratis. Suena genial, ¿no? El trade-off: si el dealer saca 22, es push (empate) en vez de perder. Esto sube el house edge, pero la posibilidad de doblar gratis lo compensa bastante si juegas bien. Disponible en MONRO y STARDA.
             </p>
           </div>
         </div>
@@ -551,7 +551,7 @@ export default function BlackjackOnlinePeru() {
             <tbody className="text-[#d4d4d8] text-sm">
               {[
                 ["Clásico", "6-8", "0.50%", "Normal", "Mejor opción general"],
-                ["Europeo", "2", "0.62%", "Normal", "Bueno si no doblás/dividís mucho"],
+                ["Europeo", "2", "0.62%", "Normal", "Bueno si no doblas/divides mucho"],
                 ["Infinite BJ", "8", "0.57%", "Normal", "Ideal para principiantes"],
                 ["Lightning BJ", "8", "~1.0%", "Normal", "Solo por diversión"],
                 ["Speed BJ", "8", "0.50%", "Rápido", "Para jugadores experimentados"],
@@ -594,7 +594,7 @@ export default function BlackjackOnlinePeru() {
             Probamos las mesas en vivo un miércoles a las 11pm (hora típica de juego en Perú) y encontramos 15 mesas activas con asientos disponibles. Los dealers eran profesionales, hablaban español fluido, y la velocidad del juego era perfecta — ni muy lenta ni apurada. El streaming HD funcionó sin un solo corte durante 2 horas de juego. Las apuestas arrancaron en S/5 en Infinite Blackjack y S/25 en las mesas estándar.
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-3">
-            El bono de 300 giros gratis te sirve más para slots, pero una vez que tenés fondos podés usarlos en las mesas de blackjack sin problema. Los retiros los procesaron en menos de 2 horas con Yape. Eso sí, verificá tu cuenta antes de jugar porque si no te van a pedir documentos al momento de retirar y vas a tener que esperar.
+            El bono de 300 giros gratis te sirve más para slots, pero una vez que tienes fondos puedes usarlos en las mesas de blackjack sin problema. Los retiros los procesaron en menos de 2 horas con Yape. Eso sí, verifica tu cuenta antes de jugar porque si no te van a pedir documentos al momento de retirar y vas a tener que esperar.
           </p>
 
           <ProsCons
@@ -629,10 +629,10 @@ export default function BlackjackOnlinePeru() {
           <div className="h-1 w-24 bg-gradient-to-r from-[#3b82f6] to-transparent rounded mb-6" />
 
           <p className="text-[#9ca3af] leading-relaxed mb-3">
-            FRESH tiene la mayor cantidad de mesas de blackjack del ranking: más de 45. Eso incluye variantes de Evolution, Pragmatic Play y Ezugi. Si buscás variedad pura, este es tu casino. Encontramos mesas que no vimos en ningún otro sitio, como Blackjack Party (donde los dealers son más informales y charlan con los jugadores, tipo streaming) y Salon Privé para high rollers.
+            FRESH tiene la mayor cantidad de mesas de blackjack del ranking: más de 45. Eso incluye variantes de Evolution, Pragmatic Play y Ezugi. Si buscas variedad pura, este es tu casino. Encontramos mesas que no vimos en ningún otro sitio, como Blackjack Party (donde los dealers son más informales y charlan con los jugadores, tipo streaming) y Salon Privé para high rollers.
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-3">
-            La experiencia de juego es sólida. El streaming fue impecable, las mesas tienen buen ritmo y los límites arrancan bajo (desde S/2 en Infinite Blackjack). Lo que más nos gustó es que tiene mesas de blackjack virtual (RNG) donde podés practicar la estrategia básica sin gastar un sol — en modo demo. Eso es ideal si estás aprendiendo.
+            La experiencia de juego es sólida. El streaming fue impecable, las mesas tienen buen ritmo y los límites arrancan bajo (desde S/2 en Infinite Blackjack). Lo que más nos gustó es que tiene mesas de blackjack virtual (RNG) donde puedes practicar la estrategia básica sin gastar un sol — en modo demo. Eso es ideal si estás aprendiendo.
           </p>
 
           <ProsCons
@@ -648,7 +648,7 @@ export default function BlackjackOnlinePeru() {
           <div className="h-1 w-24 bg-gradient-to-r from-[#a855f7] to-transparent rounded mb-6" />
 
           <p className="text-[#9ca3af] leading-relaxed mb-3">
-            SOL es el casino más amigable para principiantes en blackjack. ¿Por qué? Porque la interfaz es ridículamente clara. Cada vez que te toca actuar, te muestra qué opciones tenés de forma visual. No tenés que adivinar si podés doblar o dividir — todo está ahí. Además, el rollover del bono (x30) es el más bajo del ranking, así que si usás el bono y jugás blackjack, podés cumplirlo más rápido.
+            SOL es el casino más amigable para principiantes en blackjack. ¿Por qué? Porque la interfaz es ridículamente clara. Cada vez que te toca actuar, te muestra qué opciones tienes de forma visual. No tienes que adivinar si puedes doblar o dividir — todo está ahí. Además, el rollover del bono (x30) es el más bajo del ranking, así que si usas el bono y juegas blackjack, puedes cumplirlo más rápido.
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-3">
             Ojo con un detalle: SOL tiene menos mesas de blackjack que FRESH (35+ vs 45+), pero las que tiene son de buena calidad. Evolution Gaming provee todas las mesas en vivo y la experiencia es premium. El cashback del 15% semanal sin rollover también aplica a las pérdidas en blackjack, lo cual es raro — la mayoría de casinos excluyen las mesas.
@@ -666,7 +666,7 @@ export default function BlackjackOnlinePeru() {
           <h3 className="text-2xl sm:text-3xl font-black text-[#06b6d4] mb-2">7. MONRO Casino <span className="text-[#22c55e] font-black text-xl ml-3">8.7/10</span></h3>
 
           <p className="text-[#9ca3af] leading-relaxed mb-3">
-            MONRO destaca por tener el mejor bono para jugar blackjack: 150% en tu primer depósito. El truco es que el blackjack contribuye al rollover, aunque a una tasa reducida (generalmente 10-20% del rollover cuenta por mano). Aun así, es el bono más grande que vas a encontrar. Si metés S/200, jugás con S/500.
+            MONRO destaca por tener el mejor bono para jugar blackjack: 150% en tu primer depósito. El truco es que el blackjack contribuye al rollover, aunque a una tasa reducida (generalmente 10-20% del rollover cuenta por mano). Aun así, es el bono más grande que vas a encontrar. Si metes S/200, juegas con S/500.
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-3">
             Las mesas de blackjack son correctas — 25+ disponibles con Evolution y Ezugi. No tiene la variedad de FRESH pero cubre todo lo esencial: Infinite, Speed, Lightning y mesas clásicas. Lo que nos sorprendió es que tiene Free Bet Blackjack, que es difícil de encontrar en otros casinos del ranking. Si te gusta doblar gratis cuando te sale 11, MONRO es tu lugar.
@@ -690,7 +690,7 @@ export default function BlackjackOnlinePeru() {
             STARDA es más conocido por sus slots y torneos, pero la sección de blackjack sorprende. Tiene 20+ mesas, incluyendo una selección de blackjack en vivo con dealers en español que no habíamos visto en los otros casinos de Curaçao. La velocidad de las mesas es buena y los límites son razonables.
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-3">
-            Lo que nos enganchó de STARDA es la competitividad. Tienen torneos de casino en vivo donde el blackjack cuenta, así que además de ganar en la mesa, podés subir en el ranking del torneo y ganar premios extra. Es el único casino del ranking que ofrece esto. Si te gusta el blackjack competitivo, vale la pena probarlo.
+            Lo que nos enganchó de STARDA es la competitividad. Tienen torneos de casino en vivo donde el blackjack cuenta, así que además de ganar en la mesa, puedes subir en el ranking del torneo y ganar premios extra. Es el único casino del ranking que ofrece esto. Si te gusta el blackjack competitivo, vale la pena probarlo.
           </p>
 
           <ProsCons
@@ -714,18 +714,18 @@ export default function BlackjackOnlinePeru() {
             <h3 className="text-lg font-black text-[#22c55e] mb-4">Blackjack en Vivo</h3>
             <ul className="space-y-3 text-sm text-[#d4d4d8]">
               <li className="flex gap-2"><span className="text-[#22c55e] shrink-0">✓</span>Dealers reales repartiendo cartas físicas en tiempo real</li>
-              <li className="flex gap-2"><span className="text-[#22c55e] shrink-0">✓</span>Experiencia social — podés chatear con el dealer y otros jugadores</li>
+              <li className="flex gap-2"><span className="text-[#22c55e] shrink-0">✓</span>Experiencia social — puedes chatear con el dealer y otros jugadores</li>
               <li className="flex gap-2"><span className="text-[#22c55e] shrink-0">✓</span>100% transparente — ves cada carta que se reparte</li>
               <li className="flex gap-2"><span className="text-[#22c55e] shrink-0">✓</span>Múltiples variantes: Infinite, Lightning, Speed, Free Bet</li>
               <li className="flex gap-2"><span className="text-[#ef4444] shrink-0">✗</span>Más lento (40-60 manos por hora)</li>
               <li className="flex gap-2"><span className="text-[#ef4444] shrink-0">✗</span>Apuestas mínimas más altas (S/5-25)</li>
-              <li className="flex gap-2"><span className="text-[#ef4444] shrink-0">✗</span>Necesitás buena conexión a internet</li>
+              <li className="flex gap-2"><span className="text-[#ef4444] shrink-0">✗</span>Necesitas buena conexión a internet</li>
             </ul>
           </div>
           <div className="rounded-xl bg-[#141414] border border-[#3b82f6]/20 p-6">
             <h3 className="text-lg font-black text-[#3b82f6] mb-4">Blackjack Virtual (RNG)</h3>
             <ul className="space-y-3 text-sm text-[#d4d4d8]">
-              <li className="flex gap-2"><span className="text-[#22c55e] shrink-0">✓</span>Rapidísimo — 200+ manos por hora si querés</li>
+              <li className="flex gap-2"><span className="text-[#22c55e] shrink-0">✓</span>Rapidísimo — 200+ manos por hora si quieres</li>
               <li className="flex gap-2"><span className="text-[#22c55e] shrink-0">✓</span>Apuestas desde S/1 o menos</li>
               <li className="flex gap-2"><span className="text-[#22c55e] shrink-0">✓</span>Modo demo gratuito para practicar</li>
               <li className="flex gap-2"><span className="text-[#22c55e] shrink-0">✓</span>No hay presión de tiempo ni de otros jugadores</li>
@@ -737,7 +737,7 @@ export default function BlackjackOnlinePeru() {
         </div>
 
         <p className="text-[#9ca3af] leading-relaxed mb-3">
-          <strong className="text-white">Nuestra recomendación:</strong> Si estás aprendiendo, empezá con blackjack virtual en modo demo. Es gratis, vas a tu ritmo y podés consultar la tabla de estrategia básica sin presión. Una vez que te sentís cómodo con las decisiones, pasá al blackjack en vivo. La experiencia es incomparablemente mejor — hay algo de sentarte en una mesa con un dealer real que la computadora no puede replicar.
+          <strong className="text-white">Nuestra recomendación:</strong> Si estás aprendiendo, empieza con blackjack virtual en modo demo. Es gratis, vas a tu ritmo y puedes consultar la tabla de estrategia básica sin presión. Una vez que te sientes cómodo con las decisiones, pasa al blackjack en vivo. La experiencia es incomparablemente mejor — hay algo de sentarte en una mesa con un dealer real que la computadora no puede replicar.
         </p>
 
         <h3 className="text-lg font-black text-white mb-3 mt-6">Proveedores de Blackjack en Vivo</h3>
@@ -748,7 +748,7 @@ export default function BlackjackOnlinePeru() {
           <strong className="text-[#3b82f6]">Pragmatic Play Live</strong> viene creciendo fuerte. Sus mesas de blackjack son sólidas, con buena calidad de video y dealers competentes. Tienen Speed Blackjack y mesas estándar. La interfaz es limpia y funciona bien en celular. Disponible en FRESH y STARDA.
         </p>
         <p className="text-[#9ca3af] leading-relaxed mb-6">
-          <strong className="text-[#a855f7]">Ezugi</strong> es el tercer proveedor. Calidad un escalón abajo de Evolution pero con mesas más accesibles en términos de apuestas mínimas. Si buscás las apuestas más bajas posibles en blackjack en vivo, Ezugi suele tener las mesas con los mínimos más bajos. Disponible en FRESH y MONRO.
+          <strong className="text-[#a855f7]">Ezugi</strong> es el tercer proveedor. Calidad un escalón abajo de Evolution pero con mesas más accesibles en términos de apuestas mínimas. Si buscas las apuestas más bajas posibles en blackjack en vivo, Ezugi suele tener las mesas con los mínimos más bajos. Disponible en FRESH y MONRO.
         </p>
       </Section>
 
@@ -757,56 +757,56 @@ export default function BlackjackOnlinePeru() {
         <SectionTitle>Errores Comunes en Blackjack Online</SectionTitle>
 
         <p className="text-[#9ca3af] leading-relaxed mb-6 max-w-4xl">
-          Después de jugar cientos de manos y observar a otros jugadores en mesas en vivo, identificamos los errores que se repiten una y otra vez. Si evitás estos, ya estás jugando mejor que el 80% de la gente.
+          Después de jugar cientos de manos y observar a otros jugadores en mesas en vivo, identificamos los errores que se repiten una y otra vez. Si evitas estos, ya estás jugando mejor que el 80% de la gente.
         </p>
 
         <div className="space-y-6 mb-8">
           <div className="rounded-xl bg-[#141414] border border-white/[0.06] p-5">
             <h3 className="text-[#ef4444] font-bold mb-2">❌ No seguir la estrategia básica</h3>
             <p className="text-sm text-[#9ca3af]">
-              El error más caro. Jugar por &quot;instinto&quot; o &quot;corazonada&quot; le cuesta al jugador promedio entre 1.5% y 2.5% extra de house edge. En números reales: si apostás S/10 por mano y jugás 60 manos por hora, son S/9-15 extra de pérdida por hora vs jugar con estrategia. En una sesión de 3 horas, estamos hablando de S/27-45 que podrías haberte ahorrado. Tené la tabla de estrategia abierta en el celular al lado. Nadie te juzga.
+              El error más caro. Jugar por &quot;instinto&quot; o &quot;corazonada&quot; le cuesta al jugador promedio entre 1.5% y 2.5% extra de house edge. En números reales: si apuestas S/10 por mano y juegas 60 manos por hora, son S/9-15 extra de pérdida por hora vs jugar con estrategia. En una sesión de 3 horas, estamos hablando de S/27-45 que podrías haberte ahorrado. Tené la tabla de estrategia abierta en el celular al lado. Nadie te juzga.
             </p>
           </div>
 
           <div className="rounded-xl bg-[#141414] border border-white/[0.06] p-5">
             <h3 className="text-[#ef4444] font-bold mb-2">❌ Tomar el seguro (insurance)</h3>
             <p className="text-sm text-[#9ca3af]">
-              Ya lo dijimos pero lo repetimos porque MUCHA gente lo toma. El seguro tiene un house edge del 7.4%. Para ponerlo en perspectiva, es 15 veces peor que una apuesta normal de blackjack. Cuando el dealer muestra un As, la tentación es fuerte. Resistila. Nunca tomes seguro. Ni siquiera cuando tenés 20. La matemática es clara: a largo plazo siempre perdés con el seguro.
+              Ya lo dijimos pero lo repetimos porque MUCHA gente lo toma. El seguro tiene un house edge del 7.4%. Para ponerlo en perspectiva, es 15 veces peor que una apuesta normal de blackjack. Cuando el dealer muestra un As, la tentación es fuerte. Resistila. Nunca tomes seguro. Ni siquiera cuando tienes 20. La matemática es clara: a largo plazo siempre pierdes con el seguro.
             </p>
           </div>
 
           <div className="rounded-xl bg-[#141414] border border-white/[0.06] p-5">
             <h3 className="text-[#ef4444] font-bold mb-2">❌ No dividir Ases y 8s</h3>
             <p className="text-sm text-[#9ca3af]">
-              Vimos esto en mesas en vivo varias veces. Alguien con 8-8 (16) se planta en vez de dividir. Con 16 perdés el 70% de las veces. Dividiendo 8s, tus dos manos tienen buen potencial. Y con Ases ni hablar: dos manos con As son dos oportunidades de sacar 21. Dividir Ases y 8s no es opcional — es obligatorio si querés jugar bien.
+              Vimos esto en mesas en vivo varias veces. Alguien con 8-8 (16) se planta en vez de dividir. Con 16 pierdes el 70% de las veces. Dividiendo 8s, tus dos manos tienen buen potencial. Y con Ases ni hablar: dos manos con As son dos oportunidades de sacar 21. Dividir Ases y 8s no es opcional — es obligatorio si quieres jugar bien.
             </p>
           </div>
 
           <div className="rounded-xl bg-[#141414] border border-white/[0.06] p-5">
             <h3 className="text-[#ef4444] font-bold mb-2">❌ Dividir 10s y figuras</h3>
             <p className="text-sm text-[#9ca3af]">
-              El error opuesto. Gente que tiene 20 (dos figuras) y divide porque &quot;quiere ganar más&quot;. Con 20 ganás el 92% de las manos. Al dividir, bajás tus chances significativamente. Es como tener una mano ganadora y romperla. No lo hagas. Nunca.
+              El error opuesto. Gente que tiene 20 (dos figuras) y divide porque &quot;quiere ganar más&quot;. Con 20 ganas el 92% de las manos. Al dividir, bajas tus chances significativamente. Es como tener una mano ganadora y romperla. No lo hagas. Nunca.
             </p>
           </div>
 
           <div className="rounded-xl bg-[#141414] border border-white/[0.06] p-5">
             <h3 className="text-[#ef4444] font-bold mb-2">❌ Jugar en mesas con pago 6:5</h3>
             <p className="text-sm text-[#9ca3af]">
-              Esto es algo que muchos pasan por alto. Si una mesa paga 6:5 por blackjack natural en vez de 3:2, el house edge sube 1.4%. Es una diferencia brutal. Con un blackjack de S/20, cobrás S/24 en 6:5 vs S/30 en 3:2. Siempre verificá el pago antes de sentarte. En los casinos en vivo de Betsson y FRESH todas las mesas que probamos pagaban 3:2.
+              Esto es algo que muchos pasan por alto. Si una mesa paga 6:5 por blackjack natural en vez de 3:2, el house edge sube 1.4%. Es una diferencia brutal. Con un blackjack de S/20, cobras S/24 en 6:5 vs S/30 en 3:2. Siempre verifica el pago antes de sentarte. En los casinos en vivo de Betsson y FRESH todas las mesas que probamos pagaban 3:2.
             </p>
           </div>
 
           <div className="rounded-xl bg-[#141414] border border-white/[0.06] p-5">
             <h3 className="text-[#ef4444] font-bold mb-2">❌ Perseguir pérdidas</h3>
             <p className="text-sm text-[#9ca3af]">
-              Perder 5 manos seguidas y duplicar la apuesta para &quot;recuperar&quot;. Es el camino más rápido a quedarte sin bankroll. El blackjack tiene rachas — es matemáticamente inevitable. Si tenés un stop loss de S/100 y lo alcanzás, pará. Cerrá la sesión. Mañana hay más mesas. Los casinos están abiertos 24/7, no tenés que recuperar todo hoy.
+              Perder 5 manos seguidas y duplicar la apuesta para &quot;recuperar&quot;. Es el camino más rápido a quedarte sin bankroll. El blackjack tiene rachas — es matemáticamente inevitable. Si tienes un stop loss de S/100 y lo alcanzas, para. Cierra la sesión. Mañana hay más mesas. Los casinos están abiertos 24/7, no tienes que recuperar todo hoy.
             </p>
           </div>
 
           <div className="rounded-xl bg-[#141414] border border-white/[0.06] p-5">
             <h3 className="text-[#ef4444] font-bold mb-2">❌ Ignorar las reglas de la mesa</h3>
             <p className="text-sm text-[#9ca3af]">
-              No todas las mesas de blackjack son iguales. Algunas dejan que el dealer pida en soft 17 (peor para vos), otras no permiten surrender, algunas limitan cuándo podés doblar. Antes de sentarte, revisá las reglas. En el blackjack en vivo siempre hay un botón de &quot;info&quot; o &quot;reglas&quot; que te explica todo. 30 segundos de lectura te pueden ahorrar mucha plata.
+              No todas las mesas de blackjack son iguales. Algunas dejan que el dealer pida en soft 17 (peor para ti), otras no permiten surrender, algunas limitan cuándo puedes doblar. Antes de sentarte, revisa las reglas. En el blackjack en vivo siempre hay un botón de &quot;info&quot; o &quot;reglas&quot; que te explica todo. 30 segundos de lectura te pueden ahorrar mucha plata.
             </p>
           </div>
         </div>
@@ -822,7 +822,7 @@ export default function BlackjackOnlinePeru() {
 
         <h3 className="text-lg font-black text-white mb-3">¿Cómo funciona el conteo (sistema Hi-Lo)?</h3>
         <p className="text-[#9ca3af] leading-relaxed mb-3">
-          El sistema más conocido es el Hi-Lo. Asignás un valor a cada carta que ves salir: cartas 2-6 suman +1, cartas 7-9 no cuentan (0), y cartas 10-As restan -1. Vas llevando una cuenta mental. Si la cuenta es alta y positiva, significa que quedan muchas cartas altas en el zapato (favorable para vos). Si es negativa, quedan muchas cartas bajas (favorable para el casino). Con una cuenta alta, apostás más. Con cuenta baja, apostás el mínimo.
+          El sistema más conocido es el Hi-Lo. Asignás un valor a cada carta que ves salir: cartas 2-6 suman +1, cartas 7-9 no cuentan (0), y cartas 10-As restan -1. Vas llevando una cuenta mental. Si la cuenta es alta y positiva, significa que quedan muchas cartas altas en el zapato (favorable para ti). Si es negativa, quedan muchas cartas bajas (favorable para el casino). Con una cuenta alta, apuestas más. Con cuenta baja, apuestas el mínimo.
         </p>
 
         <h3 className="text-lg font-black text-white mb-3 mt-6">¿Por qué NO funciona online?</h3>
@@ -832,15 +832,15 @@ export default function BlackjackOnlinePeru() {
             <p className="text-sm text-[#d4d4d8]"><strong className="text-[#ef4444]">Blackjack virtual (RNG):</strong> Las cartas se mezclan después de cada mano. No hay zapato que avance. La cuenta siempre arranca en cero. Contar cartas es literalmente imposible.</p>
           </div>
           <div className="rounded-xl bg-[#141414] border border-white/[0.06] p-4">
-            <p className="text-sm text-[#d4d4d8]"><strong className="text-[#ef4444]">Blackjack en vivo:</strong> Usan 8 barajas y mezclan con mucha frecuencia. La penetración (porcentaje del zapato que se reparte antes de mezclar) es de apenas 50-60%. Para que el conteo sea rentable necesitás al menos 70-75%. No va a funcionar.</p>
+            <p className="text-sm text-[#d4d4d8]"><strong className="text-[#ef4444]">Blackjack en vivo:</strong> Usan 8 barajas y mezclan con mucha frecuencia. La penetración (porcentaje del zapato que se reparte antes de mezclar) es de apenas 50-60%. Para que el conteo sea rentable necesitas al menos 70-75%. No va a funcionar.</p>
           </div>
           <div className="rounded-xl bg-[#141414] border border-white/[0.06] p-4">
-            <p className="text-sm text-[#d4d4d8]"><strong className="text-[#ef4444]">Software de detección:</strong> Los casinos online tienen algoritmos que detectan patrones de apuestas consistentes con el conteo. Si variás tu apuesta de forma sospechosa en las mesas en vivo, pueden limitar tu cuenta.</p>
+            <p className="text-sm text-[#d4d4d8]"><strong className="text-[#ef4444]">Software de detección:</strong> Los casinos online tienen algoritmos que detectan patrones de apuestas consistentes con el conteo. Si varías tu apuesta de forma sospechosa en las mesas en vivo, pueden limitar tu cuenta.</p>
           </div>
         </div>
 
         <p className="text-[#9ca3af] leading-relaxed mb-4">
-          <strong className="text-white">Veredicto:</strong> No pierdas tiempo intentando contar cartas online. En cambio, invertí esa energía en perfeccionar la estrategia básica. Te va a dar mucho más retorno que intentar contar con un zapato de 8 barajas al 50% de penetración. Creenos, lo intentamos y fue una pérdida de tiempo total.
+          <strong className="text-white">Veredicto:</strong> No pierdas tiempo intentando contar cartas online. En cambio, invierte esa energía en perfeccionar la estrategia básica. Te va a dar mucho más retorno que intentar contar con un zapato de 8 barajas al 50% de penetración. Creenos, lo intentamos y fue una pérdida de tiempo total.
         </p>
       </Section>
 
@@ -855,15 +855,15 @@ export default function BlackjackOnlinePeru() {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
           <div className="rounded-xl bg-[#141414] border border-[#fbbf24]/20 p-5">
             <h4 className="text-[#fbbf24] font-bold mb-2">Regla de las 50 manos</h4>
-            <p className="text-sm text-[#9ca3af]">Tu bankroll debe cubrir al menos 50 apuestas del mínimo que vas a jugar. Si apostás S/10 por mano, necesitás S/500 mínimo. Si apostás S/25, necesitás S/1,250. Esto te da suficiente colchón para absorber las rachas malas sin quedarte sin plata.</p>
+            <p className="text-sm text-[#9ca3af]">Tu bankroll debe cubrir al menos 50 apuestas del mínimo que vas a jugar. Si apuestas S/10 por mano, necesitas S/500 mínimo. Si apuestas S/25, necesitas S/1,250. Esto te da suficiente colchón para absorber las rachas malas sin quedarte sin plata.</p>
           </div>
           <div className="rounded-xl bg-[#141414] border border-[#22c55e]/20 p-5">
             <h4 className="text-[#22c55e] font-bold mb-2">Stop Loss</h4>
-            <p className="text-sm text-[#9ca3af]">Ponete un límite de pérdida por sesión. Nosotros usamos el 30% del bankroll. Si empezaste con S/500, cuando estés en S/350 pará. Sin excepciones. Mañana la mesa sigue ahí. Es mejor parar a tiempo que quedarte en cero.</p>
+            <p className="text-sm text-[#9ca3af]">Ponete un límite de pérdida por sesión. Nosotros usamos el 30% del bankroll. Si empezaste con S/500, cuando estés en S/350 para. Sin excepciones. Mañana la mesa sigue ahí. Es mejor parar a tiempo que quedarte en cero.</p>
           </div>
           <div className="rounded-xl bg-[#141414] border border-[#3b82f6]/20 p-5">
             <h4 className="text-[#3b82f6] font-bold mb-2">Take Profit</h4>
-            <p className="text-sm text-[#9ca3af]">Cuando estés ganando, guardá una parte. Si empezaste con S/500 y llegaste a S/700, retirá S/100 y seguí jugando con S/600. Así te asegurás de salir con algo aunque después la racha se dé vuelta. Suena obvio pero casi nadie lo hace.</p>
+            <p className="text-sm text-[#9ca3af]">Cuando estés ganando, guarda una parte. Si empezaste con S/500 y llegaste a S/700, retira S/100 y sigue jugando con S/600. Así te aseguras de salir con algo aunque después la racha se dé vuelta. Suena obvio pero casi nadie lo hace.</p>
           </div>
           <div className="rounded-xl bg-[#141414] border border-[#a855f7]/20 p-5">
             <h4 className="text-[#a855f7] font-bold mb-2">Progresión plana</h4>
@@ -891,7 +891,7 @@ export default function BlackjackOnlinePeru() {
           </div>
           <div className="rounded-xl bg-[#141414] border border-white/[0.06] p-5">
             <h4 className="text-white font-bold mb-2">Crypto (USDT/BTC)</h4>
-            <p className="text-sm text-[#9ca3af]">Para FRESH, SOL, MONRO y STARDA. Los retiros llegan en minutos. Ideal si querés evitar la conversión a soles. Comprá USDT en Binance P2P con Yape y mandalo al casino.</p>
+            <p className="text-sm text-[#9ca3af]">Para FRESH, SOL, MONRO y STARDA. Los retiros llegan en minutos. Ideal si quieres evitar la conversión a soles. Comprá USDT en Binance P2P con Yape y mandalo al casino.</p>
           </div>
           <div className="rounded-xl bg-[#141414] border border-white/[0.06] p-5">
             <h4 className="text-white font-bold mb-2">Tarjetas / Transferencia</h4>
@@ -900,7 +900,7 @@ export default function BlackjackOnlinePeru() {
         </div>
 
         <p className="text-[#71717a] text-sm">
-          Para más detalle sobre cada método de pago, visitá nuestra <Link href="/peru/mejores-casinos-online" className="text-[#00C853] hover:underline">guía completa de casinos online en Perú</Link>.
+          Para más detalle sobre cada método de pago, visita nuestra <Link href="/peru/mejores-casinos-online" className="text-[#00C853] hover:underline">guía completa de casinos online en Perú</Link>.
         </p>
       </Section>
 
@@ -949,7 +949,7 @@ export default function BlackjackOnlinePeru() {
           <CtaButton slug="sol-casino" text="Probar SOL Casino" />
         </div>
 
-        <p className="text-center text-[#71717a] text-xs mt-8">+18 | Jugá con responsabilidad | Los juegos de azar implican riesgo de pérdida</p>
+        <p className="text-center text-[#71717a] text-xs mt-8">+18 | Juega con responsabilidad | Los juegos de azar implican riesgo de pérdida</p>
       </Section>
     </>
   );

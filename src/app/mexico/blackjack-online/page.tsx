@@ -5,7 +5,7 @@ import CasinoRanking from "@/components/CasinoRanking";
 import TableOfContents from "@/components/TableOfContents";
 
 export const metadata: Metadata = {
-  title: "Blackjack Online en México 2026 | Casinos, Estrategia y Mesas en Vivo",
+  title: "Blackjack Online en México 2026 | Guía y Casinos",
   description:
     "Los mejores casinos con blackjack online en México. Estrategia básica completa, mesas en vivo, variantes y bonos verificados para jugadores mexicanos.",
 };
@@ -139,9 +139,9 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Inicio", item: "https://jugarcasinosonline.net/" },
-    { "@type": "ListItem", position: 2, name: "México", item: "https://jugarcasinosonline.net/mexico/" },
-    { "@type": "ListItem", position: 3, name: "Blackjack Online", item: "https://jugarcasinosonline.net/mexico/blackjack-online/" },
+    { "@type": "ListItem", position: 1, name: "Inicio", item: "https://www.jugarcasinosonline.net/" },
+    { "@type": "ListItem", position: 2, name: "México", item: "https://www.jugarcasinosonline.net/mexico/" },
+    { "@type": "ListItem", position: 3, name: "Blackjack Online", item: "https://www.jugarcasinosonline.net/mexico/blackjack-online/" },
   ],
 };
 

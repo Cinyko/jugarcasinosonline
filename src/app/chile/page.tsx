@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Casinos Online en Chile 2026 | JugarCasinosOnline.net",
   description:
-    "Los mejores casinos online en Chile 2026. Encuentra sitios seguros con pagos por WebPay, MACH y criptomonedas. Bonos exclusivos, slots, ruleta y blackjack para jugadores chilenos.",
+    "Los mejores casinos online en Chile 2026. Sitios seguros con pagos por WebPay y criptomonedas, bonos, slots, ruleta y blackjack.",
 };
 
 const sections = [

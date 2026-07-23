@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Casinos Online en México 2026 | JugarCasinosOnline.net",
   description:
-    "Guía definitiva de casinos online en México 2026. Encuentra los casinos regulados por SEGOB, bonos exclusivos, ruleta, blackjack, slots y casinos crypto para jugadores mexicanos.",
+    "Guía de casinos online en México 2026: casinos regulados por SEGOB, bonos exclusivos, ruleta, blackjack, slots y casinos cripto.",
 };
 
 const sections = [

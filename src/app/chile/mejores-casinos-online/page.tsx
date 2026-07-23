@@ -147,7 +147,7 @@ function ProsCons({ pros, cons }: { pros: string[]; cons: string[] }) {
 /* ───────── JSON-LD ───────── */
 const faqSchema = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faqItems.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) };
 const articleSchema = { "@context": "https://schema.org", "@type": "Article", headline: "Mejores Casinos Online en Chile 2026", description: "Guía completa de los mejores casinos online para jugadores chilenos.", datePublished: "2026-02-01", dateModified: LAST_UPDATED_ISO, author: { "@type": "Organization", name: "JugarCasinosOnline.net" }, publisher: { "@type": "Organization", name: "JugarCasinosOnline.net" } };
-const breadcrumbSchema = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Inicio", item: "https://jugarcasinosonline.net/" }, { "@type": "ListItem", position: 2, name: "Chile", item: "https://jugarcasinosonline.net/chile/" }, { "@type": "ListItem", position: 3, name: "Mejores Casinos Online", item: "https://jugarcasinosonline.net/chile/mejores-casinos-online/" }] };
+const breadcrumbSchema = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Inicio", item: "https://www.jugarcasinosonline.net/" }, { "@type": "ListItem", position: 2, name: "Chile", item: "https://www.jugarcasinosonline.net/chile/" }, { "@type": "ListItem", position: 3, name: "Mejores Casinos Online", item: "https://www.jugarcasinosonline.net/chile/mejores-casinos-online/" }] };
 
 /* ═══ PAGE ═══ */
 
@@ -183,7 +183,7 @@ export default function MejoresCasinosOnlineChile() {
               </ol>
             </nav>
             <div className="inline-flex items-center gap-2.5 rounded-full bg-white/[0.05] border border-white/[0.08] px-5 py-2 mb-8 backdrop-blur-sm">
-              <span className="w-2 h-2 rounded-full bg-[#22c55e] animate-pulse" />
+              <span className="w-2 h-2 rounded-full bg-[#22c55e] anímate-pulse" />
               <span className="text-sm font-semibold text-[#9ca3af]">Guía actualizada {LAST_UPDATED}</span>
             </div>
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-white tracking-tighter mb-4 leading-[0.95]">
@@ -532,7 +532,7 @@ export default function MejoresCasinosOnlineChile() {
           <p className="text-[#9ca3af] leading-relaxed mb-4">
             Y tienen <strong className="text-white">app móvil nativa para Android</strong>. La probamos
             y va más fluida que el navegador: interfaz optimizada para celular, login rápido con huella,
-            guarda los métodos de pago. Para iOS por ahora no hay app, pero si tenís iPhone podés jugar
+            guarda los métodos de pago. Para iOS por ahora no hay app, pero si tenís iPhone puedes jugar
             igual desde la versión móvil de la web, que anda bien. Si jugai desde Android (como la mayoría),
             vai a agradecer esto.
           </p>
@@ -575,14 +575,14 @@ export default function MejoresCasinosOnlineChile() {
             Pragmatic, Hacksaw y Evolution que cachai de los streams, más proveedores que no vimos en ningún otro
             casino del ranking chileno. Probamos la <strong className="text-white">app móvil</strong> con 4G de
             Entel y carga rapidísimo, más ordenada que la web (que, seamos honestos, está tapada de banners y al
-            principio marea). Si jugai desde el celu, andá directo a la app.
+            principio marea). Si jugai desde el celu, ve directo a la app.
           </p>
 
           <h4 className="text-lg font-bold text-white mb-3">Paquete de bienvenida: hasta $2.275 USD + 150 giros</h4>
           <p className="text-[#9ca3af] leading-relaxed mb-3">
             El bono de casino se reparte en los <strong className="text-white">primeros 4 depósitos</strong> y
             llega hasta $2.275 USD más 150 giros gratis. Es harta plata, pero la condición es cuática: rollover
-            x25 con 7 días de plazo. Nuestro consejo honesto: aprovechá el primer tramo del bono y no te
+            x25 con 7 días de plazo. Nuestro consejo honesto: aprovecha el primer tramo del bono y no te
             obsesiones con completar el paquete entero si no jugai seguido. La cripto (BTC, USDT y más) funciona
             impecable para depositar y retirar sin pasar por el banco.
           </p>
@@ -1045,7 +1045,7 @@ export default function MejoresCasinosOnlineChile() {
         </div>
         <p className="text-[#9ca3af] leading-relaxed mt-6">Ninguno es objetivamente &quot;mejor&quot;. Si quieres ir con los amigos a Enjoy Viña del Mar un finde, esa experiencia es irremplazable. Pero si quieres variedad, mejores RTPs y jugar en pijama a las 3am desde tu depa en Santiago... los casinos online ganan por lejos. Muchos chilenos combinan ambos.</p>
         <p className="text-[#9ca3af] leading-relaxed mt-4">Chile tiene algunos de los casinos físicos más bacanes de Sudamérica, hay que reconocerlo. Enjoy Viña del Mar es casi un ícono — el edificio frente al mar, las mesas de póker con vista al océano, los shows y la onda de un viernes por la noche ahí es difícil de replicar. Dreams Temuco es el preferido del sur, con una zona de slots enorme y eventos de póker que atraen jugadores de toda la región. Dreams Valdivia tiene su encanto más chico e íntimo. Monticello, a menos de una hora de Santiago, es donde van los santiaguinos cuando quieren casino sin viajar tanto — tiene más de 1.500 máquinas y la ventaja de estar cerca. Casino Marina del Sol en Talcahuano y Dreams Iquique completan el mapa de norte a sur. La experiencia presencial tiene algo que ningún sitio web puede copiar: el ruido de las fichas, el dealer repartiendo cartas frente a ti, tomarte un trago mientras juegas.</p>
-        <p className="text-[#9ca3af] leading-relaxed mt-4">Pero la realidad es que la mayoría de los chilenos no vive al lado de un casino. Si estás en Santiago, ir a Monticello te toma la tarde entera entre ir, jugar y volver. Dreams Temuco le sirve a los que viven en la zona, pero si estás en Rancagua o Talca, olvidate. Y después está el tema de los RTPs: las máquinas tragamonedas físicas en Chile operan con RTPs entre 80% y 93%, mientras que las slots online están entre 95% y 98%. Esa diferencia se siente en tu bolsillo. En un casino físico apuestas $100.000 CLP y el retorno esperado es de $85.000-$93.000 CLP. Online, es de $95.000-$98.000 CLP. Multiplicado por cientos de giros en una sesión, son hartas lucas de diferencia. Y eso sin contar que online tienes 4.500 juegos versus las 200-300 máquinas de un casino físico. Cada formato tiene lo suyo, pero los números están a favor del online.</p>
+        <p className="text-[#9ca3af] leading-relaxed mt-4">Pero la realidad es que la mayoría de los chilenos no vive al lado de un casino. Si estás en Santiago, ir a Monticello te toma la tarde entera entre ir, jugar y volver. Dreams Temuco le sirve a los que viven en la zona, pero si estás en Rancagua o Talca, olvídate. Y después está el tema de los RTPs: las máquinas tragamonedas físicas en Chile operan con RTPs entre 80% y 93%, mientras que las slots online están entre 95% y 98%. Esa diferencia se siente en tu bolsillo. En un casino físico apuestas $100.000 CLP y el retorno esperado es de $85.000-$93.000 CLP. Online, es de $95.000-$98.000 CLP. Multiplicado por cientos de giros en una sesión, son hartas lucas de diferencia. Y eso sin contar que online tienes 4.500 juegos versus las 200-300 máquinas de un casino físico. Cada formato tiene lo suyo, pero los números están a favor del online.</p>
       </Section>
 
       {/* ═══ JUEGOS ═══ */}
@@ -1198,7 +1198,7 @@ export default function MejoresCasinosOnlineChile() {
             {step:"1",title:"Verifica la licencia internacional",desc:"No hay licencia chilena para casinos online (todavía). Busca Curaçao, Malta o Kahnawake. Si no muestra licencia por ningún lado, no juegues ahí. En Chile específicamente, la Superintendencia de Casinos de Juego (SCJ) solo regula casinos físicos, así que no van a poder ayudarte si algo sale mal con un operador online. Tu único respaldo es la licencia internacional del casino y su reputación. FRESH, SOL, MONRO y STARDA operan con Curaçao o Kahnawake. Betsson y Bet365 tienen licencias múltiples incluyendo Malta que es la más estricta de todas.",tip:"Busca el logo de la licencia en el footer. Los casinos serios lo muestran con orgullo. Si solo dice 'regulado internacionalmente' sin especificar cuál licencia, desconfía."},
             {step:"2",title:"Revisa los métodos de pago",desc:"¿Acepta WebPay? ¿MACH? ¿CuentaRUT? Si es internacional, ¿acepta crypto o Skrill? De nada sirve el mejor casino si no puedes meter ni sacar tus lucas. En Chile esto es especialmente importante porque muchos bancos bloquean pagos a casinos internacionales. Si tu tarjeta del Banco de Chile no pasa, no es culpa del casino — es filtro del banco. Ten un plan B listo: MACH como tarjeta prepago, Skrill como monedero electrónico, o crypto vía Buda.com. Los casinos que aceptan WebPay (20Bet, Betsson, Bet365) son los más cómodos para chilenos.",tip:"Haz un depósito chico primero ($10.000 CLP) y prueba un retiro al tiro. Si funciona, ya sabes que puedes confiar con montos más grandes."},
             {step:"3",title:"Compara los bonos (la letra chica)",desc:"No te dejes llevar por el número grande. Fíjate en rollover, validez, qué juegos contribuyen y retiro máximo. Un bono con rollover x30 le gana a uno más grande con x50. Para chilenos que depositan en promedio $90-100 USD, un rollover x35 sobre un bono de $100 USD son $3.500 USD en apuestas (~$3.300.000 CLP). Eso es mucho. Calcula siempre en pesos antes de aceptar para dimensionar lo que te están pidiendo.",tip:"Si el rollover es mayor a x40 y la validez menor a 14 días, piénsalo dos veces. A veces rechazar el bono es la mejor decisión."},
-            {step:"4",title:"Prueba la plataforma",desc:"Navega el casino antes de depositar. ¿Carga rápido en tu celular? ¿Encuentras los juegos fácil? Muchos te dejan jugar en modo demo sin apostar real. En Chile, más del 70% de los jugadores online juegan desde el celular, principalmente Samsung y Xiaomi. Probá el casino desde tu celu con datos móviles (no WiFi) para ver la experiencia real. Si una slot tarda más de 5 segundos en cargar con 4G de Entel, Movistar o Claro, probablemente vas a tener una experiencia frustrante cuando estés jugando en serio.",tip:"Pruébalo en tu celular con datos móviles. Si anda bien así, con WiFi va a volar."},
+            {step:"4",title:"Prueba la plataforma",desc:"Navega el casino antes de depositar. ¿Carga rápido en tu celular? ¿Encuentras los juegos fácil? Muchos te dejan jugar en modo demo sin apostar real. En Chile, más del 70% de los jugadores online juegan desde el celular, principalmente Samsung y Xiaomi. Prueba el casino desde tu celu con datos móviles (no WiFi) para ver la experiencia real. Si una slot tarda más de 5 segundos en cargar con 4G de Entel, Movistar o Claro, probablemente vas a tener una experiencia frustrante cuando estés jugando en serio.",tip:"Pruébalo en tu celular con datos móviles. Si anda bien así, con WiFi va a volar."},
             {step:"5",title:"Lee las políticas de retiro",desc:"Mínimo y máximo de retiro, tiempos, KYC necesario, límites mensuales. Lee esto ANTES de depositar. En Chile el tema de retiros es clave porque al no haber regulador local, si un casino tarda o pone trabas, no tienes a quién quejarte localmente. Fíjate que el mínimo de retiro no sea absurdamente alto (algunos piden $50 USD mínimo, otros $20) y que el límite mensual sea suficiente para lo que piensas jugar. MONRO tiene límite de $30k USD mensuales, que para la mayoría está bien pero para high rollers puede ser un problema.",tip:"Completa la verificación KYC (cédula de identidad + selfie + comprobante de domicilio) al registrarte, el primer día. Así cuando quieras retirar, todo está listo y no hay excusas para retrasos."},
           ].map((i)=>(
             <div key={i.step} className="flex gap-5 items-start">

@@ -5,7 +5,7 @@ import CasinoRanking from "@/components/CasinoRanking";
 import TableOfContents from "@/components/TableOfContents";
 
 export const metadata: Metadata = {
-  title: "Ruleta Online en Perú 2026 | Mejores Casinos con Ruleta en Vivo",
+  title: "Ruleta Online en Perú 2026 | Mejores Casinos",
   description:
     "Descubrí los mejores casinos con ruleta online en Perú. Ruleta en vivo, europea, francesa, bonos y guías para ganar más.",
 };
@@ -32,23 +32,23 @@ const faqItems = [
   },
   {
     q: "¿Qué tipo de ruleta tiene menos ventaja para el casino?",
-    a: "La ruleta francesa con la regla La Partage. La ventaja de la casa baja al 1.35% en apuestas externas, que es prácticamente la mitad de la ruleta europea (2.70%). Y ni hablar de la americana, que tiene un 5.26%. Si querés maximizar tus chances, la francesa es la respuesta correcta siempre.",
+    a: "La ruleta francesa con la regla La Partage. La ventaja de la casa baja al 1.35% en apuestas externas, que es prácticamente la mitad de la ruleta europea (2.70%). Y ni hablar de la americana, que tiene un 5.26%. Si quieres maximizar tus chances, la francesa es la respuesta correcta siempre.",
   },
   {
     q: "¿La ruleta online está trucada?",
-    a: "No, si jugás en casinos con licencia. Todos los casinos de nuestro ranking usan proveedores certificados como Evolution, Pragmatic Play y Ezugi, que están auditados por entidades independientes. Las mesas en vivo se transmiten en tiempo real y podés ver la bola caer con tus propios ojos. Las ruletas virtuales usan generadores de números aleatorios (RNG) verificados. Dicho esto, si te metés en un casino sin licencia... ahí sí, nadie te garantiza nada.",
+    a: "No, si juegas en casinos con licencia. Todos los casinos de nuestro ranking usan proveedores certificados como Evolution, Pragmatic Play y Ezugi, que están auditados por entidades independientes. Las mesas en vivo se transmiten en tiempo real y puedes ver la bola caer con tus propios ojos. Las ruletas virtuales usan generadores de números aleatorios (RNG) verificados. Dicho esto, si te metes en un casino sin licencia... ahí sí, nadie te garantiza nada.",
   },
   {
     q: "¿Puedo jugar ruleta en vivo con crupier en español?",
-    a: "Sí, y cada vez hay más mesas. Betsson tiene mesas exclusivas con crupiers que hablan español latino, no de España. FRESH Casino y SOL Casino también ofrecen mesas en español de Evolution y Pragmatic Play. La experiencia es mucho mejor cuando entendés al dealer sin tener que estar traduciendo mentalmente.",
+    a: "Sí, y cada vez hay más mesas. Betsson tiene mesas exclusivas con crupiers que hablan español latino, no de España. FRESH Casino y SOL Casino también ofrecen mesas en español de Evolution y Pragmatic Play. La experiencia es mucho mejor cuando entiendes al dealer sin tener que estar traduciendo mentalmente.",
   },
   {
     q: "¿Cuál es la mejor estrategia para ruleta?",
-    a: "La verdad es que ninguna estrategia te garantiza ganar a largo plazo, porque la ventaja de la casa siempre está ahí. Pero sí podés jugar de forma más inteligente: elegí siempre ruleta europea o francesa, manejá tu bankroll con límites claros, usá apuestas externas si querés sesiones más largas, y nunca persigás pérdidas. Los sistemas como Martingala suenan bien en teoría pero explotan cuando caés en una racha mala.",
+    a: "La verdad es que ninguna estrategia te garantiza ganar a largo plazo, porque la ventaja de la casa siempre está ahí. Pero sí puedes jugar de forma más inteligente: elige siempre ruleta europea o francesa, maneja tu bankroll con límites claros, usa apuestas externas si quieres sesiones más largas, y nunca persigas pérdidas. Los sistemas como Martingala suenan bien en teoría pero explotan cuando caes en una racha mala.",
   },
   {
     q: "¿Puedo jugar ruleta gratis?",
-    a: "Sí, las ruletas virtuales (RNG) casi siempre tienen modo demo donde jugás con plata ficticia. Es perfecto para practicar y entender las apuestas antes de meter plata real. Eso sí, las mesas en vivo no tienen modo gratis porque hay un crupier real esperando. FRESH Casino y SOL Casino tienen la mejor selección de ruletas en modo demo.",
+    a: "Sí, las ruletas virtuales (RNG) casi siempre tienen modo demo donde juegas con plata ficticia. Es perfecto para practicar y entender las apuestas antes de meter plata real. Eso sí, las mesas en vivo no tienen modo gratis porque hay un crupier real esperando. FRESH Casino y SOL Casino tienen la mejor selección de ruletas en modo demo.",
   },
   {
     q: "¿Qué es Lightning Roulette?",
@@ -69,8 +69,8 @@ const glossaryItems = [
   { term: "Esquina (Corner)", def: "Apuesta a cuatro números que forman un cuadrado en el paño. La ficha se coloca en la intersección de los cuatro. Paga 8:1." },
   { term: "Docena", def: "Apuesta a un grupo de 12 números: primera docena (1-12), segunda docena (13-24) o tercera docena (25-36). Paga 2:1." },
   { term: "Columna", def: "Apuesta a una de las tres columnas verticales del paño, cada una con 12 números. Paga 2:1, igual que la docena." },
-  { term: "La Partage", def: "Regla exclusiva de la ruleta francesa. Si la bola cae en el cero y apostaste a una apuesta externa (rojo/negro, par/impar, etc.), recuperás la mitad de tu apuesta. Reduce la ventaja de la casa al 1.35%." },
-  { term: "En Prison", def: "Otra regla de la ruleta francesa. Si sale cero, tu apuesta externa queda 'en prisión' para la siguiente ronda. Si ganás en la siguiente, recuperás tu apuesta completa. Si no, la perdés." },
+  { term: "La Partage", def: "Regla exclusiva de la ruleta francesa. Si la bola cae en el cero y apostaste a una apuesta externa (rojo/negro, par/impar, etc.), recuperas la mitad de tu apuesta. Reduce la ventaja de la casa al 1.35%." },
+  { term: "En Prison", def: "Otra regla de la ruleta francesa. Si sale cero, tu apuesta externa queda 'en prisión' para la siguiente ronda. Si ganas en la siguiente, recuperas tu apuesta completa. Si no, la pierdes." },
   { term: "Ventaja de la casa (House Edge)", def: "El porcentaje matemático que el casino tiene a su favor en cada apuesta. En la europea es 2.70%, en la francesa con La Partage baja a 1.35%, y en la americana sube a 5.26%." },
   { term: "Bola", def: "La esfera pequeña (generalmente de marfil o cerámica) que el crupier lanza en sentido contrario al giro del cilindro. Donde se detiene, es el número ganador." },
   { term: "Cilindro", def: "La rueda giratoria con las casillas numeradas donde cae la bola. La europea tiene 37 casillas (0-36) y la americana 38 (0, 00 y 1-36)." },
@@ -184,9 +184,9 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Inicio", item: "https://jugarcasinosonline.net/" },
-    { "@type": "ListItem", position: 2, name: "Perú", item: "https://jugarcasinosonline.net/peru/" },
-    { "@type": "ListItem", position: 3, name: "Ruleta Online", item: "https://jugarcasinosonline.net/peru/ruleta-online/" },
+    { "@type": "ListItem", position: 1, name: "Inicio", item: "https://www.jugarcasinosonline.net/" },
+    { "@type": "ListItem", position: 2, name: "Perú", item: "https://www.jugarcasinosonline.net/peru/" },
+    { "@type": "ListItem", position: 3, name: "Ruleta Online", item: "https://www.jugarcasinosonline.net/peru/ruleta-online/" },
   ],
 };
 
@@ -233,7 +233,7 @@ export default function RuletaOnlinePeru() {
 
               {/* Badge */}
               <div className="inline-flex items-center gap-2.5 rounded-full bg-white/[0.05] border border-white/[0.08] px-5 py-2 mb-8 backdrop-blur-sm">
-                <span className="w-2 h-2 rounded-full bg-[#22c55e] animate-pulse" />
+                <span className="w-2 h-2 rounded-full bg-[#22c55e] anímate-pulse" />
                 <span className="text-sm font-semibold text-[#9ca3af]">Guía actualizada {LAST_UPDATED}</span>
               </div>
 
@@ -244,7 +244,7 @@ export default function RuletaOnlinePeru() {
               </h1>
 
               <p className="text-xl sm:text-2xl text-[#9ca3af] max-w-3xl mb-4 font-medium leading-relaxed">
-                Llevamos meses metidos en mesas de ruleta online, probando cada casino que acepta jugadores peruanos. Y no te voy a mentir: la diferencia entre un buen casino para ruleta y uno mediocre es abismal. Hay sitios donde las mesas se traban a mitad de ronda, donde el streaming parece una videollamada de 2010, y otros donde la experiencia es tan fluida que te olvidás de que estás jugando desde tu celular en Lima.
+                Llevamos meses metidos en mesas de ruleta online, probando cada casino que acepta jugadores peruanos. Y no te voy a mentir: la diferencia entre un buen casino para ruleta y uno mediocre es abismal. Hay sitios donde las mesas se traban a mitad de ronda, donde el streaming parece una videollamada de 2010, y otros donde la experiencia es tan fluida que te olvidas de que estás jugando desde tu celular en Lima.
               </p>
               <p className="text-base text-[#71717a] max-w-2xl leading-relaxed mb-4">
                 Armamos esta guía después de jugar más de 200 rondas en cada plataforma, probar las mesas en vivo a distintas horas (incluyendo madrugadas, que es cuando se nota la calidad real del servicio), revisar los límites de apuesta y hasta cronometrar cuánto tarda cada casino en procesar un retiro después de ganar en la ruleta.
@@ -312,13 +312,13 @@ export default function RuletaOnlinePeru() {
         <div className="rounded-2xl border border-white/[0.08] bg-white/[0.02] p-6 sm:p-8 mb-8">
           <h3 className="text-xl sm:text-2xl font-black text-white mb-4">Ruleta Europea — La que deberías jugar siempre</h3>
           <p className="text-[#d4d4d8] leading-relaxed mb-4">
-            La ruleta europea tiene 37 casillas: los números del 1 al 36 (alternando entre rojo y negro) y un solo cero verde. Ese cero es la ventaja del casino, y acá viene lo importante: con un solo cero, la ventaja de la casa es del 2.70%. Eso significa que por cada S/100 que apostés, el casino se queda con S/2.70 en promedio a largo plazo.
+            La ruleta europea tiene 37 casillas: los números del 1 al 36 (alternando entre rojo y negro) y un solo cero verde. Ese cero es la ventaja del casino, y acá viene lo importante: con un solo cero, la ventaja de la casa es del 2.70%. Eso significa que por cada S/100 que apuestes, el casino se queda con S/2.70 en promedio a largo plazo.
           </p>
           <p className="text-[#d4d4d8] leading-relaxed mb-4">
             Suena a poco, pero comparalo con la americana y vas a entender por qué insistimos tanto en esto. La europea es el estándar en todos los casinos online que operan en Perú, así que encontrarla no es problema. Todos los de nuestro ranking la tienen.
           </p>
           <p className="text-[#d4d4d8] leading-relaxed mb-4">
-            Lo que varía es la presentación. Algunos casinos te ofrecen versiones de mesa (tipo simulación digital, con gráficos 3D bastante decentes) y otros te tiran directo a las mesas en vivo con crupier. Nuestra recomendación: si vas a jugar ruleta europea, hacelo en vivo. La experiencia es otra cosa y tenés la garantía visual de que la bola es real, el cilindro gira de verdad y nadie está manipulando nada.
+            Lo que varía es la presentación. Algunos casinos te ofrecen versiones de mesa (tipo simulación digital, con gráficos 3D bastante decentes) y otros te tiran directo a las mesas en vivo con crupier. Nuestra recomendación: si vas a jugar ruleta europea, hazlo en vivo. La experiencia es otra cosa y tienes la garantía visual de que la bola es real, el cilindro gira de verdad y nadie está manipulando nada.
           </p>
           <p className="text-[#a1a1aa] leading-relaxed">
             Probamos la European Roulette Pro de NetEnt en FRESH Casino y la experiencia RNG fue bastante fluida. Pero la verdad es que después de jugar en vivo, las versiones digitales se sienten un poco... frías. Es como ver un partido de fútbol grabado vs. verlo en directo. Técnicamente es lo mismo, pero no lo es.
@@ -340,19 +340,19 @@ export default function RuletaOnlinePeru() {
             La ruleta francesa es, básicamente, la hermana mayor de la europea. Mismo cilindro, mismos 37 números, mismo cero verde. Entonces, te preguntarás, ¿cuál es la diferencia? Dos reglas que le cambian la vida a cualquier jugador serio: La Partage y En Prison.
           </p>
           <p className="text-[#d4d4d8] leading-relaxed mb-4">
-            <strong className="text-white">La Partage</strong> funciona así: si apostás a una opción externa (rojo/negro, par/impar, alto/bajo) y la bola cae en el cero, en vez de perder toda tu apuesta, recuperás la mitad. Automáticamente. Sin pedir nada. Eso baja la ventaja de la casa del 2.70% al 1.35% en apuestas externas. Es la ventaja más baja que vas a encontrar en cualquier variante de ruleta que existe.
+            <strong className="text-white">La Partage</strong> funciona así: si apuestas a una opción externa (rojo/negro, par/impar, alto/bajo) y la bola cae en el cero, en vez de perder toda tu apuesta, recuperas la mitad. Automáticamente. Sin pedir nada. Eso baja la ventaja de la casa del 2.70% al 1.35% en apuestas externas. Es la ventaja más baja que vas a encontrar en cualquier variante de ruleta que existe.
           </p>
           <p className="text-[#d4d4d8] leading-relaxed mb-4">
-            <strong className="text-white">En Prison</strong> es parecida pero con un giro. Cuando sale cero, tu apuesta queda &quot;en prisión&quot; hasta la próxima ronda. Si en la siguiente ronda ganás, recuperás tu apuesta completa (sin ganancias adicionales). Si perdés, la perdés toda. Y si vuelve a salir cero... depende de la mesa, pero generalmente tu apuesta sigue presa.
+            <strong className="text-white">En Prison</strong> es parecida pero con un giro. Cuando sale cero, tu apuesta queda &quot;en prisión&quot; hasta la próxima ronda. Si en la siguiente ronda ganas, recuperas tu apuesta completa (sin ganancias adicionales). Si pierdes, la pierdes toda. Y si vuelve a salir cero... depende de la mesa, pero generalmente tu apuesta sigue presa.
           </p>
           <p className="text-[#d4d4d8] leading-relaxed mb-4">
-            Te lo pongo en perspectiva con números concretos. Si apostás S/100 a rojo en ruleta francesa con La Partage y sale el cero, recuperás S/50. En la europea normal, perdés los S/100 completos. A lo largo de cientos de rondas, esa diferencia se nota y mucho. Si jugás 1000 rondas apostando S/10 por ronda, estadísticamente te ahorrás S/135 en la francesa vs. la europea. No es poca cosa.
+            Te lo pongo en perspectiva con números concretos. Si apuestas S/100 a rojo en ruleta francesa con La Partage y sale el cero, recuperas S/50. En la europea normal, pierdes los S/100 completos. A lo largo de cientos de rondas, esa diferencia se nota y mucho. Si juegas 1000 rondas apostando S/10 por ronda, estadísticamente te ahorras S/135 en la francesa vs. la europea. No es poca cosa.
           </p>
           <p className="text-[#a1a1aa] leading-relaxed mb-4">
             El problema (porque siempre hay un pero) es que no todos los casinos tienen ruleta francesa. De nuestro ranking, Betsson la tiene en su versión en vivo con Evolution, y FRESH Casino la tiene en versión RNG. SOL Casino la agregó hace unos meses pero solo está disponible en horarios limitados (lo descubrimos un sábado a las 2pm cuando queríamos jugar y la mesa estaba cerrada... no fue la mejor experiencia).
           </p>
           <p className="text-[#a1a1aa] leading-relaxed">
-            Si encontrás una mesa de ruleta francesa con La Partage y límites que te convengan, sentate ahí y no te muevas. Es lo más cercano a una ventaja real que vas a tener en un casino. Esto no es opinión, son matemáticas.
+            Si encuentras una mesa de ruleta francesa con La Partage y límites que te convengan, sentate ahí y no te muevas. Es lo más cercano a una ventaja real que vas a tener en un casino. Esto no es opinión, son matemáticas.
           </p>
           <div className="mt-4 flex items-center gap-3 flex-wrap">
             <span className="text-xs font-bold text-[#22c55e] bg-[#22c55e]/10 px-3 py-1 rounded-full">Ventaja: 1.35% (La Partage)</span>
@@ -368,16 +368,16 @@ export default function RuletaOnlinePeru() {
             <span className="text-xs bg-[#ef4444]/20 text-[#ef4444] px-3 py-1 rounded-full font-bold shrink-0">NO RECOMENDADA</span>
           </div>
           <p className="text-[#d4d4d8] leading-relaxed mb-4">
-            Acá viene lo bueno... o lo malo, depende cómo lo veas. La ruleta americana tiene 38 casillas: los números del 1 al 36, un cero (0) y un doble cero (00). Ese doble cero extra no te da nada a vos como jugador. Cero beneficio. Lo único que hace es duplicar la ventaja del casino al 5.26%.
+            Acá viene lo bueno... o lo malo, depende cómo lo veas. La ruleta americana tiene 38 casillas: los números del 1 al 36, un cero (0) y un doble cero (00). Ese doble cero extra no te da nada a ti como jugador. Cero beneficio. Lo único que hace es duplicar la ventaja del casino al 5.26%.
           </p>
           <p className="text-[#d4d4d8] leading-relaxed mb-4">
-            Para que lo entiendas con plata: si apostás S/10 por ronda durante 1000 rondas, en la europea el casino se queda con S/270 en promedio. En la americana, se queda con S/526. Casi el doble. Por hacer exactamente las mismas apuestas, con la misma emoción, mirando el mismo tipo de ruleta. La única diferencia es una casilla verde extra que no necesitabas.
+            Para que lo entiendas con plata: si apuestas S/10 por ronda durante 1000 rondas, en la europea el casino se queda con S/270 en promedio. En la americana, se queda con S/526. Casi el doble. Por hacer exactamente las mismas apuestas, con la misma emoción, mirando el mismo tipo de ruleta. La única diferencia es una casilla verde extra que no necesitabas.
           </p>
           <p className="text-[#d4d4d8] leading-relaxed mb-4">
             Y sin embargo, hay gente que la juega. Nos metimos a las mesas americanas en varios casinos y siempre tenían jugadores. Nos costó entender por qué hasta que nos dimos cuenta de algo: muchos no saben la diferencia. Piensan que &quot;americana&quot; suena a mejor, más profesional, más de película. Pero no, es peor. Objetivamente peor. En todos los sentidos matemáticos posibles.
           </p>
           <p className="text-[#a1a1aa] leading-relaxed">
-            El único escenario en el que podrías considerar la americana es si tiene alguna promoción exclusiva que compense la diferencia de ventaja. Y honestamente, nunca vimos una que lo hiciera. Si un casino te empuja hacia la americana sin razón, desconfiá un poco de sus intenciones.
+            El único escenario en el que podrías considerar la americana es si tiene alguna promoción exclusiva que compense la diferencia de ventaja. Y honestamente, nunca vimos una que lo hiciera. Si un casino te empuja hacia la americana sin razón, desconfía un poco de sus intenciones.
           </p>
           <div className="mt-4 flex items-center gap-3">
             <span className="text-xs font-bold text-[#ef4444] bg-[#ef4444]/10 px-3 py-1 rounded-full">Ventaja: 5.26%</span>
@@ -389,13 +389,13 @@ export default function RuletaOnlinePeru() {
         <div className="rounded-2xl border border-[#f59e0b]/20 bg-[#f59e0b]/[0.03] p-6 sm:p-8 mb-8">
           <h3 className="text-xl sm:text-2xl font-black text-white mb-4">Lightning Roulette — La revolución del live casino</h3>
           <p className="text-[#d4d4d8] leading-relaxed mb-4">
-            Si solo vas a probar una variante nueva de ruleta este año, que sea Lightning Roulette. Evolution la creó en 2018 y desde entonces se convirtió en la mesa más jugada del mundo en casino en vivo. Y entendés por qué apenas te sentás.
+            Si solo vas a probar una variante nueva de ruleta este año, que sea Lightning Roulette. Evolution la creó en 2018 y desde entonces se convirtió en la mesa más jugada del mundo en casino en vivo. Y entiendes por qué apenas te sientas.
           </p>
           <p className="text-[#d4d4d8] leading-relaxed mb-4">
-            El concepto es ruleta europea estándar (un solo cero, 37 casillas) pero con un agregado que cambia todo: antes de cada giro, un rayo cae sobre 1 a 5 números aleatorios y les asigna multiplicadores de 50x, 100x, 200x o 500x. Si apostaste a un pleno (número específico) y ese número tiene multiplicador, en vez de ganar 35:1 podés ganar hasta 500:1.
+            El concepto es ruleta europea estándar (un solo cero, 37 casillas) pero con un agregado que cambia todo: antes de cada giro, un rayo cae sobre 1 a 5 números aleatorios y les asigna multiplicadores de 50x, 100x, 200x o 500x. Si apostaste a un pleno (número específico) y ese número tiene multiplicador, en vez de ganar 35:1 puedes ganar hasta 500:1.
           </p>
           <p className="text-[#d4d4d8] leading-relaxed mb-4">
-            Ahora, el truco que Evolution no te grita en la cara: para compensar esos multiplicadores gigantes, el pago base del pleno baja de 35:1 a 29:1. Eso significa que si apostás a un número sin multiplicador y ganás, cobrás menos que en una ruleta europea normal. La ventaja de la casa sube un poco, alrededor del 2.90% contra el 2.70% estándar.
+            Ahora, el truco que Evolution no te grita en la cara: para compensar esos multiplicadores gigantes, el pago base del pleno baja de 35:1 a 29:1. Eso significa que si apuestas a un número sin multiplicador y ganas, cobras menos que en una ruleta europea normal. La ventaja de la casa sube un poco, alrededor del 2.90% contra el 2.70% estándar.
           </p>
           <p className="text-[#d4d4d8] leading-relaxed mb-4">
             Pero y bueno... la emoción de ver ese rayo caer sobre tu número con un multiplicador de 500x es algo que no se compara con nada. Probamos Lightning Roulette en Betsson un viernes a la noche y la mesa tenía más de 8000 jugadores simultáneos. En una ronda enganchamos un multiplicador de 200x en el número 17 con una apuesta de S/2 y cobramos S/400. La adrenalina fue real.
@@ -434,7 +434,7 @@ export default function RuletaOnlinePeru() {
             Misma ventaja que la europea (2.70%), misma mecánica. La diferencia es que no hay interacción humana. No hay crupier que te salude, que te diga &quot;no more bets&quot;, ni que haga esos movimientos elegantes con las fichas. Es eficiente pero fría. Nosotros la usamos cuando queremos sesiones rápidas y no estamos de humor para socializar (sí, hablamos con los crupiers en el chat, no juzgues).
           </p>
           <p className="text-[#a1a1aa] leading-relaxed">
-            FRESH Casino y Betsson tienen versiones de Auto Roulette que van bastante bien. La que más nos gustó fue la Speed Auto Roulette de Evolution, que hace los giros todavía más rápidos. Ojo, jugar rápido no significa ganar más. Si acaso, vas a perder más rápido si no controlás tu bankroll. Pero para algunos, la velocidad es parte de la diversión.
+            FRESH Casino y Betsson tienen versiones de Auto Roulette que van bastante bien. La que más nos gustó fue la Speed Auto Roulette de Evolution, que hace los giros todavía más rápidos. Ojo, jugar rápido no significa ganar más. Si acaso, vas a perder más rápido si no controlas tu bankroll. Pero para algunos, la velocidad es parte de la diversión.
           </p>
         </div>
 
@@ -448,7 +448,7 @@ export default function RuletaOnlinePeru() {
             Evolution tiene sus mesas de Ruleta en Español que están disponibles en la mayoría de casinos, y Pragmatic Play también fue sumando mesas en español. La diferencia entre proveedores es sutil: los crupiers de Evolution suelen ser más profesionales y serios, mientras que los de Pragmatic tienden a ser más relajados y conversadores.
           </p>
           <p className="text-[#a1a1aa] leading-relaxed">
-            Si el idioma no te importa tanto, ignorá esto y jugá en cualquier mesa. Pero si vas a jugar largo rato y te gusta interactuar con el crupier por el chat, una mesa en español hace la experiencia mucho más agradable. Probamos chatear en inglés en una mesa normal y en español en una mesa latina, y la diferencia en la interacción fue notable. En la mesa en español el dealer hasta te responde con emojis.
+            Si el idioma no te importa tanto, ignora esto y juega en cualquier mesa. Pero si vas a jugar largo rato y te gusta interactuar con el crupier por el chat, una mesa en español hace la experiencia mucho más agradable. Probamos chatear en inglés en una mesa normal y en español en una mesa latina, y la diferencia en la interacción fue notable. En la mesa en español el dealer hasta te responde con emojis.
           </p>
         </div>
 
@@ -527,7 +527,7 @@ export default function RuletaOnlinePeru() {
       <Section id="analisis-casinos" alt>
         <SectionTitle>Análisis Detallado: Top 5 Casinos para Ruleta en Perú</SectionTitle>
         <p className="text-[#a1a1aa] mb-10 max-w-3xl leading-relaxed">
-          No alcanza con decir &quot;este casino tiene ruleta&quot;. Nos metimos a jugar en cada uno, probamos diferentes mesas, horarios y dispositivos. Acá van los detalles que importan cuando lo que querés es jugar ruleta en serio.
+          No alcanza con decir &quot;este casino tiene ruleta&quot;. Nos metimos a jugar en cada uno, probamos diferentes mesas, horarios y dispositivos. Acá van los detalles que importan cuando lo que quieres es jugar ruleta en serio.
         </p>
 
         {/* ── BETSSON ── */}
@@ -592,8 +592,8 @@ export default function RuletaOnlinePeru() {
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-4">
             El paquete de bienvenida de hasta $2,275 + 150 giros te da colchón de sobra (ojo: la ruleta suele
-            aportar menos al rollover), y podés pagar con métodos locales o cripto — depositamos USDT y en 10
-            minutos estábamos girando. ¿La contra? La interfaz está recargada; usá el buscador y te ahorrás el
+            aportar menos al rollover), y puedes pagar con métodos locales o cripto — depositamos USDT y en 10
+            minutos estábamos girando. ¿La contra? La interfaz está recargada; usa el buscador y te ahorras el
             mareo del primer día.
           </p>
           <CtaButton slug="1xbet" text="Probar 1xBet" />
@@ -632,16 +632,16 @@ export default function RuletaOnlinePeru() {
           </div>
 
           <p className="text-[#d4d4d8] leading-relaxed mb-4">
-            FRESH Casino tiene algo que los demás no tienen: cantidad. Con más de 60 mesas de ruleta, es literalmente el casino con más opciones para este juego en todo nuestro ranking. Y no son 60 mesas genéricas, hay una variedad real de proveedores y variantes. Entrás al lobby y te sentís en un buffet de ruletas.
+            FRESH Casino tiene algo que los demás no tienen: cantidad. Con más de 60 mesas de ruleta, es literalmente el casino con más opciones para este juego en todo nuestro ranking. Y no son 60 mesas genéricas, hay una variedad real de proveedores y variantes. Entras al lobby y te sientes en un buffet de ruletas.
           </p>
           <p className="text-[#d4d4d8] leading-relaxed mb-4">
-            Lo que nos llamó la atención es que tienen XXXTreme Lightning Roulette, que es la versión más reciente y extrema de Evolution. Los multiplicadores pueden apilarse y llegar a números ridículos. También tienen Mega Roulette de Pragmatic Play, que es la competencia directa de Lightning con multiplicadores de hasta 500x. Es el único casino donde podés comparar las dos variantes una al lado de la otra.
+            Lo que nos llamó la atención es que tienen XXXTreme Lightning Roulette, que es la versión más reciente y extrema de Evolution. Los multiplicadores pueden apilarse y llegar a números ridículos. También tienen Mega Roulette de Pragmatic Play, que es la competencia directa de Lightning con multiplicadores de hasta 500x. Es el único casino donde puedes comparar las dos variantes una al lado de la otra.
           </p>
           <p className="text-[#d4d4d8] leading-relaxed mb-4">
-            La experiencia de juego fue sólida. El streaming es bueno (no al nivel de Betsson, pero un 8 de 10 fácil) y las mesas cargan rápido. Probamos desde un celular Xiaomi con wifi y desde una laptop con fibra óptica, y en ambos casos la experiencia fue fluida. Un punto a favor: su buscador de mesas funciona mejor que el de la mayoría, podés filtrar por proveedor, tipo de ruleta y rango de apuestas.
+            La experiencia de juego fue sólida. El streaming es bueno (no al nivel de Betsson, pero un 8 de 10 fácil) y las mesas cargan rápido. Probamos desde un celular Xiaomi con wifi y desde una laptop con fibra óptica, y en ambos casos la experiencia fue fluida. Un punto a favor: su buscador de mesas funciona mejor que el de la mayoría, puedes filtrar por proveedor, tipo de ruleta y rango de apuestas.
           </p>
           <p className="text-[#a1a1aa] leading-relaxed">
-            El bono de bienvenida de 100% + 500 giros gratis suena espectacular, pero ojo: los giros son para slots, no para ruleta. El depósito match sí lo podés usar en ruleta, pero generalmente contribuye menos al rollover (un 10-20% vs. el 100% de las tragamonedas). Leé los términos antes de aceptar si tu plan es jugar exclusivamente ruleta.
+            El bono de bienvenida de 100% + 500 giros gratis suena espectacular, pero ojo: los giros son para slots, no para ruleta. El depósito match sí lo puedes usar en ruleta, pero generalmente contribuye menos al rollover (un 10-20% vs. el 100% de las tragamonedas). Lee los términos antes de aceptar si tu plan es jugar exclusivamente ruleta.
           </p>
 
           <ProsCons
@@ -670,16 +670,16 @@ export default function RuletaOnlinePeru() {
           <p className="text-[#71717a] text-sm mb-6">50+ mesas de ruleta &middot; Ruleta en vivo &middot; Bono: 100% + 500 giros gratis</p>
 
           <p className="text-[#d4d4d8] leading-relaxed mb-4">
-            SOL Casino es un caso interesante. No es el que tiene más mesas ni el que tiene mejor streaming, pero hay algo en su experiencia general que lo hace muy agradable para jugar ruleta. Es difícil de explicar sin sonar a cliché, pero la interfaz está tan bien organizada que encontrar y sentarte en una mesa toma literalmente 3 clics. En algunos casinos necesitás 6 o 7 clics y navegar por menús confusos.
+            SOL Casino es un caso interesante. No es el que tiene más mesas ni el que tiene mejor streaming, pero hay algo en su experiencia general que lo hace muy agradable para jugar ruleta. Es difícil de explicar sin sonar a cliché, pero la interfaz está tan bien organizada que encontrar y sentarte en una mesa toma literalmente 3 clics. En algunos casinos necesitas 6 o 7 clics y navegar por menús confusos.
           </p>
           <p className="text-[#d4d4d8] leading-relaxed mb-4">
             Tienen 50+ mesas de ruleta con Evolution y Pragmatic Play como proveedores principales. Las variantes estándar están todas: europea, Lightning, Immersive, Speed, Auto. También encontramos mesas de Ezugi que son un poco menos conocidas pero funcionan bien y a veces tienen menos jugadores (lo cual puede ser bueno si te gusta una experiencia más tranquila y personal con el crupier).
           </p>
           <p className="text-[#d4d4d8] leading-relaxed mb-4">
-            Algo que nos gustó mucho de SOL es la transparencia con los límites. Antes de entrar a cada mesa, te muestra claramente el mínimo y máximo de apuesta, los horarios de operación (para las mesas con horario) y hasta la cantidad de jugadores activos. No tenés que entrar a la mesa para descubrir que el mínimo es más alto de lo que querías.
+            Algo que nos gustó mucho de SOL es la transparencia con los límites. Antes de entrar a cada mesa, te muestra claramente el mínimo y máximo de apuesta, los horarios de operación (para las mesas con horario) y hasta la cantidad de jugadores activos. No tienes que entrar a la mesa para descubrir que el mínimo es más alto de lo que querías.
           </p>
           <p className="text-[#a1a1aa] leading-relaxed mb-4">
-            Le pasamos SOL Casino a un primo que nunca había jugado ruleta online y nos dijo: &quot;pana, esto está bien fácil&quot;. Eso resume bastante bien la experiencia. Si sos nuevo en la ruleta online y querés algo que no te abrume con opciones, SOL es una excelente primera opción. El soporte respondió en 4 minutos cuando preguntamos sobre los límites de apuesta en mesas VIP (lo cronometramos, sí somos así).
+            Le pasamos SOL Casino a un primo que nunca había jugado ruleta online y nos dijo: &quot;pana, esto está bien fácil&quot;. Eso resume bastante bien la experiencia. Si eres nuevo en la ruleta online y quieres algo que no te abrume con opciones, SOL es una excelente primera opción. El soporte respondió en 4 minutos cuando preguntamos sobre los límites de apuesta en mesas VIP (lo cronometramos, sí somos así).
           </p>
 
           <ProsCons
@@ -708,10 +708,10 @@ export default function RuletaOnlinePeru() {
           <p className="text-[#71717a] text-sm mb-6">40+ mesas de ruleta &middot; Ruleta en vivo &middot; Bono: 150% primer depósito</p>
 
           <p className="text-[#d4d4d8] leading-relaxed mb-4">
-            El bono de MONRO es el que más destaca de todo el ranking: 150% en tu primer depósito. Y antes de que preguntes, sí, podés usarlo para jugar ruleta. Pero (siempre hay un pero), la contribución de la ruleta al rollover es parcial. Típicamente las apuestas de ruleta cuentan entre un 5% y un 20% para el cumplimiento del wagering, dependiendo de la promoción. Aun así, tener más saldo para jugar nunca está de mal.
+            El bono de MONRO es el que más destaca de todo el ranking: 150% en tu primer depósito. Y antes de que preguntes, sí, puedes usarlo para jugar ruleta. Pero (siempre hay un pero), la contribución de la ruleta al rollover es parcial. Típicamente las apuestas de ruleta cuentan entre un 5% y un 20% para el cumplimiento del wagering, dependiendo de la promoción. Aun así, tener más saldo para jugar nunca está de mal.
           </p>
           <p className="text-[#d4d4d8] leading-relaxed mb-4">
-            En cuanto a las mesas, MONRO tiene unas 40+ opciones de ruleta. No es la cantidad más grande pero la calidad está ahí. Lo que nos sorprendió es que sus mesas de Lightning Roulette tenían algunos de los tiempos de carga más rápidos que medimos: menos de 3 segundos desde que clickeás hasta que estás viendo el stream en vivo. En FRESH Casino el mismo proceso tardaba 5-6 segundos. Parece poco pero cuando estás ansioso por jugar, cada segundo cuenta.
+            En cuanto a las mesas, MONRO tiene unas 40+ opciones de ruleta. No es la cantidad más grande pero la calidad está ahí. Lo que nos sorprendió es que sus mesas de Lightning Roulette tenían algunos de los tiempos de carga más rápidos que medimos: menos de 3 segundos desde que clickeas hasta que estás viendo el stream en vivo. En FRESH Casino el mismo proceso tardaba 5-6 segundos. Parece poco pero cuando estás ansioso por jugar, cada segundo cuenta.
           </p>
 
           <div className="rounded-xl bg-white/[0.03] border border-white/[0.06] p-4 mb-4">
@@ -757,7 +757,7 @@ export default function RuletaOnlinePeru() {
             El streaming es correcto. No tuvimos problemas de lag ni caídas durante nuestras sesiones de prueba, pero tampoco diríamos que es el mejor. Está en un punto medio que cumple bien. Donde STARDA se luce es en la velocidad de los retiros con criptomonedas: probamos un retiro con USDT un miércoles a las 6pm y en 45 minutos teníamos la plata en nuestra wallet. Eso es rápido para los estándares actuales.
           </p>
           <p className="text-[#a1a1aa] leading-relaxed">
-            Si te gustan los torneos y la competencia entre jugadores, STARDA es tu casino para ruleta. Si solo querés sentarte en una mesa y jugar tranquilo, probablemente hay opciones mejores arriba en el ranking. Pero los torneos le dan una capa extra de emoción que no encontrás en ningún otro lado.
+            Si te gustan los torneos y la competencia entre jugadores, STARDA es tu casino para ruleta. Si solo quieres sentarte en una mesa y jugar tranquilo, probablemente hay opciones mejores arriba en el ranking. Pero los torneos le dan una capa extra de emoción que no encuentras en ningún otro lado.
           </p>
 
           <ProsCons
@@ -788,7 +788,7 @@ export default function RuletaOnlinePeru() {
         </div>
         <div className="relative z-10 mx-auto max-w-4xl px-4 text-center">
           <p className="text-[#22c55e] font-bold text-sm uppercase tracking-wider mb-3">Nuestra recomendación #1 para ruleta</p>
-          <h3 className="text-3xl sm:text-4xl font-black text-white mb-4">Betsson tiene todo lo que necesitás</h3>
+          <h3 className="text-3xl sm:text-4xl font-black text-white mb-4">Betsson tiene todo lo que necesitas</h3>
           <p className="text-[#a1a1aa] mb-6 max-w-2xl mx-auto">
             45+ mesas de ruleta, streaming HD, crupiers en español, ruleta francesa con La Partage y licencia MINCETUR. Después de probar todos los casinos, Betsson se queda con el primer puesto para ruleta online en Perú.
           </p>
@@ -807,10 +807,10 @@ export default function RuletaOnlinePeru() {
         {/* Apuestas internas vs externas */}
         <h3 className="text-xl font-black text-white mb-4">Apuestas Internas vs. Externas</h3>
         <p className="text-[#d4d4d8] leading-relaxed mb-4">
-          En la ruleta, todas las apuestas se dividen en dos grupos. Las <strong className="text-white">apuestas internas</strong> son las que hacés directamente sobre los números del paño: un número, dos, tres, cuatro o seis números a la vez. Pagan más pero ganan con menos frecuencia. Las <strong className="text-white">apuestas externas</strong> cubren grandes grupos de números: rojo/negro, par/impar, alto/bajo, docenas y columnas. Pagan menos pero ganan más seguido.
+          En la ruleta, todas las apuestas se dividen en dos grupos. Las <strong className="text-white">apuestas internas</strong> son las que haces directamente sobre los números del paño: un número, dos, tres, cuatro o seis números a la vez. Pagan más pero ganan con menos frecuencia. Las <strong className="text-white">apuestas externas</strong> cubren grandes grupos de números: rojo/negro, par/impar, alto/bajo, docenas y columnas. Pagan menos pero ganan más seguido.
         </p>
         <p className="text-[#d4d4d8] leading-relaxed mb-6">
-          No te voy a mentir, no hay una que sea &quot;mejor&quot; que la otra en términos de ventaja del casino. La ventaja es la misma en todas las apuestas de la ruleta europea (2.70%). La diferencia está en la volatilidad: las internas te dan subidas y bajadas bruscas, las externas te dan sesiones más estables pero menos emocionantes. Elegí según tu personalidad y tu bankroll.
+          No te voy a mentir, no hay una que sea &quot;mejor&quot; que la otra en términos de ventaja del casino. La ventaja es la misma en todas las apuestas de la ruleta europea (2.70%). La diferencia está en la volatilidad: las internas te dan subidas y bajadas bruscas, las externas te dan sesiones más estables pero menos emocionantes. Elige según tu personalidad y tu bankroll.
         </p>
 
         {/* Full bet types table */}
@@ -908,7 +908,7 @@ export default function RuletaOnlinePeru() {
         {/* Coverage strategy */}
         <h3 className="text-xl font-black text-white mb-4">Estrategia de Cobertura</h3>
         <p className="text-[#d4d4d8] leading-relaxed mb-4">
-          Una técnica popular entre jugadores experimentados es cubrir una gran cantidad de números con apuestas combinadas. Por ejemplo, apostar a dos docenas cubre 24 de 37 números (64.86% de probabilidad de ganar). O combinar varias apuestas internas para cubrir una zona específica del cilindro. La gracia es que ganás más seguido, pero cada vez que perdés, perdés más.
+          Una técnica popular entre jugadores experimentados es cubrir una gran cantidad de números con apuestas combinadas. Por ejemplo, apostar a dos docenas cubre 24 de 37 números (64.86% de probabilidad de ganar). O combinar varias apuestas internas para cubrir una zona específica del cilindro. La gracia es que ganas más seguido, pero cada vez que pierdes, pierdes más.
         </p>
         <p className="text-[#d4d4d8] leading-relaxed mb-4">
           Uno de nuestros patterns favoritos para sesiones largas: apostamos S/5 a la segunda docena (13-24) y S/5 a la tercera docena (25-36). Eso cubre 24 números. Si gana cualquiera de las dos docenas, ganamos S/10 y perdemos S/5 de la otra, neto +S/5. Si cae del 1 al 12 o en el cero, perdemos S/10. Jugamos 30 rondas con esta estrategia en SOL Casino y terminamos con +S/15. No es plata para retirarse, pero es una sesión entretenida con pérdidas controladas.
@@ -920,19 +920,19 @@ export default function RuletaOnlinePeru() {
         {/* Bankroll management */}
         <h3 className="text-xl font-black text-white mb-4">Gestión del Bankroll: Esto Sí que Importa</h3>
         <p className="text-[#d4d4d8] leading-relaxed mb-4">
-          Si hay algo que de verdad hace diferencia en tu experiencia con la ruleta, es cómo manejás tu bankroll. No es una estrategia para ganar, es una estrategia para no perder todo en 10 minutos. Y la verdad es que la mayoría de jugadores que se quejan de la ruleta online es porque no tenían un plan.
+          Si hay algo que de verdad hace diferencia en tu experiencia con la ruleta, es cómo manejas tu bankroll. No es una estrategia para ganar, es una estrategia para no perder todo en 10 minutos. Y la verdad es que la mayoría de jugadores que se quejan de la ruleta online es porque no tenían un plan.
         </p>
         <p className="text-[#d4d4d8] leading-relaxed mb-4">
           Regla número uno: nunca lleves a una sesión de ruleta más de lo que estés dispuesto a perder. Suena obvio, pero te sorprendería cuánta gente deposita todo su sueldo &quot;porque siente que hoy es su día&quot;. No hagas eso.
         </p>
         <p className="text-[#d4d4d8] leading-relaxed mb-4">
-          Regla número dos: tus apuestas no deberían superar el 2-5% de tu bankroll total por ronda. Si tenés S/500 para jugar, cada apuesta debería estar entre S/10 y S/25. Eso te da como mínimo 20 rondas de juego incluso en el peor escenario posible. Con apuestas externas (que ganás casi la mitad de las veces), esas 20 rondas se pueden estirar fácilmente a 100 o más.
+          Regla número dos: tus apuestas no deberían superar el 2-5% de tu bankroll total por ronda. Si tienes S/500 para jugar, cada apuesta debería estar entre S/10 y S/25. Eso te da como mínimo 20 rondas de juego incluso en el peor escenario posible. Con apuestas externas (que ganas casi la mitad de las veces), esas 20 rondas se pueden estirar fácilmente a 100 o más.
         </p>
         <p className="text-[#d4d4d8] leading-relaxed mb-4">
-          Regla número tres: poné un límite de ganancia y de pérdida antes de empezar. Algo como: &quot;si pierdo S/200, me voy&quot; y &quot;si gano S/150, me voy&quot;. Y respetalo. Esto es lo más difícil de todo porque cuando estás ganando querés seguir y cuando estás perdiendo querés recuperar. Pero disciplina es lo que separa a un jugador inteligente de uno que pierde todo.
+          Regla número tres: pon un límite de ganancia y de pérdida antes de empezar. Algo como: &quot;si pierdo S/200, me voy&quot; y &quot;si gano S/150, me voy&quot;. Y respétalo. Esto es lo más difícil de todo porque cuando estás ganando quieres seguir y cuando estás perdiendo quieres recuperar. Pero disciplina es lo que separa a un jugador inteligente de uno que pierde todo.
         </p>
         <p className="text-[#a1a1aa] leading-relaxed mb-8">
-          La mayoría de casinos de nuestro ranking (Betsson, Betano, Stake) te permiten configurar límites de depósito y pérdida directamente desde tu cuenta. Usá esas herramientas. No es de cobarde, es de inteligente.
+          La mayoría de casinos de nuestro ranking (Betsson, Betano, Stake) te permiten configurar límites de depósito y pérdida directamente desde tu cuenta. Usa esas herramientas. No es de cobarde, es de inteligente.
         </p>
 
         {/* Systems that don't work */}
@@ -945,10 +945,10 @@ export default function RuletaOnlinePeru() {
         <div className="rounded-xl bg-[#ef4444]/[0.04] border border-[#ef4444]/15 p-5 mb-4">
           <h4 className="text-[#ef4444] font-bold mb-2">Sistema Martingala</h4>
           <p className="text-[#d4d4d8] text-sm leading-relaxed mb-3">
-            El más famoso de todos. La idea es simple: apostás a rojo (o negro, o par, o impar). Si perdés, duplicás la apuesta. Cuando ganés, recuperás todo lo perdido más una unidad de ganancia. Suena perfecto, ¿verdad? En papel, sí. En la vida real, no.
+            El más famoso de todos. La idea es simple: apuestas a rojo (o negro, o par, o impar). Si pierdes, duplicas la apuesta. Cuando ganes, recuperas todo lo perdido más una unidad de ganancia. Suena perfecto, ¿verdad? En papel, sí. En la vida real, no.
           </p>
           <p className="text-[#d4d4d8] text-sm leading-relaxed mb-3">
-            El problema es matemático y aplastante. Empezás con S/10. Perdés. Apostás S/20. Perdés. S/40. Perdés. S/80. S/160. S/320. S/640. Después de 7 pérdidas consecutivas (que pasan más seguido de lo que creés, un 1.16% de probabilidad en cada secuencia), estás apostando S/1,280 para recuperar... S/10 de ganancia neta. Y si perdés esa también, necesitás S/2,560. Y adivina qué: la mayoría de mesas tienen un límite máximo de apuesta de S/5,000 o S/10,000. Cuando llegás al tope, el sistema se quiebra y perdiste todo.
+            El problema es matemático y aplastante. Empiezas con S/10. Pierdes. Apuestas S/20. Pierdes. S/40. Pierdes. S/80. S/160. S/320. S/640. Después de 7 pérdidas consecutivas (que pasan más seguido de lo que crees, un 1.16% de probabilidad en cada secuencia), estás apostando S/1,280 para recuperar... S/10 de ganancia neta. Y si pierdes esa también, necesitas S/2,560. Y adivina qué: la mayoría de mesas tienen un límite máximo de apuesta de S/5,000 o S/10,000. Cuando llegas al tope, el sistema se quiebra y perdiste todo.
           </p>
           <p className="text-[#a1a1aa] text-sm leading-relaxed">
             Probamos la Martingala en modo demo en FRESH Casino con S/5,000 de saldo ficticio, empezando con S/5. En la ronda 142 enganchamos una racha de 9 rojos seguidos (estábamos apostando a negro) y el sistema colapsó. Perdimos S/2,555 en esa racha. La casa siempre gana.
@@ -959,7 +959,7 @@ export default function RuletaOnlinePeru() {
         <div className="rounded-xl bg-[#ef4444]/[0.04] border border-[#ef4444]/15 p-5 mb-4">
           <h4 className="text-[#ef4444] font-bold mb-2">Sistema Fibonacci</h4>
           <p className="text-[#d4d4d8] text-sm leading-relaxed mb-3">
-            Usás la secuencia de Fibonacci para definir tus apuestas: 1, 1, 2, 3, 5, 8, 13, 21, 34... Cuando perdés, avanzás un paso en la secuencia. Cuando ganás, retrocedés dos pasos. Es una versión más &quot;conservadora&quot; de la Martingala porque las apuestas no se duplican tan rápido.
+            Usas la secuencia de Fibonacci para definir tus apuestas: 1, 1, 2, 3, 5, 8, 13, 21, 34... Cuando pierdes, avanzas un paso en la secuencia. Cuando ganas, retrocedes dos pasos. Es una versión más &quot;conservadora&quot; de la Martingala porque las apuestas no se duplican tan rápido.
           </p>
           <p className="text-[#d4d4d8] text-sm leading-relaxed mb-3">
             Pero el resultado es el mismo a largo plazo. La progresión es más lenta, sí, pero sigue creciendo exponencialmente. Después de 12 pérdidas consecutivas, tu apuesta es 144 veces tu apuesta inicial. Con una apuesta base de S/10, estarías apostando S/1,440 para recuperar una ganancia neta que ni siquiera vale la pena calcular.
@@ -973,7 +973,7 @@ export default function RuletaOnlinePeru() {
         <div className="rounded-xl bg-[#ef4444]/[0.04] border border-[#ef4444]/15 p-5 mb-6">
           <h4 className="text-[#ef4444] font-bold mb-2">Sistema D&apos;Alembert</h4>
           <p className="text-[#d4d4d8] text-sm leading-relaxed mb-3">
-            Este sistema dice que después de perder, aumentás tu apuesta una unidad, y después de ganar, la bajás una unidad. Es el más conservador de los tres y el que menos chances tiene de hacerte perder todo de golpe. Pero...
+            Este sistema dice que después de perder, aumentas tu apuesta una unidad, y después de ganar, la bajas una unidad. Es el más conservador de los tres y el que menos chances tiene de hacerte perder todo de golpe. Pero...
           </p>
           <p className="text-[#d4d4d8] text-sm leading-relaxed mb-3">
             El D&apos;Alembert se basa en la idea (errónea) de que los resultados de la ruleta se &quot;equilibran&quot; a corto plazo. Si salieron 5 rojos, &quot;tiene que salir negro pronto&quot;. Falso. Cada giro es completamente independiente. La bola no tiene memoria. No sabe ni le importa qué salió antes. Esto se llama la falacia del jugador y es la base de todos estos sistemas.
@@ -986,7 +986,7 @@ export default function RuletaOnlinePeru() {
         <div className="rounded-xl bg-[#22c55e]/[0.04] border border-[#22c55e]/15 p-5 mb-4">
           <h4 className="text-[#22c55e] font-bold mb-2">Entonces, ¿qué SÍ funciona?</h4>
           <p className="text-[#d4d4d8] text-sm leading-relaxed">
-            Elegir la variante correcta (francesa &gt; europea &gt; americana), manejar tu bankroll con disciplina, poner límites de ganancia y pérdida, y aceptar que la ruleta es entretenimiento, no un medio para generar ingresos. Si jugás con plata que no necesitás y te divertís en el proceso, ya ganaste. Los que pierden todo son los que juegan con plata del alquiler pensando que van a duplicarla.
+            Elegir la variante correcta (francesa &gt; europea &gt; americana), manejar tu bankroll con disciplina, poner límites de ganancia y pérdida, y aceptar que la ruleta es entretenimiento, no un medio para generar ingresos. Si juegas con plata que no necesitas y te diviertes en el proceso, ya ganaste. Los que pierden todo son los que juegan con plata del alquiler pensando que van a duplicarla.
           </p>
         </div>
       </Section>
@@ -1004,10 +1004,10 @@ export default function RuletaOnlinePeru() {
           <div className="rounded-2xl border border-[#22c55e]/20 bg-[#22c55e]/[0.03] p-6">
             <h3 className="text-lg font-black text-[#22c55e] mb-4">Ruleta en Vivo</h3>
             <p className="text-[#d4d4d8] text-sm leading-relaxed mb-4">
-              La ruleta en vivo se transmite en tiempo real desde un estudio profesional. Hay un crupier de carne y hueso que lanza la bola, gira el cilindro y anuncia los resultados. Vos ves todo por streaming de video en HD. Es lo más cercano a estar sentado en un casino físico pero desde tu sillón en Miraflores o tu cama en Arequipa.
+              La ruleta en vivo se transmite en tiempo real desde un estudio profesional. Hay un crupier de carne y hueso que lanza la bola, gira el cilindro y anuncia los resultados. Tú ves todo por streaming de video en HD. Es lo más cercano a estar sentado en un casino físico pero desde tu sillón en Miraflores o tu cama en Arequipa.
             </p>
             <p className="text-[#d4d4d8] text-sm leading-relaxed mb-4">
-              La experiencia es incomparable. Podés interactuar con el crupier por chat, ver a otros jugadores apostar en tiempo real, y sentir esa tensión genuina de ver la bola rebotando entre los números. Probamos una sesión de Immersive Roulette en Betsson un sábado a la noche y fue tan inmersiva (valga la redundancia) que mi novia me preguntó si estaba viendo una película.
+              La experiencia es incomparable. Puedes interactuar con el crupier por chat, ver a otros jugadores apostar en tiempo real, y sentir esa tensión genuina de ver la bola rebotando entre los números. Probamos una sesión de Immersive Roulette en Betsson un sábado a la noche y fue tan inmersiva (valga la redundancia) que mi novia me preguntó si estaba viendo una película.
             </p>
             <p className="text-[#a1a1aa] text-sm leading-relaxed">
               Los proveedores principales son Evolution Gaming (el líder indiscutido), Pragmatic Play Live (creciendo fuerte) y Ezugi (más orientado a mercados locales). Cada uno tiene su estilo: Evolution es profesional y pulido, Pragmatic es más dinámico y Ezugi es más relajado.
@@ -1030,7 +1030,7 @@ export default function RuletaOnlinePeru() {
               La ruleta virtual usa un generador de números aleatorios (RNG) para determinar el resultado. No hay crupier ni streaming. Es una simulación digital con gráficos 3D que replica la mecánica de la ruleta. Algunas versiones se ven bastante bien, con animaciones del cilindro girando y la bola cayendo, pero al final es un algoritmo el que decide dónde cae.
             </p>
             <p className="text-[#d4d4d8] text-sm leading-relaxed mb-4">
-              La ventaja principal es la velocidad. Podés jugar una ronda cada 15-20 segundos si querés, porque no hay que esperar a que otros jugadores coloquen sus apuestas ni a que el crupier haga los movimientos. También podés jugar gratis en modo demo, lo cual es perfecto para practicar si nunca jugaste ruleta antes.
+              La ventaja principal es la velocidad. Puedes jugar una ronda cada 15-20 segundos si quieres, porque no hay que esperar a que otros jugadores coloquen sus apuestas ni a que el crupier haga los movimientos. También puedes jugar gratis en modo demo, lo cual es perfecto para practicar si nunca jugaste ruleta antes.
             </p>
             <p className="text-[#a1a1aa] text-sm leading-relaxed">
               Los proveedores más conocidos de ruleta virtual son NetEnt (European Roulette Pro es su estrella), Microgaming, Play&apos;n Go y Betsoft. Matemáticamente, la ventaja del casino es exactamente la misma que en las mesas en vivo, así que no estás perdiendo nada en ese sentido.
@@ -1049,13 +1049,13 @@ export default function RuletaOnlinePeru() {
 
         <h3 className="text-lg font-black text-white mb-4">¿Cuándo elegir cada una?</h3>
         <p className="text-[#d4d4d8] leading-relaxed mb-4">
-          <strong className="text-white">Elegí ruleta en vivo si:</strong> querés la experiencia completa, te gusta interactuar con el crupier, preferís ver la bola caer en tiempo real, tenés buena conexión a internet y no te importa que las rondas sean un poco más lentas. Básicamente, si lo tuyo es disfrutar el proceso.
+          <strong className="text-white">Elige ruleta en vivo si:</strong> quieres la experiencia completa, te gusta interactuar con el crupier, prefieres ver la bola caer en tiempo real, tienes buena conexión a internet y no te importa que las rondas sean un poco más lentas. Básicamente, si lo tuyo es disfrutar el proceso.
         </p>
         <p className="text-[#d4d4d8] leading-relaxed mb-4">
-          <strong className="text-white">Elegí ruleta virtual si:</strong> estás aprendiendo y querés practicar gratis, tu internet no es muy estable, preferís sesiones rápidas, o simplemente querés jugar unas rondas sin comprometerte con una sesión larga. También es buena opción si estás en un lugar público y no querés que la gente vea tu pantalla con un casino en vivo.
+          <strong className="text-white">Elige ruleta virtual si:</strong> estás aprendiendo y quieres practicar gratis, tu internet no es muy estable, prefieres sesiones rápidas, o simplemente quieres jugar unas rondas sin comprometerte con una sesión larga. También es buena opción si estás en un lugar público y no quieres que la gente vea tu pantalla con un casino en vivo.
         </p>
         <p className="text-[#a1a1aa] leading-relaxed">
-          Nuestra recomendación personal: empezá con la virtual para entender las apuestas y después pasate a la ruleta en vivo. Una vez que probás el live, difícilmente volvés a la virtual. Es como pasar de ver fútbol por TV a ir al estadio. Técnicamente es el mismo partido, pero la experiencia no tiene comparación.
+          Nuestra recomendación personal: empieza con la virtual para entender las apuestas y después pásate a la ruleta en vivo. Una vez que pruebas el live, difícilmente vuelves a la virtual. Es como pasar de ver fútbol por TV a ir al estadio. Técnicamente es el mismo partido, pero la experiencia no tiene comparación.
         </p>
       </Section>
 
@@ -1091,7 +1091,7 @@ export default function RuletaOnlinePeru() {
             Pragmatic Play empezó haciendo slots y después se lanzó al casino en vivo. Y hay que reconocerlo: les salió bastante bien. Su producto estrella en ruleta es Mega Roulette, que es su respuesta a Lightning Roulette con multiplicadores de hasta 500x. La diferencia es que en Mega Roulette los multiplicadores pueden caer en más números por ronda, lo que estadísticamente te da más chances de enganchar uno.
           </p>
           <p className="text-[#d4d4d8] leading-relaxed mb-4">
-            También tienen Speed Roulette (su versión rápida) y mesas estándar de ruleta europea. Sus crupiers tienden a ser más jóvenes y dinámicos que los de Evolution, lo cual puede ser bueno o malo dependiendo de tus preferencias. A nosotros nos pareció refrescante, pero si buscás algo más sobrio, Evolution va mejor.
+            También tienen Speed Roulette (su versión rápida) y mesas estándar de ruleta europea. Sus crupiers tienden a ser más jóvenes y dinámicos que los de Evolution, lo cual puede ser bueno o malo dependiendo de tus preferencias. A nosotros nos pareció refrescante, pero si buscas algo más sobrio, Evolution va mejor.
           </p>
           <p className="text-[#a1a1aa] leading-relaxed">
             Pragmatic Play tiene un estudio en Bucarest que está creciendo fuerte y sumando mesas en español para el mercado latino. Es el proveedor que más está invirtiendo en contenido para LATAM en este momento. FRESH Casino y Betsson son los que más mesas de Pragmatic Live ofrecen.
@@ -1172,7 +1172,7 @@ export default function RuletaOnlinePeru() {
         <SectionTitle>Errores Comunes al Jugar Ruleta Online</SectionTitle>
 
         <p className="text-[#a1a1aa] mb-8 max-w-4xl leading-relaxed">
-          Después de años jugando y viendo a otros jugar, estos son los errores que vemos una y otra vez. Si podés evitar aunque sea la mitad de esta lista, ya vas a estar mejor que el 80% de los jugadores.
+          Después de años jugando y viendo a otros jugar, estos son los errores que vemos una y otra vez. Si puedes evitar aunque sea la mitad de esta lista, ya vas a estar mejor que el 80% de los jugadores.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
@@ -1182,7 +1182,7 @@ export default function RuletaOnlinePeru() {
               <h4 className="text-white font-bold">Elegir la ruleta americana</h4>
             </div>
             <p className="text-[#a1a1aa] text-sm leading-relaxed">
-              Ya lo dijimos y lo vamos a repetir: la americana tiene casi el doble de ventaja que la europea (5.26% vs. 2.70%). No hay ninguna razón racional para jugarla. Si tu casino la pone como la primera opción del lobby, buscá la europea manualmente. Siempre está, solo hay que buscar un poco.
+              Ya lo dijimos y lo vamos a repetir: la americana tiene casi el doble de ventaja que la europea (5.26% vs. 2.70%). No hay ninguna razón racional para jugarla. Si tu casino la pone como la primera opción del lobby, busca la europea manualmente. Siempre está, solo hay que buscar un poco.
             </p>
           </div>
 
@@ -1192,7 +1192,7 @@ export default function RuletaOnlinePeru() {
               <h4 className="text-white font-bold">Perseguir pérdidas</h4>
             </div>
             <p className="text-[#a1a1aa] text-sm leading-relaxed">
-              &quot;Ya perdí S/200, tengo que apostar más fuerte para recuperar&quot;. Si alguna vez te escuchaste diciendo esto, pará y cerrá el casino. Las pérdidas no se &quot;recuperan&quot; apostando más. Lo que pasa cuando duplicás las apuestas desesperado es que perdés más rápido. Siempre poné un límite de pérdida antes de empezar y respetalo religiosamente.
+              &quot;Ya perdí S/200, tengo que apostar más fuerte para recuperar&quot;. Si alguna vez te escuchaste diciendo esto, para y cierra el casino. Las pérdidas no se &quot;recuperan&quot; apostando más. Lo que pasa cuando duplicas las apuestas desesperado es que pierdes más rápido. Siempre pon un límite de pérdida antes de empezar y respétalo religiosamente.
             </p>
           </div>
 
@@ -1202,7 +1202,7 @@ export default function RuletaOnlinePeru() {
               <h4 className="text-white font-bold">No poner límites</h4>
             </div>
             <p className="text-[#a1a1aa] text-sm leading-relaxed">
-              Sentarte a jugar sin un presupuesto definido es la receta para el desastre. Decidí antes cuánto vas a gastar, cuánto querés ganar y cuándo te vas. Todos los casinos serios (Betsson, Betano, Stake) te dejan configurar límites de depósito diarios, semanales y mensuales. Usá esas herramientas.
+              Sentarte a jugar sin un presupuesto definido es la receta para el desastre. Decide antes cuánto vas a gastar, cuánto quieres ganar y cuándo te vas. Todos los casinos serios (Betsson, Betano, Stake) te dejan configurar límites de depósito diarios, semanales y mensuales. Usa esas herramientas.
             </p>
           </div>
 
@@ -1222,7 +1222,7 @@ export default function RuletaOnlinePeru() {
               <h4 className="text-white font-bold">Apostar todo a una opción</h4>
             </div>
             <p className="text-[#a1a1aa] text-sm leading-relaxed">
-              &quot;Voy all-in en rojo&quot;. Épico en las películas, desastroso en la vida real. Si metés todo tu bankroll en una sola apuesta, tenés un 48.65% de duplicar y un 51.35% de perder todo (en la europea). Esas no son probabilidades en las que quieras arriesgar plata que te importa. Diversificá las apuestas y dejá que la sesión dure.
+              &quot;Voy all-in en rojo&quot;. Épico en las películas, desastroso en la vida real. Si metes todo tu bankroll en una sola apuesta, tienes un 48.65% de duplicar y un 51.35% de perder todo (en la europea). Esas no son probabilidades en las que quieras arriesgar plata que te importa. Diversificá las apuestas y deja que la sesión dure.
             </p>
           </div>
 
@@ -1232,7 +1232,7 @@ export default function RuletaOnlinePeru() {
               <h4 className="text-white font-bold">No aprovechar los bonos de casino en vivo</h4>
             </div>
             <p className="text-[#a1a1aa] text-sm leading-relaxed">
-              Muchos casinos ofrecen bonos o cashback específicos para el casino en vivo, pero la gente los ignora porque &quot;los bonos son para slots&quot;. No siempre. MONRO tiene su bono de 150% que podés usar parcialmente en ruleta. Betsson a veces tiene promociones de cashback en mesas en vivo. Revisá la sección de promociones antes de jugar, podrías estar dejando plata sobre la mesa (literalmente).
+              Muchos casinos ofrecen bonos o cashback específicos para el casino en vivo, pero la gente los ignora porque &quot;los bonos son para slots&quot;. No siempre. MONRO tiene su bono de 150% que puedes usar parcialmente en ruleta. Betsson a veces tiene promociones de cashback en mesas en vivo. Revisa la sección de promociones antes de jugar, podrías estar dejando plata sobre la mesa (literalmente).
             </p>
           </div>
         </div>
@@ -1249,10 +1249,10 @@ export default function RuletaOnlinePeru() {
           Para los casinos internacionales como FRESH Casino, SOL Casino, MONRO y STARDA, las opciones más comunes son tarjetas Visa/Mastercard, transferencia bancaria y criptomonedas (Bitcoin, USDT, Ethereum). Los retiros con crypto son los más rápidos que encontramos: en STARDA tardó 45 minutos con USDT, mientras que las transferencias bancarias pueden demorar 24-48 horas.
         </p>
         <p className="text-[#d4d4d8] leading-relaxed mb-4">
-          Un tip: antes de depositar, fijate cuáles son los requisitos de retiro del casino. Algunos te piden hacer un retiro por el mismo método que usaste para depositar. Otros te dejan elegir cualquier método. Y casi todos te van a pedir verificación de identidad (KYC) en tu primer retiro. Tené tu DNI a mano para que no te agarre desprevenido.
+          Un tip: antes de depositar, fíjate cuáles son los requisitos de retiro del casino. Algunos te piden hacer un retiro por el mismo método que usaste para depositar. Otros te dejan elegir cualquier método. Y casi todos te van a pedir verificación de identidad (KYC) en tu primer retiro. Tené tu DNI a mano para que no te agarre desprevenido.
         </p>
         <p className="text-[#a1a1aa] leading-relaxed">
-          Para un análisis completo de todos los métodos de pago disponibles en cada casino, consultá nuestra <Link href="/peru/mejores-casinos-online" className="text-[#22c55e] hover:underline font-semibold">guía de mejores casinos online en Perú</Link> donde detallamos todo.
+          Para un análisis completo de todos los métodos de pago disponibles en cada casino, consulta nuestra <Link href="/peru/mejores-casinos-online" className="text-[#22c55e] hover:underline font-semibold">guía de mejores casinos online en Perú</Link> donde detallamos todo.
         </p>
 
         <div className="mt-6">
@@ -1284,7 +1284,7 @@ export default function RuletaOnlinePeru() {
         <SectionTitle>Glosario de Ruleta</SectionTitle>
 
         <p className="text-[#a1a1aa] mb-8 max-w-3xl leading-relaxed">
-          Si sos nuevo en la ruleta o te encontrás con términos que no entendés durante una partida, acá tenés una referencia rápida con todo lo que necesitás saber.
+          Si eres nuevo en la ruleta o te encuentras con términos que no entiendes durante una partida, acá tienes una referencia rápida con todo lo que necesitas saber.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -1305,7 +1305,7 @@ export default function RuletaOnlinePeru() {
         <div className="relative z-10 mx-auto max-w-4xl px-4 text-center">
           <h2 className="text-3xl sm:text-4xl font-black text-white mb-4">¿Listo para Jugar Ruleta?</h2>
           <p className="text-[#a1a1aa] mb-8 max-w-2xl mx-auto">
-            Ya tenés toda la información que necesitás: los mejores casinos, las variantes que convienen, las estrategias que funcionan y las que no. Ahora solo falta sentarte en una mesa y girar la rueda. Que la suerte esté de tu lado.
+            Ya tienes toda la información que necesitas: los mejores casinos, las variantes que convienen, las estrategias que funcionan y las que no. Ahora solo falta sentarte en una mesa y girar la rueda. Que la suerte esté de tu lado.
           </p>
           <div className="flex flex-wrap items-center justify-center gap-4">
             <CtaButton slug="betsson-peru" text="Jugar en Betsson (#1)" />

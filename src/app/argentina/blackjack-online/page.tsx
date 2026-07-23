@@ -5,7 +5,7 @@ import CasinoRanking from "@/components/CasinoRanking";
 import TableOfContents from "@/components/TableOfContents";
 
 export const metadata: Metadata = {
-  title: "Blackjack Online en Argentina 2026 | Casinos, Estrategia Básica y Mesas en Vivo",
+  title: "Blackjack Online en Argentina 2026 | Guía y Casinos",
   description:
     "Los mejores casinos con blackjack online en Argentina. Estrategia básica completa, mesas en vivo con dealers en español, variantes y bonos verificados.",
 };
@@ -136,9 +136,9 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Inicio", item: "https://jugarcasinosonline.net/" },
-    { "@type": "ListItem", position: 2, name: "Argentina", item: "https://jugarcasinosonline.net/argentina/" },
-    { "@type": "ListItem", position: 3, name: "Blackjack Online", item: "https://jugarcasinosonline.net/argentina/blackjack-online/" },
+    { "@type": "ListItem", position: 1, name: "Inicio", item: "https://www.jugarcasinosonline.net/" },
+    { "@type": "ListItem", position: 2, name: "Argentina", item: "https://www.jugarcasinosonline.net/argentina/" },
+    { "@type": "ListItem", position: 3, name: "Blackjack Online", item: "https://www.jugarcasinosonline.net/argentina/blackjack-online/" },
   ],
 };
 

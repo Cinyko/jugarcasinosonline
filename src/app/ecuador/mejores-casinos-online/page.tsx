@@ -92,7 +92,7 @@ function ProsCons({ pros, cons }: { pros: string[]; cons: string[] }) {
 /* ───────── JSON-LD ───────── */
 const faqSchema = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faqItems.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) };
 const articleSchema = { "@context": "https://schema.org", "@type": "Article", headline: "Mejores Casinos Online en Ecuador 2026", description: "Guía completa de los mejores casinos online para jugadores ecuatorianos.", datePublished: "2026-02-10", dateModified: LAST_UPDATED_ISO, author: { "@type": "Organization", name: "JugarCasinosOnline.net" }, publisher: { "@type": "Organization", name: "JugarCasinosOnline.net" } };
-const breadcrumbSchema = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Inicio", item: "https://jugarcasinosonline.net/" }, { "@type": "ListItem", position: 2, name: "Ecuador", item: "https://jugarcasinosonline.net/ecuador/" }, { "@type": "ListItem", position: 3, name: "Mejores Casinos Online", item: "https://jugarcasinosonline.net/ecuador/mejores-casinos-online/" }] };
+const breadcrumbSchema = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Inicio", item: "https://www.jugarcasinosonline.net/" }, { "@type": "ListItem", position: 2, name: "Ecuador", item: "https://www.jugarcasinosonline.net/ecuador/" }, { "@type": "ListItem", position: 3, name: "Mejores Casinos Online", item: "https://www.jugarcasinosonline.net/ecuador/mejores-casinos-online/" }] };
 
 /* ═══ PAGE ═══ */
 export default function MejoresCasinosOnlineEcuador() {
@@ -110,7 +110,7 @@ export default function MejoresCasinosOnlineEcuador() {
         <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-8 sm:pt-12 pb-16 sm:pb-24">
           <div className="mb-10"><div className="pb-4">
             <nav className="text-sm text-[#71717a] mb-8"><ol className="flex items-center gap-2 flex-wrap"><li><Link href="/" className="hover:text-white transition-colors">Inicio</Link></li><li>/</li><li><Link href="/ecuador" className="hover:text-white transition-colors">Ecuador</Link></li><li>/</li><li className="text-white font-medium">Mejores Casinos Online</li></ol></nav>
-            <div className="inline-flex items-center gap-2.5 rounded-full bg-white/[0.05] border border-white/[0.08] px-5 py-2 mb-8 backdrop-blur-sm"><span className="w-2 h-2 rounded-full bg-[#22c55e] animate-pulse" /><span className="text-sm font-semibold text-[#9ca3af]">Guía actualizada {LAST_UPDATED}</span></div>
+            <div className="inline-flex items-center gap-2.5 rounded-full bg-white/[0.05] border border-white/[0.08] px-5 py-2 mb-8 backdrop-blur-sm"><span className="w-2 h-2 rounded-full bg-[#22c55e] anímate-pulse" /><span className="text-sm font-semibold text-[#9ca3af]">Guía actualizada {LAST_UPDATED}</span></div>
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-white tracking-tighter mb-4 leading-[0.95]">
               Mejores Casinos Online<br />
               <span className="bg-gradient-to-r from-[#eab308] via-[#dc2626] to-[#eab308] bg-clip-text text-transparent">en Ecuador {LAST_UPDATED_YEAR}</span>

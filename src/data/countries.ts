@@ -42,7 +42,7 @@ export const countrySections = [
   {
     title: "Mejores Casinos Online por País",
     description:
-      "Encontrá los casinos más confiables y con mejores bonos en tu país. Revisamos cada plataforma para que vos solo te preocupes por jugar.",
+      "Encontrá los casinos más confiables y con mejores bonos en tu país. Revisamos cada plataforma para que tú solo te preocupes por jugar.",
     pathSuffix: "mejores-casinos-online",
   },
   {
@@ -60,7 +60,7 @@ export const countrySections = [
   {
     title: "Mejores Bonos Sin Depósito por País",
     description:
-      "Jugá sin arriesgar tu plata. Estos casinos te dan bonos gratis solo por registrarte, sin necesidad de depositar.",
+      "Juega sin arriesgar tu plata. Estos casinos te dan bonos gratis solo por registrarte, sin necesidad de depositar.",
     pathSuffix: "bonos-sin-deposito",
   },
   {
@@ -72,7 +72,7 @@ export const countrySections = [
   {
     title: "Casinos con Criptomonedas por País",
     description:
-      "Depositá y retirá con Bitcoin, Ethereum y más. Los mejores casinos crypto disponibles en tu país.",
+      "Depositá y retira con Bitcoin, Ethereum y más. Los mejores casinos crypto disponibles en tu país.",
     pathSuffix: "casinos-criptomonedas",
   },
 ];

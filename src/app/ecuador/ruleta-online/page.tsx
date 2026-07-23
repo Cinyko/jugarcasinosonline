@@ -5,7 +5,7 @@ import CasinoRanking from "@/components/CasinoRanking";
 import TableOfContents from "@/components/TableOfContents";
 
 export const metadata: Metadata = {
-  title: "Ruleta Online en Ecuador 2026 | Mejores Casinos con Ruleta en Vivo",
+  title: "Ruleta Online en Ecuador 2026 | Mejores Casinos",
   description:
     "Descubre los mejores casinos con ruleta online en Ecuador. Ruleta en vivo, estrategias y guías para jugar seguro.",
 };
@@ -75,7 +75,7 @@ function ProsCons({ pros, cons }: { pros: string[]; cons: string[] }) {
 /* ───────── JSON-LD ───────── */
 const faqSchema = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faqItems.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) };
 const articleSchema = { "@context": "https://schema.org", "@type": "Article", headline: "Mejores Casinos con Ruleta Online en Ecuador 2026", description: "Guía completa de ruleta online para jugadores ecuatorianos. Casinos, estrategias, variantes y consejos para jugar seguro.", datePublished: "2026-03-10", dateModified: LAST_UPDATED_ISO, author: { "@type": "Organization", name: "JugarCasinosOnline.net" }, publisher: { "@type": "Organization", name: "JugarCasinosOnline.net" } };
-const breadcrumbSchema = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Inicio", item: "https://jugarcasinosonline.net/" }, { "@type": "ListItem", position: 2, name: "Ecuador", item: "https://jugarcasinosonline.net/ecuador/" }, { "@type": "ListItem", position: 3, name: "Ruleta Online", item: "https://jugarcasinosonline.net/ecuador/ruleta-online/" }] };
+const breadcrumbSchema = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Inicio", item: "https://www.jugarcasinosonline.net/" }, { "@type": "ListItem", position: 2, name: "Ecuador", item: "https://www.jugarcasinosonline.net/ecuador/" }, { "@type": "ListItem", position: 3, name: "Ruleta Online", item: "https://www.jugarcasinosonline.net/ecuador/ruleta-online/" }] };
 
 /* ═══ PAGE ═══ */
 export default function RuletaOnlineEcuador() {
@@ -93,13 +93,13 @@ export default function RuletaOnlineEcuador() {
         <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-8 sm:pt-12 pb-16 sm:pb-24">
           <div className="mb-10"><div className="pb-4">
             <nav className="text-sm text-[#71717a] mb-8"><ol className="flex items-center gap-2 flex-wrap"><li><Link href="/" className="hover:text-white transition-colors">Inicio</Link></li><li>/</li><li><Link href="/ecuador" className="hover:text-white transition-colors">Ecuador</Link></li><li>/</li><li className="text-white font-medium">Ruleta Online</li></ol></nav>
-            <div className="inline-flex items-center gap-2.5 rounded-full bg-white/[0.05] border border-white/[0.08] px-5 py-2 mb-8 backdrop-blur-sm"><span className="w-2 h-2 rounded-full bg-[#22c55e] animate-pulse" /><span className="text-sm font-semibold text-[#9ca3af]">Guía actualizada {LAST_UPDATED}</span></div>
+            <div className="inline-flex items-center gap-2.5 rounded-full bg-white/[0.05] border border-white/[0.08] px-5 py-2 mb-8 backdrop-blur-sm"><span className="w-2 h-2 rounded-full bg-[#22c55e] anímate-pulse" /><span className="text-sm font-semibold text-[#9ca3af]">Guía actualizada {LAST_UPDATED}</span></div>
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-white tracking-tighter mb-4 leading-[0.95]">
               Mejores Casinos con Ruleta Online<br />
               <span className="bg-gradient-to-r from-[#eab308] via-[#dc2626] to-[#eab308] bg-clip-text text-transparent">en Ecuador {LAST_UPDATED_YEAR}</span>
             </h1>
             <p className="text-xl sm:text-2xl text-[#9ca3af] max-w-3xl mb-4 font-medium leading-relaxed">
-              La ruleta siempre tuvo algo especial. No es solo un juego de azar — es el juego de azar. Esa bola blanca girando mientras vos estás ahí con el corazón en la garganta esperando que caiga en tu número... eso no te lo da ninguna slot. Y después del referéndum de diciembre 2025, miles de ecuatorianos están descubriendo que pueden vivir esa experiencia desde el celular, con dealers reales, apostando en dólares y sin salir de casa.
+              La ruleta siempre tuvo algo especial. No es solo un juego de azar — es el juego de azar. Esa bola blanca girando mientras tú estás ahí con el corazón en la garganta esperando que caiga en tu número... eso no te lo da ninguna slot. Y después del referéndum de diciembre 2025, miles de ecuatorianos están descubriendo que pueden vivir esa experiencia desde el celular, con dealers reales, apostando en dólares y sin salir de casa.
             </p>
             <p className="text-base text-[#71717a] max-w-2xl leading-relaxed mb-3">
               Nos sentamos a probar la ruleta en los 8 casinos online más relevantes para Ecuador. No fue una prueba rápida: jugamos más de 200 rondas en mesas en vivo, probamos cada variante disponible, cronometramos los tiempos de pago de cada mesa, y hasta probamos estrategias clásicas como la Martingala y la Fibonacci con plata real. El objetivo era simple: decirte exactamente dónde vale la pena jugar ruleta y dónde no.
@@ -301,7 +301,7 @@ export default function RuletaOnlineEcuador() {
             Si nunca jugaste ruleta online y quieres empezar sin sentirte perdido, SOL es tu casino. La interfaz es la más limpia del ranking — cuando entras a la sección de ruleta, las mesas están organizadas por tipo (europea, francesa, en vivo, RNG) con thumbnails que muestran el dealer en tiempo real. <strong className="text-white">50+ mesas de ruleta</strong> disponibles, que es menos que las 60 de FRESH pero más que suficiente para cualquier jugador.
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-3">
-            Hicimos un experimento: le pasamos SOL Casino a un pana de Guayaquil que jamás había jugado ruleta online. Se registró, depositó $30 con su Visa de Banco Guayaquil, y en menos de 5 minutos ya estaba sentado en una mesa de ruleta europea en vivo apostando $1 al rojo. <strong className="text-white">No nos preguntó nada</strong>. La navegación es tan intuitiva que no necesitas tutorial ni guía. Eso tiene un valor enorme porque muchos casinos (1xBet, te miramos a vos) tienen interfaces tan recargadas que asustan al principiante.
+            Hicimos un experimento: le pasamos SOL Casino a un pana de Guayaquil que jamás había jugado ruleta online. Se registró, depositó $30 con su Visa de Banco Guayaquil, y en menos de 5 minutos ya estaba sentado en una mesa de ruleta europea en vivo apostando $1 al rojo. <strong className="text-white">No nos preguntó nada</strong>. La navegación es tan intuitiva que no necesitas tutorial ni guía. Eso tiene un valor enorme porque muchos casinos (1xBet, te miramos a ti) tienen interfaces tan recargadas que asustan al principiante.
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-3">
             Lo bacán del cashback semanal de SOL (15% sin rollover) es que aplica a las pérdidas de ruleta también. Perdimos $60 jugando ruleta una semana y el lunes nos llegaron $9 al balance real que pudimos retirar directamente. No es una fortuna, pero es plata gratis sin condiciones. Para los que juegan ruleta regularmente, ese 15% de cashback hace una diferencia real a lo largo del mes. Si pierdes $200 en un mes de ruleta, te devuelven $30. Eso suaviza el golpe.
@@ -517,10 +517,10 @@ export default function RuletaOnlineEcuador() {
         <div className="rounded-2xl bg-[#141414] border border-white/[0.06] p-6 mb-10">
           <h3 className="text-lg font-black text-white mb-4">Nuestra recomendación honesta</h3>
           <p className="text-[#9ca3af] leading-relaxed mb-3">
-            Si recién estás empezando, arranca con RNG. No tienes la presión del dealer esperando, puedes jugar con $0.10 por ronda, y la mayoría de casinos te dejan probar gratis en modo demo. Practicá las apuestas, familiarizate con la interfaz, probá una estrategia con apuestas mínimas.
+            Si recién estás empezando, arranca con RNG. No tienes la presión del dealer esperando, puedes jugar con $0.10 por ronda, y la mayoría de casinos te dejan probar gratis en modo demo. Practicá las apuestas, familiarizate con la interfaz, prueba una estrategia con apuestas mínimas.
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-3">
-            Una vez que ya sabes lo que haces, pasate a las mesas en vivo. La experiencia es incomparablemente mejor. Probamos las dos y te decimos de ley: la primera vez que ves la bola caer en tu número en una mesa en vivo con un dealer que te felicita... eso no te lo da ninguna mesa RNG. Es otra cosa completamente.
+            Una vez que ya sabes lo que haces, pásate a las mesas en vivo. La experiencia es incomparablemente mejor. Probamos las dos y te decimos de ley: la primera vez que ves la bola caer en tu número en una mesa en vivo con un dealer que te felicita... eso no te lo da ninguna mesa RNG. Es otra cosa completamente.
           </p>
           <p className="text-[#9ca3af] leading-relaxed">
             Y si eres de los que juega desde el celular con datos de Claro o Movistar en Ecuador, no te preocupes. Probamos ruleta en vivo con 4G en Quito, Guayaquil y Cuenca y la transmisión aguantó bien. Se baja un poco la calidad del video (pasa de HD a algo como 480p) pero la mesa sigue siendo perfectamente jugable. Los datos que consume son entre 200MB y 400MB por hora de juego — tenlo en cuenta si tienes plan limitado.
@@ -547,7 +547,7 @@ export default function RuletaOnlineEcuador() {
           <div className="rounded-xl bg-[#141414] border border-white/[0.06] p-5">
             <h4 className="text-[#22c55e] font-black mb-2">NetEnt</h4>
             <p className="text-xs text-[#71717a] uppercase tracking-wider mb-2">El clásico RNG</p>
-            <p className="text-sm text-[#9ca3af] leading-relaxed">NetEnt no hace ruleta en vivo, pero sus mesas RNG son de las mejores que existen. European Roulette Pro y French Roulette Pro tienen gráficos limpísimos, estadísticas integradas y apuestas especiales que no ves en otros proveedores. Ideal para practicar estrategias con calma. Lo encontrás en Betsson y FRESH.</p>
+            <p className="text-sm text-[#9ca3af] leading-relaxed">NetEnt no hace ruleta en vivo, pero sus mesas RNG son de las mejores que existen. European Roulette Pro y French Roulette Pro tienen gráficos limpísimos, estadísticas integradas y apuestas especiales que no ves en otros proveedores. Ideal para practicar estrategias con calma. Lo encuentras en Betsson y FRESH.</p>
           </div>
         </div>
       </Section>
@@ -624,7 +624,7 @@ export default function RuletaOnlineEcuador() {
       <Section id="como-jugar" alt>
         <SectionTitle>Cómo Jugar Ruleta Online — Guía Paso a Paso</SectionTitle>
         <p className="text-[#9ca3af] mb-4 max-w-3xl leading-relaxed">
-          Si nunca jugaste ruleta online, esta sección es para vos. Vamos a explicarte todo desde cero, sin asumir que sabes algo. Y si ya jugaste en casinos físicos pero nunca online, también te va a servir porque hay diferencias importantes.
+          Si nunca jugaste ruleta online, esta sección es para ti. Vamos a explicarte todo desde cero, sin asumir que sabes algo. Y si ya jugaste en casinos físicos pero nunca online, también te va a servir porque hay diferencias importantes.
         </p>
         <p className="text-[#9ca3af] mb-10 max-w-3xl leading-relaxed">
           La buena noticia es que la ruleta es probablemente el juego de casino más fácil de aprender. No necesitas memorizar estrategia básica como en blackjack ni entender odds como en poker. Pones tus fichas en un número o grupo de números, la rueda gira, y si la bola cae donde apostaste, ganas. Punto. Lo que varía es cuánto ganas dependiendo de dónde apostaste, y eso es lo que te vamos a explicar ahora.
@@ -765,7 +765,7 @@ export default function RuletaOnlineEcuador() {
             <h3 className="text-lg font-black text-white mb-3">Criptomonedas (BTC, USDT, ETH)</h3>
             <p className="text-xs text-[#eab308] font-bold uppercase tracking-wider mb-3">Nuestra recomendación #1</p>
             <p className="text-[#9ca3af] text-sm leading-relaxed mb-2">
-              Para Ecuador, crypto es probablemente el mejor método. Comprás USDT en Binance P2P pagando con dólares (vendedores ecuatorianos que aceptan transferencia a Pichincha o Guayaquil), mandás al casino, y listo. El depósito tarda entre 5 y 30 minutos dependiendo de la red.
+              Para Ecuador, crypto es probablemente el mejor método. Comprás USDT en Binance P2P pagando con dólares (vendedores ecuatorianos que aceptan transferencia a Pichincha o Guayaquil), mandas al casino, y listo. El depósito tarda entre 5 y 30 minutos dependiendo de la red.
             </p>
             <p className="text-[#9ca3af] text-sm leading-relaxed mb-2">
               Pero lo mejor es el retiro: FRESH pagó en 40 minutos, STARDA en 35, MONRO en 50. Comparado con 2-3 días de tarjeta, es otro mundo. Y al usar USDT (que vale lo mismo que el dólar), no pierdes nada en conversión. Tu ganancia de $100 en la mesa de ruleta son $100 USDT que vendes por $100 en tu banco.
@@ -778,10 +778,10 @@ export default function RuletaOnlineEcuador() {
             <h3 className="text-lg font-black text-white mb-3">Skrill / Neteller</h3>
             <p className="text-xs text-[#3b82f6] font-bold uppercase tracking-wider mb-3">Buen intermediario</p>
             <p className="text-[#9ca3af] text-sm leading-relaxed mb-2">
-              Los monederos electrónicos funcionan como intermediarios. Cargás plata a Skrill con tu tarjeta ecuatoriana y después depositás al casino desde Skrill. La ventaja es que si tu banco bloquea pagos directos a casinos, Skrill pasa como una transacción de e-commerce normal.
+              Los monederos electrónicos funcionan como intermediarios. Cargás plata a Skrill con tu tarjeta ecuatoriana y después depositas al casino desde Skrill. La ventaja es que si tu banco bloquea pagos directos a casinos, Skrill pasa como una transacción de e-commerce normal.
             </p>
             <p className="text-[#9ca3af] text-sm leading-relaxed">
-              Los retiros a Skrill son más rápidos que a tarjeta. SOL nos pagó $45 en 14 horas, Betsson en 8 horas. Después transferís de Skrill a tu banco ecuatoriano, que tarda 1-2 días más. Total: 2-3 días, similar a tarjeta pero con la ventaja de que funciona siempre.
+              Los retiros a Skrill son más rápidos que a tarjeta. SOL nos pagó $45 en 14 horas, Betsson en 8 horas. Después transfieres de Skrill a tu banco ecuatoriano, que tarda 1-2 días más. Total: 2-3 días, similar a tarjeta pero con la ventaja de que funciona siempre.
             </p>
           </div>
           <div className="rounded-2xl bg-[#141414] border border-white/[0.06] p-6">
@@ -852,7 +852,7 @@ export default function RuletaOnlineEcuador() {
           </div>
           <div className="rounded-xl bg-[#141414] border border-white/[0.06] p-5">
             <h4 className="text-white font-bold mb-2">6. No verificar la identidad (KYC) al registrarse</h4>
-            <p className="text-[#9ca3af] text-sm leading-relaxed">Esto no es un error de juego pero sí un error que te puede costar plata. Si no haces la verificación al registrarte y después ganas $500 en Lightning Roulette, cuando quieras retirar te van a pedir cédula, selfie y comprobante de domicilio. Eso puede tardar 24-72 horas. Mientras tanto, tu plata está ahí mirándote y vos sin poder cobrarla. Hazlo el primer día y no vas a tener ese problema.</p>
+            <p className="text-[#9ca3af] text-sm leading-relaxed">Esto no es un error de juego pero sí un error que te puede costar plata. Si no haces la verificación al registrarte y después ganas $500 en Lightning Roulette, cuando quieras retirar te van a pedir cédula, selfie y comprobante de domicilio. Eso puede tardar 24-72 horas. Mientras tanto, tu plata está ahí mirándote y tú sin poder cobrarla. Hazlo el primer día y no vas a tener ese problema.</p>
           </div>
           <div className="rounded-xl bg-[#141414] border border-white/[0.06] p-5">
             <h4 className="text-white font-bold mb-2">7. Jugar ruleta para limpiar el bono de bienvenida</h4>
@@ -880,7 +880,7 @@ export default function RuletaOnlineEcuador() {
           Escribimos toda esta guía para ayudarte a jugar ruleta de la mejor manera posible. Pero nada de lo que dijimos importa si no juegas de forma responsable. La ruleta es entretenimiento — no es una forma de ganar plata. El momento en que empieces a verlo como una fuente de ingresos, tienes un problema.
         </p>
         <p className="text-[#9ca3af] mb-4 max-w-3xl leading-relaxed">
-          En Ecuador, después del referéndum de 2025, hay un boom de interés en casinos online. Y con ese boom vienen personas que nunca apostaron y que no tienen referencia de cómo manejar el riesgo. Si eres una de esas personas, leé esto con atención.
+          En Ecuador, después del referéndum de 2025, hay un boom de interés en casinos online. Y con ese boom vienen personas que nunca apostaron y que no tienen referencia de cómo manejar el riesgo. Si eres una de esas personas, lee esto con atención.
         </p>
         <p className="text-[#9ca3af] mb-10 max-w-3xl leading-relaxed">
           No tenemos ningún problema en decirte que no juegues si estás pasando por una mala racha económica. De ley. Si el dinero que vas a depositar te hace falta para la comida, el alquiler o los servicios básicos, no juegues. Vuelve cuando tengas plata sobrante que estés dispuesto a perder sin que te afecte. No hay vergüenza en eso.
@@ -912,7 +912,7 @@ export default function RuletaOnlineEcuador() {
                 "Nunca intentes recuperar pérdidas — la pérdida ya pasó",
                 "Configura límites de depósito en tu cuenta del casino",
                 "Si ganas lo que te propusiste, retira y para",
-                "Toma descansos: levantate, caminá, tomá agua",
+                "Toma descansos: levantate, camina, toma agua",
                 "Habla con alguien si sientes que estás perdiendo el control",
               ].map((h) => (
                 <li key={h} className="flex items-start gap-2 text-sm text-[#d4d4d8]"><span className="text-[#22c55e] mt-0.5 shrink-0">&#10003;</span>{h}</li>
@@ -966,7 +966,7 @@ export default function RuletaOnlineEcuador() {
       <Section id="glosario" alt>
         <SectionTitle>Glosario de Ruleta — Los Términos Que Tienes Que Saber</SectionTitle>
         <p className="text-[#9ca3af] mb-4 max-w-3xl leading-relaxed">
-          Si recién estás empezando con la ruleta online, es normal que te encuentres con palabras que no cachás al tiro. Acá te dejamos un glosario con los términos más importantes para que no te quedes perdido en la mesa. De ley te va a servir, pana.
+          Si recién estás empezando con la ruleta online, es normal que te encuentres con palabras que no cachas al tiro. Acá te dejamos un glosario con los términos más importantes para que no te quedes perdido en la mesa. De ley te va a servir, pana.
         </p>
         <p className="text-[#9ca3af] mb-10 max-w-3xl leading-relaxed">
           (Ojo, algunos términos los vas a ver en inglés en las mesas en vivo porque los dealers suelen hablar en inglés o en español neutro. Pero la lógica es la misma.)
@@ -974,11 +974,11 @@ export default function RuletaOnlineEcuador() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           <div className="rounded-xl bg-[#141414] border border-white/[0.06] p-5">
             <p className="text-white font-bold mb-1">Croupier / Dealer</p>
-            <p className="text-sm text-[#9ca3af] leading-relaxed">La persona que maneja la mesa de ruleta. Lanza la bola, anuncia el número ganador y paga las apuestas. En las mesas en vivo los vas a ver en cámara HD. Algunos son bien bacanes y hasta te saludan si escribís en el chat.</p>
+            <p className="text-sm text-[#9ca3af] leading-relaxed">La persona que maneja la mesa de ruleta. Lanza la bola, anuncia el número ganador y paga las apuestas. En las mesas en vivo los vas a ver en cámara HD. Algunos son bien bacanes y hasta te saludan si escribes en el chat.</p>
           </div>
           <div className="rounded-xl bg-[#141414] border border-white/[0.06] p-5">
             <p className="text-white font-bold mb-1">Paño</p>
-            <p className="text-sm text-[#9ca3af] leading-relaxed">El tapete donde ponés las fichas. Es esa cuadrícula con los números del 0 al 36, las docenas, las columnas, rojo/negro, par/impar... todo el layout de apuestas. En inglés le dicen &quot;betting layout&quot;.</p>
+            <p className="text-sm text-[#9ca3af] leading-relaxed">El tapete donde pones las fichas. Es esa cuadrícula con los números del 0 al 36, las docenas, las columnas, rojo/negro, par/impar... todo el layout de apuestas. En inglés le dicen &quot;betting layout&quot;.</p>
           </div>
           <div className="rounded-xl bg-[#141414] border border-white/[0.06] p-5">
             <p className="text-white font-bold mb-1">Pleno / Straight Up</p>
@@ -986,7 +986,7 @@ export default function RuletaOnlineEcuador() {
           </div>
           <div className="rounded-xl bg-[#141414] border border-white/[0.06] p-5">
             <p className="text-white font-bold mb-1">Caballo / Split</p>
-            <p className="text-sm text-[#9ca3af] leading-relaxed">Apuesta a dos números adyacentes en el paño. Ponés la ficha en la línea que separa ambos números. Paga 17 a 1. Es una buena intermedia: más probable que un pleno pero con un pago que sigue siendo jugoso.</p>
+            <p className="text-sm text-[#9ca3af] leading-relaxed">Apuesta a dos números adyacentes en el paño. Pones la ficha en la línea que separa ambos números. Paga 17 a 1. Es una buena intermedia: más probable que un pleno pero con un pago que sigue siendo jugoso.</p>
           </div>
           <div className="rounded-xl bg-[#141414] border border-white/[0.06] p-5">
             <p className="text-white font-bold mb-1">Calle / Street</p>
@@ -994,7 +994,7 @@ export default function RuletaOnlineEcuador() {
           </div>
           <div className="rounded-xl bg-[#141414] border border-white/[0.06] p-5">
             <p className="text-white font-bold mb-1">Esquina / Corner</p>
-            <p className="text-sm text-[#9ca3af] leading-relaxed">Apuesta a cuatro números que forman un cuadrado en el paño. La ficha va en la intersección donde se tocan los cuatro. Paga 8 a 1. Si tenés un grupo de números favoritos que están juntos, esta es tu apuesta.</p>
+            <p className="text-sm text-[#9ca3af] leading-relaxed">Apuesta a cuatro números que forman un cuadrado en el paño. La ficha va en la intersección donde se tocan los cuatro. Paga 8 a 1. Si tienes un grupo de números favoritos que están juntos, esta es tu apuesta.</p>
           </div>
           <div className="rounded-xl bg-[#141414] border border-white/[0.06] p-5">
             <p className="text-white font-bold mb-1">Docena</p>
@@ -1002,7 +1002,7 @@ export default function RuletaOnlineEcuador() {
           </div>
           <div className="rounded-xl bg-[#141414] border border-white/[0.06] p-5">
             <p className="text-white font-bold mb-1">Columna</p>
-            <p className="text-sm text-[#9ca3af] leading-relaxed">Parecida a la docena pero en vez de números consecutivos, cubrís una de las tres columnas verticales del paño. También paga 2 a 1 y cubre 12 números. La diferencia con la docena es qué números específicos quedan cubiertos.</p>
+            <p className="text-sm text-[#9ca3af] leading-relaxed">Parecida a la docena pero en vez de números consecutivos, cubres una de las tres columnas verticales del paño. También paga 2 a 1 y cubre 12 números. La diferencia con la docena es qué números específicos quedan cubiertos.</p>
           </div>
           <div className="rounded-xl bg-[#141414] border border-white/[0.06] p-5">
             <p className="text-white font-bold mb-1">La Partage</p>
@@ -1010,15 +1010,15 @@ export default function RuletaOnlineEcuador() {
           </div>
           <div className="rounded-xl bg-[#141414] border border-white/[0.06] p-5">
             <p className="text-white font-bold mb-1">En Prison</p>
-            <p className="text-sm text-[#9ca3af] leading-relaxed">Otra regla francesa. Cuando sale 0, tu apuesta par queda &quot;en prisión&quot; hasta la siguiente ronda. Si en la siguiente ganas, recuperás toda tu apuesta (sin ganancia). Si perdés, la perdés. Matemáticamente es igual a La Partage pero se siente diferente.</p>
+            <p className="text-sm text-[#9ca3af] leading-relaxed">Otra regla francesa. Cuando sale 0, tu apuesta par queda &quot;en prisión&quot; hasta la siguiente ronda. Si en la siguiente ganas, recuperas toda tu apuesta (sin ganancia). Si pierdes, la pierdes. Matemáticamente es igual a La Partage pero se siente diferente.</p>
           </div>
           <div className="rounded-xl bg-[#141414] border border-white/[0.06] p-5">
             <p className="text-white font-bold mb-1">Ventaja de la Casa / House Edge</p>
-            <p className="text-sm text-[#9ca3af] leading-relaxed">El porcentaje matemático que el casino gana a largo plazo. En ruleta europea es 2.7%, en francesa con La Partage baja a 1.35%, y en americana sube a 5.26%. Esto es lo más importante que tenés que entender: mientras más bajo, mejor para vos.</p>
+            <p className="text-sm text-[#9ca3af] leading-relaxed">El porcentaje matemático que el casino gana a largo plazo. En ruleta europea es 2.7%, en francesa con La Partage baja a 1.35%, y en americana sube a 5.26%. Esto es lo más importante que tienes que entender: mientras más bajo, mejor para ti.</p>
           </div>
           <div className="rounded-xl bg-[#141414] border border-white/[0.06] p-5">
             <p className="text-white font-bold mb-1">Bola</p>
-            <p className="text-sm text-[#9ca3af] leading-relaxed">La bolita blanca que el croupier lanza dentro del cilindro. En las mesas en vivo podés verla girar en tiempo real con cámaras que hasta te dan slow motion. En la ruleta RNG es virtual, pero el concepto es el mismo: donde cae, gana.</p>
+            <p className="text-sm text-[#9ca3af] leading-relaxed">La bolita blanca que el croupier lanza dentro del cilindro. En las mesas en vivo puedes verla girar en tiempo real con cámaras que hasta te dan slow motion. En la ruleta RNG es virtual, pero el concepto es el mismo: donde cae, gana.</p>
           </div>
           <div className="rounded-xl bg-[#141414] border border-white/[0.06] p-5">
             <p className="text-white font-bold mb-1">Cilindro</p>

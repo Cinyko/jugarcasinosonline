@@ -188,9 +188,9 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Inicio", item: "https://jugarcasinosonline.net/" },
-    { "@type": "ListItem", position: 2, name: "Streamers", item: "https://jugarcasinosonline.net/streamers/" },
-    { "@type": "ListItem", position: 3, name: "Casino de Coscu", item: "https://jugarcasinosonline.net/streamers/casino-coscu/" },
+    { "@type": "ListItem", position: 1, name: "Inicio", item: "https://www.jugarcasinosonline.net/" },
+    { "@type": "ListItem", position: 2, name: "Streamers", item: "https://www.jugarcasinosonline.net/streamers/" },
+    { "@type": "ListItem", position: 3, name: "Casino de Coscu", item: "https://www.jugarcasinosonline.net/streamers/casino-coscu/" },
   ],
 };
 
@@ -807,7 +807,7 @@ export default function CasinoCoscu() {
       <Section id="glosario" alt>
         <SectionTitle>Glosario: las palabras que vas a escuchar</SectionTitle>
         <P>
-          Si te metés en el mundo del casino online (o si mirás streams de Coscu), vas a escuchar un montón de términos que capaz no conocés. Acá te dejamos un mini diccionario para que no te pierdas.
+          Si te metés de lleno al casino online (o si mirás streams de Coscu), vas a escuchar un montón de términos que capaz no conocés. Acá te dejamos un mini diccionario para que no te pierdas.
         </P>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6">
           {[

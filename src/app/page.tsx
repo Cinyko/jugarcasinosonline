@@ -79,7 +79,7 @@ export default function Home() {
         {/* Hero text */}
         <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-20 sm:pt-28 pb-10 text-center pointer-events-none [&_a]:pointer-events-auto">
           <div className="inline-flex items-center gap-2.5 rounded-full bg-white/[0.05] border border-white/[0.08] px-5 py-2 mb-8 backdrop-blur-sm">
-            <span className="w-2 h-2 rounded-full bg-green animate-pulse" />
+            <span className="w-2 h-2 rounded-full bg-green anímate-pulse" />
             <span className="text-sm font-semibold text-[#9ca3af]">Guía actualizada 2026</span>
           </div>
 
@@ -96,7 +96,7 @@ export default function Home() {
           </p>
 
           <p className="text-base text-[#71717a] max-w-xl mx-auto mb-6 leading-relaxed">
-            Reseñas honestas, bonos verificados y toda la info que necesitás
+            Reseñas honestas, bonos verificados y toda la info que necesitas
             para jugar tranquilo en México, Perú, Argentina, Chile y Ecuador.
           </p>
         </div>
@@ -294,7 +294,7 @@ export default function Home() {
               </h2>
             </div>
             <p className="text-[#9ca3af] max-w-2xl ml-5 text-base leading-relaxed">
-              No sabés cuál elegir? Comparamos los casinos más populares cara a cara
+              No sabes cuál elegir? Comparamos los casinos más populares cara a cara
               para que tomes la mejor decisión.
             </p>
           </div>

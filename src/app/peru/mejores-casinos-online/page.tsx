@@ -34,38 +34,38 @@ const categoryPicks = [
   { title: "Mejor para slots", casino: "STARDA Casino", slug: "starda-casino", reason: "Torneos de slots semanales con premios de $15,000 USD, títulos exclusivos y la sección de juegos crash más completa que probamos (Aviator, JetX y compañía). Si lo tuyo son los rodillos, acá está tu casa." },
   { title: "Mejor casino en vivo", casino: "Betsson", slug: "betsson-peru", reason: "Más de 200 mesas en vivo con dealers que hablan español de verdad, no traducción automática. Tienen hasta mesas exclusivas para Perú. Probamos blackjack a las 2am y la experiencia fue premium." },
   { title: "Mejor para principiantes", casino: "SOL Casino", slug: "sol-casino", reason: "Le pasamos la cuenta a un pata que nunca había jugado online y en 10 minutos ya estaba apostando sin preguntar nada. Interfaz clarísima y rollover x30, de los más bajos del mercado. Cero frustración." },
-  { title: "Mejor casino 100% peruano", casino: "Inkabet", slug: "inkabet", reason: "Licencia MINCETUR, soporte local que te atiende en peruano y hasta S/500 + 300 giros de bienvenida. Si querés jugar en algo de acá, con cara conocida y regulado por el gobierno, Inkabet es la respuesta." },
-  { title: "Mejor casino cripto", casino: "1xBet", slug: "1xbet", reason: "BTC, USDT, ETH y una lista larguísima. Depositamos con USDT un domingo y el saldo apareció en 10 minutos; el retiro tardó menos de una hora. Si ya manejás cripto, es otro nivel de velocidad." },
+  { title: "Mejor casino 100% peruano", casino: "Inkabet", slug: "inkabet", reason: "Licencia MINCETUR, soporte local que te atiende en peruano y hasta S/500 + 300 giros de bienvenida. Si quieres jugar en algo de acá, con cara conocida y regulado por el gobierno, Inkabet es la respuesta." },
+  { title: "Mejor casino cripto", casino: "1xBet", slug: "1xbet", reason: "BTC, USDT, ETH y una lista larguísima. Depositamos con USDT un domingo y el saldo apareció en 10 minutos; el retiro tardó menos de una hora. Si ya manejas cripto, es otro nivel de velocidad." },
   { title: "Mejor catálogo de slots raros", casino: "FRESH Casino", slug: "fresh-casino", reason: "4,500+ juegos y la verdad es que buscamos hasta los títulos más oscuros de Hacksaw y Nolimit City. Los tenían todos. Si te gusta descubrir slots que nadie más tiene, FRESH es tu lugar." },
-  { title: "Casino más confiable", casino: "Betsson", slug: "betsson-peru", reason: "Marca global con décadas de historia, licencia MINCETUR desde el arranque de la regulación y ni una sola queja de pagos que hayamos encontrado. Cuando querés ir a lo seguro sin pensarlo dos veces, es Betsson." },
+  { title: "Casino más confiable", casino: "Betsson", slug: "betsson-peru", reason: "Marca global con décadas de historia, licencia MINCETUR desde el arranque de la regulación y ni una sola queja de pagos que hayamos encontrado. Cuando quieres ir a lo seguro sin pensarlo dos veces, es Betsson." },
 ];
 
 const faqItems = [
   { q: "¿Cuál es el mejor casino online en Perú en 2026?", a: "Después de probar todos los de la lista, Betsson se queda con el primer puesto. Tiene licencia MINCETUR (regulado directamente por el gobierno peruano), más de 2 500 juegos, 300 giros gratis de bienvenida, 200+ mesas en vivo con dealers en español y acepta Yape y Plin. Es la combinación más completa que encontramos. Ahora, si tu prioridad es variedad de juegos por encima de todo, FRESH Casino con sus 4 500+ títulos es imbatible en ese rubro." },
-  { q: "¿Es legal jugar en casinos online desde Perú?", a: "Sí, totalmente legal. Desde febrero de 2024 MINCETUR regula todo esto con la Ley N° 31557. Ya hay más de 60 operadores con licencia oficial. Antes era tierra de nadie, pero ahora el marco legal está bastante claro. Podés jugar tranquilo siempre que elijas un casino autorizado." },
-  { q: "¿Puedo jugar con soles peruanos (PEN)?", a: "Claro que sí. Todos los casinos con licencia MINCETUR te dejan jugar en soles directamente. Los internacionales como FRESH o SOL también aceptan depósitos desde Perú, aunque la cuenta puede estar en dólares y te hacen una conversión automática. No es un drama, pero fijate en el tipo de cambio que aplican para que no pierdas plata ahí." },
+  { q: "¿Es legal jugar en casinos online desde Perú?", a: "Sí, totalmente legal. Desde febrero de 2024 MINCETUR regula todo esto con la Ley N° 31557. Ya hay más de 60 operadores con licencia oficial. Antes era tierra de nadie, pero ahora el marco legal está bastante claro. Puedes jugar tranquilo siempre que elijas un casino autorizado." },
+  { q: "¿Puedo jugar con soles peruanos (PEN)?", a: "Claro que sí. Todos los casinos con licencia MINCETUR te dejan jugar en soles directamente. Los internacionales como FRESH o SOL también aceptan depósitos desde Perú, aunque la cuenta puede estar en dólares y te hacen una conversión automática. No es un drama, pero fíjate en el tipo de cambio que aplican para que no pierdas plata ahí." },
   { q: "¿Qué métodos de pago aceptan los casinos en Perú?", a: "De todo, la verdad. Yape y Plin son los más populares (y los más rápidos). También aceptan tarjetas Visa y Mastercard, transferencias por BCP, BBVA e Interbank, PagoEfectivo para los que prefieren efectivo, monederos electrónicos tipo Skrill y Neteller, y crypto como Bitcoin y USDT. Cada casino tiene su combinación, pero entre los de nuestro ranking vas a encontrar el método que uses." },
-  { q: "¿Puedo depositar con Yape o Plin?", a: "Sí, y es lo más práctico que hay. Stake, Betano, Betsson e Inkabet aceptan los dos. El depósito cae al toque, literal en segundos. Para retiros la cosa varía un poco... generalmente en menos de 24 horas ya tenés la plata de vuelta. Nosotros probamos con Betano y el retiro por Yape llegó en hora y media." },
-  { q: "¿Qué es el rollover de un bono?", a: "Acá viene lo que muchos no leen (y después se quejan). El rollover es cuántas veces tenés que apostar el bono antes de poder sacar la plata. Te lo explico con números: si te dan S/100 de bono con rollover x30, tenés que hacer apuestas por un total de S/3 000 antes de retirar. Suena a mucho, pero con slots de apuestas bajas se puede lograr. Lo importante es que lo sepas antes de aceptar cualquier bono." },
-  { q: "¿Puedo jugar desde el celular?", a: "Todos, absolutamente todos los casinos de nuestro ranking funcionan perfecto en el celular. No necesitás descargar nada: entrás desde Chrome o Safari y listo. Ahora, Betano, Betsson y Bet365 sí tienen apps nativas que van un poco más fluidas. Pero la versión web móvil cumple bien, no te vas a perder de nada." },
-  { q: "¿Tengo que pagar impuestos por mis ganancias?", a: "La respuesta corta: sí. Las ganancias de juegos de azar pagan Impuesto a la Renta en Perú. La buena noticia es que los casinos con licencia MINCETUR ya te retienen un porcentaje automáticamente, así que no tenés que hacer nada extra en muchos casos. Pero cada situación es diferente, así que consultá con un contador si ganás montos grandes. Mejor prevenir." },
-  { q: "¿Cómo sé si un casino tiene licencia MINCETUR?", a: "Fácil. Andá a la página de MINCETUR (mincetur.gob.pe) y buscá el registro de operadores autorizados. Ahí están todos listados. También podés fijarte en el footer del casino: los que tienen licencia siempre muestran el número bien visible. Si no lo ves por ningún lado... desconfiá." },
-  { q: "¿Qué hago si un casino no me paga?", a: "Primero, no te desesperes. Si el casino tiene licencia MINCETUR, podés meter una queja formal al ministerio y ellos intervienen. Si es un casino internacional, escribile al soporte con capturas de todo (montos, fechas, conversaciones). Si no te resuelven, documentá todo y dejá tu caso en foros como AskGamblers o Trustpilot. Y la mejor forma de evitar esto: elegí casinos de nuestro ranking, que los probamos justamente para ahorrarte estos dolores de cabeza." },
+  { q: "¿Puedo depositar con Yape o Plin?", a: "Sí, y es lo más práctico que hay. Stake, Betano, Betsson e Inkabet aceptan los dos. El depósito cae al toque, literal en segundos. Para retiros la cosa varía un poco... generalmente en menos de 24 horas ya tienes la plata de vuelta. Nosotros probamos con Betano y el retiro por Yape llegó en hora y media." },
+  { q: "¿Qué es el rollover de un bono?", a: "Acá viene lo que muchos no leen (y después se quejan). El rollover es cuántas veces tienes que apostar el bono antes de poder sacar la plata. Te lo explico con números: si te dan S/100 de bono con rollover x30, tienes que hacer apuestas por un total de S/3 000 antes de retirar. Suena a mucho, pero con slots de apuestas bajas se puede lograr. Lo importante es que lo sepas antes de aceptar cualquier bono." },
+  { q: "¿Puedo jugar desde el celular?", a: "Todos, absolutamente todos los casinos de nuestro ranking funcionan perfecto en el celular. No necesitas descargar nada: entras desde Chrome o Safari y listo. Ahora, Betano, Betsson y Bet365 sí tienen apps nativas que van un poco más fluidas. Pero la versión web móvil cumple bien, no te vas a perder de nada." },
+  { q: "¿Tengo que pagar impuestos por mis ganancias?", a: "La respuesta corta: sí. Las ganancias de juegos de azar pagan Impuesto a la Renta en Perú. La buena noticia es que los casinos con licencia MINCETUR ya te retienen un porcentaje automáticamente, así que no tienes que hacer nada extra en muchos casos. Pero cada situación es diferente, así que consulta con un contador si ganas montos grandes. Mejor prevenir." },
+  { q: "¿Cómo sé si un casino tiene licencia MINCETUR?", a: "Fácil. Ve a la página de MINCETUR (mincetur.gob.pe) y busca el registro de operadores autorizados. Ahí están todos listados. También puedes fijarte en el footer del casino: los que tienen licencia siempre muestran el número bien visible. Si no lo ves por ningún lado... desconfía." },
+  { q: "¿Qué hago si un casino no me paga?", a: "Primero, no te desesperes. Si el casino tiene licencia MINCETUR, puedes meter una queja formal al ministerio y ellos intervienen. Si es un casino internacional, escribile al soporte con capturas de todo (montos, fechas, conversaciones). Si no te resuelven, documenta todo y deja tu caso en foros como AskGamblers o Trustpilot. Y la mejor forma de evitar esto: elige casinos de nuestro ranking, que los probamos justamente para ahorrarte estos dolores de cabeza." },
 ];
 
 const glossary = [
   { term: "RTP (Return to Player)", def: "Porcentaje teórico de retorno al jugador a largo plazo. Un RTP de 96% significa que por cada S/100 apostados, el juego devuelve S/96 en promedio." },
-  { term: "Rollover / Wagering", def: "Requisito de apuesta que debés cumplir antes de retirar un bono. Si el rollover es x30 y tu bono es S/100, necesitás apostar S/3 000." },
+  { term: "Rollover / Wagering", def: "Requisito de apuesta que debes cumplir antes de retirar un bono. Si el rollover es x30 y tu bono es S/100, necesitas apostar S/3 000." },
   { term: "Volatilidad", def: "Indica la frecuencia y tamaño de los premios. Baja volatilidad = premios frecuentes y pequeños. Alta volatilidad = premios raros pero grandes." },
-  { term: "KYC (Know Your Customer)", def: "Proceso de verificación de identidad que los casinos piden para validar tu cuenta. Normalmente necesitás DNI, selfie y comprobante de domicilio." },
+  { term: "KYC (Know Your Customer)", def: "Proceso de verificación de identidad que los casinos piden para validar tu cuenta. Normalmente necesitas DNI, selfie y comprobante de domicilio." },
   { term: "RNG (Random Number Generator)", def: "Generador de números aleatorios que garantiza que los resultados de los juegos son justos e impredecibles." },
   { term: "MINCETUR", def: "Ministerio de Comercio Exterior y Turismo del Perú. Es el organismo que regula y otorga licencias a los casinos online en el país." },
-  { term: "Bono sin depósito", def: "Bono que recibís solo por registrarte, sin necesidad de depositar plata. Suele tener un rollover alto." },
+  { term: "Bono sin depósito", def: "Bono que recibes solo por registrarte, sin necesidad de depositar plata. Suele tener un rollover alto." },
   { term: "Free Spins / Tiradas Gratis", def: "Giros gratuitos para usar en tragamonedas. Las ganancias suelen estar sujetas a rollover." },
   { term: "Jackpot Progresivo", def: "Premio acumulado que crece con cada apuesta de todos los jugadores hasta que alguien lo gana. Puede llegar a millones." },
   { term: "Casino en Vivo", def: "Juegos transmitidos en tiempo real con dealers humanos desde un estudio profesional. Incluye ruleta, blackjack, baccarat y game shows." },
   { term: "Cashback", def: "Devolución de un porcentaje de tus pérdidas. Por ejemplo, un cashback del 10% te devuelve S/10 por cada S/100 perdidos." },
-  { term: "House Edge", def: "Ventaja matemática del casino sobre el jugador, expresada en porcentaje. A menor house edge, mejores chances para vos." },
+  { term: "House Edge", def: "Ventaja matemática del casino sobre el jugador, expresada en porcentaje. A menor house edge, mejores chances para ti." },
   { term: "Autoexclusión", def: "Herramienta que te permite bloquearte de un casino por un período determinado. Útil para controlar hábitos de juego." },
   { term: "PEN (Sol Peruano)", def: "Moneda oficial del Perú. Muchos casinos con licencia MINCETUR operan directamente en soles." },
   { term: "Curaçao Gaming", def: "Licencia de juego emitida por el gobierno de Curaçao. Es una de las más comunes para casinos online internacionales." },
@@ -179,9 +179,9 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Inicio", item: "https://jugarcasinosonline.net/" },
-    { "@type": "ListItem", position: 2, name: "Perú", item: "https://jugarcasinosonline.net/peru/" },
-    { "@type": "ListItem", position: 3, name: "Mejores Casinos Online", item: "https://jugarcasinosonline.net/peru/mejores-casinos-online/" },
+    { "@type": "ListItem", position: 1, name: "Inicio", item: "https://www.jugarcasinosonline.net/" },
+    { "@type": "ListItem", position: 2, name: "Perú", item: "https://www.jugarcasinosonline.net/peru/" },
+    { "@type": "ListItem", position: 3, name: "Mejores Casinos Online", item: "https://www.jugarcasinosonline.net/peru/mejores-casinos-online/" },
   ],
 };
 
@@ -229,7 +229,7 @@ export default function MejoresCasinosOnlinePeru() {
 
               {/* Badge */}
               <div className="inline-flex items-center gap-2.5 rounded-full bg-white/[0.05] border border-white/[0.08] px-5 py-2 mb-8 backdrop-blur-sm">
-                <span className="w-2 h-2 rounded-full bg-[#22c55e] animate-pulse" />
+                <span className="w-2 h-2 rounded-full bg-[#22c55e] anímate-pulse" />
                 <span className="text-sm font-semibold text-[#9ca3af]">Guía actualizada {LAST_UPDATED}</span>
               </div>
 
@@ -245,7 +245,7 @@ export default function MejoresCasinosOnlinePeru() {
               <p className="text-base text-[#71717a] max-w-2xl leading-relaxed">
                 Nos metimos a probar los <strong className="text-white">14 mejores casinos online disponibles en Perú</strong>,
                 uno por uno. Evaluamos bonos (y leímos la letra chica que nadie lee), catálogo de juegos, si aceptan Yape y Plin de verdad, cómo responde el soporte
-                a las 3am y si pagan sin hacerte drama. Básicamente, hicimos el trabajo sucio para que vos no tengas que arriesgar tu plata probando a ciegas.
+                a las 3am y si pagan sin hacerte drama. Básicamente, hicimos el trabajo sucio para que tú no tengas que arriesgar tu plata probando a ciegas.
               </p>
             </div>
           </div>
@@ -552,12 +552,12 @@ export default function MejoresCasinosOnlinePeru() {
             traducción robótica que te hace sentir incómodo. Ruleta peruana, blackjack VIP, baccarat squeeze, y todos
             los game shows de Evolution: Crazy Time, Monopoly Live, Lightning Roulette. Nos metimos a una mesa de
             blackjack en español un viernes a la medianoche y la dealer era simpática, rápida y profesional. Eso
-            no lo encontrás en todos lados (lo probamos personalmente y la diferencia se nota).
+            no lo encuentras en todos lados (lo probamos personalmente y la diferencia se nota).
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-4">
             Ojo con esto: Betsson también tiene una sección de apuestas deportivas bastante completa. Liga 1, Copa
-            Libertadores, fútbol europeo... si sos de los que le gusta alternar entre casino y deportes sin cambiar
-            de plataforma, acá lo tenés resuelto. La app móvil funciona fluida, se nota que le metieron presupuesto
+            Libertadores, fútbol europeo... si eres de los que le gusta alternar entre casino y deportes sin cambiar
+            de plataforma, acá lo tienes resuelto. La app móvil funciona fluida, se nota que le metieron presupuesto
             al desarrollo. Probamos en un Samsung Galaxy A54 y un iPhone 13 y en ambos la experiencia fue sólida.
           </p>
 
@@ -566,13 +566,13 @@ export default function MejoresCasinosOnlinePeru() {
             El bono de bienvenida es <strong className="text-white">300 giros gratis</strong>. Así de directo,
             sin tanto enredo. ¿Es el bono más grande del ranking en monto? No. Pero tiene algo que valoramos mucho:
             las condiciones son claras desde el principio. Nada de letra chica escondida en la página 47 de los
-            términos y condiciones. Depositás, activás los giros, jugás. Betsson también tiene promos recurrentes
+            términos y condiciones. Depositas, activas los giros, juegas. Betsson también tiene promos recurrentes
             para jugadores existentes — torneos de slots con premios en efectivo, cashback los fines de semana, y
             ofertas especiales para el casino en vivo. No es el programa de promos más agresivo que vimos, pero
             es consistente y honesto.
           </p>
 
-          <h4 className="text-lg font-bold text-white mb-3">Yape, Plin y todo lo que necesitás en Perú</h4>
+          <h4 className="text-lg font-bold text-white mb-3">Yape, Plin y todo lo que necesitas en Perú</h4>
           <p className="text-[#9ca3af] leading-relaxed mb-4">
             Acá es donde muchos casinos internacionales fallan para el mercado peruano, pero Betsson no.
             Acepta <strong className="text-white">Yape, Plin, transferencias bancarias</strong> de BCP, BBVA,
@@ -581,7 +581,7 @@ export default function MejoresCasinosOnlinePeru() {
             S/200 un martes a las 4pm y los tuvimos en la cuenta en poco más de una hora. No instantáneo como
             Stake, pero bastante rápido para los estándares del mercado. Y bueno... tener la tranquilidad de
             que estás jugando en un casino con licencia MINCETUR, regulado por el gobierno peruano, no tiene
-            precio. Si pasa algo, tenés a quién reclamar.
+            precio. Si pasa algo, tienes a quién reclamar.
           </p>
 
           <ProsCons
@@ -687,7 +687,7 @@ export default function MejoresCasinosOnlinePeru() {
             El casino en vivo tiene más de 300 mesas, y lo que nos gustó es que hay bastantes opciones en español.
             Ruleta, blackjack, baccarat, y los game shows que todo el mundo quiere jugar: Crazy Time, Monopoly Live,
             Sweet Bonanza Candyland. Los límites van desde S/1 hasta más de S/50 000, así que funciona tanto si estás
-            empezando como si sos de los que apuestan fuerte. (Lo probamos personalmente con apuestas mínimas en
+            empezando como si eres de los que apuestan fuerte. (Lo probamos personalmente con apuestas mínimas en
             Crazy Time a las 3am un martes... y ganamos S/47. No viene al caso, pero quería contarlo.)
           </p>
 
@@ -695,14 +695,14 @@ export default function MejoresCasinosOnlinePeru() {
           <p className="text-[#9ca3af] leading-relaxed mb-3">
             El bono de bienvenida es de <strong className="text-white">100% en tu primer depósito + 500 giros gratis</strong>.
             Los giros se distribuyen en 10 días (50 por día), que es más razonable que dártelos todos de golpe
-            porque así tenés motivo para entrar cada día y probar slots distintas. El depósito mínimo para activar
+            porque así tienes motivo para entrar cada día y probar slots distintas. El depósito mínimo para activar
             todo es de $20 o su equivalente en soles, y el rollover es x35 sobre el monto del bono. No te voy a
             mentir: x35 no es bajo, pero tampoco es abusivo comparado con lo que piden otros casinos del mercado.
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-4">
             Más allá del bono de entrada, FRESH tiene un calendario de promos que la verdad está bastante bien
             pensado. Los viernes hay recarga del 50%, los lunes cashback del 10%, y hay torneos de slots con
-            premios de hasta $10 000. ¿Lo mejor? El programa VIP de 7 niveles. A partir del nivel 3 ya notás
+            premios de hasta $10 000. ¿Lo mejor? El programa VIP de 7 niveles. A partir del nivel 3 ya notas
             diferencia: retiros más rápidos, bonos personalizados, y eventualmente te asignan un gerente de cuenta
             dedicado. Le escribimos al nuestro un domingo y respondió en 40 minutos.
           </p>
@@ -713,7 +713,7 @@ export default function MejoresCasinosOnlinePeru() {
             criptomonedas — Bitcoin, Ethereum, Litecoin y USDT. El depósito mínimo es de $10, que está bien.
             Los retiros con crypto y e-wallets se procesan entre 0 y 24 horas (a nosotros nos cayó un retiro de
             USDT en 47 minutos). Tarjetas y transferencias tardan entre 1 y 3 días hábiles. El límite mensual es
-            de $50 000, que sube si sos VIP. ¿Lo que falta? Yape y Plin. Es la única pega real para jugadores
+            de $50 000, que sube si eres VIP. ¿Lo que falta? Yape y Plin. Es la única pega real para jugadores
             peruanos que usan esos métodos a diario. Ojalá lo agreguen pronto.
           </p>
 
@@ -722,7 +722,7 @@ export default function MejoresCasinosOnlinePeru() {
               "4 500+ juegos — buscamos slots raras de proveedores chicos y las tenían todas",
               "500 giros gratis repartidos en 10 días, que te da excusa para volver cada día",
               "Casino en vivo con 300+ mesas, muchas en español y con límites desde S/1",
-              "Programa VIP de 7 niveles donde realmente notás la diferencia a partir del tercero",
+              "Programa VIP de 7 niveles donde realmente notas la diferencia a partir del tercero",
               "Soporte en español 24/7 — probamos el chat a las 3am y respondieron en 2 minutos",
               "Retiros con crypto nos cayeron en menos de una hora en todas las pruebas",
             ]}
@@ -748,13 +748,13 @@ export default function MejoresCasinosOnlinePeru() {
             Si hay un casino que cualquier jugador peruano conoce, ese es Inkabet. Y no es por casualidad:
             llevan años en el mercado, tienen <strong className="text-white">licencia MINCETUR</strong> (que
             en Perú es el sello más importante que existe) y están enfocados 100% en el jugador peruano.
-            Todo está en soles, el soporte es de gente que habla como vos, y los métodos de pago son los
+            Todo está en soles, el soporte es de gente que habla como tú, y los métodos de pago son los
             que realmente usamos acá.
           </p>
 
-          <h4 className="text-lg font-bold text-white mb-3">Yape, Plin y transferencia bancaria: todo lo que necesitás</h4>
+          <h4 className="text-lg font-bold text-white mb-3">Yape, Plin y transferencia bancaria: todo lo que necesitas</h4>
           <p className="text-[#9ca3af] leading-relaxed mb-3">
-            Esto es lo que separa a Inkabet de los casinos internacionales: podés depositar y retirar con
+            Esto es lo que separa a Inkabet de los casinos internacionales: puedes depositar y retirar con
             <strong className="text-white"> Yape y Plin</strong>. Así, desde el celular, en 30 segundos.
             Probamos depositar con Yape un viernes a las 10pm y el saldo apareció literal al toque. Para
             retiros la cosa es un poco más lenta (nos llegó en unas 3 horas), pero comparado con los
@@ -814,7 +814,7 @@ export default function MejoresCasinosOnlinePeru() {
           <p className="text-[#9ca3af] leading-relaxed mb-3">
             Empecemos por lo que importa: <strong className="text-white">100% en tu primer depósito + 500 giros gratis</strong> con
             un rollover de apenas x30. ¿Por qué arrancamos por acá? Porque ese x30 es el más bajo de todo nuestro
-            ranking, y eso cambia completamente la matemática. En otros casinos con x35 o x40 sentís que el bono
+            ranking, y eso cambia completamente la matemática. En otros casinos con x35 o x40 sientes que el bono
             es más decorativo que funcional. Acá no — depositamos $50, jugamos unas 4 horas repartidas en tres días,
             y liberamos el bono completo sin forzar nada. Los 500 giros se activan de a 50 por día durante 10 días,
             y el cashback semanal es del 15% sin rollover adicional. Leíste bien: sin rollover.
@@ -825,9 +825,9 @@ export default function MejoresCasinosOnlinePeru() {
             SOL tiene más de <strong className="text-white">4 000 juegos</strong> y una interfaz que la verdad nos
             pareció de las más limpias que probamos. No hay popups molestos cada 30 segundos (esto lo verificamos
             a las 3am un martes), no te bombardean con banners, y la navegación es clara incluso si nunca jugaste
-            online antes. Los filtros de slots son un detalle que valoramos mucho: podés buscar por proveedor,
+            online antes. Los filtros de slots son un detalle que valoramos mucho: puedes buscar por proveedor,
             por volatilidad y por popularidad. Pragmatic Play, Evolution, BGaming, Endorphina, Spinomenal...
-            todos los nombres que esperás están ahí.
+            todos los nombres que esperas están ahí.
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-4">
             El casino en vivo tiene más de 200 mesas con variantes en español y algunas mesas exclusivas de SOL.
@@ -846,9 +846,9 @@ export default function MejoresCasinosOnlinePeru() {
             <strong className="text-white">Nuestro veredicto:</strong> SOL Casino no intenta ser el más grande ni el
             más llamativo. Y bueno... eso es justamente lo que nos gustó. Es un casino que hace bien las cosas
             básicas: buen bono con rollover justo, interfaz sin basura, y pagos que llegan cuando dicen que llegan.
-            Si sos de los que prefiere una experiencia tranquila y sin sorpresas desagradables, SOL es muy difícil
+            Si eres de los que prefiere una experiencia tranquila y sin sorpresas desagradables, SOL es muy difícil
             de superar. ¿Le falta Yape y Plin? Sí, y eso duele para Perú. ¿Le falta la licencia MINCETUR? También.
-            Pero si esas dos cosas no son deal-breaker para vos, probablemente vas a terminar quedándote acá.
+            Pero si esas dos cosas no son deal-breaker para ti, probablemente vas a terminar quedándote acá.
           </p>
 
           <ProsCons
@@ -861,7 +861,7 @@ export default function MejoresCasinosOnlinePeru() {
             ]}
             cons={[
               "Sin licencia MINCETUR — opera con Curaçao, que es legítima pero no es lo mismo",
-              "Unos 500 juegos menos que FRESH, aunque honestamente no lo notás en el día a día",
+              "Unos 500 juegos menos que FRESH, aunque honestamente no lo notas en el día a día",
               "Nada de Yape ni Plin, que para muchos peruanos es un requisito",
             ]}
           />
@@ -879,9 +879,9 @@ export default function MejoresCasinosOnlinePeru() {
           <h4 className="text-lg font-bold text-white mb-3">150% de bono: el porcentaje más alto del ranking</h4>
           <p className="text-[#9ca3af] leading-relaxed mb-3">
             Vamos directo al grano: MONRO Casino ofrece un bono de <strong className="text-white">150% en tu primer
-            depósito</strong>. Es el porcentaje más alto de todo nuestro top 5. Depositás $100, recibís $150 de bono.
-            Ningún otro casino del ranking te da eso. ¿El catch? El rollover es x35 y tenés 14 días para cumplirlo.
-            No te voy a mentir, 14 días con x35 es ajustado si no jugás todos los días. Nosotros lo liberamos en
+            depósito</strong>. Es el porcentaje más alto de todo nuestro top 5. Depositas $100, recibes $150 de bono.
+            Ningún otro casino del ranking te da eso. ¿El catch? El rollover es x35 y tienes 14 días para cumplirlo.
+            No te voy a mentir, 14 días con x35 es ajustado si no juegas todos los días. Nosotros lo liberamos en
             11 días jugando unas 2 horas por sesión, pero requiere cierta disciplina. También tienen recarga del 50%
             los miércoles y un cashback escalonado que sube según cuánto juegues.
           </p>
@@ -890,7 +890,7 @@ export default function MejoresCasinosOnlinePeru() {
           <p className="text-[#9ca3af] leading-relaxed mb-3">
             MONRO tiene más de <strong className="text-white">3 500 juegos</strong> — slots de alta volatilidad, casino
             en vivo con mesas en español, video poker, juegos crash y deportes virtuales. La verdad es que el
-            catálogo está bien para la mayoría de jugadores, aunque si venís de probar FRESH con sus 4 500+ títulos
+            catálogo está bien para la mayoría de jugadores, aunque si vienes de probar FRESH con sus 4 500+ títulos
             vas a notar que faltan algunos proveedores.
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-3">
@@ -914,20 +914,20 @@ export default function MejoresCasinosOnlinePeru() {
             (un poco más alto que el estándar de $10 del resto del ranking). Los retiros con crypto se procesan
             en menos de 1 hora — ahí sí cumple bien. Para tarjetas y transferencias, entre 1 y 5 días hábiles,
             que es notablemente más lento que la competencia. Y el límite mensual de retiro es de $30 000, el más
-            bajo del top 5. Para la mayoría de jugadores no va a ser un problema, pero si sos high roller o tenés
+            bajo del top 5. Para la mayoría de jugadores no va a ser un problema, pero si eres high roller o tienes
             un mes muy bueno, te puede frenar. Es algo que deberías tener en cuenta.
           </p>
 
           <ProsCons
             pros={[
-              "Bono del 150% — el porcentaje más alto del ranking, punto. Depositás $100, te dan $150",
+              "Bono del 150% — el porcentaje más alto del ranking, punto. Depositas $100, te dan $150",
               "Buena sección de juegos crash y deportes virtuales que otros casinos no tienen tan completa",
               "Retiros crypto en menos de 1 hora en nuestras pruebas, sin trabas ni verificaciones extra",
               "Todo en español, desde el registro hasta el soporte — no vas a necesitar traductor",
             ]}
             cons={[
               "Sin licencia MINCETUR y sin Yape ni Plin — para Perú eso pesa",
-              "Límite de retiro de $30 000 mensuales, el más bajo del top 5 y un problema si ganás en serio",
+              "Límite de retiro de $30 000 mensuales, el más bajo del top 5 y un problema si ganas en serio",
               "Catálogo de 3 500 juegos se queda corto al lado de FRESH y SOL, y el diseño es algo genérico",
             ]}
           />
@@ -942,21 +942,21 @@ export default function MejoresCasinosOnlinePeru() {
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#dc2626] to-transparent rounded mb-6" />
 
-          <h4 className="text-lg font-bold text-white mb-3">Si te gustan las slots, esto es para vos</h4>
+          <h4 className="text-lg font-bold text-white mb-3">Si te gustan las slots, esto es para ti</h4>
           <p className="text-[#9ca3af] leading-relaxed mb-3">
-            Si te gustan las slots y los torneos, STARDA es donde tenés que estar. Así de simple. Con
+            Si te gustan las slots y los torneos, STARDA es donde tienes que estar. Así de simple. Con
             <strong className="text-white">3 800+ juegos</strong> y una interfaz que literalmente pone las tragamonedas
             en el centro de todo, este casino sabe exactamente quién es su público y no pide disculpas por eso.
-            Sweet Bonanza, Gates of Olympus, Mental, San Quentin... todos los títulos de alta volatilidad que buscás
+            Sweet Bonanza, Gates of Olympus, Mental, San Quentin... todos los títulos de alta volatilidad que buscas
             están acá, de proveedores como Pragmatic Play, Push Gaming, Hacksaw Gaming y Nolimit City.
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-3">
             Pero la verdad es que lo que más nos enganchó fueron los torneos. STARDA organiza torneos semanales
-            donde competís contra otros jugadores por premios de hasta $15 000. Nos metimos a uno un sábado por
+            donde compites contra otros jugadores por premios de hasta $15 000. Nos metimos a uno un sábado por
             la noche con un bankroll modesto y terminamos en el puesto 23 de 400+ participantes. No ganamos nada
             espectacular, pero la adrenalina de ver tu nombre subir en el leaderboard en tiempo real... eso no te
             lo da cualquier casino. Los torneos tienen categorías por nivel de apuesta, así que no estás compitiendo
-            contra whales si no querés.
+            contra whales si no quieres.
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-4">
             ¿Casino en vivo? Tiene unas 150 mesas. No te voy a mentir, es el punto más flojo comparado con FRESH
@@ -968,7 +968,7 @@ export default function MejoresCasinosOnlinePeru() {
           <p className="text-[#9ca3af] leading-relaxed mb-4">
             El bono es <strong className="text-white">100% en tu primer depósito + 500 giros gratis</strong> con rollover de x35.
             Hasta ahí todo bien. Pero ojo con esto: los 500 giros se asignan a la slot &quot;Book of Gold&quot; de
-            Playson. Es un buen juego — alta volatilidad, buen RTP — pero no podés elegir dónde usarlos. Si te
+            Playson. Es un buen juego — alta volatilidad, buen RTP — pero no puedes elegir dónde usarlos. Si te
             gusta Book of Gold, perfecto. Si no... bueno, son 500 giros gratis igualmente, tampoco te vas a quejar
             mucho (sí, nos quejamos un poco igual). STARDA también tiene bonos especiales para torneos, cashback
             del 10% los fines de semana, y un programa VIP de 5 niveles. El VIP acá es más enfocado en recompensas
@@ -980,7 +980,7 @@ export default function MejoresCasinosOnlinePeru() {
             Visa, Mastercard, Skrill, Neteller y una lista de criptos que incluye Bitcoin, Ethereum, Litecoin,
             USDT y — esto nos gustó — Dogecoin. No muchos casinos aceptan DOGE. Depósito mínimo de $10, retiros
             crypto prácticamente instantáneos (probamos con Litecoin y llegó en 8 minutos), e-wallets en 0-12 horas,
-            tarjetas en 1-3 días. El límite mensual es de $40 000 que sube si sos VIP. Nada fuera de lo común, pero
+            tarjetas en 1-3 días. El límite mensual es de $40 000 que sube si eres VIP. Nada fuera de lo común, pero
             cumple.
           </p>
 
@@ -994,7 +994,7 @@ export default function MejoresCasinosOnlinePeru() {
             cons={[
               "Sin licencia MINCETUR — misma situación que FRESH y SOL con licencia Curaçao",
               "Casino en vivo con solo 150 mesas, bastante menos que la competencia",
-              "Los 500 giros gratis solo van a Book of Gold — no podés elegir otra slot",
+              "Los 500 giros gratis solo van a Book of Gold — no puedes elegir otra slot",
             ]}
           />
           <CtaButton slug="starda-casino" text="Jugar en STARDA Casino" />
@@ -1009,8 +1009,8 @@ export default function MejoresCasinosOnlinePeru() {
               <h4 className="text-lg font-bold text-white mb-2">Betano <span className="text-[#22c55e] text-sm font-black">8.7/10</span></h4>
               <p className="text-[#9ca3af] leading-relaxed">
                 Betano fue de las primeras en conseguir licencia MINCETUR, y eso cuenta mucho. Pero lo que
-                realmente nos convenció es su bono de 60 giros gratis con rollover x0. Cero. Lo que ganás
-                con esos giros es tuyo y lo retirás cuando quieras — probamos esto personalmente y confirmamos
+                realmente nos convenció es su bono de 60 giros gratis con rollover x0. Cero. Lo que ganas
+                con esos giros es tuyo y lo retiras cuando quieras — probamos esto personalmente y confirmamos
                 que no hay letra chica escondida. Acepta Yape y Plin con depósitos instantáneos, y los retiros
                 nos llegaron en menos de 4 horas. ¿Por qué no está más arriba? La verdad es que el catálogo de
                 juegos es más limitado que el de los primeros 5, y las promos después del bono de bienvenida no
@@ -1027,7 +1027,7 @@ export default function MejoresCasinosOnlinePeru() {
                 que se te ocurran, más un rollover de x1 en el bono que lo hace aprovechable de verdad. Los Stake
                 Originals (Plinko, Mines, Crash) son genuinamente adictivos y provably fair. ¿Por qué no está
                 más arriba? El catálogo de 3 000 juegos se queda corto al lado de FRESH y SOL, y el bono en monto
-                bruto es más chico. Pero si para vos la licencia MINCETUR, pagar con Yape y tener retiros crypto
+                bruto es más chico. Pero si para ti la licencia MINCETUR, pagar con Yape y tener retiros crypto
                 en 5 minutos son innegociables, Stake merece tu atención.
               </p>
             </div>
@@ -1071,9 +1071,9 @@ export default function MejoresCasinosOnlinePeru() {
         <p className="text-[#9ca3af] mb-10 max-w-3xl leading-relaxed">
           Ok, el ranking te da una idea general... pero la verdad es que los números cuentan una historia
           más completa. Armamos estas tablas comparativas para que veas lado a lado cómo se miden los casinos
-          en lo que realmente te afecta: cuánto bono te dan (y cuánto tenés que apostar para retirarlo),
+          en lo que realmente te afecta: cuánto bono te dan (y cuánto tienes que apostar para retirarlo),
           qué métodos de pago aceptan para peruanos, y cuántos juegos tiene cada plataforma. Acá no hay
-          letra chica — todo está a la vista para que compares y decidas vos mismo.
+          letra chica — todo está a la vista para que compares y decidas tú mismo.
         </p>
 
         <h3 className="text-lg font-bold text-white mb-4">Comparativa de Bonos de Bienvenida</h3>
@@ -1200,7 +1200,7 @@ export default function MejoresCasinosOnlinePeru() {
           gana al casino físico — literalmente te regalan plata extra para jugar. Pero ojo con esto: no todos
           los bonos son lo que parecen. Algunos suenan espectaculares en el titular y después te das cuenta de
           que el rollover es imposible de cumplir. Otros parecen modestos pero terminan siendo una mina de oro
-          porque las condiciones son razonables y podés retirar de verdad.
+          porque las condiciones son razonables y puedes retirar de verdad.
         </p>
         <p className="text-[#9ca3af] mb-10 max-w-3xl leading-relaxed">
           Revisamos personalmente las condiciones de cada bono en los casinos de nuestro ranking (sí, leímos
@@ -1213,10 +1213,10 @@ export default function MejoresCasinosOnlinePeru() {
           <div>
             <h3 className="text-xl font-bold text-white mb-3">Bono de Bienvenida</h3>
             <p className="text-[#9ca3af] leading-relaxed mb-2">
-              El clásico de los clásicos. Depositás plata por primera vez y el casino te iguala (o supera) ese
-              monto. Un <strong className="text-white">&quot;100% hasta $500&quot;</strong> funciona así: ponés $200,
-              te dan otros $200 de regalo. Ponés $500, te dan $500 más. Así de simple. Pero acá viene el truco:
-              esa plata de bono no la podés retirar directo — tenés que apostarla cierta cantidad de veces
+              El clásico de los clásicos. Depositas plata por primera vez y el casino te iguala (o supera) ese
+              monto. Un <strong className="text-white">&quot;100% hasta $500&quot;</strong> funciona así: pones $200,
+              te dan otros $200 de regalo. Pones $500, te dan $500 más. Así de simple. Pero acá viene el truco:
+              esa plata de bono no la puedes retirar directo — tienes que apostarla cierta cantidad de veces
               antes (eso es el famoso rollover, que te explicamos abajo en cada caso).
             </p>
             <p className="text-[#9ca3af] leading-relaxed mb-2">
@@ -1227,7 +1227,7 @@ export default function MejoresCasinosOnlinePeru() {
             <p className="text-[#d4d4d8] text-sm italic">
               Consejo: Acá el truco está en el rollover, no en el número grande del titular. Un bono de $300
               con rollover x25 te pide apostar $7 500... pero uno de $500 con rollover x50 te pide $25 000.
-              ¿Ves la diferencia? Siempre hacé la cuenta antes de emocionarte.
+              ¿Ves la diferencia? Siempre haz la cuenta antes de emocionarte.
             </p>
           </div>
 
@@ -1235,9 +1235,9 @@ export default function MejoresCasinosOnlinePeru() {
             <h3 className="text-xl font-bold text-white mb-3">Bono Sin Depósito</h3>
             <p className="text-[#9ca3af] leading-relaxed mb-2">
               Plata gratis solo por registrarte. Suena demasiado bueno para ser verdad... y la verdad es que tiene
-              sus condiciones. Te dan un monto chico ($5, $10, a veces $25) o unas tiradas gratis apenas creás
-              tu cuenta. No ponés un solo sol. Pero — y siempre hay un pero — el rollover es alto (x40 a x60)
-              y hay un tope de cuánto podés retirar con esa plata de bono. Doradobet, por ejemplo, te da S/50
+              sus condiciones. Te dan un monto chico ($5, $10, a veces $25) o unas tiradas gratis apenas creas
+              tu cuenta. No pones un solo sol. Pero — y siempre hay un pero — el rollover es alto (x40 a x60)
+              y hay un tope de cuánto puedes retirar con esa plata de bono. Doradobet, por ejemplo, te da S/50
               o 50 giros sin depositar nada, lo cual es bastante generoso para el mercado peruano.
             </p>
             <p className="text-[#9ca3af] leading-relaxed mb-2">
@@ -1248,18 +1248,18 @@ export default function MejoresCasinosOnlinePeru() {
             <p className="text-[#d4d4d8] text-sm italic">
               Consejo: No te hagas ilusiones de hacerte millonario con $10 gratis (no va a pasar). Pero es
               perfecto para probar un casino de primera mano sin arriesgar tu plata. Si la plataforma te gusta,
-              recién ahí depositás. Pensalo como un test drive gratuito.
+              recién ahí depositas. Pensalo como un test drive gratuito.
             </p>
           </div>
 
           <div>
             <h3 className="text-xl font-bold text-white mb-3">Tiradas Gratis / Free Spins</h3>
             <p className="text-[#9ca3af] leading-relaxed mb-2">
-              Las tiradas gratis son giros que podés usar en tragamonedas sin gastar tu plata. A veces vienen
+              Las tiradas gratis son giros que puedes usar en tragamonedas sin gastar tu plata. A veces vienen
               incluidas con el bono de bienvenida (como los 500 giros de FRESH Casino) y a veces te las dan
-              como promo aparte. Lo que ganés con esos giros se convierte en saldo de bono... que sí, tiene
+              como promo aparte. Lo que ganes con esos giros se convierte en saldo de bono... que sí, tiene
               rollover. Y ojo con un detalle que muchos pasan por alto: el casino suele elegir en qué slot
-              podés usar los giros. No siempre te dejan usarlos donde vos querés.
+              puedes usar los giros. No siempre te dejan usarlos donde tú quieres.
             </p>
             <p className="text-[#9ca3af] leading-relaxed mb-2">
               <strong className="text-white">Cantidad típica:</strong> 20 a 250 giros.
@@ -1267,9 +1267,9 @@ export default function MejoresCasinosOnlinePeru() {
               <br /><strong className="text-white">Rollover de ganancias:</strong> x20 a x40.
             </p>
             <p className="text-[#d4d4d8] text-sm italic">
-              Consejo: La trampa está en el valor del giro, no en la cantidad. Hacé la matemática: 50 giros
+              Consejo: La trampa está en el valor del giro, no en la cantidad. Haz la matemática: 50 giros
               a $0.10 son $5 de valor total. Pero 20 giros a $0.50 son $10. Menos giros, más valor. Siempre
-              revisá cuánto vale cada giro antes de comparar ofertas.
+              revisa cuánto vale cada giro antes de comparar ofertas.
             </p>
           </div>
 
@@ -1287,7 +1287,7 @@ export default function MejoresCasinosOnlinePeru() {
               <br /><strong className="text-white">Frecuencia:</strong> Diario, semanal o mensual.
             </p>
             <p className="text-[#d4d4d8] text-sm italic">
-              Consejo: Si el cashback no tiene rollover, es literalmente plata real que podés retirar. SOL Casino
+              Consejo: Si el cashback no tiene rollover, es literalmente plata real que puedes retirar. SOL Casino
               te da 15% semanal sin rollover — eso es dinero en tu bolsillo, no saldo fantasma. Priorizá
               casinos con cashback limpio por encima de bonos que suenan más grandes pero tienen condiciones absurdas.
             </p>
@@ -1297,8 +1297,8 @@ export default function MejoresCasinosOnlinePeru() {
             <h3 className="text-xl font-bold text-white mb-3">Bono de Recarga</h3>
             <p className="text-[#9ca3af] leading-relaxed mb-2">
               El bono de bienvenida se usa una vez y chau. Pero los bonos de recarga son como un regalo que se
-              repite: cada semana o cada mes, cuando depositás, el casino te da un porcentaje extra. Los montos
-              son más chicos que el bono de bienvenida (entre 20% y 50%), pero la gracia es que los podés
+              repite: cada semana o cada mes, cuando depositas, el casino te da un porcentaje extra. Los montos
+              son más chicos que el bono de bienvenida (entre 20% y 50%), pero la gracia es que los puedes
               aprovechar una y otra vez. Para jugadores regulares, esto termina sumando mucho más que cualquier
               bono de bienvenida a largo plazo.
             </p>
@@ -1309,7 +1309,7 @@ export default function MejoresCasinosOnlinePeru() {
             </p>
             <p className="text-[#d4d4d8] text-sm italic">
               Consejo: FRESH Casino te da 50% extra cada viernes. Nosotros lo aprovechamos varias veces y la
-              verdad es que es de los mejores bonos de recarga que encontramos en el mercado peruano. Si jugás
+              verdad es que es de los mejores bonos de recarga que encontramos en el mercado peruano. Si juegas
               los fines de semana, ese bono de viernes te cae como anillo al dedo.
             </p>
           </div>
@@ -1317,8 +1317,8 @@ export default function MejoresCasinosOnlinePeru() {
           <div>
             <h3 className="text-xl font-bold text-white mb-3">Programa VIP / Lealtad</h3>
             <p className="text-[#9ca3af] leading-relaxed mb-2">
-              ¿Jugás seguido? Entonces los programas VIP son donde está la plata de verdad. Funcionan con niveles:
-              mientras más jugás, más subís, y cada nivel te desbloquea beneficios mejores. Hablamos de cashback
+              ¿Juegas seguido? Entonces los programas VIP son donde está la plata de verdad. Funcionan con niveles:
+              mientras más juegas, más subes, y cada nivel te desbloquea beneficios mejores. Hablamos de cashback
               más alto, límites de retiro más generosos, bonos que no están disponibles para el público general,
               retiros que se procesan primero que los demás, y en los niveles altos hasta te asignan un gerente
               de cuenta personal que te atiende directamente (sí, como en un banco privado pero para el casino).
@@ -1328,8 +1328,8 @@ export default function MejoresCasinosOnlinePeru() {
               <br /><strong className="text-white">Beneficios clave:</strong> Retiros más rápidos, cashback mejorado, bonos personalizados.
             </p>
             <p className="text-[#d4d4d8] text-sm italic">
-              Consejo: Si sabés que vas a jugar seguido, elegí un casino con buen programa VIP desde el día uno.
-              No querés empezar a acumular puntos en un casino y después cambiarte a otro. FRESH Casino tiene
+              Consejo: Si sabes que vas a jugar seguido, elige un casino con buen programa VIP desde el día uno.
+              No quieres empezar a acumular puntos en un casino y después cambiarte a otro. FRESH Casino tiene
               7 niveles y los beneficios de los niveles altos son realmente buenos (lo verificamos).
             </p>
           </div>
@@ -1340,7 +1340,7 @@ export default function MejoresCasinosOnlinePeru() {
           <table className="w-full text-left text-sm">
             <thead>
               <tr className="bg-[#141414] text-[#71717a] uppercase text-xs tracking-wider">
-                <th className="px-4 py-3 font-bold">Si buscás...</th>
+                <th className="px-4 py-3 font-bold">Si buscas...</th>
                 <th className="px-4 py-3 font-bold">Mejor opción</th>
                 <th className="px-4 py-3 font-bold text-right">Enlace</th>
               </tr>
@@ -1390,12 +1390,12 @@ export default function MejoresCasinosOnlinePeru() {
           <div>
             <h3 className="text-xl font-bold text-white mb-3">Yape</h3>
             <p className="text-[#9ca3af] leading-relaxed">
-              Si vivís en Perú, ya tenés Yape. Todo el mundo lo usa, desde el taxista hasta tu abuela. Y la
+              Si vives en Perú, ya tienes Yape. Todo el mundo lo usa, desde el taxista hasta tu abuela. Y la
               buena noticia es que ahora también sirve para depositar en casinos online. Cuando probamos
-              depositar con Yape nos tomó literalmente 15 segundos — escaneás el QR, confirmás, y la plata
+              depositar con Yape nos tomó literalmente 15 segundos — escaneas el QR, confirmas, y la plata
               aparece al toque en tu cuenta del casino. Sin comisiones en la mayoría de los casos. Los retiros
               tardan entre 1 y 24 horas dependiendo del casino. Disponible en Stake, Betano, Betsson, Inkabet
-              y Doradobet. Si ya usás Yape para pagar el almuerzo, depositar en un casino se siente igual de
+              y Doradobet. Si ya usas Yape para pagar el almuerzo, depositar en un casino se siente igual de
               natural.
             </p>
           </div>
@@ -1407,7 +1407,7 @@ export default function MejoresCasinosOnlinePeru() {
               BBVA y Scotiabank. Si tu banco no es BCP, Plin es lo tuyo. Depósitos instantáneos, retiros en
               menos de 24 horas, y lo aceptan en los mismos casinos que aceptan Yape. En nuestra experiencia
               funciona igual de rápido y sin comisiones. No hay diferencia real de rendimiento entre Yape y
-              Plin — usá el que ya tengas configurado en tu celular y listo.
+              Plin — usa el que ya tengas configurado en tu celular y listo.
             </p>
           </div>
 
@@ -1437,10 +1437,10 @@ export default function MejoresCasinosOnlinePeru() {
           <div>
             <h3 className="text-xl font-bold text-white mb-3">PagoEfectivo</h3>
             <p className="text-[#9ca3af] leading-relaxed">
-              Esto es 100% peruano y bastante genial (sí, suena raro pero es así). Básicamente generás un código
-              en el casino, te vas a una bodega, farmacia o agente bancario, pagás en efectivo y listo — el
-              depósito se acredita en tu cuenta del casino. Perfecto si no tenés cuenta bancaria, si no querés
-              poner tu tarjeta online, o si simplemente preferís manejar todo en cash. La contra es que solo
+              Esto es 100% peruano y bastante genial (sí, suena raro pero es así). Básicamente generas un código
+              en el casino, te vas a una bodega, farmacia o agente bancario, pagas en efectivo y listo — el
+              depósito se acredita en tu cuenta del casino. Perfecto si no tienes cuenta bancaria, si no quieres
+              poner tu tarjeta online, o si simplemente prefieres manejar todo en cash. La contra es que solo
               sirve para depositar — para retirar vas a necesitar una cuenta bancaria, Yape o algún otro método.
               Y puede tardar un poco más en acreditarse (hasta 24 horas), pero funciona bien.
             </p>
@@ -1452,7 +1452,7 @@ export default function MejoresCasinosOnlinePeru() {
               Los e-wallets veteranos del mundo del casino online. Skrill y Neteller llevan años en esto y son
               aceptados prácticamente en todos lados. Depósitos instantáneos, retiros en 0 a 24 horas (de los
               más rápidos que hay junto con cripto). La verdad es que son super útiles como plan B: si tu banco
-              te bloquea un pago directo al casino, metés la plata en Skrill primero y desde ahí depositás sin
+              te bloquea un pago directo al casino, metes la plata en Skrill primero y desde ahí depositas sin
               problemas. La contra es que cobran una comisión chica por transacción (1-3%), pero a cambio te dan
               velocidad y flexibilidad que otros métodos no tienen.
             </p>
@@ -1461,13 +1461,13 @@ export default function MejoresCasinosOnlinePeru() {
           <div>
             <h3 className="text-xl font-bold text-white mb-3">Criptomonedas (Bitcoin, USDT, Ethereum)</h3>
             <p className="text-[#9ca3af] leading-relaxed">
-              No te voy a mentir: si ya manejás cripto, este es lejos el mejor método para jugar online. Los
-              retiros son casi instantáneos — pedís tu plata y en menos de una hora la tenés en tu wallet. El
-              casino no te cobra comisión (solo pagás el fee de la red blockchain, que con USDT en Tron es
+              No te voy a mentir: si ya manejas cripto, este es lejos el mejor método para jugar online. Los
+              retiros son casi instantáneos — pides tu plata y en menos de una hora la tienes en tu wallet. El
+              casino no te cobra comisión (solo pagas el fee de la red blockchain, que con USDT en Tron es
               centavos). Aceptadas en FRESH, SOL, MONRO, STARDA y Stake. Bitcoin, Ethereum, Litecoin, USDT
-              y Dogecoin son las más comunes. Pero el verdadero atractivo va más allá de la velocidad: tenés
-              más privacidad, no dependés de ningún banco, y los límites de retiro suelen ser más altos que
-              con métodos tradicionales. Si todavía no usás cripto... capaz este sea el empujón que necesitabas.
+              y Dogecoin son las más comunes. Pero el verdadero atractivo va más allá de la velocidad: tienes
+              más privacidad, no dependes de ningún banco, y los límites de retiro suelen ser más altos que
+              con métodos tradicionales. Si todavía no usas cripto... capaz este sea el empujón que necesitabas.
             </p>
           </div>
         </div>
@@ -1506,15 +1506,15 @@ export default function MejoresCasinosOnlinePeru() {
 
         <h3 className="text-xl font-bold text-white mb-4 mt-10">Cómo Depositar con Yape en un Casino Online</h3>
         <p className="text-[#9ca3af] leading-relaxed mb-4">
-          Ya te dijimos que Yape es rapidísimo, pero capaz te preguntás cómo funciona exactamente. Lo hicimos nosotros mismos y acá te dejamos el paso a paso completo:
+          Ya te dijimos que Yape es rapidísimo, pero capaz te preguntas cómo funciona exactamente. Lo hicimos nosotros mismos y acá te dejamos el paso a paso completo:
         </p>
         <div className="space-y-4">
           {[
-            { step: "1", title: "Registrate en el casino", desc: "Creá tu cuenta con datos reales — vas a necesitar tu DNI y un email que uses de verdad. Ojo: poné datos correctos porque después te van a pedir verificación KYC y tiene que coincidir todo." },
-            { step: "2", title: "Andá a la sección de depósitos", desc: "Buscá el botón de \"Depositar\" o \"Cajero\". En casi todos los casinos está arriba a la derecha, imposible perderse. Si estás en el celular, a veces está dentro del menú hamburguesa." },
-            { step: "3", title: "Elegí Yape como método de pago", desc: "Te va a aparecer una lista de métodos — seleccioná Yape y poné el monto que querés depositar. Cada casino tiene un mínimo diferente (generalmente entre S/10 y S/30)." },
-            { step: "4", title: "Escaneá el código QR o ingresá el número", desc: "El casino te muestra un QR o un número de teléfono. Abrí Yape en tu celular, escaneá el código y confirmá. Cuando lo hicimos nosotros, todo el proceso desde que abrimos Yape hasta que el dinero apareció en el casino tomó unos 15 segundos." },
-            { step: "5", title: "Confirmá y empezá a jugar", desc: "El saldo aparece al toque en tu cuenta del casino. Literalmente refrescás la página y ya está ahí. Cero drama, cero espera. A jugar." },
+            { step: "1", title: "Registrate en el casino", desc: "Creá tu cuenta con datos reales — vas a necesitar tu DNI y un email que uses de verdad. Ojo: pon datos correctos porque después te van a pedir verificación KYC y tiene que coincidir todo." },
+            { step: "2", title: "Ve a la sección de depósitos", desc: "Busca el botón de \"Depositar\" o \"Cajero\". En casi todos los casinos está arriba a la derecha, imposible perderse. Si estás en el celular, a veces está dentro del menú hamburguesa." },
+            { step: "3", title: "Elige Yape como método de pago", desc: "Te va a aparecer una lista de métodos — selecciona Yape y pon el monto que quieres depositar. Cada casino tiene un mínimo diferente (generalmente entre S/10 y S/30)." },
+            { step: "4", title: "Escanea el código QR o ingresa el número", desc: "El casino te muestra un QR o un número de teléfono. Abrí Yape en tu celular, escanea el código y confirma. Cuando lo hicimos nosotros, todo el proceso desde que abrimos Yape hasta que el dinero apareció en el casino tomó unos 15 segundos." },
+            { step: "5", title: "Confirma y empieza a jugar", desc: "El saldo aparece al toque en tu cuenta del casino. Literalmente refrescas la página y ya está ahí. Cero drama, cero espera. A jugar." },
           ].map((item) => (
             <div key={item.step} className="flex gap-4 items-start">
               <div className="w-10 h-10 rounded-full bg-[#22c55e]/10 border border-[#22c55e]/20 flex items-center justify-center shrink-0">
@@ -1528,7 +1528,7 @@ export default function MejoresCasinosOnlinePeru() {
           ))}
         </div>
         <p className="text-[#d4d4d8] text-sm italic mt-4">
-          Y para retirar con Yape es al revés: vas a la sección de retiros del casino, elegís Yape, ponés
+          Y para retirar con Yape es al revés: vas a la sección de retiros del casino, eliges Yape, pones
           tu número de celular y el monto. Dependiendo del casino, la plata te llega en 1 a 24 horas. Con
           Stake nos llegó en menos de 2 horas un martes a la noche. Con Betano tardó un poco más, pero no
           pasó de las 12 horas.
@@ -1572,9 +1572,9 @@ export default function MejoresCasinosOnlinePeru() {
 
         <h3 className="text-xl font-bold text-white mb-3 mt-8">¿Cómo verificar la licencia de un casino?</h3>
         <p className="text-[#9ca3af] leading-relaxed mb-4">
-          Es más fácil de lo que pensás. Tenés dos opciones: (1) entrás a la página oficial de MINCETUR
+          Es más fácil de lo que piensas. Tienes dos opciones: (1) entras a la página oficial de MINCETUR
           (mincetur.gob.pe) donde publican la lista completa de operadores autorizados, actualizada
-          regularmente; o (2) bajás al footer del sitio del casino — los que son legales muestran ahí su
+          regularmente; o (2) bajas al footer del sitio del casino — los que son legales muestran ahí su
           número de autorización con orgullo. Si un casino no muestra ningún dato de licencia en su sitio...
           eso ya te dice bastante, ¿no?
         </p>
@@ -1585,25 +1585,25 @@ export default function MejoresCasinosOnlinePeru() {
           ilegales?&quot; No, para nada. No es ilegal jugar en ellos desde Perú. Simplemente no tienen la licencia
           local, pero operan bajo regulaciones internacionales que también garantizan seguridad y juego limpio.
           FRESH Casino, SOL Casino, MONRO Casino y STARDA Casino operan con licencia de Curaçao y llevan
-          años funcionando sin problemas, con miles de jugadores peruanos activos. ¿Tenés la misma protección
+          años funcionando sin problemas, con miles de jugadores peruanos activos. ¿Tienes la misma protección
           legal local que con MINCETUR? No. Pero son plataformas serias con trayectoria comprobada.
         </p>
 
         <h3 className="text-xl font-bold text-white mb-3 mt-8">Impuestos sobre ganancias</h3>
         <p className="text-[#9ca3af] leading-relaxed mb-4">
           Nadie quiere hablar de esto, pero hay que tocarlo: sí, las ganancias de juegos de azar pagan
-          impuestos en Perú. Son rentas de fuente peruana sujetas al Impuesto a la Renta. Si jugás en un
+          impuestos en Perú. Son rentas de fuente peruana sujetas al Impuesto a la Renta. Si juegas en un
           casino con licencia MINCETUR, ellos mismos retienen el porcentaje correspondiente antes de pagarte
-          — vos no tenés que hacer nada extra. Pero si jugás en casinos internacionales, técnicamente sos
-          vos el responsable de declarar esas ganancias. La verdad es que este tema es medio complejo y
-          depende de cuánto ganés, así que lo mejor es consultarlo con un contador que conozca tu situación
+          — tú no tienes que hacer nada extra. Pero si juegas en casinos internacionales, técnicamente eres
+          tú el responsable de declarar esas ganancias. La verdad es que este tema es medio complejo y
+          depende de cuánto ganes, así que lo mejor es consultarlo con un contador que conozca tu situación
           particular. No te queremos dar un consejo fiscal genérico que después no aplique a tu caso.
         </p>
 
         <div className="rounded-2xl bg-[#22c55e]/[0.06] border border-[#22c55e]/20 p-6 mt-8">
           <p className="text-[#22c55e] font-bold mb-2">En resumen:</p>
           <p className="text-[#d4d4d8] leading-relaxed">
-            Jugar online en Perú es legal, regulado y seguro si elegís bien. Los casinos con licencia MINCETUR
+            Jugar online en Perú es legal, regulado y seguro si eliges bien. Los casinos con licencia MINCETUR
             te dan la máxima protección legal en el país. Los casinos con licencias internacionales (Curaçao,
             Malta, Gibraltar) también son opciones válidas con estándares serios de seguridad. Todos los casinos
             que recomendamos en nuestro ranking tienen alguna de estas licencias — no incluimos ningún casino
@@ -1616,11 +1616,11 @@ export default function MejoresCasinosOnlinePeru() {
       <Section id="online-vs-fisico">
         <SectionTitle>Casinos Online en Perú vs Casinos Físicos</SectionTitle>
         <p className="text-[#9ca3af] mb-10 max-w-3xl leading-relaxed">
-          Si alguna vez fuiste a un Atlantic City o un Fiesta Casino en Lima, sabés que tienen su onda. El
-          ambiente, las luces, tomarte algo mientras jugás... tiene lo suyo. Pero la realidad es que los casinos
+          Si alguna vez fuiste a un Atlantic City o un Fiesta Casino en Lima, sabes que tienen su onda. El
+          ambiente, las luces, tomarte algo mientras juegas... tiene lo suyo. Pero la realidad es que los casinos
           online te dan cosas que un casino físico simplemente no puede. Y al revés también — hay experiencias
           que solo se viven presencialmente. Acá armamos la comparación para que veas las diferencias reales, sin
-          sesgo. Vos decidís qué pesa más.
+          sesgo. Tú decides qué pesa más.
         </p>
 
         <div className="overflow-x-auto rounded-2xl border border-white/[0.06]">
@@ -1634,7 +1634,7 @@ export default function MejoresCasinosOnlinePeru() {
             </thead>
             <tbody className="text-[#d4d4d8]">
               {[
-                ["Accesibilidad", "24/7 desde cualquier lugar con internet", "Tenés que ir físicamente, horarios limitados"],
+                ["Accesibilidad", "24/7 desde cualquier lugar con internet", "Tienes que ir físicamente, horarios limitados"],
                 ["Variedad de juegos", "3 000 - 5 000+ juegos disponibles", "100 - 500 máquinas y mesas según el local"],
                 ["Bonos y promos", "Bonos de bienvenida, cashback, free spins", "Bebidas gratis y programas de fidelidad básicos"],
                 ["Límites de apuesta", "Desde S/0.20 por giro, ideal para presupuestos bajos", "Mínimos más altos, especialmente en mesas"],
@@ -1642,7 +1642,7 @@ export default function MejoresCasinosOnlinePeru() {
                 ["Privacidad", "Total, nadie sabe que estás jugando", "Pública, cualquiera te puede ver"],
                 ["Velocidad de juego", "Más rápido, sin esperas entre rondas", "Más lento, especialmente en mesas llenas"],
                 ["Métodos de pago", "Yape, Plin, crypto, tarjetas, e-wallets", "Solo efectivo y tarjetas en la mayoría"],
-                ["Retiros", "Directos a tu cuenta/wallet, 0-24h", "Tenés que ir al cajero del casino"],
+                ["Retiros", "Directos a tu cuenta/wallet, 0-24h", "Tienes que ir al cajero del casino"],
                 ["RTP", "95-98% típico, publicado y auditable", "80-93% típico en tragamonedas físicas, no publicado"],
               ].map(([aspect, online, physical]) => (
                 <tr key={aspect} className="border-t border-white/[0.04] hover:bg-white/[0.02] transition-colors">
@@ -1658,9 +1658,9 @@ export default function MejoresCasinosOnlinePeru() {
         <p className="text-[#9ca3af] leading-relaxed mt-6">
           ¿Cuál es mejor? Depende completamente de lo que busques. Si lo tuyo es variedad, comodidad de jugar
           en pijama a las 2am y RTPs que no vas a encontrar en una máquina física... los casinos online ganan
-          por lejos. Pero si querés salir con amigos, sentir el ambiente, tomarte un trago mientras tirás dados
-          en una mesa de craps... eso solo lo conseguís presencialmente. La verdad es que muchos jugadores
-          peruanos hacen las dos cosas y la pasan bien en ambas. No tiene que ser una u otra — podés disfrutar
+          por lejos. Pero si quieres salir con amigos, sentir el ambiente, tomarte un trago mientras tiras dados
+          en una mesa de craps... eso solo lo consigues presencialmente. La verdad es que muchos jugadores
+          peruanos hacen las dos cosas y la pasan bien en ambas. No tiene que ser una u otra — puedes disfrutar
           de las dos sin drama.
         </p>
       </Section>
@@ -1672,7 +1672,7 @@ export default function MejoresCasinosOnlinePeru() {
           Acá viene algo que te va a cambiar la forma de jugar: entender los números detrás de cada juego. No
           es lo mismo sentarse a una ruleta americana que a una europea — esa diferencia que parece mínima te
           puede costar literalmente el doble de tu bankroll a largo plazo. Y con las tragamonedas pasa algo
-          similar: si no sabés qué es el RTP y la volatilidad, estás eligiendo juegos a ciegas.
+          similar: si no sabes qué es el RTP y la volatilidad, estás eligiendo juegos a ciegas.
         </p>
         <p className="text-[#9ca3af] mb-10 max-w-3xl leading-relaxed">
           Nos sentamos a analizar los juegos que más se juegan en Perú y acá te dejamos todo: porcentajes de
@@ -1694,7 +1694,7 @@ export default function MejoresCasinosOnlinePeru() {
             <p className="text-white font-bold mb-1">RTP (Return to Player)</p>
             <p className="text-[#9ca3af] text-sm">
               En palabras simples: es cuánto te devuelve el juego a largo plazo. Un RTP de 96% quiere decir
-              que por cada S/100 que apostás, el juego devuelve S/96 en promedio (y el casino se queda con S/4).
+              que por cada S/100 que apuestas, el juego devuelve S/96 en promedio (y el casino se queda con S/4).
               ¿La regla de oro? Nunca juegues una slot con menos de 96% de RTP. La diferencia entre una slot
               de 94% y una de 97% parece chica, pero a lo largo de cientos de giros se nota muchísimo en tu saldo.
             </p>
@@ -1703,9 +1703,9 @@ export default function MejoresCasinosOnlinePeru() {
           <div className="rounded-xl bg-[#141414] border border-white/[0.06] p-5 mb-4">
             <p className="text-white font-bold mb-1">Volatilidad</p>
             <p className="text-[#9ca3af] text-sm">
-              <strong className="text-white">Baja:</strong> Ganas seguido pero poquito. Perfecta para sesiones largas donde querés entretenerte sin que tu saldo se derrita en 5 minutos.
+              <strong className="text-white">Baja:</strong> Ganas seguido pero poquito. Perfecta para sesiones largas donde quieres entretenerte sin que tu saldo se derrita en 5 minutos.
               <br /><strong className="text-white">Media:</strong> El punto medio. Ganas con frecuencia razonable y los premios son decentes. La opción más equilibrada para la mayoría.
-              <br /><strong className="text-white">Alta:</strong> Podés pasar 50 giros sin ganar nada... pero cuando pega, pega fuerte. Sweet Bonanza y Gates of Olympus son alta volatilidad. Necesitás bankroll y paciencia, pero las emociones son de otro nivel.
+              <br /><strong className="text-white">Alta:</strong> Puedes pasar 50 giros sin ganar nada... pero cuando pega, pega fuerte. Sweet Bonanza y Gates of Olympus son alta volatilidad. Necesitas bankroll y paciencia, pero las emociones son de otro nivel.
             </p>
           </div>
 
@@ -1741,7 +1741,7 @@ export default function MejoresCasinosOnlinePeru() {
 
           <h4 className="text-base font-bold text-white mb-3 mt-6">Slots Más Populares en Perú</h4>
           <p className="text-[#9ca3af] leading-relaxed">
-            Si entrás a cualquier casino en Perú y mirás qué se está jugando, vas a ver las mismas tres slots
+            Si entras a cualquier casino en Perú y miras qué se está jugando, vas a ver las mismas tres slots
             dominando: <strong className="text-white">Sweet Bonanza</strong> (Pragmatic Play, RTP 96.5%, volatilidad alta — la
             reina absoluta de los multiplicadores, esos momentos donde se encadenan bombas x100 son adictivos),
             <strong className="text-white"> Gates of Olympus</strong> (Pragmatic Play, RTP 96.5%, volatilidad alta — Zeus tirándote
@@ -1762,7 +1762,7 @@ export default function MejoresCasinosOnlinePeru() {
             </div>
             <div className="rounded-xl bg-[#141414] border border-white/[0.06] p-5">
               <p className="text-white font-bold mb-1">Cluster Pays</p>
-              <p className="text-[#9ca3af] text-sm">En vez de líneas de pago, ganás cuando se agrupan símbolos iguales en bloques (clusters). Cuanto más grande el grupo, mayor el premio. Ejemplo: Reactoonz de Play&apos;n GO.</p>
+              <p className="text-[#9ca3af] text-sm">En vez de líneas de pago, ganas cuando se agrupan símbolos iguales en bloques (clusters). Cuanto más grande el grupo, mayor el premio. Ejemplo: Reactoonz de Play&apos;n GO.</p>
             </div>
             <div className="rounded-xl bg-[#141414] border border-white/[0.06] p-5">
               <p className="text-white font-bold mb-1">Cascading Reels</p>
@@ -1776,7 +1776,7 @@ export default function MejoresCasinosOnlinePeru() {
           <h3 className="text-xl font-bold text-white mb-4">Ruleta</h3>
           <p className="text-[#9ca3af] leading-relaxed mb-3">
             Todo el mundo conoce la ruleta, pero casi nadie sabe que elegir la variante correcta es la
-            decisión más rentable que podés tomar en un casino. La diferencia entre la ruleta francesa y la
+            decisión más rentable que puedes tomar en un casino. La diferencia entre la ruleta francesa y la
             americana es brutal — y la mayoría de gente juega la que sea sin fijarse.
           </p>
 
@@ -1803,14 +1803,14 @@ export default function MejoresCasinosOnlinePeru() {
           <p className="text-[#d4d4d8] text-sm italic">
             Honestamente, no entendemos por qué alguien jugaría ruleta americana pudiendo jugar europea o
             francesa. El doble cero (0 y 00) de la americana casi duplica la ventaja del casino — estás
-            regalando plata. Siempre, siempre, siempre elegí la europea o la francesa. Parece una diferencia
-            chica en los números, pero jugá 200 rondas y tu saldo te va a agradecer haber leído esto.
+            regalando plata. Siempre, siempre, siempre elige la europea o la francesa. Parece una diferencia
+            chica en los números, pero juega 200 rondas y tu saldo te va a agradecer haber leído esto.
           </p>
 
           <h4 className="text-base font-bold text-white mb-3 mt-6">Tipos de Apuestas en Ruleta</h4>
           <p className="text-[#9ca3af] leading-relaxed mb-4">
-            Hay dos tipos de apuestas: internas (apostás a números específicos, más riesgo pero pagos enormes)
-            y externas (apostás a grupos grandes como rojo/negro, pagos más chicos pero ganás más seguido).
+            Hay dos tipos de apuestas: internas (apuestas a números específicos, más riesgo pero pagos enormes)
+            y externas (apuestas a grupos grandes como rojo/negro, pagos más chicos pero ganas más seguido).
             Acá te dejamos la tabla con todas las opciones y sus probabilidades reales.
           </p>
           <div className="overflow-x-auto rounded-xl border border-white/[0.06]">
@@ -1848,9 +1848,9 @@ export default function MejoresCasinosOnlinePeru() {
           </div>
           <p className="text-[#d4d4d8] text-sm italic mt-3">
             Estos números son para ruleta europea (37 números). Pero acá viene un dato que poca gente
-            conoce: en la ruleta francesa existe la regla &quot;La Partage&quot; — si apostás a rojo/negro,
+            conoce: en la ruleta francesa existe la regla &quot;La Partage&quot; — si apuestas a rojo/negro,
             par/impar o 1-18/19-36 y sale el 0, te devuelven la mitad de tu apuesta. Eso baja la ventaja
-            del casino al 1.35%, que es absurdamente bajo. Si tu casino tiene ruleta francesa, jugá esa siempre.
+            del casino al 1.35%, que es absurdamente bajo. Si tu casino tiene ruleta francesa, juega esa siempre.
           </p>
         </div>
 
@@ -1859,7 +1859,7 @@ export default function MejoresCasinosOnlinePeru() {
           <h3 className="text-xl font-bold text-white mb-4">Blackjack</h3>
           <p className="text-[#9ca3af] leading-relaxed mb-3">
             Acá viene lo bueno para los que les gusta pensar mientras juegan. El blackjack es el único juego
-            de casino donde lo que vos decidís cambia el resultado. No es solo suerte — si aprendés la estrategia
+            de casino donde lo que tú decides cambia el resultado. No es solo suerte — si aprendes la estrategia
             básica, la ventaja del casino baja a apenas <strong className="text-white"> 0.5%</strong>. Eso lo convierte
             en el juego con mejor retorno de todo el casino, por lejos. Ninguna slot ni ruleta se le acerca.
           </p>
@@ -1882,7 +1882,7 @@ export default function MejoresCasinosOnlinePeru() {
           </div>
           <h4 className="text-base font-bold text-white mb-3 mt-6">Tabla de Estrategia Básica</h4>
           <p className="text-[#9ca3af] text-sm mb-3">
-            Si realmente querés jugar bien al blackjack, guardá esta tabla. Muestra la jugada matemáticamente
+            Si realmente quieres jugar bien al blackjack, guarda esta tabla. Muestra la jugada matemáticamente
             óptima según tu mano y la carta que muestra el dealer. P = Pedir, Q = Quedarte (plantarte),
             D = Doblar, X = Dividir. Seguila al pie de la letra y vas a estar jugando mejor que el 95% de
             la gente en cualquier mesa.
@@ -1939,8 +1939,8 @@ export default function MejoresCasinosOnlinePeru() {
           <h3 className="text-xl font-bold text-white mb-4">Casino en Vivo</h3>
           <p className="text-[#9ca3af] leading-relaxed mb-3">
             Si nunca probaste el casino en vivo, te estás perdiendo algo bueno. Básicamente son dealers
-            reales, de carne y hueso, transmitiendo en video HD desde estudios profesionales. Vos ves todo
-            en tiempo real: cómo reparten las cartas, cómo gira la ruleta, todo. Podés chatear con el
+            reales, de carne y hueso, transmitiendo en video HD desde estudios profesionales. Tú ves todo
+            en tiempo real: cómo reparten las cartas, cómo gira la ruleta, todo. Puedes chatear con el
             dealer y con otros jugadores. Es lo más parecido a estar en un casino físico pero desde tu sofá
             — y no te voy a mentir, la primera vez que lo probamos nos quedamos enganchados.
           </p>
@@ -1952,7 +1952,7 @@ export default function MejoresCasinosOnlinePeru() {
             dealer que te entiende y te contesta en tu idioma cambia completamente la experiencia.
           </p>
           <p className="text-[#9ca3af] leading-relaxed">
-            ¿Qué podés jugar en vivo? Ruleta (varias variantes), blackjack, baccarat, poker (Casino Hold&apos;em,
+            ¿Qué puedes jugar en vivo? Ruleta (varias variantes), blackjack, baccarat, poker (Casino Hold&apos;em,
             Three Card Poker), sic bo y los game shows que son una locura de entretenimiento. Los límites de
             apuesta arrancan desde S/5 para los que van tranqui y llegan a más de S/100 000 por ronda para los
             high rollers. Hay mesa para todos los presupuestos.
@@ -1980,7 +1980,7 @@ export default function MejoresCasinosOnlinePeru() {
             <h3 className="text-lg font-bold text-white mb-2">Evolution Gaming</h3>
             <p className="text-[#9ca3af] leading-relaxed">
               Si el casino en vivo tuviera un rey, sería Evolution. Ellos hacen las mesas de ruleta, blackjack
-              y baccarat que encontrás en prácticamente todos los casinos del planeta. Pero donde se la juegan
+              y baccarat que encuentras en prácticamente todos los casinos del planeta. Pero donde se la juegan
               de verdad es en los game shows: <strong className="text-white">Lightning Roulette</strong> te mete
               multiplicadores aleatorios de hasta x500 que hacen que cada ronda sea una montaña rusa,
               <strong className="text-white"> Crazy Time</strong> es la rueda de la fortuna más adictiva que existe (la
@@ -2011,7 +2011,7 @@ export default function MejoresCasinosOnlinePeru() {
               <strong className="text-white"> Dead or Alive</strong> y Blood Suckers (esta última con 98% de RTP, una locura).
               Lo que tiene NetEnt es consistencia: gráficos impecables, mecánicas que se sienten bien y RTPs
               que van del 95% al 98%. No sacan 50 slots al mes como otros — sacan menos pero cada una está
-              pulida al detalle. Si preferís calidad sobre cantidad, NetEnt es tu proveedor.
+              pulida al detalle. Si prefieres calidad sobre cantidad, NetEnt es tu proveedor.
             </p>
           </div>
           <div>
@@ -2022,8 +2022,8 @@ export default function MejoresCasinosOnlinePeru() {
               la prueba: pagó más de 20 millones de euros en un solo premio, el récord mundial en casino online.
               Ahora, hay que ser honestos: el RTP de sus juegos varía bastante (entre 92% y 96.5%) y la calidad
               no es tan pareja como NetEnt o Pragmatic. Tienen más de 800 títulos, así que hay de todo — joyas
-              y también juegos que ya envejecieron mal. Pero si lo tuyo son los jackpots progresivos donde podés
-              ganar millones con un giro, Microgaming es donde tenés que estar.
+              y también juegos que ya envejecieron mal. Pero si lo tuyo son los jackpots progresivos donde puedes
+              ganar millones con un giro, Microgaming es donde tienes que estar.
             </p>
           </div>
           <div>
@@ -2045,21 +2045,21 @@ export default function MejoresCasinosOnlinePeru() {
               que caer sí o sí antes de las 23:59 de cada día. Esto crea una dinámica adictiva — a medida que
               avanza el día sin que nadie lo gane, el pozo crece y más gente se mete a jugar. Es como una
               carrera contrarreloj. ¿Alguien se lo va a llevar a las 11pm cuando está enorme, o va a caer
-              temprano? Esa incertidumbre es única y no la encontrás en jackpots progresivos normales.
+              temprano? Esa incertidumbre es única y no la encuentras en jackpots progresivos normales.
               Títulos populares: Gonzo&apos;s Quest Megaways, Pirates&apos; Plenty y Dragon&apos;s Luck.
             </p>
           </div>
           <div>
             <h3 className="text-lg font-bold text-white mb-2">Hacksaw Gaming</h3>
             <p className="text-[#9ca3af] leading-relaxed">
-              Si seguís streams de casino en Kick o Twitch, ya conocés a Hacksaw. Son los reyes de la volatilidad
-              extrema — estamos hablando de slots donde podés multiplicar tu apuesta x10 000 o más en un solo
+              Si sigues streams de casino en Kick o Twitch, ya conoces a Hacksaw. Son los reyes de la volatilidad
+              extrema — estamos hablando de slots donde puedes multiplicar tu apuesta x10 000 o más en un solo
               giro. <strong className="text-white">Wanted Dead or a Wild</strong> es probablemente la slot más
               streameada del momento, <strong className="text-white">Chaos Crew</strong> tiene una base de fans enorme
               y <strong className="text-white">Le Bandit</strong> es la nueva sensación. Ahora, seamos honestos: estas
-              slots no son para cualquiera. Podés meter 100 giros sin ganar absolutamente nada y sentir que
+              slots no son para cualquiera. Puedes meter 100 giros sin ganar absolutamente nada y sentir que
               estás tirando la plata. Pero cuando pegan... los clips de ganancias de Hacksaw son los más virales
-              del mundo del casino online por algo. Necesitás bankroll generoso y nervios de acero.
+              del mundo del casino online por algo. Necesitas bankroll generoso y nervios de acero.
             </p>
           </div>
         </div>
@@ -2110,12 +2110,12 @@ export default function MejoresCasinosOnlinePeru() {
           {[
             { claim: "Los casinos manipulan los resultados", verdict: "FALSO", color: "#ef4444", explanation: "No, no y no. Los casinos regulados usan generadores de números aleatorios (RNG) que están certificados por laboratorios independientes como eCOGRA y GLI. Estos sistemas se auditan regularmente — si un casino los tocara, perdería la licencia, enfrentaría demandas y se destruiría la reputación. ¿Para qué van a arriesgarse si ya tienen ventaja matemática incorporada en cada juego? No necesitan hacer trampa para ganar plata." },
             { claim: "Después de un jackpot la slot no paga en mucho tiempo", verdict: "FALSO", color: "#ef4444", explanation: "Esta es la famosa \"falacia del jugador\" y está más arraigada que el ají de gallina en Perú. Cada giro es completamente independiente del anterior. El RNG no tiene memoria, no sabe que acaba de pagar un jackpot. Una slot que recién pagó millones tiene exactamente las mismas probabilidades en el siguiente giro que una que no pagó nada en semanas. Las matemáticas no mienten, por más que tu instinto te diga lo contrario." },
-            { claim: "Apostar más plata aumenta las probabilidades de ganar", verdict: "FALSO", color: "#ef4444", explanation: "Nope. El RTP es un porcentaje fijo sin importar cuánto apostés. Si una slot tiene 96% de RTP, devuelve el 96% tanto si apostás S/1 como si apostás S/100 por giro. Lo único que cambia al apostar más es el tamaño de lo que ganás o perdés, no la probabilidad de que pase. No dejes que nadie te convenza de que \"las apuestas grandes ganan más\" — es mentira." },
-            { claim: "Los casinos bloquean las cuentas de los que ganan mucho", verdict: "FALSO", color: "#ef4444", explanation: "Este mito viene de historias en foros donde la gente no cuenta toda la verdad. Los casinos regulados están obligados por ley a pagar las ganancias legítimas — bloquear ganadores les costaría la licencia. Lo que sí pasa es que cuando ganás montos grandes, te piden verificación KYC adicional (foto del DNI, selfie, comprobante de domicilio). Eso no es una táctica para no pagarte, es un requisito legal contra el lavado de dinero. Completá el KYC al registrarte y no vas a tener ese problema." },
-            { claim: "Existe un mejor horario para jugar", verdict: "FALSO", color: "#ef4444", explanation: "Tu tío te dijo que las slots pagan más de madrugada. Tu amigo dice que los domingos son mejores. La realidad es que el RNG genera resultados aleatorios las 24 horas del día, los 7 días de la semana. Da absolutamente igual si jugás a las 3am o a las 3pm, un martes o un sábado. Los resultados son exactamente los mismos. Jugá cuando te quede cómodo y listo." },
-            { claim: "Los bonos son siempre buena idea", verdict: "DEPENDE", color: "#f59e0b", explanation: "Acá hay matices. Un bono con rollover x25 y 30 días para completarlo puede ser una excelente oportunidad. Pero un bono con rollover x50 y 7 días de plazo es, honestamente, peor que no aceptar nada — te obliga a apostar cantidades absurdas en muy poco tiempo y casi seguro lo vas a perder todo intentando cumplir las condiciones. La regla es simple: si el rollover es mayor a x35 y tenés menos de 14 días, pensalo dos veces antes de activar ese bono." },
-            { claim: "El blackjack online está trucado porque la banca siempre gana", verdict: "PARCIALMENTE FALSO", color: "#f59e0b", explanation: "A ver... la banca tiene una ventaja matemática del 0.5% con estrategia óptima. Eso no es trampa, es cómo funciona el juego. Es como decir que la ruleta está trucada porque tiene el cero — no, el cero es la ventaja del casino y siempre existió. Todos los juegos de casino tienen una ventaja incorporada para la casa, y eso es lo que les permite operar como negocio. Si no la tuvieran, quebrarían. La ventaja del blackjack es la más baja de todos los juegos, así que en realidad es donde mejores chances tenés." },
-            { claim: "Usar estrategia básica en blackjack es trampa", verdict: "FALSO", color: "#ef4444", explanation: "Para nada. La estrategia básica es completamente legal y los casinos lo saben perfectamente. No estás haciendo nada prohibido — simplemente estás tomando la decisión matemáticamente correcta en cada mano en vez de jugar por instinto. Lo que sí está prohibido en casinos físicos es contar cartas, pero en casinos online eso es imposible porque el RNG baraja las cartas en cada mano. Así que usá la tabla de estrategia básica sin culpa — es jugar inteligente, no hacer trampa." },
+            { claim: "Apostar más plata aumenta las probabilidades de ganar", verdict: "FALSO", color: "#ef4444", explanation: "Nope. El RTP es un porcentaje fijo sin importar cuánto apuestes. Si una slot tiene 96% de RTP, devuelve el 96% tanto si apuestas S/1 como si apuestas S/100 por giro. Lo único que cambia al apostar más es el tamaño de lo que ganas o pierdes, no la probabilidad de que pase. No dejes que nadie te convenza de que \"las apuestas grandes ganan más\" — es mentira." },
+            { claim: "Los casinos bloquean las cuentas de los que ganan mucho", verdict: "FALSO", color: "#ef4444", explanation: "Este mito viene de historias en foros donde la gente no cuenta toda la verdad. Los casinos regulados están obligados por ley a pagar las ganancias legítimas — bloquear ganadores les costaría la licencia. Lo que sí pasa es que cuando ganas montos grandes, te piden verificación KYC adicional (foto del DNI, selfie, comprobante de domicilio). Eso no es una táctica para no pagarte, es un requisito legal contra el lavado de dinero. Completá el KYC al registrarte y no vas a tener ese problema." },
+            { claim: "Existe un mejor horario para jugar", verdict: "FALSO", color: "#ef4444", explanation: "Tu tío te dijo que las slots pagan más de madrugada. Tu amigo dice que los domingos son mejores. La realidad es que el RNG genera resultados aleatorios las 24 horas del día, los 7 días de la semana. Da absolutamente igual si juegas a las 3am o a las 3pm, un martes o un sábado. Los resultados son exactamente los mismos. Juega cuando te quede cómodo y listo." },
+            { claim: "Los bonos son siempre buena idea", verdict: "DEPENDE", color: "#f59e0b", explanation: "Acá hay matices. Un bono con rollover x25 y 30 días para completarlo puede ser una excelente oportunidad. Pero un bono con rollover x50 y 7 días de plazo es, honestamente, peor que no aceptar nada — te obliga a apostar cantidades absurdas en muy poco tiempo y casi seguro lo vas a perder todo intentando cumplir las condiciones. La regla es simple: si el rollover es mayor a x35 y tienes menos de 14 días, pensalo dos veces antes de activar ese bono." },
+            { claim: "El blackjack online está trucado porque la banca siempre gana", verdict: "PARCIALMENTE FALSO", color: "#f59e0b", explanation: "A ver... la banca tiene una ventaja matemática del 0.5% con estrategia óptima. Eso no es trampa, es cómo funciona el juego. Es como decir que la ruleta está trucada porque tiene el cero — no, el cero es la ventaja del casino y siempre existió. Todos los juegos de casino tienen una ventaja incorporada para la casa, y eso es lo que les permite operar como negocio. Si no la tuvieran, quebrarían. La ventaja del blackjack es la más baja de todos los juegos, así que en realidad es donde mejores chances tienes." },
+            { claim: "Usar estrategia básica en blackjack es trampa", verdict: "FALSO", color: "#ef4444", explanation: "Para nada. La estrategia básica es completamente legal y los casinos lo saben perfectamente. No estás haciendo nada prohibido — simplemente estás tomando la decisión matemáticamente correcta en cada mano en vez de jugar por instinto. Lo que sí está prohibido en casinos físicos es contar cartas, pero en casinos online eso es imposible porque el RNG baraja las cartas en cada mano. Así que usa la tabla de estrategia básica sin culpa — es jugar inteligente, no hacer trampa." },
           ].map((item) => (
             <div key={item.claim} className="rounded-2xl bg-[#141414] border border-white/[0.06] p-6">
               <div className="flex flex-wrap items-center gap-3 mb-3">
@@ -2135,10 +2135,10 @@ export default function MejoresCasinosOnlinePeru() {
         <SectionTitle>Juego Responsable en Casinos Online de Perú</SectionTitle>
 
         <div className="rounded-2xl bg-[#f59e0b]/[0.06] border border-[#f59e0b]/20 p-6 mb-8">
-          <p className="text-[#f59e0b] font-bold mb-2">Antes de seguir, leé esto</p>
+          <p className="text-[#f59e0b] font-bold mb-2">Antes de seguir, lee esto</p>
           <p className="text-[#d4d4d8] leading-relaxed">
             Seamos directos: el casino online es entretenimiento. No es un trabajo, no es una inversión y
-            no es una forma de pagar deudas. Si entrás pensando en &quot;ganar plata&quot;, ya empezaste mal. Jugá
+            no es una forma de pagar deudas. Si entras pensando en &quot;ganar plata&quot;, ya empezaste mal. Juega
             solo con dinero que podrías perder sin que te afecte, y nunca — nunca — intentes recuperar
             pérdidas apostando más. Ese camino no termina bien para nadie.
           </p>
@@ -2146,18 +2146,18 @@ export default function MejoresCasinosOnlinePeru() {
 
         <h3 className="text-xl font-bold text-white mb-3">Herramientas de Control</h3>
         <p className="text-[#9ca3af] leading-relaxed mb-4">
-          Los casinos serios te dan herramientas para ponerte límites vos mismo. Y la verdad es que
+          Los casinos serios te dan herramientas para ponerte límites tú mismo. Y la verdad es que
           usarlas no es señal de debilidad sino de inteligencia — hasta los jugadores más experimentados
           las configuran. Acá van las que están disponibles en la mayoría de casinos de nuestro ranking:
         </p>
         <ul className="space-y-2 mb-8 text-[#d4d4d8]">
           {[
-            "Límites de depósito: Ponete un tope diario, semanal o mensual. Una vez que lo alcanzás, el casino no te deja depositar más aunque quieras. Es la herramienta más útil que existe.",
-            "Límites de apuesta: Definí cuánto máximo podés apostar por ronda. Así evitás esos momentos de calentura donde apostás de más.",
-            "Límites de pérdida: Cuando perdés X cantidad, el casino te corta la sesión automáticamente. No tenés que tener fuerza de voluntad, el sistema lo hace por vos.",
+            "Límites de depósito: Ponete un tope diario, semanal o mensual. Una vez que lo alcanzas, el casino no te deja depositar más aunque quieras. Es la herramienta más útil que existe.",
+            "Límites de apuesta: Define cuánto máximo puedes apostar por ronda. Así evitas esos momentos de calentura donde apuestas de más.",
+            "Límites de pérdida: Cuando pierdes X cantidad, el casino te corta la sesión automáticamente. No tienes que tener fuerza de voluntad, el sistema lo hace por tú.",
             "Límites de tiempo: Te manda alertas cuando llevas mucho rato jugando. Parece tonto, pero cuando estás metido en el juego las horas se van volando y no te das cuenta.",
-            "Autoexclusión temporal: Te bloqueás vos mismo de la plataforma por días, semanas o meses. No podés entrar aunque quieras. Ideal si sentís que necesitás un descanso.",
-            "Autoexclusión permanente: Cierre definitivo e irreversible de la cuenta. Para cuando sabés que necesitás alejarte del juego por completo.",
+            "Autoexclusión temporal: Te bloqueas tú mismo de la plataforma por días, semanas o meses. No puedes entrar aunque quieras. Ideal si sientes que necesitas un descanso.",
+            "Autoexclusión permanente: Cierre definitivo e irreversible de la cuenta. Para cuando sabes que necesitas alejarte del juego por completo.",
           ].map((tool) => (
             <li key={tool} className="flex items-start gap-2 text-sm">
               <span className="text-[#f59e0b] mt-0.5 shrink-0">&#9656;</span> {tool}
@@ -2171,11 +2171,11 @@ export default function MejoresCasinosOnlinePeru() {
         </p>
         <ul className="space-y-2 mb-8 text-[#d4d4d8]">
           {[
-            "Estás apostando plata que necesitás para comer, pagar alquiler o cuentas. Si estás usando plata que no es de entretenimiento, hay un problema.",
-            "Perdiste y sentís que tenés que seguir jugando para recuperar lo perdido. Esta es la trampa más peligrosa que existe y le pasa a mucha gente.",
+            "Estás apostando plata que necesitas para comer, pagar alquiler o cuentas. Si estás usando plata que no es de entretenimiento, hay un problema.",
+            "Perdiste y sientes que tienes que seguir jugando para recuperar lo perdido. Esta es la trampa más peligrosa que existe y le pasa a mucha gente.",
             "Tu pareja, familia o amigos ya te dijeron algo. Si el juego está afectando tus relaciones, tu trabajo o tus estudios, es una señal clara.",
-            "Le mentís a la gente sobre cuánto jugás o cuánta plata gastaste. Si sentís la necesidad de esconderlo, algo no está bien.",
-            "Te ponés ansioso, irritable o de mal humor cuando no podés jugar. Si el juego dejó de ser diversión y se convirtió en necesidad, es momento de parar.",
+            "Le mientes a la gente sobre cuánto juegas o cuánta plata gastaste. Si sientes la necesidad de esconderlo, algo no está bien.",
+            "Te pones ansioso, irritable o de mal humor cuando no puedes jugar. Si el juego dejó de ser diversión y se convirtió en necesidad, es momento de parar.",
             "Estás pidiendo plata prestada para seguir jugando. Esto es una línea roja que no se debe cruzar bajo ninguna circunstancia.",
           ].map((sign) => (
             <li key={sign} className="flex items-start gap-2 text-sm">
@@ -2186,17 +2186,17 @@ export default function MejoresCasinosOnlinePeru() {
 
         <h3 className="text-xl font-bold text-white mb-3">Recursos de Ayuda en Perú</h3>
         <p className="text-[#9ca3af] leading-relaxed mb-4">
-          Si algo de lo anterior te suena familiar — o si conocés a alguien que está pasando por esto —
+          Si algo de lo anterior te suena familiar — o si conoces a alguien que está pasando por esto —
           hay ayuda disponible en Perú. La <strong className="text-white">Línea 113</strong> del Ministerio de Salud
           ofrece orientación gratuita sobre adicciones, y <strong className="text-white">Jugadores Anónimos Perú</strong> tiene
-          grupos de apoyo donde podés hablar con gente que pasó por lo mismo. Pedir ayuda no es vergüenza,
-          al contrario — es la decisión más valiente y más inteligente que podés tomar. Nadie te va a juzgar
-          por reconocer que necesitás una mano.
+          grupos de apoyo donde puedes hablar con gente que pasó por lo mismo. Pedir ayuda no es vergüenza,
+          al contrario — es la decisión más valiente y más inteligente que puedes tomar. Nadie te va a juzgar
+          por reconocer que necesitas una mano.
         </p>
 
         <h3 className="text-xl font-bold text-white mb-3 mt-8">Gestión de Bankroll</h3>
         <p className="text-[#9ca3af] leading-relaxed mb-4">
-          Acá viene lo bueno: si vas a jugar, al menos hacelo con cabeza. Manejar tu bankroll (tu
+          Acá viene lo bueno: si vas a jugar, al menos hazlo con cabeza. Manejar tu bankroll (tu
           presupuesto de juego) es literalmente la diferencia entre pasarla bien y arrepentirte. Estas
           tres reglas son sagradas:
         </p>
@@ -2213,8 +2213,8 @@ export default function MejoresCasinosOnlinePeru() {
           <div className="rounded-xl bg-[#141414] border border-white/[0.06] p-5">
             <p className="text-white font-bold mb-2">Stop Loss</p>
             <p className="text-[#9ca3af] text-sm">
-              Antes de abrir el casino, decidí cuánto estás dispuesto a perder esa sesión. Punto.
-              Si dijiste S/200 y los perdiste, cerrás y te vas a hacer otra cosa. Sin excepciones, sin
+              Antes de abrir el casino, decide cuánto estás dispuesto a perder esa sesión. Punto.
+              Si dijiste S/200 y los perdiste, cierras y te vas a hacer otra cosa. Sin excepciones, sin
               &quot;una última ronda&quot;, sin &quot;voy a recuperar lo perdido&quot;. La disciplina acá es
               todo.
             </p>
@@ -2223,7 +2223,7 @@ export default function MejoresCasinosOnlinePeru() {
             <p className="text-white font-bold mb-2">Sesiones</p>
             <p className="text-[#9ca3af] text-sm">
               No metas todo tu presupuesto mensual de una sola vez. Si te pusiste un límite de S/1 000
-              al mes, dividilo en 10 sesiones de S/100. Así tenés varias oportunidades de diversión
+              al mes, dividilo en 10 sesiones de S/100. Así tienes varias oportunidades de diversión
               durante todo el mes en vez de quedarte sin nada después de una mala noche.
             </p>
           </div>
@@ -2232,14 +2232,14 @@ export default function MejoresCasinosOnlinePeru() {
         <h3 className="text-xl font-bold text-white mb-3">Sistemas que NO Funcionan</h3>
         <p className="text-[#9ca3af] leading-relaxed mb-4">
           Honestamente, la <strong className="text-white">Martingala</strong> es la peor idea del mundo. &quot;Doblar
-          después de perder&quot; suena lógico en papel, hasta que perdés 7 veces seguidas y tu apuesta
+          después de perder&quot; suena lógico en papel, hasta que pierdes 7 veces seguidas y tu apuesta
           siguiente debería ser S/12 800 para recuperar los S/100 iniciales. Absurdo. La
           <strong className="text-white"> Fibonacci</strong> (apostar siguiendo la secuencia 1-1-2-3-5-8...) es la versión
           &quot;elegante&quot; de la misma basura — llega al mismo resultado, solo que más lentamente. Las dos
-          fallan por la misma razón: eventualmente golpeás el límite de la mesa o te quedás sin bankroll.
+          fallan por la misma razón: eventualmente golpeas el límite de la mesa o te quedas sin bankroll.
           No existe ningún sistema de apuestas que venza la ventaja matemática del casino a largo plazo.
           Si alguien te vende uno en YouTube o Telegram, te está estafando. Aceptá que el casino siempre
-          tiene ventaja y jugá por diversión — vas a pasarla mucho mejor y vas a perder mucho menos plata
+          tiene ventaja y juega por diversión — vas a pasarla mucho mejor y vas a perder mucho menos plata
           persiguiendo fantasías.
         </p>
       </Section>
@@ -2255,8 +2255,8 @@ export default function MejoresCasinosOnlinePeru() {
       <Section id="como-elegir" bg="/img/backgrounds/blackjack.png">
         <SectionTitle>Cómo Elegir un Casino Online en Perú — Guía Paso a Paso</SectionTitle>
         <p className="text-[#9ca3af] mb-4 max-w-3xl leading-relaxed">
-          Más de 60 casinos con licencia MINCETUR, cientos más con licencias internacionales... ¿cómo elegís
-          uno sin volverte loco? La verdad es que no es tan complicado si sabés qué mirar. Estos 5 pasos te
+          Más de 60 casinos con licencia MINCETUR, cientos más con licencias internacionales... ¿cómo eliges
+          uno sin volverte loco? La verdad es que no es tan complicado si sabes qué mirar. Estos 5 pasos te
           van a llevar menos de 10 minutos y te van a ahorrar semanas de prueba y error (y probablemente
           bastante plata también). Los armamos basándonos en nuestra propia experiencia probando casinos.
         </p>
@@ -2267,16 +2267,16 @@ export default function MejoresCasinosOnlinePeru() {
               <span className="text-[#dc2626] font-black text-lg">1</span>
             </div>
             <div>
-              <h3 className="text-lg font-bold text-white mb-2">Verificá la licencia</h3>
+              <h3 className="text-lg font-bold text-white mb-2">Verifica la licencia</h3>
               <p className="text-[#9ca3af] leading-relaxed mb-2">
                 Esto va primero porque es lo que te separa de un casino legítimo y uno que puede desaparecer con
-                tu plata mañana. Si tiene licencia MINCETUR, perfecto — es la máxima protección que podés tener
-                en Perú. Curaçao, Malta (MGA) o Gibraltar también son licencias serias con las que podés estar
+                tu plata mañana. Si tiene licencia MINCETUR, perfecto — es la máxima protección que puedes tener
+                en Perú. Curaçao, Malta (MGA) o Gibraltar también son licencias serias con las que puedes estar
                 tranquilo. ¿No tiene ninguna licencia visible? Siguiente casino, sin pensarlo dos veces.
               </p>
               <p className="text-[#d4d4d8] text-sm italic">
-                Consejo: Bajá al footer del sitio del casino y buscá el número de licencia. Todos los casinos
-                legítimos lo muestran ahí con orgullo. Si no hay nada... ya sabés qué hacer.
+                Consejo: Bajá al footer del sitio del casino y busca el número de licencia. Todos los casinos
+                legítimos lo muestran ahí con orgullo. Si no hay nada... ya sabes qué hacer.
               </p>
             </div>
           </div>
@@ -2286,16 +2286,16 @@ export default function MejoresCasinosOnlinePeru() {
               <span className="text-[#dc2626] font-black text-lg">2</span>
             </div>
             <div>
-              <h3 className="text-lg font-bold text-white mb-2">Revisá los métodos de pago</h3>
+              <h3 className="text-lg font-bold text-white mb-2">Revisa los métodos de pago</h3>
               <p className="text-[#9ca3af] leading-relaxed mb-2">
-                ¿De qué te sirve un casino espectacular si después no podés meter ni sacar tu plata? Fijate que
-                acepte lo que vos usás: Yape, Plin, tarjeta, transferencia bancaria, cripto... lo que sea. Y no
-                te quedes solo con los depósitos — chequeá cuánto tardan los retiros. Hay casinos que te procesan
+                ¿De qué te sirve un casino espectacular si después no puedes meter ni sacar tu plata? Fíjate que
+                acepte lo que tú usas: Yape, Plin, tarjeta, transferencia bancaria, cripto... lo que sea. Y no
+                te quedes solo con los depósitos — chequea cuánto tardan los retiros. Hay casinos que te procesan
                 un retiro en 2 horas y otros que te hacen esperar 5 días. Esa diferencia es enorme.
               </p>
               <p className="text-[#d4d4d8] text-sm italic">
-                Consejo: Truco que funciona siempre — hacé un depósito chico primero (el mínimo del casino) y
-                después pedí un retiro. Así comprobás que todo funciona antes de meter montos grandes.
+                Consejo: Truco que funciona siempre — haz un depósito chico primero (el mínimo del casino) y
+                después pide un retiro. Así compruebas que todo funciona antes de meter montos grandes.
               </p>
             </div>
           </div>
@@ -2305,19 +2305,19 @@ export default function MejoresCasinosOnlinePeru() {
               <span className="text-[#dc2626] font-black text-lg">3</span>
             </div>
             <div>
-              <h3 className="text-lg font-bold text-white mb-2">Compará los bonos (más allá del monto)</h3>
+              <h3 className="text-lg font-bold text-white mb-2">Compara los bonos (más allá del monto)</h3>
               <p className="text-[#9ca3af] leading-relaxed mb-2">
                 Acá es donde el 90% de los jugadores nuevos se equivocan. Ven &quot;S/5 000 DE BONO&quot; en letras
                 gigantes y se registran sin leer nada más. Pero ese bono tiene rollover x60 y 7 días para
-                cumplirlo... o sea que necesitás apostar S/300 000 en una semana. Imposible. Lo que tenés que
+                cumplirlo... o sea que necesitas apostar S/300 000 en una semana. Imposible. Lo que tienes que
                 mirar siempre es: rollover (x25-x35 es razonable, más de x40 ya es abusivo), validez (mínimo
-                14 días, mejor si son 30), qué juegos contribuyen al rollover y cuánto podés retirar máximo
+                14 días, mejor si son 30), qué juegos contribuyen al rollover y cuánto puedes retirar máximo
                 con plata de bono.
               </p>
               <p className="text-[#d4d4d8] text-sm italic">
-                Consejo: Hacé esta cuenta simple antes de aceptar un bono — monto del bono multiplicado por
+                Consejo: Haz esta cuenta simple antes de aceptar un bono — monto del bono multiplicado por
                 el rollover. Si el número resultante te parece una locura que no vas a poder apostar en el plazo
-                dado, rechazá el bono. Mejor jugar sin bono que quedar atrapado en condiciones imposibles.
+                dado, rechaza el bono. Mejor jugar sin bono que quedar atrapado en condiciones imposibles.
               </p>
             </div>
           </div>
@@ -2327,18 +2327,18 @@ export default function MejoresCasinosOnlinePeru() {
               <span className="text-[#dc2626] font-black text-lg">4</span>
             </div>
             <div>
-              <h3 className="text-lg font-bold text-white mb-2">Probá la plataforma</h3>
+              <h3 className="text-lg font-bold text-white mb-2">Prueba la plataforma</h3>
               <p className="text-[#9ca3af] leading-relaxed mb-2">
-                No deposites sin antes dar una vuelta por el casino. Registrate gratis y navegá un rato.
-                ¿Carga rápido o se traba? ¿Encontrás los juegos que te interesan o tenés que buscar 15 minutos?
+                No deposites sin antes dar una vuelta por el casino. Registrate gratis y navega un rato.
+                ¿Carga rápido o se traba? ¿Encuentras los juegos que te interesan o tienes que buscar 15 minutos?
                 ¿El buscador funciona bien? ¿Se ve decente en tu celular? La mayoría de casinos te dejan probar
-                juegos en modo demo (sin plata real), así que aprovechá eso. Si la plataforma te frustra antes
+                juegos en modo demo (sin plata real), así que aprovecha eso. Si la plataforma te frustra antes
                 de depositar, imaginate cuando tengas plata real en juego.
               </p>
               <p className="text-[#d4d4d8] text-sm italic">
-                Consejo: Probalo todo desde el celular. La gran mayoría de jugadores peruanos juegan desde
+                Consejo: Pruébalo todo desde el celular. La gran mayoría de jugadores peruanos juegan desde
                 el teléfono, y si la experiencia móvil es mala, vas a sufrir cada vez que entres. Si no se
-                ve bien en tu celular, directamente buscá otro casino.
+                ve bien en tu celular, directamente busca otro casino.
               </p>
             </div>
           </div>
@@ -2348,17 +2348,17 @@ export default function MejoresCasinosOnlinePeru() {
               <span className="text-[#dc2626] font-black text-lg">5</span>
             </div>
             <div>
-              <h3 className="text-lg font-bold text-white mb-2">Leé las políticas de retiro</h3>
+              <h3 className="text-lg font-bold text-white mb-2">Lee las políticas de retiro</h3>
               <p className="text-[#9ca3af] leading-relaxed mb-2">
-                Esto es lo que nadie hace y después todos se quejan. Antes de poner un peso, andá a los
-                términos y condiciones y leé la sección de retiros. ¿Cuál es el mínimo para retirar? ¿Y el
+                Esto es lo que nadie hace y después todos se quejan. Antes de poner un peso, ve a los
+                términos y condiciones y lee la sección de retiros. ¿Cuál es el mínimo para retirar? ¿Y el
                 máximo mensual? ¿Cuánto tarda el proceso? ¿Te van a pedir KYC (foto del DNI, selfie, comprobante
                 de domicilio)? ¿Hay límites semanales? Toda esa info está ahí y te evita sorpresas desagradables
                 cuando quieras sacar tus ganancias. Los casinos de nuestro ranking tienen políticas claras y
                 tiempos que verificamos personalmente.
               </p>
               <p className="text-[#d4d4d8] text-sm italic">
-                Consejo: Completá la verificación KYC el mismo día que te registrás, no lo dejes para después.
+                Consejo: Completá la verificación KYC el mismo día que te registras, no lo dejes para después.
                 Mandá la foto de tu DNI, la selfie y el comprobante de domicilio de una. Así cuando quieras
                 retirar, el proceso es inmediato en vez de esperar días a que te verifiquen.
               </p>
@@ -2414,7 +2414,7 @@ export default function MejoresCasinosOnlinePeru() {
             ¿Listo para jugar?
           </h2>
           <p className="text-[#9ca3af] text-lg mb-8 leading-relaxed">
-            Elegí tu casino, aprovechá el bono de bienvenida y empezá a jugar de forma segura.
+            Elige tu casino, aprovecha el bono de bienvenida y empieza a jugar de forma segura.
             Todos los casinos de nuestro ranking están verificados y ofrecen una experiencia confiable
             para jugadores peruanos.
           </p>

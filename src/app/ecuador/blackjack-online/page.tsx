@@ -5,7 +5,7 @@ import CasinoRanking from "@/components/CasinoRanking";
 import TableOfContents from "@/components/TableOfContents";
 
 export const metadata: Metadata = {
-  title: "Blackjack Online en Ecuador 2026 | Casinos, Estrategia y Mesas en Vivo",
+  title: "Blackjack Online en Ecuador 2026 | Guía y Casinos",
   description:
     "Los mejores casinos con blackjack online en Ecuador. Estrategia básica, mesas en vivo, variantes y bonos para jugadores ecuatorianos.",
 };
@@ -136,9 +136,9 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Inicio", item: "https://jugarcasinosonline.net/" },
-    { "@type": "ListItem", position: 2, name: "Ecuador", item: "https://jugarcasinosonline.net/ecuador/" },
-    { "@type": "ListItem", position: 3, name: "Blackjack Online", item: "https://jugarcasinosonline.net/ecuador/blackjack-online/" },
+    { "@type": "ListItem", position: 1, name: "Inicio", item: "https://www.jugarcasinosonline.net/" },
+    { "@type": "ListItem", position: 2, name: "Ecuador", item: "https://www.jugarcasinosonline.net/ecuador/" },
+    { "@type": "ListItem", position: 3, name: "Blackjack Online", item: "https://www.jugarcasinosonline.net/ecuador/blackjack-online/" },
   ],
 };
 
@@ -176,7 +176,7 @@ export default function BlackjackOnlineEcuador() {
           </nav>
 
           <div className="inline-flex items-center gap-2.5 rounded-full bg-white/[0.05] border border-white/[0.08] px-5 py-2 mb-8 backdrop-blur-sm">
-            <span className="w-2 h-2 rounded-full bg-[#22c55e] animate-pulse" />
+            <span className="w-2 h-2 rounded-full bg-[#22c55e] anímate-pulse" />
             <span className="text-sm font-semibold text-[#9ca3af]">Guía actualizada {LAST_UPDATED}</span>
           </div>
 

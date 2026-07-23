@@ -183,9 +183,9 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Inicio", item: "https://jugarcasinosonline.net/" },
-    { "@type": "ListItem", position: 2, name: "México", item: "https://jugarcasinosonline.net/mexico/" },
-    { "@type": "ListItem", position: 3, name: "Mejores Casinos Online", item: "https://jugarcasinosonline.net/mexico/mejores-casinos-online/" },
+    { "@type": "ListItem", position: 1, name: "Inicio", item: "https://www.jugarcasinosonline.net/" },
+    { "@type": "ListItem", position: 2, name: "México", item: "https://www.jugarcasinosonline.net/mexico/" },
+    { "@type": "ListItem", position: 3, name: "Mejores Casinos Online", item: "https://www.jugarcasinosonline.net/mexico/mejores-casinos-online/" },
   ],
 };
 

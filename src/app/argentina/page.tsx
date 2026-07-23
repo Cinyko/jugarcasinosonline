@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Casinos Online en Argentina 2026 | JugarCasinosOnline.net",
   description:
-    "Guía completa de casinos online en Argentina 2026. Casinos regulados por LOTBA, bonos exclusivos, pagos con Mercado Pago y Rapipago, y opciones crypto para jugadores argentinos.",
+    "Guía de casinos online en Argentina 2026: casinos regulados por LOTBA, bonos exclusivos, pagos con Mercado Pago y opciones cripto.",
 };
 
 const sections = [

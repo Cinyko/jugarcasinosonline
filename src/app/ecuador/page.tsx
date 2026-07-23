@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Casinos Online en Ecuador 2026 | JugarCasinosOnline.net",
   description:
-    "Los mejores casinos online en Ecuador 2026. Guía completa con bonos exclusivos, slots, ruleta y blackjack. Sitios seguros que aceptan pagos en dólares americanos para jugadores ecuatorianos.",
+    "Los mejores casinos online en Ecuador 2026. Bonos exclusivos, slots, ruleta y blackjack en sitios seguros que aceptan pagos en dólares.",
 };
 
 const sections = [
