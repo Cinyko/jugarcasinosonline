@@ -23,7 +23,7 @@ const favoriteSlots = [
   { name: "Blackjack en vivo", provider: "Evolution / Pragmatic Live", note: "El juego favorito de PlayermakerTV. Mesas con dealers reales transmitidas en tiempo real. Estrategia, tensión y la mejor ventaja para el jugador de todo el casino con juego óptimo." },
   { name: "Gates of Olympus", provider: "Pragmatic Play", note: "Cuando le da a las slots, los clásicos de alta volatilidad como Gates no faltan. Zeus, multiplicadores y esos momentos de pantalla explotada." },
   { name: "Sweet Bonanza", provider: "Pragmatic Play", note: "El de los caramelos. Pay-anywhere, tumbles y multiplicadores hasta 100x. Un fijo del slot-streaming en español." },
-  { name: "Wanted Dead or a Wild", provider: "Hacksaw Gaming", note: "El western de la volatilidad extrema, con potencial de 12.500x. El típico slot que se juega para el clip, no para la billetera." },
+  { name: "Wanted Dead or a Wild", provider: "Hacksaw Gaming", note: "Caso de estudio en volatilidad extrema: techo de 12.500x y una frecuencia de premio bajísima. Perfecto para entender el concepto de varianza; carísimo como práctica habitual." },
   { name: "Sugar Rush", provider: "Pragmatic Play", note: "Grilla de 7x7 con zonas de multiplicador que se acumulan. Volatilidad alta de esa que te hace sufrir y después te devuelve todo de golpe." },
 ];
 
@@ -58,7 +58,7 @@ const faqItems = [
   },
   {
     q: "¿PlayermakerTV gana mucho jugando?",
-    a: "Los clips de los streamers muestran sus mejores momentos, no el balance real de horas y horas de juego. A la larga, la casa siempre tiene ventaja, y un streamer juega con un bankroll y un contexto que tú no tienes. Por eso, sea cuanto sea que muestre en cámara, no lo tomes como referencia de lo que te puede pasar a ti jugando un rato.",
+    a: "Ejercicio de pensamiento crítico: el clip muestra el mejor minuto de una jornada de horas. La casa mantiene su ventaja matemática en cada una de esas horas, la enseñe el clip o no — y un streamer con patrocinio juega con condiciones que tú no tienes. Corrige la muestra antes de sacar conclusiones, dentro y fuera del casino.",
   },
   {
     q: "¿Puedo ver los streams de PlayermakerTV y jugar gratis?",
@@ -244,14 +244,14 @@ export default function CasinoPlayermaker() {
       <Section id="ranking" alt>
         <SectionTitle>Dónde jugar: nuestro ranking para LATAM</SectionTitle>
         <P>
-          Empecemos por lo concreto, porque sabemos a qué viniste. Si quieres jugar en casino online, estos son los que probamos y por los que ponemos la cara. Como el casino exclusivo de PlayermakerTV no está confirmado, acá directamente te damos los que para nosotros tienen el mejor combo de bono, catálogo y pagos para un jugador de la región. No es una lista armada al voleo: cada uno pasó por nuestras manos antes de entrar.
+          Primera lección de esta guía, y la más práctica: dónde jugar. La tabla de abajo no es teoría — cada fila representa un casino donde abrimos cuenta, depositamos, jugamos blackjack y slots, y pedimos el retiro para cronometrarlo. Apunta desde ya la idea central del curso: el casino donde un streamer hace contenido y el casino donde te conviene jugar a ti rara vez son el mismo.
         </P>
         <CasinoRanking casinos={ranking} infoColumnLabel="Juegos" />
         <P>
           ¿Por qué Betsson primero? Sencillo: es una marca global con años de trayectoria, bonos más claros, soporte en español que responde y métodos de pago locales. Y para un fan de PlayermakerTV tiene un plus enorme: una de las mejores secciones de casino en vivo del mercado, con un montón de mesas de blackjack con dealers reales. Más abajo te lo desmenuzamos casino por casino.
         </P>
         <P>
-          Un par de aclaraciones para que leas la tabla con criterio. Los bonos que ves son los reales y vigentes al momento de actualizar esta guía (la fecha la tienes arriba, se actualiza todos los meses). Las cifras de juegos son aproximadas. Y el orden no es capricho: responde a la combinación de bono, catálogo, pagos y confianza que probamos nosotros mismos.
+          Antes de leer la tabla, dos notas al pie que conviene entender bien. Nota uno: los bonos listados son los verificados al mes indicado arriba — esta guía se revisa mensualmente, así que trabajas con material actualizado. Nota dos: el orden responde a pruebas propias con dinero real (bono, catálogo, pagos y soporte evaluados por separado), y las cifras de juegos son aproximadas porque los catálogos crecen todas las semanas.
         </P>
         <div className="mt-6"><CtaButton slug="betsson-latam" text="Probar Betsson" /></div>
       </Section>
@@ -361,8 +361,8 @@ export default function CasinoPlayermaker() {
         <div className="rounded-2xl bg-[#f59e0b]/[0.08] border border-[#f59e0b]/25 p-6 my-6">
           <p className="text-[#fbbf24] font-bold mb-2">⚠️ El dato que cambia todo</p>
           <p className="text-[#d4d4d8] leading-relaxed text-sm sm:text-base">
-            Los streamers de casino muestran sus mejores momentos, no el balance real. Si vas a jugar, define un presupuesto fijo antes de empezar, no persigas las pérdidas, y trata el casino como un gasto de entretenimiento, nunca como una forma de ganar plata.
-          </p>
+          Resumen de la lección en una tarjeta: el stream enseña los aciertos y omite el resto de la sesión. Si decides jugar, aplica el método completo — presupuesto cerrado antes de empezar, prohibido perseguir pérdidas, y el casino clasificado como gasto de entretenimiento. En esa categoría contable y en ninguna otra.
+        </p>
         </div>
       </Section>
 
@@ -384,7 +384,7 @@ export default function CasinoPlayermaker() {
         <div className="my-5"><CtaButton slug="starda-casino" text="Jugar en STARDA" /></div>
         <H3>SOL, MONRO y FRESH — el resto del pelotón pesado</H3>
         <P>
-          Los tres son de Royal Partners y los tres cumplen. <strong className="text-white">SOL Casino</strong> es ideal para el que recién arranca: interfaz clarísima, rollover bajo (x30) y 4.000 juegos. <strong className="text-white">MONRO</strong> tiene el bono más alto del ranking en porcentaje, 150% en tu primer depósito. Y <strong className="text-white">FRESH</strong> es el rey del catálogo con 4.500+ títulos. Todos tienen buenas mesas en vivo y los slots que ves en los streams.
+          El bloque de Royal Partners se estudia mejor por casos de uso: <strong className="text-white">SOL</strong> para el alumno de primer año — rollover x30 (el más asequible de la lista), interfaz que no distrae y 4.000 juegos; <strong className="text-white">MONRO</strong> para quien quiere el mayor impulso inicial — 150% en el primer depósito, récord del ranking; y <strong className="text-white">FRESH</strong> como biblioteca de consulta — 4.500+ títulos, incluidas todas las mesas de blackjack en vivo que puedas querer practicar. Tres alternativas con mejor bienvenida que cualquier casino sin bono.
         </P>
         <div className="my-5 flex flex-wrap gap-3">
           <CtaButton slug="sol-casino" text="Probar SOL" />
@@ -406,7 +406,7 @@ export default function CasinoPlayermaker() {
           <strong className="text-white">Uno: la licencia visible.</strong> Un casino serio muestra su licencia en el pie de página, con el número y el organismo regulador. Si no la ves por ningún lado, mala señal. <strong className="text-white">Dos: reputación de pagos.</strong> Busca el nombre del casino en foros como AskGamblers o Trustpilot y fíjate qué dice la gente sobre los retiros. Un patrón de quejas por pagos es una bandera roja gigante.
         </P>
         <P>
-          <strong className="text-white">Tres: métodos de pago claros.</strong> Si acepta medios que tú conoces y usas, y explica bien los tiempos de retiro, buena señal. <strong className="text-white">Cuatro: términos legibles.</strong> Los buenos casinos tienen sus condiciones de bono escritas de forma entendible. Si la letra chica es un laberinto, desconfía. <strong className="text-white">Cinco: soporte que responde.</strong> Prueba el chat antes de depositar. Cómo y cuándo te responden te dice mucho de cómo te van a tratar el día que tengas un problema.
+          <strong className="text-white">Tres: métodos de pago claros.</strong> Comprueba dos cosas: que estén los medios de pago que ya usas, y que los plazos de retiro figuren con números concretos y no con vaguedades. Ambas a la vez, o sospecha. <strong className="text-white">Cuatro: términos legibles.</strong> Los buenos casinos tienen sus condiciones de bono escritas de forma entendible. Si la letra chica es un laberinto, desconfía. <strong className="text-white">Cinco: soporte que responde.</strong> Prueba el chat antes de depositar. Cómo y cuándo te responden te dice mucho de cómo te van a tratar el día que tengas un problema.
         </P>
         <P>
           Todos los casinos de nuestro ranking pasan esta checklist con holgura, porque justamente la aplicamos antes de recomendarlos. No los elegimos por el bono más grande, sino por el combo completo de confianza, pagos y experiencia. Esa es la diferencia entre un ranking armado con criterio y una lista de los que más pagan por aparecer. Y es justo lo que te recomendamos hacer con cualquier casino que veas en un stream: pasarlo por esta checklist antes de poner un peso.
@@ -427,7 +427,7 @@ export default function CasinoPlayermaker() {
           Huí de cualquier casino que no muestre su licencia de forma clara. Si entras a un sitio y no encuentras en el pie de página quién lo regula ni el número de licencia, ciérralo. No importa cuán lindo sea el bono. Los casinos truchos existen, y el problema no es solo jugar en algo ilegal: es que el día que ganes, capaz no te pagan y no tienes a quién reclamarle. Por eso armamos rankings, para que no tengas que arriesgarte probando a ciegas.
         </P>
         <P>
-          Y un detalle no menor: jugar es solo para mayores de 18 años. Todos los casinos serios te van a pedir verificación de identidad (el KYC) antes de dejarte retirar. No es para molestarte, es requisito legal. Hazlo apenas te registras y listo.
+          Requisito previo del curso, no negociable: mayoría de edad. Y su corolario práctico, el KYC — la verificación con documento (y a veces selfie) que todo casino legal exige antes del primer retiro. Aquí va el deber para casa más rentable de toda la guía: completa el KYC el mismo día del registro. Es un trámite de cinco minutos hecho a tiempo, y un dolor de cabeza hecho a destiempo. Elige tú el momento; el examen llega igual.
         </P>
       </Section>
 
@@ -439,7 +439,7 @@ export default function CasinoPlayermaker() {
         </P>
         <H3>¿Qué es un bono de bienvenida?</H3>
         <P>
-          Es la plata o los giros gratis que el casino te regala por registrarte y hacer tu primer depósito. Lo típico es el bono de 100%: tú pones una cantidad y el casino te suma otro tanto. MONRO incluso tira un 150%, de los más altos que vas a encontrar. Suena a regalo, y en parte lo es, pero tiene una condición clave: el rollover.
+          Empecemos por la definición, como corresponde: el bono de bienvenida es el saldo o los giros extra que el casino añade a tu primer depósito. El formato más común es el 100% — depositas X y juegas con 2X. Ahora subraya esta distinción, porque es la base de todo el tema: ese saldo es para JUGAR, no para retirar. Entre el bono y tu bolsillo hay un requisito llamado rollover, y es la siguiente lección.
         </P>
         <H3>El rollover: la letra chica que nadie lee</H3>
         <P>
@@ -448,8 +448,8 @@ export default function CasinoPlayermaker() {
         <div className="rounded-2xl bg-[#3b82f6]/[0.06] border border-[#3b82f6]/20 p-6 my-6">
           <p className="text-[#60a5fa] font-bold mb-2">💡 Regla de oro de los bonos</p>
           <p className="text-[#d4d4d8] leading-relaxed text-sm sm:text-base">
-            Un bono no es plata gratis que puedes retirar al toque: es un saldo para jugar con condiciones. A veces, si piensas retirar rápido, conviene rechazar el bono y jugar solo con tu depósito. Suena raro, pero es la decisión más inteligente en muchos casos.
-          </p>
+          Lección avanzada que casi ningún alumno aplica: el bono se puede rechazar, y a veces es la respuesta correcta del examen. Plantéalo como problema de lógica: si tu plan es depositar, jugar poco y retirar pronto, el bono te encadena a un rollover que no vas a completar — saldo limpio y libre gana. Si tu plan es jugar volumen de todos modos, el bono añade margen — acéptalo. Un mismo instrumento, dos respuestas según el enunciado.
+        </p>
         </div>
         <P>
           Otra cosa, y esto le importa a un fan del blackjack: no todos los juegos aportan igual al rollover. Las slots suelen contar al 100%, pero el blackjack y otros juegos de mesa a veces aportan solo un 10% o nada. Si piensas cumplir el rollover de un bono, las tragamonedas son tus aliadas, no el blackjack. Por eso, si lo tuyo es el juego de mesa, a veces conviene directamente no aceptar el bono y jugar con tu depósito. Lee siempre las condiciones.
@@ -503,7 +503,7 @@ export default function CasinoPlayermaker() {
         <div className="space-y-4 my-6">
           {[
             { n: 1, t: "Entrá desde el botón oficial", d: "Haz clic en cualquiera de los botones verdes de esta página. Te llevan al sitio oficial del casino, sin intermediarios raros, y aseguran que el bono se active bien." },
-            { n: 2, t: "Completá el registro", d: "Te van a pedir correo, contraseña, nombre, fecha de nacimiento (mayor de 18) y datos básicos. Cargá tu info real, porque después en la verificación tiene que coincidir." },
+            { n: 2, t: "Completa el registro", d: "Rellena correo, contraseña, nombre y fecha de nacimiento con los datos exactos de tu documento — subraya 'exactos': la verificación posterior compara campo por campo, y una inconsistencia puede costarte la cuenta y el saldo." },
             { n: 3, t: "Verifica tu cuenta (KYC)", d: "Subí una foto de tu documento y, a veces, un selfie o comprobante de domicilio. Es requisito legal y conviene hacerlo el primer día, así cuando retires no hay demoras." },
             { n: 4, t: "Haz tu primer depósito", d: "Elige el método que más uses (transferencia, tarjeta, billetera local o cripto). Si quieres el bono, actívalo antes de confirmar. Si vas a jugar blackjack, fíjate si el bono aporta poco al rollover." },
             { n: 5, t: "A jugar (con cabeza)", d: "Ya tienes tu saldo. Busca tu mesa de blackjack o tus slots favoritos, define cuánto estás dispuesto a gastar, y disfruta. Recuerda: es entretenimiento, no trabajo." },
@@ -518,7 +518,7 @@ export default function CasinoPlayermaker() {
           ))}
         </div>
         <P>
-          Y eso es todo. Nada de papeleo eterno ni esperas de días. La parte que más tarda es la verificación, y aun así suele resolverse en minutos o pocas horas. Por eso insistimos en hacerla apenas te registras: es la diferencia entre retirar al toque o quedarte esperando justo cuando ganaste. Un consejo extra: activa los límites de depósito desde el primer día.
+          Fin del módulo de registro. Recapitulando: cinco pasos, menos de diez minutos, y la única espera real es la verificación — horas en el peor caso. La regla mnemotécnica para llevarse de aquí: papeleo en frío, juego en caliente. Cuenta verificada el día uno significa retiros sin fricción el día que importe.
         </P>
         <div className="mt-4"><CtaButton slug="betsson-latam" text="Crear cuenta en Betsson" /></div>
       </Section>
@@ -539,7 +539,7 @@ export default function CasinoPlayermaker() {
         </P>
         <H3>¿Cuánto tardan los retiros?</H3>
         <P>
-          Depositar es fácil en todos lados; lo que separa a un buen casino de uno malo es la velocidad para devolverte tu plata. Los retiros con billeteras locales suelen llegar el mismo día, los de cripto en minutos, y las transferencias bancarias entre unas horas y un día hábil. La primera vez siempre tarda más por la verificación, así que haz el KYC apenas te registras. Si un casino te pone trabas raras para retirar, desconfía: los serios pagan sin drama.
+          Apunta este criterio de evaluación, porque descalifica casinos más rápido que cualquier otro: la velocidad del retiro. Depositar es trivial en todas partes — el examen real es el camino inverso. Valores de referencia de nuestras pruebas: billeteras locales en horas, cripto en minutos, transferencias dentro del día hábil. Un casino que sistemáticamente suspende ese examen con excusas rotativas ya te dio su calificación final.
         </P>
       </Section>
 
@@ -572,7 +572,7 @@ export default function CasinoPlayermaker() {
         <P>
           Es lo que diferencia jugar bien de jugar a ciegas. La estrategia básica es una tabla que te dice la jugada óptima en cada situación. Memorizarla (o tenerla a mano) baja la ventaja de la casa a alrededor del 0,5%. No garantiza ganar, pero hace que tu plata dure mucho más. Es, de lejos, la forma más inteligente de jugar al blackjack.
         </P>
-        <H3>Define límites y respetalos</H3>
+        <H3>Define límites y respétalos</H3>
         <P>
           Lo más importante y lo más difícil. Antes de empezar, decide cuánto vas a jugar y cuándo vas a parar. Y la regla sagrada: nunca persigas las pérdidas. Ese “una más para recuperar” es el camino directo a perder el doble.
         </P>
@@ -678,7 +678,7 @@ export default function CasinoPlayermaker() {
           Pero si tu pregunta de fondo era “¿y dónde juego yo?”, ahí sí somos contundentes: para la mayoría, y sobre todo si te gusta el blackjack como a él, arrancar por <strong className="text-white">Betsson</strong> (la mejor sección de casino en vivo del ranking) o por <strong className="text-white">STARDA</strong> (el paraíso de los slots) es la jugada más inteligente. Son casinos probados, regulados y con bonos claros.
         </P>
         <P>
-          Y por encima de qué casino elijas, lo más importante: juega con la cabeza fría. El casino es entretenimiento, no un trabajo. Si vas al blackjack, aprende la estrategia básica; si vas a slots, pon límites. Disfruta los juegos por lo que son: entretenimiento. Ojalá esta guía te haya servido para tomar decisiones informadas y no por impulso.
+          Y la conclusión del curso, la única que da puntos en la vida real: por encima del casino está el jugador. Cabeza fría, límites definidos antes de la primera mano y respetados hasta la última. Si vas al blackjack — nuestro terreno favorito y el de PlayermakerTV — estudia la estrategia básica hasta que salga sola: es la única herramienta legal que reduce la ventaja de la casa a menos del 1%. El mejor casino es el que se ajusta a tu perfil; el mejor jugador, el que no necesita que le repitan esta lección.
         </P>
         <div className="mt-6 flex flex-wrap gap-3">
           <CtaButton slug="betsson-latam" text="Jugar blackjack en Betsson" />

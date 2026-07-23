@@ -42,7 +42,7 @@ export const countrySections = [
   {
     title: "Mejores Casinos Online por País",
     description:
-      "Encontrá los casinos más confiables y con mejores bonos en tu país. Revisamos cada plataforma para que tú solo te preocupes por jugar.",
+      "Encuentra los casinos más confiables y con mejores bonos en tu país. Revisamos cada plataforma para que tú solo te preocupes por jugar.",
     pathSuffix: "mejores-casinos-online",
   },
   {
@@ -54,7 +54,7 @@ export const countrySections = [
   {
     title: "Mejores Casinos con Blackjack Online por País",
     description:
-      "El blackjack sigue siendo el rey de la mesa. Descubrí dónde jugarlo con las mejores condiciones en tu región.",
+      "El blackjack sigue siendo el rey de la mesa. Descubre dónde jugarlo con las mejores condiciones en tu región.",
     pathSuffix: "blackjack-online",
   },
   {
@@ -66,13 +66,13 @@ export const countrySections = [
   {
     title: "Mejores Slots Online por País",
     description:
-      "Las tragamonedas online más populares y con mejores pagos. Encontrá los casinos con la mejor selección de slots.",
+      "Las tragamonedas online más populares y con mejores pagos. Encuentra los casinos con la mejor selección de slots.",
     pathSuffix: "mejores-slots-online",
   },
   {
     title: "Casinos con Criptomonedas por País",
     description:
-      "Depositá y retira con Bitcoin, Ethereum y más. Los mejores casinos crypto disponibles en tu país.",
+      "Deposita y retira con Bitcoin, Ethereum y más. Los mejores casinos crypto disponibles en tu país.",
     pathSuffix: "casinos-criptomonedas",
   },
 ];

@@ -7,7 +7,7 @@ import TableOfContents from "@/components/TableOfContents";
 export const metadata: Metadata = {
   title: "Ruleta Online en Perú 2026 | Mejores Casinos",
   description:
-    "Descubrí los mejores casinos con ruleta online en Perú. Ruleta en vivo, europea, francesa, bonos y guías para ganar más.",
+    "Descubre los mejores casinos con ruleta online en Perú. Ruleta en vivo, europea, francesa, bonos y guías para ganar más.",
 };
 
 /* ───────── Casino data for this page ───────── */
@@ -1249,7 +1249,7 @@ export default function RuletaOnlinePeru() {
           Para los casinos internacionales como FRESH Casino, SOL Casino, MONRO y STARDA, las opciones más comunes son tarjetas Visa/Mastercard, transferencia bancaria y criptomonedas (Bitcoin, USDT, Ethereum). Los retiros con crypto son los más rápidos que encontramos: en STARDA tardó 45 minutos con USDT, mientras que las transferencias bancarias pueden demorar 24-48 horas.
         </p>
         <p className="text-[#d4d4d8] leading-relaxed mb-4">
-          Un tip: antes de depositar, fíjate cuáles son los requisitos de retiro del casino. Algunos te piden hacer un retiro por el mismo método que usaste para depositar. Otros te dejan elegir cualquier método. Y casi todos te van a pedir verificación de identidad (KYC) en tu primer retiro. Tené tu DNI a mano para que no te agarre desprevenido.
+          Un tip: antes de depositar, fíjate cuáles son los requisitos de retiro del casino. Algunos te piden hacer un retiro por el mismo método que usaste para depositar. Otros te dejan elegir cualquier método. Y casi todos te van a pedir verificación de identidad (KYC) en tu primer retiro. Ten tu DNI a mano para que no te agarre desprevenido.
         </p>
         <p className="text-[#a1a1aa] leading-relaxed">
           Para un análisis completo de todos los métodos de pago disponibles en cada casino, consulta nuestra <Link href="/peru/mejores-casinos-online" className="text-[#22c55e] hover:underline font-semibold">guía de mejores casinos online en Perú</Link> donde detallamos todo.

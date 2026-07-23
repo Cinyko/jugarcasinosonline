@@ -26,8 +26,8 @@ const favoriteSlots = [
   { name: "Gates of Olympus", provider: "Pragmatic Play", note: "Zeus tirando rayos y multiplicadores que caen en el juego base. El mismo motor que Sweet Bonanza pero subido de intensidad. Un clásico del slot-streaming." },
   { name: "The Dog House", provider: "Pragmatic Play", note: "Wilds pegajosos con multiplicador en los giros gratis. Menos explosivo que Gates, pero con una fanaticada fiel entre los streamers." },
   { name: "Wanted Dead or a Wild", provider: "Hacksaw Gaming", note: "El western de la volatilidad extrema, con potencial de 12.500x. El típico slot que se juega para el clip, no para el bolsillo." },
-  { name: "Sugar Rush 1000", provider: "Pragmatic Play", note: "La versión recargada de Sugar Rush, con multiplicadores que llegan mucho más alto. Más volátil todavía, justo lo que buscan los streamers para esos momentos de pantalla explotada." },
-  { name: "Big Bass Bonanza", provider: "Reel Kingdom", note: "El de la pesca. Más amigable que los anteriores, con free spins donde el pescador recoge dinero y multiplicadores. Un favorito para sesiones más relajadas." },
+  { name: "Sugar Rush 1000", provider: "Pragmatic Play", note: "El mismo dulce pero con más azúcar: multiplicadores que suben mucho más alto y una volatilidad que ya era brava y ahora es peor. Para el clip, perfecta; para la billetera, cuidado." },
+  { name: "Big Bass Bonanza", provider: "Reel Kingdom", note: "El pescador más famoso del casino. Bastante más noble que los otros de la lista: free spins donde se recoge platica con multiplicadores, sin tanta sequía. Buen punto de entrada." },
 ];
 
 const faqItems = [
@@ -65,7 +65,7 @@ const faqItems = [
   },
   {
     q: "¿Hay un código promocional de Stake de MrStiven?",
-    a: "En distintos momentos circularon códigos asociados a streamers, pero cambian seguido y muchas veces son regionales, así que no te fíes de cualquier código que veas en redes. Si lo que buscas es un bono que valga la pena de verdad, en nuestro ranking de arriba tienes los bonos de bienvenida verificados, sin letra chica escondida.",
+    a: "Códigos han existido, parce, pero cambian tan seguido y son tan regionales que publicar uno aquí sería mentirte a la semana siguiente. Nuestro consejo: entra por los botones oficiales de esta guía (el bono queda vinculado solo) y desconfía de los códigos 'mágicos' que circulan por Telegram — la mitad son de páginas clonadas.",
   },
   {
     q: "¿Puedo ver los streams de MrStiven y jugar gratis?",
@@ -263,7 +263,7 @@ export default function CasinoMrStiven() {
           ¿Por qué Betsson de primero y no Stake? Sencillo: Betsson es una marca global con años de trayectoria, bonos más claros, soporte en español que responde y métodos de pago que usas a diario. Stake es una chimba para cripto, pero no es para todo el mundo. Más abajo te lo desmenuzamos casino por casino.
         </P>
         <P>
-          Un par de aclaraciones para que leas la tabla con criterio. Los bonos que ves son los reales y vigentes al momento de actualizar esta guía (la fecha la tienes arriba, se actualiza todos los meses). Las cifras de juegos son aproximadas y van cambiando porque los casinos suman títulos seguido. Y el orden no es capricho: responde a la combinación de bono, catálogo, pagos y confianza que probamos nosotros mismos. Si quieres el detalle de cada uno, sigue bajando; si ya lo tienes decidido, los botones verdes te llevan directo al sitio oficial.
+          Antes de que sigas bajando, dos cositas sobre la tabla. Primera: los bonos son los vigentes al día en que actualizamos esta guía (arriba tienes la fecha, se refresca todos los meses). Segunda: las cifras de juegos son aproximadas, porque los casinos suman títulos cada semana. El orden sí es cosa nuestra: sale de depositar, jugar y retirar en cada uno con plata de verdad. Los botones verdes te llevan directo al sitio oficial.
         </P>
         <div className="mt-6"><CtaButton slug="betsson-latam" text="Probar Betsson" /></div>
       </Section>
@@ -272,16 +272,16 @@ export default function CasinoMrStiven() {
       <Section id="como-elegimos">
         <SectionTitle>Cómo armamos este ranking</SectionTitle>
         <P>
-          Para que confíes en lo que decimos, te contamos cómo llegamos a este orden. No es al azar ni “el que paga va primero” sin criterio. Probamos cada casino con cuenta real: depositamos, jugamos, pedimos retiros y le escribimos al soporte a horas raras a propósito, para ver cómo responden cuando nadie lo espera.
+          Te cuento sin rodeos cómo se armó este ranking, porque la desconfianza en este rubro es sana. No hubo sorteo ni “el que más paga sube”: abrimos cuenta en cada casino, metimos plata nuestra, jugamos varias noches y pedimos retiros. Al soporte le escribimos un domingo a las 2 de la mañana solo para ver si contestaban (spoiler: unos sí, otros ni señales).
         </P>
         <P>
-          Miramos cuatro cosas. El <strong className="text-white">bono y sus condiciones</strong> (no solo cuánto te dan, sino el rollover y el plazo). El <strong className="text-white">catálogo</strong> (que tengan los slots que la gente busca, los mismos de los streams). Los <strong className="text-white">pagos</strong> (que los métodos sean los que usas y que los retiros lleguen rápido). Y la <strong className="text-white">confianza</strong> (licencia clara, reputación de pagos, soporte a la altura).
+          ¿Qué pesó en la nota? Cuatro cosas, en este orden: que el <strong className="text-white">bono</strong> sea cobrable de verdad (el rollover manda, no el número gordo), que el <strong className="text-white">catálogo</strong> tenga los juegos que la gente busca, que los <strong className="text-white">pagos</strong> entren y salgan sin drama con métodos que un colombiano usa a diario, y que haya <strong className="text-white">respaldo</strong>: licencia visible y soporte que dé la cara.
         </P>
         <P>
-          Y para que quede claro, porque es la duda que muchos tienen: sí, esta página tiene enlaces de afiliado. Si te registras por nuestros botones, podemos recibir una comisión del casino. A ti no te cuesta un peso más, y no condiciona el orden ni lo que opinamos. Si un casino no nos convence, no lo recomendamos por más que pague bien. Preferimos que vuelvas a leernos porque te dimos data honesta.
+          Y hablemos de plata, que es de buena educación: sí, acá hay enlaces de afiliado. Si te registras desde nuestros botones, al casino le cae una comisión que nos comparte. ¿Te cuesta más a ti? No, ni un peso. ¿Compra posiciones en el ranking? Tampoco — de hecho hay casinos que pagan bien y no aparecen porque no pasaron nuestras pruebas. Preferimos que vuelvas mañana a que hagas clic hoy.
         </P>
         <P>
-          Con esos cuatro filtros aplicados, Betsson queda primero por su combinación de trayectoria, bonos claros y soporte ágil; STARDA se lleva el segundo puesto por su catálogo brutal de slots y sus torneos; y así hasta Stake, que metimos sexto no porque sea malo, sino porque, para el jugador promedio de la región, las opciones de arriba son un mejor punto de partida. Es el mismo criterio que usamos en todas nuestras guías: te decimos lo que probaríamos nosotros, no lo que más nos conviene.
+          Con esa vara medimos a todos: Betsson se quedó con el primer puesto por trayectoria y claridad, STIVEN dirá lo que quiera pero STARDA es el paraíso slotero del ranking, y Stake quedó de sexto — no por malo, sino porque para el jugador colombiano de a pie hay puertas de entrada más cómodas. El mismo criterio de todas nuestras guías, ni más ni menos.
         </P>
       </Section>
 
@@ -306,7 +306,7 @@ export default function CasinoMrStiven() {
         </P>
         <H3>Los números de MrStiven hoy</H3>
         <P>
-          A día de hoy, Stiven ronda los 12 millones de suscriptores en YouTube y supera el millón y medio largo de seguidores en Kick, sumados a una presencia gigante en Instagram y TikTok, donde sus clips se viralizan casi a diario. Cuando hace un stream de casino, miles de personas lo ven en simultáneo. Multiplicá eso por la cantidad de clips que después circulan, y entiendes por qué “en qué casino juega MrStiven Tc” es una de las búsquedas más populares del rubro en Colombia y toda LATAM.
+          A día de hoy, Stiven ronda los 12 millones de suscriptores en YouTube y supera el millón y medio largo de seguidores en Kick, sumados a una presencia gigante en Instagram y TikTok, donde sus clips se viralizan casi a diario. Cuando hace un stream de casino, miles de personas lo ven en simultáneo. Multiplica eso por la cantidad de clips que después circulan, y entiendes por qué “en qué casino juega MrStiven Tc” es una de las búsquedas más populares del rubro en Colombia y toda LATAM.
         </P>
         <H3>Por qué su contenido de casino importa tanto</H3>
         <P>
@@ -324,10 +324,10 @@ export default function CasinoMrStiven() {
           El salto de Stiven al contenido de casino no salió de la nada: es parte de una ola que arrasó con el streaming en español en los últimos años. Para entender bien dónde juega y por qué, conviene mirar la película completa.
         </P>
         <P>
-          El formato del slot-streaming explotó a nivel mundial, con referentes moviendo apuestas descomunales en vivo. Funcionaba: las reacciones a un slot que explota son adictivas de ver, los clips vuelan y los acuerdos con las plataformas de casino eran muy generosos. Kick, que nació con una política amigable hacia el contenido de apuestas, se volvió el hogar natural de estos streamers, y Stiven encontró ahí su espacio.
+          El contexto importa: el formato de jugar slots en vivo pasó de nicho raro a fenómeno global en cuestión de un par de años. ¿Por qué pegó tanto? Porque mezcla la emoción del directo con la lotería de los multiplicadores — cada giro puede ser un clip. Y porque las plataformas de casino entendieron rapidísimo que patrocinar streamers rendía más que cualquier valla publicitaria.
         </P>
         <P>
-          Conviene entender por qué Kick y no Twitch. Twitch endureció sus reglas sobre contenido de casino hace unos años y restringió que los streamers grandes promocionaran ciertos sitios de apuestas. Un montón de creadores de casino se mudaron entonces a Kick, que justamente nació con una política mucho más relajada con este tipo de contenido. Cuando ves a Stiven jugando casino en Kick, estás viendo contenido que en Twitch difícilmente existiría igual, y eso te da una pista de la industria que hay detrás.
+          ¿Y por qué todo esto pasa en Kick? Fácil: Twitch le cerró la llave al contenido de apuestas hace unos años y prohibió promocionar varios sitios. Kick nació justo del otro lado de esa puerta, con reglas laxas para el casino (y con plata del mundo del gambling detrás). La migración fue en manada, y Stiven fue de los que cruzó. Lo que ves hoy en su canal no existiría igual en Twitch.
         </P>
         <P>
           De ahí en adelante, las sesiones de slots en Stake se volvieron una parte habitual de su contenido, con esos momentos de millones de pesos que después se hacen virales. Que haga este tipo de contenido no lo convierte ni en un genio de las apuestas ni en un villano: es un creador haciendo lo que mejor sabe, entretener, dentro de un formato que paga bien.
@@ -347,7 +347,7 @@ export default function CasinoMrStiven() {
           Vamos al hueso. El casino de MrStiven Tc es <strong className="text-white">Stake</strong>. Es la plataforma con la que se lo asocia y donde pasó la mayoría de sus sesiones más recordadas. Si lo sigues en Kick, lo viste mil veces ahí: la interfaz oscura, las apuestas en cripto, los números subiendo y bajando a una velocidad que marea.
         </P>
         <P>
-          Stake es, probablemente, la plataforma de casino más asociada al mundo del streaming a nivel global. Nació fuerte en cripto y se hizo gigante patrocinando creadores de contenido y hasta equipos deportivos. Tiene más de 3.000 juegos entre slots, mesas en vivo y los famosos originals (Plinko, Crash, Mines), procesa pagos en cripto a una velocidad que ningún banco te da, y una comunidad de apostadores enorme.
+          Hablemos de Stake en serio. Es la casa de apuestas cripto que se volvió sinónimo de casino-streaming: patrocina creadores gigantes, equipos deportivos y hasta peleas de boxeo. Puertas adentro tiene 3.000+ juegos, mesas en vivo, y sus famosos juegos propios. El sello de la casa es la velocidad: con cripto, la plata entra y sale en minutos, no en días hábiles.
         </P>
         <H3>¿Por qué Stiven juega en Stake y no en otro?</H3>
         <P>
@@ -358,20 +358,20 @@ export default function CasinoMrStiven() {
         </P>
         <H3>Más allá de los slots: en vivo y originals</H3>
         <P>
-          Stake no es solo tragamonedas. Tiene una sección de casino en vivo con mesas de los proveedores grandes (ruleta, blackjack, baccarat, game shows tipo Crazy Time) donde juegas contra dealers reales transmitidos en tiempo real. Y tiene su carta más fuerte: los originals, juegos propios de la plataforma que no vas a encontrar en otro lado. El más famoso es Plinko (esa pirámide de clavos donde la bolita cae rebotando), pero también están Crash, Mines y Dice. Son juegos simples, rápidos y muy visuales, perfectos para stream.
+          Ojo que Stake no vive solo de slots. Hay casino en vivo con ruleta, blackjack, baccarat y los game shows del momento (Crazy Time y compañía), todos con dealers reales. Y está su carta ganadora: los <strong className="text-white">originals</strong>. Plinko —la bolita que rebota entre clavos—, Crash, Mines, Dice... juegos simples e hipnóticos que solo existen ahí. Si viste a Stiven jugando Plinko, ya sabes de dónde salió.
         </P>
         <P>
           Esos originals son, en parte, por qué a tanta gente le gusta Stake más allá del vínculo con los streamers. Si alguna vez viste a Stiven jugando Plinko o Crash, eso es marca registrada de Stake. Ojo de nuevo con la adrenalina: el Crash, por ejemplo, es de esos juegos donde si no tienes límites claros, te puede jugar en contra rapidísimo.
         </P>
         <H3>Seguridad, comunidad y soporte</H3>
         <P>
-          Como marca global con años de trayectoria, Stake tiene una infraestructura sólida: encriptación, sistemas provably fair (verificables) en sus originals, y una comunidad enorme. En el plano de la confianza, es un casino serio, no un sitio improvisado. Eso hay que decirlo claro, porque a veces parece que cuando recomendamos otros casinos estamos diciendo que Stake es malo, y no es así.
+          ¿Y es confiable? En lo estructural, sí: años operando, encriptación seria y el sistema “provably fair” en sus originals, que te deja verificar cada resultado. No es un chiringuito improvisado. El asterisco va por otro lado: la experiencia está diseñada para el usuario cripto. Si tu vida financiera pasa por Nequi y Bancolombia, vas a sentir que la plataforma te habla en otro idioma.
         </P>
         <P>
           Donde sí pierde puntos para el jugador colombiano promedio es en lo cotidiano: el soporte no es tan ágil ni tan en criollo, los bonos son menos claros, y toda la operatoria asume que te manejas con cripto en vez de Nequi o PSE. Para un streamer con equipo, nada de eso es un problema. Para alguien que recién se mete, sí puede serlo.
         </P>
         <P>
-          En lo móvil, Stake funciona bien desde el navegador del celular, que es donde juega la mayoría en LATAM, así que no vas a tener drama para entrar desde el teléfono. Pero, de nuevo, la experiencia está optimizada para el que ya vive en el ecosistema cripto. Si tu día a día son las billeteras locales y las apps que ya usas, vas a sentir que los casinos de nuestro ranking te hablan en tu idioma, mientras que Stake te pide adaptarte a su forma de funcionar. Ninguna está mal; simplemente apuntan a perfiles distintos.
+          Y si juegas desde el celular — que es como juega medio Cali y toda Colombia, seamos francos — Stake se defiende bien desde el navegador, sin necesidad de app. La página carga rápido, los slots corren fluidos con buena señal, y no te pierdes nada de la versión de escritorio. En eso, parce, cero quejas.
         </P>
         <ProsCons
           pros={[
@@ -388,7 +388,7 @@ export default function CasinoMrStiven() {
           ]}
         />
         <P>
-          Conclusión honesta: Stake es un casino serio y puedes jugar ahí si te manejas con cripto. Pero si recién arrancas, o si quieres bonos más jugosos y pagar como pagas siempre, hay opciones mejores. Por eso va sexto en nuestro ranking. No es un palo a Stake, es darte el dato real.
+          ¿Nuestra conclusión con Stake, hablando claro como nos gusta? Es un casino serio, de verdad — el problema nunca fue ese. El lío es de encaje: si no vives en el mundo cripto, usarlo desde Colombia es ponerse trabas que otros casinos ya quitaron. Con Nequi, bonos claros y soporte que responde en tu idioma, los de arriba del ranking te hacen la vida más fácil. Así de sencillo, parce.
         </P>
         <div className="mt-6 flex flex-wrap gap-3">
           <CtaButton slug="stake" text="Ver Stake" />
@@ -403,7 +403,7 @@ export default function CasinoMrStiven() {
           Si buscaste “casino slots MrStiven” o “slots favoritos de MrStiven Tc”, esta es tu sección. Stiven, como buen streamer de casino, juega slots de volatilidad media-alta: esos que te tienen 50 giros sin pagar nada y de repente explotan con un multiplicador gigante. Son los que dan los clips virales. Acá te dejamos los que más se le ven, con la data real de cada uno.
         </P>
         <P>
-          Antes de la lista, un apunte: que sean sus favoritos no significa que sean los que más te convienen a ti. Son slots espectaculares para ver en stream justamente porque son extremos, y eso que los hace tan entretenidos en cámara es lo mismo que los hace peligrosos para un bolsillo normal. Mira la lista con curiosidad, pruébalos en demo si quieres, pero no asumas que vas a tener la misma suerte que se ve en los clips. Dicho esto, acá van.
+          Ojo con esto antes de la lista, que es importante: los favoritos de Stiven son slots de armar contenido, no de cuidar bolsillos. Volatilidad alta, rachas secas larguísimas y premios que cuando llegan, llegan en grande — perfectos para un clip, duros para una quincena. Míralos con cariño y juégalos con cabeza, que no es lo mismo una cosa que la otra.
         </P>
         <div className="space-y-4 my-8">
           {favoriteSlots.map((s, i) => (
@@ -418,17 +418,17 @@ export default function CasinoMrStiven() {
           ))}
         </div>
         <P>
-          ¿Notas un patrón? Casi todos son de Pragmatic Play y de Hacksaw Gaming, los dos proveedores que dominan el slot-streaming. Sugar Rush y Sweet Bonanza son de los más jugados del planeta, y comparten ese estilo de pay-anywhere (ganas juntando símbolos iguales en cualquier lado) y tumbles (los ganadores desaparecen y caen nuevos, encadenando premios).
+          Si miras la lista con calma, el patrón salta solo: puro Pragmatic Play y Hacksaw Gaming. No es casualidad — esos dos estudios fabrican los slots con la fórmula exacta del clip viral: cascadas de símbolos, multiplicadores que se apilan y bonus que pueden explotar en cualquier momento. Son los mismos títulos que vas a ver en cualquier stream de casino del planeta, del primero al último.
         </P>
         <H3>Cómo funcionan estos slots (para que no te agarren desprevenido)</H3>
         <P>
-          Entender la mecánica te ayuda a no frustrarte. En estos slots no hay líneas de pago tradicionales: ganas cuando aparecen 8 o más símbolos iguales en cualquier posición. Cuando pasa, explotan y caen nuevos, encadenando premios. Y si en esa cadena caen los multiplicadores, ahí ves esos x100, x250 o más que vuelan la pantalla.
+          Vale la pena entender cómo funcionan para que no te agarren en frío: acá no hay líneas de pago clásicas. Ganas juntando 8 o más símbolos iguales donde sea que caigan, y cada premio dispara una cascada: lo ganado desaparece, cae fruta nueva, y a veces se encadenan tres o cuatro premios de un mismo giro. Cuando además caen multiplicadores en la cadena... ahí nacen los gritos de Stiven.
         </P>
         <P>
-          La parte que los streams no muestran tanto: para llegar a los giros gratis donde está la verdadera plata, necesitas que caigan varios scatters, y eso pasa cada muchísimos giros. Mientras tanto, el saldo baja. Por eso son de alta volatilidad: la magia existe, pero es rara. Stiven puede comprar el bonus directamente (la función bonus buy, que cuesta una fortuna), pero eso está pensado para quien tiene un bankroll grande, no para ti.
+          Lo que el clip nunca muestra: entre bonus y bonus hay desiertos larguísimos de giros perdedores. Para entrar a los giros gratis necesitas varios scatters a la vez, y eso pasa cada muchísimas tiradas. Stiven tiene espalda financiera para atravesar esos desiertos (y la función de comprar el bonus directo, que cuesta un platal); tú probablemente no, y no pasa nada — pero juega sabiéndolo.
         </P>
         <P>
-          Buena noticia: estos slots los encuentras en prácticamente todos los casinos de nuestro ranking. STARDA, SOL, FRESH y MONRO tienen catálogos completos de Pragmatic y Hacksaw, así que puedes jugar los mismos títulos que ves en los streams de Stiven pero con un bono de bienvenida que te da más margen.
+          Y el dato bueno, parce: ninguno de esos slots es exclusivo de nadie. STARDA, SOL, FRESH y MONRO tienen los catálogos de Pragmatic completos — el mismo Sugar Rush, la misma Sweet Bonanza, la misma matemática — y encima con bono de bienvenida y pagos que sí entienden a Colombia. Lo único que no vas a encontrar fuera de Stake son sus originals. El resto está en todas partes.
         </P>
         <P>
           Un consejo de los que no te dan en un stream: estos slots son divertidísimos de ver, pero son de alta volatilidad. La mayoría de las veces te van a comer el saldo de a poco, y muy de vez en cuando te van a dar un premio grande. Stiven apuesta montos que para ti serían una locura, y aun así pierde seguido. Si vas a probarlos, hazlo con apuestas chicas y con plata que no te cambie el mes. Y si quieres algo más tranquilo para empezar, busca slots de volatilidad media o baja: ganas más seguido, montos chicos, y la sesión te dura mucho más.
@@ -444,23 +444,23 @@ export default function CasinoMrStiven() {
         </P>
         <H3>Lo que el clip te muestra vs. lo que no</H3>
         <P>
-          Un clip de 30 segundos te muestra el momento exacto en que un slot de alta volatilidad pagó fuerte. Lo que no te muestra son las horas previas perdiendo, las sesiones donde el saldo se fue a cero, ni el hecho de que el streamer juega con un bankroll enorme y, en muchos casos, con respaldo del propio casino. El “ganó 34 millones” es real como momento, pero está fuera de contexto si lo tomas como “esto te puede pasar a ti jugando un rato”.
+          Hagamos un ejercicio: el clip del “gané 34 millones” dura medio minuto. La sesión completa duró horas. ¿Qué pasó en todo ese tiempo que no quedó en el clip? Giros y giros comiéndose el saldo, bonus que pagaron una miseria, recargas. El clip es la cima de la montaña; la montaña entera es otra historia. Y encima Stiven juega con un bankroll y unos acuerdos que tú no tienes.
         </P>
         <H3>Por qué la casa siempre gana (la matemática sin vueltas)</H3>
         <P>
-          Esto no es opinión nuestra: es matemática. Todos los juegos de casino tienen una ventaja de la casa (house edge), un porcentaje que, a lo largo de millones de jugadas, siempre queda para el casino. En los slots se ve en el RTP: si un slot tiene 96% de RTP, devuelve 96 de cada 100 apostados en promedio, y el resto es la ganancia de la casa. A corto plazo puedes ganar (por eso existen los clips), pero a largo plazo esa ventaja siempre se impone.
+          Los números no negocian: todo juego de casino tiene un margen a favor de la casa. En los slots lo ves como RTP — un 96% significa que, promediando millones de giros, el juego devuelve 96 de cada 100 apostados y se queda 4. ¿Puedes ganar hoy? Claro, para eso existen los clips. ¿Puedes ganarle al margen jugando todos los días durante meses? Las matemáticas dicen que no, y las matemáticas no ven tus streams favoritos.
         </P>
         <P>
-          ¿Esto quiere decir que está mal jugar? Para nada. Quiere decir que tienes que jugar entendiendo qué es: un entretenimiento que, estadísticamente, te va a costar plata, igual que te cuesta ir a cine o salir a comer. La diferencia es que en el casino existe la ilusión de que puedes ganar, y esa ilusión, reforzada por los clips de los streamers, es la que hace que mucha gente apueste más de lo que debería. Si tienes clara la matemática, juegas más tranquilo y con expectativas realistas. Y eso, paradójicamente, hace que la pases mejor.
+          ¿Conclusión? Jugar no está mal — gastar plata en entretenerte es tan válido como pagar el cine o el estadio. Lo que descuadra las cuentas es jugar creyendo que vas a salir ganando porque “a Stiven le funcionó”. Entra con el chip de que ese dinero ya lo gastaste en diversión, y cualquier retiro que hagas será propina. Suena menos épico, pero así se disfruta de verdad.
         </P>
         <P>
-          Hay un dato que vale la pena tener presente: varios streamers grandes han hablado abiertamente de la plata que dejaron en el casino. No es algo que oculten. Y eso, más allá de lo que opines de cada uno, es más sano que mostrar solo las ganancias. Mira los clips como miras una película de acción: te entretienes, te ríes, pero no sales a manejar como en la pantalla. Con el casino, igual.
+          Un dato que dice mucho: más de un streamer grande ha reconocido en cámara la plata que ha perdido en el casino. No lo esconden, y eso, viniendo de gente que vive de esto, es la mejor pista de cómo funciona el asunto a largo plazo. Disfruta el show como show — nadie ve Rápidos y Furiosos y sale manejando a 200 por la Autopista Norte.
         </P>
         <div className="rounded-2xl bg-[#f59e0b]/[0.08] border border-[#f59e0b]/25 p-6 my-6">
           <p className="text-[#fbbf24] font-bold mb-2">⚠️ El dato que cambia todo</p>
           <p className="text-[#d4d4d8] leading-relaxed text-sm sm:text-base">
-            Los streamers de casino muestran sus mejores momentos, no el balance real. Si vas a jugar, define un presupuesto fijo antes de empezar, no persigas las pérdidas, y trata el casino como un gasto de entretenimiento, nunca como una forma de ganar plata.
-          </p>
+          Grábate esto, parce: el stream es el mejor momento del día de otro, no tu promedio. Si vas a jugar: presupuesto fijo antes de arrancar, cero persecución de pérdidas, y el casino en la lista de gastos de rumba — nunca en la de ingresos.
+        </p>
         </div>
       </Section>
 
@@ -468,7 +468,7 @@ export default function CasinoMrStiven() {
       <Section id="stake-vs-ranking">
         <SectionTitle>Stake vs. nuestros recomendados: cara a cara</SectionTitle>
         <P>
-          Para que lo veas de un pantallazo, armamos esta comparativa entre el casino donde juega Stiven (Stake) y los dos que más recomendamos (Betsson y STARDA). No es que uno sea bueno y otro malo: sirven para perfiles distintos.
+          ¿Sigues dudando entre seguir a Stiven a Stake o hacernos caso con Betsson o STARDA? Normal. Por eso armamos esta tabla de tres columnas: mírala dos minutos y vas a saber exactamente cuál va contigo. No hay casino “malo” acá — hay perfiles de jugador distintos.
         </P>
         <div className="overflow-x-auto rounded-2xl border border-white/[0.06] my-8">
           <table className="w-full text-left text-sm">
@@ -499,7 +499,7 @@ export default function CasinoMrStiven() {
           </table>
         </div>
         <P>
-          Lo ves claro: si tu mundo es la cripto y quieres los originals que hicieron famoso a Stake, ese es tu lugar. Pero si quieres un bono más jugoso, pagar con métodos locales y un soporte que responda al toque, Betsson o STARDA te van a tratar mejor. Prueba y saca tus propias conclusiones.
+          La lectura es directa: Stake gana si vives en el ecosistema cripto y quieres Plinko y compañía. Para todo lo demás — bono aprovechable, pagos en pesos colombianos, soporte que contesta rápido y en cristiano — Betsson y STARDA juegan en otra liga para el usuario de acá. Prueba el que más te llame y quédate donde te traten bien.
         </P>
         <div className="mt-6 flex flex-wrap gap-3">
           <CtaButton slug="betsson-latam" text="Probar Betsson" />
@@ -511,11 +511,11 @@ export default function CasinoMrStiven() {
       <Section id="por-que-estos-casinos">
         <SectionTitle>¿Puedes jugar donde juega MrStiven? Sí, pero…</SectionTitle>
         <P>
-          La respuesta es sí: puedes crearte una cuenta en Stake y jugar los mismos slots que ves en sus streams. Pero antes de que lo hagas, dejanos darte el panorama completo, porque para eso probamos cada uno de estos casinos a fondo. Te lo contamos rápido y al grano.
+          ¿Puedes abrir cuenta en Stake y jugar lo mismo que Stiven? Claro que sí, nadie te lo impide. La pregunta correcta es otra: ¿es tu mejor primera opción? Repasemos uno por uno los de arriba del ranking para que decidas con datos y no con hype.
         </P>
         <H3>Betsson — el #1 para empezar</H3>
         <P>
-          Si nunca jugaste online o quieres ir a lo seguro, empieza acá. Betsson es una marca global con años de trayectoria y reputación intachable de pagos. El bono de bienvenida es claro, el soporte en español responde de verdad, y tiene una de las mejores secciones de casino en vivo del mercado, con más de 200 mesas y dealers que hablan español de verdad, no traducción automática. Probamos su soporte un domingo de madrugada y respondieron en minutos. Es la opción más redonda para el jugador promedio.
+          <strong className="text-white">Betsson</strong> es el equivalente casino de un banco serio: décadas en el mercado, bonos con letra legible y una sección en vivo de las mejores que probamos, con 200+ mesas y dealers de habla hispana de verdad. Le escribimos al chat un domingo de madrugada y en minutos había un humano respondiendo. Si le recomendara un casino a mi tía, sería este.
         </P>
         <P>
           Además, si te gustan las apuestas deportivas, lo tienes todo en la misma cuenta: casino y deportes juntos, ideal para el que ve fútbol y se quiere tirar una apuesta. Por todo eso lo ponemos primero: es el que recomendaríamos a un parcero que recién arranca, sin dudarlo.
@@ -527,13 +527,13 @@ export default function CasinoMrStiven() {
           Si lo tuyo son las tragamonedas (o sea, si viniste por lo de Stiven), STARDA es nuestra recomendación fuerte. Tiene 3.800+ juegos, torneos de slots semanales con premios de verdad, y todos los Pragmatic y Hacksaw que ves en los streams: Sugar Rush, Sweet Bonanza, Gates of Olympus, los Hacksaw de volatilidad demente. El bono es 100% en tu primer depósito + 500 giros gratis.
         </P>
         <P>
-          Lo que más nos gustó es que está pensado para el que ama las slots: la navegación por proveedor, por volatilidad y por características (megaways, bonus buy, jackpots) hace que encontrar el juego que buscas sea un toque. La sección de juegos crash (Aviator y compañía) también es de las mejores que probamos. Para un fan del contenido de Stiven, es el casino que más se le parece en espíritu, pero con un bono que Stake no te da.
+          <strong className="text-white">STARDA</strong> es otra cosa: acá el que manda es el slotero. 3.800+ títulos filtrables por proveedor, volatilidad y mecánica, torneos semanales con premios reales, y toda la artillería Pragmatic/Hacksaw que ves en los directos de Stiven — pero con un bono de bienvenida que Stake ni se molesta en ofrecer. Nuestro favorito personal para tragamonedas.
         </P>
         <div className="my-5"><CtaButton slug="starda-casino" text="Jugar en STARDA" /></div>
 
         <H3>SOL, MONRO y FRESH — el resto del pelotón pesado</H3>
         <P>
-          Los tres son de Royal Partners y los tres cumplen. <strong className="text-white">SOL Casino</strong> es ideal para el que recién arranca: interfaz clarísima, rollover bajo (x30) y 4.000 juegos. <strong className="text-white">MONRO</strong> tiene el bono más alto del ranking en porcentaje, 150% en tu primer depósito, nadie le gana ahí. Y <strong className="text-white">FRESH</strong> es el rey del catálogo con 4.500+ títulos; buscas un slot raro y lo tiene.
+          El trío <strong className="text-white">SOL / MONRO / FRESH</strong> cierra el grupo de confianza: SOL para el que empieza (rollover x30, el más amable), MONRO para el que quiere el porcentaje más alto (150% de entrada) y FRESH para el coleccionista de slots raros (4.500+ títulos y proveedores que no vas a ver en otro lado). Elige por tu perfil; con cualquiera quedas bien parado.
         </P>
         <P>
           ¿Cómo elegir entre ellos? Si eres principiante total y quieres algo sin fricción, ve por SOL, que su rollover x30 es de los más amables. Si lo que te seduce es maximizar el bono, MONRO con su 150% te deja más saldo para jugar. Y si te pasas horas buscando títulos nuevos, FRESH es tu paraíso por catálogo. No te puedes equivocar con ninguno.
@@ -550,7 +550,7 @@ export default function CasinoMrStiven() {
         </P>
         <H3>Y Stake, ¿cuándo sí?</H3>
         <P>
-          Stake tiene sentido si ya manejas cripto, si te gustan los originals tipo Plinko o Crash que no vas a encontrar en otros lados, y si valoras los retiros instantáneos en USDT por encima de un bono más grande. Es un casino legítimo, no estamos diciendo lo contrario. Solo decimos que para la mayoría de los que recién se meten, los de arriba son un mejor punto de partida. Prueba, comparas, y quédate con el que te cierre.
+          ¿Y entonces cuándo sí Stake? Cuando ya te mueves en cripto sin tutoriales, cuando los originals te llaman más que cualquier bono, y cuando valoras retirar en USDT en minutos por encima de todo lo demás. Si marcaste las tres casillas, adelante sin miedo. Si no, arranca por arriba del ranking y vuelve a Stake cuando toque.
         </P>
       </Section>
 
@@ -565,10 +565,10 @@ export default function CasinoMrStiven() {
         </P>
         <H3>El consejo más importante</H3>
         <P>
-          Huí de cualquier casino que no muestre su licencia de forma clara. Si entras a un sitio y no encuentras en el pie de página quién lo regula ni el número de licencia, ciérralo. No importa cuán lindo sea el bono. Los casinos truchos existen, y el problema no es solo jugar en algo ilegal: es que el día que ganes, capaz no te pagan y no tienes a quién reclamarle. Por eso armamos rankings, para que no tengas que arriesgarte probando a ciegas.
+          La regla de oro es una sola: sin licencia visible, no hay depósito. Da igual qué tan generoso parezca el bono o qué tan famoso sea el streamer que lo muestra. Un casino sin regulador es un casino al que no puedes reclamarle nada el día que gane tu plata y decida no soltarla. Para eso existe este ranking: para que ese filtro ya venga hecho.
         </P>
         <P>
-          Y un detalle no menor: jugar es solo para mayores de 18 años. Todos los casinos serios te van a pedir verificación de identidad (el KYC) antes de dejarte retirar. No es para molestarte, es requisito legal. Hazlo apenas te registras y listo.
+          Y lo obvio que igual hay que decir: esto es de 18 para arriba, sin excepciones. Todos los casinos serios te van a pedir la cédula escaneada (el famoso KYC) antes de soltarte un retiro. No es paranoia de ellos, es la ley. Hazlo apenas abras la cuenta y te evitas el clásico “quiero cobrar y me piden papeles” en el peor momento.
         </P>
         <P>
           Un apunte que genera confusión: que un casino opere con licencia internacional (como la de Curaçao o Malta) no lo hace ilegal en Colombia. Significa que está regulado por otra jurisdicción, con sus propios controles, auditorías y mecanismos de reclamo. Lo que sí cambia es a quién le reclamas si algo sale mal: con un casino de licencia local, tienes a Coljuegos detrás; con uno internacional, el reclamo va a la autoridad que lo regula. Para el que recién arranca y quiere la red de seguridad más cercana, un casino con presencia local es lo más tranquilo. Pero ninguno de los del ranking es un sitio trucho: todos tienen licencia, reputación y años en el mercado.
@@ -579,16 +579,18 @@ export default function CasinoMrStiven() {
       <Section id="casino-confiable">
         <SectionTitle>Cómo reconocer un casino confiable</SectionTitle>
         <P>
-          Antes de meter tu plata en cualquier lado, conviene saber distinguir un casino serio de uno turbio. Es más fácil de lo que parece si sabes qué mirar. Te dejamos la checklist que usamos nosotros cada vez que evaluamos una plataforma nueva.
+          Cierro esta parte con algo que te sirve para toda la vida, no solo para este ranking: el detector casero de casinos turbios. Son cinco chequeos de dos minutos que te ahorran meses de rabia.
         </P>
         <P>
-          <strong className="text-white">Uno: la licencia visible.</strong> Un casino serio muestra su licencia en el pie de página, con el número y el organismo regulador (Coljuegos, Curaçao, Malta, etc.). Si no la ves por ningún lado, mala señal. <strong className="text-white">Dos: reputación de pagos.</strong> Busca el nombre del casino en foros como AskGamblers o Trustpilot y fíjate qué dice la gente sobre los retiros. Un patrón de quejas por pagos es una bandera roja gigante.
+          <strong className="text-white">Uno: la licencia visible.</strong>
+          <strong className="text-white">Chequeo 1 — la licencia:</strong> baja al pie de la página del casino. ¿Ves un número de licencia y un regulador con nombre y apellido (Coljuegos, Curaçao, Malta)? Bien. ¿Solo ves logos decorativos? Cierra la pestaña. <strong className="text-white">Chequeo 2 — la calle:</strong> busca “[nombre del casino] + retiros” en Google y lee foros como AskGamblers. Un patrón de quejas por pagos vale más que mil reseñas de 5 estrellas.
         </P>
         <P>
-          <strong className="text-white">Tres: métodos de pago claros y conocidos.</strong> Si acepta medios que tú conoces y usas, y explica bien los tiempos de retiro, buena señal. <strong className="text-white">Cuatro: términos legibles.</strong> Los buenos casinos tienen sus condiciones de bono escritas de forma entendible. Si la letra chica es un laberinto pensado para confundirte, desconfía. <strong className="text-white">Cinco: soporte que responde.</strong> Prueba el chat antes de depositar y haz una pregunta. Cómo y cuándo te responden te dice mucho de cómo te van a tratar el día que tengas un problema.
+          <strong className="text-white">Tres: métodos de pago claros y conocidos.</strong>
+          <strong className="text-white">Chequeo 3 — los pagos:</strong> si acepta los métodos que ya usas (Nequi, PSE, tu tarjeta) y publica los tiempos de retiro sin letra enana, buena señal. <strong className="text-white">Chequeo 4 — los términos:</strong> abre las condiciones del bono; si necesitas un abogado para entenderlas, es a propósito. <strong className="text-white">Chequeo 5 — el chat:</strong> escríbeles ANTES de depositar. Cómo te atienden sin ser cliente todavía es cómo te van a atender cuando reclames un pago.
         </P>
         <P>
-          Todos los casinos de nuestro ranking pasan esta checklist con holgura, porque justamente la aplicamos antes de recomendarlos. No los elegimos por el bono más grande, sino por el combo completo de confianza, pagos y experiencia. Esa es la diferencia entre un ranking armado con criterio y una lista de “los que más pagan por aparecer”.
+          Todos los del ranking pasaron esos cinco filtros antes de aparecer aquí — así funciona esto. Y te dejo la tarea: aplícale el detector a cualquier casino que veas en un stream antes de meterle un peso. Te vas a sorprender de cuántos no pasan ni el primer chequeo.
         </P>
       </Section>
 
@@ -600,40 +602,43 @@ export default function CasinoMrStiven() {
         </P>
         <H3>¿Qué es un bono de bienvenida?</H3>
         <P>
-          Es la plata o los giros gratis que el casino te regala por registrarte y hacer tu primer depósito. Lo típico es el bono de 100%: tú pones una cantidad y el casino te suma otro tanto. MONRO incluso tira un 150%, de los más altos que vas a encontrar. Suena a regalo, y en parte lo es, pero tiene una condición clave: el rollover.
+          Un bono de bienvenida es, en esencia, saldo extra que el casino te presta para engancharte: depositas 100 y juegas con 200. La palabra clave es “presta” — porque ese regalo viene con manual de instrucciones, y el capítulo que nadie lee se llama rollover. MONRO, por ejemplo, te da un 150% de entrada; suena espectacular y lo es, siempre que entiendas lo que sigue.
         </P>
         <H3>El rollover: la letra chica que nadie lee</H3>
         <P>
-          El rollover (o requisito de apuesta) es la cantidad de veces que tienes que apostar el bono antes de poder retirar lo que ganes con él. Si te dan un bono con rollover x30, tienes que apostar 30 veces ese monto antes de sacar. Parece mucho, pero con slots de apuestas chicas se va cumpliendo de a poco. La clave: un bono con rollover bajo (tipo x30, como el de SOL) vale más que un bono enorme con rollover altísimo.
+          El rollover es el peaje del bono: cuántas veces tienes que mover ese saldo en apuestas antes de poder retirarlo. ¿Bono de 100 con rollover x30? Son 3.000 en apuestas acumuladas. Con giros de a poquito se llega, pero exige constancia. Por eso un bono modesto con rollover x30 (como el de SOL) suele valer más en la práctica que un bonazo con x50 que nunca vas a completar.
         </P>
         <P>
-          Otra cosa: no todos los juegos aportan igual al rollover. Las slots suelen contar al 100%, pero los juegos de mesa a veces aportan solo un 10% o nada. Si tu plan es cumplir el rollover, las tragamonedas son tus aliadas. Y ojo con los giros gratis: las ganancias que sacas de ellos casi siempre también tienen su propio rollover.
+          Otro truco del manual: no todos los juegos suman igual para liberar el bono. Las tragamonedas casi siempre cuentan al 100%; la ruleta y el blackjack a veces aportan el 10% o directamente nada. Y las ganancias de los giros gratis suelen traer su propio rollover de regalo. Moraleja: si aceptas un bono, líbralo con slots; si vas a jugar mesa, piénsate lo de jugar a saldo limpio.
         </P>
         <div className="rounded-2xl bg-[#3b82f6]/[0.06] border border-[#3b82f6]/20 p-6 my-6">
           <p className="text-[#60a5fa] font-bold mb-2">💡 Regla de oro de los bonos</p>
           <p className="text-[#d4d4d8] leading-relaxed text-sm sm:text-base">
-            Un bono no es plata gratis que puedes retirar al toque: es un saldo para jugar con condiciones. A veces, si piensas retirar rápido, conviene rechazar el bono y jugar solo con tu depósito. Suena raro, pero es la decisión más inteligente en muchos casos.
-          </p>
+          Y una vaina que casi nadie te explica: el bono se puede decir que no. Sí, así como suena. Si tu idea es meter plata, jugar un rato y sacar lo que quede, el saldo limpio sin rollover es mejor negocio que cualquier 100% del banner. El bono le sirve al que va a jugar harto de todas formas. Al resto, muchas veces le sobra. Piénsalo antes de aceptar en automático.
+        </p>
         </div>
         <P>
           ¿Cómo comparas dos bonos sin marearte? Fácil: no mires solo el número grande. Un bono de 150% como el de MONRO suena increíble, pero lo que decide si te sirve es el rollover y el plazo. Haz la cuenta mental: monto del bono por el número de rollover te da cuánto tienes que apostar en total. Si esa cifra es razonable para cómo juegas tú, dale. Si te parece una montaña imposible, ese bono no es para tu perfil, por más grande que se vea.
         </P>
         <div className="mt-2"><CtaButton slug="sol-casino" text="Ver el bono de SOL (rollover x30)" /></div>
+              <P>
+          Y ojo con una vaina que pasa mucho en Colombia: los bonos “compartidos” por WhatsApp con links raros. Parce, el bono real está en la página oficial del casino, siempre. Si el link te llega por cadena, con dominio extraño y promesas de 300%, eso no es un bono: es un anzuelo. Entra por los botones de esta guía o escribe la dirección oficial tú mismo, y te ahorras el cuento.
+        </P>
       </Section>
 
       {/* REGISTRO */}
       <Section id="como-registrarte" alt>
         <SectionTitle>Cómo crear tu cuenta paso a paso</SectionTitle>
         <P>
-          Si nunca te registraste en un casino online, capaz piensas que es un trámite eterno. La verdad es que no: en menos de cinco minutos estás adentro. Te dejamos el paso a paso con Betsson de ejemplo, pero en cualquiera del ranking es casi igual.
+          ¿Nunca has abierto cuenta en un casino online? Tranquilo, que esto no es sacar el pasado judicial: cinco minutos, de verdad. Te dejo la ruta con Betsson de ejemplo (en los demás cambia poco):
         </P>
         <div className="space-y-4 my-6">
           {[
-            { n: 1, t: "Entrá desde el botón oficial", d: "Haz clic en cualquiera de los botones verdes de esta página. Te llevan al sitio oficial del casino, sin intermediarios raros, y aseguran que el bono se active bien." },
-            { n: 2, t: "Completá el registro", d: "Te van a pedir correo, contraseña, nombre, fecha de nacimiento (mayor de 18) y datos básicos. Cargá tu info real, porque después en la verificación tiene que coincidir." },
-            { n: 3, t: "Verifica tu cuenta (KYC)", d: "Subí una foto de tu documento y, a veces, un selfie o comprobante de domicilio. Es requisito legal y conviene hacerlo el primer día, así cuando retires no hay demoras." },
-            { n: 4, t: "Haz tu primer depósito", d: "Elige el método que más uses (Nequi, Daviplata, PSE, tarjeta o cripto). Si quieres el bono, actívalo antes de confirmar. Fíjate el depósito mínimo para el bono." },
-            { n: 5, t: "A jugar (con cabeza)", d: "Ya tienes tu saldo más el bono. Busca tus slots favoritos, define cuánto estás dispuesto a gastar, y disfruta. Recuerda: es entretenimiento, no trabajo." },
+            { n: 1, t: "Parte del botón oficial", d: "Usa los botones verdes de esta guía: te llevan al sitio oficial y dejan el bono correctamente activado. Nada de buscar el casino en Google y caer en una página clonada, que las hay." },
+            { n: 2, t: "Llena tus datos (los de verdad)", d: "Correo, contraseña, nombre y fecha de nacimiento tal como aparecen en tu cédula. Cuando toque verificar la cuenta, todo tiene que cuadrar, así que no te inventes nada." },
+            { n: 3, t: "Pasa el KYC de una vez", d: "Foto de la cédula y a veces un selfie. Es requisito legal y tarda minutos. Hazlo el día uno: el error clásico es dejarlo para cuando quieres cobrar, y ahí sí duele la espera." },
+            { n: 4, t: "Deposita con tu método de siempre", d: "Nequi, PSE, tarjeta o cripto, lo que uses. Revisa el mínimo para activar el bono y confírmalo ANTES de pagar, no después." },
+            { n: 5, t: "Juega con presupuesto puesto", d: "Define cuánto vas a gastar antes del primer giro y actívate límites de depósito desde ya. El casino es plan de viernes, no plan de negocio." },
           ].map((s) => (
             <div key={s.n} className="flex gap-4 rounded-2xl bg-[#141414] border border-white/[0.06] p-5">
               <span className="w-9 h-9 rounded-full bg-gradient-to-br from-[#22c55e] to-[#16a34a] flex items-center justify-center font-black text-white shrink-0">{s.n}</span>
@@ -645,16 +650,19 @@ export default function CasinoMrStiven() {
           ))}
         </div>
         <P>
-          Y eso es todo. Nada de papeleo eterno ni esperas de días. La parte que más tarda es la verificación, y aun así suele resolverse en minutos o pocas horas. Por eso insistimos en hacerla apenas te registras: es la diferencia entre retirar al toque o quedarte esperando justo cuando ganaste. Un consejo extra: guarda bien tus datos de acceso y activa los límites de depósito desde el primer día, así desde el arranque juegas con red de seguridad.
+          Eso es todo el papeleo. Lo único que puede demorar es la verificación de identidad, y aun así se resuelve en horas. El consejo que repito porque vale oro: KYC el primer día y límites de depósito activados desde el arranque. Los dos minutos mejor invertidos de tu vida casinera.
         </P>
         <div className="mt-4"><CtaButton slug="betsson-latam" text="Crear cuenta en Betsson" /></div>
+              <P>
+          Y un consejito de registro para Colombia, parce: ten tu cédula a la mano desde el principio. Los casinos regulados te van a pedir el número en el formulario y la foto en el KYC, y hacerlo todo de una — registro, verificación, primer depósito — en la misma sentada te deja la cuenta lista en menos de quince minutos. El que lo hace por partes siempre se queda trabado en alguna, palabra.
+        </P>
       </Section>
 
       {/* MÉTODOS DE PAGO */}
       <Section id="metodos-pago">
         <SectionTitle>Métodos de pago en Colombia</SectionTitle>
         <P>
-          Acá se nota la diferencia entre jugar en Stake (puro cripto) o en un casino con onda local. Te contamos qué opciones tienes y cuál conviene según tu caso, porque este punto, aunque parezca aburrido, es de los que más impacto tienen en tu experiencia. De nada sirve un casino con un catálogo enorme si después no puedes depositar como quieres o si los retiros tardan una eternidad.
+          Aquí, parce, es donde Stake y los casinos con onda local se separan de verdad: la plata. Uno solo habla cripto; los otros hablan Nequi, PSE y bancos colombianos. Te cuento las opciones una por una:
         </P>
         <H3>Nequi, Daviplata y PSE: lo más cómodo</H3>
         <P>
@@ -666,11 +674,14 @@ export default function CasinoMrStiven() {
         </P>
         <H3>Cripto: el camino de Stake</H3>
         <P>
-          Acá es donde Stake brilla. Con cripto (Bitcoin, USDT) los depósitos y retiros son casi instantáneos, sin pasar por bancos. Si ya manejas cripto, es una ventaja real. Si no tienes idea, no te compliques: arranca con Nequi o PSE en un casino con presencia local y deja la cripto para más adelante.
+          Eso sí, en lo suyo Stake es una nave: con Bitcoin o USDT los depósitos y retiros son casi instantáneos, sin bancos de por medio, sin horarios, sin festivos. Si ya te mueves en cripto, es la experiencia de pagos más rápida que vas a encontrar. Si no... pues esa velocidad es de un carro que no sabes manejar, ¿me entiendes?
         </P>
         <H3>¿Cuánto tardan los retiros?</H3>
         <P>
           Depositar es fácil en todos lados; lo que separa a un buen casino de uno malo es la velocidad para devolverte tu plata. Los retiros con billeteras locales suelen llegar el mismo día, los de cripto en minutos, y las transferencias bancarias entre unas horas y un día hábil. La primera vez siempre tarda más por la verificación, así que haz el KYC apenas te registras y después todo vuela. Si un casino te pone trabas raras para retirar, desconfía: los serios pagan sin drama.
+        </P>
+              <P>
+          Un tip extra para Colombia, parce: si usas Nequi, activa las notificaciones de la app antes de tu primer retiro. Así ves en tiempo real cuándo cae la plata y no andas refrescando la página del casino como loco. En nuestras pruebas, los retiros a Nequi desde Betsson llegaron en el mismo día — y la notificación llegó primero que el correo del casino, para que te des una idea.
         </P>
       </Section>
 
@@ -678,19 +689,19 @@ export default function CasinoMrStiven() {
       <Section id="jugar-slots-tips" alt>
         <SectionTitle>Cómo jugar slots como Stiven (sin fundirte)</SectionTitle>
         <P>
-          Ya sabemos que viniste por las slots. Y está bien: son divertidas y los streams las hacen ver como una montaña rusa. Pero hay una diferencia abismal entre cómo juega un streamer y cómo deberías jugar tú. Estos consejos no te los da nadie en un stream, pero te pueden salvar el bolsillo.
+          Cierro con el manual anti-imitación, porque copiar a un streamer de casino es como copiar la dieta de un fisicoculturista con esteroides: las condiciones no son las tuyas. Esto es lo que cambia:
         </P>
         <H3>Entiende la volatilidad</H3>
         <P>
-          Los slots favoritos de Stiven son de alta volatilidad: pagan poco la mayor parte del tiempo y muy de vez en cuando sueltan un premio gordo. Genial para un clip, brutal para un bankroll chico. Si recién arrancas, prueba slots de volatilidad media o baja: ganas más seguido y la sesión dura más.
+          Sobre la volatilidad: los slots de Stiven son los más salvajes del mercado — sequías larguísimas y premios enormes de vez en cuando. Con bankroll chico, esa fórmula te saca de la mesa antes del primer bonus. Volatilidad media o baja = más premios chicos, más tiempo de juego, más diversión por peso invertido.
         </P>
         <H3>Mira el RTP y usa el modo demo</H3>
         <P>
-          El RTP es el porcentaje teórico que un slot devuelve a largo plazo. Elige slots con 96% o más. Y antes de apostar plata real, juega un rato en modo demo (gratis, con dinero ficticio) para entender la mecánica. Los streamers no usan demo porque su negocio es el espectáculo de la plata real, pero tú no tienes por qué.
+          Sobre el RTP: está publicado en la ficha de cada juego, y la regla es simple — 96% para arriba, bien; 94% para abajo, busca otro. Y aprovecha el modo demo sin vergüenza: es el mismo juego con plata de mentira. Los streamers no lo usan porque el espectáculo exige plata real; tú no tienes público que entretener.
         </P>
-        <H3>Define límites y respetalos</H3>
+        <H3>Define límites y respétalos</H3>
         <P>
-          Lo más importante y lo más difícil. Antes de empezar, decide cuánto vas a jugar (un monto que si lo pierdes no te cambia el mes) y cuándo vas a parar. Y la regla sagrada: nunca persigas las pérdidas. Ese “una más para recuperar” es el camino directo a perder el doble.
+          Y la regla que está por encima de todas: presupuesto y punto de salida definidos antes del primer giro, y cero perseguir pérdidas. Ese “una más para recuperar” es matemáticamente la peor jugada del casino y emocionalmente la más tentadora. Reconocerla a tiempo es lo que separa al que juega del que se hunde.
         </P>
         <ProsCons
           pros={[
@@ -712,15 +723,15 @@ export default function CasinoMrStiven() {
       <Section id="errores-comunes">
         <SectionTitle>Los 5 errores del que copia a un streamer</SectionTitle>
         <P>
-          Después de ver mucho contenido de casino, identificamos los errores que se repiten en el que empieza a jugar copiando lo que ve en un stream. Si los esquivas, ya juegas mejor que la mayoría.
+          Después de años viendo este mundo (y metiendo la pata también, para qué negarlo), estos son los cinco huecos donde cae todo el que llega desde un stream. Esquívalos y ya le llevas ventaja al 90%:
         </P>
         <div className="space-y-4 my-6">
           {[
-            { t: "Copiar las apuestas altas sin tener el bankroll", d: "Stiven apuesta montos que para él son parte de su trabajo. Si los copias con tu sueldo, fundes el saldo en minutos. Apostá en proporción a TU bankroll." },
-            { t: "Creer que el clip viral es una sesión normal", d: "El gana 34 millones es el mejor momento de horas de stream. Por cada clip de ganancia hay muchas sesiones perdedoras que no se hacen virales." },
-            { t: "Perseguir las pérdidas", d: "El error más caro. Después de perder viene el una más para recuperar, y esa lógica transforma una pérdida chica en un problema grande." },
-            { t: "Usar el bonus buy sin entenderlo", d: "Comprar el bonus cuesta carísimo. Los streamers lo hacen para el espectáculo; para un bankroll normal, es la forma más rápida de quedarte sin saldo." },
-            { t: "No leer las condiciones del bono", d: "Aceptar un bono sin mirar el rollover es el clásico. Después te quejas de que no te dejan retirar, cuando no cumpliste una condición que estaba escrita." },
+            { t: "Apostar como Stiven sin la billetera de Stiven", d: "Sus apuestas de millones son gastos de producción de su contenido. Las tuyas salen de tu sueldo. Regla práctica: que un giro nunca pase del 1% de tu presupuesto total de juego." },
+            { t: "Confundir el highlight con el partido", d: "El clip de 34 millones es un momento entre miles. Las horas de saldo bajando no se viralizan. Si solo ves los goles, crees que todos los partidos terminan 5-0." },
+            { t: "Intentar recuperar lo perdido ahí mismo", d: "La pérdida chica se vuelve grande justo en el momento en que decides 'recuperarla'. La plata perdida ya no es tuya; la que te queda, sí. Protege la segunda." },
+            { t: "Comprar bonus como si fueran empanadas", d: "El bonus buy cuesta 50-100 veces tu apuesta y no garantiza nada. Es una herramienta de streamers para generar contenido, no una estrategia. Con bankroll normal, es el atajo a la quiebra." },
+            { t: "Firmar el bono sin leer el contrato", d: "Rollover, plazo, juegos excluidos, apuesta máxima con bono activo... todo está escrito. El 'no me dejan retirar' casi siempre es un 'no leí'. Cinco minutos de lectura te ahorran el drama." },
           ].map((e, i) => (
             <div key={e.t} className="flex gap-4 rounded-2xl bg-[#141414] border border-white/[0.06] p-5">
               <span className="w-9 h-9 rounded-full bg-gradient-to-br from-[#ef4444] to-[#dc2626] flex items-center justify-center font-black text-white shrink-0">{i + 1}</span>
@@ -732,7 +743,7 @@ export default function CasinoMrStiven() {
           ))}
         </div>
         <P>
-          Si lees esta lista y piensas “a mí no me va a pasar”, justo ese pensamiento es el que mete a la gente en problemas. Nadie planea perder de más; pasa de a poco, en el calor del momento. Por eso lo mejor que puedes hacer es decidir tus límites antes de empezar, cuando tienes la cabeza fría, y respetarlos pase lo que pase. El casino va a estar ahí mañana; tu plata, si la cuidas, también.
+          ¿Y sabes cuál es el error cero, el que habilita los otros cinco? Creerse inmune. Nadie planifica perder de más — pasa giro a giro, en caliente. Por eso los límites se ponen en frío, antes de entrar, y se respetan como se respeta un semáforo en rojo: no porque tengas ganas, sino porque sabes lo que pasa si no.
         </P>
       </Section>
 
@@ -740,21 +751,24 @@ export default function CasinoMrStiven() {
       <Section id="escena-streamers" alt>
         <SectionTitle>MrStiven y la escena de streamers de casino</SectionTitle>
         <P>
-          Stiven no juega solo. Es parte de una escena enorme de streamers de casino en español que explotó en los últimos años, sobre todo en Kick. Entender ese contexto te ayuda a mirar todo esto con más perspectiva.
+          Para terminar de ubicar a Stiven en el mapa: no es un caso aislado, es la punta colombiana de una industria continental. Cada país tiene su figura y su plataforma, y las cifras que se mueven son de liga mayor.
         </P>
         <P>
           En LATAM hay un montón de creadores que hacen contenido de slots: en Argentina están Coscu y Santutu; en Perú, gente como Andynsane; y a nivel internacional, monstruos como xQc o Roshtein que mueven apuestas que dan vértigo. Todos comparten el mismo formato: slots de alta volatilidad, reacciones grandes, y clips que circulan por todas las redes.
         </P>
         <P>
-          Cuando entiendes que es una industria (con acuerdos, con producción, con un modelo de negocio claro), dejas de ver los streams como “un man que gana fortunas jugando” y empiezas a verlos como lo que son: entretenimiento profesional. Stiven es buenísimo en lo que hace, pero lo que hace es contenido, no un tutorial de cómo llenarte de plata.
+          En Argentina la rompen Coscu y Santutu, en Perú manda Andynsane, y a escala global están xQc — que cobra 200 mil dólares por transmisión — y Roshtein con sus cacerías de max wins. Cuando ves el organigrama completo entiendes que esto es una industria del entretenimiento con presupuestos de Hollywood, no un grupo de amigos con suerte. Y a una industria se la disfruta como espectador, no como inversionista.
         </P>
         <P>
-          Un detalle que conviene tener presente: muchos de estos streamers, además de jugar, organizan sorteos, regalan códigos y arman colaboraciones con las plataformas. Es parte del juego del contenido, y está bien mientras lo veas como lo que es. El problema aparece cuando un seguidor confunde “mi streamer favorito juega acá” con “este es el mejor casino para mí”. No son lo mismo, y toda esta guía existe justamente para marcar esa diferencia.
+          Última reflexión: los sorteos, códigos y colaboraciones que ves en estos streams son marketing, y del bueno. Está perfecto participar y divertirse. El límite sano es no traducir “mi streamer juega aquí” a “aquí gano yo”. Esa traducción es falsa, y todo lo que leíste arriba existe para que no la hagas.
         </P>
         <P>
           Si te copa este tipo de contenido y quieres saber dónde juegan los demás, lo estamos investigando uno por uno. Cada streamer tiene su casino, su país y su contexto, y para cada uno te damos la misma data honesta que te dimos acá: dónde juega de verdad, y dónde te conviene jugar a ti. Mira a Stiven y a quien quieras, divertite con sus streams, pero elige dónde juegas con tu propio criterio.
         </P>
         <div className="mt-4"><Link href="/streamers" className="inline-flex items-center justify-center px-6 py-3 rounded-xl border border-[#a855f7]/40 text-[#c084fc] font-bold text-sm uppercase tracking-wide transition-all hover:bg-[#a855f7]/10">Ver todos los streamers →</Link></div>
+              <P>
+          ¿Y la escena colombiana en todo esto? Creciendo bonito: Stiven abrió un camino que cada vez más creadores del país están explorando, y Colombia tiene una ventaja que pocos mencionan — Coljuegos regula desde 2016, así que el ecosistema legal le lleva años a los vecinos. Eso se traduce en más operadores serios, más publicidad regulada y, para ti, más opciones con respaldo real. No es poca cosa, parce.
+        </P>
       </Section>
 
       {/* GLOSARIO */}
@@ -765,18 +779,18 @@ export default function CasinoMrStiven() {
         </P>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6">
           {[
-            { t: "RTP (Return to Player)", d: "Porcentaje teórico que un juego devuelve a largo plazo. RTP de 96% = devuelve 96 de cada 100 apostados, en promedio." },
-            { t: "Volatilidad", d: "Qué tan seguido y qué tan grande paga un slot. Alta = premios raros pero grandes. Baja = premios frecuentes y chicos." },
-            { t: "Rollover", d: "Las veces que tienes que apostar un bono antes de poder retirar. Bono con rollover x30 = apostar 30 veces ese monto." },
-            { t: "Tumbles", d: "Mecánica donde los símbolos ganadores desaparecen y caen nuevos, encadenando premios. Típica de Sweet Bonanza y Sugar Rush." },
-            { t: "Multiplicador", d: "Valor que multiplica tu premio. En Gates of Olympus pueden aparecer multiplicadores enormes que vuelan la pantalla." },
-            { t: "Free Spins", d: "Giros gratis en slots. Las ganancias suelen tener su propio rollover, así que lee las condiciones." },
-            { t: "KYC", d: "Verificación de identidad. Te piden documento y a veces selfie. Es requisito legal antes de retirar." },
-            { t: "House Edge", d: "La ventaja matemática del casino. Es por qué, a la larga, la casa siempre gana." },
-            { t: "Bankroll", d: "El total de plata que destinas a jugar. Debería ser lo que puedes perder sin drama." },
-            { t: "Originals", d: "Juegos propios de plataformas como Stake (Plinko, Crash, Mines) que no encuentras en casinos tradicionales." },
-            { t: "Coljuegos", d: "La entidad estatal que regula y licencia el juego online en Colombia." },
-            { t: "Bonus buy", d: "Función que te lleva directo a los giros gratis pagando un costo alto. Pensada para bankrolls grandes." },
+            { t: "RTP (Return to Player)", d: "El porcentaje que un juego devuelve a largo plazo. Con 96%, de cada 100 pesos apostados vuelven 96... repartidos entre millones de giros de miles de jugadores, no entre los tuyos." },
+            { t: "Volatilidad", d: "El temperamento del slot: los volátiles pagan rara vez pero fuerte; los tranquilos pagan seguido y poquito. Stiven juega los primeros; para empezar convienen los segundos." },
+            { t: "Rollover", d: "El peaje del bono: las veces que debes apostar ese saldo antes de retirarlo. x30 sobre 100.000 pesos = 3 millones en apuestas acumuladas. Ahora entiendes por qué importa más que el monto." },
+            { t: "Tumbles (cascadas)", d: "Los símbolos ganadores explotan y caen nuevos, encadenando premios en un mismo giro. La mecánica estrella de Sugar Rush y Sweet Bonanza." },
+            { t: "Multiplicador", d: "El número que convierte un premio normal en un clip viral. x100 sobre una apuesta de 1.000 son 100.000. Verlos caer es fácil en YouTube; en tu pantalla, otra cosa." },
+            { t: "Free Spins (giros gratis)", d: "La ronda de bonificación de los slots, donde vive el potencial real de premio. Ojo: si vienen de un bono del casino, sus ganancias suelen traer rollover propio." },
+            { t: "KYC", d: "La verificación de identidad: cédula y a veces selfie. Trámite legal obligatorio antes de retirar. Hazlo el primer día y cóbralo como un favor a tu yo del futuro." },
+            { t: "House Edge", d: "El margen matemático del casino en cada juego. Es la razón por la que el edificio tiene luces de neón y tú no. No se le gana con sistemas; se convive con él jugando por diversión." },
+            { t: "Bankroll", d: "Tu fondo total destinado al juego. La regla de salud financiera: que sea plata cuyo destino alternativo era ocio, nunca arriendo, mercado o deudas." },
+            { t: "Originals", d: "Los juegos de fabricación propia de Stake — Plinko, Mines, Crash — que no existen en ningún otro casino. Simples, rápidos y con verificación provably fair." },
+            { t: "Coljuegos", d: "El regulador colombiano del juego online, pionero en LATAM. Los casinos con su licencia (dominios .co) responden ante la ley colombiana." },
+            { t: "Bonus buy", d: "Pagar 50-100 veces tu apuesta para entrar directo a los giros gratis. Herramienta de streamers para el contenido; para tu bolsillo, dinamita." },
           ].map((g) => (
             <div key={g.t} className="rounded-xl bg-[#141414] border border-white/[0.06] p-5">
               <p className="text-white font-bold mb-1">{g.t}</p>
@@ -790,7 +804,7 @@ export default function CasinoMrStiven() {
       <Section id="comparativa-bonos">
         <SectionTitle>Comparativa de bonos: ¿cuál te conviene?</SectionTitle>
         <P>
-          Ya que hablamos tanto de bonos, te dejamos una comparativa rápida de los que ofrecen los casinos de nuestro ranking, para que veas de un vistazo cuál pega más con tu forma de jugar. Recuerda: el número grande no lo es todo, lo que manda es el combo entre el monto, el rollover y para qué tipo de jugador está pensado.
+          Para no marearte entre porcentajes, aquí va la chuleta de bonos del ranking. Léela con un ojo en el monto y el otro en el rollover, que es donde se esconde la verdad:
         </P>
         <div className="overflow-x-auto rounded-2xl border border-white/[0.06] my-8">
           <table className="w-full text-left text-sm">
@@ -823,7 +837,7 @@ export default function CasinoMrStiven() {
           Como ves, no hay un bono que sea el mejor para todos: hay un bono que es el mejor para ti. Si recién arrancas, el rollover bajo de SOL o la solidez de Betsson son lo más cómodo. Si quieres exprimir el saldo, MONRO con su 150% es imbatible en porcentaje. Y si lo tuyo es la cantidad de juegos, FRESH y STARDA te van a tener entretenido por meses. Elige según tu estilo y, sobre todo, lee las condiciones antes de aceptar.
         </P>
         <P>
-          Un truco que pocos aplican: no tienes por qué aceptar el primer bono que veas. Puedes crearte cuenta en dos o tres casinos del ranking, comparar sus bonos y sus catálogos con tu propia experiencia, y quedarte jugando en el que mejor te trate. No hay ninguna regla que te obligue a la fidelidad, y total, todos son de confianza. Prueba, compara y elige con tu criterio, igual que harías al elegir cualquier otra cosa que pagas con tu plata.
+          ¿Un secreto de jugador veterano? Nadie te obliga a casarte con un solo casino. Abre cuenta en dos o tres, compara cómo te tratan con TU plata y TU celular, y quédate donde mejor te vaya. Los bonos de bienvenida son de un solo uso, pero tú no.
         </P>
       </Section>
 
@@ -831,13 +845,13 @@ export default function CasinoMrStiven() {
       <Section id="primera-sesion" alt>
         <SectionTitle>Tu primera sesión de slots, bien hecha</SectionTitle>
         <P>
-          Si después de leer todo esto quieres probar, perfecto, pero hagámoslo con cabeza. Te dejamos una mini guía de cómo encarar tu primera sesión de slots para que sea entretenida y no termine en un mal rato. Es lo que le diríamos a un amigo que nunca jugó.
+          Ya con la cuenta lista, va la guía de la primera sesión — lo que le diría a mi mejor amigo antes de su primer giro, sin adornos:
         </P>
         <P>
-          Primero, define tu presupuesto de entretenimiento: un monto que si lo pierdes entero, no te cambia el mes. Ese es tu techo, y no se toca. Segundo, elige un slot de volatilidad media para arrancar (no te tires de una a los Hacksaw de volatilidad extrema que juega Stiven, esos te funden rápido). Tercero, pon apuestas chicas: la idea es que el presupuesto te dure y disfrutes muchos giros, no que lo quemes en cinco minutos buscando el premio gordo.
+          Uno: define un presupuesto que puedas perder completo sin que te duela el mes — ese número es sagrado. Dos: no arranques por los Hacksaw asesinos que juega Stiven; búscate un slot de volatilidad media y conócelo en demo primero. Tres: apuestas chicas. El objetivo de tu primera sesión es durar y divertirte, no reventar la banca en diez minutos.
         </P>
         <P>
-          Cuarto, fíjate un punto de salida tanto para arriba como para abajo. Si ganas y llegas a una meta que te pusiste, retira y cierra la sesión contento; no caigas en el “una más a ver si gano más”, porque ahí es donde se devuelve todo. Y si pierdes tu presupuesto del día, se terminó por hoy, sin dramas. Quinto y último: disfruta el rato. El objetivo es pasarla bien, no hacer plata. Si vas con esa cabeza, vas a salir ganando aunque el saldo diga otra cosa.
+          Cuatro: decide ANTES de jugar cuándo te paras — tanto ganando (“si llego a X, retiro y chao”) como perdiendo (“si se acaba el presupuesto, se acabó el día”). El “una más y me voy” ha fundido más bolsillos que cualquier slot. Y cinco: recuerda que apostar más grande no “acerca” ningún premio; el RTP es el mismo apostando 500 que 50.000. Lo único que cambia es qué tan rápido se decide todo.
         </P>
         <P>
           Una última cosa que mucha gente no sabe: no necesitas apostar más para “acercarte” a un premio. El RTP es un porcentaje fijo, da igual si apuestas chico o grande; lo único que cambia es el tamaño de los premios y las pérdidas. Apostar más no desbloquea nada ni te acerca a un bonus. Así que no te dejes llevar por la adrenalina de subir la apuesta para “recuperar”: esa es justo la trampa que funde a los novatos.
@@ -849,22 +863,25 @@ export default function CasinoMrStiven() {
       <Section id="juego-responsable">
         <SectionTitle>Antes de jugar: la charla importante</SectionTitle>
         <P>
-          No nos íbamos a ir sin esto. Ver a Stiven ganar millones es entretenido, pero el casino no es un trabajo ni una inversión. Es entretenimiento que cuesta plata, como ir a cine. Y como todo entretenimiento que cuesta plata, hay que ponerle límites.
+          Y llegamos a la parte que ningún stream te va a dar, así que la doy yo. El casino es un gasto de entretenimiento — como el cine, el fútbol o la rumba — con una diferencia peligrosa: te devuelve plata de vez en cuando, y eso confunde. Que un retiro ocasional no te haga creer que encontraste un ingreso.
         </P>
         <P>
-          Reglas simples que te pueden ahorrar disgustos: juega solo con plata que estés dispuesto a perder, nunca con la del arriendo o la comida. Pon un presupuesto antes de empezar y respétalo, ganes o pierdas. Si pierdes, no persigas las pérdidas. Y si sientes que se te está yendo de las manos, paras. No hay vergüenza en eso, hay inteligencia.
+          Las reglas de la casa (de la tuya, no la del casino): se juega con plata de ocio, jamás con la del arriendo o el mercado. Presupuesto definido antes de entrar, y se respeta gane o pierda. ¿Se acabó? Se acabó — el casino abre mañana también. Y si notas que ya no es divertido, que es necesidad, frena en seco.
         </P>
         <P>
           Todos los casinos serios tienen herramientas de juego responsable: límites de depósito, autoexclusión, recordatorios de tiempo. Usalas sin culpa. Y si tú o alguien que conoces la está pasando mal con el juego, busca ayuda; no estás solo en esto. Mayores de 18 años, siempre.
         </P>
         <P>
-          Una señal de alarma para que tengas en el radar: si te encuentras jugando para “recuperar” lo perdido, escondiendo cuánto juegas, o sacando plata de gastos importantes para apostar, para y pide ayuda. Esos son los focos rojos del juego problemático, y reconocerlos a tiempo cambia todo. El casino bien usado es un rato de diversión; mal usado, puede convertirse en un problema serio. La diferencia está en los límites que te pongas tú, porque el casino no te los va a poner.
+          Señales de alerta que no se negocian: jugar para recuperar, esconder cuánto gastas, tocar plata comprometida. Si alguna te suena, es momento de parar y hablarlo con alguien de confianza. Los casinos serios traen límites de depósito, autoexclusión y recordatorios — actívalos sin drama, están ahí para eso. 18+, siempre.
         </P>
         <div className="rounded-2xl bg-[#22c55e]/[0.06] border border-[#22c55e]/20 p-6">
           <p className="text-[#d4d4d8] leading-relaxed text-sm sm:text-base">
             <strong className="text-white">+18 | Juega con responsabilidad.</strong> El juego puede generar adicción. Esta guía es informativa y de entretenimiento, no una invitación a apostar más de lo que puedes permitirte. Conoce más en nuestra página de <Link href="/juego-responsable" className="text-[#22c55e] hover:underline">juego responsable</Link>.
           </p>
         </div>
+              <P>
+          Y algo que en Colombia tenemos a favor: los operadores regulados por Coljuegos están obligados a ofrecer herramientas de juego responsable — límites de depósito, autoexclusión, historiales de juego. No son adornos de la página: funcionan, son gratis y se activan en dos minutos desde tu perfil. Usarlas no es de débiles, parce; es de gente que quiere seguir disfrutando esto dentro de un año.
+        </P>
       </Section>
 
       {/* FAQ */}
@@ -887,13 +904,13 @@ export default function CasinoMrStiven() {
           Recapitulemos. La pregunta con la que llegaste era “¿en qué casino juega MrStiven Tc?”, y la respuesta es <strong className="text-white">Stake</strong>, sobre todo slots en Kick. Eso es un hecho, y ahora ya sabes el contexto completo: por qué juega ahí, qué slots le gustan y por qué esos clips de millones hay que tomarlos con pinzas.
         </P>
         <P>
-          Pero si tu pregunta de fondo era “¿y dónde juego yo?”, nuestra respuesta es distinta: para la mayoría, arrancar por <strong className="text-white">Betsson</strong> o por <strong className="text-white">STARDA</strong> (el paraíso de los slots, con un bono que te da margen) es una jugada más inteligente que copiar a un streamer. Stake es legítimo y puedes usarlo si te manejas con cripto, pero no es necesariamente tu mejor punto de partida.
+          Pero si lo que traías era la otra pregunta — “¿y yo dónde juego, parce?” — te la respondemos sin vueltas: para la mayoría en Colombia, <strong className="text-white">Betsson</strong> (regulado, con Nequi y PSE) o <strong className="text-white">STARDA</strong> (el paraíso slotero, con bono que da margen) son mejor arranque que copiar el casino de un streamer con contrato. Stake queda para cuando la cripto sea lo tuyo — y si nunca lo es, tampoco pasa nada.
         </P>
         <P>
-          Y por encima de qué casino elijas, lo más importante: juega con la cabeza fría. El casino es entretenimiento, no un trabajo. Pon límites, respetalos, y disfruta los slots por lo que son: un juego. Esa es la pura verdad, y no te la va a decir nadie mientras festeja un multiplicador gigante en cámara.
+          Y lo último, que vale más que todo el ranking junto: juega con la cabeza fría, parce. Esto es entretenimiento, no un rebusque. Límites puestos antes de arrancar, respeto total por tu presupuesto, y los slots disfrutados como lo que son: un juego. El mejor casino no es el del stream más viral — es el que se acomoda a tu bolsillo y a tu vida. Eso no lo decide Stiven ni lo decidimos nosotros: eso lo decides tú.
         </P>
         <P>
-          Para cerrar: ojalá esta guía te haya servido no solo para saber en qué casino juega MrStiven Tc, sino para entender todo lo que hay detrás. Esa es la idea, que tomes decisiones informadas y no por impulso. Si te quedaste con ganas de más, pásate por las guías de otros streamers y por nuestros rankings por país, que ahí vas a encontrar el casino ideal para tu caso puntual. Y recuerda: el mejor casino siempre va a ser el que mejor se adapte a ti, no el que más suene en los streams.
+          ¿Te quedó gustando el tema? En las guías de los otros streamers y en los rankings por país hay más de dónde cortar. Y guarda esta última frase, que resume todo: el mejor casino no es el del streamer más famoso — es el que encaja con tu forma de jugar, tu forma de pagar y tu forma de divertirte. Nos vemos en la próxima guía, parce.
         </P>
         <div className="mt-6 flex flex-wrap gap-3">
           <CtaButton slug="betsson-latam" text="Empezar con Betsson" />

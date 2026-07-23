@@ -223,7 +223,7 @@ export default function Home() {
               </h2>
             </div>
             <p className="text-[#9ca3af] max-w-2xl ml-5 text-base leading-relaxed">
-              Descubrí en qué casinos juegan tus streamers favoritos. Desde los más grandes del mundo
+              Descubre en qué casinos juegan tus streamers favoritos. Desde los más grandes del mundo
               hasta los que vienen pisando fuerte en la escena latina.
             </p>
           </div>

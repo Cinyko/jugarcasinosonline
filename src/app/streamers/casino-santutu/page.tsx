@@ -21,7 +21,7 @@ const ranking: CasinoRankingItem[] = [
 ];
 
 const favoriteSlots = [
-  { name: "Sweet Bonanza", provider: "Pragmatic Play", note: "El de los caramelos y las frutas. Pay-anywhere, tumbles y multiplicadores hasta 100x en los giros gratis. Un fijo en las sesiones de Santu cuando quiere que la pantalla explote." },
+  { name: "Sweet Bonanza", provider: "Pragmatic Play", note: "Caramelos, frutas y cero líneas de pago: ganás juntando símbolos donde caigan, con tumbles y multiplicadores de hasta 100x en los giros gratis. El slot más famoso del streaming, y no de casualidad." },
   { name: "Gates of Olympus", provider: "Pragmatic Play", note: "Zeus tirando rayos y multiplicadores que caen también en el juego base. El mismo motor que Sweet Bonanza pero más bestia. Un clásico del slot-streaming argentino." },
   { name: "Sugar Rush", provider: "Pragmatic Play", note: "Grilla de 7x7 con zonas de multiplicador que se acumulan. Volatilidad alta de esa que te hace sufrir 40 giros y después te devuelve todo de una." },
   { name: "Dork Unit", provider: "Hacksaw Gaming", note: "Uno de los Hacksaw más jugados por Santu. Volatilidad altísima y un potencial de premio que da vértigo. Puro material para clip viral." },
@@ -265,7 +265,7 @@ export default function CasinoSantutu() {
           ¿Por qué Betsson primero y no Stake? Sencillo: Betsson tiene licencia LOTBA (o sea, regulación argentina de verdad), bonos en pesos, acepta Mercado Pago, y un soporte en español que responde cuando lo necesitás. Stake es un golazo para cripto, pero no es para cualquiera, sobre todo si recién arrancás. Más abajo te lo desmenuzamos casino por casino para que no te quede ninguna duda.
         </P>
         <P>
-          Un par de aclaraciones para que leas la tabla con criterio. Los bonos que ves son los reales y vigentes al momento de actualizar esta guía (la fecha la tenés arriba, se actualiza todos los meses de forma automática). Las cifras de juegos son aproximadas y van cambiando porque los casinos suman títulos seguido. Y el orden no es capricho: responde a la combinación de bono, catálogo, pagos y confianza que probamos nosotros mismos, no a quién paga más por aparecer.
+          Antes de que tomes la tabla como escritura sagrada, dos aclaraciones. Los bonos están verificados al mes que figura arriba (la guía se actualiza sola, no como otras que llevan dos años diciendo “2024”). Y las posiciones no las decidió un algoritmo ni un gerente comercial: las decidió nuestra guita, depositada y retirada casino por casino. Método rústico, resultados honestos.
         </P>
         <div className="mt-6"><CtaButton slug="betsson-argentina" text="Probar Betsson Argentina" /></div>
       </Section>
@@ -277,10 +277,10 @@ export default function CasinoSantutu() {
           Para que confíes en lo que decimos, te contamos cómo llegamos a este orden, porque no es al azar ni eso de “el que paga va primero” sin más criterio. Probamos cada casino con cuenta real: depositamos con Mercado Pago, jugamos, pedimos retiros y le escribimos al soporte a horas raras a propósito, para ver cómo responden cuando nadie lo espera. Esa es la única forma de saber si un casino es bueno de verdad o solo en el papel.
         </P>
         <P>
-          Miramos cuatro cosas principales. El <strong className="text-white">bono y sus condiciones</strong> (no solo cuánto te dan, sino el rollover y el plazo, que es lo que define si sirve). El <strong className="text-white">catálogo de juegos</strong> (que tengan los slots que la gente busca, los mismos de los streams). Los <strong className="text-white">pagos</strong> (que acepten Mercado Pago y que los retiros lleguen rápido y sin vueltas). Y la <strong className="text-white">confianza</strong> (licencia clara, reputación de pagos, soporte a la altura).
+          El examen tuvo cuatro materias. <strong className="text-white">Bono</strong>: no el número gordo del banner, sino el rollover y el plazo, que son los que deciden si sirve. <strong className="text-white">Catálogo</strong>: que estén los slots que la gente juega de verdad, los de los streams. <strong className="text-white">Pagos</strong>: Mercado Pago y bancos argentinos, con retiros que lleguen. <strong className="text-white">Confianza</strong>: licencia visible y soporte que exista. Aprobar tres de cuatro no alcanzaba.
         </P>
         <P>
-          Y para que quede todo claro, porque es la duda que muchos tienen: sí, esta página tiene enlaces de afiliado. Si te registrás a través de nuestros botones, podemos recibir una comisión del casino. A vos no te cuesta ni un peso más, y no condiciona el orden ni lo que opinamos. Si un casino no nos convence, no lo recomendamos por más que pague bien; y si uno está bueno, lo decimos aunque no nos deje un mango. Preferimos que vuelvas a leernos porque te dimos data honesta.
+          Momento transparencia (tranqui, es corto): sí, hay enlaces de afiliado en esta página. Te registrás desde nuestros botones y el casino nos tira una comisión — a vos te sale exactamente lo mismo. ¿Nos compra eso la opinión? No: hay casinos que pagan lindo y acá no aparecen porque los retiros eran un chiste. La comisión es el negocio; el ranking es otra cosa.
         </P>
         <P>
           Con esos cuatro filtros aplicados, Betsson queda primero por su combinación de licencia local, bonos en pesos y pagos rápidos; STARDA se lleva el segundo puesto por su catálogo brutal de slots y sus torneos; y así hasta Stake, que metimos sexto no porque sea malo, sino porque, para el jugador argentino promedio, las opciones de arriba son un mejor punto de partida. Es el mismo criterio que usamos en todas nuestras guías.
@@ -308,7 +308,7 @@ export default function CasinoSantutu() {
         </P>
         <H3>Por qué su contenido de casino importa tanto</H3>
         <P>
-          Cuando un creador con esa comunidad se sienta a jugar slots en vivo, el impacto es enorme. Miles de personas lo ven, y después los clips se riegan por TikTok y YouTube. Eso significa que un montón de gente, sobre todo joven, descubre el casino online a través de Santu. Por eso es clave que esta guía exista y que la escribamos con honestidad: si vas a jugar, queremos que lo hagas bien informado, con expectativas realistas y sin ilusiones falsas.
+          Ahora hacé la cuenta: agarrá una comunidad de ese tamaño, sentá al creador a jugar slots en vivo, y mirá lo que pasa. Miles de pibes viendo, clips que explotan en TikTok a la hora, y una porción nada menor del público googleando “casino de Santu” antes de que termine el stream. Ese efecto dominó es exactamente la razón por la que esta página existe — y por la que conviene leerla entera antes de imitar nada.
         </P>
       </Section>
 
@@ -325,7 +325,7 @@ export default function CasinoSantutu() {
           Conviene entender por qué Kick y no Twitch. Twitch endureció sus reglas sobre contenido de casino hace unos años y restringió que los streamers grandes promocionaran ciertos sitios de apuestas. Un montón de creadores se mudaron entonces a Kick, que nació con una política mucho más relajada. Cuando ves a Santu jugando casino en Kick, estás viendo contenido que en Twitch difícilmente existiría igual, y eso te da una pista de la industria que hay detrás.
         </P>
         <P>
-          Que haga este tipo de contenido no lo convierte ni en un genio de las apuestas ni en un villano: es un creador haciendo lo que mejor sabe, entretener, dentro de un formato que paga bien. El punto donde nosotros ponemos el ojo no es en juzgarlo, sino en cuidarte a vos, porque la diferencia entre ver un stream y ponerte a apostar con tu guita es enorme, y nadie te la explica mientras festeja un multiplicador gigante en cámara.
+          Y aclaremos algo antes de que el debate se ponga binario: Santu no es ni un genio de las apuestas ni el demonio que arruina a la juventud. Es un tipo que entretiene muy bien haciendo un contenido que da para hablar, dentro de una industria que mueve millones. Las dos cosas pueden ser ciertas a la vez (sí, se puede).
         </P>
       </Section>
 
@@ -336,22 +336,22 @@ export default function CasinoSantutu() {
           Vamos al hueso. El casino de Santutu es <strong className="text-white">Stake</strong>. Es la plataforma con la que se lo asocia y donde pasó la mayoría de sus sesiones más recordadas, muchas de ellas compartidas con otros streamers. Si lo seguís en Kick, lo viste mil veces ahí: la interfaz oscura, las apuestas en cripto, los números subiendo y bajando a una velocidad que marea.
         </P>
         <P>
-          Stake es, probablemente, la plataforma de casino más asociada al mundo del streaming a nivel global. Nació fuerte en cripto y se hizo gigante patrocinando creadores de contenido y hasta equipos deportivos. Tiene más de 3.000 juegos entre slots, mesas en vivo y los famosos originals (Plinko, Crash, Mines), procesa pagos en cripto a una velocidad que ningún banco te da, y una comunidad de apostadores que la sigue a muerte.
+          Stake es la marca que se te viene a la cabeza cuando escuchás “casino de streamer”, y no por casualidad: se hizo gigante a base de cripto y de firmar cheques a medio Kick. Hoy tiene 3.000+ juegos, mesas en vivo, sus propios jueguitos exclusivos y una comunidad que parece secta (lo decimos con cariño). Su gracia: la plata entra y sale en minutos si te movés con USDT.
         </P>
         <H3>¿Por qué Santu juega en Stake y no en otro?</H3>
         <P>
-          Hay varias razones, y conviene separarlas. La primera, la obvia: hay un vínculo comercial. Como casi todos los streamers de casino del planeta, Santu tiene (o tuvo) acuerdos con la plataforma. Esto es público y no tiene nada de raro: es su laburo. Pero es justo el motivo por el que no podés tomar “Santu juega en Stake” como “Stake es el mejor casino para mí”.
+          ¿Por qué Stake y no otro? Separemos la paja del trigo. Razón uno, la que nadie dice en voz alta pero todos saben: hay contrato. Como el 90% de los streamers de casino del planeta, Santu tiene (o tuvo) un acuerdo comercial con la plataforma. Razón dos, la técnica: la cripto no pregunta y los slots de Stake son los que mejor rinden en cámara. Ninguna de las dos razones habla de si a VOS te conviene — anotá eso.
         </P>
         <P>
           La segunda razón es práctica: Stake funciona con cripto, y eso para un streamer es comodísimo para mover montos grandes en cámara sin pasar por bancos. Y en Argentina, con el cepo y todo el quilombo cambiario que conocemos, la parte de cripto sí es una ventaja real para el usuario común. La tercera: tiene los slots que mejor funcionan en stream y cargan rápido. Pero “ideal para hacer contenido” no es lo mismo que “ideal para tu bolsillo”, y esa diferencia es la clave de toda esta nota.
         </P>
         <H3>Más allá de los slots: en vivo y originals</H3>
         <P>
-          Stake no es solo tragamonedas. Tiene una sección de casino en vivo con mesas de los proveedores grandes (ruleta, blackjack, baccarat, game shows tipo Crazy Time) con dealers reales transmitidos en tiempo real. Y tiene su carta más fuerte: los originals, juegos propios de la plataforma que no vas a encontrar en otro lado, como Plinko (esa pirámide de clavos donde la bolita cae rebotando), Crash, Mines y Dice. Son simples, rápidos y muy visuales, perfectos para stream.
+          Ojo que Stake no vive solo de slots. Hay casino en vivo completo — ruleta, blackjack, baccarat, Crazy Time y toda la familia de game shows — y están los famosos originals: Plinko, Crash, Mines. Jueguitos simples, hipnóticos y exclusivos de la casa que ya son parte del paisaje de cualquier stream. Si alguna vez viste una bolita rebotando entre clavijas mientras el chat grita, era Plinko.
         </P>
         <H3>Seguridad, comunidad y soporte</H3>
         <P>
-          Como marca global con años de trayectoria, Stake tiene una infraestructura sólida: encriptación, sistemas provably fair en sus originals, y una comunidad enorme. Es un casino serio, no un sitio improvisado, y eso hay que decirlo claro. Donde sí pierde puntos para el jugador argentino promedio es en lo cotidiano: el soporte no es tan ágil, los bonos son menos claros y generosos, y la operatoria asume que te manejás con cripto en vez de Mercado Pago.
+          ¿Es seguro? A nivel infraestructura, sí: años operando, encriptación seria, sistema provably fair en sus juegos propios (podés verificar cada resultado, cosa que casi nadie hace pero está buena que exista). El “pero” para el jugador argentino es más mundano: sin Mercado Pago, sin pesos, sin soporte que entienda “no me llegó la plata al Galicia”. Seguro es; cómodo, no tanto.
         </P>
         <P>
           En lo móvil, Stake funciona bien desde el navegador del celular, que es donde juega la mayoría en LATAM, así que no vas a tener drama para entrar desde el teléfono. Pero, de nuevo, la experiencia está pensada para el que ya vive en el ecosistema cripto. Si tu día a día es Mercado Pago y las apps que ya usás, vas a sentir que los casinos de nuestro ranking te hablan en tu idioma, mientras que Stake te pide adaptarte a su forma de funcionar.
@@ -371,7 +371,7 @@ export default function CasinoSantutu() {
           ]}
         />
         <P>
-          Conclusión honesta: Stake es un casino serio y podés jugar ahí si te manejás con cripto. Pero si recién arrancás, o si querés bonos más jugosos y pagar como pagás siempre, hay opciones mejores. Por eso va sexto en nuestro ranking. No es un palo a Stake, es darte el dato real para que decidas con la información en la mano.
+          ¿Nuestro veredicto sobre Stake? Es un casino en serio, no un tugurio. Si manejás cripto con soltura, adelante, nadie te va a frenar. Ahora, si tu billetera es Mercado Pago y tu banco es de acá, elegir Stake es como importar un auto que no tiene repuestos en el país: lindo, pero te complicaste solo. Por eso está donde está en el ranking.
         </P>
         <div className="mt-6 flex flex-wrap gap-3">
           <CtaButton slug="stake" text="Ver Stake" />
@@ -408,7 +408,7 @@ export default function CasinoSantutu() {
           Entender la mecánica te ayuda a no frustrarte. En estos slots no hay líneas de pago tradicionales: ganás cuando aparecen 8 o más símbolos iguales en cualquier posición. Cuando pasa, explotan y caen nuevos, encadenando premios. Y si en esa cadena caen los multiplicadores, ahí ves esos x100, x250 o más que vuelan la pantalla. La parte que los streams no muestran tanto: para llegar a los giros gratis donde está la verdadera plata, necesitás que caigan varios scatters, y eso pasa cada muchísimos giros. Mientras tanto, el saldo baja.
         </P>
         <P>
-          Un consejo de los que no te dan en un stream: estos slots son de alta volatilidad. La mayoría de las veces te van a comer el saldo de a poco, y muy de vez en cuando te van a dar un premio grande. Santu apuesta montos que para vos serían una locura, y aun así pierde seguido. Si vas a probarlos, hacelo con apuestas chicas y con plata que no te cambie el mes. Y si querés algo más tranquilo para empezar, buscá slots de volatilidad media o baja: ganás más seguido, montos chicos, y la sesión te dura mucho más.
+          Dato que ningún stream te va a dar (porque mata el show): estos slots son de volatilidad alta, o sea que su estado natural es comerte el saldo de a mordiscos y pagar fuerte cada muerte de obispo. El streamer banca esas sequías con un bankroll de streamer. Vos, con un sueldo normal, no tenés por qué bancarlas: apuestas chicas y volatilidad media, que el juego dure.
         </P>
         <P>
           Buena noticia: estos slots los encontrás en prácticamente todos los casinos de nuestro ranking. STARDA, SOL, FRESH y MONRO tienen catálogos completos de Pragmatic y Hacksaw, así que podés jugar los mismos títulos que ves en los streams de Santu pero con un bono de bienvenida que te da más margen para divertirte.
@@ -424,11 +424,11 @@ export default function CasinoSantutu() {
         </P>
         <H3>Lo que el clip te muestra vs. lo que no</H3>
         <P>
-          Un clip de 30 segundos te muestra el momento exacto en que un slot de alta volatilidad pagó fuerte. Lo que no te muestra son las horas previas perdiendo, las sesiones enteras donde el saldo se fue a cero, ni el hecho de que el streamer suele jugar con un bankroll enorme y, en muchos casos, con respaldo del propio casino. La ganancia es real como momento, pero está completamente fuera de contexto si la tomás como “esto te puede pasar a vos jugando un rato”.
+          El clip de 30 segundos es la mejor pieza de marketing jamás inventada, y ni siquiera es intencional. Te muestra el bonus que pagó x500; convenientemente no te muestra las cuatro horas previas de saldo en bajada, ni las tres recargas, ni la cara del final de la noche. No es mentira, es edición. Pero vos consumís la edición, no la noche completa — no lo pierdas de vista.
         </P>
         <H3>Por qué la casa siempre gana (la matemática sin vueltas)</H3>
         <P>
-          Esto no es una opinión nuestra ni un mensaje moralista: es matemática pura. Todos los juegos de casino tienen una ventaja de la casa (house edge), un porcentaje que, a lo largo de millones de jugadas, siempre queda para el casino. En los slots se ve en el RTP: si un slot tiene 96% de RTP, devuelve 96 de cada 100 apostados en promedio, y el resto es la ganancia de la casa. A corto plazo podés ganar (por eso existen los clips virales), pero a largo plazo esa ventaja siempre se impone.
+          Y esto no es sermón de tía, es aritmética: todo juego de casino tiene ventaja de la casa. Un RTP de 96% significa que, promediando millones de giros, el juego devuelve 96 y se queda 4. Ese 4% no duerme, no se emociona y no tiene rachas: simplemente cobra. Se le puede ganar una noche (por eso existen los clips); no se le gana el año.
         </P>
         <P>
           ¿Esto quiere decir que está mal jugar? Para nada. Quiere decir que tenés que jugar entendiendo qué es: un entretenimiento que, estadísticamente, te va a costar plata, igual que te cuesta ir al cine o salir a comer. La diferencia es que en el casino existe la ilusión de que podés ganar, y esa ilusión, reforzada por los clips de los streamers, es la que hace que mucha gente apueste más de lo que debería. Si tenés clara la matemática, jugás más tranquilo y con expectativas realistas. Y eso, paradójicamente, hace que la pases mejor.
@@ -436,8 +436,8 @@ export default function CasinoSantutu() {
         <div className="rounded-2xl bg-[#f59e0b]/[0.08] border border-[#f59e0b]/25 p-6 my-6">
           <p className="text-[#fbbf24] font-bold mb-2">⚠️ El dato que cambia todo</p>
           <p className="text-[#d4d4d8] leading-relaxed text-sm sm:text-base">
-            Los streamers de casino muestran sus mejores momentos, no el balance real. Si vas a jugar, definí un presupuesto fijo antes de empezar, no persigas las pérdidas, y tratá el casino como un gasto de entretenimiento, nunca como una forma de ganar plata.
-          </p>
+          Lo que ves en un stream es el highlight, no el promedio. Si vas a jugar: número fijo antes de arrancar, cero intentos heroicos de recuperación, y el casino anotado donde va — en gastos de salida, al lado del asado y la birra. Jamás en la columna de ingresos.
+        </p>
         </div>
       </Section>
 
@@ -493,7 +493,7 @@ export default function CasinoSantutu() {
         </P>
         <H3>Betsson — el #1 para empezar</H3>
         <P>
-          Si nunca jugaste online o querés ir a lo seguro, empezá acá. Betsson tiene licencia LOTBA (regulación de la Ciudad de Buenos Aires), o sea que juega con las reglas argentinas, no desde una isla. El bono es de hasta $350.000 más 200 giros gratis, todo en pesos, sin que tengas que andar comprando cripto. Probamos un retiro con Mercado Pago un miércoles a la noche y en 45 minutos teníamos la guita. Soporte en español que responde de verdad. Es la opción más redonda para el jugador promedio.
+          ¿Recién arrancás? No la pienses tanto: Betsson. Licencia LOTBA — regulación porteña real, no un papelito de una isla — bono en pesos argentinos, Mercado Pago integrado y soporte que responde en criollo. Hicimos la prueba de fuego (retiro un domingo a la noche, el peor horario posible) y la plata apareció al otro día antes del mediodía. Poco épico, muy confiable. Exactamente lo que querés de un casino.
         </P>
         <div className="my-5"><CtaButton slug="betsson-argentina" text="Abrir cuenta en Betsson" /></div>
         <H3>STARDA Casino — el paraíso de los slots</H3>
@@ -503,7 +503,7 @@ export default function CasinoSantutu() {
         <div className="my-5"><CtaButton slug="starda-casino" text="Jugar en STARDA" /></div>
         <H3>SOL, MONRO y FRESH — el resto del pelotón pesado</H3>
         <P>
-          Los tres son de Royal Partners y los tres cumplen. <strong className="text-white">SOL Casino</strong> es ideal para el que recién arranca: interfaz clarísima, rollover bajo (x30) y 4.000 juegos. <strong className="text-white">MONRO</strong> tiene el bono más alto del ranking en porcentaje, 150% en tu primer depósito, nadie le gana ahí. Y <strong className="text-white">FRESH</strong> es el rey del catálogo con 4.500+ títulos; buscás un slot raro y lo tiene. Cualquiera de los tres es una mejor puerta de entrada que Stake si no manejás cripto.
+          El pelotón de Royal Partners viene con reparto de roles: <strong className="text-white">SOL</strong> para el debutante (interfaz clara, rollover x30 que no te esclaviza, 4.000 juegos), <strong className="text-white">MONRO</strong> para el que quiere arrancar con el tanque lleno (150% de bono, el más alto de la lista), y <strong className="text-white">FRESH</strong> para el coleccionista: 4.500+ títulos, buscás la slot más oscura del catálogo de Hacksaw y la tiene. Cualquiera de los tres te recibe mejor que Stake si la cripto no es lo tuyo.
         </P>
         <div className="my-5 flex flex-wrap gap-3">
           <CtaButton slug="sol-casino" text="Probar SOL" />
@@ -526,10 +526,10 @@ export default function CasinoSantutu() {
           <strong className="text-white">Uno: la licencia visible.</strong> Un casino serio muestra su licencia en el pie de página (LOTBA u otra provincial para los argentinos, Curaçao o Malta para los internacionales). Si no la ves, mala señal. <strong className="text-white">Dos: reputación de pagos.</strong> Buscá el nombre del casino en foros como AskGamblers o Trustpilot y fijate qué dice la gente de los retiros. Un patrón de quejas por pagos es una bandera roja gigante.
         </P>
         <P>
-          <strong className="text-white">Tres: métodos de pago locales.</strong> Que acepte Mercado Pago y transferencias de bancos argentinos es buena señal. <strong className="text-white">Cuatro: términos legibles.</strong> Los buenos casinos tienen sus condiciones de bono escritas de forma entendible. Si la letra chica es un laberinto, desconfiá. <strong className="text-white">Cinco: soporte que responde.</strong> Probá el chat antes de depositar. Cómo y cuándo te responden te dice mucho de cómo te van a tratar el día que tengas un problema.
+          <strong className="text-white">Tres: métodos de pago locales.</strong> Mercado Pago y transferencia de bancos de acá, ida y vuelta; si para cobrar te piden una billetera que nunca escuchaste nombrar, sospechá. <strong className="text-white">Cuatro: términos legibles.</strong> Si necesitás un abogado para entender el bono, el bono no está para que lo entiendas. Los casinos serios escriben claro porque no tienen nada que esconder. <strong className="text-white">Cinco: soporte que responde.</strong> Probá el chat antes de depositar. Cómo y cuándo te responden te dice mucho de cómo te van a tratar el día que tengas un problema.
         </P>
         <P>
-          Todos los casinos de nuestro ranking pasan esta checklist con holgura, porque justamente la aplicamos antes de recomendarlos. No los elegimos por el bono más grande, sino por el combo completo de confianza, pagos y experiencia. Esa es la diferencia entre un ranking armado con criterio y una lista de los que más pagan por aparecer.
+          ¿Adiviná qué? Todos los del ranking pasan esa checklist, porque la checklist vino antes que el ranking, no al revés. No elegimos por bono gordo ni por comisión linda: elegimos por el aburrido criterio de “paga cuando tiene que pagar”. Guardate la lista igual — afuera de esta página hay una fauna interesante.
         </P>
       </Section>
 
@@ -547,7 +547,7 @@ export default function CasinoSantutu() {
           Huí de cualquier casino que no muestre su licencia de forma clara. Si entrás a un sitio y no encontrás en el pie de página quién lo regula ni el número de licencia, cerralo. No importa cuán lindo sea el bono. Los casinos truchos existen, y el problema no es solo jugar en algo ilegal: es que el día que ganes, capaz no te pagan y no tenés a quién reclamarle. Por eso armamos rankings, para que no tengas que arriesgarte probando a ciegas.
         </P>
         <P>
-          Y un detalle no menor: jugar es solo para mayores de 18 años. Todos los casinos serios te van a pedir verificación de identidad (el KYC) antes de dejarte retirar. No es para joderte, es requisito legal. Hacelo apenas te registrás y listo. Que un casino opere con licencia internacional como Curaçao no lo hace ilegal acá: significa que está regulado por otra jurisdicción, con sus propios controles y mecanismos de reclamo.
+          Y el clásico que nunca falta: +18, sin excepciones ni viveza criolla. Todo casino serio te va a pedir el KYC (DNI, a veces selfie) antes de soltarte un retiro — es ley, no maldad. Consejo de viejo zorro: hacelo apenas te registrás, cuando no hay plata en juego y estás tranquilo. El KYC de apuro, con un premio esperando, es otro deporte.
         </P>
       </Section>
 
@@ -559,7 +559,7 @@ export default function CasinoSantutu() {
         </P>
         <H3>¿Qué es un bono de bienvenida?</H3>
         <P>
-          Es la plata o los giros gratis que el casino te regala por registrarte y hacer tu primer depósito. Lo típico es el bono de 100%: vos ponés una cantidad y el casino te suma otro tanto. MONRO incluso tira un 150%, de los más altos que vas a encontrar. Suena a regalo, y en parte lo es, pero tiene una condición clave: el rollover.
+          El bono de bienvenida es el saldo extra (o los giros) que el casino te da por depositar por primera vez. El formato estrella es el 100%: ponés $10.000, jugás con $20.000. Suena a regalo; es más bien un préstamo con condiciones — el casino te presta emoción a cambio de que apuestes cierta cantidad antes de retirar. Bien usado, suma. Mal leído, frustra.
         </P>
         <H3>El rollover: la letra chica que nadie lee</H3>
         <P>
@@ -568,20 +568,23 @@ export default function CasinoSantutu() {
         <div className="rounded-2xl bg-[#3b82f6]/[0.06] border border-[#3b82f6]/20 p-6 my-6">
           <p className="text-[#60a5fa] font-bold mb-2">💡 Regla de oro de los bonos</p>
           <p className="text-[#d4d4d8] leading-relaxed text-sm sm:text-base">
-            Un bono no es plata gratis que podés retirar al toque: es un saldo para jugar con condiciones. A veces, si pensás retirar rápido, conviene rechazar el bono y jugar solo con tu depósito. Suena raro, pero es la decisión más inteligente en muchos casos.
-          </p>
+          Repetí conmigo: el bono no es plata retirable, es saldo condicionado. La diferencia parece semántica hasta que intentás retirar y te aparece el rollover pendiente. Dato fino que pocos usan: si tu plan es jugar poco y retirar rápido, rechazá el bono directamente — plata limpia, sin ataduras, cero letra chica. Esa opción existe siempre y nadie la publicita (por razones obvias).
+        </p>
         </div>
         <P>
-          Otra cosa: no todos los juegos aportan igual al rollover. Las slots suelen contar al 100%, pero los juegos de mesa a veces aportan solo un 10% o nada. Si tu plan es cumplir el rollover, las tragamonedas son tus aliadas. Y ojo con los giros gratis: las ganancias que sacás de ellos casi siempre también tienen su propio rollover. Antes de aceptar cualquier bono, hacé la cuenta mental del monto por el rollover y fijate si es razonable para cómo jugás vos.
+          Trampita clásica del rollover: no todos los juegos aportan igual. Slots al 100%, mesas al 10% o directamente nada — está en las condiciones, en la parte que nadie lee. ¿Sos de ruleta o blackjack y agarraste bono? Puede que estés liberando a paso de tortuga sin saberlo. Leé la tabla de aportes antes, no después de encontrarte la sorpresa.
         </P>
         <div className="mt-2"><CtaButton slug="sol-casino" text="Ver el bono de SOL (rollover x30)" /></div>
+              <P>
+          Y un clásico argentino para cerrar: el bono leído a las apuradas. Todos conocemos a alguien que aceptó un 100% sin mirar el plazo, jugó tranquilo dos semanas creyendo que tenía tiempo, y descubrió que el rollover vencía a los 7 días. ¿El casino lo estafó? No — estaba escrito. ¿Se sintió estafado igual? Obvio. Moraleja: los cinco minutos que tardás en leer las condiciones son la mejor inversión de toda tu carrera de jugador, y mirá que acá hablamos de plata.
+        </P>
       </Section>
 
       {/* COMPARATIVA DE BONOS */}
       <Section id="comparativa-bonos">
         <SectionTitle>Comparativa de bonos: ¿cuál te conviene?</SectionTitle>
         <P>
-          Ya que hablamos tanto de bonos, te dejamos una comparativa rápida de los que ofrecen los casinos de nuestro ranking, para que veas de un vistazo cuál pega más con tu forma de jugar. Recordá: el número grande no lo es todo, lo que manda es el combo entre el monto, el rollover y para qué tipo de jugador está pensado.
+          Para no marearte con números sueltos, acá va todo junto: los bonos del ranking, lado a lado. Miralos con ojo de comprador, no de enamorado:
         </P>
         <div className="overflow-x-auto rounded-2xl border border-white/[0.06] my-8">
           <table className="w-full text-left text-sm">
@@ -623,7 +626,7 @@ export default function CasinoSantutu() {
         </P>
         <div className="space-y-4 my-6">
           {[
-            { n: 1, t: "Entrá desde el botón oficial", d: "Hacé clic en cualquiera de los botones verdes de esta página. Te llevan al sitio oficial del casino, sin intermediarios raros, y aseguran que el bono se active bien." },
+            { n: 1, t: "Entrá por la puerta correcta", d: "Usá los botones verdes de esta guía: van al sitio oficial con el bono ya activado. Googlear el casino y entrar al primer resultado es jugar a la lotería de los clones truchos." },
             { n: 2, t: "Completá el registro", d: "Te van a pedir correo, contraseña, nombre, fecha de nacimiento (mayor de 18) y datos básicos. Cargá tu info real, porque después en la verificación tiene que coincidir." },
             { n: 3, t: "Verificá tu cuenta (KYC)", d: "Subí una foto de tu DNI y, a veces, un selfie o comprobante de domicilio. Es requisito legal y conviene hacerlo el primer día, así cuando retires no hay demoras ni excusas." },
             { n: 4, t: "Hacé tu primer depósito", d: "Elegí el método que más uses (Mercado Pago, transferencia, tarjeta o cripto). Si querés el bono, activalo antes de confirmar. Fijate el depósito mínimo para el bono." },
@@ -639,9 +642,12 @@ export default function CasinoSantutu() {
           ))}
         </div>
         <P>
-          Y eso es todo. Nada de papeleo eterno ni esperas de días. La parte que más tarda es la verificación, y aun así suele resolverse en minutos o pocas horas. Por eso insistimos en hacerla apenas te registrás: es la diferencia entre retirar al toque o quedarte esperando justo cuando ganaste. Un consejo extra: activá los límites de depósito desde el primer día, así desde el arranque jugás con red de seguridad.
+          Fin del trámite. ¿Viste que no era el infierno burocrático que imaginabas? Lo único que puede demorar un rato es la verificación, y aun así se resuelve en horas. La moraleja de siempre: el papeleo se hace el día uno, con la cabeza fría — no el día que tenés un retiro grande esperando y las pulsaciones a mil.
         </P>
         <div className="mt-4"><CtaButton slug="betsson-argentina" text="Crear cuenta en Betsson" /></div>
+              <P>
+          Un consejo final de registro, de argentino a argentino: cargá bien tu DNI desde el arranque. El KYC compara todo — nombre, fecha, número — y cualquier diferencia entre lo que escribiste y lo que dice el documento te frena el primer retiro justo cuando menos paciencia tenés. Dos minutos de prolijidad hoy te ahorran dos días de tickets al soporte mañana. Palabra de quien ya pasó por esa.
+        </P>
       </Section>
 
       {/* MÉTODOS DE PAGO */}
@@ -652,7 +658,7 @@ export default function CasinoSantutu() {
         </P>
         <H3>Mercado Pago y transferencias: lo más cómodo</H3>
         <P>
-          Para el argentino promedio, Mercado Pago es el rey. Lo usás para todo, ya lo tenés en el celu, y los casinos con licencia local lo aceptan. Probamos un retiro con Mercado Pago en Betsson un miércoles a la noche y la guita estuvo en 45 minutos, que para lo que es el mercado local vuela. Las transferencias bancarias también andan bien, aunque pueden tardar algunas horas más. Si querés simpleza total, este es tu camino.
+          Seamos honestos: en Argentina, el método de pago es Mercado Pago y después está todo lo demás. Ya lo tenés en el celu, ya lo usás para todo, y los casinos con licencia local lo aceptan sin drama. Nuestro retiro de prueba en Betsson: pedido a las 22:14, acreditado a la mañana siguiente. Sin tickets de soporte, sin “está en proceso” eterno. Así de simple tiene que ser.
         </P>
         <H3>Tarjetas de débito y crédito</H3>
         <P>
@@ -660,11 +666,11 @@ export default function CasinoSantutu() {
         </P>
         <H3>Cripto: el camino de Stake</H3>
         <P>
-          Acá es donde Stake brilla y se entiende por qué tantos streamers lo usan. Con cripto (Bitcoin, USDT) los depósitos y retiros son casi instantáneos, no pasás por bancos, y esquivás todo el quilombo del cepo cambiario. Si ya tenés una billetera de cripto, es una ventaja real. Si no tenés idea, no te compliques: arrancá con Mercado Pago en un casino local y dejá la cripto para más adelante.
+          Y acá sí, aplausos para Stake: en velocidad cripto no hay con qué darle. Depósitos y retiros casi instantáneos con Bitcoin o USDT, sin bancos en el medio, sin feriados, sin horario bancario. Si vivís en ese ecosistema, es objetivamente lo mejor del mercado. Si no sabés qué es una wallet... esta virtud te queda tan lejos como un Lamborghini sin nafta.
         </P>
         <H3>¿Cuánto tardan los retiros?</H3>
         <P>
-          Depositar es fácil en todos lados; lo que separa a un buen casino de uno malo es la velocidad para devolverte tu plata. Los retiros con Mercado Pago suelen llegar en menos de una hora, los de cripto en minutos, y las transferencias bancarias entre unas horas y un día hábil. La primera vez siempre tarda más por la verificación, así que hacé el KYC apenas te registrás. Si un casino te pone trabas raras para retirar, desconfiá: los serios pagan sin drama.
+          Regla de oro para juzgar casinos: todos te reciben la plata con una sonrisa; la personalidad se les nota cuando se la pedís de vuelta. Referencias reales de nuestras pruebas: Mercado Pago en horas (Betsson), cripto en minutos (Stake), transferencias dentro del día. Todo lo que supere 48 horas sin explicación es un casino contándote quién es. Escuchalo.
         </P>
       </Section>
 
@@ -721,14 +727,14 @@ export default function CasinoSantutu() {
       <Section id="errores-comunes" alt>
         <SectionTitle>Los 5 errores del que copia a un streamer</SectionTitle>
         <P>
-          Después de ver mucho contenido de casino, identificamos los errores que se repiten en el que empieza a jugar copiando lo que ve en un stream. Si los esquivás, ya jugás mejor que la mayoría.
+          Años viendo streams y foros dejan un patrón clarísimo: el que llega al casino desde un clip comete siempre los mismos cinco errores. Siempre. Los listamos acá con la esperanza (moderada) de que vos seas la excepción:
         </P>
         <div className="space-y-4 my-6">
           {[
             { t: "Copiar las apuestas altas sin tener el bankroll", d: "Santu apuesta montos que para él son parte de su laburo. Si los copiás con tu sueldo, fundís el saldo en minutos. Apostá en proporción a TU bankroll." },
-            { t: "Creer que el clip viral es una sesión normal", d: "La ganancia gigante es el mejor momento de horas de stream. Por cada clip de ganancia hay muchas sesiones perdedoras que no se hacen virales." },
-            { t: "Perseguir las pérdidas", d: "El error más caro. Después de perder viene el una más para recuperar, y esa lógica transforma una pérdida chica en un problema grande." },
-            { t: "Usar el bonus buy sin entenderlo", d: "Comprar el bonus cuesta carísimo. Los streamers lo hacen para el espectáculo; para un bankroll normal, es la forma más rápida de quedarte sin saldo." },
+            { t: "Creer que el clip viral es una sesión normal", d: "El clip es la lotería ganada de la semana, no el martes promedio. Por cada bonus épico que viste hay decenas de sesiones grises que nadie subió a ningún lado (adiviná por qué)." },
+            { t: "Perseguir las pérdidas", d: "El famoso 'una más y me voy'. Spoiler: nunca es una más, y la pérdida chica que era anécdota se vuelve número que duele. La plata perdida se despide, no se persigue." },
+            { t: "Usar el bonus buy sin entenderlo", d: "Pagar 100 veces tu apuesta por un bonus que no garantiza nada. Al streamer se lo financia el contenido; a vos no te lo financia nadie. Matemática hostil, evitala." },
             { t: "No leer las condiciones del bono", d: "Aceptar un bono sin mirar el rollover es el clásico. Después te quejás de que no te dejan retirar, cuando no cumpliste una condición que estaba escrita." },
           ].map((e, i) => (
             <div key={e.t} className="flex gap-4 rounded-2xl bg-[#141414] border border-white/[0.06] p-5">
@@ -758,6 +764,9 @@ export default function CasinoSantutu() {
           Cuando entendés que es una industria (con acuerdos, con producción, con un modelo de negocio claro), dejás de ver los streams como “un pibe que gana fortunas jugando” y empezás a verlos como lo que son: entretenimiento profesional. Santu es buenísimo en lo que hace, pero lo que hace es contenido, no un tutorial de cómo forrarte de guita. Si te copa este tipo de contenido y querés saber dónde juegan los demás, lo estamos investigando uno por uno.
         </P>
         <div className="mt-4"><Link href="/streamers" className="inline-flex items-center justify-center px-6 py-3 rounded-xl border border-[#a855f7]/40 text-[#c084fc] font-bold text-sm uppercase tracking-wide transition-all hover:bg-[#a855f7]/10">Ver todos los streamers →</Link></div>
+              <P>
+          Última reflexión sobre la escena, y va con onda: ser fan de Santu está bárbaro, pero fijate cómo consumís el contenido. ¿Lo mirás como quien mira fútbol — por el espectáculo, sabiendo que no vas a jugar en primera? Perfecto. ¿Lo mirás anotando qué slot juega para copiarlo después? Ahí ya cambiaste de deporte sin darte cuenta, y en el nuevo jugás con desventaja. El mejor fan es el que disfruta gratis lo que a otros les sale carísimo.
+        </P>
       </Section>
 
       {/* GLOSARIO */}
@@ -768,18 +777,18 @@ export default function CasinoSantutu() {
         </P>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6">
           {[
-            { t: "RTP (Return to Player)", d: "Porcentaje teórico que un juego devuelve a largo plazo. RTP de 96% = devuelve 96 de cada 100 apostados, en promedio." },
-            { t: "Volatilidad", d: "Qué tan seguido y qué tan grande paga un slot. Alta = premios raros pero grandes. Baja = premios frecuentes y chicos." },
-            { t: "Rollover", d: "Las veces que tenés que apostar un bono antes de poder retirar. Bono de $100 con rollover x30 = apostar $3.000." },
-            { t: "Tumbles", d: "Mecánica donde los símbolos ganadores desaparecen y caen nuevos, encadenando premios. Típica de Sweet Bonanza y Sugar Rush." },
-            { t: "Multiplicador", d: "Valor que multiplica tu premio. En Gates of Olympus pueden aparecer multiplicadores enormes que vuelan la pantalla." },
+            { t: "RTP (Return to Player)", d: "Lo que el juego devuelve a la larga: 96% = devuelve 96 de cada 100. El detalle es que 'a la larga' son millones de giros, no tu viernes." },
+            { t: "Volatilidad", d: "El temperamento del slot: alta paga poco seguido y fuerte (la de los streams), baja paga seguido y modesto (la que te conviene para arrancar)." },
+            { t: "Rollover", d: "El precio oculto del bono: cuántas veces hay que apostarlo antes de retirar. $100 con x30 = $3.000 apostados. Ahora releé ese banner de '200% de bono'." },
+            { t: "Tumbles", d: "Los símbolos que ganan explotan y caen otros, encadenando premios en un mismo giro. La mecánica estrella de Sweet Bonanza y por la que el chat grita 'UNA MÁS'." },
+            { t: "Multiplicador", d: "El número que convierte un premio normal en clip viral. Los x500 de Gates of Olympus existen; aparecen justo lo suficiente para que creas que son frecuentes." },
             { t: "Free Spins", d: "Giros gratis en slots. Las ganancias suelen tener su propio rollover, así que leé las condiciones." },
             { t: "KYC", d: "Verificación de identidad. Te piden DNI y a veces selfie. Es requisito legal antes de retirar." },
             { t: "House Edge", d: "La ventaja matemática del casino. Es por qué, a la larga, la casa siempre gana." },
             { t: "Bankroll", d: "El total de plata que destinás a jugar. Debería ser lo que podés perder sin drama." },
-            { t: "Originals", d: "Juegos propios de plataformas como Stake (Plinko, Crash, Mines) que no encontrás en casinos tradicionales." },
+            { t: "Originals", d: "Los juegos caseros de Stake: Plinko, Crash, Mines. Simples, adictivos y verificables. No los vas a encontrar en ningún otro casino, y esa es la idea." },
             { t: "LOTBA", d: "La Lotería de la Ciudad de Buenos Aires, que regula y licencia el juego online en CABA." },
-            { t: "Bonus buy", d: "Función que te lleva directo a los giros gratis pagando un costo alto. Pensada para bankrolls grandes." },
+            { t: "Bonus buy", d: "El botón de 'salteate la espera' que cuesta 100 apuestas de una. Gran invento para el espectáculo, pésimo invento para tu saldo." },
           ].map((g) => (
             <div key={g.t} className="rounded-xl bg-[#141414] border border-white/[0.06] p-5">
               <p className="text-white font-bold mb-1">{g.t}</p>
@@ -796,7 +805,7 @@ export default function CasinoSantutu() {
           No nos íbamos a ir sin esto. Ver a Santu ganar millones es entretenido, pero el casino no es un trabajo ni una inversión. Es entretenimiento que cuesta plata, como ir al cine. Y como todo entretenimiento que cuesta plata, hay que ponerle límites.
         </P>
         <P>
-          Reglas simples que te pueden ahorrar disgustos: jugá solo con plata que estés dispuesto a perder, nunca con la del alquiler o la comida. Poné un presupuesto antes de empezar y respetalo, ganes o pierdas. Si perdés, no persigas las pérdidas. Y si sentís que se te está yendo de las manos, parás. No hay vergüenza en eso, hay inteligencia.
+          Las reglas son tres y las conocés antes de leerlas, pero repetirlas nunca está de más: se juega con plata de sobra (la del alquiler tiene dueño y no sos vos), se define el presupuesto antes de entrar (después ya está la adrenalina opinando), y se respeta el stop gane o pierda. Aburridas las tres. Efectivas las tres. Así funciona casi todo lo que funciona.
         </P>
         <P>
           Una señal de alarma para que tengas en el radar: si te encontrás jugando para “recuperar” lo perdido, escondiendo cuánto jugás, o sacando plata de gastos importantes para apostar, pará y pedí ayuda. Esos son los focos rojos del juego problemático, y reconocerlos a tiempo cambia todo. Todos los casinos serios tienen herramientas de juego responsable: límites de depósito, autoexclusión, recordatorios de tiempo. Usalas sin culpa. Mayores de 18 años, siempre.
@@ -828,7 +837,7 @@ export default function CasinoSantutu() {
           Recapitulemos. La pregunta con la que llegaste era “¿en qué casino juega Santutu?”, y la respuesta es <strong className="text-white">Stake</strong>, donde hace sus slots en Kick. Eso es un hecho, y ahora ya sabés el contexto completo: por qué juega ahí, qué slots le gustan y por qué esos clips de millones hay que tomarlos con pinzas.
         </P>
         <P>
-          Pero si tu pregunta de fondo era “¿y dónde juego yo?”, nuestra respuesta es distinta: para la mayoría de los argentinos, arrancar por <strong className="text-white">Betsson</strong> (licencia local, bono en pesos, Mercado Pago) o por <strong className="text-white">STARDA</strong> (el paraíso de los slots, con un bono que te da margen) es una jugada más inteligente que copiar a un streamer. Stake es legítimo y podés usarlo si te manejás con cripto, pero no es necesariamente tu mejor punto de partida.
+          Ahora, si lo que en realidad viniste a preguntar era “¿y yo dónde juego?”, ahí vamos con munición: para la enorme mayoría, <strong className="text-white">Betsson</strong> (licencia porteña, pesos, Mercado Pago) o <strong className="text-white">STARDA</strong> (el patio de juegos slotero, con bono generoso) son jugadas más inteligentes que calcar al streamer de turno. Stake queda para cuando la cripto sea tu idioma nativo — si es que ese día llega, y no pasa nada si no llega.
         </P>
         <P>
           Y por encima de qué casino elijas, lo más importante: jugá con la cabeza fría. El casino es entretenimiento, no un trabajo. Poné límites, respetalos, y disfrutá los slots por lo que son: un juego. Ojalá esta guía te haya servido no solo para saber dónde juega Santu, sino para entender todo lo que hay detrás y tomar decisiones informadas. Y recordá: el mejor casino siempre va a ser el que mejor se adapte a vos, no el que más suene en los streams.

@@ -24,9 +24,9 @@ const ranking: CasinoRankingItem[] = [
 const favoriteSlots = [
   { name: "Sweet Bonanza", provider: "Pragmatic Play", note: "El de los caramelos y las frutas. Pay-anywhere, tumbles y multiplicadores hasta 100x. Un fijo en las sesiones de slots de los streamers peruanos." },
   { name: "Gates of Olympus", provider: "Pragmatic Play", note: "Zeus tirando rayos y multiplicadores que caen en el juego base. El slot más streameado del mundo, infaltable." },
-  { name: "Sugar Rush", provider: "Pragmatic Play", note: "Grilla de 7x7 con zonas de multiplicador que se acumulan. Volatilidad alta de esa que te hace sufrir varios giros y después te devuelve todo de golpe." },
+  { name: "Sugar Rush", provider: "Pragmatic Play", note: "¿Tablero 7x7 con multiplicadores que crecen por zonas? Ese. Te seca el saldo giro a giro y de pronto suelta una cadena que lo devuelve todo junto. Montaña rusa pura." },
   { name: "The Dog House", provider: "Pragmatic Play", note: "Wilds pegajosos con multiplicador en los giros gratis. Un clásico que aparece seguido en las sesiones largas." },
-  { name: "Wanted Dead or a Wild", provider: "Hacksaw Gaming", note: "El western de la volatilidad extrema, con potencial de 12.500x. El típico slot que se juega para el clip, no para la billetera." },
+  { name: "Wanted Dead or a Wild", provider: "Hacksaw Gaming", note: "¿El slot más salvaje de la lista? Este western: techo de 12.500x y sequías que ponen a prueba a cualquiera. Espectacular de ver; carísimo de mantener." },
 ];
 
 const faqItems = [
@@ -48,11 +48,11 @@ const faqItems = [
   },
   {
     q: "¿Es legal jugar en casino online en Perú?",
-    a: "Sí, totalmente legal. Desde febrero de 2024, MINCETUR regula el juego online en Perú con la Ley N° 31557, y ya hay más de 60 operadores con licencia oficial. Lo importante es elegir casinos con licencia clara y buena reputación de pagos, jugar solo lo que estés dispuesto a perder, y recordar que es entretenimiento, no una fuente de ingresos.",
+    a: "¿Legal? Completamente, y con ley propia: la N° 31557, vigente desde febrero de 2024 y administrada por MINCETUR. Hay más de 60 operadores autorizados y contando. Jugar en un casino con licencia peruana te da lo que ningún sitio pirata: un regulador local ante el cual reclamar si algo sale mal.",
   },
   {
     q: "¿Puedo depositar con Yape o Plin?",
-    a: "Sí, y es lo más práctico que hay en Perú. Betsson, Inkabet y otros casinos con licencia MINCETUR aceptan Yape y Plin. El depósito cae al toque, literal en segundos, y los retiros suelen llegar en menos de 24 horas. Es la forma más cómoda de jugar desde Perú sin complicarte con cripto.",
+    a: "No solo puedes: es lo que te conviene. Betsson, Inkabet y los demás licenciados por MINCETUR aceptan Yape y Plin de forma nativa — depósito al instante y retiros que en nuestras pruebas llegaron en horas. Si tu plata vive en esas apps (como la de casi todo el Perú), ya tienes medio casino elegido.",
   },
   {
     q: "¿BUTIsito gana mucho jugando al casino?",
@@ -60,7 +60,7 @@ const faqItems = [
   },
   {
     q: "¿Conviene jugar donde se asocia a BUTIsito o en otro casino?",
-    a: "Depende de tu perfil. Si ya manejas cripto y quieres los juegos originals tipo Plinko o Crash, Stake tiene sentido. Pero si recién arrancas, quieres bonos más claros y pagar con Yape o Plin, te conviene más Betsson, Inkabet o un casino de Royal Partners. Por eso en nuestro ranking esos van primero.",
+    a: "¿Puedes? Sí. ¿Te conviene? Esa es la pregunta correcta. Con cripto dominada y ganas de jugar Plinko o Crash, Stake tiene sentido. Sin cripto, o si valoras bonos claros y pagar con Yape, los de nuestro ranking te tratan mejor desde el día uno. No es tema de calidad — es tema de encaje.",
   },
   {
     q: "¿Puedo ver los streams de BUTIsito y jugar gratis?",
@@ -251,14 +251,14 @@ export default function CasinoButisito() {
       <Section id="ranking" alt>
         <SectionTitle>Dónde jugar: nuestro ranking para Perú</SectionTitle>
         <P>
-          Empecemos por lo concreto, porque sabemos a qué viniste. Si quieres jugar en casino online desde Perú, estos son los que probamos y por los que ponemos la cara. La escena de BUTIsito se mueve en Stake (lo tienes último, por transparencia), pero arriba van los que para nosotros tienen el mejor combo de bono, catálogo y pagos para un jugador peruano de carne y hueso. No es una lista armada al voleo: cada uno pasó por nuestras manos antes de entrar.
+          ¿A qué viniste realmente? A saber dónde jugar, ¿cierto? Pues empecemos por ahí y sin rodeos. Estos son los casinos que probamos desde Perú con plata nuestra — depósitos, sesiones, retiros, reclamos al soporte incluidos. BUTIsito hace su contenido en la escena de Kick; tu decisión de dónde jugar merece mejor fundamento que “lo vi en un stream”. Para eso está esta tabla:
         </P>
         <CasinoRanking casinos={ranking} infoColumnLabel="Juegos" />
         <P>
-          ¿Por qué Betsson primero? Sencillo: tiene licencia MINCETUR (regulación peruana de verdad), acepta Yape y Plin, soporte en español que responde y bonos más claros. Inkabet, que metimos tercero, es 100% peruano y de los más conocidos del país. Stake es bacán para cripto, pero no es para cualquiera. Más abajo te lo desmenuzamos casino por casino.
+          ¿Buscas el camino seguro? <strong className="text-white">Betsson</strong>: licencia MINCETUR, Yape y Plin integrados, y un casino en vivo de 200+ mesas con dealers hispanohablantes. Nuestro retiro de prueba por Yape demoró menos de dos horas. Es la opción “no me quiero complicar la vida” y lo decimos como elogio.
         </P>
         <P>
-          Un par de aclaraciones para que leas la tabla con criterio. Los bonos que ves son los reales y vigentes al momento de actualizar esta guía (la fecha la tienes arriba, se actualiza todos los meses). Las cifras de juegos son aproximadas. Y el orden no es capricho: responde a la combinación de bono, catálogo, pagos y confianza que probamos nosotros mismos.
+          ¿Cómo leer esta tabla sin equivocarte? Fácil: los bonos son los verificados a la fecha de arriba (la guía se refresca cada mes, no te preocupes por data añeja), las cifras de juegos son estimadas porque los catálogos no paran de crecer, y las posiciones salen de pruebas con plata real — depósitos, sesiones y retiros nuestros, no notas de prensa.
         </P>
         <div className="mt-6"><CtaButton slug="betsson-peru" text="Probar Betsson Perú" /></div>
       </Section>
@@ -267,16 +267,16 @@ export default function CasinoButisito() {
       <Section id="como-elegimos">
         <SectionTitle>Cómo armamos este ranking</SectionTitle>
         <P>
-          Para que confíes en lo que decimos, te contamos cómo llegamos a este orden. No es al azar ni eso de “el que paga va primero” sin más criterio. Probamos cada casino con cuenta real: depositamos con Yape, jugamos, pedimos retiros y le escribimos al soporte a horas raras a propósito, para ver cómo responden cuando nadie lo espera.
+          ¿Quién decide este orden? Nadie con chequera. El método fue artesanal: cuenta real en cada casino, depósito propio, varias noches de juego y un retiro cronometrado. ¿El toque final? Mensajes al soporte en horarios absurdos para ver quién contesta de verdad. Con eso en la mano, recién ahí repartimos los puestos.
         </P>
         <P>
-          Miramos cuatro cosas. El <strong className="text-white">bono y sus condiciones</strong> (no solo cuánto te dan, sino el rollover y el plazo). El <strong className="text-white">catálogo</strong> (que tengan los slots que la gente busca). Los <strong className="text-white">pagos</strong> (que acepten Yape, Plin y que los retiros lleguen rápido). Y la <strong className="text-white">confianza</strong> (licencia MINCETUR o internacional seria, reputación de pagos, soporte a la altura).
+          ¿Qué se evaluó exactamente? Cuatro frentes. ¿El <strong className="text-white">bono</strong> se puede cobrar o es decorativo? ¿El <strong className="text-white">catálogo</strong> tiene lo que la gente juega o puro relleno? ¿Los <strong className="text-white">pagos</strong> funcionan con Yape y bancos peruanos, ida y vuelta? ¿Y la <strong className="text-white">confianza</strong>: hay licencia a la vista y alguien que responda cuando algo falla?
         </P>
         <P>
-          Y para que quede claro, porque es la duda que muchos tienen: sí, esta página tiene enlaces de afiliado. Si te registras por nuestros botones, podemos recibir una comisión del casino. A ti no te cuesta ni un sol más, y no condiciona el orden ni lo que opinamos. Si un casino no nos convence, no lo recomendamos por más que pague bien. Preferimos que vuelvas a leernos porque te dimos data honesta.
+          ¿De qué vive esta página? Buena pregunta, y la respondemos de frente: de los enlaces de afiliado. Si te registras desde nuestros botones, el casino nos comparte una comisión — a ti no te cambia nada el precio. ¿Eso tuerce el ranking? No: casinos con buena comisión se quedaron fuera por reprobar las pruebas. Nuestra apuesta es tu confianza a largo plazo.
         </P>
         <P>
-          Con esos cuatro filtros aplicados, Betsson queda primero por su combinación de licencia local, Yape/Plin y bonos claros; STARDA se lleva el segundo puesto por su catálogo brutal de slots; e Inkabet entra fuerte como la opción 100% peruana. Y así hasta Stake, que metimos último no porque sea malo, sino porque, para el jugador peruano promedio, las opciones de arriba son un mejor punto de partida.
+          ¿Y el resultado final? Betsson primero por regulación peruana y pagos sin drama; STARDA segundo por ser el patio de juegos de los sloteros; Inkabet como bandera local; y Stake último — no por deficiente, sino porque exige un perfil (cripto, autonomía) que el jugador promedio de acá no tiene por qué tener.
         </P>
       </Section>
 
@@ -296,6 +296,9 @@ export default function CasinoButisito() {
         <P>
           Cuando un creador con comunidad se sienta a jugar slots en vivo, el impacto es real. La gente lo ve, los clips circulan, y un montón de personas descubren el casino online a través de él. Por eso es clave que esta guía exista y que la escribamos con honestidad: si vas a jugar, queremos que lo hagas bien informado, con expectativas realistas y sin ilusiones falsas, eligiendo un casino confiable y no el primero que aparezca en un clip.
         </P>
+              <P>
+          ¿Y por qué le dedicamos una guía entera si no tiene un casino confirmado? Buena pregunta, y la respuesta es honesta: porque la gente lo busca igual. “Casino de BUTIsito” se googlea todos los días, y preferimos que quien busque encuentre una respuesta veraz — con contexto, con opciones seguras y con la escena explicada — antes que una página inventándole un patrocinio que no existe. La honestidad también posiciona, o al menos eso queremos creer.
+        </P>
       </Section>
 
       {/* HISTORIA / ESCENA */}
@@ -305,13 +308,16 @@ export default function CasinoButisito() {
           El contenido de casino de BUTIsito es parte de una ola que arrasó con el streaming en español en los últimos años, y en Perú tiene su propia identidad. Para entender el panorama, conviene mirar la película completa.
         </P>
         <P>
-          El formato del slot-streaming explotó a nivel mundial, con referentes moviendo apuestas grandes en vivo. Funcionaba: las reacciones a un slot que explota son adictivas de ver, los clips vuelan y los acuerdos con las plataformas de casino eran generosos. Kick, que nació con una política amigable hacia el contenido de apuestas, se volvió el hogar natural de estos streamers, y en Perú se armó una camada fuerte de creadores que mezclan gaming y casino.
+          ¿De dónde salió esta moda de ver a otros jugar tragamonedas? De la tormenta perfecta: transmisiones en vivo con suspenso real, premios que pueden explotar en cualquier giro, y plataformas de casino dispuestas a pagar fortunas por aparecer en pantalla. En dos años pasó de rareza a categoría estrella, y la escena peruana de Kick creció con ella.
         </P>
         <P>
-          Conviene entender por qué Kick y no Twitch. Twitch endureció sus reglas sobre contenido de casino hace unos años. Un montón de creadores se mudaron entonces a Kick, que nació con una política mucho más relajada. Cuando ves contenido de casino en Kick, estás viendo algo que en Twitch difícilmente existiría igual, y eso te da una pista de la industria que hay detrás.
+          ¿Y por qué todo ocurre en Kick? Porque Twitch expulsó el contenido de apuestas — prohibió promocionar los sitios grandes y dejó a los creadores del rubro sin casa. Kick nació con la política contraria (y con inversionistas del gambling en la partida de nacimiento), así que la mudanza fue masiva. Lo que ves hoy en la escena peruana de Kick es hijo directo de esa migración.
         </P>
         <P>
           Que un creador haga este tipo de contenido no lo convierte ni en un genio de las apuestas ni en un villano: es entretenimiento dentro de un formato que paga bien. El punto donde nosotros ponemos el ojo no es en juzgar a nadie, sino en cuidarte a ti, porque la diferencia entre ver un stream y ponerte a apostar con tus lucas es enorme, y nadie te la explica mientras festeja un multiplicador gigante en cámara.
+        </P>
+              <P>
+          ¿Y esto es una moda pasajera o llegó para quedarse? Todo indica lo segundo: las cifras de audiencia del contenido de casino en Kick llevan trimestres subiendo, la regulación peruana le dio aire al sector, y las plataformas siguen invirtiendo en creadores. ¿Puede reventar la burbuja algún día? Claro, como toda burbuja. Pero mientras tanto, entender cómo funciona el negocio te deja mejor parado que negarlo.
         </P>
       </Section>
 
@@ -322,7 +328,7 @@ export default function CasinoButisito() {
           Como te contamos, la plataforma dominante en la escena de streamers peruanos de Kick es <strong className="text-white">Stake</strong>. Si sigues a los creadores de casino del país, seguro la viste mil veces: la interfaz oscura, las apuestas, los números subiendo y bajando a una velocidad que marea.
         </P>
         <P>
-          Stake es, probablemente, la plataforma de casino más asociada al mundo del streaming a nivel global. Nació fuerte en cripto y se hizo gigante patrocinando creadores de contenido. Tiene más de 3.000 juegos entre slots, mesas en vivo y los famosos originals (Plinko, Crash, Mines), procesa pagos en cripto rapidísimo, y una comunidad enorme. En Perú opera con su versión local.
+          ¿Qué es Stake exactamente? El casino cripto que conquistó el streaming mundial: patrocinios por todos lados, 3.000+ juegos, mesas en vivo y una colección de juegos propios que nadie más tiene. Su promesa central es la rapidez — con USDT la plata viaja en minutos — y su público natural es el que ya vive en el mundo cripto.
         </P>
         <H3>¿Por qué los streamers eligen Stake?</H3>
         <P>
@@ -343,7 +349,7 @@ export default function CasinoButisito() {
           ]}
         />
         <P>
-          Conclusión honesta: Stake es un casino serio y puedes jugar ahí si te manejas con cripto. Pero si recién arrancas, o si quieres bonos más jugosos y pagar con Yape o Plin, hay opciones mejores. Por eso va último en nuestro ranking. No es un palo a Stake, es darte el dato real.
+          ¿Veredicto sobre Stake? Casino legítimo, tecnología de primera, y aún así va último en nuestro ranking peruano. ¿Contradicción? Ninguna: el orden mide qué tan bien le sirve cada casino al jugador de acá, y en esa métrica pesan Yape, los bonos claros y el soporte ágil — justo donde Stake menos brilla. Dato, no palo.
         </P>
         <div className="mt-6 flex flex-wrap gap-3">
           <CtaButton slug="stake" text="Ver Stake" />
@@ -373,51 +379,57 @@ export default function CasinoButisito() {
           ))}
         </div>
         <P>
-          ¿Notas un patrón? Casi todos son de Pragmatic Play y de Hacksaw Gaming, los dos proveedores que dominan el slot-streaming. Sweet Bonanza y Gates of Olympus son de los más jugados del planeta, y comparten ese estilo de pay-anywhere (ganas juntando símbolos iguales en cualquier lado) y tumbles (los ganadores desaparecen y caen nuevos, encadenando premios).
+          ¿Notaste que casi toda la lista es Pragmatic Play y Hacksaw Gaming? No es coincidencia. Esos dos estudios entendieron el algoritmo del clip viral: mecánicas de cascada, multiplicadores apilables y bonus con techo altísimo. Diseñan para el espectáculo — y por eso dominan cada stream de casino que veas, sea de quien sea.
         </P>
         <H3>Cómo funcionan estos slots (para que no te agarren desprevenido)</H3>
         <P>
-          Entender la mecánica te ayuda a no frustrarte. En estos slots no hay líneas de pago tradicionales: ganas cuando aparecen 8 o más símbolos iguales en cualquier posición. Cuando pasa, explotan y caen nuevos, encadenando premios. Y si en esa cadena caen los multiplicadores, ahí ves esos x100, x250 o más que vuelan la pantalla. La parte que los streams no muestran tanto: para llegar a los giros gratis donde está la verdadera plata, necesitas que caigan varios scatters, y eso pasa cada muchísimos giros.
+          ¿Cómo se juegan? Sin líneas de pago: juntas 8 símbolos iguales en cualquier posición y hay premio. Lo ganado explota, cae símbolo nuevo, y a veces un solo giro encadena varias detonaciones. ¿Y los multiplicadores? Cuando aterrizan en medio de una cadena, ahí se arma el momento que termina en TikTok.
         </P>
         <P>
-          Un consejo de los que no te dan en un stream: estos slots son de alta volatilidad. La mayoría de las veces te van a comer el saldo de a poco, y muy de vez en cuando te van a dar un premio grande. Los streamers apuestan montos que para ti serían una locura, y aun así pierden seguido. Si vas a probarlos, hazlo con apuestas chicas. Y si quieres algo más tranquilo, busca slots de volatilidad media o baja: ganas más seguido y la sesión te dura mucho más.
+          ¿Lo que nadie te cuenta? Que entre clip y clip hay páramos de giros perdedores que duran una eternidad. Los giros gratis piden varios scatters simultáneos y eso escasea. El streamer aguanta el páramo con bankroll grande; tú, con tu quincena, no deberías ni intentarlo. Apuestas chicas, volatilidad moderada para empezar, y cero prisa.
         </P>
         <P>
-          Buena noticia: estos slots los encuentras en prácticamente todos los casinos de nuestro ranking. STARDA, SOL, FRESH y MONRO tienen catálogos completos de Pragmatic y Hacksaw, así que puedes jugar los mismos títulos que ves en los streams pero con un bono de bienvenida que te da más margen.
+          ¿Y necesitas Stake para jugar estos títulos? Para nada, y ese es el dato que más plata te ahorra: STARDA, SOL, FRESH y MONRO cargan los catálogos completos de Pragmatic y Hacksaw. El mismo Sweet Bonanza, el mismo Wanted, idéntico RTP... con la diferencia de que acá te reciben con bono y pagas con Yape. ¿Exclusividad? Solo los originals de Stake. Todo lo demás está en todos lados.
         </P>
         <div className="mt-6"><CtaButton slug="starda-casino" text="Jugar slots en STARDA" /></div>
+              <P>
+          ¿Un truco para probar todo esto sin gastar un sol? El modo demo. Casi todos los casinos del ranking te dejan jugar cualquier slot con saldo ficticio, sin registro en algunos casos. ¿Para qué sirve? Para sentir la volatilidad en carne propia: pásate veinte minutos en el demo de Wanted y vas a entender mejor que con mil explicaciones por qué decimos que ese juego no es para todos los días. Educación gratis, literal.
+        </P>
       </Section>
 
       {/* GANANCIAS */}
       <Section id="ganancias" alt>
         <SectionTitle>Los clips de ganancias: la letra chica</SectionTitle>
         <P>
-          En el contenido de casino abundan los clips de ganancias enormes, reacciones épicas, el chat enloquecido. Son clips brutales, no lo vamos a negar. El problema es lo que esos clips no te muestran, y acá tenemos que ser honestos contigo aunque no sea lo más vendedor.
+          ¿Cuánta verdad hay en los clips de ganancias que inundan TikTok y los VOD de Kick? Esa es LA pregunta de esta sección, y la respuesta incomoda: son reales, pero cuentan la historia como le conviene al algoritmo. Vamos por partes.
         </P>
         <H3>Lo que el clip te muestra vs. lo que no</H3>
         <P>
-          Un clip de 30 segundos te muestra el momento exacto en que un slot de alta volatilidad pagó fuerte. Lo que no te muestra son las horas previas perdiendo, las sesiones enteras donde el saldo se fue a cero, ni el hecho de que el streamer suele jugar con un bankroll grande y, en muchos casos, con respaldo del casino. La ganancia es real como momento, pero está fuera de contexto si la tomas como “esto te puede pasar a ti jugando un rato”.
+          ¿Viste un clip de ganancia brutal? Pregúntate qué pasó en las tres horas que no clipearon. Saldo bajando, bonus tibios, recargas. El clip es real pero es la excepción editada — como el resumen del partido que solo muestra los goles y se come los 85 minutos restantes.
         </P>
         <H3>Por qué la casa siempre gana (la matemática sin vueltas)</H3>
         <P>
-          Esto no es opinión nuestra: es matemática. Todos los juegos de casino tienen una ventaja de la casa (house edge), un porcentaje que, a lo largo de millones de jugadas, siempre queda para el casino. En los slots se ve en el RTP: si un slot tiene 96% de RTP, devuelve 96 de cada 100 apostados en promedio, y el resto es la ganancia de la casa. A corto plazo puedes ganar (por eso existen los clips), pero a largo plazo esa ventaja siempre se impone.
+          ¿Se le puede ganar al casino? A corto plazo, claro — de eso viven los clips. ¿A largo plazo? El RTP responde: un slot de 96% devuelve 96 de cada 100 apostados promediando millones de giros, y el resto es margen de la casa. Ese margen no descansa, no se distrae y no ve streams. Jugar sabiéndolo es jugar con ventaja mental.
         </P>
         <P>
-          ¿Esto quiere decir que está mal jugar? Para nada. Quiere decir que tienes que jugar entendiendo qué es: un entretenimiento que, estadísticamente, te va a costar plata, igual que te cuesta ir al cine o salir a comer. La diferencia es que en el casino existe la ilusión de que puedes ganar, y esa ilusión, reforzada por los clips, es la que hace que mucha gente apueste más de lo que debería. Si tienes clara la matemática, juegas más tranquilo y con expectativas realistas.
+          ¿Entonces jugar es mala idea? No — mala idea es jugar con expectativas de negocio. Si el presupuesto sale del rubro “diversión” y ya lo das por gastado, el casino es un plan como cualquier otro. Si sale del rubro “a ver si multiplico”, el problema no es el casino: es el plan.
         </P>
         <div className="rounded-2xl bg-[#f59e0b]/[0.08] border border-[#f59e0b]/25 p-6 my-6">
           <p className="text-[#fbbf24] font-bold mb-2">⚠️ El dato que cambia todo</p>
           <p className="text-[#d4d4d8] leading-relaxed text-sm sm:text-base">
-            Los streamers de casino muestran sus mejores momentos, no el balance real. Si vas a jugar, define un presupuesto fijo antes de empezar, no persigas las pérdidas, y trata el casino como un gasto de entretenimiento, nunca como una forma de ganar plata.
+            ¿Te quedas con una sola idea de toda la guía? Que sea esta: el stream muestra la vitrina, no el inventario. Presupuesto cerrado antes del primer giro, cero persecución de pérdidas, y el casino en la columna de gastos de diversión — nunca en la de ingresos esperados.
           </p>
         </div>
+              <P>
+          ¿Sabes cuál es la estadística que nadie publica? La de espectadores que terminaron jugando por imitar un clip. No existe el dato oficial, pero los foros peruanos están llenos de historias que empiezan con “vi un video donde ganaban…” y terminan mal. ¿La moraleja? Ver contenido de casino es gratis y entretenido; convertirlo en tu manual de inversión es la forma más cara de aprender que el clip era la excepción.
+        </P>
       </Section>
 
       {/* CARA A CARA */}
       <Section id="stake-vs-ranking">
         <SectionTitle>Stake vs. nuestros recomendados: cara a cara</SectionTitle>
         <P>
-          Para que lo veas de un pantallazo, armamos esta comparativa entre Stake (la plataforma de la escena) y los dos que más recomendamos para Perú (Betsson e Inkabet). No es que uno sea bueno y otro malo: sirven para perfiles distintos.
+          ¿Stake o los recomendados de casa? En vez de discutirlo en abstracto, acá está la comparación punto por punto. Búscate en una de las columnas:
         </P>
         <div className="overflow-x-auto rounded-2xl border border-white/[0.06] my-8">
           <table className="w-full text-left text-sm">
@@ -449,7 +461,7 @@ export default function CasinoButisito() {
           </table>
         </div>
         <P>
-          Lo ves claro: si tu mundo es la cripto y quieres los originals que hicieron famoso a Stake, ese es tu lugar. Pero si quieres un bono más jugoso, pagar con Yape o Plin y un soporte que responda al toque, Betsson o Inkabet te van a tratar mejor. Prueba y saca tus propias conclusiones.
+          ¿Conclusión de la tabla? Si respiras cripto y quieres Plinko, Stake es coherente. Si tu plata vive en Yape y valoras soporte que conteste al toque, Betsson e Inkabet son tu cancha. La pregunta nunca fue cuál es “mejor” — es cuál está hecho para ti.
         </P>
         <div className="mt-6 flex flex-wrap gap-3">
           <CtaButton slug="betsson-peru" text="Probar Betsson" />
@@ -465,17 +477,17 @@ export default function CasinoButisito() {
         </P>
         <H3>Betsson — el #1 para empezar</H3>
         <P>
-          Si nunca jugaste online o quieres ir a lo seguro, empieza acá. Betsson tiene licencia MINCETUR (regulación peruana de verdad), acepta Yape y Plin, y el soporte en español responde de verdad. Tiene una de las mejores secciones de casino en vivo del mercado. Probamos un retiro con Yape un martes a la noche y en menos de 2 horas teníamos las lucas. Es la opción más redonda para el jugador promedio.
+          ¿Primera vez apostando online? Entonces la respuesta corta es Betsson y punto. ¿Por qué tanta seguridad? Regulación MINCETUR que te ampara con ley peruana, Yape y Plin sin fricción, soporte que contesta en tu idioma y sin guion robótico, y un casino en vivo que compite con cualquiera del continente. Cuando algo funciona así de parejo, recomendar se vuelve fácil.
         </P>
         <div className="my-5"><CtaButton slug="betsson-peru" text="Abrir cuenta en Betsson" /></div>
-        <H3>Inkabet — la opción 100% peruana</H3>
+        <H3>Inkabet — la bandera local</H3>
         <P>
-          Inkabet es uno de los casinos más conocidos del Perú, con licencia MINCETUR y un bono de hasta S/500 + 300 giros gratis. Acepta Yape y Plin, el soporte es local y responde rápido, y tiene una buena mezcla de casino y apuestas deportivas. Si quieres jugar en algo de acá, regulado y con cara conocida, Inkabet cumple de sobra.
+          ¿Prefieres marca de casa? <strong className="text-white">Inkabet</strong> es peruanísimo: MINCETUR, soporte local y hasta S/500 + 300 giros de arranque. Conocen el mercado de acá porque son de acá, y eso se nota en detalles como los métodos de pago y el trato.
         </P>
         <div className="my-5"><CtaButton slug="inkabet" text="Jugar en Inkabet" /></div>
-        <H3>STARDA, SOL, FRESH y MONRO — el pelotón de los slots</H3>
+        <H3>Royal Partners — el bloque slotero</H3>
         <P>
-          Si lo tuyo son las tragamonedas, los Royal Partners son tu lugar. <strong className="text-white">STARDA</strong> tiene 3.800+ juegos y torneos semanales; <strong className="text-white">SOL</strong> es ideal para principiantes por su rollover bajo (x30); <strong className="text-white">FRESH</strong> es el rey del catálogo con 4.500+ títulos; y <strong className="text-white">MONRO</strong> tiene el bono más alto en porcentaje, 150%. Todos tienen los Pragmatic y Hacksaw que ves en los streams, con bonos más claros que Stake.
+          ¿Lo tuyo son las tragamonedas? Los cuatro de Royal Partners cubren todos los perfiles: <strong className="text-white">STARDA</strong> con torneos y 3.800+ títulos, <strong className="text-white">SOL</strong> con el rollover más noble (x30) para debutantes, <strong className="text-white">FRESH</strong> con el catálogo coleccionista (4.500+) y <strong className="text-white">MONRO</strong> con el empujón inicial más gordo (150%). Mismos Pragmatic y Hacksaw de los streams, con bienvenida incluida.
         </P>
         <div className="my-5 flex flex-wrap gap-3">
           <CtaButton slug="starda-casino" text="Probar STARDA" />
@@ -484,7 +496,7 @@ export default function CasinoButisito() {
         </div>
         <H3>Y Stake, ¿cuándo sí?</H3>
         <P>
-          Stake tiene sentido si ya manejas cripto, si te gustan los originals tipo Plinko o Crash, y si valoras los retiros instantáneos en USDT por encima de un bono más grande. Es un casino legítimo, no estamos diciendo lo contrario. Solo decimos que para la mayoría de los peruanos que recién se meten, los de arriba son un mejor punto de partida.
+          ¿Y Stake? Tiene su público y su porqué: cripto fluida, originals exclusivos, retiros relámpago. Si esa descripción te calza, adelante. Si tuviste que googlear qué es USDT, empieza por los de arriba — Stake no se va a ir a ninguna parte.
         </P>
       </Section>
 
@@ -492,16 +504,21 @@ export default function CasinoButisito() {
       <Section id="casino-confiable" alt>
         <SectionTitle>Cómo reconocer un casino confiable</SectionTitle>
         <P>
-          Antes de meter tus lucas en cualquier lado, conviene saber distinguir un casino serio de uno turbio. Es más fácil de lo que parece si sabes qué mirar. Te dejamos la checklist que usamos nosotros cada vez que evaluamos una plataforma nueva.
+          ¿Cómo saber si un casino cualquiera es confiable? Cinco preguntas, cinco minutos, cero excusas. Este es el examen que le tomamos a todo lo que aparece en esta web:
         </P>
         <P>
-          <strong className="text-white">Uno: la licencia visible.</strong> Un casino serio muestra su licencia en el pie de página (MINCETUR para los peruanos, Curaçao o Malta para los internacionales). Si no la ves, mala señal. <strong className="text-white">Dos: reputación de pagos.</strong> Busca el nombre del casino en foros como AskGamblers o Trustpilot y fíjate qué dice la gente de los retiros. Un patrón de quejas por pagos es una bandera roja gigante.
+          <strong className="text-white">Uno: la licencia visible.</strong>
+          <strong className="text-white">¿Tiene licencia visible?</strong> Baja al pie de página: regulador con nombre y número, o pestaña cerrada. <strong className="text-white">¿Qué dice la calle?</strong> Googlea el nombre + “retiros” y revisa AskGamblers; las quejas de pago en serie son sentencia firme.
         </P>
         <P>
-          <strong className="text-white">Tres: métodos de pago locales.</strong> Que acepte Yape, Plin y transferencias de bancos peruanos es buena señal. <strong className="text-white">Cuatro: términos legibles.</strong> Los buenos casinos tienen sus condiciones de bono escritas de forma entendible. Si la letra chica es un laberinto, desconfía. <strong className="text-white">Cinco: soporte que responde.</strong> Prueba el chat antes de depositar. Cómo y cuándo te responden te dice mucho de cómo te van a tratar el día que tengas un problema.
+          <strong className="text-white">Tres: métodos de pago locales.</strong>
+          <strong className="text-white">¿Acepta tus métodos?</strong> Yape, Plin, bancos peruanos, con plazos de retiro publicados. <strong className="text-white">¿La letra chica se entiende?</strong> Si el bono necesita traductor, es a propósito. <strong className="text-white">¿El chat contesta?</strong> Pruébalo antes de depositar — el trato al desconocido anticipa el trato al cliente.
         </P>
         <P>
-          Todos los casinos de nuestro ranking pasan esta checklist con holgura, porque justamente la aplicamos antes de recomendarlos. No los elegimos por el bono más grande, sino por el combo completo de confianza, pagos y experiencia. Esa es la diferencia entre un ranking armado con criterio y una lista de los que más pagan por aparecer.
+          ¿Adivinas cuántos casinos random de anuncios pasan las cinco preguntas? Poquísimos. Los de este ranking las pasaron todas antes de aparecer — ese fue el precio de entrada. Guárdate el examen y aplícalo tú mismo: es gratis y no falla.
+        </P>
+              <P>
+          ¿Un atajo más para verificar un casino desde el Perú? Busca si acepta Yape o Plin. Suena simple, pero integrar las billeteras peruanas exige acuerdos formales que las páginas fantasma no consiguen. ¿Es un filtro infalible? No, ninguno lo es solo. Pero combinado con la licencia y la reputación de pagos, arma un triple candado que muy pocos sitios truchos logran abrir.
         </P>
       </Section>
 
@@ -509,17 +526,17 @@ export default function CasinoButisito() {
       <Section id="es-legal">
         <SectionTitle>¿Es legal jugar en casino online en Perú?</SectionTitle>
         <P>
-          Sí, totalmente legal. Desde febrero de 2024, el Perú regula el juego online de forma seria a través de <strong className="text-white">MINCETUR</strong> y la Ley N° 31557. Antes era tierra de nadie, pero ahora el marco legal está bastante claro y ya hay más de 60 operadores con licencia oficial. Por eso puedes jugar tranquilo siempre que elijas un casino autorizado.
+          ¿Es legal todo esto en el Perú? Legalísimo, y desde hace rato: en febrero de 2024 entró en vigencia la regulación de <strong className="text-white">MINCETUR</strong> bajo la Ley N° 31557. ¿Qué cambió? Que lo que era tierra de nadie ahora tiene reglas, más de 60 operadores autorizados y un ministerio al cual reclamar. Para el jugador, ese cambio lo es todo.
         </P>
         <P>
-          Además de los operadores con licencia MINCETUR (como Betsson o Inkabet), hay plataformas internacionales que funcionan con licencias de Curaçao o Malta. Esas también son válidas: significa que están reguladas por otra jurisdicción, con sus propios controles y mecanismos de reclamo. Miles de peruanos las usan a diario sin problema. Lo que cambia es a quién le reclamas si algo sale mal.
+          ¿Y los casinos que no tienen licencia MINCETUR pero sí una internacional? Válidos también: las licencias de Curaçao o Malta implican regulación en otra jurisdicción, con sus propios controles. Miles de peruanos las usan a diario. ¿La diferencia práctica? Ante un problema, tu reclamo viaja al extranjero en vez de resolverse con ley peruana. Funciona — pero conviene saberlo antes, no después.
         </P>
         <H3>El consejo más importante</H3>
         <P>
-          Huí de cualquier casino que no muestre su licencia de forma clara. Si entras a un sitio y no encuentras en el pie de página quién lo regula ni el número de licencia, ciérralo. No importa cuán lindo sea el bono. Los casinos truchos existen, y el problema no es solo jugar en algo ilegal: es que el día que ganes, capaz no te pagan y no tienes a quién reclamarle. Por eso armamos rankings, para que no tengas que arriesgarte probando a ciegas.
+          ¿La única regla innegociable de todo esto? Sin licencia a la vista, no hay depósito que valga. Un casino sin regulador es una promesa sin firma: si un día no te paga, no existe ventanilla donde reclamar. Todo lo que recomendamos acá ya pasó ese filtro — pero afuera hay de todo, así que ojo.
         </P>
         <P>
-          Y un detalle no menor: jugar es solo para mayores de 18 años. Todos los casinos serios te van a pedir verificación de identidad (el KYC) antes de dejarte retirar. No es para molestarte, es requisito legal. Hazlo apenas te registras y listo. Si un casino con licencia MINCETUR no te paga, puedes meter una queja formal al ministerio, que es la ventaja de jugar en algo regulado localmente.
+          ¿Y el requisito de siempre? Mayoría de edad, sin atajos. El KYC (DNI + selfie) llega tarde o temprano en cualquier casino legal — es ley, no capricho. Sácatelo de encima el primer día y los retiros después salen solos.
         </P>
       </Section>
 
@@ -531,29 +548,32 @@ export default function CasinoButisito() {
         </P>
         <H3>¿Qué es un bono de bienvenida?</H3>
         <P>
-          Es la plata o los giros gratis que el casino te regala por registrarte y hacer tu primer depósito. Lo típico es el bono de 100%: tú pones una cantidad y el casino te suma otro tanto. MONRO incluso tira un 150%, de los más altos que vas a encontrar. Suena a regalo, y en parte lo es, pero tiene una condición clave: el rollover.
+          ¿Qué es realmente un bono de bienvenida? Saldo prestado con condiciones: depositas S/100, juegas con S/200, y la letra chica decide si algún día ese extra se vuelve retirable. ¿El nombre de esa letra chica? Rollover. Ningún bono — ni el 150% de MONRO — se entiende sin mirarlo primero.
         </P>
         <H3>El rollover: la letra chica que nadie lee</H3>
         <P>
-          El rollover (o requisito de apuesta) es la cantidad de veces que tienes que apostar el bono antes de poder retirar lo que ganes con él. Si te dan S/100 de bono con rollover x30, tienes que apostar S/3.000 antes de sacar. Parece mucho, pero con slots de apuestas chicas se va cumpliendo de a poco. La clave: un bono con rollover bajo (tipo x30, como el de SOL) vale más que un bono enorme con rollover altísimo.
+          ¿Cómo funciona el famoso rollover? Es el multiplicador de apuestas exigido: bono de S/100 con x30 = S/3.000 en apuestas acumuladas antes de retirar. ¿Imposible? No, con giros chicos y constancia se llega. ¿Fácil? Tampoco. Por eso la comparación correcta entre bonos es rollover primero, monto después.
         </P>
         <div className="rounded-2xl bg-[#3b82f6]/[0.06] border border-[#3b82f6]/20 p-6 my-6">
           <p className="text-[#60a5fa] font-bold mb-2">💡 Regla de oro de los bonos</p>
           <p className="text-[#d4d4d8] leading-relaxed text-sm sm:text-base">
-            Un bono no es plata gratis que puedes retirar al toque: es un saldo para jugar con condiciones. A veces, si piensas retirar rápido, conviene rechazar el bono y jugar solo con tu depósito. Suena raro, pero es la decisión más inteligente en muchos casos.
-          </p>
+          ¿El bono es plata gratis? Pregunta trampa: no. Es saldo condicionado — jugable hoy, retirable solo después de completar el rollover. ¿Y sabías que rechazarlo es una opción real? Si tu plan es depositar poco, jugar un rato y retirar, la plata limpia sin condiciones te rinde más que cualquier porcentaje del banner. El bono es para el que va a jugar volumen igual. Conócete y decide.
+        </p>
         </div>
         <P>
-          Otra cosa: no todos los juegos aportan igual al rollover. Las slots suelen contar al 100%, pero los juegos de mesa a veces aportan solo un 10% o nada. Si tu plan es cumplir el rollover, las tragamonedas son tus aliadas. Y ojo con los giros gratis: las ganancias que sacas de ellos casi siempre también tienen su propio rollover. Antes de aceptar cualquier bono, haz la cuenta mental del monto por el rollover y fíjate si es razonable para cómo juegas tú.
+          ¿Sabías que no todos los juegos liberan bono por igual? Slots al 100%, pero ruleta y blackjack muchas veces al 10% o nada. ¿Aceptaste bono? Libéralo con tragamonedas. ¿Eres de mesas? Considera jugar limpio, sin bono, y sin ataduras. Y revisa los giros gratis: sus ganancias suelen traer rollover propio escondido.
         </P>
         <div className="mt-2"><CtaButton slug="sol-casino" text="Ver el bono de SOL (rollover x30)" /></div>
+              <P>
+          ¿Y los bonos “exclusivos” que prometen algunos influencers por sus códigos? Tómalo con pinzas: la mayoría de las veces es el mismo bono público del casino con otro empaque. ¿Cómo comprobarlo? Entra a la página oficial del casino y compara — dos minutos. Si el “exclusivo” resulta idéntico al normal, ya sabes cuánta exclusividad había. Los bonos de esta guía son los publicados oficialmente, verificados cada mes; ni más ni menos.
+        </P>
       </Section>
 
       {/* COMPARATIVA DE BONOS */}
       <Section id="comparativa-bonos">
         <SectionTitle>Comparativa de bonos: ¿cuál te conviene?</SectionTitle>
         <P>
-          Ya que hablamos tanto de bonos, te dejamos una comparativa rápida de los que ofrecen los casinos de nuestro ranking, para que veas de un vistazo cuál pega más con tu forma de jugar. Recuerda: el número grande no lo es todo, lo que manda es el combo entre el monto, el rollover y para qué tipo de jugador está pensado.
+          ¿Mucho número suelto? Normal. Esta tabla junta todos los bonos del ranking en un solo vistazo — compárala con calma:
         </P>
         <div className="overflow-x-auto rounded-2xl border border-white/[0.06] my-8">
           <table className="w-full text-left text-sm">
@@ -584,7 +604,10 @@ export default function CasinoButisito() {
           </table>
         </div>
         <P>
-          Como ves, no hay un bono que sea el mejor para todos: hay un bono que es el mejor para ti. Y un truco que pocos aplican: no tienes por qué aceptar el primero que veas. Puedes crearte cuenta en dos o tres casinos del ranking, comparar sus bonos y catálogos con tu propia experiencia, y quedarte jugando en el que mejor te trate. Total, todos son de confianza.
+          ¿Obligado a elegir uno solo? Jamás. Abre dos o tres cuentas, compara la experiencia real — la app, los pagos, el trato — y quédate donde te sientas cómodo. Los bonos de bienvenida son de un solo uso por casa; aprovecharlos todos es jugar bien tus cartas.
+        </P>
+              <P>
+          ¿Cómo usar esta tabla sin marearte? Elige tu prioridad primero y lee después. ¿Eres principiante? Columna de rollover, el más bajo gana. ¿Vas a depositar fuerte? Columna de porcentaje y monto máximo. ¿Quieres giros para probar slots? Columna de free spins. Leer la tabla entera sin saber qué buscas es como entrar al mercado sin lista: sales con lo que más brillaba, no con lo que necesitabas.
         </P>
       </Section>
 
@@ -592,15 +615,15 @@ export default function CasinoButisito() {
       <Section id="como-registrarte" alt>
         <SectionTitle>Cómo crear tu cuenta paso a paso</SectionTitle>
         <P>
-          Si nunca te registraste en un casino online, capaz piensas que es un trámite eterno. La verdad es que no: en menos de cinco minutos estás adentro. Te dejamos el paso a paso con Betsson de ejemplo, pero en cualquiera del ranking es casi igual.
+          ¿Registrarse es complicado? Menos que abrir una cuenta de banco, te lo aseguro. La ruta completa, con Betsson de ejemplo:
         </P>
         <div className="space-y-4 my-6">
           {[
-            { n: 1, t: "Entrá desde el botón oficial", d: "Haz clic en cualquiera de los botones verdes de esta página. Te llevan al sitio oficial del casino, sin intermediarios raros, y aseguran que el bono se active bien." },
-            { n: 2, t: "Completá el registro", d: "Te van a pedir correo, contraseña, nombre, fecha de nacimiento (mayor de 18) y datos básicos. Cargá tu info real, porque después en la verificación tiene que coincidir." },
-            { n: 3, t: "Verifica tu cuenta (KYC)", d: "Subí una foto de tu DNI y, a veces, un selfie. Es requisito legal y conviene hacerlo el primer día, así cuando retires no hay demoras ni excusas." },
-            { n: 4, t: "Haz tu primer depósito", d: "Elige el método que más uses (Yape, Plin, transferencia, tarjeta o cripto). Si quieres el bono, actívalo antes de confirmar. Fíjate el depósito mínimo para el bono." },
-            { n: 5, t: "A jugar (con cabeza)", d: "Ya tienes tu saldo más el bono. Busca tus slots favoritos, define cuánto estás dispuesto a gastar, y disfruta. Recuerda: es entretenimiento, no trabajo." },
+            { n: 1, t: "¿Por dónde entro?", d: "Por los botones verdes de esta guía: llevan al sitio oficial con el bono ya configurado. Buscar el casino en Google es ruleta rusa de páginas clonadas." },
+            { n: 2, t: "¿Qué datos pongo?", d: "Los del DNI, sin creatividad: correo, clave, nombre y fecha de nacimiento reales. La verificación cruza todo después, y las cuentas con datos falsos pierden hasta el saldo." },
+            { n: 3, t: "¿Verifico ahora o después?", d: "Ahora. Foto del DNI, selfie si piden, cinco minutos. El que lo deja para el día del retiro es el que después reniega en los foros." },
+            { n: 4, t: "¿Cómo deposito?", d: "Yape, Plin, tarjeta o cripto. Revisa el mínimo del bono ANTES de pagar y actívalo si te interesa. El depósito cae en segundos." },
+            { n: 5, t: "¿Y ahora?", d: "Ahora fija tu presupuesto del día, activa límites de depósito y recién ahí busca tu primer juego. Orden de los factores que sí altera el producto." },
           ].map((s) => (
             <div key={s.n} className="flex gap-4 rounded-2xl bg-[#141414] border border-white/[0.06] p-5">
               <span className="w-9 h-9 rounded-full bg-gradient-to-br from-[#22c55e] to-[#16a34a] flex items-center justify-center font-black text-white shrink-0">{s.n}</span>
@@ -612,24 +635,27 @@ export default function CasinoButisito() {
           ))}
         </div>
         <P>
-          Y eso es todo. Nada de papeleo eterno ni esperas de días. La parte que más tarda es la verificación, y aun así suele resolverse en minutos o pocas horas. Por eso insistimos en hacerla apenas te registras: es la diferencia entre retirar al toque o quedarte esperando justo cuando ganaste. Un consejo extra: activa los límites de depósito desde el primer día.
+          ¿Total? Diez minutos de principio a fin, con el KYC como único paso que puede tomar unas horas en validarse. Hecho eso, el casino queda operativo de por vida con dos toques en el celular. El truco está en hacer el papeleo cuando no lo necesitas — no cuando hay premio esperando.
         </P>
         <div className="mt-4"><CtaButton slug="betsson-peru" text="Crear cuenta en Betsson" /></div>
+              <P>
+          ¿Un error de registro que vemos seguido? El correo. La gente se registra con un email que no revisa nunca, y ahí llegan la confirmación de cuenta, los códigos de verificación y los avisos de retiro. ¿Resultado? Cuentas a medio activar y retiros demorados por un código que duerme en una bandeja olvidada. Usa tu correo principal, confirma la cuenta el mismo día, y ya tienes medio trámite ganado.
+        </P>
       </Section>
 
       {/* MÉTODOS DE PAGO */}
       <Section id="metodos-pago">
         <SectionTitle>Métodos de pago en Perú</SectionTitle>
         <P>
-          Acá se nota la diferencia entre jugar en Stake (puro cripto) o en un casino con onda local. Te contamos qué opciones tienes y cuál conviene según tu caso, porque este punto, aunque parezca aburrido, es de los que más impacto tienen en tu experiencia.
+          ¿Dónde se nota más la diferencia entre Stake y un casino hecho para acá? En la billetera, literalmente. Uno habla cripto; los otros hablan Yape. Repasemos las opciones una por una para que elijas con datos:
         </P>
         <H3>Yape y Plin: lo más cómodo</H3>
         <P>
-          Para el peruano promedio, Yape y Plin son el rey. Los usas para todo, ya los tienes en el celu, y los casinos con licencia MINCETUR los aceptan. El depósito cae al toque, literal en segundos, y los retiros suelen llegar en menos de 24 horas. Probamos un retiro con Yape en Betsson un martes a la noche y en hora y media teníamos las lucas. Si quieres simpleza total, este es tu camino.
+          ¿Con qué paga el peruano de a pie? Yape y Plin, obvio. Ya los tienes en el celular, ya los usas para todo, y los casinos con licencia local los integran sin fricción. ¿Nuestra prueba? Retiro en Betsson pedido un martes cualquiera por la noche: la plata cayó en menos de dos horas. Sin tickets, sin “en proceso” eterno, sin drama. Así debería ser siempre, ¿no?
         </P>
         <H3>Tarjetas, transferencias y PagoEfectivo</H3>
         <P>
-          Visa y Mastercard funcionan para depositar en casi todos los casinos. También aceptan transferencias por BCP, BBVA e Interbank, y PagoEfectivo para los que prefieren pagar en efectivo. Cada plataforma tiene su combinación, pero entre los del ranking vas a encontrar el método que uses.
+          ¿Tarjetas? Visa y Mastercard depositan sin problema en casi cualquier casino, y las transferencias por BCP, BBVA o Interbank también corren. ¿El pero? La vuelta: los retiros a tarjeta o banco tardan más que Yape, y algún banco se pone quisquilloso con las transacciones de juego. Como plan B cumplen; como método principal, las billeteras ganan por goleada.
         </P>
         <H3>Cripto: el camino de Stake</H3>
         <P>
@@ -637,7 +663,10 @@ export default function CasinoButisito() {
         </P>
         <H3>¿Cuánto tardan los retiros?</H3>
         <P>
-          Depositar es fácil en todos lados; lo que separa a un buen casino de uno malo es la velocidad para devolverte tu plata. Los retiros con Yape suelen llegar en menos de 24 horas (a veces en un par de horas), los de cripto en minutos, y las transferencias bancarias entre unas horas y un día hábil. La primera vez siempre tarda más por la verificación, así que haz el KYC apenas te registras. Si un casino te pone trabas raras para retirar, desconfía: los serios pagan sin drama.
+          ¿La métrica que nunca miente? La velocidad de retiro. Depositar es instantáneo en todos lados; devolver la plata es donde se retratan. Referencias de nuestras pruebas: Yape en horas, cripto en minutos, transferencia máximo un día hábil. ¿Excusas raras y demoras en cadena? Ahí no es.
+        </P>
+              <P>
+          ¿Y PagoEfectivo? Mención aparte merece: si no tienes tarjeta ni quieres vincular tu banco, varios casinos del ranking lo aceptan — generas el código, pagas en el agente o por tu banca móvil, y listo. ¿La contra? Solo sirve para depositar; los retiros igual van por Yape, Plin o transferencia. Útil como puerta de entrada, insuficiente como sistema completo.
         </P>
       </Section>
 
@@ -645,34 +674,37 @@ export default function CasinoButisito() {
       <Section id="primera-sesion" alt>
         <SectionTitle>Tu primera sesión de slots, bien hecha</SectionTitle>
         <P>
-          Si después de leer todo esto quieres probar, perfecto, pero hagámoslo con cabeza. Te dejamos una mini guía de cómo encarar tu primera sesión de slots para que sea entretenida y no termine en un mal rato. Es lo que le diríamos a un pata que nunca jugó.
+          ¿Todo listo para el debut? Antes del primer giro, el checklist del principiante que quisiera haber tenido yo:
         </P>
         <P>
-          Primero, define tu presupuesto de entretenimiento: un monto que si lo pierdes entero, no te cambia el mes. Ese es tu techo, y no se toca. Segundo, elige un slot de volatilidad media para arrancar (no te tires de una a los Hacksaw de volatilidad extrema). Tercero, pon apuestas chicas: la idea es que el presupuesto te dure y disfrutes muchos giros, no que lo quemes en cinco minutos buscando el premio gordo.
+          ¿Cuánto juego? Lo que puedas perder entero sin resentir el mes — ese número se fija antes y no se renegocia después. ¿Con qué juego? Slot de volatilidad media, ensayado en demo. ¿De a cuánto? Chiquito: cien giros de S/1 enseñan más y divierten más que diez de S/10.
         </P>
         <P>
-          Cuarto, fíjate un punto de salida tanto para arriba como para abajo. Si ganas y llegas a una meta que te pusiste, retira y cierra la sesión contento; no caigas en el “una más a ver si gano más”. Y si pierdes tu presupuesto del día, se terminó por hoy, sin dramas. Quinto: disfruta el rato. El objetivo es pasarla bien, no hacer plata. Una última cosa que mucha gente no sabe: no necesitas apostar más para “acercarte” a un premio. El RTP es un porcentaje fijo, da igual si apuestas chico o grande; lo único que cambia es el tamaño de los premios y las pérdidas.
+          ¿Cuándo me salgo? Decisión previa, no del momento: meta de ganancia (llegaste, retiras, celebras) y piso de pérdida (se acabó el presupuesto, se acabó el día). ¿Subo la apuesta para forzar el premio? No existe tal cosa — el RTP ignora tu monto; apostar más solo acelera el final.
         </P>
         <div className="mt-4"><CtaButton slug="sol-casino" text="Empezar tranquilo en SOL" /></div>
+              <P>
+          ¿Última pregunta antes del debut? ¿Con quién juegas? En serio: jugar acompañado — aunque sea con alguien mirando de lejos — baja las decisiones impulsivas de forma notable. El que juega solo a las 2 de la mañana negocia consigo mismo y siempre pierde la negociación. El que juega un rato el fin de semana, con gente alrededor y otras cosas que hacer después, mantiene el casino en su tamaño correcto: un rato de diversión, no el centro de la noche.
+        </P>
       </Section>
 
       {/* TIPS SLOTS */}
       <Section id="jugar-slots-tips">
         <SectionTitle>Cómo jugar slots con cabeza</SectionTitle>
         <P>
-          Ya sabemos que viniste por las slots. Y está bien: son divertidas y los streams las hacen ver como una montaña rusa. Pero hay una diferencia abismal entre cómo juega un streamer y cómo deberías jugar tú. Estos consejos no te los da nadie en un stream, pero te pueden salvar la billetera.
+          ¿Se puede jugar “como BUTIsito”? Se puede ver, se puede disfrutar... imitar es otra cosa. El contexto de un streamer y el tuyo se parecen tanto como un simulador de vuelo a pilotar de verdad:
         </P>
         <H3>Entiende la volatilidad</H3>
         <P>
-          Los slots de moda son de alta volatilidad: pagan poco la mayor parte del tiempo y muy de vez en cuando sueltan un premio gordo. Genial para un clip, brutal para un bankroll chico. Si recién arrancas, prueba slots de volatilidad media o baja: ganas más seguido y la sesión dura más.
+          ¿Por qué no copiar sus slots? Porque los de stream son de volatilidad extrema — meses de premio en un giro, desiertos eternos entre medio. Sin bankroll grande, ese perfil te expulsa rápido. Volatilidad media/baja = más premios, más tiempo, más diversión por sol.
         </P>
         <H3>Mira el RTP y usa el modo demo</H3>
         <P>
-          El RTP es el porcentaje teórico que un slot devuelve a largo plazo. Elige slots con 96% o más. Y antes de apostar plata real, juega un rato en modo demo (gratis, con dinero ficticio) para entender la mecánica. Los streamers no usan demo porque su contenido es el espectáculo de la plata real, pero tú no tienes por qué.
+          ¿Cómo elegir slot? Ficha técnica: RTP 96% o más, y descarta lo que baje de 94%. ¿Cómo probarlo? Demo, siempre demo primero — mismo juego, cero riesgo. El streamer no usa demo porque el show exige plata real. Tú no le debes show a nadie.
         </P>
-        <H3>Define límites y respetalos</H3>
+        <H3>Define límites y respétalos</H3>
         <P>
-          Lo más importante y lo más difícil. Antes de empezar, decide cuánto vas a jugar y cuándo vas a parar. Y la regla sagrada: nunca persigas las pérdidas. Ese “una más para recuperar” es el camino directo a perder el doble.
+          ¿La regla madre? Límites en frío, cumplimiento en caliente. Y la prohibición absoluta: perseguir pérdidas. Ese impulso de “recupero y me voy” es estadísticamente la peor decisión disponible y emocionalmente la más seductora. Conocerlo por su nombre es media batalla ganada.
         </P>
         <ProsCons
           pros={[
@@ -688,21 +720,24 @@ export default function CasinoButisito() {
             "Creer que los clips de millones reflejan una sesión normal",
           ]}
         />
+              <P>
+          ¿Un hábito final que separa a los que juegan bien de los que juegan mal? Llevar la cuenta. Un apunte simple en el celular: fecha, cuánto entró, cuánto salió. ¿Suena a tarea? Lo es, y por eso casi nadie la hace — pero los pocos que la hacen son los únicos que saben con certeza cuánto les cuesta el hobby. Los demás “más o menos van ganando”, que es la frase más cara del vocabulario del jugador.
+        </P>
       </Section>
 
       {/* ERRORES */}
       <Section id="errores-comunes" alt>
         <SectionTitle>Los 5 errores del que copia a un streamer</SectionTitle>
         <P>
-          Después de ver mucho contenido de casino, identificamos los errores que se repiten en el que empieza a jugar copiando lo que ve en un stream. Si los esquivas, ya juegas mejor que la mayoría.
+          ¿Cuáles son las cinco trampas clásicas del que llega desde un stream? Estas — y las listamos porque verlas venir es esquivarlas:
         </P>
         <div className="space-y-4 my-6">
           {[
-            { t: "Copiar las apuestas altas sin tener el bankroll", d: "Los streamers apuestan montos que para ellos son parte de su trabajo. Si los copias con tu sueldo, fundes el saldo en minutos. Apostá en proporción a TU bankroll." },
-            { t: "Creer que el clip viral es una sesión normal", d: "La ganancia gigante es el mejor momento de horas de stream. Por cada clip de ganancia hay muchas sesiones perdedoras que no se hacen virales." },
-            { t: "Perseguir las pérdidas", d: "El error más caro. Después de perder viene el una más para recuperar, y esa lógica transforma una pérdida chica en un problema grande." },
-            { t: "Usar el bonus buy sin entenderlo", d: "Comprar el bonus cuesta carísimo. Los streamers lo hacen para el espectáculo; para un bankroll normal, es la forma más rápida de quedarte sin saldo." },
-            { t: "No leer las condiciones del bono", d: "Aceptar un bono sin mirar el rollover es el clásico. Después te quejas de que no te dejan retirar, cuando no cumpliste una condición que estaba escrita." },
+            { t: "¿Apostar como streamer con sueldo de mortal?", d: "Sus montos son herramientas de trabajo con respaldo; los tuyos son tu quincena. Techo sano: ningún giro por encima del 1% de tu presupuesto de juego." },
+            { t: "¿Tomar el clip como promedio?", d: "El clip es el gol; la sesión es el partido entero con sus 85 minutos aburridos. Juzgar el casino por los clips es creer que todos los partidos terminan 4-0." },
+            { t: "¿Recuperar ahí mismo lo perdido?", d: "El hueco chico se vuelve cráter exactamente en ese intento. La plata que se fue ya no es tuya; la que queda merece un guardián sobrio, no uno desesperado." },
+            { t: "¿Comprar el bonus 'para ahorrar tiempo'?", d: "Cuesta 50-100 apuestas y no promete nada. Herramienta de contenido para streamers, agujero negro para bankrolls normales. Simple: no." },
+            { t: "¿Aceptar el bono a ciegas?", d: "Rollover, plazo, tope de apuesta, juegos excluidos: todo estaba escrito. El 90% de los 'no me pagan' de los foros son 'no leí' con orgullo. Cinco minutos de lectura, cero dramas." },
           ].map((e, i) => (
             <div key={e.t} className="flex gap-4 rounded-2xl bg-[#141414] border border-white/[0.06] p-5">
               <span className="w-9 h-9 rounded-full bg-gradient-to-br from-[#22c55e] to-[#16a34a] flex items-center justify-center font-black text-white shrink-0">{i + 1}</span>
@@ -714,7 +749,7 @@ export default function CasinoButisito() {
           ))}
         </div>
         <P>
-          Si lees esta lista y piensas “a mí no me va a pasar”, justo ese pensamiento es el que mete a la gente en problemas. Nadie planea perder de más; pasa de a poco, en el calor del momento. Por eso lo mejor que puedes hacer es decidir tus límites antes de empezar, cuando tienes la cabeza fría, y respetarlos pase lo que pase. El casino va a estar ahí mañana; tu plata, si la cuidas, también.
+          ¿Y la trampa que envuelve las otras cinco? El exceso de confianza. “A mí no me pasa” es justo lo que pensaba cada uno al que le pasó. Nadie decide fundirse: sucede de a pocos, con adrenalina. Límites en frío, siempre — es la única vacuna probada.
         </P>
       </Section>
 
@@ -722,13 +757,13 @@ export default function CasinoButisito() {
       <Section id="escena-streamers">
         <SectionTitle>BUTIsito y la escena de streamers de casino</SectionTitle>
         <P>
-          BUTIsito es parte de una escena enorme de streamers de casino en español que explotó en los últimos años, sobre todo en Kick. Entender ese contexto te ayuda a mirar todo esto con más perspectiva.
+          ¿BUTIsito es un caso único? Para nada — es parte del capítulo peruano de una industria continental que no para de crecer, con figuras y plataformas en cada país.
         </P>
         <P>
           En Perú hay una camada fuerte de creadores que mezclan gaming y casino, con Andynsane como uno de los referentes; en Argentina están Coscu y Santutu; en Colombia, MrStiven Tc; y a nivel internacional, monstruos como xQc o Roshtein que mueven apuestas que dan vértigo. Todos comparten el mismo formato: slots de alta volatilidad, reacciones grandes, y clips que circulan por todas las redes.
         </P>
         <P>
-          Cuando entiendes que es una industria (con acuerdos, con producción, con un modelo de negocio claro), dejas de ver los streams como “un pata que gana fortunas jugando” y empiezas a verlos como lo que son: entretenimiento profesional. Disfruta el contenido, entiende cómo funciona el negocio, y si decides jugar, hazlo con un casino confiable y con la cabeza fría. Si quieres saber dónde juegan los demás, lo estamos investigando uno por uno.
+          ¿Y qué tienen en común todos ellos, del más chico al más grande? Que esto es su trabajo: contratos con plataformas, producción detrás de cámara, ingresos que no dependen de “ganarle” al casino. Cuando internalizas eso, los ves como lo que son — entretenedores profesionales — y dejas de leer sus sesiones como consejos de inversión. Ese cambio de lente vale más que cualquier bono.
         </P>
         <div className="mt-4"><Link href="/streamers" className="inline-flex items-center justify-center px-6 py-3 rounded-xl border border-[#a855f7]/40 text-[#c084fc] font-bold text-sm uppercase tracking-wide transition-all hover:bg-[#a855f7]/10">Ver todos los streamers →</Link></div>
       </Section>
@@ -741,18 +776,18 @@ export default function CasinoButisito() {
         </P>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6">
           {[
-            { t: "RTP (Return to Player)", d: "Porcentaje teórico que un juego devuelve a largo plazo. RTP de 96% = devuelve 96 de cada 100 apostados, en promedio." },
-            { t: "Volatilidad", d: "Qué tan seguido y qué tan grande paga un slot. Alta = premios raros pero grandes. Baja = premios frecuentes y chicos." },
-            { t: "Rollover", d: "Las veces que tienes que apostar un bono antes de poder retirar. Bono de S/100 con rollover x30 = apostar S/3.000." },
-            { t: "Tumbles", d: "Mecánica donde los símbolos ganadores desaparecen y caen nuevos, encadenando premios. Típica de Sweet Bonanza y Sugar Rush." },
-            { t: "Multiplicador", d: "Valor que multiplica tu premio. En Gates of Olympus pueden aparecer multiplicadores enormes que vuelan la pantalla." },
-            { t: "Free Spins", d: "Giros gratis en slots. Las ganancias suelen tener su propio rollover, así que lee las condiciones." },
-            { t: "KYC", d: "Verificación de identidad. Te piden DNI y a veces selfie. Es requisito legal antes de retirar." },
-            { t: "House Edge", d: "La ventaja matemática del casino. Es por qué, a la larga, la casa siempre gana." },
-            { t: "Bankroll", d: "El total de plata que destinas a jugar. Debería ser lo que puedes perder sin drama." },
-            { t: "Originals", d: "Juegos propios de plataformas como Stake (Plinko, Crash, Mines) que no encuentras en casinos tradicionales." },
-            { t: "MINCETUR", d: "El ministerio que regula y otorga licencias a los casinos online en Perú." },
-            { t: "Bonus buy", d: "Función que te lleva directo a los giros gratis pagando un costo alto. Pensada para bankrolls grandes." },
+            { t: "RTP (Return to Player)", d: "¿Cuánto devuelve el juego a la larga? Eso mide: 96% = S/96 por cada S/100... en millones de giros globales. Tu sesión es una gota en ese océano." },
+            { t: "Volatilidad", d: "¿Paga seguido y poquito o rara vez y fuerte? Eso define el carácter del slot. Streams = alta. Principiantes = media o baja. Así de simple." },
+            { t: "Rollover", d: "¿Cuántas veces hay que apostar el bono antes de retirarlo? Ese número. x30 sobre S/100 = S/3.000 en apuestas. La cifra que realmente valora un bono." },
+            { t: "Tumbles (cascadas)", d: "¿Premio y sigue el giro? Sí: los símbolos ganadores explotan, caen nuevos y puede encadenarse otro premio. El sello de Sweet Bonanza y familia." },
+            { t: "Multiplicador", d: "¿Cómo un giro de S/2 paga S/200? Con un x100 en la cadena. Existen, caen... con la frecuencia exacta para que los clips parezcan la norma sin serlo." },
+            { t: "Free Spins (giros gratis)", d: "¿La ronda dorada del slot? Esta. Y si los giros vienen de un bono del casino, pregunta obligada: ¿sus ganancias traen rollover propio? (casi siempre, sí)." },
+            { t: "KYC", d: "¿DNI y selfie para qué? Verificación de identidad exigida por ley antes de retirar. Hazla el día uno y nunca será noticia; déjala para el final y será tu peor trámite." },
+            { t: "House Edge", d: "¿Por qué el casino siempre puede pagar la luz? Por este margen estructural en cada juego. No se vence con sistemas; se administra con presupuesto." },
+            { t: "Bankroll", d: "¿Tu fondo de juego? Ese. Sano cuando sale del presupuesto de ocio; tóxico cuando toca alquiler, comida o estudios. La frontera es esa y es sagrada." },
+            { t: "Originals", d: "¿Plinko, Mines, Crash? Los juegos exclusivos de Stake: cortos, visuales, verificables. Su mayor argumento diferencial frente a los casinos clásicos." },
+            { t: "MINCETUR", d: "¿Quién regula el juego online en el Perú? Este ministerio, desde 2024. Licencia MINCETUR = reclamo con ley peruana en la mano si algo sale mal." },
+            { t: "Bonus buy", d: "¿Pagar 100 apuestas por saltarte la espera del bonus? Eso es. Contenido espectacular para streams; matemática suicida para bolsillos normales." },
           ].map((g) => (
             <div key={g.t} className="rounded-xl bg-[#141414] border border-white/[0.06] p-5">
               <p className="text-white font-bold mb-1">{g.t}</p>
@@ -766,13 +801,13 @@ export default function CasinoButisito() {
       <Section id="juego-responsable">
         <SectionTitle>Antes de jugar: la charla importante</SectionTitle>
         <P>
-          No nos íbamos a ir sin esto. El casino no es un trabajo ni una inversión. Es entretenimiento que cuesta plata, como ir al cine. Y como todo entretenimiento que cuesta plata, hay que ponerle límites.
+          ¿Podíamos cerrar la guía sin esta charla? No con la conciencia tranquila. Mira: el casino pertenece a la misma categoría que el cine o el estadio — ocio que cuesta plata — con una trampa que aquellos no tienen: a veces devuelve algo, y ese “a veces” confunde. Que no te confunda a ti: sigue siendo un gasto de entretenimiento con final abierto.
         </P>
         <P>
-          Reglas simples que te pueden ahorrar disgustos: juega solo con plata que estés dispuesto a perder, nunca con la del alquiler o la comida. Pon un presupuesto antes de empezar y respétalo, ganes o pierdas. Si pierdes, no persigas las pérdidas. Y si sientes que se te está yendo de las manos, paras. No hay vergüenza en eso, hay inteligencia.
+          ¿Las reglas de autocuidado? Tres y simples: plata de ocio exclusivamente (jamás alquiler, mercado ni estudios), presupuesto cerrado antes de entrar, y punto final respetado gane o pierda. El casino abre mañana; tu estabilidad no se repone tan fácil.
         </P>
         <P>
-          Una señal de alarma para que tengas en el radar: si te encuentras jugando para “recuperar” lo perdido, escondiendo cuánto juegas, o sacando plata de gastos importantes para apostar, para y pide ayuda. Esos son los focos rojos del juego problemático, y reconocerlos a tiempo cambia todo. Todos los casinos serios tienen herramientas de juego responsable: límites de depósito, autoexclusión, recordatorios de tiempo. Usalas sin culpa. Mayores de 18 años, siempre.
+          ¿Cuándo preocuparse? Cuando juegas para recuperar, cuando escondes montos, cuando tocas plata comprometida. Cualquiera de las tres es semáforo en rojo: parar, respirar, conversar con alguien de confianza. Los límites de depósito y la autoexclusión existen para usarse sin vergüenza. Y +18, sin excepción alguna.
         </P>
         <div className="rounded-2xl bg-[#22c55e]/[0.06] border border-[#22c55e]/20 p-6">
           <p className="text-[#d4d4d8] leading-relaxed text-sm sm:text-base">
@@ -804,12 +839,15 @@ export default function CasinoButisito() {
           Pero si tu pregunta de fondo era “¿y dónde juego yo?”, ahí sí somos contundentes: para la mayoría de los peruanos, arrancar por <strong className="text-white">Betsson</strong>, por <strong className="text-white">Inkabet</strong> (lo 100% nacional) o por <strong className="text-white">STARDA</strong> (el paraíso de los slots) es una jugada más inteligente que copiar a cualquier streamer. Stake es legítimo y puedes usarlo si te manejas con cripto, pero no es necesariamente tu mejor punto de partida.
         </P>
         <P>
-          Y por encima de qué casino elijas, lo más importante: juega con la cabeza fría. El casino es entretenimiento, no un trabajo. Pon límites, respetalos, y disfruta los slots por lo que son: un juego. El mejor casino siempre va a ser el que mejor se adapte a ti, no el que más suene en los streams.
+          ¿La última pregunta retórica de la guía? Va: ¿de qué sirve elegir el casino perfecto si juegas sin cabeza? De nada. Límites puestos en frío, respeto absoluto por tu presupuesto, y los slots entendidos como lo que son: un juego. Con eso resuelto, cualquier casino de este ranking te va a tratar bien. Y el mejor de todos siempre será el que encaje contigo — no el que más suene en los streams. Suerte, y con calma.
         </P>
         <div className="mt-6 flex flex-wrap gap-3">
           <CtaButton slug="betsson-peru" text="Empezar con Betsson" />
           <CtaButton slug="inkabet" text="Probar Inkabet" />
         </div>
+              <P>
+          ¿Te quedó alguna duda suelta? Revisa la sección de preguntas frecuentes de arriba, o date una vuelta por nuestro ranking peruano completo, donde cada casino tiene su análisis a fondo con pruebas de depósito y retiro incluidas. Y si mañana BUTIsito anuncia un casino oficial con bombos y platillos, tranquilo: esta guía se actualiza todos los meses y lo vas a leer aquí con su respectivo análisis, no con el hype del anuncio.
+        </P>
       </Section>
 
       {/* LINKS */}

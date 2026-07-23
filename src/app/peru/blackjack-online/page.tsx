@@ -7,7 +7,7 @@ import TableOfContents from "@/components/TableOfContents";
 export const metadata: Metadata = {
   title: "Blackjack Online en Perú 2026 | Guía y Casinos",
   description:
-    "Descubrí los mejores casinos con blackjack online en Perú. Blackjack en vivo, estrategia básica completa y bonos para jugar.",
+    "Descubre los mejores casinos con blackjack online en Perú. Blackjack en vivo, estrategia básica completa y bonos para jugar.",
 };
 
 /* ───────── Casino data ───────── */
@@ -327,7 +327,7 @@ export default function BlackjackOnlinePeru() {
         </div>
 
         <h3 className="text-xl font-black text-white mb-4">Tabla de Estrategia Básica — Manos Duras</h3>
-        <p className="text-[#71717a] text-sm mb-3">H = Hit (Pedir) | S = Stand (Plantarse) | D = Doblar | Ds = Doblar o Plantarse | Rh = Rendirse o Pedir</p>
+        <p className="text-[#71717a] text-sm mb-3">Leyenda: H pedir carta · S plantarse · D doblar la apuesta · Ds doblar (si no se puede, plantarse) · Rh rendirse (si no se puede, pedir)</p>
 
         <div className="overflow-x-auto rounded-xl border border-white/[0.06] mb-8">
           <table className="w-full text-center text-xs">
@@ -764,7 +764,7 @@ export default function BlackjackOnlinePeru() {
           <div className="rounded-xl bg-[#141414] border border-white/[0.06] p-5">
             <h3 className="text-[#ef4444] font-bold mb-2">❌ No seguir la estrategia básica</h3>
             <p className="text-sm text-[#9ca3af]">
-              El error más caro. Jugar por &quot;instinto&quot; o &quot;corazonada&quot; le cuesta al jugador promedio entre 1.5% y 2.5% extra de house edge. En números reales: si apuestas S/10 por mano y juegas 60 manos por hora, son S/9-15 extra de pérdida por hora vs jugar con estrategia. En una sesión de 3 horas, estamos hablando de S/27-45 que podrías haberte ahorrado. Tené la tabla de estrategia abierta en el celular al lado. Nadie te juzga.
+              El error más caro. Jugar por &quot;instinto&quot; o &quot;corazonada&quot; le cuesta al jugador promedio entre 1.5% y 2.5% extra de house edge. En números reales: si apuestas S/10 por mano y juegas 60 manos por hora, son S/9-15 extra de pérdida por hora vs jugar con estrategia. En una sesión de 3 horas, estamos hablando de S/27-45 que podrías haberte ahorrado. Ten la tabla de estrategia abierta en el celular al lado. Nadie te juzga.
             </p>
           </div>
 
@@ -867,7 +867,7 @@ export default function BlackjackOnlinePeru() {
           </div>
           <div className="rounded-xl bg-[#141414] border border-[#a855f7]/20 p-5">
             <h4 className="text-[#a855f7] font-bold mb-2">Progresión plana</h4>
-            <p className="text-sm text-[#9ca3af]">Apostá siempre lo mismo. Nada de duplicar después de perder (Martingala) ni subir después de ganar. La progresión plana es la forma más segura de jugar blackjack. Si tu apuesta es S/10, que sea S/10 en todas las manos. Simple, efectivo, sin drama.</p>
+            <p className="text-sm text-[#9ca3af]">Apuesta siempre lo mismo. Nada de duplicar después de perder (Martingala) ni subir después de ganar. La progresión plana es la forma más segura de jugar blackjack. Si tu apuesta es S/10, que sea S/10 en todas las manos. Simple, efectivo, sin drama.</p>
           </div>
         </div>
 

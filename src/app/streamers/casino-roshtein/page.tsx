@@ -59,11 +59,11 @@ const faqItems = [
   },
   {
     q: "¿Es legal jugar en casino online en LATAM?",
-    a: "Depende del país, pero en general sí, siempre que elijas un casino con licencia. Perú regula con MINCETUR, Colombia con Coljuegos y varias provincias argentinas tienen su marco. Los casinos internacionales operan con licencias de Curaçao o Malta. Lo importante es elegir plataformas con licencia clara, jugar solo lo que estés dispuesto a perder, y recordar que es entretenimiento, no una fuente de ingresos.",
+    a: "En la mayoría de los países de LATAM, sí — con matices por jurisdicción. Perú regula con MINCETUR, Colombia con Coljuegos, varias provincias argentinas tienen su marco propio, y las licencias internacionales (Curaçao, Malta) cubren el resto del mapa. La única condición innegociable: que el casino muestre su licencia. Sin eso, ni gratis.",
   },
   {
     q: "¿Conviene jugar donde juega Roshtein o en otro casino?",
-    a: "Depende de tu perfil. Si ya manejas cripto y quieres los juegos originals tipo Plinko o Crash, Stake tiene sentido. Pero si recién arrancas, quieres bonos más claros y pagar con métodos locales, te conviene más Betsson o un casino de Royal Partners. Por eso en nuestro ranking esos van primero y Stake va sexto.",
+    a: "Stake es el escenario natural del que ya vive en cripto y quiere los originals (Plinko, Crash, Mines). Para el resto — bonos entendibles, pagos locales, soporte en español — los casinos de nuestro ranking dan una función más cómoda. No es cuestión de calidad sino de reparto: cada jugador tiene su teatro.",
   },
   {
     q: "¿Puedo ver los streams de Roshtein y jugar gratis?",
@@ -254,14 +254,14 @@ export default function CasinoRoshtein() {
       <Section id="ranking" alt>
         <SectionTitle>Dónde jugar: nuestro ranking para LATAM</SectionTitle>
         <P>
-          Empecemos por lo concreto, porque sabemos a qué viniste. Si quieres jugar en casino online, estos son los que probamos y por los que ponemos la cara. Roshtein juega en Stake (lo tienes sexto, lo metimos por transparencia), pero arriba van los que para nosotros tienen el mejor combo de bono, catálogo y pagos para un jugador de la región. No es una lista armada al voleo: cada uno pasó por nuestras manos antes de entrar.
+          Levantemos el telón por donde hay que levantarlo: la lista. Roshtein hace su show en Stake, eso ya lo sabes o lo vas a saber en dos secciones. Pero cuando el espectador quiere pasar de la butaca al escenario, el escenario correcto rara vez es el del artista. Estos son los casinos que probamos con nuestro propio dinero — cada uno con su historia, cada uno con su papel en la obra:
         </P>
         <CasinoRanking casinos={ranking} infoColumnLabel="Juegos" />
         <P>
           ¿Por qué Betsson primero y no Stake? Sencillo: Betsson es una marca global con años de trayectoria, bonos más claros, soporte en español que responde y métodos de pago locales. Stake es la casa de los streamers de slots, pero está pensada para un perfil específico, no para cualquiera que recién arranca. Más abajo te lo desmenuzamos casino por casino para que no te quede ninguna duda.
         </P>
         <P>
-          Un par de aclaraciones para que leas la tabla con criterio. Los bonos que ves son los reales y vigentes al momento de actualizar esta guía (la fecha la tienes arriba, se actualiza todos los meses). Las cifras de juegos son aproximadas y van cambiando porque los casinos suman títulos seguido. Y el orden no es capricho: responde a la combinación de bono, catálogo, pagos y confianza que probamos nosotros mismos.
+          Dos apuntes al margen del programa: los bonos que ves son los vigentes al mes que corona esta guía (se renueva puntualmente, como toda buena temporada), y las posiciones no las dictó ningún patrocinador — las dictaron depósitos nuestros, noches de juego nuestras y retiros cronometrados con nuestra propia impaciencia. Las cifras de juegos, como los aforos, son aproximadas: crecen función a función.
         </P>
         <div className="mt-6"><CtaButton slug="betsson-latam" text="Probar Betsson" /></div>
       </Section>
@@ -270,16 +270,16 @@ export default function CasinoRoshtein() {
       <Section id="como-elegimos">
         <SectionTitle>Cómo armamos este ranking</SectionTitle>
         <P>
-          Para que confíes en lo que decimos, te contamos cómo llegamos a este orden. No es al azar ni eso de “el que paga va primero” sin más criterio. Probamos cada casino con cuenta real: depositamos, jugamos, pedimos retiros y le escribimos al soporte a horas raras a propósito, para ver cómo responden cuando nadie lo espera. Esa es la única forma de saber si un casino es bueno de verdad o solo en el papel.
+          Todo crítico serio revela su método, así que aquí va el nuestro. Entramos a cada casino como entra cualquiera: cuenta nueva, depósito real, ninguna alfombra roja. Jugamos noches enteras, pedimos los retiros y contamos las horas mirando el reloj. Interrogamos a los soportes a horas indecentes. Solo después de ese peregrinaje, cada casino recibió su butaca en la lista.
         </P>
         <P>
-          Miramos cuatro cosas principales. El <strong className="text-white">bono y sus condiciones</strong> (no solo cuánto te dan, sino el rollover y el plazo). El <strong className="text-white">catálogo de juegos</strong> (que tengan los slots que la gente busca, incluidos los Nolimit City y Hacksaw que juega Roshtein). Los <strong className="text-white">pagos</strong> (que los métodos sean los que usas y que los retiros lleguen rápido). Y la <strong className="text-white">confianza</strong> (licencia clara, reputación de pagos, soporte a la altura).
+          Cuatro actos tiene esta evaluación. El <strong className="text-white">bono</strong>, donde la trama siempre se esconde en el rollover y el plazo, nunca en el número gordo del cartel. El <strong className="text-white">catálogo</strong>, que debe tener a los protagonistas que el público reconoce. Los <strong className="text-white">pagos</strong>, el acto donde los impostores abandonan la obra. Y la <strong className="text-white">confianza</strong> — licencia a la vista y soporte de carne y hueso — que es el teatro entero: sin ella no hay función.
         </P>
         <P>
-          Y para que quede todo claro, porque es la duda que muchos tienen: sí, esta página tiene enlaces de afiliado. Si te registras a través de nuestros botones, podemos recibir una comisión del casino. A ti no te cuesta nada más, y no condiciona el orden ni lo que opinamos. Si un casino no nos convence, no lo recomendamos por más que pague bien. Preferimos que vuelvas a leernos porque te dimos data honesta.
+          Y como en toda obra honesta, los créditos completos: esta página vive de enlaces de afiliado. Si abres cuenta desde nuestros botones, el casino nos paga una comisión — tu entrada cuesta lo mismo con o sin nosotros. ¿Compró alguien su lugar en el reparto? No: más de un casino con billetera generosa se quedó fuera del cartel por fallar donde no se puede fallar, que es pagando.
         </P>
         <P>
-          Con esos cuatro filtros aplicados, Betsson queda primero por su combinación de trayectoria, bonos claros y soporte ágil; STARDA se lleva el segundo puesto por su catálogo brutal de slots; y así hasta Stake, que metimos sexto no porque sea malo, sino porque, para el jugador promedio de LATAM, las opciones de arriba son un mejor punto de partida.
+          Y así quedó el reparto final: Betsson en el papel protagónico, por ser el actor que nunca falla una función — trayectoria, bonos claros, soporte despierto. STARDA como el secundario que a veces se roba la escena, con su arsenal de slots y torneos. SOL, FRESH y MONRO completando un elenco sólido, cada uno con su registro. Y Stake al final del cartel: gran nombre internacional, pero un papel escrito para otro público.
         </P>
       </Section>
 
@@ -336,14 +336,14 @@ export default function CasinoRoshtein() {
         </P>
         <H3>¿Por qué Roshtein juega en Stake y no en otro?</H3>
         <P>
-          Hay varias razones, y conviene separarlas. La primera, la obvia: hay un vínculo comercial. Como casi todos los streamers de casino del planeta, Roshtein tiene acuerdos con la plataforma. Es su trabajo y no tiene nada de raro, pero es justo el motivo por el que no puedes tomar “Roshtein juega en Stake” como “Stake es el mejor casino para mí”.
+          ¿Por qué Stake es el escenario de Roshtein? La respuesta tiene dos capas, como todo buen guion. La superficial: contrato. Roshtein mantiene desde hace años uno de los acuerdos más famosos del gambling mundial, y esa alianza es parte de su leyenda. La profunda: Stake le da lo que su espectáculo necesita — cripto sin fronteras, límites altísimos y los slots más salvajes del mercado. Su escenario perfecto. La pregunta que esta guía responde es otra: si también es el tuyo.
         </P>
         <P>
           La segunda es práctica: Stake funciona con cripto, comodísimo para mover los montos descomunales que apuesta en cámara. La tercera: tiene todos los slots que él necesita para sus bonus hunts y sus cacerías de max win, incluidos los Nolimit City y Hacksaw más extremos. Pero “ideal para hacer contenido” no es lo mismo que “ideal para tu bolsillo”, y esa diferencia es la clave de toda esta nota.
         </P>
         <H3>Más allá de los slots: en vivo y originals</H3>
         <P>
-          Stake no es solo tragamonedas. Tiene una sección de casino en vivo con mesas de los proveedores grandes (ruleta, blackjack, baccarat, game shows) con dealers reales transmitidos en tiempo real. Y tiene su carta más fuerte: los originals, juegos propios de la plataforma que no vas a encontrar en otro lado, como Plinko (esa pirámide de clavos donde la bolita cae rebotando), Crash, Mines y Dice. Son simples, rápidos y muy visuales, perfectos para stream.
+          Pero reducir Stake a las tragamonedas sería contar media película. Detrás del primer acto hay un casino en vivo completo — ruleta, blackjack, baccarat, game shows con dealers reales — y su creación más célebre: los originals. Plinko y su bolita cayendo como un destino en cámara lenta, Crash y su curva que sube hasta traicionarte, Mines y sus casillas conteniendo la respiración. Exclusivos de la casa, imposibles de ver en otro escenario.
         </P>
         <H3>Seguridad, comunidad y soporte</H3>
         <P>
@@ -364,7 +364,7 @@ export default function CasinoRoshtein() {
           ]}
         />
         <P>
-          Conclusión honesta: Stake es un casino serio y puedes jugar ahí si te manejas con cripto. Pero si recién arrancas, o si quieres bonos más jugosos y pagar con métodos locales, hay opciones mejores. Por eso va sexto en nuestro ranking. No es un palo a Stake, es darte el dato real.
+          ¿El veredicto sobre Stake, dicho sin música de fondo? Es un teatro de primera categoría — serio, sólido, legítimo. Pero fue construido para un público que paga en cripto y no necesita acomodador. Si ese público no eres tú, la función se disfruta mejor desde otro casino: uno con bonos que se entienden, pagos que hablan tu idioma y soporte que enciende la luz cuando te pierdes. Por eso Stake cierra nuestro cartel en vez de encabezarlo.
         </P>
         <div className="mt-6 flex flex-wrap gap-3">
           <CtaButton slug="stake" text="Ver Stake" />
@@ -379,7 +379,7 @@ export default function CasinoRoshtein() {
           Si buscaste “casino slots Roshtein” o “qué slots juega Roshtein”, esta es tu sección. Roshtein juega los slots de mayor volatilidad del mercado: esos que pueden estar cientos de giros sin pagar nada y de repente sueltan un max win que rompe records. Son los que dan los clips virales. Acá te dejamos los que más se le ven, con la data real de cada uno.
         </P>
         <P>
-          Antes de la lista, un apunte importante: que sean sus favoritos no significa que sean los que más te convienen a ti. Son slots elegidos por su potencial extremo, y eso que los hace tan espectaculares en cámara es lo mismo que los hace devastadores para un bolsillo normal. Los Nolimit City, en particular, son de los más volátiles que existen. Mira la lista con curiosidad, pruébalos en demo si quieres, pero no asumas que vas a tener la misma suerte que se ve en los clips.
+          Una advertencia antes de abrir este catálogo de fieras: los favoritos de Roshtein son los slots más violentos que existen. Volatilidad extrema, sequías bíblicas, max wins de decenas de miles de veces la apuesta. Él los doma con un bankroll de leyenda; el espectador común entra a esa jaula y sale en dos actos. Admíralos como lo que son — bestias de exhibición — y piénsalo dos veces antes de darles tu saldo.
         </P>
         <div className="space-y-4 my-8">
           {favoriteSlots.map((s, i) => (
@@ -404,7 +404,7 @@ export default function CasinoRoshtein() {
           Un consejo de los que no te dan en un stream: estos son los slots más peligrosos para un jugador común justamente por su volatilidad extrema. Roshtein apuesta montos que para ti serían impensables, y aun así sufre rachas larguísimas. Si vas a probarlos, hazlo con apuestas mínimas y entendiendo que la mayoría de las sesiones van a ser frías. Y si quieres algo más amable para empezar, busca slots de volatilidad media o baja: ganas más seguido y la sesión te dura mucho más.
         </P>
         <P>
-          Buena noticia: estos slots los encuentras en prácticamente todos los casinos de nuestro ranking. STARDA, SOL, FRESH y MONRO tienen catálogos completos de Nolimit City, Hacksaw y Pragmatic, así que puedes jugar los mismos títulos que ves en los streams de Roshtein pero con un bono de bienvenida que te da más margen.
+          Aquí un giro amable del guion: no necesitas la puerta de Stake para ver a estas criaturas de cerca. STARDA, SOL, FRESH y MONRO tienen los catálogos de Nolimit City, Pragmatic y Hacksaw completos — las mismas bestias, la misma matemática, el mismo vértigo — con bonos de bienvenida que el casino de Roshtein no te va a dar. El zoológico entero, con entrada de cortesía.
         </P>
         <div className="mt-6"><CtaButton slug="starda-casino" text="Jugar slots en STARDA" /></div>
       </Section>
@@ -424,14 +424,17 @@ export default function CasinoRoshtein() {
           Esto no es una opinión nuestra ni un mensaje moralista: es matemática pura. Todos los juegos de casino tienen una ventaja de la casa (house edge), un porcentaje que, a lo largo de millones de jugadas, siempre queda para el casino. En los slots se ve en el RTP: si un slot tiene 96% de RTP, devuelve 96 de cada 100 apostados en promedio, y el resto es la ganancia de la casa. A corto plazo puedes ganar (por eso existen los clips virales), pero a largo plazo esa ventaja siempre se impone.
         </P>
         <P>
-          ¿Esto quiere decir que está mal jugar? Para nada. Quiere decir que tienes que jugar entendiendo qué es: un entretenimiento que, estadísticamente, te va a costar plata, igual que te cuesta ir al cine o salir a comer. La diferencia es que en el casino existe la ilusión de que puedes ganar, y esa ilusión, reforzada por los max wins de los streamers, es la que hace que mucha gente apueste más de lo que debería. Si tienes clara la matemática, juegas más tranquilo y con expectativas realistas.
+          ¿Convierte eso al casino en villano? No: lo convierte en lo que siempre fue, un espectáculo de pago. Nadie entra al cine esperando salir con más dinero del que llevó; se paga por las dos horas de emoción. El casino, bien entendido, es exactamente eso — emoción con precio de entrada. Los problemas del tercer acto llegan solo cuando alguien confunde la butaca con una oficina.
         </P>
         <div className="rounded-2xl bg-[#f59e0b]/[0.08] border border-[#f59e0b]/25 p-6 my-6">
           <p className="text-[#fbbf24] font-bold mb-2">⚠️ El dato que cambia todo</p>
           <p className="text-[#d4d4d8] leading-relaxed text-sm sm:text-base">
-            Los streamers de casino muestran sus mejores momentos, no el balance real. Si vas a jugar, define un presupuesto fijo antes de empezar, no persigas las pérdidas, y trata el casino como un gasto de entretenimiento, nunca como una forma de ganar plata.
-          </p>
+          Lo que Roshtein transmite es la película editada, jamás el rodaje completo. Si decides jugar: presupuesto escrito antes de la primera escena, ninguna persecución de pérdidas por muy dramático que se ponga el guion, y el casino siempre en el presupuesto de espectáculos — nunca en el de ingresos.
+        </p>
         </div>
+              <P>
+          Y aquí va el epílogo que todo espectador de Roshtein merece leer: el asiento más rentable del teatro es el tuyo. El público paga cero por ver los máximos históricos, las rachas imposibles y el drama en alta definición. El único que puede convertir ese espectáculo gratuito en una factura personal eres tú — copiando apuestas escritas para un bankroll que no es el tuyo. Disfruta la función completa; deja que el riesgo lo ponga el protagonista, que para eso le pagan.
+        </P>
       </Section>
 
       {/* CARA A CARA */}
@@ -485,7 +488,7 @@ export default function CasinoRoshtein() {
         </P>
         <H3>Betsson — el #1 para empezar</H3>
         <P>
-          Si nunca jugaste online o quieres ir a lo seguro, empieza acá. Betsson es una marca global con años de trayectoria y reputación intachable de pagos. El bono de bienvenida es claro, el soporte en español responde de verdad, y tiene una de las mejores secciones de casino en vivo del mercado. Si además te gustan las apuestas deportivas, lo tienes todo en la misma cuenta. Es la opción más redonda para el jugador promedio.
+          El papel de Betsson en esta obra es el del actor veterano: jamás improvisa, jamás falla. Décadas de trayectoria global, pagos con reputación intachable, bonos sin trampas de guion y un soporte que contesta cuando lo llamas. En nuestras pruebas no protagonizó ni un solo momento de suspenso — y en un casino, créenos, el suspenso quiéreslo en los slots, no en los retiros. Debut ideal.
         </P>
         <div className="my-5"><CtaButton slug="betsson-latam" text="Abrir cuenta en Betsson" /></div>
         <H3>STARDA Casino — el paraíso de los slots</H3>
@@ -495,7 +498,7 @@ export default function CasinoRoshtein() {
         <div className="my-5"><CtaButton slug="starda-casino" text="Jugar en STARDA" /></div>
         <H3>SOL, MONRO y FRESH — el resto del pelotón pesado</H3>
         <P>
-          Los tres son de Royal Partners y los tres cumplen. <strong className="text-white">SOL Casino</strong> es ideal para el que recién arranca: interfaz clarísima, rollover bajo (x30) y 4.000 juegos. <strong className="text-white">MONRO</strong> tiene el bono más alto del ranking en porcentaje, 150% en tu primer depósito. Y <strong className="text-white">FRESH</strong> es el rey del catálogo con 4.500+ títulos; buscas un slot raro y lo tiene. Cualquiera de los tres es una mejor puerta de entrada que Stake si no manejas cripto.
+          El trío de Royal Partners se reparte los papeles sin pisarse: <strong className="text-white">SOL</strong> es la puerta amable — rollover x30, interfaz diáfana, 4.000 juegos para perderse sin miedo. <strong className="text-white">MONRO</strong> abre con el gesto más generoso del cartel: 150% en el primer depósito, el porcentaje más alto de toda la lista. Y <strong className="text-white">FRESH</strong> es el archivo infinito: 4.500+ títulos donde hasta la rareza más oscura de Nolimit tiene su vitrina. Tres entradas mejores que Stake para quien no habla cripto.
         </P>
         <div className="my-5 flex flex-wrap gap-3">
           <CtaButton slug="sol-casino" text="Probar SOL" />
@@ -512,16 +515,16 @@ export default function CasinoRoshtein() {
       <Section id="casino-confiable" alt>
         <SectionTitle>Cómo reconocer un casino confiable</SectionTitle>
         <P>
-          Antes de meter tu plata en cualquier lado, conviene saber distinguir un casino serio de uno turbio. Es más fácil de lo que parece si sabes qué mirar. Te dejamos la checklist que usamos nosotros cada vez que evaluamos una plataforma nueva.
+          En este negocio hay teatros y hay carpas de feria que se desmontan de madrugada. Distinguirlos toma cinco minutos si sabes dónde iluminar. Esta es la linterna que usamos nosotros, punto por punto:
         </P>
         <P>
-          <strong className="text-white">Uno: la licencia visible.</strong> Un casino serio muestra su licencia en el pie de página, con el número y el organismo regulador. Si no la ves por ningún lado, mala señal. <strong className="text-white">Dos: reputación de pagos.</strong> Busca el nombre del casino en foros como AskGamblers o Trustpilot y fíjate qué dice la gente sobre los retiros. Un patrón de quejas por pagos es una bandera roja gigante.
+          <strong className="text-white">Uno: la licencia visible.</strong> El pie de página es el documento de identidad del casino: regulador con nombre, licencia con número. Donde no hay documento, no hay función — hay huida. <strong className="text-white">Dos: reputación de pagos.</strong> Los foros (AskGamblers, Trustpilot) son el murmullo del público a la salida: una mala crítica es una anécdota, pero una platea entera quejándose de los retiros es el final de la reseña.
         </P>
         <P>
-          <strong className="text-white">Tres: métodos de pago claros.</strong> Si acepta medios que tú conoces y usas, y explica bien los tiempos de retiro, buena señal. <strong className="text-white">Cuatro: términos legibles.</strong> Los buenos casinos tienen sus condiciones de bono escritas de forma entendible. Si la letra chica es un laberinto, desconfía. <strong className="text-white">Cinco: soporte que responde.</strong> Prueba el chat antes de depositar. Cómo y cuándo te responden te dice mucho de cómo te van a tratar el día que tengas un problema.
+          <strong className="text-white">Tres: métodos de pago claros.</strong> Los medios que ya usas y plazos de retiro anunciados sin eufemismos. <strong className="text-white">Cuatro: términos legibles.</strong> La letra chica de un bono honesto se lee en una escena; la del tramposo necesita tres actos y un intérprete. El laberinto nunca es casualidad: es arquitectura. <strong className="text-white">Cinco: soporte que responde.</strong> Escríbele al chat antes de dejar un centavo. Ese primer diálogo es el casting: así como te tratan de extraño, te tratarán de cliente.
         </P>
         <P>
-          Todos los casinos de nuestro ranking pasan esta checklist con holgura, porque justamente la aplicamos antes de recomendarlos. No los elegimos por el bono más grande, sino por el combo completo de confianza, pagos y experiencia. Esa es la diferencia entre un ranking armado con criterio y una lista de los que más pagan por aparecer.
+          Spoiler sin remordimiento: todos los del cartel pasaron esta prueba antes de pisar el escenario — la audición fue primero, el reparto después. Ningún casino compró su papel con el bono más gordo. Y la linterna queda en tus manos: apúntala a cualquier casino que la publicidad te acerque, y mira cuántos sobreviven a la luz.
         </P>
       </Section>
 
@@ -529,17 +532,17 @@ export default function CasinoRoshtein() {
       <Section id="es-legal">
         <SectionTitle>¿Es legal jugar en casino online en LATAM?</SectionTitle>
         <P>
-          Depende del país, pero la tendencia regional es clara: cada vez hay más regulación y más opciones legales. Perú regula el juego online a través de MINCETUR; Colombia fue pionera con Coljuegos; y en Argentina cada provincia tiene su marco (como LOTBA en la Ciudad de Buenos Aires). En todos esos casos, hay operadores con licencia local que funcionan totalmente regulados.
+          El mapa legal de LATAM se está reescribiendo escena a escena, y todas las reescrituras van hacia el mismo desenlace: regulación. Perú ya tiene su marco con MINCETUR, Colombia se adelantó a todos con Coljuegos, Argentina reparte el libreto por provincias (LOTBA en Buenos Aires). Cada año hay más operadores con licencia y menos zonas grises. La época del casino clandestino se está quedando sin público.
         </P>
         <P>
-          Además de los operadores locales, hay plataformas internacionales que funcionan con licencias de Curaçao o Malta. Esas también son válidas: significa que están reguladas por otra jurisdicción, con sus propios controles y mecanismos de reclamo. Millones de personas en LATAM las usan a diario sin problema. Lo que cambia es a quién le reclamas si algo sale mal.
+          Junto al circuito local existe la gira internacional: plataformas con licencias de Curaçao o Malta, tan válidas como las locales aunque con otro idioma burocrático. Millones de jugadores de la región las usan cada día sin sobresaltos. La diferencia asoma solo si la obra sale mal: tu reclamo viaja a un regulador extranjero, con tiempos y formas de otra jurisdicción. No es peor teatro; es teatro con embajada.
         </P>
         <H3>El consejo más importante</H3>
         <P>
-          Huí de cualquier casino que no muestre su licencia de forma clara. Si entras a un sitio y no encuentras en el pie de página quién lo regula ni el número de licencia, ciérralo. No importa cuán lindo sea el bono. Los casinos truchos existen, y el problema no es solo jugar en algo ilegal: es que el día que ganes, capaz no te pagan y no tienes a quién reclamarle. Por eso armamos rankings, para que no tengas que arriesgarte probando a ciegas.
+          Pero hay una escena que no admite matices: el casino sin licencia visible. Si el pie de página no dice quién regula ni con qué número, cierra la pestaña como se abandona un edificio en llamas — sin recoger el bono. Porque el desenlace de ese guion ya está escrito: el día que ganes en serio, no habrá ventanilla, ni regulador, ni final feliz. Todo lo que aparece en esta página pasó primero por ese detector.
         </P>
         <P>
-          Y un detalle no menor: jugar es solo para mayores de 18 años. Todos los casinos serios te van a pedir verificación de identidad (el KYC) antes de dejarte retirar. No es para molestarte, es requisito legal. Hazlo apenas te registras y listo.
+          Y la regla que no negocia ningún teatro del mundo: +18. El KYC — documento, a veces selfie — llegará antes de tu primer retiro en cualquier casino legítimo, porque lo exige la ley. Nuestro consejo de tramoya: resuélvelo el día del estreno, cuando nada está en juego. El que deja el papeleo para el día del premio convierte su mejor escena en sala de espera.
         </P>
       </Section>
 
@@ -551,20 +554,20 @@ export default function CasinoRoshtein() {
         </P>
         <H3>¿Qué es un bono de bienvenida?</H3>
         <P>
-          Es la plata o los giros gratis que el casino te regala por registrarte y hacer tu primer depósito. Lo típico es el bono de 100%: tú pones una cantidad y el casino te suma otro tanto. MONRO incluso tira un 150%, de los más altos que vas a encontrar. Suena a regalo, y en parte lo es, pero tiene una condición clave: el rollover.
+          El bono de bienvenida es la cortesía de la casa en el primer acto: depositas cierto monto y el casino lo duplica en saldo de juego, o suma giros gratis al paquete. Visto desde la platea parece un regalo; leído desde el guion es un contrato — ese saldo extra llega atado a condiciones, y las condiciones tienen nombre propio: rollover. Conocerlo antes de aceptar es la diferencia entre protagonista y figurante.
         </P>
         <H3>El rollover: la letra chica que nadie lee</H3>
         <P>
-          El rollover (o requisito de apuesta) es la cantidad de veces que tienes que apostar el bono antes de poder retirar lo que ganes con él. Si te dan un bono con rollover x30, tienes que apostar 30 veces ese monto antes de sacar. Parece mucho, pero con slots de apuestas chicas se va cumpliendo de a poco. La clave: un bono con rollover bajo (tipo x30, como el de SOL) vale más que un bono enorme con rollover altísimo.
+          El rollover es el precio real escondido detrás del cartel luminoso: cuántas veces debes apostar el bono antes de poder retirar sus frutos. Cien dólares con x30 exigen tres mil dólares en apuestas — un maratón, no un sprint. Por eso los expertos leen los bonos al revés: primero el rollover y el plazo, después el porcentaje. El número grande vende la entrada; el número chico decide la función.
         </P>
         <div className="rounded-2xl bg-[#3b82f6]/[0.06] border border-[#3b82f6]/20 p-6 my-6">
           <p className="text-[#60a5fa] font-bold mb-2">💡 Regla de oro de los bonos</p>
           <p className="text-[#d4d4d8] leading-relaxed text-sm sm:text-base">
-            Un bono no es plata gratis que puedes retirar al toque: es un saldo para jugar con condiciones. A veces, si piensas retirar rápido, conviene rechazar el bono y jugar solo con tu depósito. Suena raro, pero es la decisión más inteligente en muchos casos.
-          </p>
+          Y el secreto que ningún cartel anuncia: el bono se puede rechazar. Si tu plan es una visita corta — depositar, jugar algo, retirar — el saldo limpio y sin condiciones es la butaca más cómoda del teatro. El bono brilla para quien viene a quedarse toda la temporada; para el espectador de una noche, es un contrato largo firmado para una función corta.
+        </p>
         </div>
         <P>
-          Otra cosa: no todos los juegos aportan igual al rollover. Las slots suelen contar al 100%, pero los juegos de mesa a veces aportan solo un 10% o nada. Si tu plan es cumplir el rollover, las tragamonedas son tus aliadas. Y ojo con los giros gratis: las ganancias que sacas de ellos casi siempre también tienen su propio rollover. Antes de aceptar cualquier bono, haz la cuenta mental del monto por el rollover y fíjate si es razonable para cómo juegas tú.
+          Otro pliegue del contrato que casi nadie ilumina: la tabla de aportes. Los slots liberan el rollover al 100%, pero la ruleta y el blackjack suelen aportar un 10% — o directamente nada, según la casa. El jugador de mesas que acepta un bono sin leer esa tabla se descubre remando un maratón con cuchara. Si lo tuyo son las mesas, considera la vía limpia: sin bono, sin ataduras, sin sorpresas en el tercer acto.
         </P>
         <div className="mt-2"><CtaButton slug="sol-casino" text="Ver el bono de SOL (rollover x30)" /></div>
       </Section>
@@ -573,7 +576,7 @@ export default function CasinoRoshtein() {
       <Section id="comparativa-bonos">
         <SectionTitle>Comparativa de bonos: ¿cuál te conviene?</SectionTitle>
         <P>
-          Ya que hablamos tanto de bonos, te dejamos una comparativa rápida de los que ofrecen los casinos de nuestro ranking, para que veas de un vistazo cuál pega más con tu forma de jugar. Recuerda: el número grande no lo es todo, lo que manda es el combo entre el monto, el rollover y para qué tipo de jugador está pensado.
+          Para que no compares de memoria, el elenco completo de bonos en una sola marquesina — números junto a números, condiciones junto a condiciones:
         </P>
         <div className="overflow-x-auto rounded-2xl border border-white/[0.06] my-8">
           <table className="w-full text-left text-sm">
@@ -603,7 +606,7 @@ export default function CasinoRoshtein() {
           </table>
         </div>
         <P>
-          Como ves, no hay un bono que sea el mejor para todos: hay un bono que es el mejor para ti. Y un truco que pocos aplican: no tienes por qué aceptar el primero que veas. Puedes crearte cuenta en dos o tres casinos del ranking, comparar sus bonos y catálogos con tu propia experiencia, y quedarte jugando en el que mejor te trate. Total, todos son de confianza.
+          La moraleja de la marquesina: no existe el mejor bono, existe el mejor bono para tu papel — el debutante busca rollover piadoso, el que apuesta fuerte busca porcentaje, el coleccionista busca catálogo. Y un truco de espectador veterano: nadie te obliga a elegir un solo teatro. Las bienvenidas son una por casa, y probar dos o tres casas antes de instalarte es la crítica más honesta que puedes escribir.
         </P>
       </Section>
 
@@ -611,15 +614,15 @@ export default function CasinoRoshtein() {
       <Section id="como-registrarte" alt>
         <SectionTitle>Cómo crear tu cuenta paso a paso</SectionTitle>
         <P>
-          Si nunca te registraste en un casino online, capaz piensas que es un trámite eterno. La verdad es que no: en menos de cinco minutos estás adentro. Te dejamos el paso a paso con Betsson de ejemplo, pero en cualquiera del ranking es casi igual.
+          ¿El registro? Menos dramático que cualquier escena de esta página: cinco minutos entre bambalinas y estás dentro. El guion, paso por paso:
         </P>
         <div className="space-y-4 my-6">
           {[
-            { n: 1, t: "Entrá desde el botón oficial", d: "Haz clic en cualquiera de los botones verdes de esta página. Te llevan al sitio oficial del casino, sin intermediarios raros, y aseguran que el bono se active bien." },
-            { n: 2, t: "Completá el registro", d: "Te van a pedir correo, contraseña, nombre, fecha de nacimiento (mayor de 18) y datos básicos. Cargá tu info real, porque después en la verificación tiene que coincidir." },
-            { n: 3, t: "Verifica tu cuenta (KYC)", d: "Subí una foto de tu documento y, a veces, un selfie o comprobante de domicilio. Es requisito legal y conviene hacerlo el primer día, así cuando retires no hay demoras." },
-            { n: 4, t: "Haz tu primer depósito", d: "Elige el método que más uses (transferencia, tarjeta, billetera local o cripto). Si quieres el bono, actívalo antes de confirmar. Fíjate el depósito mínimo para el bono." },
-            { n: 5, t: "A jugar (con cabeza)", d: "Ya tienes tu saldo más el bono. Busca tus slots favoritos, define cuánto estás dispuesto a gastar, y disfruta. Recuerda: es entretenimiento, no trabajo." },
+            { n: 1, t: "Entra desde el botón oficial", d: "Los botones verdes de esta guía te dejan en la puerta del teatro verdadero, con el bono ya reservado a tu nombre. Buscar el casino por tu cuenta en Google es arriesgarte a los revendedores: los sitios clonados existen y actúan muy bien su papel." },
+            { n: 2, t: "Completa el registro", d: "Correo, contraseña, nombre y fecha de nacimiento — los reales, los del documento. La verificación llegará después a comparar guiones, y una cuenta con datos inventados termina su carrera con el saldo confiscado." },
+            { n: 3, t: "Verifica tu cuenta (KYC)", d: "Foto del documento, quizás un selfie o un comprobante de domicilio. Es el trámite menos glamoroso de la obra y por eso conviene despacharlo el primer día: el KYC pendiente siempre elige el peor momento para reaparecer." },
+            { n: 4, t: "Haz tu primer depósito", d: "Tu método de siempre — transferencia, tarjeta, billetera o cripto. Revisa el mínimo que exige el bono antes de confirmar y actívalo si lo quieres en escena. El saldo aparece en segundos." },
+            { n: 5, t: "A jugar (con cabeza)", d: "Antes de la primera escena, dos decisiones de director: cuánto dura la función y cuánto cuesta la producción. Con presupuesto y límites fijados, ahora sí — que empiece el show." },
           ].map((s) => (
             <div key={s.n} className="flex gap-4 rounded-2xl bg-[#141414] border border-white/[0.06] p-5">
               <span className="w-9 h-9 rounded-full bg-gradient-to-br from-[#22c55e] to-[#16a34a] flex items-center justify-center font-black text-white shrink-0">{s.n}</span>
@@ -631,7 +634,7 @@ export default function CasinoRoshtein() {
           ))}
         </div>
         <P>
-          Y eso es todo. Nada de papeleo eterno ni esperas de días. La parte que más tarda es la verificación, y aun así suele resolverse en minutos o pocas horas. Por eso insistimos en hacerla apenas te registras: es la diferencia entre retirar al toque o quedarte esperando justo cuando ganaste. Un consejo extra: activa los límites de depósito desde el primer día.
+          Telón del trámite. Sin burocracia eterna ni esperas de semanas: la verificación es lo único con tiempos propios, y suele resolverse en horas. El truco de siempre, contado una vez más porque lo vale: el papeleo se hace en el prólogo, con calma — no en el clímax, con un premio esperando y el pulso a doscientos.
         </P>
         <div className="mt-4"><CtaButton slug="betsson-latam" text="Crear cuenta en Betsson" /></div>
       </Section>
@@ -640,15 +643,15 @@ export default function CasinoRoshtein() {
       <Section id="metodos-pago">
         <SectionTitle>Métodos de pago en LATAM</SectionTitle>
         <P>
-          Acá se nota la diferencia entre jugar en Stake (puro cripto) o en un casino con onda local. Te contamos qué opciones tienes y cuál conviene según tu caso, porque este punto, aunque parezca aburrido, es de los que más impacto tienen en tu experiencia.
+          Aquí es donde el teatro internacional de Stake y los casinos con acento local muestran sus diferencias de producción. Repasemos las taquillas disponibles, una por una:
         </P>
         <H3>Billeteras y transferencias locales: lo más cómodo</H3>
         <P>
-          Según tu país, vas a tener opciones locales muy prácticas: Mercado Pago en Argentina, Yape y Plin en Perú, Nequi y PSE en Colombia, y transferencias bancarias en todos lados. Los casinos con presencia regional, como Betsson, los aceptan, y el depósito cae al instante. Los retiros suelen llegar el mismo día. Si quieres simpleza total, este es tu camino.
+          La taquilla local es la más cómoda del edificio: Mercado Pago si escribes desde Argentina, Yape y Plin desde Perú, Nequi y PSE desde Colombia, transferencia u OXXO desde México. Métodos que ya viven en tu teléfono, integrados sin fricción en los casinos del ranking — y con retiros que en nuestras pruebas llegaron en horas, no en actos de tres días.
         </P>
         <H3>Tarjetas de débito y crédito</H3>
         <P>
-          Visa y Mastercard funcionan para depositar en casi todos los casinos. Para retiros suelen tardar más, y algunos bancos en la región ponen trabas a las transacciones de juego. Por eso, si piensas retirar seguido, las billeteras locales o las transferencias suelen ser más prácticas que la tarjeta.
+          Las tarjetas son el actor de reparto confiable: Visa y Mastercard depositan en casi cualquier casino sin pedir explicaciones. Su escena floja es la vuelta — los retiros a tarjeta tardan más que las billeteras, y algunos bancos de la región les ponen trabas de guion a las transacciones de juego. Perfectas de plan B; discretas de protagonista.
         </P>
         <H3>Cripto: el camino de Stake</H3>
         <P>
@@ -656,7 +659,7 @@ export default function CasinoRoshtein() {
         </P>
         <H3>¿Cuánto tardan los retiros?</H3>
         <P>
-          Depositar es fácil en todos lados; lo que separa a un buen casino de uno malo es la velocidad para devolverte tu plata. Los retiros con billeteras locales suelen llegar el mismo día, los de cripto en minutos, y las transferencias bancarias entre unas horas y un día hábil. La primera vez siempre tarda más por la verificación, así que haz el KYC apenas te registras. Si un casino te pone trabas raras para retirar, desconfía: los serios pagan sin drama.
+          Y la escena que desenmascara a cualquier casino: la devolución. Depositar es fácil en todos — para recibir, todos actúan de anfitrión encantador. El personaje verdadero aparece cuando pides tu dinero: horas con billeteras locales, minutos con cripto, un día hábil con transferencias. Quien tarda semanas y recita excusas no está teniendo un mal día: está mostrando el libreto completo.
         </P>
       </Section>
 
@@ -664,13 +667,13 @@ export default function CasinoRoshtein() {
       <Section id="primera-sesion" alt>
         <SectionTitle>Tu primera sesión de slots, bien hecha</SectionTitle>
         <P>
-          Si después de leer todo esto quieres probar, perfecto, pero hagámoslo con cabeza. Te dejamos una mini guía de cómo encarar tu primera sesión de slots para que sea entretenida y no termine en un mal rato. Es lo que le diríamos a un amigo que nunca jugó.
+          ¿Listo para tu propio estreno? Adelante — pero los estrenos decentes se ensayan. Esta es la escaleta de tu primera sesión, escena por escena:
         </P>
         <P>
-          Primero, define tu presupuesto de entretenimiento: un monto que si lo pierdes entero, no te cambia el mes. Ese es tu techo, y no se toca. Segundo, elige un slot de volatilidad media para arrancar (por favor, no te tires de una a los Nolimit City extremos que juega Roshtein, esos están diseñados para fundir bankrolls). Tercero, pon apuestas chicas: la idea es que el presupuesto te dure y disfrutes muchos giros, no que lo quemes en cinco minutos.
+          Primera escena: el presupuesto. Una cifra que puedas perder completa sin que el mes se resienta — se escribe antes de abrir el casino y no se reescribe a mitad de función. Segunda: el juego. Slot de volatilidad media, ensayado en demo, nada de las bestias de Roshtein en tu debut. Tercera: la apuesta. Mínima — cien giros pequeños son cien escenas; diez giros grandes son un suspiro y el telón.
         </P>
         <P>
-          Cuarto, fíjate un punto de salida tanto para arriba como para abajo. Si ganas y llegas a una meta que te pusiste, retira y cierra la sesión contento; no caigas en el “una más a ver si gano más”. Y si pierdes tu presupuesto del día, se terminó por hoy, sin dramas. Quinto: disfruta el rato. El objetivo es pasarla bien, no hacer plata. Una última cosa que mucha gente no sabe: no necesitas apostar más para “acercarte” a un premio. El RTP es un porcentaje fijo, da igual si apuestas chico o grande; lo único que cambia es el tamaño de los premios y las pérdidas.
+          Cuarta y última: el final se escribe por adelantado. Una meta de ganancia que, alcanzada, cierra la función con retiro y reverencia; un límite de pérdida que, tocado, apaga las luces sin bis. Lo que no puede pasar jamás: subir la apuesta para forzar el clímax. El RTP no lee tus ansias — apostar más grande solo adelanta el desenlace, y no hacia el lado que imaginas.
         </P>
         <div className="mt-4"><CtaButton slug="sol-casino" text="Empezar tranquilo en SOL" /></div>
       </Section>
@@ -679,7 +682,7 @@ export default function CasinoRoshtein() {
       <Section id="jugar-slots-tips">
         <SectionTitle>Cómo jugar slots como Roshtein (sin fundirte)</SectionTitle>
         <P>
-          Ya sabemos que viniste por las slots. Y está bien: son divertidas y los streams las hacen ver como una montaña rusa. Pero hay una diferencia abismal entre cómo juega un streamer (sobre todo uno que va a la caza de max wins con un bankroll enorme) y cómo deberías jugar tú. Estos consejos no te los da nadie en un stream, pero te pueden salvar el bolsillo.
+          Viniste por los slots, como todo el mundo que pasa por aquí. Perfecto — pero entre el escenario de Roshtein y tu pantalla hay una distancia que conviene medir antes de imitar una sola de sus apuestas:
         </P>
         <H3>Entiende la volatilidad</H3>
         <P>
@@ -687,11 +690,11 @@ export default function CasinoRoshtein() {
         </P>
         <H3>Mira el RTP y usa el modo demo</H3>
         <P>
-          El RTP es el porcentaje teórico que un slot devuelve a largo plazo. Elige slots con 96% o más. Y antes de apostar plata real, juega un rato en modo demo (gratis, con dinero ficticio) para entender la mecánica, sobre todo con los slots más extremos. Los streamers no usan demo porque su contenido es el espectáculo de la plata real, pero tú no tienes por qué.
+          Al elegir tu slot, lee la ficha técnica como un crítico: RTP de 96% o más, sin excepciones sentimentales — lo que baja de 94% trabaja demasiado en tu contra. Y todo título nuevo pasa primero por el demo: la misma obra, el mismo guion, cero entrada. Roshtein nunca usa demo porque su público paga por ver dinero real en escena. Tú no tienes público: date el lujo del ensayo general.
         </P>
-        <H3>Define límites y respetalos</H3>
+        <H3>Define límites y respétalos</H3>
         <P>
-          Lo más importante y lo más difícil. Antes de empezar, decide cuánto vas a jugar y cuándo vas a parar. Y la regla sagrada: nunca persigas las pérdidas. Ese “una más para recuperar” es el camino directo a perder el doble.
+          Y la escena más difícil de actuar: parar. Decide cuánto juegas y cuándo terminas antes de que empiece la música, y trata esa decisión como sagrada. La tentación de perseguir pérdidas — el famoso “una más y recupero” — es el giro de guion que convierte comedias en dramas: la matemática no perdona y la adrenalina no aconseja. Los grandes finales son los que se escriben en frío.
         </P>
         <ProsCons
           pros={[
@@ -713,15 +716,15 @@ export default function CasinoRoshtein() {
       <Section id="errores-comunes" alt>
         <SectionTitle>Los 5 errores del que copia a un streamer</SectionTitle>
         <P>
-          Después de ver mucho contenido de casino, identificamos los errores que se repiten en el que empieza a jugar copiando lo que ve en un stream. Si los esquivas, ya juegas mejor que la mayoría.
+          Después de años en la platea del contenido de casino, los tropiezos del espectador que salta al escenario se repiten con puntualidad de matiné. Los cinco clásicos del repertorio:
         </P>
         <div className="space-y-4 my-6">
           {[
             { t: "Imitar los bonus hunts", d: "Un bonus hunt implica gastar una fortuna acumulando bonus antes de saber si recuperas algo. Está pensado para el bankroll de un streamer, no para ti. Imitarlo es la forma más rápida de fundir el saldo." },
             { t: "Creer que el max win viral es lo normal", d: "El record gigante es el mejor momento de incontables rondas perdedoras. Por cada clip de premio hay larguísimas rachas secas que no se hacen virales." },
-            { t: "Perseguir las pérdidas", d: "El error más caro. Después de perder viene el una más para recuperar, y esa lógica transforma una pérdida chica en un problema grande." },
+            { t: "Perseguir las pérdidas", d: "El clásico trágico del repertorio. Tras la pérdida llega el 'una más y recupero', y esa línea de diálogo ha convertido más pérdidas chicas en catástrofes que cualquier slot. El dinero ido salió de escena: no vuelve porque grites más fuerte." },
             { t: "Tirarse a los slots de volatilidad extrema", d: "Los Nolimit City que juega Roshtein son de los más volátiles del mercado. Para un jugador común, son los más peligrosos: pueden comerte el saldo en rachas larguísimas." },
-            { t: "No leer las condiciones del bono", d: "Aceptar un bono sin mirar el rollover es el clásico. Después te quejas de que no te dejan retirar, cuando no cumpliste una condición que estaba escrita." },
+            { t: "No leer las condiciones del bono", d: "Firmar el contrato sin leerlo y quejarse en el tercer acto. El rollover estaba escrito, el plazo estaba escrito, la letra chica estaba escrita. Cinco minutos de lectura te ahorran el papel de indignado en los foros." },
           ].map((e, i) => (
             <div key={e.t} className="flex gap-4 rounded-2xl bg-[#141414] border border-white/[0.06] p-5">
               <span className="w-9 h-9 rounded-full bg-gradient-to-br from-[#f59e0b] to-[#b45309] flex items-center justify-center font-black text-white shrink-0">{i + 1}</span>
@@ -733,7 +736,7 @@ export default function CasinoRoshtein() {
           ))}
         </div>
         <P>
-          Si lees esta lista y piensas “a mí no me va a pasar”, justo ese pensamiento es el que mete a la gente en problemas. Nadie planea perder de más; pasa de a poco, en el calor del momento. Por eso lo mejor que puedes hacer es decidir tus límites antes de empezar, cuando tienes la cabeza fría, y respetarlos pase lo que pase. El casino va a estar ahí mañana; tu plata, si la cuidas, también.
+          ¿Leíste la lista pensando “a mí no me pasa”? Esa línea, exactamente esa, es la que abre todas las tragedias del género. Nadie planea perder de más: sucede por entregas, con la adrenalina de directora y sin ningún límite escrito que haga de apuntador. Por eso los límites se escriben antes de la función — cuando el que sostiene la pluma todavía eres tú y no el personaje.
         </P>
       </Section>
 
@@ -747,7 +750,7 @@ export default function CasinoRoshtein() {
           A nivel internacional, junto a Roshtein está xQc, posiblemente el streamer de casino más grande del mundo; y en el mundo hispano hay una camada potente con Coscu y Santutu en Argentina, MrStiven Tc en Colombia y Andynsane en Perú. Todos comparten el mismo formato: slots de alta volatilidad, reacciones grandes, y clips que circulan por todas las redes. Es una industria con muchísimo dinero en juego.
         </P>
         <P>
-          Cuando entiendes que es una industria (con acuerdos, con producción, con un modelo de negocio claro), dejas de ver los streams como “alguien que gana fortunas jugando” y empiezas a verlos como lo que son: entretenimiento profesional. Roshtein es de los más espectaculares y, a la vez, de los más cuestionados, lo que lo vuelve un ejemplo perfecto de por qué hay que mirar este contenido con sentido crítico. Si te copa este tipo de contenido y quieres saber dónde juegan los demás, lo estamos investigando uno por uno.
+          Cuando por fin ves la maquinaria completa — contratos, producción, patrocinios, un modelo de negocio pulido durante años — el espectáculo cambia de género ante tus ojos: de “hombre que desafía al azar” a “industria del entretenimiento ejecutada por profesionales”. Y esa lectura, lejos de arruinar la función, te regala la mejor butaca: la del espectador que disfruta el show sin confundirlo con un manual de instrucciones.
         </P>
         <div className="mt-4"><Link href="/streamers" className="inline-flex items-center justify-center px-6 py-3 rounded-xl border border-[#a855f7]/40 text-[#c084fc] font-bold text-sm uppercase tracking-wide transition-all hover:bg-[#a855f7]/10">Ver todos los streamers →</Link></div>
       </Section>
@@ -760,13 +763,13 @@ export default function CasinoRoshtein() {
         </P>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6">
           {[
-            { t: "RTP (Return to Player)", d: "Porcentaje teórico que un juego devuelve a largo plazo. RTP de 96% = devuelve 96 de cada 100 apostados, en promedio." },
+            { t: "RTP (Return to Player)", d: "El porcentaje que el juego devuelve al público a lo largo de millones de giros: 96% = 96 de cada 100 vuelven a la platea. El resto es el precio de la función." },
             { t: "Volatilidad", d: "Qué tan seguido y qué tan grande paga un slot. Extrema (como los Nolimit) = premios muy raros pero gigantes." },
             { t: "Bonus hunt", d: "Cacería de bonus: jugar muchos slots para acumular rondas de bonus y abrirlas todas juntas después. La marca registrada de Roshtein." },
             { t: "Max win", d: "El premio máximo que un slot puede pagar, expresado como múltiplo de la apuesta. Los Nolimit y Hacksaw llegan a miles de veces." },
-            { t: "Rollover", d: "Las veces que tienes que apostar un bono antes de poder retirar. Bono con rollover x30 = apostar 30 veces ese monto." },
-            { t: "Tumbles", d: "Mecánica donde los símbolos ganadores desaparecen y caen nuevos, encadenando premios. Típica de Sweet Bonanza y Gates of Olympus." },
-            { t: "KYC", d: "Verificación de identidad. Te piden documento y a veces selfie. Es requisito legal antes de retirar." },
+            { t: "Rollover", d: "Las vueltas completas que debe dar un bono antes de volverse retirable. x30 sobre 100 = 3.000 en apuestas. El verdadero argumento de la obra, escondido bajo el título." },
+            { t: "Tumbles", d: "Los símbolos ganadores salen de escena y entran reemplazos, encadenando premios en un mismo giro. La coreografía firma de Sweet Bonanza y Gates of Olympus." },
+            { t: "KYC", d: "El control de documentos del teatro: identificación y a veces selfie, exigidos por ley antes de cualquier retiro. Mejor pasarlo en el prólogo que en el clímax." },
             { t: "House Edge", d: "La ventaja matemática del casino. Es por qué, a la larga, la casa siempre gana." },
             { t: "Bankroll", d: "El total de plata que destinas a jugar. Debería ser lo que puedes perder sin drama." },
             { t: "Originals", d: "Juegos propios de plataformas como Stake (Plinko, Crash, Mines) que no encuentras en casinos tradicionales." },
@@ -788,10 +791,10 @@ export default function CasinoRoshtein() {
           No nos íbamos a ir sin esto, y con Roshtein menos, porque su contenido de volatilidad extrema es justo el más fácil de imitar mal. El casino no es un trabajo ni una inversión. Es entretenimiento que cuesta plata, como ir al cine. Y como todo entretenimiento que cuesta plata, hay que ponerle límites.
         </P>
         <P>
-          Reglas simples que te pueden ahorrar disgustos: juega solo con plata que estés dispuesto a perder, nunca con la del alquiler o la comida. Pon un presupuesto antes de empezar y respétalo, ganes o pierdas. Si pierdes, no persigas las pérdidas. Y si sientes que se te está yendo de las manos, paras. No hay vergüenza en eso, hay inteligencia.
+          El reglamento de camerino, breve y sin adornos: se juega con dinero de ocio — el del alquiler y la comida tienen otra obra y otro director. El presupuesto se escribe antes de entrar y se respeta hasta el saludo final, con aplausos o sin ellos. Tres líneas de guion, cero glamour, y más carreras de jugador salvadas que cualquier estrategia jamás inventada.
         </P>
         <P>
-          Una señal de alarma para que tengas en el radar: si te encuentras jugando para “recuperar” lo perdido, escondiendo cuánto juegas, o sacando plata de gastos importantes para apostar, para y pide ayuda. Esos son los focos rojos del juego problemático, y reconocerlos a tiempo cambia todo. Todos los casinos serios tienen herramientas de juego responsable: límites de depósito, autoexclusión, recordatorios de tiempo. Usalas sin culpa. Mayores de 18 años, siempre.
+          Y las tres luces rojas del tablero, para tenerlas siempre a la vista: jugar para recuperar lo perdido, esconder cuánto se juega, tocar dinero comprometido. Cualquiera de ellas encendida significa intermedio inmediato — pausa, aire, una conversación con alguien de confianza. Los límites de depósito y la autoexclusión están en todos los casinos serios esperando ser usados sin vergüenza. Y la puerta del teatro, siempre: +18.
         </P>
         <div className="rounded-2xl bg-[#22c55e]/[0.06] border border-[#22c55e]/20 p-6">
           <p className="text-[#d4d4d8] leading-relaxed text-sm sm:text-base">
@@ -820,10 +823,10 @@ export default function CasinoRoshtein() {
           Recapitulemos. La pregunta con la que llegaste era “¿en qué casino juega Roshtein?”, y la respuesta es <strong className="text-white">Stake</strong>, donde tiene sus bonus hunts y sus max wins. Eso es un hecho, y ahora ya sabes el contexto completo: por qué juega ahí, qué slots de volatilidad extrema usa, y por qué esos clips récord (y su figura polémica) hay que tomarlos con pinzas.
         </P>
         <P>
-          Pero si tu pregunta de fondo era “¿y dónde juego yo?”, nuestra respuesta es distinta: para la mayoría, arrancar por <strong className="text-white">Betsson</strong> o por <strong className="text-white">STARDA</strong> (el paraíso de los slots, con un bono que te da margen) es una jugada más inteligente que copiar a un streamer que va a la caza de records con un bankroll descomunal. Stake es legítimo y puedes usarlo si te manejas con cripto, pero no es necesariamente tu mejor punto de partida.
+          Pero si la pregunta que trajiste era la otra — “¿y yo, dónde juego?” — el desenlace es menos exótico y más útil: para la mayoría de este lado del océano, <strong className="text-white">Betsson</strong> (el veterano que no falla) o <strong className="text-white">STARDA</strong> (el festival de slots con bono generoso) son mejores puertas que el escenario de un sueco patrocinado. Stake queda para quien ya vive en cripto. El resto ya lo leíste; ahora te toca elegir asiento.
         </P>
         <P>
-          Y por encima de qué casino elijas, lo más importante: juega con la cabeza fría. El casino es entretenimiento, no un trabajo. Pon límites, respetalos, y disfruta los slots por lo que son: un juego. Ojalá esta guía te haya servido no solo para saber dónde juega Roshtein, sino para entender todo lo que hay detrás y tomar decisiones informadas.
+          Y el epílogo, que es lo único innegociable de toda la obra: juega con la cabeza fría. Roshtein cobra por hacer del riesgo un espectáculo; tú pagas por asistir — que la entrada cueste lo que decidiste en frío y ni un acto más. Límites escritos, presupuesto sagrado, y los slots en su justo papel: entretenimiento. El mejor casino siempre será el que se ajuste a tu historia, no a la del personaje que miras desde la platea.
         </P>
         <div className="mt-6 flex flex-wrap gap-3">
           <CtaButton slug="betsson-latam" text="Empezar con Betsson" />

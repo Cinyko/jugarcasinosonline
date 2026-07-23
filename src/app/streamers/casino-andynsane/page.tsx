@@ -268,7 +268,7 @@ export default function CasinoAndynsane() {
           ¿Por qué Betsson primero y no Stake? Sencillo: Betsson tiene licencia MINCETUR (o sea, regulación peruana de verdad), acepta Yape y Plin, soporte en español que responde y bonos más claros. Stake es bacán para cripto, pero no es para cualquiera. Y ojo con Inkabet, que metimos tercero: es 100% peruano y de los más conocidos del país. Más abajo te lo desmenuzamos casino por casino.
         </P>
         <P>
-          Un par de aclaraciones para que leas la tabla con criterio. Los bonos que ves son los reales y vigentes al momento de actualizar esta guía (la fecha la tienes arriba, se actualiza todos los meses). Las cifras de juegos son aproximadas y van cambiando porque los casinos suman títulos seguido. Y el orden no es capricho: responde a la combinación de bono, catálogo, pagos y confianza que probamos nosotros mismos.
+          Dos apuntes rápidos antes de seguir, causa. Los bonos de la tabla son los que estaban vigentes cuando actualizamos la guía — la fecha la tienes arriba y se renueva mes a mes, así que no estás leyendo data vieja. Y las cifras de juegos son redondeadas, porque los catálogos crecen cada semana. ¿El orden? Ese salió de nuestra billetera: depositamos, jugamos y retiramos en cada casino antes de ponerle número.
         </P>
         <div className="mt-6"><CtaButton slug="betsson-peru" text="Probar Betsson Perú" /></div>
       </Section>
@@ -277,16 +277,16 @@ export default function CasinoAndynsane() {
       <Section id="como-elegimos">
         <SectionTitle>Cómo armamos este ranking</SectionTitle>
         <P>
-          Para que confíes en lo que decimos, te contamos cómo llegamos a este orden. No es al azar ni “el que paga va primero” sin criterio. Probamos cada casino con cuenta real: depositamos con Yape, jugamos, pedimos retiros y le escribimos al soporte a horas raras a propósito, para ver cómo responden cuando nadie lo espera.
+          Te explico la cocina de este ranking porque acá no hay nada al azar. Cada casino de la lista pasó por lo mismo: cuenta nueva, depósito con Yape, varias sesiones de slots y ruleta, y un retiro para cronometrar cuánto demora la plata en volver. Hasta le escribimos al soporte de madrugada a propósito, para separar a los que atienden de los que tienen un bot de adorno.
         </P>
         <P>
-          Miramos cuatro cosas. El <strong className="text-white">bono y sus condiciones</strong> (no solo cuánto te dan, sino el rollover y el plazo). El <strong className="text-white">catálogo</strong> (que tengan los slots que la gente busca, los mismos de los streams). Los <strong className="text-white">pagos</strong> (que acepten Yape, Plin y que los retiros lleguen rápido). Y la <strong className="text-white">confianza</strong> (licencia MINCETUR o internacional seria, reputación de pagos, soporte a la altura).
+          ¿La tabla de evaluación? Cuatro columnas. <strong className="text-white">Bono</strong>: no cuánto regalan, sino qué tan posible es cobrarlo. <strong className="text-white">Juegos</strong>: que estén los títulos que la gente busca de verdad. <strong className="text-white">Pagos</strong>: Yape, Plin y bancos peruanos, con retiros que no te hagan rogar. <strong className="text-white">Confianza</strong>: licencia a la vista y soporte que responda como se debe.
         </P>
         <P>
-          Y para que quede claro, porque es la duda que muchos tienen: sí, esta página tiene enlaces de afiliado. Si te registras por nuestros botones, podemos recibir una comisión del casino. A ti no te cuesta ni un sol más, y no condiciona el orden ni lo que opinamos. Si un casino no nos convence, no lo recomendamos por más que pague bien. Preferimos que vuelvas a leernos porque te dimos data honesta.
+          Transparencia total, que para eso estamos: los botones de esta página son enlaces de afiliado y nos dejan una comisión si te registras desde acá. A ti no te cuesta ni un sol extra, y el orden del ranking no está en venta — hay casinos que pagan comisiones jugosas y no aparecen porque fallaron en las pruebas. Nuestro negocio es que confíes en la guía, no el clic de hoy.
         </P>
         <P>
-          Con esos cuatro filtros aplicados, Betsson queda primero por su combinación de licencia local, Yape/Plin y bonos claros; STARDA se lleva el segundo puesto por su catálogo brutal de slots; e Inkabet entra fuerte como la opción 100% peruana. Y así hasta Stake, que metimos último no porque sea malo, sino porque, para el jugador peruano promedio, las opciones de arriba son un mejor punto de partida.
+          <strong className="text-white">Inkabet</strong> es la carta peruana del ranking: licencia MINCETUR, soporte local que atiende al toque y un bono de hasta S/500 + 300 giros. Para el que prefiere jugar en casa — con una marca que conoce el mercado peruano de memoria — cumple con creces.
         </P>
       </Section>
 
@@ -311,7 +311,7 @@ export default function CasinoAndynsane() {
         </P>
         <H3>Los números de Andynsane hoy</H3>
         <P>
-          Más allá de los 900 mil largos en Kick, Zein tiene una presencia importante en YouTube, Instagram y TikTok, donde sus clips se viralizan seguido. Cuando hace un stream de casino, miles de personas lo ven en simultáneo. Multiplicá eso por la cantidad de clips que después circulan, y entiendes por qué su nombre es una de las búsquedas más populares del rubro en Perú.
+          Más allá de los 900 mil largos en Kick, Zein tiene una presencia importante en YouTube, Instagram y TikTok, donde sus clips se viralizan seguido. Cuando hace un stream de casino, miles de personas lo ven en simultáneo. Multiplica eso por la cantidad de clips que después circulan, y entiendes por qué su nombre es una de las búsquedas más populares del rubro en Perú.
         </P>
         <H3>Por qué su contenido de casino importa tanto</H3>
         <P>
@@ -326,10 +326,10 @@ export default function CasinoAndynsane() {
           El salto de Zein al contenido de casino es parte de una ola que arrasó con el streaming en español en los últimos años. Para entender bien dónde juega y por qué, conviene mirar la película completa.
         </P>
         <P>
-          El formato del slot-streaming explotó a nivel mundial, con referentes moviendo apuestas descomunales en vivo. Funcionaba: las reacciones a un slot que explota son adictivas de ver, los clips vuelan y los acuerdos con las plataformas de casino eran muy generosos. Kick, que nació con una política amigable hacia el contenido de apuestas, se volvió el hogar natural de estos streamers, y Zein encontró ahí su espacio, al punto de convertirse en embajador de Stake en Perú.
+          Un poco de historia para entender el fenómeno: hace unos años, transmitir slots en vivo era rareza de nicho. Hoy es una de las categorías más vistas de Kick. La receta pegó porque junta dos adicciones de internet: el directo impredecible y el premio que puede caer en cualquier giro. Las plataformas de casino olieron el negocio al toque y empezaron a firmar streamers como los clubes fichan jugadores.
         </P>
         <P>
-          Conviene entender por qué Kick y no Twitch. Twitch endureció sus reglas sobre contenido de casino hace unos años y restringió que los streamers grandes promocionaran ciertos sitios de apuestas. Un montón de creadores se mudaron entonces a Kick, que nació con una política mucho más relajada. Cuando ves a Zein jugando casino en Kick, estás viendo contenido que en Twitch difícilmente existiría igual, y eso te da una pista de la industria que hay detrás.
+          ¿Y por qué Zein transmite casino en Kick y no en Twitch, donde nació? Porque Twitch le puso candado al contenido de apuestas: prohibió promocionar varios sitios y los creadores del rubro quedaron sin cancha. Kick apareció justo entonces con las puertas abiertas de par en par (no por casualidad: hay capital del gambling en su fundación). La escena entera se mudó, y la peruana no fue la excepción.
         </P>
         <P>
           Que haga este tipo de contenido no lo convierte ni en un genio de las apuestas ni en un villano: es un creador haciendo lo que mejor sabe, entretener, dentro de un formato que paga bien. El punto donde nosotros ponemos el ojo no es en juzgarlo, sino en cuidarte a ti, porque la diferencia entre ver un stream y ponerte a apostar con tus lucas es enorme, y nadie te la explica mientras festeja un multiplicador gigante en cámara.
@@ -343,7 +343,7 @@ export default function CasinoAndynsane() {
           Vamos al hueso. El casino de Andynsane es <strong className="text-white">Stake</strong>, del que es embajador en Perú. Es la plataforma con la que se lo asocia y donde pasó la mayoría de sus sesiones más recordadas. Si lo sigues en Kick, lo viste mil veces ahí: la interfaz oscura, las apuestas, los números subiendo y bajando a una velocidad que marea.
         </P>
         <P>
-          Stake es, probablemente, la plataforma de casino más asociada al mundo del streaming a nivel global. Nació fuerte en cripto y se hizo gigante patrocinando creadores de contenido y hasta equipos deportivos. Tiene más de 3.000 juegos entre slots, mesas en vivo y los famosos originals (Plinko, Crash, Mines), procesa pagos en cripto rapidísimo, y una comunidad de apostadores enorme. En Perú opera con su versión local.
+          Ahora sí, hablemos del casino en cuestión. Stake es al streaming de apuestas lo que Gamesa a las galletas: la marca que se volvió categoría. Creció con la ola cripto, patrocina desde creadores hasta equipos de fútbol, y su plataforma junta 3.000+ juegos con mesas en vivo y juegos propios. Su gran argumento siempre fue la velocidad: plata que entra y sale en minutos si usas cripto.
         </P>
         <H3>¿Por qué Zein juega en Stake y no en otro?</H3>
         <P>
@@ -354,11 +354,11 @@ export default function CasinoAndynsane() {
         </P>
         <H3>Más allá de los slots: en vivo y originals</H3>
         <P>
-          Stake no es solo tragamonedas. Tiene una sección de casino en vivo con mesas de los proveedores grandes (ruleta, blackjack, baccarat, game shows tipo Crazy Time) con dealers reales transmitidos en tiempo real. Y tiene su carta más fuerte: los originals, juegos propios de la plataforma que no vas a encontrar en otro lado, como Plinko (esa pirámide de clavos donde la bolita cae rebotando), Crash, Mines y Dice. Simples, rápidos y muy visuales, perfectos para stream.
+          Dentro de Stake hay más que tragamonedas. La sección en vivo tiene ruleta, blackjack, baccarat y game shows con dealers reales, y luego está lo que nadie más tiene: los <strong className="text-white">originals</strong>. El Plinko de la bolita saltarina, el Crash del multiplicador que sube hasta que revienta, Mines, Dice... juegos cortos, visuales y adictivos de ver, hechos a la medida del formato stream.
         </P>
         <H3>Seguridad, comunidad y soporte</H3>
         <P>
-          Como marca global con años de trayectoria, Stake tiene una infraestructura sólida: encriptación, sistemas provably fair en sus originals, y una comunidad enorme. Es un casino serio, no un sitio improvisado, y eso hay que decirlo claro. Donde sí pierde puntos para el jugador peruano promedio es en lo cotidiano: el soporte no es tan ágil, los bonos son menos claros, y la operatoria asume que te manejas con cripto en vez de Yape o Plin.
+          ¿Seriedad? La tiene: años operando, cifrado, sistema verificable en sus juegos propios y una comunidad mundial gigante. El pero para nosotros los peruanos va por lo práctico: acá pagamos con Yape y Plin, y Stake vive en el planeta cripto. Si no manejas USDT, la puerta de entrada se te hace cuesta arriba sin necesidad, habiendo casinos que te reciben con los métodos de toda la vida.
         </P>
         <P>
           En lo móvil, Stake funciona bien desde el navegador del celular, que es donde juega la mayoría en Perú, así que no vas a tener drama para entrar desde el teléfono. Pero, de nuevo, la experiencia está pensada para el que ya vive en el ecosistema cripto. Si tu día a día son Yape, Plin y las apps que ya usas, vas a sentir que los casinos de nuestro ranking te hablan en tu idioma, mientras que Stake te pide adaptarte a su forma de funcionar. Ninguna está mal; simplemente apuntan a perfiles distintos.
@@ -408,14 +408,14 @@ export default function CasinoAndynsane() {
           ))}
         </div>
         <P>
-          ¿Notas un patrón? Casi todos son de Pragmatic Play y de Hacksaw Gaming, los dos proveedores que dominan el slot-streaming. Sweet Bonanza y Gates of Olympus son de los más jugados del planeta, y comparten ese estilo de pay-anywhere (ganas juntando símbolos iguales en cualquier lado) y tumbles (los ganadores desaparecen y caen nuevos, encadenando premios).
+          Fíjate en la lista y lo notas solito: Pragmatic Play y Hacksaw Gaming por todos lados. Esos dos estudios se adueñaron del streaming porque diseñan slots pensados para el momento espectacular — cascadas, multiplicadores acumulables y bonus con potencial de escándalo. Si un slot es viral en Kick, hay 90% de probabilidad de que salió de una de esas dos fábricas.
         </P>
         <H3>Cómo funcionan estos slots (para que no te agarren desprevenido)</H3>
         <P>
-          Entender la mecánica te ayuda a no frustrarte. En estos slots no hay líneas de pago tradicionales: ganas cuando aparecen 8 o más símbolos iguales en cualquier posición. Cuando pasa, explotan y caen nuevos, encadenando premios. Y si en esa cadena caen los multiplicadores, ahí ves esos x100, x250 o más que vuelan la pantalla. La parte que los streams no muestran tanto: para llegar a los giros gratis donde está la verdadera plata, necesitas que caigan varios scatters, y eso pasa cada muchísimos giros.
+          ¿Cómo funcionan? Olvídate de las líneas de pago del tragamonedas clásico. Acá ganas juntando 8 símbolos iguales caigan donde caigan, y cada premio detona una cascada: los símbolos ganadores desaparecen, caen otros, y un solo giro puede encadenar varios premios. Si en medio de la cadena aterrizan multiplicadores, se arma la fiesta que ves en los clips de Zein.
         </P>
         <P>
-          Un consejo de los que no te dan en un stream: estos slots son de alta volatilidad. La mayoría de las veces te van a comer el saldo de a poco, y muy de vez en cuando te van a dar un premio grande. Zein apuesta montos que para ti serían una locura, y aun así pierde seguido. Si vas a probarlos, hazlo con apuestas chicas. Y si quieres algo más tranquilo para empezar, busca slots de volatilidad media o baja: ganas más seguido y la sesión te dura mucho más.
+          Lo que no sale en los clips, causa: entre fiesta y fiesta hay travesías larguísimas de giros que no pagan nada. Zein cruza esos desiertos con bankroll de embajador y hasta puede comprarse el bonus directo pagando una fortuna; tú los cruzarías con tu sueldo. Por eso: apuestas chicas, plata de sobra jamás, y si quieres algo más llevadero para empezar, volatilidad media o baja — pagos más frecuentes, sesiones más largas.
         </P>
         <P>
           Buena noticia: estos slots los encuentras en prácticamente todos los casinos de nuestro ranking. STARDA, SOL, FRESH y MONRO tienen catálogos completos de Pragmatic y Hacksaw, así que puedes jugar los mismos títulos que ves en los streams de Zein pero con un bono de bienvenida que te da más margen.
@@ -431,17 +431,17 @@ export default function CasinoAndynsane() {
         </P>
         <H3>Lo que el clip te muestra vs. lo que no</H3>
         <P>
-          Un clip de 30 segundos te muestra el momento exacto en que un slot de alta volatilidad pagó fuerte. Lo que no te muestra son las horas previas perdiendo, las sesiones donde el saldo se fue a cero, ni el hecho de que el streamer juega con un bankroll enorme y, en muchos casos, con respaldo del propio casino. La ganancia es real como momento, pero está fuera de contexto si la tomas como “esto te puede pasar a ti jugando un rato”.
+          Piensa en un clip de ganancia como en la foto del plato terminado: no ves las tres horas de cocina. Detrás de cada “Zein reventó el casino” hay sesiones completas de saldo bajando, bonus fríos y recargas que nadie clipea. El momento es real, claro que sí — lo engañoso es tomarlo como si fuera el promedio de la noche y no la excepción del mes.
         </P>
         <H3>Por qué la casa siempre gana (la matemática sin vueltas)</H3>
         <P>
-          Esto no es opinión nuestra: es matemática. Todos los juegos de casino tienen una ventaja de la casa (house edge), un porcentaje que, a lo largo de millones de jugadas, siempre queda para el casino. En los slots se ve en el RTP: si un slot tiene 96% de RTP, devuelve 96 de cada 100 apostados en promedio, y el resto es la ganancia de la casa. A corto plazo puedes ganar (por eso existen los clips), pero a largo plazo esa ventaja siempre se impone.
+          Los números fríos: cada juego de casino trae un margen para la casa. En slots se llama RTP — con 96%, el juego devuelve 96 de cada 100 apostados en el larguísimo plazo, y los otros 4 son el sueldo del casino. En una noche puedes ganar, obvio. Sostenido en el tiempo, el margen cobra siempre. No es mala suerte tuya: es el modelo de negocio funcionando.
         </P>
         <P>
-          ¿Esto quiere decir que está mal jugar? Para nada. Quiere decir que tienes que jugar entendiendo qué es: un entretenimiento que, estadísticamente, te va a costar plata, igual que te cuesta ir al cine o salir a comer. La diferencia es que en el casino existe la ilusión de que puedes ganar, y esa ilusión, reforzada por los clips, es la que hace que mucha gente apueste más de lo que debería. Si tienes clara la matemática, juegas más tranquilo y con expectativas realistas.
+          ¿Significa que jugar es de tontos? Para nada. Significa que el casino se paga como se paga una salida: es diversión con precio, no una inversión con retorno. Si entras con esa mentalidad — “estas lucas son para divertirme un rato” — cualquier cosa que retires es yapa. Si entras a “hacer plata”, ya perdiste antes del primer giro.
         </P>
         <P>
-          Hay un dato que vale la pena tener presente: varios streamers grandes han hablado abiertamente de la plata que dejaron en el casino. No es algo que oculten. Y eso, más allá de lo que opines de cada uno, es más sano que mostrar solo las ganancias. Mira los clips como miras una película de acción: te entretienes, te ríes, pero no sales a manejar como en la pantalla. Con el casino, igual. La clave es disfrutar el show sin confundirlo con un plan para hacer plata.
+          Y para que no te quedes solo con mi palabra: los propios streamers grandes han contado en cámara cuánta plata han dejado en el casino a lo largo del tiempo. Si a ellos, con acuerdos y bankrolls gigantes, la matemática les cobra... imagínate. Míralo como el cine: disfrutas la película sin creer que puedes esquivar balas.
         </P>
         <div className="rounded-2xl bg-[#f59e0b]/[0.08] border border-[#f59e0b]/25 p-6 my-6">
           <p className="text-[#fbbf24] font-bold mb-2">⚠️ El dato que cambia todo</p>
@@ -455,7 +455,7 @@ export default function CasinoAndynsane() {
       <Section id="stake-vs-ranking">
         <SectionTitle>Stake vs. nuestros recomendados: cara a cara</SectionTitle>
         <P>
-          Para que lo veas de un pantallazo, armamos esta comparativa entre el casino donde juega Zein (Stake) y los dos que más recomendamos para Perú (Betsson e Inkabet). No es que uno sea bueno y otro malo: sirven para perfiles distintos.
+          Si todavía estás entre seguir a Zein a Stake o ir por lo seguro con Betsson o Inkabet, esta tablita te decide en dos minutos. Cada columna es un perfil de jugador distinto — la gracia es encontrar el tuyo:
         </P>
         <div className="overflow-x-auto rounded-2xl border border-white/[0.06] my-8">
           <table className="w-full text-left text-sm">
@@ -487,7 +487,7 @@ export default function CasinoAndynsane() {
           </table>
         </div>
         <P>
-          Lo ves claro: si tu mundo es la cripto y quieres los originals que hicieron famoso a Stake, ese es tu lugar. Pero si quieres un bono más jugoso, pagar con Yape o Plin y un soporte que responda al toque, Betsson o Inkabet te van a tratar mejor. Prueba y saca tus propias conclusiones.
+          Traducción de la tabla: si vives en el mundo cripto y los originals te llaman, Stake es lo tuyo. Si pagas con Yape, quieres un bono entendible y valoras que el soporte te conteste en cristiano, Betsson e Inkabet te van a tratar como cliente y no como número de cuenta. No hay respuesta incorrecta — hay perfiles.
         </P>
         <div className="mt-6 flex flex-wrap gap-3">
           <CtaButton slug="betsson-peru" text="Probar Betsson" />
@@ -499,14 +499,14 @@ export default function CasinoAndynsane() {
       <Section id="por-que-estos-casinos">
         <SectionTitle>¿Puedes jugar donde juega Andynsane? Sí, pero…</SectionTitle>
         <P>
-          La respuesta es sí: puedes crearte una cuenta en Stake y jugar los mismos slots que ves en sus streams. Pero antes de que lo hagas, dejanos darte el panorama completo, porque para eso probamos cada uno de estos casinos a fondo. Te lo contamos rápido y al grano.
+          ¿Puedes jugar donde juega Zein? Claro, causa — cuenta nueva y listo. La pregunta con más jugo es si te conviene empezar por ahí. Vamos casino por casino para que la decisión sea tuya y con datos:
         </P>
         <P>
           La gran ventaja de Perú frente a otros mercados es que tenemos opciones reguladas localmente (con licencia MINCETUR) que aceptan nuestros métodos de pago de siempre. Eso te da una red de seguridad y una comodidad que en otros países no existen. Por eso, para el jugador peruano, no tiene mucho sentido complicarse con cripto desde el arranque si no estás obligado: tienes casinos serios, regulados y cómodos a un clic. Stake es una buena opción para un perfil específico, pero no es el punto de partida natural para la mayoría.
         </P>
         <H3>Betsson — el #1 para empezar</H3>
         <P>
-          Si nunca jugaste online o quieres ir a lo seguro, empieza acá. Betsson tiene licencia MINCETUR (regulación peruana de verdad), acepta Yape y Plin, y el soporte en español responde de verdad. Tiene una de las mejores secciones de casino en vivo del mercado, con más de 200 mesas y dealers que hablan español posta. Probamos un retiro con Yape un martes a la noche y en menos de 2 horas teníamos las lucas. Es la opción más redonda para el jugador promedio.
+          <strong className="text-white">Betsson</strong> es el punto de partida obvio para un peruano: licencia MINCETUR (regulación nuestra, no de una isla), Yape y Plin nativos, y un casino en vivo con más de 200 mesas donde los dealers hablan español de verdad. El retiro de prueba que hicimos por Yape llegó en menos de dos horas un martes por la noche. Difícil pedirle más a un primer casino.
         </P>
         <div className="my-5"><CtaButton slug="betsson-peru" text="Abrir cuenta en Betsson" /></div>
         <H3>Inkabet — la opción 100% peruana</H3>
@@ -516,12 +516,12 @@ export default function CasinoAndynsane() {
         <div className="my-5"><CtaButton slug="inkabet" text="Jugar en Inkabet" /></div>
         <H3>STARDA Casino — el paraíso de los slots</H3>
         <P>
-          Si lo tuyo son las tragamonedas (o sea, si viniste por lo de Zein), STARDA es nuestra recomendación fuerte. Tiene 3.800+ juegos, torneos de slots semanales con premios de verdad, y todos los Pragmatic y Hacksaw que ves en los streams. El bono es 100% en tu primer depósito + 500 giros gratis. Para un fan del contenido de Zein, es el casino que más se le parece en espíritu, pero con un bono que Stake no te da.
+          <strong className="text-white">STARDA</strong> es donde mandamos a los sloteros: 3.800+ títulos con filtros finos (proveedor, volatilidad, mecánica), torneos semanales con premios reales y todos los Pragmatic y Hacksaw de los streams de Zein. La diferencia con Stake: acá te reciben con 100% + 500 giros de bienvenida que te dan aire para probarlo todo.
         </P>
         <div className="my-5"><CtaButton slug="starda-casino" text="Jugar en STARDA" /></div>
         <H3>SOL, FRESH y MONRO — el resto del pelotón pesado</H3>
         <P>
-          Los tres son de Royal Partners y los tres cumplen. <strong className="text-white">SOL Casino</strong> es ideal para el que recién arranca: interfaz clarísima, rollover bajo (x30) y 4.000 juegos. <strong className="text-white">FRESH</strong> es el rey del catálogo con 4.500+ títulos; buscas un slot raro y lo tiene. Y <strong className="text-white">MONRO</strong> tiene el bono más alto del ranking en porcentaje, 150% en tu primer depósito. Cualquiera de los tres es una mejor puerta de entrada que Stake si no manejas cripto.
+          Y el resto del pelotón de confianza: <strong className="text-white">SOL</strong> si estás empezando (rollover x30, el más noble del mercado), <strong className="text-white">FRESH</strong> si eres coleccionista de slots raros (4.500+ títulos), y <strong className="text-white">MONRO</strong> si quieres el arranque más inflado (150% de entrada). Tres sabores, misma seriedad.
         </P>
         <div className="my-5 flex flex-wrap gap-3">
           <CtaButton slug="sol-casino" text="Probar SOL" />
@@ -530,7 +530,7 @@ export default function CasinoAndynsane() {
         </div>
         <H3>Y Stake, ¿cuándo sí?</H3>
         <P>
-          Stake tiene sentido si ya manejas cripto, si te gustan los originals tipo Plinko o Crash que no vas a encontrar en otros lados, y si valoras los retiros instantáneos en USDT por encima de un bono más grande. Es un casino legítimo, no estamos diciendo lo contrario. Solo decimos que para la mayoría de los peruanos que recién se meten, los de arriba son un mejor punto de partida. Prueba, comparas, y quédate con el que te cierre.
+          ¿Cuándo elegir Stake entonces? Cuando la cripto ya es tu idioma, cuando quieres Plinko y Crash que no existen en otro lado, y cuando un retiro en USDT de 10 minutos vale más para ti que cualquier bono. Tres síes y adelante. Algún no... empieza por arriba de la lista y Stake te espera.
         </P>
       </Section>
 
@@ -538,16 +538,21 @@ export default function CasinoAndynsane() {
       <Section id="casino-confiable" alt>
         <SectionTitle>Cómo reconocer un casino confiable</SectionTitle>
         <P>
-          Antes de meter tus lucas en cualquier lado, conviene saber distinguir un casino serio de uno turbio. Es más fácil de lo que parece si sabes qué mirar. Te dejamos la checklist que usamos nosotros cada vez que evaluamos una plataforma nueva.
+          Antes de cerrar, te dejo el filtro anti-estafa que usamos nosotros — cinco minutos que valen más que cualquier reseña. Aplícalo a CUALQUIER casino que te crucen por un stream o un anuncio:
         </P>
         <P>
-          <strong className="text-white">Uno: la licencia visible.</strong> Un casino serio muestra su licencia en el pie de página (MINCETUR para los peruanos, Curaçao o Malta para los internacionales). Si no la ves, mala señal. <strong className="text-white">Dos: reputación de pagos.</strong> Busca el nombre del casino en foros como AskGamblers o Trustpilot y fíjate qué dice la gente de los retiros. Un patrón de quejas por pagos es una bandera roja gigante.
+          <strong className="text-white">Uno: la licencia visible.</strong>
+          <strong className="text-white">Primero, la licencia:</strong> al pie de la web debe estar el regulador con número (MINCETUR, Curaçao, Malta). ¿No está? Fuera. <strong className="text-white">Segundo, la fama:</strong> googlea el nombre + “retiros” y date una vuelta por AskGamblers. Diez quejas de pagos dicen más que mil banners bonitos.
         </P>
         <P>
-          <strong className="text-white">Tres: métodos de pago locales.</strong> Que acepte Yape, Plin y transferencias de bancos peruanos es buena señal. <strong className="text-white">Cuatro: términos legibles.</strong> Los buenos casinos tienen sus condiciones de bono escritas de forma entendible. Si la letra chica es un laberinto, desconfía. <strong className="text-white">Cinco: soporte que responde.</strong> Prueba el chat antes de depositar. Cómo y cuándo te responden te dice mucho de cómo te van a tratar el día que tengas un problema.
+          <strong className="text-white">Tres: métodos de pago locales.</strong>
+          <strong className="text-white">Tercero, los pagos:</strong> que acepte Yape, Plin y bancos peruanos con plazos de retiro publicados. <strong className="text-white">Cuarto, la letra chica:</strong> si las condiciones del bono parecen contrato de tiempo compartido, sospecha. <strong className="text-white">Quinto, el chat:</strong> escríbeles antes de depositar un sol — la atención al no-cliente predice la atención al cliente.
         </P>
         <P>
-          Todos los casinos de nuestro ranking pasan esta checklist con holgura, porque justamente la aplicamos antes de recomendarlos. No los elegimos por el bono más grande, sino por el combo completo de confianza, pagos y experiencia. Esa es la diferencia entre un ranking armado con criterio y una lista de los que más pagan por aparecer.
+          Los siete de nuestro ranking pasaron ese filtro antes de ganarse el puesto. La tarea para la casa es tuya: la próxima vez que un stream te tiente con un casino desconocido, pásalo por los cinco puntos. La mayoría se cae en el primero.
+        </P>
+              <P>
+          Y una señal extra que nos ha funcionado siempre: fíjate cómo maneja el casino sus redes sociales. Los serios responden reclamos en público, tienen comunidad activa y no borran comentarios críticos. Los turbios tienen los comentarios cerrados o llenos de bots diciendo “excelente página, pagó al toque”. Cinco minutos revisando su Instagram o su X te dicen más que cualquier banner publicitario.
         </P>
       </Section>
 
@@ -562,10 +567,13 @@ export default function CasinoAndynsane() {
         </P>
         <H3>El consejo más importante</H3>
         <P>
-          Huí de cualquier casino que no muestre su licencia de forma clara. Si entras a un sitio y no encuentras en el pie de página quién lo regula ni el número de licencia, ciérralo. No importa cuán lindo sea el bono. Los casinos truchos existen, y el problema no es solo jugar en algo ilegal: es que el día que ganes, capaz no te pagan y no tienes a quién reclamarle. Por eso armamos rankings, para que no tengas que arriesgarte probando a ciegas.
+          Grábatelo, causa: casino sin licencia visible es casino al que no le confías ni el vuelto del menú. No hay bono que compense la posibilidad de ganar y que no te paguen, porque sin regulador no hay ante quién reclamar. Nuestro ranking existe precisamente para que ese filtro ya esté hecho cuando llegues.
         </P>
         <P>
-          Y un detalle no menor: jugar es solo para mayores de 18 años. Todos los casinos serios te van a pedir verificación de identidad (el KYC) antes de dejarte retirar. No es para molestarte, es requisito legal. Hazlo apenas te registras y listo. Si un casino con licencia MINCETUR no te paga, puedes meter una queja formal al ministerio, que es justo la ventaja de jugar en algo regulado localmente.
+          Y lo de siempre pero necesario: mayores de 18, sin discusión. El KYC — DNI y a veces selfie — es obligatorio por ley antes de retirar en cualquier casino serio. Hazlo apenas te registres, así cuando ganes cobras al toque en vez de pelearte con papeles.
+        </P>
+              <P>
+          Un dato práctico que poca gente conoce: la lista de operadores autorizados por MINCETUR es pública y se puede consultar en la web del ministerio. Si algún día te ofrecen un casino “nuevo” por redes y no te suena de nada, esa lista es tu primer filtro. Nosotros la revisamos cada vez que actualizamos esta guía, y más de una plataforma con publicidad agresiva en TikTok simplemente no aparece ahí. Casualidad no es.
         </P>
       </Section>
 
@@ -577,11 +585,11 @@ export default function CasinoAndynsane() {
         </P>
         <H3>¿Qué es un bono de bienvenida?</H3>
         <P>
-          Es la plata o los giros gratis que el casino te regala por registrarte y hacer tu primer depósito. Lo típico es el bono de 100%: tú pones una cantidad y el casino te suma otro tanto. MONRO incluso tira un 150%, de los más altos que vas a encontrar. Suena a regalo, y en parte lo es, pero tiene una condición clave: el rollover.
+          Pongámoslo simple: el bono de bienvenida es saldo que el casino te suma para que pruebes la casa — depositas S/100 y arrancas con S/200. Hasta ahí, fiesta. El detalle está en que ese saldo extra viene condicionado, y la condición reina se llama rollover. MONRO ofrece un 150% de entrada, el más gordo del ranking, y aun así lo primero que miramos fue su letra chica.
         </P>
         <H3>El rollover: la letra chica que nadie lee</H3>
         <P>
-          El rollover (o requisito de apuesta) es la cantidad de veces que tienes que apostar el bono antes de poder retirar lo que ganes con él. Si te dan S/100 de bono con rollover x30, tienes que apostar S/3.000 antes de sacar. Parece mucho, pero con slots de apuestas chicas se va cumpliendo de a poco. La clave: un bono con rollover bajo (tipo x30, como el de SOL) vale más que un bono enorme con rollover altísimo.
+          El rollover dice cuántas veces debes mover el bono en apuestas antes de poder retirarlo. ¿S/100 con x30? Necesitas apostar S/3.000 acumulados. Se logra con giros chicos y paciencia, pero requiere jugar seguido. La lección de oro: entre un bonazo x50 y un bono decente x30, el segundo te deja más plata en el bolsillo casi siempre.
         </P>
         <div className="rounded-2xl bg-[#3b82f6]/[0.06] border border-[#3b82f6]/20 p-6 my-6">
           <p className="text-[#60a5fa] font-bold mb-2">💡 Regla de oro de los bonos</p>
@@ -590,19 +598,22 @@ export default function CasinoAndynsane() {
           </p>
         </div>
         <P>
-          Otra cosa: no todos los juegos aportan igual al rollover. Las slots suelen contar al 100%, pero los juegos de mesa a veces aportan solo un 10% o nada. Si tu plan es cumplir el rollover, las tragamonedas son tus aliadas. Y ojo con los giros gratis: las ganancias que sacas de ellos casi siempre también tienen su propio rollover. Antes de aceptar cualquier bono, haz la cuenta mental del monto por el rollover y fíjate si es razonable para cómo juegas tú.
+          Un dato que casi nadie revisa: cada juego aporta distinto al rollover. Slots casi siempre al 100%; ruleta y blackjack a veces al 10% o cero. O sea que si aceptaste un bono, libéralo girando tragamonedas — y si tu plan era puro juego de mesa, evalúa jugar sin bono y sin ataduras. Los giros gratis, ojo, suelen traer su propio rollover encima.
         </P>
         <P>
           Un punto donde Stake se diferencia: su esquema de bonos es distinto al de un casino tradicional. En vez del clásico bono de bienvenida grande con rollover, suele manejar promociones, rakeback y recompensas para usuarios frecuentes. No está mal, pero es otra lógica, más pensada para el que juega seguido y con cripto. Si tú buscas ese empujón inicial grande para arrancar con más saldo, los bonos de bienvenida de Betsson, Inkabet o los Royal Partners te van a resultar más claros y más aprovechables desde el día uno.
         </P>
         <div className="mt-2"><CtaButton slug="sol-casino" text="Ver el bono de SOL (rollover x30)" /></div>
+              <P>
+          Ah, y cuidado con los “bonos sin depósito” que circulan por grupos de Telegram y páginas raras. En Perú, los casinos serios casi nunca regalan saldo sin depósito — y cuando lo hacen, las condiciones son tan duras que retirar algo es misión imposible. Si un sitio que no conoces te ofrece S/50 gratis “solo por registrarte”, lo más probable es que el negocio sea quedarse con tus datos o con tu primer depósito. Bono real es el que está publicado en la página oficial del casino, con sus términos a la vista.
+        </P>
       </Section>
 
       {/* COMPARATIVA DE BONOS */}
       <Section id="comparativa-bonos">
         <SectionTitle>Comparativa de bonos: ¿cuál te conviene?</SectionTitle>
         <P>
-          Ya que hablamos tanto de bonos, te dejamos una comparativa rápida de los que ofrecen los casinos de nuestro ranking, para que veas de un vistazo cuál pega más con tu forma de jugar. Recuerda: el número grande no lo es todo, lo que manda es el combo entre el monto, el rollover y para qué tipo de jugador está pensado.
+          Aquí va el resumen ejecutivo de bonos, para decidir de un vistazo. Recuerda leerlo en dos ejes: cuánto dan y qué tan realista es liberarlo:
         </P>
         <div className="overflow-x-auto rounded-2xl border border-white/[0.06] my-8">
           <table className="w-full text-left text-sm">
@@ -633,7 +644,10 @@ export default function CasinoAndynsane() {
           </table>
         </div>
         <P>
-          Como ves, no hay un bono que sea el mejor para todos: hay un bono que es el mejor para ti. Y un truco que pocos aplican: no tienes por qué aceptar el primero que veas. Puedes crearte cuenta en dos o tres casinos del ranking, comparar sus bonos y catálogos con tu propia experiencia, y quedarte jugando en el que mejor te trate. Total, todos son de confianza.
+          Y un consejo de veterano: no te cases con el primero. Abre cuenta en dos o tres del ranking, prueba cómo se sienten con TU celular y TU forma de pagar, y quédate donde te traten mejor. Cada casino regala bienvenida una sola vez — úsalas todas con cabeza.
+        </P>
+              <P>
+          Un último apunte sobre esta tabla: los montos máximos importan menos de lo que parecen. Que un bono llegue “hasta S/2.000” solo te afecta si piensas depositar fuerte; para un primer depósito típico de S/100 o S/200, lo que decide todo es el porcentaje y el rollover. No te deslumbres con el techo del bono — mira las condiciones del piso, que es donde vas a estar tú.
         </P>
       </Section>
 
@@ -641,15 +655,15 @@ export default function CasinoAndynsane() {
       <Section id="como-registrarte" alt>
         <SectionTitle>Cómo crear tu cuenta paso a paso</SectionTitle>
         <P>
-          Si nunca te registraste en un casino online, capaz piensas que es un trámite eterno. La verdad es que no: en menos de cinco minutos estás adentro. Te dejamos el paso a paso con Betsson de ejemplo, pero en cualquiera del ranking es casi igual.
+          ¿Primera vez abriendo cuenta en un casino? Es más rápido que sacar turno en el banco, te lo prometo. Cinco pasos con Betsson de modelo:
         </P>
         <div className="space-y-4 my-6">
           {[
-            { n: 1, t: "Entrá desde el botón oficial", d: "Haz clic en cualquiera de los botones verdes de esta página. Te llevan al sitio oficial del casino, sin intermediarios raros, y aseguran que el bono se active bien." },
-            { n: 2, t: "Completá el registro", d: "Te van a pedir correo, contraseña, nombre, fecha de nacimiento (mayor de 18) y datos básicos. Cargá tu info real, porque después en la verificación tiene que coincidir." },
-            { n: 3, t: "Verifica tu cuenta (KYC)", d: "Subí una foto de tu DNI y, a veces, un selfie. Es requisito legal y conviene hacerlo el primer día, así cuando retires no hay demoras ni excusas." },
-            { n: 4, t: "Haz tu primer depósito", d: "Elige el método que más uses (Yape, Plin, transferencia, tarjeta o cripto). Si quieres el bono, actívalo antes de confirmar. Fíjate el depósito mínimo para el bono." },
-            { n: 5, t: "A jugar (con cabeza)", d: "Ya tienes tu saldo más el bono. Busca tus slots favoritos, define cuánto estás dispuesto a gastar, y disfruta. Recuerda: es entretenimiento, no trabajo." },
+            { n: 1, t: "Arranca por el botón verde", d: "Los botones de esta guía te llevan al sitio oficial con el bono bien configurado. Evita buscar el casino en Google: los clones de páginas de casino existen y son idénticos." },
+            { n: 2, t: "Registra tus datos reales", d: "Correo, clave, nombre y nacimiento tal cual tu DNI. En la verificación todo se cruza, así que nada de datos de mentira ni cuentas a nombre del primo." },
+            { n: 3, t: "Verifícate de una vez", d: "Foto del DNI y a veces selfie. Cinco minutos hoy te ahorran tres días de espera el día que quieras cobrar. Es el paso que todos postergan y nadie debería." },
+            { n: 4, t: "Deposita con Yape o Plin", d: "El monto mínimo del bono está en las condiciones — revísalo antes de pagar. El depósito cae en segundos y el bono se activa solo si seguiste el paso 1." },
+            { n: 5, t: "Juega con tope puesto", d: "Antes del primer giro, decide cuánto es tu máximo del día y actívate límites de depósito. Diversión con cinturón de seguridad." },
           ].map((s) => (
             <div key={s.n} className="flex gap-4 rounded-2xl bg-[#141414] border border-white/[0.06] p-5">
               <span className="w-9 h-9 rounded-full bg-gradient-to-br from-[#22c55e] to-[#16a34a] flex items-center justify-center font-black text-white shrink-0">{s.n}</span>
@@ -661,7 +675,7 @@ export default function CasinoAndynsane() {
           ))}
         </div>
         <P>
-          Y eso es todo. Nada de papeleo eterno ni esperas de días. La parte que más tarda es la verificación, y aun así suele resolverse en minutos o pocas horas. Por eso insistimos en hacerla apenas te registras: es la diferencia entre retirar al toque o quedarte esperando justo cuando ganaste. Un consejo extra: activa los límites de depósito desde el primer día, así desde el arranque juegas con red de seguridad.
+          Y ya está: cuenta lista en lo que dura un partido de vóley. Lo único que puede demorar horas es el KYC, por eso insistimos en despacharlo el primer día. Con eso resuelto, depositar y retirar es rutina de dos toques en el celular.
         </P>
         <div className="mt-4"><CtaButton slug="betsson-peru" text="Crear cuenta en Betsson" /></div>
       </Section>
@@ -686,7 +700,10 @@ export default function CasinoAndynsane() {
         </P>
         <H3>¿Cuánto tardan los retiros?</H3>
         <P>
-          Depositar es fácil en todos lados; lo que separa a un buen casino de uno malo es la velocidad para devolverte tu plata. Los retiros con Yape suelen llegar en menos de 24 horas (a veces en un par de horas), los de cripto en minutos, y las transferencias bancarias entre unas horas y un día hábil. La primera vez siempre tarda más por la verificación, así que haz el KYC apenas te registras. Si un casino te pone trabas raras para retirar, desconfía: los serios pagan sin drama.
+          La prueba de fuego de cualquier casino no es cómo recibe tu plata (todos son rapidísimos para eso) sino cómo la devuelve. Referencias nuestras: Yape en horas, cripto en minutos, transferencia en un día hábil como mucho. Primer retiro siempre más lento por la verificación — otra razón para el KYC temprano. ¿Trabas raras para pagarte? Señal de salida inmediata.
+        </P>
+              <P>
+          Un detalle más sobre los retiros en Perú que aprendimos a la mala: los montos mínimos. Algunos casinos ponen un piso de S/30 o S/50 para retirar, y si tu saldo queda por debajo, esa plata queda “atrapada” hasta que deposites de nuevo o la juegues. Antes de tu primer depósito, revisa el mínimo de retiro del casino — está en la sección de pagos de su web — y así no te llevas la sorpresa de tener S/25 que no puedes tocar.
         </P>
       </Section>
 
@@ -694,37 +711,43 @@ export default function CasinoAndynsane() {
       <Section id="primera-sesion" alt>
         <SectionTitle>Tu primera sesión de slots, bien hecha</SectionTitle>
         <P>
-          Si después de leer todo esto quieres probar, perfecto, pero hagámoslo con cabeza. Te dejamos una mini guía de cómo encarar tu primera sesión de slots para que sea entretenida y no termine en un mal rato. Es lo que le diríamos a un pata que nunca jugó.
+          Cuenta creada, bono activo... falta lo más importante: que la primera sesión sea buena experiencia. El manual del debutante, probado en carne propia:
         </P>
         <P>
-          Primero, define tu presupuesto de entretenimiento: un monto que si lo pierdes entero, no te cambia el mes. Ese es tu techo, y no se toca. Segundo, elige un slot de volatilidad media para arrancar (no te tires de una a los Hacksaw de volatilidad extrema que juega Zein). Tercero, pon apuestas chicas: la idea es que el presupuesto te dure y disfrutes muchos giros, no que lo quemes en cinco minutos buscando el premio gordo.
+          Regla uno: presupuesto cerrado antes de abrir el juego — la cifra que puedes perder completa sin que duela el fin de mes. Regla dos: nada de empezar por los Hacksaw endemoniados de los streams; slot de volatilidad media, probado en demo primero. Regla tres: apuestas chicas para que la sesión respire — mejor cien giros de S/1 que diez de S/10.
         </P>
         <P>
-          Cuarto, fíjate un punto de salida tanto para arriba como para abajo. Si ganas y llegas a una meta que te pusiste, retira y cierra la sesión contento; no caigas en el “una más a ver si gano más”. Y si pierdes tu presupuesto del día, se terminó por hoy, sin dramas. Quinto: disfruta el rato. El objetivo es pasarla bien, no hacer plata. Una última cosa que mucha gente no sabe: no necesitas apostar más para “acercarte” a un premio. El RTP es un porcentaje fijo, da igual si apuestas chico o grande; lo único que cambia es el tamaño de los premios y las pérdidas.
+          Regla cuatro: define salidas por arriba y por abajo. ¿Llegaste a tu meta? Retiras y celebras con pollo a la brasa. ¿Se acabó el presupuesto? Se acabó el día, sin bis. Y regla cinco: subir la apuesta no “llama” al premio — el RTP no sabe cuánto apostaste. Apostar más solo decide qué tan rápido termina la historia.
         </P>
         <P>
-          Te dejamos un truco que usan los que juegan tranquilo: divide tu presupuesto del día en varias sesiones cortas en vez de quemarlo todo de una. Por ejemplo, si tienes S/100 para el fin de semana, juega de a S/25 por sesión. Así, si una sesión sale fría, no perdiste todo, y le das chance a que la suerte cambie otro día sin presión. Es la diferencia entre jugar para divertirte y jugar con ansiedad. Y la ansiedad, en el casino, es justo lo que te hace tomar malas decisiones.
+          El tip final es de tendero de mercado: divide la mercadería. Si tienes S/100 para el finde, juega en tandas de S/25. Sesión fría no arruina la semana, sesión buena se disfruta doble, y nunca entras en modo desesperado — que es el modo donde el casino gana siempre.
         </P>
         <div className="mt-4"><CtaButton slug="sol-casino" text="Empezar tranquilo en SOL" /></div>
+              <P>
+          Otro consejo de peruano a peruano: elige bien el momento. Jugar cansado después de un turno largo, o con hambre, o molesto por algo, es garantía de malas decisiones — lo decimos por experiencia propia y ajena. Las mejores sesiones que hemos tenido fueron un sábado por la tarde, sin apuro, con el presupuesto claro y algo de música. Las peores, todas de madrugada y de mal humor. El slot es el mismo; el que cambia eres tú.
+        </P>
+        <P>
+          Y si cobras quincenal, como medio Perú: nunca juegues los días de pago. Suena exagerado, pero es el momento exacto donde el saldo se siente “grande” y el criterio se achica. Deja pasar unos días, paga lo importante primero, y que lo que destines al casino salga de lo que sobró de verdad — no de lo que acabas de cobrar y todavía tiene nombre y apellido.
+        </P>
       </Section>
 
       {/* TIPS SLOTS */}
       <Section id="jugar-slots-tips">
         <SectionTitle>Cómo jugar slots como Zein (sin fundirte)</SectionTitle>
         <P>
-          Ya sabemos que viniste por las slots. Y está bien: son divertidas y los streams las hacen ver como una montaña rusa. Pero hay una diferencia abismal entre cómo juega un streamer y cómo deberías jugar tú. Estos consejos no te los da nadie en un stream, pero te pueden salvar la billetera.
+          Última sección de consejos, y es la más importante: la distancia entre cómo juega Zein y cómo deberías jugar tú es la misma que hay entre un piloto de rally y tú manejando a la chamba. Mismo carro, contextos opuestos:
         </P>
         <H3>Entiende la volatilidad</H3>
         <P>
-          Los slots favoritos de Zein son de alta volatilidad: pagan poco la mayor parte del tiempo y muy de vez en cuando sueltan un premio gordo. Genial para un clip, brutal para un bankroll chico. Si recién arrancas, prueba slots de volatilidad media o baja: ganas más seguido y la sesión dura más.
+          Los slots de embajador son de volatilidad brutal: sequías eternas, premios de escándalo. Ese perfil necesita bankroll de embajador. El tuyo agradece volatilidad media o baja — premios más humildes pero frecuentes, sesiones más largas, más diversión por sol invertido.
         </P>
         <H3>Mira el RTP y usa el modo demo</H3>
         <P>
-          El RTP es el porcentaje teórico que un slot devuelve a largo plazo. Elige slots con 96% o más. Y antes de apostar plata real, juega un rato en modo demo (gratis, con dinero ficticio) para entender la mecánica. Los streamers no usan demo porque su contenido es el espectáculo de la plata real, pero tú no tienes por qué.
+          El RTP está publicado en la ficha de cada slot: de 96% para arriba juegas tranquilo, debajo de 94% busca otro. Y el modo demo es tu mejor amigo — mismo juego, plata de mentira, cero riesgo. Zein no lo usa porque el show pide plata real; tú no tienes ese problema.
         </P>
-        <H3>Define límites y respetalos</H3>
+        <H3>Define límites y respétalos</H3>
         <P>
-          Lo más importante y lo más difícil. Antes de empezar, decide cuánto vas a jugar y cuándo vas a parar. Y la regla sagrada: nunca persigas las pérdidas. Ese “una más para recuperar” es el camino directo a perder el doble.
+          Y la madre de todas las reglas: límites definidos en frío y respetados en caliente. Perseguir pérdidas — el famoso “una más y recupero” — es la jugada con peor expectativa matemática del casino y la más popular entre los que terminan mal. Detectarla en ti mismo a tiempo vale más que cualquier estrategia.
         </P>
         <ProsCons
           pros={[
@@ -740,21 +763,24 @@ export default function CasinoAndynsane() {
             "Creer que los clips de millones reflejan una sesión normal",
           ]}
         />
+              <P>
+          Último chequeo antes de cerrar esta sección: el bolsillo. Cada cierto tiempo, suma cuánto has depositado en el mes en todos los casinos donde tengas cuenta — el número junto, no por partes. Si el total te incomoda, esa incomodidad es información valiosa: bajale al presupuesto del mes siguiente. Y si el total te parece bien, perfecto, sigue disfrutando. Este ejercicio de dos minutos es más útil que cualquier estrategia de apuestas que te vendan por ahí.
+        </P>
       </Section>
 
       {/* ERRORES */}
       <Section id="errores-comunes" alt>
         <SectionTitle>Los 5 errores del que copia a un streamer</SectionTitle>
         <P>
-          Después de ver mucho contenido de casino, identificamos los errores que se repiten en el que empieza a jugar copiando lo que ve en un stream. Si los esquivas, ya juegas mejor que la mayoría.
+          El top 5 de huecos donde caen los recién llegados desde un stream. Los vimos tantas veces que ya los saludamos por su nombre:
         </P>
         <div className="space-y-4 my-6">
           {[
-            { t: "Copiar las apuestas altas sin tener el bankroll", d: "Zein apuesta montos que para él son parte de su trabajo. Si los copias con tu sueldo, fundes el saldo en minutos. Apostá en proporción a TU bankroll." },
-            { t: "Creer que el clip viral es una sesión normal", d: "La ganancia gigante es el mejor momento de horas de stream. Por cada clip de ganancia hay muchas sesiones perdedoras que no se hacen virales." },
-            { t: "Perseguir las pérdidas", d: "El error más caro. Después de perder viene el una más para recuperar, y esa lógica transforma una pérdida chica en un problema grande." },
-            { t: "Usar el bonus buy sin entenderlo", d: "Comprar el bonus cuesta carísimo. Los streamers lo hacen para el espectáculo; para un bankroll normal, es la forma más rápida de quedarte sin saldo." },
-            { t: "No leer las condiciones del bono", d: "Aceptar un bono sin mirar el rollover es el clásico. Después te quejas de que no te dejan retirar, cuando no cumpliste una condición que estaba escrita." },
+            { t: "Jugar con apuestas de embajador y sueldo de mortal", d: "Las apuestas de Zein son parte de su trabajo con condiciones especiales. Las tuyas salen de tu quincena. Proporción sana: cada giro, máximo el 1% de tu presupuesto de juego." },
+            { t: "Creer que el clip es el promedio", d: "Por cada clip de premio épico hay horas de saldo cayendo que nadie sube a TikTok. Es como juzgar el tráfico de Lima por un video de la Costa Verde vacía a las 5am." },
+            { t: "Querer recuperar en la misma sesión", d: "La plata perdida ya se fue; la que queda es la que hay que cuidar. El modo recuperación nubla el juicio y multiplica el hueco. Sesión mala se cierra, no se estira." },
+            { t: "Comprar bonus como si fueran combos", d: "Pagar 100 veces tu apuesta por entrar al bonus es matemática de streamer que necesita contenido, no de jugador que cuida su plata. Con bankroll normal es un botón de autodestrucción." },
+            { t: "Aceptar bonos sin leer el contrato", d: "Rollover, plazos, apuesta máxima con bono activo... todo está escrito antes de que aceptes. El clásico 'no me dejan retirar' es casi siempre un 'no leí'. Léelo, son cinco minutos." },
           ].map((e, i) => (
             <div key={e.t} className="flex gap-4 rounded-2xl bg-[#141414] border border-white/[0.06] p-5">
               <span className="w-9 h-9 rounded-full bg-gradient-to-br from-[#dc2626] to-[#b91c1c] flex items-center justify-center font-black text-white shrink-0">{i + 1}</span>
@@ -766,7 +792,7 @@ export default function CasinoAndynsane() {
           ))}
         </div>
         <P>
-          Si lees esta lista y piensas “a mí no me va a pasar”, justo ese pensamiento es el que mete a la gente en problemas. Nadie planea perder de más; pasa de a poco, en el calor del momento. Por eso lo mejor que puedes hacer es decidir tus límites antes de empezar, cuando tienes la cabeza fría, y respetarlos pase lo que pase.
+          ¿El error que engloba a los cinco? El “yo controlo”. Nadie cae por decisión; se cae de a pocos, giro a giro, con la adrenalina encima. Por eso los topes se fijan antes de jugar, con la cabeza fría, y se cumplen como cumples con pagar el alquiler: sin negociar contigo mismo.
         </P>
       </Section>
 
@@ -774,18 +800,21 @@ export default function CasinoAndynsane() {
       <Section id="escena-streamers">
         <SectionTitle>Andynsane y la escena de streamers de casino</SectionTitle>
         <P>
-          Zein no juega solo. Es parte de una escena enorme de streamers de casino en español que explotó en los últimos años, sobre todo en Kick. Entender ese contexto te ayuda a mirar todo esto con más perspectiva.
+          Y para el cierre panorámico: Zein no está solo en esto — es la cara peruana de un fenómeno continental. Cada país tiene su referente, cada referente su plataforma, y por detrás circula plata muy seria.
         </P>
         <P>
           En LATAM hay un montón de creadores que hacen contenido de slots: en Argentina están Coscu y Santutu; en Colombia, MrStiven Tc; y a nivel internacional, monstruos como xQc o Roshtein que mueven apuestas que dan vértigo. Todos comparten el mismo formato: slots de alta volatilidad, reacciones grandes, y clips que circulan por todas las redes.
         </P>
         <P>
-          Cuando entiendes que es una industria (con acuerdos, con producción, con un modelo de negocio claro), dejas de ver los streams como “un pata que gana fortunas jugando” y empiezas a verlos como lo que son: entretenimiento profesional. Zein es buenísimo en lo que hace, pero lo que hace es contenido, no un tutorial de cómo llenarte de lucas. Si te copa este tipo de contenido y quieres saber dónde juegan los demás, lo estamos investigando uno por uno.
+          El mapa completo: Coscu y Santutu del lado argentino, MrStiven Tc en Colombia, y en la liga mundial xQc (200 mil dólares por stream, confesados por él mismo) y Roshtein con sus maratones de max wins. Visto así, en conjunto, queda clarísimo: es una industria del espectáculo con nómina y todo. Y al espectáculo se va a mirar, no a invertir los ahorros.
         </P>
         <P>
-          Un detalle que conviene tener presente: muchos de estos streamers, además de jugar, organizan sorteos, regalan códigos y arman colaboraciones con las plataformas. Es parte del juego del contenido, y está bien mientras lo veas como lo que es. El problema aparece cuando un seguidor confunde “mi streamer favorito juega acá” con “este es el mejor casino para mí”. No son lo mismo, y toda esta guía existe justamente para marcar esa diferencia. Mira a Zein y a quien quieras, divertite con sus streams, pero elige dónde juegas con tu propio criterio.
+          Ojo final: los códigos, sorteos y colabs que ves en los streams son piezas de marketing bien armadas. Participar está perfecto — gratis es gratis. Lo que no puede pasar es que “mi streamer juega ahí” se convierta en tu análisis de dónde meter tu plata. Para eso ya tienes esta guía, que no cobra por stream.
         </P>
         <div className="mt-4"><Link href="/streamers" className="inline-flex items-center justify-center px-6 py-3 rounded-xl border border-[#a855f7]/40 text-[#c084fc] font-bold text-sm uppercase tracking-wide transition-all hover:bg-[#a855f7]/10">Ver todos los streamers →</Link></div>
+              <P>
+          ¿Y hacia dónde va la escena peruana? Todo apunta a que seguirá creciendo: la regulación de MINCETUR le dio un marco legal que hace unos años no existía, los números de Kick en Perú suben cada trimestre, y cada vez más creadores locales prueban el formato casino. Eso sí, también viene más competencia y más ruido — así que la diferencia entre contenido bueno y contenido chatarra se va a notar cada vez más. Como espectador, tu mejor herramienta sigue siendo la misma: disfrutar el show sin confundirlo con asesoría financiera.
+        </P>
       </Section>
 
       {/* GLOSARIO */}
@@ -796,18 +825,18 @@ export default function CasinoAndynsane() {
         </P>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6">
           {[
-            { t: "RTP (Return to Player)", d: "Porcentaje teórico que un juego devuelve a largo plazo. RTP de 96% = devuelve 96 de cada 100 apostados, en promedio." },
-            { t: "Volatilidad", d: "Qué tan seguido y qué tan grande paga un slot. Alta = premios raros pero grandes. Baja = premios frecuentes y chicos." },
-            { t: "Rollover", d: "Las veces que tienes que apostar un bono antes de poder retirar. Bono de S/100 con rollover x30 = apostar S/3.000." },
-            { t: "Tumbles", d: "Mecánica donde los símbolos ganadores desaparecen y caen nuevos, encadenando premios. Típica de Sweet Bonanza y Sugar Rush." },
-            { t: "Multiplicador", d: "Valor que multiplica tu premio. En Gates of Olympus pueden aparecer multiplicadores enormes que vuelan la pantalla." },
-            { t: "Free Spins", d: "Giros gratis en slots. Las ganancias suelen tener su propio rollover, así que lee las condiciones." },
-            { t: "KYC", d: "Verificación de identidad. Te piden DNI y a veces selfie. Es requisito legal antes de retirar." },
-            { t: "House Edge", d: "La ventaja matemática del casino. Es por qué, a la larga, la casa siempre gana." },
-            { t: "Bankroll", d: "El total de plata que destinas a jugar. Debería ser lo que puedes perder sin drama." },
-            { t: "Originals", d: "Juegos propios de plataformas como Stake (Plinko, Crash, Mines) que no encuentras en casinos tradicionales." },
-            { t: "MINCETUR", d: "El ministerio que regula y otorga licencias a los casinos online en Perú." },
-            { t: "Bonus buy", d: "Función que te lleva directo a los giros gratis pagando un costo alto. Pensada para bankrolls grandes." },
+            { t: "RTP (Return to Player)", d: "Lo que el juego devuelve a la larga: 96% = S/96 de cada S/100... repartidos entre todos los jugadores del mundo y millones de giros. Tu noche puntual puede ser cualquier cosa." },
+            { t: "Volatilidad", d: "El carácter del slot. Volátil = paga rara vez pero bonito (los que juega Zein). Tranquilo = paga seguido y modesto (los que te convienen para empezar)." },
+            { t: "Rollover", d: "Las vueltas que debe dar el bono antes de volverse retirable. S/100 con x30 = S/3.000 apostados. El número que separa los bonos buenos de los bonitos." },
+            { t: "Tumbles (cascadas)", d: "Premio que explota, símbolos nuevos que caen, posible nuevo premio — todo en el mismo giro. El motorcito de Sweet Bonanza y compañía." },
+            { t: "Multiplicador", d: "El factor que agranda premios: x100 convierte S/2 en S/200. Es lo que Zein celebra a gritos y lo que aparece menos seguido de lo que TikTok te hace creer." },
+            { t: "Free Spins (giros gratis)", d: "La ronda especial del slot donde se concentra el potencial de premio. Si vienen de un bono del casino, revisa: sus ganancias suelen cargar rollover propio." },
+            { t: "KYC", d: "Verificación de identidad con DNI y selfie. Obligatoria por ley antes de retirar. Hazla el día uno: es la diferencia entre cobrar al toque y cobrar la otra semana." },
+            { t: "House Edge", d: "El porcentaje estructural a favor de la casa. No se le gana con trucos de YouTube; se convive con él jugando por diversión y con presupuesto cerrado." },
+            { t: "Bankroll", d: "Tu bolsa exclusiva para jugar. Sana si sale del rubro diversión; enferma si toca alquiler, mercado o la mensualidad de la academia." },
+            { t: "Originals", d: "Los juegos caseros de Stake (Plinko, Crash, Mines): exclusivos, rapidísimos y verificables. La razón número uno por la que alguien elige Stake sobre un casino clásico." },
+            { t: "MINCETUR", d: "Nuestro regulador: el ministerio que licencia el juego online en el Perú desde 2024. Casino con su licencia = casino al que puedes reclamarle con la ley en la mano." },
+            { t: "Bonus buy", d: "El atajo de pagar 50-100 apuestas por entrar directo al bonus. En manos de streamers es contenido; en manos tuyas, un hueco en la billetera." },
           ].map((g) => (
             <div key={g.t} className="rounded-xl bg-[#141414] border border-white/[0.06] p-5">
               <p className="text-white font-bold mb-1">{g.t}</p>
@@ -821,19 +850,22 @@ export default function CasinoAndynsane() {
       <Section id="juego-responsable">
         <SectionTitle>Antes de jugar: la charla importante</SectionTitle>
         <P>
-          No nos íbamos a ir sin esto. Ver a Zein ganar millones es entretenido, pero el casino no es un trabajo ni una inversión. Es entretenimiento que cuesta plata, como ir al cine. Y como todo entretenimiento que cuesta plata, hay que ponerle límites.
+          Cierro con lo que importa más que cualquier bono, causa. El casino es un plan de diversión con costo — como el estadio o el karaoke — con la trampa de que a veces devuelve plata y te hace soñar despierto. Ese espejismo de “ingreso extra” es la puerta por donde entran los problemas. Diviértete, pero con los pies en la tierra.
         </P>
         <P>
-          Reglas simples que te pueden ahorrar disgustos: juega solo con plata que estés dispuesto a perder, nunca con la del alquiler o la comida. Pon un presupuesto antes de empezar y respétalo, ganes o pierdas. Si pierdes, no persigas las pérdidas. Y si sientes que se te está yendo de las manos, paras. No hay vergüenza en eso, hay inteligencia.
+          El reglamento personal innegociable: se juega con plata de ocio — jamás la del alquiler, el mercado o las pensiones. Presupuesto definido antes de entrar y respetado salga cara o sello. Y cuando se acaba, se acabó: el casino sigue abierto mañana, tu tranquilidad no tiene reposición.
         </P>
         <P>
-          Una señal de alarma para que tengas en el radar: si te encuentras jugando para “recuperar” lo perdido, escondiendo cuánto juegas, o sacando plata de gastos importantes para apostar, para y pide ayuda. Esos son los focos rojos del juego problemático, y reconocerlos a tiempo cambia todo. Todos los casinos serios tienen herramientas de juego responsable: límites de depósito, autoexclusión, recordatorios de tiempo. Usalas sin culpa. Mayores de 18 años, siempre.
+          Focos rojos que piden freno de mano: jugar para tapar el hueco de ayer, mentir sobre cuánto gastas, agarrar plata comprometida. Si te reconoces en alguno, para y busca a alguien de confianza. Las herramientas del casino — límites, autoexclusión, recordatorios — no son adorno: úsalas. Y siempre, siempre, +18.
         </P>
         <div className="rounded-2xl bg-[#22c55e]/[0.06] border border-[#22c55e]/20 p-6">
           <p className="text-[#d4d4d8] leading-relaxed text-sm sm:text-base">
             <strong className="text-white">+18 | Juega con responsabilidad.</strong> El juego puede generar adicción. Esta guía es informativa y de entretenimiento, no una invitación a apostar más de lo que puedes permitirte. Conoce más en nuestra página de <Link href="/juego-responsable" className="text-[#22c55e] hover:underline">juego responsable</Link>.
           </p>
         </div>
+              <P>
+          Y para terminar esta parte con algo concreto: en Perú existe una línea gratuita de orientación sobre juego problemático, y los casinos regulados por MINCETUR están obligados a mostrar información de ayuda en sus páginas. Si en algún momento sientes que esto dejó de ser divertido — para ti o para alguien cercano — buscar esa ayuda no cuesta nada y funciona. El casino va a seguir ahí la próxima semana; tu tranquilidad es más difícil de recuperar.
+        </P>
       </Section>
 
       {/* FAQ */}
@@ -859,10 +891,10 @@ export default function CasinoAndynsane() {
           Pero si tu pregunta de fondo era “¿y dónde juego yo?”, nuestra respuesta es distinta: para la mayoría de los peruanos, arrancar por <strong className="text-white">Betsson</strong>, por <strong className="text-white">Inkabet</strong> (lo 100% nacional) o por <strong className="text-white">STARDA</strong> (el paraíso de los slots) es una jugada más inteligente que copiar a un streamer. Stake es legítimo y puedes usarlo si te manejas con cripto, pero no es necesariamente tu mejor punto de partida.
         </P>
         <P>
-          Y por encima de qué casino elijas, lo más importante: juega con la cabeza fría. El casino es entretenimiento, no un trabajo. Pon límites, respetalos, y disfruta los slots por lo que son: un juego. Ojalá esta guía te haya servido no solo para saber dónde juega Zein, sino para entender todo lo que hay detrás y tomar decisiones informadas.
+          Y por encima de qué casino elijas, lo más importante: juega con la cabeza fría. El casino es entretenimiento, no un trabajo. Pon límites, respétalos, y disfruta los slots por lo que son: un juego. Ojalá esta guía te haya servido no solo para saber dónde juega Zein, sino para entender todo lo que hay detrás y tomar decisiones informadas.
         </P>
         <P>
-          Si te quedaste con ganas de más, pásate por las guías de otros streamers y por nuestro ranking completo de casinos en Perú, que ahí vas a encontrar el casino ideal para tu caso puntual, con métodos de pago locales y bonos verificados. Y recuerda: el mejor casino siempre va a ser el que mejor se adapte a ti, no el que más suene en los streams. Juega tranquilo, juega informado, y que la pases bien.
+          Si llegaste hasta acá, ya sabes más de casinos online que el 95% de los que comentan en los streams. Las guías de los otros streamers y el ranking peruano completo te esperan para seguir. Y quédate con esto: el mejor casino no es el de tu ídolo — es el que respeta tu bolsillo, tu forma de pagar y tus ganas de divertirte sin sustos. Nos vemos, causa.
         </P>
         <div className="mt-6 flex flex-wrap gap-3">
           <CtaButton slug="betsson-peru" text="Empezar con Betsson" />

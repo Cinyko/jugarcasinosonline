@@ -7,7 +7,7 @@ import { LAST_UPDATED, LAST_UPDATED_YEAR } from "@/data/config";
 export const metadata: Metadata = {
   title: "Casinos Online de Streamers 2026 | ¿Dónde Juegan?",
   description:
-    "Descubrí en qué casinos online juegan tus streamers favoritos de LATAM y el mundo. Guías actualizadas, slots y bonos verificados.",
+    "Descubre en qué casinos online juegan tus streamers favoritos de LATAM y el mundo. Guías actualizadas, slots y bonos verificados.",
 };
 
 const breadcrumbSchema = {
