@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import CountryGrid from "@/components/CountryGrid";
 import StreamerCard from "@/components/StreamerCard";
@@ -7,6 +8,67 @@ import { countrySections } from "@/data/countries";
 import { casinos, comparisons } from "@/data/casinos";
 import { streamers } from "@/data/streamers";
 
+const BASE = "https://www.jugarcasinosonline.net";
+
+/* La home hereda del layout si no declara lo suyo, y ese title se iba a
+   69 caracteres. Este se queda en 48 y la description en 137. */
+export const metadata: Metadata = {
+  title: "JugarCasinosOnline | Casinos Online en LATAM 2026",
+  description:
+    "Guía de casinos online en Latinoamérica: reseñas honestas, bonos verificados y comparativas para México, Perú, Argentina, Chile y Ecuador.",
+};
+
+/* ───────── Identidad del sitio (Organization + WebSite) ─────────
+   Describe QUIÉN publica, no de qué va una página. Los @id enlazan
+   ambas fichas entre sí y quedan disponibles para referenciarlas
+   desde el schema Article de las mega-páginas. */
+
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": `${BASE}/#organization`,
+  name: "JugarCasinosOnline.net",
+  alternateName: "JugarCasinosOnline",
+  url: `${BASE}/`,
+  logo: {
+    "@type": "ImageObject",
+    url: `${BASE}/icon.png`,
+    width: 433,
+    height: 431,
+  },
+  email: "contacto@jugarcasinosonline.net",
+  description:
+    "Guía independiente de casinos online para jugadores de Latinoamérica: reseñas, bonos verificados y comparativas por país.",
+  areaServed: [
+    { "@type": "Country", name: "México" },
+    { "@type": "Country", name: "Perú" },
+    { "@type": "Country", name: "Argentina" },
+    { "@type": "Country", name: "Chile" },
+    { "@type": "Country", name: "Ecuador" },
+  ],
+  knowsLanguage: "es",
+  contactPoint: {
+    "@type": "ContactPoint",
+    contactType: "customer support",
+    email: "contacto@jugarcasinosonline.net",
+    availableLanguage: "Spanish",
+  },
+  // Añadir aquí los perfiles públicos del sitio cuando existan (X, YouTube,
+  // Instagram...). Es el campo que permite a Google cruzar la marca con
+  // presencia externa; vacío no aporta nada, por eso va fuera por ahora.
+  // sameAs: [],
+};
+
+const webSiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": `${BASE}/#website`,
+  name: "JugarCasinosOnline",
+  url: `${BASE}/`,
+  inLanguage: "es",
+  publisher: { "@id": `${BASE}/#organization` },
+};
+
 /* ───────── Logo map: casino slug → image file ───────── */
 const logoMap: Record<string, { src: string; invert?: boolean }> = {
   betsson: { src: "/img/logos/betsson.svg" },
@@ -14,30 +76,30 @@ const logoMap: Record<string, { src: string; invert?: boolean }> = {
   "sol-casino": { src: "/img/logos/sol.svg" },
   "monro-casino": { src: "/img/logos/monro.svg" },
   "starda-casino": { src: "/img/logos/starda.svg" },
-  stake: { src: "/img/logos/stake.png", invert: true },
-  betano: { src: "/img/logos/betano.png" },
+  stake: { src: "/img/logos/stake.webp", invert: true },
+  betano: { src: "/img/logos/betano.webp" },
   bet365: { src: "/img/logos/bet365.svg" },
   "1xbet": { src: "/img/logos/1xbet.png" },
-  inkabet: { src: "/img/logos/inkabet.png" },
+  inkabet: { src: "/img/logos/inkabet.webp" },
   doradobet: { src: "/img/logos/doradobet.png" },
   betcris: { src: "/img/logos/betcris.svg" },
   meridianbet: { src: "/img/logos/meridianbet.webp" },
-  caliente: { src: "/img/logos/caliente.png" },
+  caliente: { src: "/img/logos/caliente.webp" },
   codere: { src: "/img/logos/codere.svg" },
   strendus: { src: "/img/logos/strendus.png" },
   winpot: { src: "/img/logos/winpot.svg" },
-  betway: { src: "/img/logos/betway.png" },
-  luckia: { src: "/img/logos/luckia.png" },
+  betway: { src: "/img/logos/betway.webp" },
+  luckia: { src: "/img/logos/luckia.webp" },
   bplay: { src: "/img/logos/bplay.webp" },
   "casino-buenos-aires": { src: "/img/logos/casinobuenosaires.webp" },
   "20bet": { src: "/img/logos/20bet.png" },
-  dafabet: { src: "/img/logos/dafabet.png" },
-  betfair: { src: "/img/logos/betfair.png" },
+  dafabet: { src: "/img/logos/dafabet.webp" },
+  betfair: { src: "/img/logos/betfair.webp" },
   melbet: { src: "/img/logos/melbet.jpg" },
   "1win": { src: "/img/logos/1win.svg" },
-  pinup: { src: "/img/logos/pin-up.png" },
+  pinup: { src: "/img/logos/pin-up.webp" },
   jackpotcity: { src: "/img/logos/jackpotcity.png" },
-  gamingclub: { src: "/img/logos/Gaming-Club.png" },
+  gamingclub: { src: "/img/logos/Gaming-Club.webp" },
 };
 
 /* ───────── Comparison logo resolver ───────── */
@@ -65,6 +127,10 @@ function RatingBar({ rating }: { rating: number }) {
 export default function Home() {
   return (
     <main>
+      {/* Identidad del sitio */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webSiteSchema) }} />
+
       {/* ===== HERO + CASINOS ===== */}
       <section className="relative overflow-hidden bg-[#0a0a0a]">
         {/* Interactive particle background */}
@@ -83,13 +149,13 @@ export default function Home() {
             <span className="text-sm font-semibold text-[#9ca3af]">Guía actualizada 2026</span>
           </div>
 
-          <p className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-white leading-[0.95] tracking-tighter mb-8">
+          <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-white leading-[0.95] tracking-tighter mb-8">
             Tu mejor jugada
             <br />
             <span className="bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent">
               empieza acá
             </span>
-          </p>
+          </h1>
 
           <p className="text-xl sm:text-2xl text-[#9ca3af] max-w-2xl mx-auto mb-4 font-medium">
             La guía más completa de casinos online para Latinoamérica
@@ -200,7 +266,7 @@ export default function Home() {
 
       {/* ===== COUNTRY GRID SECTIONS (first 3 — active links) ===== */}
       <div id="casinos-por-pais">
-        {countrySections.slice(0, 3).map((section, i) => (
+        {countrySections.slice(0, 4).map((section, i) => (
           <CountryGrid
             key={section.pathSuffix}
             title={section.title}
@@ -379,8 +445,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ===== COUNTRY GRID SECTIONS (last 3: bonos, slots, crypto — disabled) ===== */}
-      {countrySections.slice(3).map((section, i) => (
+      {/* ===== COUNTRY GRID SECTIONS (last 2: bonos, slots — disabled) ===== */}
+      {countrySections.slice(4).map((section, i) => (
         <CountryGrid
           key={section.pathSuffix}
           title={section.title}

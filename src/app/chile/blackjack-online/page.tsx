@@ -159,7 +159,7 @@ export default function BlackjackOnlineChile() {
       <section className="relative overflow-hidden bg-[#0a0a0a]">
         <div className="absolute top-0 left-0 right-0 h-[600px] pointer-events-none overflow-hidden">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="https://flagcdn.com/cl.svg" alt="" aria-hidden="true" className="absolute inset-0 w-full h-full object-cover opacity-[0.07]" />
+          <img src="https://flagcdn.com/cl.svg" alt="" aria-hidden="true" decoding="async" className="absolute inset-0 w-full h-full object-cover opacity-[0.07]" />
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[#0a0a0a]" />
         </div>
         <div className="absolute inset-0 pointer-events-none">

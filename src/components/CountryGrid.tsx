@@ -57,6 +57,8 @@ export default function CountryGrid({ title, description, pathSuffix, variant = 
                   src={`https://flagcdn.com/${country.flagCode}.svg`}
                   alt=""
                   aria-hidden="true"
+                  loading="lazy"
+                  decoding="async"
                   className="absolute inset-0 w-full h-full object-cover opacity-[0.15] group-hover:opacity-[0.22] transition-opacity duration-500 pointer-events-none"
                 />
 

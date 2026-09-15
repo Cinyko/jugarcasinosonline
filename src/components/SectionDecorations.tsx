@@ -3,11 +3,15 @@
 function ImageBackground({ src, alt }: { src: string; alt: string }) {
   return (
     <div className="absolute inset-0 pointer-events-none overflow-hidden">
+      {/* Decorativa y siempre por debajo del pliegue: sin lazy, el navegador
+          precargaba los 7 fondos de golpe antes de pintar el hero. */}
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         src={src}
         alt={alt}
         aria-hidden="true"
+        loading="lazy"
+        decoding="async"
         className="absolute inset-0 w-full h-full object-cover opacity-[0.07]"
       />
     </div>
@@ -15,31 +19,31 @@ function ImageBackground({ src, alt }: { src: string; alt: string }) {
 }
 
 export function WorldMapDecoration() {
-  return <ImageBackground src="/img/backgrounds/paises.png" alt="" />;
+  return <ImageBackground src="/img/backgrounds/paises.webp" alt="" />;
 }
 
 export function RouletteDecoration() {
-  return <ImageBackground src="/img/backgrounds/ruleta.png" alt="" />;
+  return <ImageBackground src="/img/backgrounds/ruleta.webp" alt="" />;
 }
 
 export function BlackjackDecoration() {
-  return <ImageBackground src="/img/backgrounds/blackjack.png" alt="" />;
+  return <ImageBackground src="/img/backgrounds/blackjack.webp" alt="" />;
 }
 
 export function StreamerDecoration() {
-  return <ImageBackground src="/img/backgrounds/streamers.png" alt="" />;
+  return <ImageBackground src="/img/backgrounds/streamers.webp" alt="" />;
 }
 
 export function BalanceDecoration() {
-  return <ImageBackground src="/img/backgrounds/comparativa.png" alt="" />;
+  return <ImageBackground src="/img/backgrounds/comparativa.webp" alt="" />;
 }
 
 export function SlotMachineDecoration() {
-  return <ImageBackground src="/img/backgrounds/slots.png" alt="" />;
+  return <ImageBackground src="/img/backgrounds/slots.webp" alt="" />;
 }
 
 export function BitcoinDecoration() {
-  return <ImageBackground src="/img/backgrounds/cripto.png" alt="" />;
+  return <ImageBackground src="/img/backgrounds/cripto.webp" alt="" />;
 }
 
 /* ===== Coins rain (SVG animated) for Bonos Sin Depósito ===== */

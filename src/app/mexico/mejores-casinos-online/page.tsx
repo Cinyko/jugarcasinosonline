@@ -109,7 +109,7 @@ function Section({ id, alt = false, bg, children }: { id: string; alt?: boolean;
       {bg && (
         <div className="absolute top-0 left-0 right-0 h-[50vh] pointer-events-none overflow-hidden">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={bg} alt="" aria-hidden="true" className="absolute inset-0 w-full h-full object-cover opacity-[0.06]" />
+          <img src={bg} alt="" aria-hidden="true" loading="lazy" decoding="async" className="absolute inset-0 w-full h-full object-cover opacity-[0.06]" />
           <div className={`absolute inset-0 bg-gradient-to-b from-transparent via-transparent ${alt ? "to-[#0e0e0e]" : "to-[#0a0a0a]"}`} />
         </div>
       )}
@@ -204,7 +204,7 @@ export default function MejoresCasinosOnlineMexico() {
       <section id="ranking" className="relative overflow-hidden bg-[#0a0a0a]">
         <div className="absolute top-0 left-0 right-0 h-[600px] pointer-events-none overflow-hidden">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="https://flagcdn.com/mx.svg" alt="" aria-hidden="true" className="absolute inset-0 w-full h-full object-cover opacity-[0.07]" />
+          <img src="https://flagcdn.com/mx.svg" alt="" aria-hidden="true" decoding="async" className="absolute inset-0 w-full h-full object-cover opacity-[0.07]" />
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[#0a0a0a]" />
         </div>
         <div className="absolute inset-0 pointer-events-none">
@@ -267,32 +267,32 @@ export default function MejoresCasinosOnlineMexico() {
             const initials = c.name.replace(/Casino|Online/gi, "").trim().substring(0, 2).toUpperCase();
             const logoMap: Record<string, { src: string; invert?: boolean; lightBg?: boolean }> = {
               "starda-casino": { src: "/img/logos/starda.svg" },
-              "pinup": { src: "/img/logos/pin-up.png" },
+              "pinup": { src: "/img/logos/pin-up.webp" },
               "monro-casino": { src: "/img/logos/monro.svg" },
               "sol-casino": { src: "/img/logos/sol.svg" },
               "fresh-casino": { src: "/img/logos/fresh.png" },
-              "stake": { src: "/img/logos/stake.png", invert: true },
+              "stake": { src: "/img/logos/stake.webp", invert: true },
               "bet365": { src: "/img/logos/bet365.svg" },
               "betsson": { src: "/img/logos/betsson.svg" },
               "betsson-mexico": { src: "/img/logos/betsson.svg" },
               "1xbet": { src: "/img/logos/1xbet.png" },
-              "betway": { src: "/img/logos/betway.png", invert: true },
-              "betway-mexico": { src: "/img/logos/betway.png", invert: true },
-              "caliente": { src: "/img/logos/caliente.png" },
+              "betway": { src: "/img/logos/betway.webp", invert: true },
+              "betway-mexico": { src: "/img/logos/betway.webp", invert: true },
+              "caliente": { src: "/img/logos/caliente.webp" },
               "codere": { src: "/img/logos/codere.svg", invert: true },
               "strendus": { src: "/img/logos/strendus.png" },
               "winpot": { src: "/img/logos/winpot.svg" },
-              "luckia": { src: "/img/logos/luckia.png" },
-              "betano": { src: "/img/logos/betano.png" },
-              "inkabet": { src: "/img/logos/inkabet.png" },
+              "luckia": { src: "/img/logos/luckia.webp" },
+              "betano": { src: "/img/logos/betano.webp" },
+              "inkabet": { src: "/img/logos/inkabet.webp" },
               "doradobet": { src: "/img/logos/doradobet.png" },
               "betcris": { src: "/img/logos/betcris.svg" },
               "meridianbet": { src: "/img/logos/meridianbet.webp" },
               "bplay": { src: "/img/logos/bplay.webp" },
               "casino-buenos-aires": { src: "/img/logos/casinobuenosaires.webp" },
               "20bet": { src: "/img/logos/20bet.png" },
-              "dafabet": { src: "/img/logos/dafabet.png" },
-              "betfair": { src: "/img/logos/betfair.png" },
+              "dafabet": { src: "/img/logos/dafabet.webp" },
+              "betfair": { src: "/img/logos/betfair.webp" },
               "melbet": { src: "/img/logos/melbet.jpg" },
               "1win": { src: "/img/logos/1win.svg" },
             };
@@ -400,32 +400,32 @@ export default function MejoresCasinosOnlineMexico() {
                       {(() => {
                         const dLogoMap: Record<string, { src: string; invert?: boolean; lightBg?: boolean }> = {
                           "starda-casino": { src: "/img/logos/starda.svg" },
-              "pinup": { src: "/img/logos/pin-up.png" },
+              "pinup": { src: "/img/logos/pin-up.webp" },
                           "monro-casino": { src: "/img/logos/monro.svg" },
                           "sol-casino": { src: "/img/logos/sol.svg" },
                           "fresh-casino": { src: "/img/logos/fresh.png" },
-                          "stake": { src: "/img/logos/stake.png", invert: true },
+                          "stake": { src: "/img/logos/stake.webp", invert: true },
                           "bet365": { src: "/img/logos/bet365.svg" },
                           "betsson": { src: "/img/logos/betsson.svg" },
               "betsson-mexico": { src: "/img/logos/betsson.svg" },
                           "1xbet": { src: "/img/logos/1xbet.png" },
-                          "betway": { src: "/img/logos/betway.png", invert: true },
-                          "betway-mexico": { src: "/img/logos/betway.png", invert: true },
-                          "caliente": { src: "/img/logos/caliente.png" },
+                          "betway": { src: "/img/logos/betway.webp", invert: true },
+                          "betway-mexico": { src: "/img/logos/betway.webp", invert: true },
+                          "caliente": { src: "/img/logos/caliente.webp" },
                           "codere": { src: "/img/logos/codere.svg", invert: true },
                           "strendus": { src: "/img/logos/strendus.png" },
                           "winpot": { src: "/img/logos/winpot.svg" },
-                          "luckia": { src: "/img/logos/luckia.png" },
-                          "betano": { src: "/img/logos/betano.png" },
-                          "inkabet": { src: "/img/logos/inkabet.png" },
+                          "luckia": { src: "/img/logos/luckia.webp" },
+                          "betano": { src: "/img/logos/betano.webp" },
+                          "inkabet": { src: "/img/logos/inkabet.webp" },
                           "doradobet": { src: "/img/logos/doradobet.png" },
                           "betcris": { src: "/img/logos/betcris.svg" },
                           "meridianbet": { src: "/img/logos/meridianbet.webp" },
                           "bplay": { src: "/img/logos/bplay.webp" },
                           "casino-buenos-aires": { src: "/img/logos/casinobuenosaires.webp" },
                           "20bet": { src: "/img/logos/20bet.png" },
-                          "dafabet": { src: "/img/logos/dafabet.png" },
-                          "betfair": { src: "/img/logos/betfair.png" },
+                          "dafabet": { src: "/img/logos/dafabet.webp" },
+                          "betfair": { src: "/img/logos/betfair.webp" },
                           "melbet": { src: "/img/logos/melbet.jpg" },
                           "1win": { src: "/img/logos/1win.svg" },
                         };
@@ -514,7 +514,7 @@ export default function MejoresCasinosOnlineMexico() {
         ]}
       />
 
-      <Section id="analisis" alt bg="/img/backgrounds/paises.png">
+      <Section id="analisis" alt bg="/img/backgrounds/paises.webp">
         <SectionTitle>Análisis de los Mejores Casinos Online en México</SectionTitle>
         <p className="text-[#9ca3af] mb-4 max-w-3xl leading-relaxed">
           No nos conformamos con leer la página de &quot;Sobre Nosotros&quot; de cada casino y ya. Nos registramos,
@@ -1245,7 +1245,7 @@ export default function MejoresCasinosOnlineMexico() {
       </Section>
 
       {/* ═══ BONOS ═══ */}
-      <Section id="bonos" bg="/img/backgrounds/slots.png">
+      <Section id="bonos" bg="/img/backgrounds/slots.webp">
         <SectionTitle>Tipos de Bonos en Casinos Online de México</SectionTitle>
         <p className="text-[#9ca3af] mb-4 max-w-3xl leading-relaxed">
           Los bonos son básicamente lana gratis que te da el casino para que juegues. Suena increíble,
@@ -1662,7 +1662,7 @@ export default function MejoresCasinosOnlineMexico() {
       </Section>
 
       {/* ═══ LEGAL ═══ */}
-      <Section id="legal" bg="/img/backgrounds/comparativa.png">
+      <Section id="legal" bg="/img/backgrounds/comparativa.webp">
         <SectionTitle>¿Es Legal Jugar en Casinos Online en México?</SectionTitle>
         <p className="text-[#9ca3af] leading-relaxed mb-4">
           <strong className="text-white">Sí, es completamente legal.</strong> México tiene un marco regulatorio
@@ -1792,7 +1792,7 @@ export default function MejoresCasinosOnlineMexico() {
       </Section>
 
       {/* ═══ JUEGOS ═══ */}
-      <Section id="juegos" bg="/img/backgrounds/ruleta.png">
+      <Section id="juegos" bg="/img/backgrounds/ruleta.webp">
         <SectionTitle>Juegos Más Populares en los Casinos Online de México</SectionTitle>
         <p className="text-[#9ca3af] mb-4 max-w-3xl leading-relaxed">
           Saber a qué estás jugando te da una ventaja que la mayoría no tiene. No es lo mismo sentarte
@@ -2248,7 +2248,7 @@ export default function MejoresCasinosOnlineMexico() {
       </Section>
 
       {/* ═══ JUEGO RESPONSABLE ═══ */}
-      <Section id="responsable" alt bg="/img/backgrounds/cripto.png">
+      <Section id="responsable" alt bg="/img/backgrounds/cripto.webp">
         <SectionTitle>Juego Responsable en Casinos Online de México</SectionTitle>
         <div className="rounded-2xl bg-[#f59e0b]/[0.06] border border-[#f59e0b]/20 p-6 mb-8">
           <p className="text-[#f59e0b] font-bold mb-2">Esto va en serio</p>
@@ -2386,7 +2386,7 @@ export default function MejoresCasinosOnlineMexico() {
       </Section>
 
       {/* ═══ CÓMO ELEGIR ═══ */}
-      <Section id="como-elegir" bg="/img/backgrounds/blackjack.png">
+      <Section id="como-elegir" bg="/img/backgrounds/blackjack.webp">
         <SectionTitle>Cómo Elegir un Casino Online en México — Guía Paso a Paso</SectionTitle>
         <p className="text-[#9ca3af] mb-8 max-w-3xl leading-relaxed">
           Con tantas opciones, elegir puede ser abrumador. Estos 5 pasos te van a ahorrar dolores de

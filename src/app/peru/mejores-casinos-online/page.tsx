@@ -105,7 +105,7 @@ function Section({ id, alt = false, bg, children }: { id: string; alt?: boolean;
       {bg && (
         <div className="absolute top-0 left-0 right-0 h-[50vh] pointer-events-none overflow-hidden">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={bg} alt="" aria-hidden="true" className="absolute inset-0 w-full h-full object-cover opacity-[0.06]" />
+          <img src={bg} alt="" aria-hidden="true" loading="lazy" decoding="async" className="absolute inset-0 w-full h-full object-cover opacity-[0.06]" />
           <div className={`absolute inset-0 bg-gradient-to-b from-transparent via-transparent ${alt ? "to-[#0e0e0e]" : "to-[#0a0a0a]"}`} />
         </div>
       )}
@@ -202,7 +202,7 @@ export default function MejoresCasinosOnlinePeru() {
         {/* Peru flag - full width, top to bottom fade */}
         <div className="absolute top-0 left-0 right-0 h-[600px] pointer-events-none overflow-hidden">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="https://flagcdn.com/pe.svg" alt="" aria-hidden="true" className="absolute inset-0 w-full h-full object-cover opacity-[0.07]" />
+          <img src="https://flagcdn.com/pe.svg" alt="" aria-hidden="true" decoding="async" className="absolute inset-0 w-full h-full object-cover opacity-[0.07]" />
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[#0a0a0a]" />
         </div>
         {/* Glow underlays */}
@@ -268,27 +268,27 @@ export default function MejoresCasinosOnlinePeru() {
               "monro-casino": { src: "/img/logos/monro.svg" },
               "sol-casino": { src: "/img/logos/sol.svg" },
               "fresh-casino": { src: "/img/logos/fresh.png" },
-              "stake": { src: "/img/logos/stake.png", invert: true },
+              "stake": { src: "/img/logos/stake.webp", invert: true },
               "bet365": { src: "/img/logos/bet365.svg" },
               "betsson": { src: "/img/logos/betsson.svg" },
               "betsson-peru": { src: "/img/logos/betsson.svg" },
               "1xbet": { src: "/img/logos/1xbet.png" },
-              "betway": { src: "/img/logos/betway.png", invert: true },
-              "caliente": { src: "/img/logos/caliente.png" },
+              "betway": { src: "/img/logos/betway.webp", invert: true },
+              "caliente": { src: "/img/logos/caliente.webp" },
               "codere": { src: "/img/logos/codere.svg", invert: true },
               "strendus": { src: "/img/logos/strendus.png" },
               "winpot": { src: "/img/logos/winpot.svg" },
-              "luckia": { src: "/img/logos/luckia.png" },
-              "betano": { src: "/img/logos/betano.png" },
-              "inkabet": { src: "/img/logos/inkabet.png" },
+              "luckia": { src: "/img/logos/luckia.webp" },
+              "betano": { src: "/img/logos/betano.webp" },
+              "inkabet": { src: "/img/logos/inkabet.webp" },
               "doradobet": { src: "/img/logos/doradobet.png" },
               "betcris": { src: "/img/logos/betcris.svg" },
               "meridianbet": { src: "/img/logos/meridianbet.webp" },
               "bplay": { src: "/img/logos/bplay.webp" },
               "casino-buenos-aires": { src: "/img/logos/casinobuenosaires.webp" },
               "20bet": { src: "/img/logos/20bet.png" },
-              "dafabet": { src: "/img/logos/dafabet.png" },
-              "betfair": { src: "/img/logos/betfair.png" },
+              "dafabet": { src: "/img/logos/dafabet.webp" },
+              "betfair": { src: "/img/logos/betfair.webp" },
               "melbet": { src: "/img/logos/melbet.jpg" },
               "1win": { src: "/img/logos/1win.svg" },
             };
@@ -399,27 +399,27 @@ export default function MejoresCasinosOnlinePeru() {
                           "monro-casino": { src: "/img/logos/monro.svg" },
                           "sol-casino": { src: "/img/logos/sol.svg" },
                           "fresh-casino": { src: "/img/logos/fresh.png" },
-                          "stake": { src: "/img/logos/stake.png", invert: true },
+                          "stake": { src: "/img/logos/stake.webp", invert: true },
                           "bet365": { src: "/img/logos/bet365.svg" },
                           "betsson": { src: "/img/logos/betsson.svg" },
                           "betsson-peru": { src: "/img/logos/betsson.svg" },
                           "1xbet": { src: "/img/logos/1xbet.png" },
-                          "betway": { src: "/img/logos/betway.png", invert: true },
-                          "caliente": { src: "/img/logos/caliente.png" },
+                          "betway": { src: "/img/logos/betway.webp", invert: true },
+                          "caliente": { src: "/img/logos/caliente.webp" },
                           "codere": { src: "/img/logos/codere.svg", invert: true },
                           "strendus": { src: "/img/logos/strendus.png" },
                           "winpot": { src: "/img/logos/winpot.svg" },
-                          "luckia": { src: "/img/logos/luckia.png" },
-                          "betano": { src: "/img/logos/betano.png" },
-                          "inkabet": { src: "/img/logos/inkabet.png" },
+                          "luckia": { src: "/img/logos/luckia.webp" },
+                          "betano": { src: "/img/logos/betano.webp" },
+                          "inkabet": { src: "/img/logos/inkabet.webp" },
                           "doradobet": { src: "/img/logos/doradobet.png" },
                           "betcris": { src: "/img/logos/betcris.svg" },
                           "meridianbet": { src: "/img/logos/meridianbet.webp" },
                           "bplay": { src: "/img/logos/bplay.webp" },
                           "casino-buenos-aires": { src: "/img/logos/casinobuenosaires.webp" },
                           "20bet": { src: "/img/logos/20bet.png" },
-                          "dafabet": { src: "/img/logos/dafabet.png" },
-                          "betfair": { src: "/img/logos/betfair.png" },
+                          "dafabet": { src: "/img/logos/dafabet.webp" },
+                          "betfair": { src: "/img/logos/betfair.webp" },
                           "melbet": { src: "/img/logos/melbet.jpg" },
                           "1win": { src: "/img/logos/1win.svg" },
                         };
@@ -508,7 +508,7 @@ export default function MejoresCasinosOnlinePeru() {
         ]}
       />
 
-      <Section id="analisis" alt bg="/img/backgrounds/paises.png">
+      <Section id="analisis" alt bg="/img/backgrounds/paises.webp">
         <SectionTitle>Análisis Detallado de los Mejores Casinos Online en Perú</SectionTitle>
         <p className="text-[#9ca3af] mb-4 max-w-3xl leading-relaxed">
           Elegir un casino online no debería ser cuestión de suerte. Por eso revisamos a fondo cada uno de los
@@ -1193,7 +1193,7 @@ export default function MejoresCasinosOnlinePeru() {
       </Section>
 
       {/* ═══ SECTION 4: BONUS TYPES ═══ */}
-      <Section id="bonos" alt bg="/img/backgrounds/slots.png">
+      <Section id="bonos" alt bg="/img/backgrounds/slots.webp">
         <SectionTitle>Tipos de Bonos en Casinos Online de Perú</SectionTitle>
         <p className="text-[#9ca3af] mb-4 max-w-3xl leading-relaxed">
           Acá viene lo bueno: los bonos. La verdad es que son la principal razón por la que jugar online le
@@ -1543,7 +1543,7 @@ export default function MejoresCasinosOnlinePeru() {
       </div>
 
       {/* ═══ SECTION 6: LEGAL ═══ */}
-      <Section id="legal" alt bg="/img/backgrounds/comparativa.png">
+      <Section id="legal" alt bg="/img/backgrounds/comparativa.webp">
         <SectionTitle>¿Es Legal Jugar en Casinos Online en Perú?</SectionTitle>
 
         <p className="text-[#9ca3af] leading-relaxed mb-4">
@@ -1666,7 +1666,7 @@ export default function MejoresCasinosOnlinePeru() {
       </Section>
 
       {/* ═══ SECTION 7: POPULAR GAMES ═══ */}
-      <Section id="juegos" bg="/img/backgrounds/ruleta.png">
+      <Section id="juegos" bg="/img/backgrounds/ruleta.webp">
         <SectionTitle>Juegos Más Populares en los Casinos Online de Perú</SectionTitle>
         <p className="text-[#9ca3af] mb-4 max-w-3xl leading-relaxed">
           Acá viene algo que te va a cambiar la forma de jugar: entender los números detrás de cada juego. No
@@ -2131,7 +2131,7 @@ export default function MejoresCasinosOnlinePeru() {
       </Section>
 
       {/* ═══ SECTION 8: RESPONSIBLE GAMBLING ═══ */}
-      <Section id="responsable" alt bg="/img/backgrounds/cripto.png">
+      <Section id="responsable" alt bg="/img/backgrounds/cripto.webp">
         <SectionTitle>Juego Responsable en Casinos Online de Perú</SectionTitle>
 
         <div className="rounded-2xl bg-[#f59e0b]/[0.06] border border-[#f59e0b]/20 p-6 mb-8">
@@ -2252,7 +2252,7 @@ export default function MejoresCasinosOnlinePeru() {
       </div>
 
       {/* ═══ CÓMO ELEGIR ═══ */}
-      <Section id="como-elegir" bg="/img/backgrounds/blackjack.png">
+      <Section id="como-elegir" bg="/img/backgrounds/blackjack.webp">
         <SectionTitle>Cómo Elegir un Casino Online en Perú — Guía Paso a Paso</SectionTitle>
         <p className="text-[#9ca3af] mb-4 max-w-3xl leading-relaxed">
           Más de 60 casinos con licencia MINCETUR, cientos más con licencias internacionales... ¿cómo eliges

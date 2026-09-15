@@ -63,7 +63,7 @@ function CtaButton({ slug, text = "Jugar Ahora" }: { slug: string; text?: string
   return (<a href={`/go/${slug}`} target="_blank" rel="nofollow noopener sponsored" className="inline-flex items-center justify-center px-6 py-3 rounded-xl bg-[#00C853] font-extrabold text-white text-sm uppercase tracking-wide transition-all duration-300 hover:bg-[#00E676] hover:shadow-[0_0_30px_rgba(0,200,83,0.35)]">{text}</a>);
 }
 function Section({ id, alt = false, bg, children }: { id: string; alt?: boolean; bg?: string; children: React.ReactNode }) {
-  return (<section id={id} className={`${alt ? "bg-[#0e0e0e]" : "bg-[#0a0a0a]"} py-16 sm:py-24 relative`}>{bg && (<div className="absolute top-0 left-0 right-0 h-[50vh] pointer-events-none overflow-hidden">{/* eslint-disable-next-line @next/next/no-img-element */}<img src={bg} alt="" aria-hidden="true" className="absolute inset-0 w-full h-full object-cover opacity-[0.06]" /><div className={`absolute inset-0 bg-gradient-to-b from-transparent via-transparent ${alt ? "to-[#0e0e0e]" : "to-[#0a0a0a]"}`} /></div>)}<div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10">{children}</div></section>);
+  return (<section id={id} className={`${alt ? "bg-[#0e0e0e]" : "bg-[#0a0a0a]"} py-16 sm:py-24 relative`}>{bg && (<div className="absolute top-0 left-0 right-0 h-[50vh] pointer-events-none overflow-hidden">{/* eslint-disable-next-line @next/next/no-img-element */}<img src={bg} alt="" aria-hidden="true" loading="lazy" decoding="async" className="absolute inset-0 w-full h-full object-cover opacity-[0.06]" /><div className={`absolute inset-0 bg-gradient-to-b from-transparent via-transparent ${alt ? "to-[#0e0e0e]" : "to-[#0a0a0a]"}`} /></div>)}<div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10">{children}</div></section>);
 }
 function SectionTitle({ children }: { children: React.ReactNode }) {
   return (<div className="flex items-center gap-4 mb-6"><div className="h-10 w-1.5 rounded-full bg-gradient-to-b from-[#eab308] to-[#dc2626]" /><h2 className="text-2xl sm:text-3xl lg:text-4xl font-black text-white tracking-tight">{children}</h2></div>);
@@ -87,7 +87,7 @@ export default function RuletaOnlineEcuador() {
 
       {/* ═══ HERO ═══ */}
       <section id="ranking" className="relative overflow-hidden bg-[#0a0a0a]">
-        <div className="absolute top-0 left-0 right-0 h-[600px] pointer-events-none overflow-hidden">{/* eslint-disable-next-line @next/next/no-img-element */}<img src="https://flagcdn.com/ec.svg" alt="" aria-hidden="true" className="absolute inset-0 w-full h-full object-cover opacity-[0.07]" /><div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[#0a0a0a]" /></div>
+        <div className="absolute top-0 left-0 right-0 h-[600px] pointer-events-none overflow-hidden">{/* eslint-disable-next-line @next/next/no-img-element */}<img src="https://flagcdn.com/ec.svg" alt="" aria-hidden="true" decoding="async" className="absolute inset-0 w-full h-full object-cover opacity-[0.07]" /><div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[#0a0a0a]" /></div>
         <div className="absolute inset-0 pointer-events-none"><div className="absolute top-0 left-1/2 -translate-x-1/2 w-[900px] h-[600px] bg-[#eab308]/[0.06] rounded-full blur-[180px]" /><div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-[#22c55e]/[0.04] rounded-full blur-[150px]" /><div className="absolute top-1/2 right-0 w-[400px] h-[400px] bg-[#dc2626]/[0.03] rounded-full blur-[120px]" /></div>
 
         <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-8 sm:pt-12 pb-16 sm:pb-24">
@@ -169,7 +169,7 @@ export default function RuletaOnlineEcuador() {
         ]}
       />
 
-      <Section id="analisis" alt bg="/img/backgrounds/paises.png">
+      <Section id="analisis" alt bg="/img/backgrounds/paises.webp">
         <SectionTitle>Análisis de los Mejores Casinos con Ruleta en Ecuador</SectionTitle>
         <p className="text-[#9ca3af] mb-4 max-w-3xl leading-relaxed">
           No todos los casinos son iguales cuando se trata de ruleta. Hay casinos con 60 mesas en vivo y otros con apenas 10. Hay casinos donde la ruleta francesa (la que te da mejor ventaja) está disponible las 24 horas y otros donde ni la tienen. Y hay casinos donde los límites de mesa te permiten jugar con $0.50 y otros donde el mínimo son $5.

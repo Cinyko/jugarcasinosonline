@@ -80,7 +80,7 @@ function CtaButton({ slug, text = "Jugar Ahora" }: { slug: string; text?: string
   return (<a href={`/go/${slug}`} target="_blank" rel="nofollow noopener sponsored" className="inline-flex items-center justify-center px-6 py-3 rounded-xl bg-[#00C853] font-extrabold text-white text-sm uppercase tracking-wide transition-all duration-300 hover:bg-[#00E676] hover:shadow-[0_0_30px_rgba(0,200,83,0.35)]">{text}</a>);
 }
 function Section({ id, alt = false, bg, children }: { id: string; alt?: boolean; bg?: string; children: React.ReactNode }) {
-  return (<section id={id} className={`${alt ? "bg-[#0e0e0e]" : "bg-[#0a0a0a]"} py-16 sm:py-24 relative`}>{bg && (<div className="absolute top-0 left-0 right-0 h-[50vh] pointer-events-none overflow-hidden">{/* eslint-disable-next-line @next/next/no-img-element */}<img src={bg} alt="" aria-hidden="true" className="absolute inset-0 w-full h-full object-cover opacity-[0.06]" /><div className={`absolute inset-0 bg-gradient-to-b from-transparent via-transparent ${alt ? "to-[#0e0e0e]" : "to-[#0a0a0a]"}`} /></div>)}<div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10">{children}</div></section>);
+  return (<section id={id} className={`${alt ? "bg-[#0e0e0e]" : "bg-[#0a0a0a]"} py-16 sm:py-24 relative`}>{bg && (<div className="absolute top-0 left-0 right-0 h-[50vh] pointer-events-none overflow-hidden">{/* eslint-disable-next-line @next/next/no-img-element */}<img src={bg} alt="" aria-hidden="true" loading="lazy" decoding="async" className="absolute inset-0 w-full h-full object-cover opacity-[0.06]" /><div className={`absolute inset-0 bg-gradient-to-b from-transparent via-transparent ${alt ? "to-[#0e0e0e]" : "to-[#0a0a0a]"}`} /></div>)}<div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10">{children}</div></section>);
 }
 function SectionTitle({ children }: { children: React.ReactNode }) {
   return (<div className="flex items-center gap-4 mb-6"><div className="h-10 w-1.5 rounded-full bg-gradient-to-b from-[#eab308] to-[#dc2626]" /><h2 className="text-2xl sm:text-3xl lg:text-4xl font-black text-white tracking-tight">{children}</h2></div>);
@@ -104,7 +104,7 @@ export default function MejoresCasinosOnlineEcuador() {
 
       {/* ═══ HERO ═══ */}
       <section id="ranking" className="relative overflow-hidden bg-[#0a0a0a]">
-        <div className="absolute top-0 left-0 right-0 h-[600px] pointer-events-none overflow-hidden">{/* eslint-disable-next-line @next/next/no-img-element */}<img src="https://flagcdn.com/ec.svg" alt="" aria-hidden="true" className="absolute inset-0 w-full h-full object-cover opacity-[0.07]" /><div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[#0a0a0a]" /></div>
+        <div className="absolute top-0 left-0 right-0 h-[600px] pointer-events-none overflow-hidden">{/* eslint-disable-next-line @next/next/no-img-element */}<img src="https://flagcdn.com/ec.svg" alt="" aria-hidden="true" decoding="async" className="absolute inset-0 w-full h-full object-cover opacity-[0.07]" /><div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[#0a0a0a]" /></div>
         <div className="absolute inset-0 pointer-events-none"><div className="absolute top-0 left-1/2 -translate-x-1/2 w-[900px] h-[600px] bg-[#eab308]/[0.06] rounded-full blur-[180px]" /><div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-[#22c55e]/[0.04] rounded-full blur-[150px]" /><div className="absolute top-1/2 right-0 w-[400px] h-[400px] bg-[#dc2626]/[0.03] rounded-full blur-[120px]" /></div>
 
         <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-8 sm:pt-12 pb-16 sm:pb-24">
@@ -141,31 +141,31 @@ export default function MejoresCasinosOnlineEcuador() {
             const initials = c.name.replace(/Casino|Online/gi, "").trim().substring(0, 2).toUpperCase();
             const logoMap: Record<string, { src: string; invert?: boolean; lightBg?: boolean }> = {
               "starda-casino": { src: "/img/logos/starda.svg" },
-              "pinup": { src: "/img/logos/pin-up.png" },
+              "pinup": { src: "/img/logos/pin-up.webp" },
               "monro-casino": { src: "/img/logos/monro.svg" },
               "sol-casino": { src: "/img/logos/sol.svg" },
               "fresh-casino": { src: "/img/logos/fresh.png" },
-              "stake": { src: "/img/logos/stake.png", invert: true },
+              "stake": { src: "/img/logos/stake.webp", invert: true },
               "bet365": { src: "/img/logos/bet365.svg" },
               "betsson": { src: "/img/logos/betsson.svg" },
               "betsson-latam": { src: "/img/logos/betsson.svg" },
               "1xbet": { src: "/img/logos/1xbet.png" },
-              "betway": { src: "/img/logos/betway.png", invert: true },
-              "caliente": { src: "/img/logos/caliente.png" },
+              "betway": { src: "/img/logos/betway.webp", invert: true },
+              "caliente": { src: "/img/logos/caliente.webp" },
               "codere": { src: "/img/logos/codere.svg", invert: true },
               "strendus": { src: "/img/logos/strendus.png" },
               "winpot": { src: "/img/logos/winpot.svg" },
-              "luckia": { src: "/img/logos/luckia.png" },
-              "betano": { src: "/img/logos/betano.png" },
-              "inkabet": { src: "/img/logos/inkabet.png" },
+              "luckia": { src: "/img/logos/luckia.webp" },
+              "betano": { src: "/img/logos/betano.webp" },
+              "inkabet": { src: "/img/logos/inkabet.webp" },
               "doradobet": { src: "/img/logos/doradobet.png" },
               "betcris": { src: "/img/logos/betcris.svg" },
               "meridianbet": { src: "/img/logos/meridianbet.webp" },
               "bplay": { src: "/img/logos/bplay.webp" },
               "casino-buenos-aires": { src: "/img/logos/casinobuenosaires.webp" },
               "20bet": { src: "/img/logos/20bet.png" },
-              "dafabet": { src: "/img/logos/dafabet.png" },
-              "betfair": { src: "/img/logos/betfair.png" },
+              "dafabet": { src: "/img/logos/dafabet.webp" },
+              "betfair": { src: "/img/logos/betfair.webp" },
               "melbet": { src: "/img/logos/melbet.jpg" },
               "1win": { src: "/img/logos/1win.svg" },
             };
@@ -252,31 +252,31 @@ export default function MejoresCasinosOnlineEcuador() {
                       {(() => {
                         const dLogoMap: Record<string, { src: string; invert?: boolean; lightBg?: boolean }> = {
                           "starda-casino": { src: "/img/logos/starda.svg" },
-              "pinup": { src: "/img/logos/pin-up.png" },
+              "pinup": { src: "/img/logos/pin-up.webp" },
                           "monro-casino": { src: "/img/logos/monro.svg" },
                           "sol-casino": { src: "/img/logos/sol.svg" },
                           "fresh-casino": { src: "/img/logos/fresh.png" },
-                          "stake": { src: "/img/logos/stake.png", invert: true },
+                          "stake": { src: "/img/logos/stake.webp", invert: true },
                           "bet365": { src: "/img/logos/bet365.svg" },
                           "betsson": { src: "/img/logos/betsson.svg" },
                           "betsson-latam": { src: "/img/logos/betsson.svg" },
                           "1xbet": { src: "/img/logos/1xbet.png" },
-                          "betway": { src: "/img/logos/betway.png", invert: true },
-                          "caliente": { src: "/img/logos/caliente.png" },
+                          "betway": { src: "/img/logos/betway.webp", invert: true },
+                          "caliente": { src: "/img/logos/caliente.webp" },
                           "codere": { src: "/img/logos/codere.svg", invert: true },
                           "strendus": { src: "/img/logos/strendus.png" },
                           "winpot": { src: "/img/logos/winpot.svg" },
-                          "luckia": { src: "/img/logos/luckia.png" },
-                          "betano": { src: "/img/logos/betano.png" },
-                          "inkabet": { src: "/img/logos/inkabet.png" },
+                          "luckia": { src: "/img/logos/luckia.webp" },
+                          "betano": { src: "/img/logos/betano.webp" },
+                          "inkabet": { src: "/img/logos/inkabet.webp" },
                           "doradobet": { src: "/img/logos/doradobet.png" },
                           "betcris": { src: "/img/logos/betcris.svg" },
                           "meridianbet": { src: "/img/logos/meridianbet.webp" },
                           "bplay": { src: "/img/logos/bplay.webp" },
                           "casino-buenos-aires": { src: "/img/logos/casinobuenosaires.webp" },
                           "20bet": { src: "/img/logos/20bet.png" },
-                          "dafabet": { src: "/img/logos/dafabet.png" },
-                          "betfair": { src: "/img/logos/betfair.png" },
+                          "dafabet": { src: "/img/logos/dafabet.webp" },
+                          "betfair": { src: "/img/logos/betfair.webp" },
                           "melbet": { src: "/img/logos/melbet.jpg" },
                           "1win": { src: "/img/logos/1win.svg" },
                         };
@@ -352,7 +352,7 @@ export default function MejoresCasinosOnlineEcuador() {
         ]}
       />
 
-      <Section id="analisis" alt bg="/img/backgrounds/paises.png">
+      <Section id="analisis" alt bg="/img/backgrounds/paises.webp">
         <SectionTitle>Análisis de los Mejores Casinos Online en Ecuador</SectionTitle>
         <p className="text-[#9ca3af] mb-4 max-w-3xl leading-relaxed">
           No nos conformamos con leer lo que dice cada casino en su página. Nos registramos con plata real, jugamos durante semanas, probamos retiros con tarjeta y crypto, y le escribimos al soporte cuando la mayoría de la gente está durmiendo. Acá va nuestra opinión real de cada uno.
@@ -792,7 +792,7 @@ export default function MejoresCasinosOnlineEcuador() {
       </Section>
 
       {/* ═══ BONOS ═══ */}
-      <Section id="bonos" bg="/img/backgrounds/slots.png">
+      <Section id="bonos" bg="/img/backgrounds/slots.webp">
         <SectionTitle>Tipos de Bonos en Casinos Online de Ecuador</SectionTitle>
         <p className="text-[#9ca3af] mb-4 max-w-3xl leading-relaxed">Los bonos son plata gratis que te da el casino para que juegues. Suena chévere, ¿cierto? Y lo es... si entiendes cómo funcionan. La mayoría acepta bonos sin leer las condiciones y después se queja cuando no puede retirar. Es el error más común que vemos entre jugadores ecuatorianos que recién empiezan — se emocionan con el número grande del bono y se olvidan de la letra chica que define si realmente van a poder sacar algo.</p>
         <p className="text-[#9ca3af] mb-4 max-w-3xl leading-relaxed">Acá te explicamos cada tipo con números reales y consejos para que no te lleves sorpresas. Una ventaja de Ecuador: al operar en dólares, los montos que ves en los casinos internacionales son exactamente lo que depositas. Sin conversión.</p>
@@ -904,7 +904,7 @@ export default function MejoresCasinosOnlineEcuador() {
       </Section>
 
       {/* ═══ LEGAL ═══ */}
-      <Section id="legal" bg="/img/backgrounds/comparativa.png">
+      <Section id="legal" bg="/img/backgrounds/comparativa.webp">
         <SectionTitle>¿Es Legal Jugar en Casinos Online en Ecuador?</SectionTitle>
         <p className="text-[#9ca3af] leading-relaxed mb-3"><strong className="text-white">Sí, para el jugador es legal.</strong> Ecuador vive un momento de transición. En 2011, el gobierno de Rafael Correa prohibió los casinos físicos. Durante más de una década no hubo casinos legales en el país. Pero en diciembre de 2025, un referéndum cambió todo.</p>
         <p className="text-[#9ca3af] leading-relaxed mb-4">Esta es probablemente la pregunta más importante de toda la guía, así que vamos a ser muy claros y directos. El contexto legal de Ecuador para casinos online ha cambiado drásticamente en los últimos meses y hay mucha confusión al respecto. Vamos paso a paso.</p>
@@ -943,7 +943,7 @@ export default function MejoresCasinosOnlineEcuador() {
       </Section>
 
       {/* ═══ JUEGOS ═══ */}
-      <Section id="juegos" bg="/img/backgrounds/ruleta.png">
+      <Section id="juegos" bg="/img/backgrounds/ruleta.webp">
         <SectionTitle>Juegos Más Populares en los Casinos Online de Ecuador</SectionTitle>
         <p className="text-[#9ca3af] mb-4 max-w-3xl leading-relaxed">Saber a qué estás jugando te da una ventaja que la mayoría no tiene. Elegir por el RTP y no por los gráficos puede cambiar completamente tu experiencia.</p>
         <p className="text-[#9ca3af] mb-10 max-w-3xl leading-relaxed">Los casinos online ofrecen cientos o miles de juegos y puede ser abrumador. Acá te explicamos las categorías principales, qué esperar de cada una y cuáles te convienen según tu estilo de juego y presupuesto. Todo lo probamos en los casinos del ranking con plata real, así que los comentarios vienen de experiencia directa.</p>
@@ -1069,7 +1069,7 @@ export default function MejoresCasinosOnlineEcuador() {
       </Section>
 
       {/* ═══ RESPONSABLE ═══ */}
-      <Section id="responsable" alt bg="/img/backgrounds/cripto.png">
+      <Section id="responsable" alt bg="/img/backgrounds/cripto.webp">
         <SectionTitle>Juego Responsable en Casinos Online de Ecuador</SectionTitle>
         <div className="rounded-2xl bg-[#f59e0b]/[0.06] border border-[#f59e0b]/20 p-6 mb-8"><p className="text-[#f59e0b] font-bold mb-2">Esto va en serio</p><p className="text-[#d4d4d8] leading-relaxed">Los casinos son entretenimiento. No son una forma de hacer plata. Si estás jugando para &quot;recuperar lo que perdiste&quot; o apostando lo del arriendo... para. Lee esta sección completa.</p></div>
         <h3 className="text-xl font-bold text-white mb-3">Herramientas disponibles</h3>
@@ -1098,7 +1098,7 @@ export default function MejoresCasinosOnlineEcuador() {
       </Section>
 
       {/* ═══ CÓMO ELEGIR ═══ */}
-      <Section id="como-elegir" bg="/img/backgrounds/blackjack.png">
+      <Section id="como-elegir" bg="/img/backgrounds/blackjack.webp">
         <SectionTitle>Cómo Elegir un Casino Online en Ecuador — Paso a Paso</SectionTitle>
         <p className="text-[#9ca3af] mb-4 max-w-3xl leading-relaxed">En un mercado sin regulación local todavía, elegir bien es especialmente importante. Estos 5 pasos te van a ahorrar problemas y plata perdida.</p>
         <p className="text-[#9ca3af] mb-8 max-w-3xl leading-relaxed">La diferencia entre un casino confiable y uno que te va a dar problemas no siempre es obvia a primera vista. Ambos pueden tener diseños profesionales, bonos atractivos y miles de juegos. Pero debajo de la superficie, las diferencias son enormes: velocidad de retiro, honestidad del soporte, transparencia de las condiciones, y si realmente te pagan cuando ganas. Estos pasos te ayudan a ver más allá del marketing y tomar decisiones inteligentes con tu plata. En Ecuador, donde todavía no hay un regulador local que te proteja, seguir estos pasos es todavía más importante que en otros países.</p>

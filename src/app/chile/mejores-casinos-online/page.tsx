@@ -111,7 +111,7 @@ function Section({ id, alt = false, bg, children }: { id: string; alt?: boolean;
       {bg && (
         <div className="absolute top-0 left-0 right-0 h-[50vh] pointer-events-none overflow-hidden">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={bg} alt="" aria-hidden="true" className="absolute inset-0 w-full h-full object-cover opacity-[0.06]" />
+          <img src={bg} alt="" aria-hidden="true" loading="lazy" decoding="async" className="absolute inset-0 w-full h-full object-cover opacity-[0.06]" />
           <div className={`absolute inset-0 bg-gradient-to-b from-transparent via-transparent ${alt ? "to-[#0e0e0e]" : "to-[#0a0a0a]"}`} />
         </div>
       )}
@@ -162,7 +162,7 @@ export default function MejoresCasinosOnlineChile() {
       <section id="ranking" className="relative overflow-hidden bg-[#0a0a0a]">
         <div className="absolute top-0 left-0 right-0 h-[600px] pointer-events-none overflow-hidden">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="https://flagcdn.com/cl.svg" alt="" aria-hidden="true" className="absolute inset-0 w-full h-full object-cover opacity-[0.07]" />
+          <img src="https://flagcdn.com/cl.svg" alt="" aria-hidden="true" decoding="async" className="absolute inset-0 w-full h-full object-cover opacity-[0.07]" />
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[#0a0a0a]" />
         </div>
         <div className="absolute inset-0 pointer-events-none">
@@ -214,33 +214,33 @@ export default function MejoresCasinosOnlineChile() {
             const initials = c.name.replace(/Casino|Online/gi, "").trim().substring(0, 2).toUpperCase();
             const logoMap: Record<string, { src: string; invert?: boolean; lightBg?: boolean }> = {
               "starda-casino": { src: "/img/logos/starda.svg" },
-              "pinup": { src: "/img/logos/pin-up.png" },
+              "pinup": { src: "/img/logos/pin-up.webp" },
               "jackpotcity-chile": { src: "/img/logos/jackpotcity.png" },
-              "gamingclub-chile": { src: "/img/logos/Gaming-Club.png" },
+              "gamingclub-chile": { src: "/img/logos/Gaming-Club.webp" },
               "monro-casino": { src: "/img/logos/monro.svg" },
               "sol-casino": { src: "/img/logos/sol.svg" },
               "fresh-casino": { src: "/img/logos/fresh.png" },
-              "stake": { src: "/img/logos/stake.png", invert: true },
+              "stake": { src: "/img/logos/stake.webp", invert: true },
               "bet365": { src: "/img/logos/bet365.svg" },
               "betsson": { src: "/img/logos/betsson.svg" },
               "betsson-chile": { src: "/img/logos/betsson.svg" },
               "1xbet": { src: "/img/logos/1xbet.png" },
-              "betway": { src: "/img/logos/betway.png", invert: true },
-              "caliente": { src: "/img/logos/caliente.png" },
+              "betway": { src: "/img/logos/betway.webp", invert: true },
+              "caliente": { src: "/img/logos/caliente.webp" },
               "codere": { src: "/img/logos/codere.svg", invert: true },
               "strendus": { src: "/img/logos/strendus.png" },
               "winpot": { src: "/img/logos/winpot.svg" },
-              "luckia": { src: "/img/logos/luckia.png" },
-              "betano": { src: "/img/logos/betano.png" },
-              "inkabet": { src: "/img/logos/inkabet.png" },
+              "luckia": { src: "/img/logos/luckia.webp" },
+              "betano": { src: "/img/logos/betano.webp" },
+              "inkabet": { src: "/img/logos/inkabet.webp" },
               "doradobet": { src: "/img/logos/doradobet.png" },
               "betcris": { src: "/img/logos/betcris.svg" },
               "meridianbet": { src: "/img/logos/meridianbet.webp" },
               "bplay": { src: "/img/logos/bplay.webp" },
               "casino-buenos-aires": { src: "/img/logos/casinobuenosaires.webp" },
               "20bet": { src: "/img/logos/20bet.png" },
-              "dafabet": { src: "/img/logos/dafabet.png" },
-              "betfair": { src: "/img/logos/betfair.png" },
+              "dafabet": { src: "/img/logos/dafabet.webp" },
+              "betfair": { src: "/img/logos/betfair.webp" },
               "melbet": { src: "/img/logos/melbet.jpg" },
               "1win": { src: "/img/logos/1win.svg" },
             };
@@ -330,33 +330,33 @@ export default function MejoresCasinosOnlineChile() {
                       {(() => {
                         const dLogoMap: Record<string, { src: string; invert?: boolean; lightBg?: boolean }> = {
                           "starda-casino": { src: "/img/logos/starda.svg" },
-              "pinup": { src: "/img/logos/pin-up.png" },
+              "pinup": { src: "/img/logos/pin-up.webp" },
               "jackpotcity-chile": { src: "/img/logos/jackpotcity.png" },
-              "gamingclub-chile": { src: "/img/logos/Gaming-Club.png" },
+              "gamingclub-chile": { src: "/img/logos/Gaming-Club.webp" },
                           "monro-casino": { src: "/img/logos/monro.svg" },
                           "sol-casino": { src: "/img/logos/sol.svg" },
                           "fresh-casino": { src: "/img/logos/fresh.png" },
-                          "stake": { src: "/img/logos/stake.png", invert: true },
+                          "stake": { src: "/img/logos/stake.webp", invert: true },
                           "bet365": { src: "/img/logos/bet365.svg" },
                           "betsson": { src: "/img/logos/betsson.svg" },
               "betsson-chile": { src: "/img/logos/betsson.svg" },
                           "1xbet": { src: "/img/logos/1xbet.png" },
-                          "betway": { src: "/img/logos/betway.png", invert: true },
-                          "caliente": { src: "/img/logos/caliente.png" },
+                          "betway": { src: "/img/logos/betway.webp", invert: true },
+                          "caliente": { src: "/img/logos/caliente.webp" },
                           "codere": { src: "/img/logos/codere.svg", invert: true },
                           "strendus": { src: "/img/logos/strendus.png" },
                           "winpot": { src: "/img/logos/winpot.svg" },
-                          "luckia": { src: "/img/logos/luckia.png" },
-                          "betano": { src: "/img/logos/betano.png" },
-                          "inkabet": { src: "/img/logos/inkabet.png" },
+                          "luckia": { src: "/img/logos/luckia.webp" },
+                          "betano": { src: "/img/logos/betano.webp" },
+                          "inkabet": { src: "/img/logos/inkabet.webp" },
                           "doradobet": { src: "/img/logos/doradobet.png" },
                           "betcris": { src: "/img/logos/betcris.svg" },
                           "meridianbet": { src: "/img/logos/meridianbet.webp" },
                           "bplay": { src: "/img/logos/bplay.webp" },
                           "casino-buenos-aires": { src: "/img/logos/casinobuenosaires.webp" },
                           "20bet": { src: "/img/logos/20bet.png" },
-                          "dafabet": { src: "/img/logos/dafabet.png" },
-                          "betfair": { src: "/img/logos/betfair.png" },
+                          "dafabet": { src: "/img/logos/dafabet.webp" },
+                          "betfair": { src: "/img/logos/betfair.webp" },
                           "melbet": { src: "/img/logos/melbet.jpg" },
                           "1win": { src: "/img/logos/1win.svg" },
                         };
@@ -434,7 +434,7 @@ export default function MejoresCasinosOnlineChile() {
         ]}
       />
 
-      <Section id="analisis" alt bg="/img/backgrounds/paises.png">
+      <Section id="analisis" alt bg="/img/backgrounds/paises.webp">
         <SectionTitle>Análisis de los Mejores Casinos Online en Chile</SectionTitle>
         <p className="text-[#9ca3af] mb-4 max-w-3xl leading-relaxed">
           No nos quedamos con la info de la página del casino y listo. Nos registramos, metimos lucas de verdad, jugamos durante semanas, probamos los retiros con WebPay y MACH, y contactamos al soporte cuando la mayoría de la gente está durmiendo. Si algo no funcionó bien, lo decimos.
@@ -928,7 +928,7 @@ export default function MejoresCasinosOnlineChile() {
       </Section>
 
       {/* ═══ BONOS ═══ */}
-      <Section id="bonos" bg="/img/backgrounds/slots.png">
+      <Section id="bonos" bg="/img/backgrounds/slots.webp">
         <SectionTitle>Tipos de Bonos en Casinos Online de Chile</SectionTitle>
         <p className="text-[#9ca3af] mb-4 max-w-3xl leading-relaxed">Los bonos son lucas gratis que te da el casino. Suena bacán, ¿cierto? Y lo es... si cachai cómo funcionan. Porque la mayoría acepta bonos sin leer las condiciones y después se frustra cuando no puede retirar.</p>
         <p className="text-[#9ca3af] mb-10 max-w-3xl leading-relaxed">Acá te explicamos cada tipo con números reales del ranking chileno y consejos pa&apos; que no te lleves sorpresas.</p>
@@ -1014,7 +1014,7 @@ export default function MejoresCasinosOnlineChile() {
       </Section>
 
       {/* ═══ LEGAL ═══ */}
-      <Section id="legal" bg="/img/backgrounds/comparativa.png">
+      <Section id="legal" bg="/img/backgrounds/comparativa.webp">
         <SectionTitle>¿Es Legal Jugar en Casinos Online en Chile?</SectionTitle>
         <p className="text-[#9ca3af] leading-relaxed mb-4"><strong className="text-white">Para el jugador, sí.</strong> No existe una ley que prohíba a los chilenos jugar en casinos online. Lo que no hay (todavía) es una regulación específica para los operadores online. Chile tiene la Ley N° 19.995 que supervisa los casinos físicos a través de la Superintendencia de Casinos de Juego (SCJ), pero no cubre el juego online.</p>
         <h3 className="text-xl font-bold text-white mb-3 mt-8">El proyecto de ley Boletín 14838-03</h3>
@@ -1049,7 +1049,7 @@ export default function MejoresCasinosOnlineChile() {
       </Section>
 
       {/* ═══ JUEGOS ═══ */}
-      <Section id="juegos" bg="/img/backgrounds/ruleta.png">
+      <Section id="juegos" bg="/img/backgrounds/ruleta.webp">
         <SectionTitle>Juegos Más Populares en los Casinos Online de Chile</SectionTitle>
         <p className="text-[#9ca3af] mb-10 max-w-3xl leading-relaxed">Saber a qué estás jugando te da una ventaja que la mayoría no tiene. Elegir por el RTP en vez de por los gráficos lindos puede cambiar completamente tu experiencia.</p>
         <div className="mb-12">
@@ -1165,7 +1165,7 @@ export default function MejoresCasinosOnlineChile() {
       </Section>
 
       {/* ═══ RESPONSABLE ═══ */}
-      <Section id="responsable" alt bg="/img/backgrounds/cripto.png">
+      <Section id="responsable" alt bg="/img/backgrounds/cripto.webp">
         <SectionTitle>Juego Responsable en Casinos Online de Chile</SectionTitle>
         <div className="rounded-2xl bg-[#f59e0b]/[0.06] border border-[#f59e0b]/20 p-6 mb-8"><p className="text-[#f59e0b] font-bold mb-2">Esto va en serio</p><p className="text-[#d4d4d8] leading-relaxed">Los casinos son entretenimiento. No son una forma de hacer lucas. Si estás jugando para &quot;recuperar lo que perdiste&quot; o apostando plata del arriendo... para. Lee esta sección.</p></div>
         <h3 className="text-xl font-bold text-white mb-3">Herramientas disponibles</h3>
@@ -1192,7 +1192,7 @@ export default function MejoresCasinosOnlineChile() {
       </Section>
 
       {/* ═══ CÓMO ELEGIR ═══ */}
-      <Section id="como-elegir" bg="/img/backgrounds/blackjack.png">
+      <Section id="como-elegir" bg="/img/backgrounds/blackjack.webp">
         <SectionTitle>Cómo Elegir un Casino Online en Chile — Paso a Paso</SectionTitle>
         <p className="text-[#9ca3af] mb-8 max-w-3xl leading-relaxed">Sin regulación local todavía, elegir bien es especialmente importante en Chile. Estos 5 pasos te van a ahorrar problemas y lucas perdidas.</p>
         <div className="space-y-8">

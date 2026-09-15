@@ -110,7 +110,7 @@ function Section({ id, alt = false, bg, children }: { id: string; alt?: boolean;
       {bg && (
         <div className="absolute top-0 left-0 right-0 h-[50vh] pointer-events-none overflow-hidden">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={bg} alt="" aria-hidden="true" className="absolute inset-0 w-full h-full object-cover opacity-[0.06]" />
+          <img src={bg} alt="" aria-hidden="true" loading="lazy" decoding="async" className="absolute inset-0 w-full h-full object-cover opacity-[0.06]" />
           <div className={`absolute inset-0 bg-gradient-to-b from-transparent via-transparent ${alt ? "to-[#0e0e0e]" : "to-[#0a0a0a]"}`} />
         </div>
       )}
@@ -207,7 +207,7 @@ export default function RuletaOnlinePeru() {
         {/* Peru flag background */}
         <div className="absolute top-0 left-0 right-0 h-[600px] pointer-events-none overflow-hidden">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="https://flagcdn.com/pe.svg" alt="" aria-hidden="true" className="absolute inset-0 w-full h-full object-cover opacity-[0.07]" />
+          <img src="https://flagcdn.com/pe.svg" alt="" aria-hidden="true" decoding="async" className="absolute inset-0 w-full h-full object-cover opacity-[0.07]" />
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[#0a0a0a]" />
         </div>
         {/* Glow underlays */}
