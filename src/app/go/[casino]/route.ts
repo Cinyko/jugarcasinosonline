@@ -13,6 +13,14 @@ const countryRedirects: Record<string, string> = {
   "gamingclub-bolivia": "https://www.gamingclub.com/bo/?s=sp51956",
 };
 
+// Refuerzo para los bots que ignoran robots.txt: estas URLs nunca deben
+// acabar en un índice, ni siquiera como resultado "solo URL".
+function redirect(url: string | URL, status: 307 | 302 = 307) {
+  const res = NextResponse.redirect(url, status);
+  res.headers.set("X-Robots-Tag", "noindex, nofollow");
+  return res;
+}
+
 export async function GET(
   _request: Request,
   { params }: { params: Promise<{ casino: string }> }
@@ -21,14 +29,14 @@ export async function GET(
 
   // Check country-specific redirects first
   if (countryRedirects[casino]) {
-    return NextResponse.redirect(countryRedirects[casino], 307);
+    return redirect(countryRedirects[casino]);
   }
 
   const found = casinos.find((c) => c.slug === casino);
 
   if (!found) {
-    return NextResponse.redirect(new URL("/", _request.url));
+    return redirect(new URL("/", _request.url));
   }
 
-  return NextResponse.redirect(found.affiliateUrl, 307);
+  return redirect(found.affiliateUrl);
 }
