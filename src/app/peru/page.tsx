@@ -7,7 +7,16 @@ export const metadata: Metadata = {
     "Guía de casinos online en Perú 2026: los mejores casinos con licencia, bonos, ruleta, blackjack, slots y pagos con Yape y Plin.",
 };
 
-const sections = [
+type SectionCard = {
+  title: string;
+  href: string;
+  description: string;
+  icon: string;
+  /** Sin página todavía: se muestra como tarjeta inerte con badge. */
+  soon?: boolean;
+};
+
+const sections: SectionCard[] = [
   {
     title: "Mejores Casinos Online",
     href: "/peru/mejores-casinos-online/",
@@ -32,6 +41,7 @@ const sections = [
   {
     title: "Mejores Slots",
     href: "/peru/mejores-slots-online/",
+    soon: true,
     description:
       "Las tragamonedas online más populares en Perú. Jackpots, RTP alto y giros gratis.",
     icon: "🎰",
@@ -39,6 +49,7 @@ const sections = [
   {
     title: "Bonos Sin Depósito",
     href: "/peru/bonos-sin-deposito/",
+    soon: true,
     description:
       "Bonos exclusivos sin depósito para jugadores peruanos. Juega gratis y gana dinero real.",
     icon: "🎁",
@@ -106,37 +117,63 @@ export default function PeruPage() {
       {/* Section cards grid */}
       <section className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-24">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-          {sections.map((section) => (
-            <Link
-              key={section.href}
-              href={section.href}
-              className="group block bg-[#141414] border border-white/[0.06] rounded-2xl p-6 sm:p-8 transition-all duration-300 hover:border-[#dc2626]/30 hover:bg-[#181818] hover:shadow-xl hover:shadow-[#dc2626]/[0.04] hover:-translate-y-1"
-            >
-              <div className="text-3xl mb-4">{section.icon}</div>
-              <h2 className="text-xl font-bold text-white mb-3 group-hover:text-[#f87171] transition-colors duration-300">
-                {section.title}
-              </h2>
-              <p className="text-[#9ca3af] text-sm leading-relaxed mb-4">
-                {section.description}
-              </p>
-              <span className="inline-flex items-center gap-1.5 text-sm font-semibold text-[#dc2626] group-hover:gap-3 transition-all duration-300">
-                Ver más
-                <svg
-                  className="w-4 h-4"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  strokeWidth={2.5}
+          {sections.map((section) => {
+            const body = (
+              <>
+                <div className="text-3xl mb-4">{section.icon}</div>
+                <h2 className="text-xl font-bold text-white mb-3 group-hover:text-[#f87171] transition-colors duration-300">
+                  {section.title}
+                </h2>
+                <p className="text-[#9ca3af] text-sm leading-relaxed mb-4">
+                  {section.description}
+                </p>
+                {section.soon ? (
+                  <span className="inline-flex items-center px-2.5 py-1 rounded-lg text-[10px] font-black uppercase tracking-wider text-[#fbbf24] bg-[#fbbf24]/10 border border-[#fbbf24]/20">
+                    Pr&oacute;ximamente
+                  </span>
+                ) : (
+                  <span className="inline-flex items-center gap-1.5 text-sm font-semibold text-[#dc2626] group-hover:gap-3 transition-all duration-300">
+                    Ver más
+                    <svg
+                      className="w-4 h-4"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth={2.5}
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M9 5l7 7-7 7"
+                      />
+                    </svg>
+                  </span>
+                )}
+              </>
+            );
+
+            if (section.soon) {
+              return (
+                <div
+                  key={section.href}
+                  className="block bg-[#141414] border border-white/[0.06] rounded-2xl p-6 sm:p-8 opacity-55 cursor-default"
+                  aria-disabled="true"
                 >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M9 5l7 7-7 7"
-                  />
-                </svg>
-              </span>
-            </Link>
-          ))}
+                  {body}
+                </div>
+              );
+            }
+
+            return (
+              <Link
+                key={section.href}
+                href={section.href}
+                className="group block bg-[#141414] border border-white/[0.06] rounded-2xl p-6 sm:p-8 transition-all duration-300 hover:border-[#dc2626]/30 hover:bg-[#181818] hover:shadow-xl hover:shadow-[#dc2626]/[0.04] hover:-translate-y-1"
+              >
+                {body}
+              </Link>
+            );
+          })}
         </div>
       </section>
 
