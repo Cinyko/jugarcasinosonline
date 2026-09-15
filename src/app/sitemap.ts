@@ -5,7 +5,8 @@ import { streamers } from "@/data/streamers";
 const BASE = "https://www.jugarcasinosonline.net";
 
 const countries = ["peru", "mexico", "argentina", "chile", "ecuador"];
-const sections = ["mejores-casinos-online", "ruleta-online", "blackjack-online"];
+const sections = ["mejores-casinos-online", "ruleta-online", "blackjack-online", "casinos-criptomonedas"];
+
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const lastmod = LAST_UPDATED_ISO;
@@ -35,6 +36,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     }))
   );
+
 
   const streamerPages = streamers
     .filter((s) => s.hasArticle)

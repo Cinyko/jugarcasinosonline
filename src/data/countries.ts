@@ -58,6 +58,12 @@ export const countrySections = [
     pathSuffix: "blackjack-online",
   },
   {
+    title: "Casinos con Criptomonedas por País",
+    description:
+      "Deposita y retira con Bitcoin, Ethereum y más. Los mejores casinos crypto disponibles en tu país.",
+    pathSuffix: "casinos-criptomonedas",
+  },
+  {
     title: "Mejores Bonos Sin Depósito por País",
     description:
       "Juega sin arriesgar tu plata. Estos casinos te dan bonos gratis solo por registrarte, sin necesidad de depositar.",
@@ -68,11 +74,5 @@ export const countrySections = [
     description:
       "Las tragamonedas online más populares y con mejores pagos. Encuentra los casinos con la mejor selección de slots.",
     pathSuffix: "mejores-slots-online",
-  },
-  {
-    title: "Casinos con Criptomonedas por País",
-    description:
-      "Deposita y retira con Bitcoin, Ethereum y más. Los mejores casinos crypto disponibles en tu país.",
-    pathSuffix: "casinos-criptomonedas",
   },
 ];
