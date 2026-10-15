@@ -16,7 +16,7 @@ const PUBLISHED = "2026-09-15";
 
 const cryptoCasinos: CasinoRankingItem[] = [
   { rank: 1, name: "1xBet", slug: "1xbet", bonus: "Paquete hasta $2,275 + 150 giros gratis", rating: 9.4, infoText: "30+ monedas", highlight: true, badge: "⭐ Recomendado" },
-  { rank: 2, name: "PIN-UP Casino", slug: "pinup", bonus: "120% hasta $5,300 USD + 250 giros gratis", rating: 9.1, infoText: "BTC, ETH, USDT", highlight: false, badge: "🔥 TOP" },
+  { rank: 2, name: "PIN-UP Casino", slug: "pinup", bonus: "120% hasta $5,300 USD + 250 giros gratis", rating: 9.1, infoText: "10+ opciones cripto", highlight: false, badge: "🔥 TOP" },
   { rank: 3, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.0, infoText: "12 monedas", highlight: false },
   { rank: 4, name: "SOL Casino", slug: "sol-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 8.9, infoText: "10 monedas", highlight: false },
   { rank: 5, name: "STARDA Casino", slug: "starda-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 8.8, infoText: "11 monedas", highlight: false },
@@ -54,7 +54,7 @@ const withdrawalRows = [
 /* ───────── Bonos ───────── */
 
 const bonusRows = [
-  { casino: "PIN-UP Casino", slug: "pinup", offer: "120% hasta $5,300 USD + 250 giros", rollover: "x40", days: "10 días", real: "El tope más alto del ranking. Solo lo aprovechas si depositas fuerte.", best: true },
+  { casino: "PIN-UP Casino", slug: "pinup", offer: "120% hasta $5,300 USD + 250 giros", rollover: "x50", days: "10 días", real: "El tope más alto del ranking. Solo lo aprovechas si depositas fuerte.", best: true },
   { casino: "MONRO Casino", slug: "monro-casino", offer: "150% primer depósito", rollover: "x35", days: "7 días", real: "El porcentaje más alto. El mejor valor si depositas poco.", best: true },
   { casino: "FRESH Casino", slug: "fresh-casino", offer: "100% + 500 giros gratis", rollover: "x30", days: "14 días", real: "Rollover bajo y plazo largo. El más cumplible de todos.", best: true },
   { casino: "SOL Casino", slug: "sol-casino", offer: "100% + 500 giros gratis", rollover: "x30", days: "14 días", real: "Idéntico a FRESH y con la misma lógica amable.", best: true },
@@ -109,7 +109,7 @@ const faqItems = [
   },
   {
     q: "¿Cuánto es el depósito mínimo en estos casinos?",
-    a: "Entre diez y veinte dólares en la mayoría, y acá el número es literal porque no hay que convertir nada. 1xBet es el más flexible y acepta desde un dólar, aunque depositar tan poco no tiene sentido cuando la comisión de red ya te cuesta uno. FRESH, SOL, STARDA y MONRO piden alrededor de diez dólares, PIN-UP pide veinte. Recuerda siempre la diferencia entre el mínimo para depositar y el mínimo para activar el bono: el segundo suele ser más alto y no siempre está escrito en el mismo lugar de la página.",
+    a: "Entre diez y veinte dólares en la mayoría, y acá el número es literal porque no hay que convertir nada. 1xBet acepta desde un dólar, aunque depositar tan poco no tiene sentido cuando la comisión de red ya te cuesta uno. FRESH, SOL, STARDA y MONRO piden alrededor de diez dólares. PIN-UP permite depósitos con criptomonedas desde 1 USD. Recuerda siempre la diferencia entre el mínimo para depositar y el mínimo para activar el bono: el segundo suele ser más alto y no siempre está escrito en el mismo lugar de la página.",
   },
   {
     q: "¿Cuánto me cuesta en total pasar de mi banco a saldo de casino?",
@@ -386,7 +386,7 @@ export default function CasinosCriptomonedasEcuador() {
         <div className="rounded-2xl bg-[#eab308]/[0.06] border border-[#eab308]/20 p-6 mt-8 max-w-4xl">
           <p className="text-[#eab308] font-bold text-sm uppercase tracking-wider mb-3">Por qué 1xBet arriba de PIN-UP acá</p>
           <p className="text-[#d4d4d8] text-sm leading-relaxed">
-            En nuestra guía general de <Link href="/ecuador/mejores-casinos-online" className="text-white underline underline-offset-2 hover:text-[#00C853]">mejores casinos online en Ecuador</Link>, PIN-UP tiene mejor nota que 1xBet. Acá está al revés y no es un descuido. En criptomonedas específicamente 1xBet le saca ventaja clara: más de treinta monedas contra tres de PIN-UP, te deja escoger la red en lugar de imponerte una, y mantiene la misma velocidad de retiro a cualquier hora del día. PIN-UP sigue siendo un casino excelente y su bono de hasta $5,300 es el más grande de esta lista. Pero si vienes específicamente por las criptomonedas, 1xBet te va a dar menos dolores de cabeza.
+            En nuestra guía general de <Link href="/ecuador/mejores-casinos-online" className="text-white underline underline-offset-2 hover:text-[#00C853]">mejores casinos online en Ecuador</Link>, PIN-UP tiene mejor nota que 1xBet. Acá está al revés y no es un descuido: valoramos la variedad de monedas y los tiempos de retiro por separado del catálogo de juegos. 1xBet ofrece más de treinta monedas. PIN-UP, por su parte, reúne más de diez opciones entre criptomonedas y servicios de pago, con Litecoin, TRON, Solana, BybitPay y BinancePay entre ellas. Su bono de hasta $5,300 sigue siendo el más alto de esta lista, pero tiene rollover x50. Antes de elegir, compara el método que ya utilizas, las comisiones y las condiciones del bono; una cifra grande por sí sola dice poco.
           </p>
         </div>
       </Section>
@@ -592,9 +592,9 @@ export default function CasinosCriptomonedasEcuador() {
           <CtaButton slug="1xbet" text="Jugar en 1xBet" />
         </div>
 
-        <H3>PIN-UP Casino — pocas monedas, ejecución impecable</H3>
+        <H3>PIN-UP Casino — más alternativas que Bitcoin y USDT</H3>
         <P>
-          Si 1xBet apuesta por la abundancia, PIN-UP apuesta por lo contrario: tres monedas y nada más, Bitcoin, Ethereum y USDT. Podría parecer una limitación y en cierto modo lo es, pero el resultado es la pantalla de depósito mejor resuelta de todo el ranking. Te llega con la red correcta ya elegida, sin desplegables que invitan al error, y si intentas salirte de lo recomendado te sale una advertencia imposible de ignorar. Si nunca has movido criptomonedas y lo que más miedo te da es equivocarte, aquí es matemáticamente más difícil hacerlo mal.
+          En PIN-UP puedes elegir entre USDT, USD Coin, Bitcoin, Ethereum, Dogecoin, Litecoin, GRAM, TRON y Solana, además de los servicios BybitPay y BinancePay. Son más de diez opciones para pagar con cripto, aunque no todas son monedas: esos dos últimos nombres corresponden a servicios de pago. La diferencia importa al revisar cómo harás el depósito. Si ya tienes Litecoin, TRON o Solana, no hace falta descartar PIN-UP pensando que solo admite Bitcoin, Ethereum y USDT. Abre la caja, busca el método concreto y revisa sus instrucciones antes de enviar. Para una transferencia desde tu wallet, la moneda y la red deben coincidir con las que indique el casino; tener más opciones no elimina esa comprobación.
         </P>
         <P>
           Prometen retiros en hasta veinticuatro horas y nos entregaron en una hora y dos minutos. Cumplir muy por debajo de lo prometido siempre nos cae bien, aunque prometer un día cuando puedes hacerlo en una hora es venderse barato.

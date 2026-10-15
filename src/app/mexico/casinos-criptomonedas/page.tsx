@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 
 const cryptoCasinos: CasinoRankingItem[] = [
   { rank: 1, name: "1xBet", slug: "1xbet", bonus: "Hasta $40,000 MXN + 300 giros gratis", rating: 9.4, infoText: "30+ monedas", highlight: true, badge: "⭐ Recomendado" },
-  { rank: 2, name: "PIN-UP Casino", slug: "pinup", bonus: "120% hasta $100,000 MXN + 250 giros gratis", rating: 9.1, infoText: "BTC, ETH, USDT", highlight: false, badge: "🔥 TOP" },
+  { rank: 2, name: "PIN-UP Casino", slug: "pinup", bonus: "120% hasta $100,000 MXN + 250 giros gratis", rating: 9.1, infoText: "10+ opciones cripto", highlight: false, badge: "🔥 TOP" },
   { rank: 3, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.0, infoText: "12 monedas", highlight: false },
   { rank: 4, name: "SOL Casino", slug: "sol-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 8.9, infoText: "10 monedas", highlight: false },
   { rank: 5, name: "STARDA Casino", slug: "starda-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 8.8, infoText: "11 monedas", highlight: false },
@@ -56,7 +56,7 @@ const withdrawalRows = [
 
 const bonusRows = [
   { casino: "MONRO Casino", slug: "monro-casino", offer: "150% primer depósito", rollover: "x35", maxBet: "$120 MXN", days: "7 días", real: "El porcentaje más alto y un rollover razonable. El mejor valor si depositas poco.", best: true },
-  { casino: "PIN-UP Casino", slug: "pinup", offer: "120% hasta $100,000 MXN + 250 giros", rollover: "x40", maxBet: "$100 MXN", days: "10 días", real: "El tope altísimo solo sirve si depositas fuerte. Para 1,000 pesos da igual que sea 100,000.", best: true },
+  { casino: "PIN-UP Casino", slug: "pinup", offer: "120% hasta $100,000 MXN + 250 giros", rollover: "x50", maxBet: "$60 MXN", days: "3 días", real: "El tope altísimo solo sirve si depositas fuerte. Para 1,000 pesos da igual que sea 100,000.", best: true },
   { casino: "1xBet", slug: "1xbet", offer: "Hasta $40,000 MXN + 300 giros", rollover: "x40", maxBet: "$150 MXN", days: "7 días", real: "Los 300 giros son lo bueno acá. El bono en sí es correcto, nada espectacular.", best: true },
   { casino: "FRESH Casino", slug: "fresh-casino", offer: "100% + 500 giros gratis", rollover: "x30", maxBet: "$100 MXN", days: "14 días", real: "Rollover x30 y 14 días para cumplirlo. De los más honestos del ranking.", best: true },
   { casino: "SOL Casino", slug: "sol-casino", offer: "100% + 500 giros gratis", rollover: "x30", maxBet: "$100 MXN", days: "14 días", real: "Idéntico a FRESH, y también de los más cumplibles.", best: true },
@@ -118,7 +118,7 @@ const faqItems = [
   },
   {
     q: "¿Cuánto es el depósito mínimo con criptomonedas en estos casinos?",
-    a: "Ronda los 10 o 20 dólares en la mayoría, que al cambio son unos 180 a 360 pesos. 1xBet es el más flexible y acepta desde el equivalente a 1 dólar, aunque depositar tan poco no tiene mucho sentido cuando la comisión de red te cuesta uno. FRESH, SOL, STARDA y MONRO piden alrededor de 10 dólares. PIN-UP pide 20. Ojo con un detalle: el mínimo para depositar y el mínimo para activar el bono de bienvenida no siempre son el mismo número, y el segundo suele ser más alto. Revisa las dos cifras antes de mandar la transacción, porque si depositas por debajo del mínimo del bono el dinero entra igual pero te quedas sin promoción y no hay vuelta atrás.",
+    a: "Ronda los 10 o 20 dólares en la mayoría, que al cambio son unos 180 a 360 pesos. 1xBet acepta desde el equivalente a 1 dólar, aunque depositar tan poco no tiene mucho sentido cuando la comisión de red te cuesta uno. FRESH, SOL, STARDA y MONRO piden alrededor de 10 dólares. PIN-UP permite depósitos con criptomonedas desde 1 USD. Ojo con un detalle: el mínimo para depositar y el mínimo para activar el bono de bienvenida no siempre son el mismo número, y el segundo suele ser más alto. Revisa las dos cifras antes de mandar la transacción, porque si depositas por debajo del mínimo del bono el dinero entra igual pero te quedas sin promoción y no hay vuelta atrás.",
   },
   {
     q: "¿Puedo perder dinero por la volatilidad mientras juego?",
@@ -360,7 +360,7 @@ export default function CasinosCriptomonedasMexico() {
         <div className="rounded-2xl bg-[#f59e0b]/[0.06] border border-[#f59e0b]/20 p-6 mt-8 max-w-4xl">
           <p className="text-[#f59e0b] font-bold text-sm uppercase tracking-wider mb-3">Por qué 1xBet arriba y no PIN-UP</p>
           <p className="text-[#d4d4d8] text-sm leading-relaxed">
-            En nuestra guía general de <Link href="/mexico/mejores-casinos-online" className="text-white underline underline-offset-2 hover:text-[#00C853]">mejores casinos online en México</Link>, PIN-UP tiene mejor nota que 1xBet. Acá está al revés, y no es un error. En cripto concretamente 1xBet le saca ventaja clara: acepta más de treinta monedas contra tres de PIN-UP, te deja escoger la red en lugar de imponerte una, y mantiene la misma velocidad de retiro a las tres de la mañana que a las tres de la tarde. PIN-UP sigue siendo un casinazo. Pero si vienes específicamente por las cripto, 1xBet es el que te va a dar menos dolores de cabeza.
+            En nuestra guía general de <Link href="/mexico/mejores-casinos-online" className="text-white underline underline-offset-2 hover:text-[#00C853]">mejores casinos online en México</Link>, PIN-UP tiene mejor nota que 1xBet. Acá está al revés, y no es un error. En cripto concretamente valoramos la variedad de monedas y los tiempos de retiro: 1xBet ofrece más de treinta monedas, mientras que PIN-UP reúne más de diez opciones entre criptomonedas y servicios de pago. PIN-UP también acepta Litecoin, TRON y Solana, además de Bitcoin, Ethereum y stablecoins. La diferencia ya no se puede resumir en que solo admite tres monedas. Mira cuál de los dos admite el método que usas y compara las condiciones de depósito y retiro antes de elegir.
           </p>
         </div>
       </Section>
@@ -515,18 +515,15 @@ export default function CasinosCriptomonedasMexico() {
           <CtaButton slug="1xbet" text="Jugar en 1xBet" />
         </div>
 
-        <H3>PIN-UP Casino — pocas monedas, ejecución impecable</H3>
+        <H3>PIN-UP Casino — más opciones para pagar con cripto</H3>
         <P>
-          PIN-UP va al revés de 1xBet: acepta solamente tres criptomonedas (Bitcoin, Ethereum y USDT) pero lo que hace, lo hace muy bien. La pantalla de depósito es la más limpia de todas las que probamos, con la red preseleccionada en la opción correcta y una advertencia grande y roja si intentas algo raro. Para alguien que nunca ha depositado cripto, PIN-UP es el lugar donde menos probable es que la riegues.
+          PIN-UP tiene más de diez opciones para pagar con cripto. La lista incluye USDT, USD Coin, Bitcoin, Ethereum, Dogecoin, Litecoin, GRAM, TRON y Solana, además de BybitPay y BinancePay. Ojo con esa distinción: estos dos últimos son servicios de pago, no monedas. Si ya tienes Litecoin o TRON, también aparecen entre las alternativas disponibles; no estás limitado a Bitcoin, Ethereum y USDT. Antes de mandar un depósito, revisa el método que elegiste y los datos que muestra la caja. Si vas a transferir desde una wallet, comprueba que la moneda y la red coincidan en ambos extremos. Tener más alternativas está bien, pero no significa que todas usen la misma dirección ni que las comisiones sean iguales. Conviene mirar ese costo antes de confirmar, sobre todo si vas a enviar un monto pequeño.
         </P>
         <P>
           Prometen retiros en hasta 24 horas y nos entregaron en una hora y diez minutos. Cumplir por debajo de lo prometido siempre nos cae bien, aunque hay que decir que prometer 24 horas cuando puedes hacerlo en una es venderse barato.
         </P>
         <P>
           El bono de 120% hasta 100,000 pesos es agresivo de verdad, de los más altos del mercado mexicano, y aplica en cripto. Si vas a depositar fuerte, acá el porcentaje trabaja a tu favor.
-        </P>
-        <P>
-          Lo que nos faltó: no acepta Litecoin ni TRX, que son las dos monedas más baratas de mover. Estás obligado a USDT si quieres comisiones razonables.
         </P>
         <div className="flex flex-wrap items-center gap-4 my-6">
           <CtaButton slug="pinup" text="Jugar en PIN-UP" />
@@ -677,7 +674,7 @@ export default function CasinosCriptomonedasMexico() {
           Si vas a depositar poco (digamos hasta dos mil pesos), <strong className="text-white">MONRO</strong> es la respuesta. El 150% es el porcentaje más alto del ranking y el rollover x35 con siete días es cumplible si juegas un par de horas al día. Depositas dos mil, juegas con cinco mil.
         </P>
         <P>
-          Si vas a depositar en serio, <strong className="text-white">PIN-UP</strong> con su tope de cien mil pesos es el único que te permite aprovechar el bono completo. Su rollover x40 es más exigente, pero con diez días de plazo y montos altos tienes margen.
+          El tope de cien mil pesos de <strong className="text-white">PIN-UP</strong> llama la atención, pero revisa las condiciones completas: rollover x50, tres días para cumplirlo y apuesta máxima de $60 MXN mientras juegas con el bono. Es un plazo corto y el monto anunciado no compensa por sí solo esa exigencia. No aumentes tu depósito solo para perseguir el tope de la promoción.
         </P>
         <P>
           Si lo que quieres es tranquilidad y no pelearte con condiciones, <strong className="text-white">FRESH</strong> o <strong className="text-white">SOL</strong>. Rollover x30 y catorce días es lo más humano que vas a encontrar, y los 500 giros gratis se acreditan escalonados para que no tengas que quemarlos todos en una tarde.

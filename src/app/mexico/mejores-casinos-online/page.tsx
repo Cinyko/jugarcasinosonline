@@ -608,8 +608,8 @@ export default function MejoresCasinosOnlineMexico() {
           <p className="text-[#9ca3af] leading-relaxed mb-3">
             Acá viene lo bueno: PIN-UP tiene <strong className="text-white">más de 10,000 juegos</strong>. Sí,
             leíste bien: diez mil. Para que tengas contexto, FRESH (que ya es enorme) tiene 4,500. Pasamos un
-            rato largo buscando slots raros, y no exagero cuando digo que estaban todos. Hacksaw, Nolimit City,
-            Push Gaming, Pragmatic, NetEnt, Evolution, Play&apos;n GO... los grandes y los no tan grandes.
+            rato largo buscando slots raros, y no exagero cuando digo que estaban todos. Tada, 3Oaks,
+            Endorphina, Playson, PGSoft, Champion, Pragmatic, Bgaming, 100HP, EvoPlay... los grandes y los no tan grandes.
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-3">
             La experiencia de navegación es buena considerando el tamaño del catálogo. Tienen filtros por
@@ -637,19 +637,20 @@ export default function MejoresCasinosOnlineMexico() {
             la mayoría de las mesas.
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-4">
-            Y tienen <strong className="text-white">app móvil nativa para Android</strong>. La descargamos
-            y la probamos: funciona más rápida que la versión web en móvil, la interfaz está optimizada para
-            pantalla pequeña, y puedes guardar métodos de pago para no tener que ingresarlos cada vez. Para iOS
-            por ahora no hay app, pero si tienes iPhone puedes jugar igual desde la versión móvil de la web, que
-            funciona bien. Si juegas desde Android (que es donde está el 70% de jugadores LATAM), esta app es un
-            plus importante.
+            Y tienen <strong className="text-white">app móvil para Android y iOS</strong>. Si usas iPhone,
+            también puedes instalar la app: ya no tienes que depender de la versión móvil de la web. La web
+            sigue siendo otra opción si prefieres entrar desde el navegador o no quieres instalar nada en
+            el celular. Antes de descargar, entra al sitio oficial de PIN-UP y busca la opción correspondiente
+            a tu sistema; así evitas confundirla con aplicaciones de nombres parecidos. Para quien juega
+            desde el teléfono, tener ambas alternativas es práctico: eliges la que te acomode sin cambiar de
+            Android a iPhone ni al revés.
           </p>
 
           <ProsCons
             pros={[
               "+10,000 juegos — el catálogo más grande de todo el ranking, sin competencia",
               "Bono de 120% hasta $100,000 MXN + 250 giros, el más generoso en pesos",
-              "App móvil nativa para Android que de verdad funciona bien",
+              "App móvil para Android y iOS, con opción de jugar también desde el navegador",
               "Casino + apuestas deportivas en una sola plataforma, cuenta única para todo",
               "Soporte en español 24/7, respondieron en 2 minutos un sábado a las 3am",
             ]}

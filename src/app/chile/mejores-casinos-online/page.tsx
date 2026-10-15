@@ -502,8 +502,8 @@ export default function MejoresCasinosOnlineChile() {
           <p className="text-[#9ca3af] leading-relaxed mb-3">
             Partamos por lo bacán: PIN-UP tiene <strong className="text-white">más de 10.000 juegos</strong>.
             Y no es choreo: los contamos y están ahí. Para comparar, FRESH tiene 4.500 (que ya es un montón).
-            Acá vas a encontrar todo: Hacksaw, Nolimit City, Pragmatic, NetEnt, Evolution, Play&apos;n GO, y
-            varios proveedores raros que no tienen otros casinos chilenos.
+            Acá vas a encontrar Champion, Tada, 3Oaks, Endorphina, Playson, Pragmatic, Bgaming, PGSoft,
+            100HP y 1Spin4Win, con opciones de sobra para buscar juegos de distintos proveedores sin salir del casino.
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-3">
             La interfaz, considerando la cantidad de juegos, está bien organizada. Filtros por proveedor,
@@ -530,18 +530,19 @@ export default function MejoresCasinosOnlineChile() {
             Crazy Time, Monopoly Live. Dealers en español en la mayoría de las mesas.
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-4">
-            Y tienen <strong className="text-white">app móvil nativa para Android</strong>. La probamos
-            y va más fluida que el navegador: interfaz optimizada para celular, login rápido con huella,
-            guarda los métodos de pago. Para iOS por ahora no hay app, pero si tenís iPhone puedes jugar
-            igual desde la versión móvil de la web, que anda bien. Si jugai desde Android (como la mayoría),
-            vai a agradecer esto.
+            Y tienen <strong className="text-white">app móvil para Android y iOS</strong>. También hay
+            una opción para iPhone, así que puedes elegir entre instalar la app o entrar por el navegador
+            del celular. Si no quieres ocupar espacio con otra aplicación, la versión web sigue disponible.
+            Busca la descarga desde el sitio oficial de PIN-UP y comprueba que corresponda a tu sistema.
+            Parece un detalle chico, pero evita terminar en una app de nombre parecido que no tenga nada
+            que ver con el casino.
           </p>
 
           <ProsCons
             pros={[
               "+10.000 juegos — el catálogo más grande del ranking chileno, sin competencia",
               "Bono de $5 millones CLP + 250 giros, el más alto del ranking en bruto",
-              "App móvil nativa para Android que funciona mejor que la web móvil",
+              "App móvil para Android y iOS, además de acceso desde el navegador del celular",
               "Casino + apuestas deportivas en una sola cuenta, ideal para fútbol chileno",
               "Soporte 24/7 en español, probamos un domingo a las 2am y respondieron en 90 segundos",
             ]}

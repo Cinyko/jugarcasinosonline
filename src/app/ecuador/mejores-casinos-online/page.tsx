@@ -426,9 +426,9 @@ export default function MejoresCasinosOnlineEcuador() {
           <p className="text-[#9ca3af] leading-relaxed mb-3">
             Partamos por lo obvio: PIN-UP tiene <strong className="text-white">más de 10.000 juegos</strong>.
             Sí, diez mil. Para que tengas comparación, FRESH (que ya es grande) tiene 4.500. Pasamos un rato
-            largo probando y buscando, y la verdad es que están todos los proveedores grandes: Hacksaw,
-            Nolimit City, Pragmatic, NetEnt, Evolution, Play&apos;n GO, Push Gaming. Y varios que no ves en otros
-            casinos.
+            largo probando y buscando, y la verdad es que hay bastante variedad de proveedores: 3Oaks,
+            InOut, Playson, Bgaming, SpinPlay, Endorphina, 1Spin4Win, Pragmatic, Tada y Gamzix. Tienes opciones
+            para explorar juegos de estudios distintos sin andar saltando de un casino a otro.
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-3">
             Con esa cantidad de juegos podrías pensar que encontrar lo que buscas es un lío, pero la
@@ -455,18 +455,19 @@ export default function MejoresCasinosOnlineEcuador() {
             ruleta, baccarat, Crazy Time, Monopoly Live. Dealers en español en la mayoría.
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-4">
-            Y tienen <strong className="text-white">app móvil nativa para Android</strong>. La descargamos y
-            funciona mejor que la versión web en el celular. Interfaz optimizada, login con huella, guarda
-            métodos de pago. Para iOS por ahora no hay app, pero si tienes iPhone puedes jugar igual desde la
-            versión móvil de la web, que funciona bien. Si juegas desde Android (que es donde estamos la
-            mayoría), esta app es un plus.
+            Y tienen <strong className="text-white">app móvil para Android y iOS</strong>. La opción para
+            iPhone también está disponible, así que el sistema de tu celular no te obliga a usar únicamente
+            el navegador. Si prefieres no instalar otra aplicación, puedes seguir entrando por la versión
+            móvil de la web. Lo práctico es que tienes las dos alternativas y eliges según cómo uses el
+            teléfono. Para descargarla, busca el enlace desde el sitio oficial de PIN-UP y revisa que sea
+            la versión de tu sistema; no te guíes solo por el nombre de una app.
           </p>
 
           <ProsCons
             pros={[
               "+10.000 juegos — el catálogo más grande del ranking, por mucho",
               "Bono de 120% + 250 giros, el porcentaje más alto que vas a encontrar",
-              "App móvil nativa para Android que realmente funciona bien",
+              "App móvil para Android y iOS, con la web móvil como alternativa para ambos sistemas",
               "Casino + apuestas deportivas en la misma cuenta",
               "Soporte 24/7 en español, responden rápido incluso de madrugada",
             ]}
