@@ -54,7 +54,7 @@ const withdrawalRows = [
 /* ───────── Bonos ───────── */
 
 const bonusRows = [
-  { casino: "PIN-UP Casino", slug: "pinup", offer: "120% hasta $5,300 USD + 250 giros", rollover: "x50", days: "10 días", real: "El tope más alto del ranking. Solo lo aprovechas si depositas fuerte.", best: true },
+  { casino: "PIN-UP Casino", slug: "pinup", offer: "120% hasta $5,300 USD + 250 giros", rollover: "x50", days: "3 días", real: "El tope más alto del ranking. Solo lo aprovechas si depositas fuerte.", best: true },
   { casino: "MONRO Casino", slug: "monro-casino", offer: "150% primer depósito", rollover: "x35", days: "7 días", real: "El porcentaje más alto. El mejor valor si depositas poco.", best: true },
   { casino: "FRESH Casino", slug: "fresh-casino", offer: "100% + 500 giros gratis", rollover: "x30", days: "14 días", real: "Rollover bajo y plazo largo. El más cumplible de todos.", best: true },
   { casino: "SOL Casino", slug: "sol-casino", offer: "100% + 500 giros gratis", rollover: "x30", days: "14 días", real: "Idéntico a FRESH y con la misma lógica amable.", best: true },

@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 
 const chileCasinos = [
   { rank: 1, name: "Betsson", slug: "betsson-chile", bonus: "Hasta $400.000 + 200 Giros Gratis", rating: 9.5, license: "Internacional", games: "2 500+", highlight: true },
-  { rank: 2, name: "PIN-UP Casino", slug: "pinup", bonus: "120% hasta $5.000.000 CLP + 250 giros gratis", rating: 9.4, license: "Curaçao", games: "10 000+", highlight: false, badge: "🔥 TOP" },
+  { rank: 2, name: "PIN-UP Casino", slug: "pinup", bonus: "120% hasta $5.000.000 CLP + 250 giros gratis", rating: 9.4, license: "Curaçao", games: "15 000+", highlight: false, badge: "🔥 TOP" },
   { rank: 3, name: "1xBet", slug: "1xbet", bonus: "Paquete hasta $2.275 USD + 150 giros gratis", rating: 9.3, license: "Internacional", games: "5 000+", highlight: false },
   { rank: 4, name: "JackpotCity", slug: "jackpotcity-chile", bonus: "Hasta $1.008.000 CLP + 200 Giros Gratis", rating: 9.2, license: "Internacional", games: "2 000+", highlight: false },
   { rank: 5, name: "Gaming Club", slug: "gamingclub-chile", bonus: "100% hasta $200 + 150% hasta $150", rating: 9.1, license: "Internacional", games: "1 200+", highlight: false },
@@ -30,7 +30,7 @@ const chileCasinos = [
 ];
 
 const categoryPicks = [
-  { title: "Mejor variedad de juegos", casino: "PIN-UP Casino", slug: "pinup", reason: "Más de 10.000 juegos, el catálogo más grande del ranking chileno sin competencia. Y no es choreo: los contamos y están ahí. FRESH, que ya es un monstruo, tiene 4.500." },
+  { title: "Mejor variedad de juegos", casino: "PIN-UP Casino", slug: "pinup", reason: "Más de 15.000 juegos, el catálogo más grande del ranking chileno sin competencia. Y no es choreo: los contamos y están ahí. FRESH, que ya es un monstruo, tiene 4.500." },
   { title: "Mejor bono en CLP", casino: "PIN-UP Casino", slug: "pinup", reason: "120% hasta $5 millones de pesos chilenos + 250 giros gratis. Es el monto más alto en CLP que vas a encontrar, ni Betsson se le acerca en bruto. Ojo con el rollover x50, eso sí." },
   { title: "Mejores jackpots progresivos", casino: "JackpotCity", slug: "jackpotcity-chile", reason: "Mega Moolah y toda la familia de pozos progresivos que se acumulan hasta cifras millonarias. Décadas de trayectoria pagando premios grandes sin drama. Para cazadores de jackpots, no hay discusión." },
   { title: "Mejor para slots", casino: "STARDA Casino", slug: "starda-casino", reason: "Torneos de slots semanales con premios de $15.000 USD, títulos exclusivos de alta volatilidad y la mejor sección de juegos crash que probamos. Si cachai de rodillos, este es tu lugar." },
@@ -498,9 +498,9 @@ export default function MejoresCasinosOnlineChile() {
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#e11d48] to-transparent rounded mb-6" />
 
-          <h4 className="text-lg font-bold text-white mb-3">+10.000 juegos — el catálogo más grande del ranking</h4>
+          <h4 className="text-lg font-bold text-white mb-3">+15.000 juegos — el catálogo más grande del ranking</h4>
           <p className="text-[#9ca3af] leading-relaxed mb-3">
-            Partamos por lo bacán: PIN-UP tiene <strong className="text-white">más de 10.000 juegos</strong>.
+            Partamos por lo bacán: PIN-UP tiene <strong className="text-white">más de 15.000 juegos</strong>.
             Y no es choreo: los contamos y están ahí. Para comparar, FRESH tiene 4.500 (que ya es un montón).
             Acá vas a encontrar Champion, Tada, 3Oaks, Endorphina, Playson, Pragmatic, Bgaming, PGSoft,
             100HP y 1Spin4Win, con opciones de sobra para buscar juegos de distintos proveedores sin salir del casino.
@@ -530,19 +530,19 @@ export default function MejoresCasinosOnlineChile() {
             Crazy Time, Monopoly Live. Dealers en español en la mayoría de las mesas.
           </p>
           <p className="text-[#9ca3af] leading-relaxed mb-4">
-            Y tienen <strong className="text-white">app móvil para Android y iOS</strong>. También hay
-            una opción para iPhone, así que puedes elegir entre instalar la app o entrar por el navegador
-            del celular. Si no quieres ocupar espacio con otra aplicación, la versión web sigue disponible.
-            Busca la descarga desde el sitio oficial de PIN-UP y comprueba que corresponda a tu sistema.
-            Parece un detalle chico, pero evita terminar en una app de nombre parecido que no tenga nada
-            que ver con el casino.
+            Y tienen <strong className="text-white">app móvil para Android</strong>. Ojo si usas iPhone:
+            la app para iOS todavía no está disponible para usuarios en Chile. En ese caso puedes entrar
+            desde el navegador del celular y usar la versión móvil de la web, sin instalar una aplicación.
+            Si tienes Android, puedes elegir entre la app y el navegador según lo que te acomode. Busca
+            la descarga de Android desde el sitio oficial de PIN-UP. Parece un detalle chico, pero evita
+            terminar en una app de nombre parecido que no tenga nada que ver con el casino.
           </p>
 
           <ProsCons
             pros={[
-              "+10.000 juegos — el catálogo más grande del ranking chileno, sin competencia",
+              "+15.000 juegos — el catálogo más grande del ranking chileno, sin competencia",
               "Bono de $5 millones CLP + 250 giros, el más alto del ranking en bruto",
-              "App móvil para Android y iOS, además de acceso desde el navegador del celular",
+              "App móvil para Android; en iPhone puedes usar la web móvil mientras la app para iOS no esté disponible en Chile",
               "Casino + apuestas deportivas en una sola cuenta, ideal para fútbol chileno",
               "Soporte 24/7 en español, probamos un domingo a las 2am y respondieron en 90 segundos",
             ]}
@@ -920,7 +920,7 @@ export default function MejoresCasinosOnlineChile() {
         <div className="overflow-x-auto rounded-xl border border-white/[0.06]">
           <table className="w-full text-left text-sm"><thead><tr className="bg-[#141414] text-[#71717a] uppercase text-xs tracking-wider"><th className="px-4 py-3 font-bold">Casino</th><th className="px-4 py-3 font-bold">Total</th><th className="px-4 py-3 font-bold hidden sm:table-cell">Slots</th><th className="px-4 py-3 font-bold hidden sm:table-cell">En Vivo</th><th className="px-4 py-3 font-bold hidden md:table-cell">Proveedores</th></tr></thead>
             <tbody className="text-[#d4d4d8]">
-              {[["Betsson","2 500+","2 000+","200+","40+"],["PIN-UP Casino","10 000+","8 500+","400+","120+"],["1xBet","5 000+","4 000+","200+","90+"],["JackpotCity","2 000+","1 500+","100+","25+"],["Gaming Club","1 200+","900+","80+","15+"],["FRESH Casino","4 500+","3 800+","300+","80+"],["SOL Casino","4 000+","3 400+","200+","70+"],["STARDA Casino","3 800+","3 200+","150+","65+"],["MONRO Casino","3 500+","3 000+","180+","60+"],["Bet365","1 800+","1 200+","150+","25+"],["Stake","3 000+","2 200+","200+","50+"],["20Bet","3 000+","2 500+","150+","45+"]].map(([c,t,s,l,p])=>(
+              {[["Betsson","2 500+","2 000+","200+","40+"],["PIN-UP Casino","15 000+","8 500+","400+","120+"],["1xBet","5 000+","4 000+","200+","90+"],["JackpotCity","2 000+","1 500+","100+","25+"],["Gaming Club","1 200+","900+","80+","15+"],["FRESH Casino","4 500+","3 800+","300+","80+"],["SOL Casino","4 000+","3 400+","200+","70+"],["STARDA Casino","3 800+","3 200+","150+","65+"],["MONRO Casino","3 500+","3 000+","180+","60+"],["Bet365","1 800+","1 200+","150+","25+"],["Stake","3 000+","2 200+","200+","50+"],["20Bet","3 000+","2 500+","150+","45+"]].map(([c,t,s,l,p])=>(
                 <tr key={c} className="border-t border-white/[0.04] hover:bg-white/[0.02]"><td className="px-4 py-3 font-bold text-white">{c}</td><td className="px-4 py-3">{t}</td><td className="px-4 py-3 hidden sm:table-cell">{s}</td><td className="px-4 py-3 hidden sm:table-cell">{l}</td><td className="px-4 py-3 hidden md:table-cell">{p}</td></tr>
               ))}
             </tbody>

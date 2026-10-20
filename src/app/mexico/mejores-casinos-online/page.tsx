@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 
 const mexicoCasinos = [
   { rank: 1, name: "Betsson", slug: "betsson-mexico", bonus: "¡Bono de $15,000 + 200 Giros Gratis!", rating: 9.5, license: "SEGOB", games: "2 500+", highlight: true },
-  { rank: 2, name: "PIN-UP Casino", slug: "pinup", bonus: "120% hasta $100,000 MXN + 250 giros gratis", rating: 9.4, license: "Curaçao", games: "10 000+", highlight: false, badge: "🔥 TOP" },
+  { rank: 2, name: "PIN-UP Casino", slug: "pinup", bonus: "120% hasta $100,000 MXN + 250 giros gratis", rating: 9.4, license: "Curaçao", games: "15 000+", highlight: false, badge: "🔥 TOP" },
   { rank: 3, name: "1xBet", slug: "1xbet", bonus: "Hasta $40,000 MXN + 300 giros gratis", rating: 9.3, license: "Curaçao", games: "5 000+", highlight: false },
   { rank: 4, name: "Betway", slug: "betway-mexico", bonus: "100% hasta $4,000 MXN + 50 Free Spins", rating: 9.2, license: "Internacional", games: "1 500+", highlight: false },
   { rank: 5, name: "FRESH Casino", slug: "fresh-casino", bonus: "100% en tu primer depósito + 500 giros gratis", rating: 9.0, license: "Curaçao", games: "4 500+", highlight: false },
@@ -30,7 +30,7 @@ const mexicoCasinos = [
 ];
 
 const categoryPicks = [
-  { title: "Mejor variedad de juegos", casino: "PIN-UP Casino", slug: "pinup", reason: "Más de 10,000 juegos. Sí, diez mil. Para que tengas contexto, FRESH (que ya es enorme) tiene 4,500. Pasamos un rato largo buscando slots raros y no exagero: estaban todos." },
+  { title: "Mejor variedad de juegos", casino: "PIN-UP Casino", slug: "pinup", reason: "Más de 15,000 juegos. Sí, quince mil. Para que tengas contexto, FRESH (que ya es enorme) tiene 4,500. Pasamos un rato largo buscando slots raros y no exagero: estaban todos." },
   { title: "Mejor bono de bienvenida", casino: "PIN-UP Casino", slug: "pinup", reason: "120% hasta $100,000 MXN + 250 giros gratis. El monto en pesos más alto que vas a encontrar. Le metes $1,000 y juegas con $2,200, más los giros. Ojo con el rollover (x50), pero el monto es difícil de ganar." },
   { title: "Mejor paquete multi-depósito", casino: "1xBet", slug: "1xbet", reason: "Hasta $40,000 MXN + 300 giros repartidos en tus primeros 4 depósitos. Si eres de los que juega seguido, el paquete completo te da cuerda para semanas. Rollover x25, apunta al primer tramo si juegas casual." },
   { title: "Mejor para tragamonedas", casino: "STARDA Casino", slug: "starda-casino", reason: "Para los fans de las tragamonedas, STARDA se pinta solo: torneos semanales con premios de $15,000 USD, slots exclusivos y la mejor selección de juegos crash que checamos (Aviator, Spaceman, JetX)." },
@@ -604,10 +604,10 @@ export default function MejoresCasinosOnlineMexico() {
           </div>
           <div className="h-1 w-24 bg-gradient-to-r from-[#16a34a] to-transparent rounded mb-6" />
 
-          <h4 className="text-lg font-bold text-white mb-3">El catálogo más grande del ranking — +10,000 juegos</h4>
+          <h4 className="text-lg font-bold text-white mb-3">El catálogo más grande del ranking — +15,000 juegos</h4>
           <p className="text-[#9ca3af] leading-relaxed mb-3">
-            Acá viene lo bueno: PIN-UP tiene <strong className="text-white">más de 10,000 juegos</strong>. Sí,
-            leíste bien: diez mil. Para que tengas contexto, FRESH (que ya es enorme) tiene 4,500. Pasamos un
+            Acá viene lo bueno: PIN-UP tiene <strong className="text-white">más de 15,000 juegos</strong>. Sí,
+            leíste bien: quince mil. Para que tengas contexto, FRESH (que ya es enorme) tiene 4,500. Pasamos un
             rato largo buscando slots raros, y no exagero cuando digo que estaban todos. Tada, 3Oaks,
             Endorphina, Playson, PGSoft, Champion, Pragmatic, Bgaming, 100HP, EvoPlay... los grandes y los no tan grandes.
           </p>
@@ -648,7 +648,7 @@ export default function MejoresCasinosOnlineMexico() {
 
           <ProsCons
             pros={[
-              "+10,000 juegos — el catálogo más grande de todo el ranking, sin competencia",
+              "+15,000 juegos — el catálogo más grande de todo el ranking, sin competencia",
               "Bono de 120% hasta $100,000 MXN + 250 giros, el más generoso en pesos",
               "App móvil para Android y iOS, con opción de jugar también desde el navegador",
               "Casino + apuestas deportivas en una sola plataforma, cuenta única para todo",
@@ -1221,7 +1221,7 @@ export default function MejoresCasinosOnlineMexico() {
             <tbody className="text-[#d4d4d8]">
               {[
                 ["Betsson", "2 500+", "2 000+", "200+", "40+"],
-                ["PIN-UP Casino", "10 000+", "8 500+", "400+", "120+"],
+                ["PIN-UP Casino", "15 000+", "8 500+", "400+", "120+"],
                 ["1xBet", "5 000+", "4 000+", "200+", "90+"],
                 ["Betway", "1 500+", "1 100+", "100+", "20+"],
                 ["FRESH Casino", "4 500+", "3 800+", "300+", "80+"],
